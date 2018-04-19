@@ -1,0 +1,277 @@
+<HTML>
+	<HEAD>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+	    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+	    <link rel="stylesheet" href="textae-4.0.5.min.css" />
+
+	    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+	    <script src="jquery.jsPlumb-1.5.2-min.js"></script>
+	    <script src="textae-4.0.5.min.js"></script>
+	</HEAD>
+
+	<BODY>
+		<script language="JavaScript">
+			<!--   
+
+				var currentFile = window.location.pathname;
+                var dir = currentFile.substring(0, currentFile.lastIndexOf('content.'));
+                var curIndex;
+                var currentView = new Array();
+                var isJSON;
+
+                function changeView() {
+                	isJSON = !isJSON;
+                	visualizeLU(curIndex, false);
+                }
+
+                function getTab(number) {
+                	var result = "";
+                	for (var i=0; i<number; i++)
+                		result += "&nbsp;&nbsp;&nbsp;&nbsp;";
+                	return result;
+                }
+ 
+				function visualizeLU(index, isFirst) {
+					$.ajaxSetup({
+	                    async: false
+	                });
+
+					curIndex = index;
+		            var data = $.getJSON(dir + index + ".json").responseText;
+	                var myJSON = JSON.parse(data);
+
+                    if (isFirst) {
+                    	currentView = new Array();
+                    	for (var i=0; i<myJSON.patterns.length; i++)
+                    		currentView.push(0);
+                    	isJSON = false;
+                    }
+				
+					document.body.innerHTML = "<div style=\"float:right;\"><a href=\'../frame/" + myJSON.frameName + ".xml\' target=_parent>" + myJSON.frameName +  "</a></div>"
+					document.body.innerHTML += "<div style=\"float:right;\">&nbsp;&nbsp;</div>"
+	
+					if (isJSON)
+						document.body.innerHTML += "<div style=\"float:right;\"><a href=\"javascript:changeView()\">View HTML</a></div>";
+					else
+						document.body.innerHTML += "<div style=\"float:right;\"><a href=\"javascript:changeView()\">View JSON</a></div>";
+		
+					document.body.innerHTML += "<div style=\"float:right;\">&nbsp;&nbsp;</div>"
+					document.body.innerHTML += "<div style=\"float:right;\"><a href=\'./" + index + ".json\'' download>Download JSON</a></div>";
+
+					if (isJSON) {
+						document.body.innerHTML += "<br />{<br />";
+						document.body.innerHTML += getTab(1) + "ko_lu : " + myJSON.ko_lu + "<br />";
+						document.body.innerHTML += getTab(1) + "ko_pos : " + myJSON.ko_pos + "<br />";
+						document.body.innerHTML += getTab(1) + "en_lus : [";
+						for (var i=0; i<myJSON.en_lus.length; i++) {
+							document.body.innerHTML += myJSON.en_lus[i];
+							if (i!=0) {
+								document.body.innerHTML += ", ";
+							}
+						}
+						document.body.innerHTML += "] <br />";
+						document.body.innerHTML += getTab(1) + "frameName : " + myJSON.frameName + "<br /><br />";
+						document.body.innerHTML += getTab(1) + "patterns : [<br />";
+
+						for (var i=0; i<myJSON.patterns.length; i++) {
+							var pattern = myJSON.patterns[i];
+							document.body.innerHTML += getTab(2) + "{<br />";		
+							document.body.innerHTML += getTab(3) + "valenceText : " + pattern.valenceText + "<br /><br />";		
+
+							document.body.innerHTML += getTab(3) + "examples : [ <br />";		
+							for (var j=0; j<pattern.examples.length; j++) {
+								var example = pattern.examples[j];	 
+								document.body.innerHTML += getTab(4) + "{<br />";		
+								/*
+								document.body.innerHTML += getTab(5) + "valenceGroup : [ <br />";
+								for (var k=0; k<example.valenceGroup.length; k++) {
+									var valence = example.valenceGroup[k];
+									document.body.innerHTML += getTab(6) + "{id:"+valence.id+", fe:"+valence.fe+", josa:"+valence.josa;
+
+									document.body.innerHTML += ", head:" +valence.head + ", dep:[";
+									for (var l=0; l<valence.dep.length; l++) {
+										if (l!=0) {
+											document.body.innerHTML += ":";
+										}
+										document.body.innerHTML += valence.dep[l];
+									}
+									document.body.innerHTML += "]}<br/>";
+								}
+
+								document.body.innerHTML += getTab(5) + "]<br />";		
+								*/
+								document.body.innerHTML += getTab(5) + "fulltext : { <br />"; 
+
+								document.body.innerHTML += getTab(6) + "text : " + example.text + "<br />";
+								document.body.innerHTML += getTab(6) + "denotations: [ <br />";	 
+								for (var k=0; k<example.denotations.length; k++) {
+									document.body.innerHTML += getTab(7) + "{id:" + example.denotations[k].id + ", obj:" + example.denotations[k].obj + ", span:{begin:" + example.denotations[k].span.begin + ", end:" + example.denotations[k].span.end + "}} <br />";
+								}
+								document.body.innerHTML += getTab(6) + "]<br />";		
+								document.body.innerHTML += getTab(6) + "relations: [ <br />";
+								for (var k=0; k<example.relations.length; k++) {
+									document.body.innerHTML += getTab(7) + "{subj:" + example.relations[k].subj + ", obj:" + example.relations[k].obj + "} <br />";
+								}
+								document.body.innerHTML += getTab(6) + "]<br />";		
+								document.body.innerHTML += getTab(5) + "}<br />";		
+								 
+								/*
+								document.body.innerHTML += getTab(5) + "simplified : { <br />";		
+								document.body.innerHTML += getTab(6) + "text : " + example.etri.text + "<br />";
+								document.body.innerHTML += getTab(6) + "denotations: [ <br />";	 
+								for (var k=0; k<example.etri.denotations.length; k++) {
+									document.body.innerHTML += getTab(7) + "{id:" + example.etri.denotations[k].id + ", obj:" + example.etri.denotations[k].obj + ", span:{begin:" + example.etri.denotations[k].span.begin + ", end:" + example.etri.denotations[k].span.end + "}} <br />";
+								}
+								document.body.innerHTML += getTab(6) + "]<br />";		
+								document.body.innerHTML += getTab(6) + "relations: [ <br />";
+								for (var k=0; k<example.etri.relations.length; k++) {
+									document.body.innerHTML += getTab(7) + "{subj:" + example.etri.relations[k].subj + ", pred:" + example.etri.relations[k].pred + ", obj:" + example.etri.relations[k].obj + "} <br />";
+								}
+								document.body.innerHTML += getTab(6) + "]<br />";		
+								document.body.innerHTML += getTab(5) + "}<br />";		
+								*/
+								document.body.innerHTML += getTab(4) + "}<br />";		
+							}
+
+							document.body.innerHTML += getTab(3) + "] <br />";				
+							document.body.innerHTML += getTab(2) + "}<br />";
+							if (i!=myJSON.patterns.length-1)
+								document.body.innerHTML += "<br />";		
+						} 
+						document.body.innerHTML += getTab(1) + "]<br />";
+
+						document.body.innerHTML += "}<br />";
+					}
+					else {
+						document.body.innerHTML += "<h1>" + myJSON.ko_lu + " (" + myJSON.ko_pos+ ")</h1>";
+
+						var en_lu_total = "";
+						for (var i=0; i<myJSON.en_lus.length; i++) {
+							if (i!=0)
+								en_lu_total+=", ";
+							en_lu_total += myJSON.en_lus[i];
+						}
+						document.body.innerHTML += "<h3>"+en_lu_total+"</h3>";
+
+ 
+						document.body.innerHTML += getPattern(myJSON.patterns);
+
+	                    var addon = document.createElement("script"); 
+	                    addon.setAttribute("src", "textae-4.0.5.min.js");
+	                    document.body.appendChild(addon);
+					}
+				}
+
+
+				function getTable(frames) {
+
+					var tableHTML = "";
+
+					tableHTML += "<table border = 1>";
+
+					tableHTML += "<tr>";
+					tableHTML += "<td> <b> Frame Element </b> </td>";
+					tableHTML += "<td> <b> Core Type </b> </td>";
+					tableHTML += "</tr>";
+
+					for (var i=0; i<frames.length; i++) {
+						tableHTML += "<tr>";
+						tableHTML += "<td> <font color=\"#" + frames[i].fgColor + "\" style=\"background-color:#" + frames[i].bgColor + "\">" + frames[i].name + "</font> </td>";
+						tableHTML += "<td>" + frames[i].type + "</td>";
+						tableHTML += "</tr>";
+					}
+
+					tableHTML += "</table>"; 
+
+					return tableHTML;
+				}
+ 
+				function viewFulltext(number) {
+					if (currentView[number] == 1)
+						currentView[number] = 0;
+					else
+						currentView[number] = 1;
+
+					visualizeLU(curIndex, false);
+				}
+
+
+				function viewETRI(number) {
+					if (currentView[number] == 2)
+						currentView[number] = 0;
+					else
+						currentView[number] = 2;
+
+					visualizeLU(curIndex, false);
+				}
+
+				function getPattern(patterns) {
+					 
+					var patternHTML = "<br />";
+					
+					for (var i=0; i<patterns.length; i++) {
+/*						if (i<9)
+							patternHTML += "<a href=\"javascript:onClickNumber(" + i+ ")\">" + "<b>0" + (i+1) + ".</b></a>" + " : ";
+						else
+							patternHTML += "<a href=\"javascript:onClickNumber(" + i+ ")\">" + "<b>" + (i+1) + ".</b></a>" + " : ";
+*/						if (i<9)
+							patternHTML += "<b>0" + (i+1) + ".</b> : ";
+						else
+							patternHTML += "<b>" + (i+1) + ".</b> : ";
+	            
+						var patternElems = patterns[i].valenceText.split('+');
+						for (var j=0; j<patternElems.length; j++) {
+							var pattern = patternElems[j].replace(/(^\s*)|(\s*$)/gi, "");
+							if (pattern[0] == '[') {
+						 		patternHTML += pattern;
+							}
+							else
+								patternHTML += "<b>" + pattern + "</b>";
+
+							if (j < patternElems.length-1)
+								patternHTML += " + ";
+						}
+						patternHTML += " (" +  patterns[i].examples.length + ") ";
+
+						patternHTML += "<a href=\"javascript:viewFulltext(" + i + ")\">Fulltext</a>  ";
+				//		patternHTML += "<a href=\"javascript:viewETRI(" + i + ")\">Dependency</a>  ";
+
+						if (currentView[i] != 0) {
+//							<a href=\'../frame/" + myJSON.frameName + ".xml\' target=_parent>"
+							for (var j=0; j<patterns[i].examples.length; j++) {
+								var fulltext_index = patterns[i].examples[j].sent_id;
+								patternHTML += "<br />" + "<a href=\"http://framenet.kaist.ac.kr/fulltext_new/fulltext.html?index=" + fulltext_index + "#" + patterns[i].examples[j].sent_id + "\" target=_parent>" + "<b>" + (patterns[i].examples[j].sent_id) + ". </b> </a>";
+								patternHTML += getPatternView(patterns[i].examples[j], currentView[i]) + "<br />";
+							}
+						}
+						patternHTML += "<br />";
+
+					} 
+                    return patternHTML;
+				}
+ 
+
+				function getPatternView(example, type) { 
+					
+					if (type == 1) {
+						return "<div class=\"textae-editor\" style=\"padding-top: 10px\">" + JSON.stringify(example) + "</div>";
+
+					}
+					else if (type == 2) {
+						return "<div class=\"textae-editor\" style=\"padding-top: 10px\">" + JSON.stringify(example.etri) + "</div>";
+					}
+					else { 
+
+						return patternView;
+					}
+  
+				}
+
+			// -->
+		</script>
+	</BODY>
+</HTML>

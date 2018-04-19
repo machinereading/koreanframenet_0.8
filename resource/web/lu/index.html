@@ -1,0 +1,29 @@
+<HTML>
+	<HEAD> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	</HEAD>
+
+	<BODY> 
+		<script language="JavaScript">
+			<!--   
+		  
+				$.ajaxSetup({
+                    async: false
+                });
+
+				var currentFile = window.location.pathname;
+                var dir = currentFile.substring(0, currentFile.lastIndexOf('content.'));
+                var data = $.getJSON(dir + "index.json").responseText;
+	            var myJSON = JSON.parse(data);
+	            var indexHTML = ""; 
+ 
+				for (var i=0; i<myJSON.length; i++) { 
+					indexHTML += "<a href=\"javascript:top.frames['content']['content'].visualizeLU(" + myJSON[i].id + ",true)\">" + myJSON[i].lu + "</a> </br>";
+				}
+
+				document.body.innerHTML = indexHTML;
+			// -->
+		</script>
+	</BDOY>
+</HTML>
