@@ -1,54 +1,78 @@
 {
-    "ko_lu": "혼나다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 4384",
-            "examples": {
-                "ko_annotation_id": 4384,
-                "denotations": [
-                    {
-                        "obj": "Content",
-                        "span": {
-                            "begin": 0,
-                            "end": 20
+            "examples": [
+                {
+                    "text": "커피는 어디에나 있는 차를 대체하였다 -- 더블린은 지금 거의 비엔나나 시애틀과 같은 수준의 커피 도시이다.",
+                    "relations": [],
+                    "annotation_id": 5189,
+                    "sent_id": 989,
+                    "frameName": "Food",
+                    "ko_annotation_id": 4608,
+                    "origin_lus": [
+                        "tea"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 13
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Degree",
-                        "span": {
-                            "begin": 23,
-                            "end": 28
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4608"
+        },
+        {
+            "examples": [
+                {
+                    "text": "이곳의 복원된 로비는 홍콩의 가장 우아한 모임 장소이다 ; 여기서의 오후 차는 방문자들의 의식이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Experiencer",
-                        "span": {
-                            "begin": 29,
-                            "end": 31
+                    ],
+                    "annotation_id": 6140,
+                    "sent_id": 1173,
+                    "frameName": "Food",
+                    "ko_annotation_id": 4609,
+                    "origin_lus": [
+                        "tea"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 37,
+                                "end": 39
+                            },
+                            "obj": "type",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 41
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 34,
-                            "end": 36
-                        }
-                    }
-                ],
-                "frameName": "Experiencer_focus",
-                "origin_lus": [
-                    "okoru .怒る"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4377
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4609"
         }
     ],
-    "frameID": 48,
-    "en_lu": [
-        "okoru .怒る"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Experiencer_focus"
+    "frameName": "Food",
+    "lu_id": 1443,
+    "frameID": 277,
+    "ko_lu": "차.n.Food",
+    "en_lus": [
+        "tea"
+    ]
 }

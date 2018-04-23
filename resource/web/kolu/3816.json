@@ -1,48 +1,78 @@
 {
-    "ko_lu": "끝나다.v",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 11916",
-            "examples": {
-                "ko_annotation_id": 11916,
-                "denotations": [
-                    {
-                        "obj": "process",
-                        "span": {
-                            "begin": 0,
-                            "end": 17
+            "examples": [
+                {
+                    "text": "이 시설들과 이란의 총체적 프로그램은 현재 국제 공동체에 의해 정밀 조사를 받고 있고 시설의 목적과 능력에 대한 논쟁이 해결될 때까지 그럴 것 같다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 19,
-                            "end": 23
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Process_completed_state",
-                "origin_lus": [
-                    "finished"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3611,
-                "sent_id": 678
-            }
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 13377,
+                    "sent_id": 2673,
+                    "frameName": "State_continue",
+                    "ko_annotation_id": 12817,
+                    "origin_lus": [
+                        "remain"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 19
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 48,
+                                "end": 72
+                            },
+                            "obj": "time",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 75,
+                                "end": 79
+                            },
+                            "obj": "state",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 80,
+                                "end": 81
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12817"
         }
     ],
-    "frameID": 234,
-    "en_lu": [
-        "finish"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Process_completed_state"
+    "frameName": "State_continue",
+    "lu_id": 3816,
+    "frameID": 1155,
+    "ko_lu": "같다.a.State_continue",
+    "en_lus": [
+        "remain"
+    ]
 }

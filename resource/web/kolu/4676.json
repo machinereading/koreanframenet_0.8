@@ -1,61 +1,38 @@
 {
-    "ko_lu": "치료.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 14521",
-            "examples": {
-                "ko_annotation_id": 14521,
-                "denotations": [
-                    {
-                        "obj": "patient",
-                        "span": {
-                            "begin": 21,
-                            "end": 28
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 44,
-                            "end": 50
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "affliction",
-                        "span": {
-                            "begin": 51,
-                            "end": 53
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Cure",
-                "origin_lus": [
-                    "curable"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7251,
-                "sent_id": 1514
-            }
+            "examples": [
+                {
+                    "text": "20 RICH : 그래, 그리고 그가 오늘 무엇을 조정하든, 아마도 오늘 밤은 작동하지 않을 것이고, 그래서 우리는 아마 내일 오후 다시 점검해야 할 것이다.",
+                    "relations": [],
+                    "annotation_id": 9122,
+                    "sent_id": 1889,
+                    "frameName": "Calendric_unit",
+                    "ko_annotation_id": 15891,
+                    "origin_lus": [
+                        "tomorrow"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 68,
+                                "end": 70
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15891"
         }
     ],
-    "frameID": 50,
-    "en_lu": [
-        "curable"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Cure"
+    "frameName": "Calendric_unit",
+    "lu_id": 4676,
+    "frameID": 229,
+    "ko_lu": "내일.n.Calendric_unit",
+    "en_lus": [
+        "tomorrow"
+    ]
 }

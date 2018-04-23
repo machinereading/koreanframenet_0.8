@@ -1,34 +1,52 @@
 {
-    "ko_lu": "보급자.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 17240",
-            "examples": {
-                "ko_annotation_id": 17240,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 70,
-                            "end": 73
+            "examples": [
+                {
+                    "text": "이란의 잘 알려진 Shahab 미사일은 또한 그것은 탄두가 개발되었거나 시험된 것은 불확실하지만, 화학 탄두를 운반할 능력이 있는 것으로 여겨진다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11325,
+                    "sent_id": 2264,
+                    "frameName": "Certainty",
+                    "ko_annotation_id": 18997,
+                    "origin_lus": [
+                        "uncertain"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 43
+                            },
+                            "obj": "content",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Supply",
-                "origin_lus": [
-                    "supplier"
-                ],
-                "relations": [],
-                "annotation_id": 11245,
-                "sent_id": 2246
-            }
+                        {
+                            "span": {
+                                "begin": 47,
+                                "end": 51
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18997"
         }
     ],
-    "frameID": 1346,
-    "en_lu": [
-        "supplier"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Supply"
+    "frameName": "Certainty",
+    "lu_id": 5500,
+    "frameID": 141,
+    "ko_lu": "불확실하다.a.Certainty",
+    "en_lus": [
+        "uncertain"
+    ]
 }

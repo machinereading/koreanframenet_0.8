@@ -1,61 +1,54 @@
 {
-    "ko_lu": "부르다.v",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 8069",
-            "examples": {
-                "ko_annotation_id": 8069,
-                "denotations": [
-                    {
-                        "obj": "cause",
-                        "span": {
-                            "begin": 0,
-                            "end": 14
+            "examples": [
+                {
+                    "text": "중국의 탄도 미사일 기술의 확산과 화학무기 생산에 사용될 수 있는 화학 품목을 통제할 능력에 대해 심각하게 염려스럽다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10312,
+                    "sent_id": 2100,
+                    "frameName": "Importance",
+                    "ko_annotation_id": 8550,
+                    "origin_lus": [
+                        "serious",
+                        "Serious"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "problem",
-                        "span": {
-                            "begin": 16,
-                            "end": 54
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 59,
-                            "end": 61
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Resolve_problem",
-                "origin_lus": [
-                    "addressed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10323,
-                "sent_id": 2101
-            }
+                        {
+                            "span": {
+                                "begin": 60,
+                                "end": 64
+                            },
+                            "obj": "factor",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8550"
         }
     ],
-    "frameID": 1523,
-    "en_lu": [
-        "address"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Resolve_problem"
+    "frameName": "Importance",
+    "lu_id": 2640,
+    "frameID": 407,
+    "ko_lu": "심각하다.a.Importance",
+    "en_lus": [
+        "Serious",
+        "serious"
+    ]
 }

@@ -1,61 +1,65 @@
 {
-    "ko_lu": "부상하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 123",
-            "examples": {
-                "ko_annotation_id": 123,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 0,
-                            "end": 24
+            "examples": [
+                {
+                    "text": "중국, 북한, 그리고 어느 정도까지는 시리아가 이란에 대한 재래식 무기의 주요 공급자로 부상하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "role",
-                        "span": {
-                            "begin": 26,
-                            "end": 47
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12952,
+                    "sent_id": 2585,
+                    "frameName": "Coming_to_be",
+                    "ko_annotation_id": 123,
+                    "origin_lus": [
+                        "emerged"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 24
+                            },
+                            "obj": "entity",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 49,
-                            "end": 52
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 47
+                            },
+                            "obj": "role",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Coming_to_be",
-                "origin_lus": [
-                    "emerged"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 12952,
-                "sent_id": 2585
-            }
+                        {
+                            "span": {
+                                "begin": 49,
+                                "end": 52
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 123"
         }
     ],
+    "frameName": "Coming_to_be",
+    "lu_id": 36,
     "frameID": 316,
-    "en_lu": [
+    "ko_lu": "부상하다.v.Coming_to_be",
+    "en_lus": [
         "emerge"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Coming_to_be"
+    ]
 }

@@ -1,40 +1,93 @@
 {
-    "ko_lu": "사상・.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 9165",
-            "examples": {
-                "ko_annotation_id": 9165,
-                "denotations": [
-                    {
-                        "obj": "Topic",
-                        "span": {
-                            "begin": 62,
-                            "end": 67
+            "examples": [
+                {
+                    "text": "아마도 당신은 이 모든 것이 어디로 가고 있는지 서둘러 예측할 수 있을 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 69,
-                            "end": 72
+                    ],
+                    "annotation_id": 2571,
+                    "sent_id": 487,
+                    "frameName": "Expectation",
+                    "ko_annotation_id": 16927,
+                    "origin_lus": [
+                        "prediction"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 24
+                            },
+                            "obj": "topic",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Cogitation",
-                "origin_lus": [
-                    "sisoo .思想 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3619
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16927"
+        },
+        {
+            "examples": [
+                {
+                    "text": "이란 내에서 탄도 미사일과 장거리 로케트 포의 개발은 비교적 변함없이, 논리에 맞게, 그리고 예측할만한 방식으로 진행되고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12084,
+                    "sent_id": 2395,
+                    "frameName": "Expectation",
+                    "ko_annotation_id": 9775,
+                    "origin_lus": [
+                        "predictable"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 52,
+                                "end": 57
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 58,
+                                "end": 60
+                            },
+                            "obj": "phenomenon",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9775"
         }
     ],
-    "frameID": 22,
-    "en_lu": [
-        "sisoo .思想 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Cogitation"
+    "frameName": "Expectation",
+    "lu_id": 3030,
+    "frameID": 26,
+    "ko_lu": "예측하다.v.Expectation",
+    "en_lus": [
+        "predictable",
+        "prediction"
+    ]
 }

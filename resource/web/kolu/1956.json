@@ -1,99 +1,92 @@
 {
-    "ko_lu": "강화하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 18458",
-            "examples": {
-                "ko_annotation_id": 18458,
-                "denotations": [
-                    {
-                        "obj": "patient",
-                        "span": {
-                            "begin": 21,
-                            "end": 31
+            "examples": [
+                {
+                    "text": "Lewinsky 이야기가 나온지 얼마되지 않았던 지난 주에, Stephanopoulos는 갑자기 Good Morning America에 나타나 우려를 나타냈다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5301,
+                    "sent_id": 1008,
+                    "frameName": "Calendric_unit",
+                    "ko_annotation_id": 6123,
+                    "origin_lus": [
+                        "week"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "obj": "relative_time",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 33,
-                            "end": 36
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_change_of_strength",
-                "origin_lus": [
-                    "reinforcing"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3010,
-                "sent_id": 569
-            }
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 31
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6123"
         },
         {
-            "valenceText": "annotation id: 5860",
-            "examples": {
-                "ko_annotation_id": 5860,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 92,
-                            "end": 94
+            "examples": [
+                {
+                    "text": "시드니 병원 의약부의 부장인 John Graham은 연방 정부에 병원을 주 통제에서 벗어나 ' 국립 보안 병원 ' 으로 바꾸도록 간청했다고 지난 주 생물보안 워크 샵에서 말하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16518,
+                    "sent_id": 3164,
+                    "frameName": "Calendric_unit",
+                    "ko_annotation_id": 6124,
+                    "origin_lus": [
+                        "week"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 41
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "patient",
-                        "span": {
-                            "begin": 96,
-                            "end": 112
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 114,
-                            "end": 117
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_change_of_strength",
-                "origin_lus": [
-                    "strengthening"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3196,
-                "sent_id": 600
-            }
+                        {
+                            "span": {
+                                "begin": 76,
+                                "end": 78
+                            },
+                            "obj": "relative_time",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6124"
         }
     ],
-    "frameID": 1781,
-    "en_lu": [
-        "reinforce",
-        "strengthen"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cause_change_of_strength"
+    "frameName": "Calendric_unit",
+    "lu_id": 1956,
+    "frameID": 229,
+    "ko_lu": "주.n.Calendric_unit",
+    "en_lus": [
+        "week"
+    ]
 }

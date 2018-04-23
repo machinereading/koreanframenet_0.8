@@ -1,48 +1,65 @@
 {
-    "ko_lu": "합리화하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 10631",
-            "examples": {
-                "ko_annotation_id": 10631,
-                "denotations": [
-                    {
-                        "obj": "state_of_affairs",
-                        "span": {
-                            "begin": 8,
-                            "end": 24
+            "examples": [
+                {
+                    "text": "바스라, 이라크 ( AP ) 이라크에 대한 유엔 제재의 영향을 평가하는 한 미국 입법자는 이라크가 대량 살상 무기를 포기하도록 강요하는 것 뿐만 아니라 평범한 이라크인의 고난을 더 완화하도록 하는 것도 중요하다고 수요일에 말하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 39,
-                            "end": 43
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7285,
+                    "sent_id": 1517,
+                    "frameName": "Intentionally_act",
+                    "ko_annotation_id": 11502,
+                    "origin_lus": [
+                        "do"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Justifying",
-                "origin_lus": [
-                    "rationalize"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 12510,
-                "sent_id": 2501
-            }
+                        {
+                            "span": {
+                                "begin": 85,
+                                "end": 111
+                            },
+                            "obj": "result",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 99,
+                                "end": 100
+                            },
+                            "obj": "act",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11502"
         }
     ],
-    "frameID": 512,
-    "en_lu": [
-        "rationalize"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Justifying"
+    "frameName": "Intentionally_act",
+    "lu_id": 3435,
+    "frameID": 198,
+    "ko_lu": "평가하다.v.Intentionally_act",
+    "en_lus": [
+        "do"
+    ]
 }

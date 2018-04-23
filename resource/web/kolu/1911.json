@@ -1,61 +1,80 @@
 {
-    "ko_lu": "일으키다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 5739",
-            "examples": {
-                "ko_annotation_id": 5739,
-                "denotations": [
-                    {
-                        "obj": "cause",
-                        "span": {
-                            "begin": 4,
-                            "end": 14
+            "examples": [
+                {
+                    "text": "Jardine 건물 옆에 대형 쇼핑 몰이 있는 복합단지인 Exchange Square가 있다 ; 바로 뒤에는 1층에 우표수집 센터가 있는 중앙 우체국이 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5460,
+                    "sent_id": 1043,
+                    "frameName": "Buildings",
+                    "ko_annotation_id": 5948,
+                    "origin_lus": [
+                        "mall",
+                        "malls"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "obj": "function",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "effect",
-                        "span": {
-                            "begin": 26,
-                            "end": 35
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 37,
-                            "end": 40
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_to_start",
-                "origin_lus": [
-                    "aroused"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3459,
-                "sent_id": 639
-            }
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 21
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5948"
+        },
+        {
+            "examples": [
+                {
+                    "text": "Star Ferry 터미널에 인접하여는 Ocean 터미널이 있고, 이곳은 국제 유람선 부두, 그리고 거대한 Harbour City, 복합 몰, 호텔과 식당들이 있다.",
+                    "relations": [],
+                    "annotation_id": 6056,
+                    "sent_id": 1155,
+                    "frameName": "Buildings",
+                    "ko_annotation_id": 5949,
+                    "origin_lus": [
+                        "mall",
+                        "malls"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 77,
+                                "end": 78
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5949"
         }
     ],
-    "frameID": 381,
-    "en_lu": [
-        "arouse"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cause_to_start"
+    "frameName": "Buildings",
+    "lu_id": 1911,
+    "frameID": 173,
+    "ko_lu": "몰.n.Buildings",
+    "en_lus": [
+        "mall"
+    ]
 }

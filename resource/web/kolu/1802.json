@@ -1,34 +1,52 @@
 {
-    "ko_lu": "전환기.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 5368",
-            "examples": {
-                "ko_annotation_id": 5368,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 20,
-                            "end": 23
+            "examples": [
+                {
+                    "text": "우리들 세 명은 잠시 숨을 멈추었고, 그리고 나서 건물이 계속 흔들렸을 때 우리는 출입구를 향해 달려갔다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 943,
+                    "sent_id": 165,
+                    "frameName": "Breathing",
+                    "ko_annotation_id": 5618,
+                    "origin_lus": [
+                        "breathing"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "obj": "agent",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Temporal_subregion",
-                "origin_lus": [
-                    "turn"
-                ],
-                "relations": [],
-                "annotation_id": 6152,
-                "sent_id": 1175
-            }
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 13
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5618"
         }
     ],
-    "frameID": 1470,
-    "en_lu": [
-        "turn"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Temporal_subregion"
+    "frameName": "Breathing",
+    "lu_id": 1802,
+    "frameID": 272,
+    "ko_lu": "숨.n.Breathing",
+    "en_lus": [
+        "breathing"
+    ]
 }

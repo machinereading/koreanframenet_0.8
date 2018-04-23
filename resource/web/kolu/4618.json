@@ -1,74 +1,51 @@
 {
-    "ko_lu": "수입하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 14383",
-            "examples": {
-                "ko_annotation_id": 14383,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 0,
-                            "end": 11
+            "examples": [
+                {
+                    "text": "내가 대학에 입학한 것은 1970년이었습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4269,
+                    "frameName": "Intentionally_act",
+                    "ko_annotation_id": 15708,
+                    "origin_lus": [
+                        "nyuugaku .入学 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Agent"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "exporting_area",
-                        "span": {
-                            "begin": 13,
-                            "end": 19
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "obj": "Act"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "goods",
-                        "span": {
-                            "begin": 23,
-                            "end": 29
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 31,
-                            "end": 34
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Import_export",
-                "origin_lus": [
-                    "importing"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 2648,
-                "sent_id": 502
-            }
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15708"
         }
     ],
-    "frameID": 422,
-    "en_lu": [
-        "import"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Import_export_scenario"
+    "frameName": "Intentionally_act",
+    "lu_id": 4618,
+    "frameID": 198,
+    "ko_lu": "입학하다.v.Intentionally_act",
+    "en_lus": [
+        "nyuugaku .入学 "
+    ]
 }

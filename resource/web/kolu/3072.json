@@ -1,61 +1,108 @@
 {
-    "ko_lu": "떠나다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 9361",
-            "examples": {
-                "ko_annotation_id": 9361,
-                "denotations": [
-                    {
-                        "obj": "recipient",
-                        "span": {
-                            "begin": 43,
-                            "end": 56
+            "examples": [
+                {
+                    "text": "도시 외곽에 있는 명소들로 가는 많은 안내 버스 관광이 있고, 몇몇은 도시 버스로 접근할 수도 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 58,
-                            "end": 60
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5247,
+                    "sent_id": 998,
+                    "frameName": "Locative_relation",
+                    "ko_annotation_id": 9895,
+                    "origin_lus": [
+                        "outside",
+                        "outlying"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "ground",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 62,
-                            "end": 64
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Giving",
-                "origin_lus": [
-                    "leaving"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 303,
-                "sent_id": 45
-            }
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "obj": "figure",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9895"
+        },
+        {
+            "examples": [
+                {
+                    "text": "비잔틴 제국은 강력하고 잘 요새화된 도시들을 가지고 있었으나, 시골 지역과 외곽 섬들은 침략자들의 물결에 의해 파괴되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2904,
+                    "sent_id": 552,
+                    "frameName": "Locative_relation",
+                    "ko_annotation_id": 9896,
+                    "origin_lus": [
+                        "outside",
+                        "outlying"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 44
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 45,
+                                "end": 47
+                            },
+                            "obj": "figures",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9896"
         }
     ],
-    "frameID": 139,
-    "en_lu": [
-        "leave"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Giving"
+    "frameName": "Locative_relation",
+    "lu_id": 3072,
+    "frameID": 199,
+    "ko_lu": "외곽.n.Locative_relation",
+    "en_lus": [
+        "outside",
+        "outlying"
+    ]
 }

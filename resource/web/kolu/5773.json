@@ -1,48 +1,52 @@
 {
-    "ko_lu": "되다.a",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 18056",
-            "examples": {
-                "ko_annotation_id": 18056,
-                "denotations": [
-                    {
-                        "obj": "age",
-                        "span": {
-                            "begin": 18,
-                            "end": 21
+            "examples": [
+                {
+                    "text": "이 바쁘고 현대적인 유럽 도시는 천년의 역사 위에 자리잡고 있다 -- 우아한 Merrion 광장에서 중앙 우체국의 총탄 구멍까지 역사는 도처에 존재한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4937,
+                    "sent_id": 951,
+                    "frameName": "Lively_place",
+                    "ko_annotation_id": 19898,
+                    "origin_lus": [
+                        "busy"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 2,
+                                "end": 4
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 18,
-                            "end": 26
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Age",
-                "origin_lus": [
-                    "old"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5303,
-                "sent_id": 1008
-            }
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "obj": "location",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19898"
         }
     ],
-    "frameID": 972,
-    "en_lu": [
-        "old"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Age"
+    "frameName": "Lively_place",
+    "lu_id": 5773,
+    "frameID": 1904,
+    "ko_lu": "바쁘다.a.Lively_place",
+    "en_lus": [
+        "busy"
+    ]
 }

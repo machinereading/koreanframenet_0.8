@@ -1,61 +1,69 @@
 {
-    "ko_lu": "향상.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 16539",
-            "examples": {
-                "ko_annotation_id": 16539,
-                "denotations": [
-                    {
-                        "obj": "cause",
-                        "span": {
-                            "begin": 22,
-                            "end": 24
+            "examples": [
+                {
+                    "text": "근로자의 70% 가까이가 제조업 노동자에 해당했던 시대로, 젊은 노동자는 그 중심부를 담당하고 있었습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3661,
+                    "frameName": "Manufacturing",
+                    "ko_annotation_id": 18203,
+                    "origin_lus": [
+                        "seezoo .製造 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "obj": "Manufacturer"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "attribute",
-                        "span": {
-                            "begin": 26,
-                            "end": 40
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 42,
-                            "end": 44
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_change_of_position_on_a_scale",
-                "origin_lus": [
-                    "promote"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4553,
-                "sent_id": 877
-            }
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18203"
+        },
+        {
+            "examples": [
+                {
+                    "text": "일본은 경제 선진국 중 하나이므로, 2020년에 제조업 노종자 인구가 2%까지 급격히 감소할 것으로 예상되고 있습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3981,
+                    "frameName": "Manufacturing",
+                    "ko_annotation_id": 18204,
+                    "origin_lus": [
+                        "seezoo .製造 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18204"
         }
     ],
-    "frameID": 96,
-    "en_lu": [
-        "promote"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Cause_change_of_position_on_a_scale"
+    "frameName": "Manufacturing",
+    "lu_id": 5277,
+    "frameID": 408,
+    "ko_lu": "제조업.n.Manufacturing",
+    "en_lus": [
+        "seezoo .製造 "
+    ]
 }

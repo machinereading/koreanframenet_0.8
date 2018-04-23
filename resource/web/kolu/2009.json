@@ -1,48 +1,73 @@
 {
-    "ko_lu": "즐기다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 6030",
-            "examples": {
-                "ko_annotation_id": 6030,
-                "denotations": [
-                    {
-                        "obj": "stimulus",
-                        "span": {
-                            "begin": 0,
-                            "end": 29
+            "examples": [
+                {
+                    "text": "오전 6시 50분 CAROLG : 나는 치료를 위한 일부 새로운 고객인 한 커플을 만나려고 앉아 있었는데 건물이 미친듯이 흔들리기 시작하였다.",
+                    "relations": [],
+                    "annotation_id": 933,
+                    "sent_id": 163,
+                    "frameName": "Personal_relationship",
+                    "ko_annotation_id": 6298,
+                    "origin_lus": [
+                        "couple",
+                        "kappuru .カップル "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 44
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6298"
+        },
+        {
+            "examples": [
+                {
+                    "text": "커플.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4297,
+                    "frameName": "Personal_relationship",
+                    "ko_annotation_id": 6299,
+                    "origin_lus": [
+                        "couple",
+                        "kappuru .カップル "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Partners"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 52,
-                            "end": 54
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Emotions_of_mental_activity",
-                "origin_lus": [
-                    "enjoyed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4735,
-                "sent_id": 916
-            }
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6299"
         }
     ],
-    "frameID": 2045,
-    "en_lu": [
-        "enjoy"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Emotions_of_mental_activity"
+    "frameName": "Personal_relationship",
+    "lu_id": 2009,
+    "frameID": 102,
+    "ko_lu": "커플.n.Personal_relationship",
+    "en_lus": [
+        "couple",
+        "kappuru .カップル "
+    ]
 }

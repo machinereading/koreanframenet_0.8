@@ -1,34 +1,128 @@
 {
-    "ko_lu": "상태.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 3960",
-            "examples": {
-                "ko_annotation_id": 3960,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 0,
-                            "end": 6
+            "examples": [
+                {
+                    "text": "실제 실업률은 더 낮을지 모르지만 실업률은 여전히 유럽에서 가장 높은 비율인 16.5 % 로 공식 기록 된다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 542,
+                    "sent_id": 80,
+                    "frameName": "Actually_occurring_entity",
+                    "ko_annotation_id": 4124,
+                    "origin_lus": [
+                        "actual",
+                        "zissai .実際 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Being_employed",
-                "origin_lus": [
-                    "Unemployed"
-                ],
-                "relations": [],
-                "annotation_id": 2234,
-                "sent_id": 427
-            }
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "obj": "type",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4124"
+        },
+        {
+            "examples": [
+                {
+                    "text": "라스 베이거스의 최근 사업 추정은 어려움들을 예상한다 ; 관광 수입은 이미 건축된 것을 유지하기 위해 상당히 증가해야 하는 반면에 실제 수치는 방문이 변함 없거나 감소하는 것으로 나타난다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4401,
+                    "sent_id": 847,
+                    "frameName": "Actually_occurring_entity",
+                    "ko_annotation_id": 4125,
+                    "origin_lus": [
+                        "actual",
+                        "zissai .実際 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 72,
+                                "end": 74
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 75,
+                                "end": 77
+                            },
+                            "obj": "type",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4125"
+        },
+        {
+            "examples": [
+                {
+                    "text": "강연회 후에, 관계자가 참여하는 실제 사례 검토회 등을 열면, 관계자의 역량과 현장 실정도 파악할 수 있습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3884,
+                    "frameName": "Actually_occurring_entity",
+                    "ko_annotation_id": 4126,
+                    "origin_lus": [
+                        "actual",
+                        "zissai .実際 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "obj": "Instance"
+                        },
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4126"
         }
     ],
-    "frameID": 282,
-    "en_lu": [
-        "Unemployed"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Being_employed"
+    "frameName": "Actually_occurring_entity",
+    "lu_id": 1329,
+    "frameID": 1580,
+    "ko_lu": "실제.n.Actually_occurring_entity",
+    "en_lus": [
+        "zissai .実際 ",
+        "actual"
+    ]
 }

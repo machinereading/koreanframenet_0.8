@@ -1,74 +1,95 @@
 {
-    "ko_lu": "명령받다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 13458",
-            "examples": {
-                "ko_annotation_id": 13458,
-                "denotations": [
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 0,
-                            "end": 5
+            "examples": [
+                {
+                    "text": "실제 기준으로 교육비는 지난 사반세기에 급증하였지만 -- 우리는 지금 세계의 어떤 다른 국가보다 학생 당 더 많이 지출한다 -- 교육 성과는 감소하였다는 사실에는 어떤 불가사이도 역설도 없다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 1320,
+                    "sent_id": 243,
+                    "frameName": "Existence",
+                    "ko_annotation_id": 14736,
+                    "origin_lus": [
+                        "real",
+                        "Real"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "addressee",
-                        "span": {
-                            "begin": 7,
-                            "end": 8
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14736"
+        },
+        {
+            "examples": [
+                {
+                    "text": "이들은 실제 사람들입니다 !",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2317,
+                    "sent_id": 441,
+                    "frameName": "Existence",
+                    "ko_annotation_id": 14737,
+                    "origin_lus": [
+                        "real",
+                        "Real"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "message",
-                        "span": {
-                            "begin": 10,
-                            "end": 32
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 46,
-                            "end": 51
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Request",
-                "origin_lus": [
-                    "ordered"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4283,
-                "sent_id": 825
-            }
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14737"
         }
     ],
-    "frameID": 41,
-    "en_lu": [
-        "order"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Request"
+    "frameName": "Existence",
+    "lu_id": 4343,
+    "frameID": 660,
+    "ko_lu": "실제.n.Existence",
+    "en_lus": [
+        "Real",
+        "real"
+    ]
 }

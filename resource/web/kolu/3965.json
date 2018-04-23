@@ -1,71 +1,52 @@
 {
-    "ko_lu": "처형.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 12468",
-            "examples": {
-                "ko_annotation_id": 12468,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 42,
-                            "end": 44
+            "examples": [
+                {
+                    "text": "그래, 정말로, 이것은 애기 기저귀를 갈고 마루를 닦는 것으로부터 나의 오후를 해방시켰다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9365,
+                    "sent_id": 1938,
+                    "frameName": "Cause_to_fragment",
+                    "ko_annotation_id": 13341,
+                    "origin_lus": [
+                        "breaks up"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 37,
+                                "end": 42
+                            },
+                            "obj": "whole_patient",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Killing",
-                "origin_lus": [
-                    "crucifixion"
-                ],
-                "relations": [],
-                "annotation_id": 3630,
-                "sent_id": 682
-            }
-        },
-        {
-            "valenceText": "annotation id: 12469",
-            "examples": {
-                "ko_annotation_id": 12469,
-                "denotations": [
-                    {
-                        "obj": "victim",
-                        "span": {
-                            "begin": 32,
-                            "end": 34
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 40,
-                            "end": 42
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Killing",
-                "origin_lus": [
-                    "crucifixion"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3637,
-                "sent_id": 683
-            }
+                        {
+                            "span": {
+                                "begin": 44,
+                                "end": 48
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13341"
         }
     ],
-    "frameID": 590,
-    "en_lu": [
-        "crucifixion"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Killing"
+    "frameName": "Cause_to_fragment",
+    "lu_id": 3965,
+    "frameID": 414,
+    "ko_lu": "해방시키다.v.Cause_to_fragment",
+    "en_lus": [
+        "breaks up"
+    ]
 }

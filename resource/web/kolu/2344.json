@@ -1,74 +1,51 @@
 {
-    "ko_lu": "영향받다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 7115",
-            "examples": {
-                "ko_annotation_id": 7115,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 20,
-                            "end": 31
+            "examples": [
+                {
+                    "text": "동양의 제자들은, 스승이 원하던 바를 알고 있었기에, 그 해 초겨울에 교토의 치안을 담당하던 쇼시다이에게 해부를 신청했다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4473,
+                    "frameName": "Education_teaching",
+                    "ko_annotation_id": 7512,
+                    "origin_lus": [
+                        "monzin .門人"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Teacher"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 33,
-                            "end": 39
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "obj": "Student"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "cognizer",
-                        "span": {
-                            "begin": 40,
-                            "end": 52
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "cognizer",
-                        "span": {
-                            "begin": 40,
-                            "end": 52
-                        },
-                        "id": "4"
-                    }
-                ],
-                "frameName": "Subjective_influence",
-                "origin_lus": [
-                    "influenced"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8629,
-                "sent_id": 1780
-            }
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7512"
         }
     ],
-    "frameID": 1083,
-    "en_lu": [
-        "influence"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Subjective_influence"
+    "frameName": "Education_teaching",
+    "lu_id": 2344,
+    "frameID": 111,
+    "ko_lu": "제자.n.Education_teaching",
+    "en_lus": [
+        "monzin .門人"
+    ]
 }

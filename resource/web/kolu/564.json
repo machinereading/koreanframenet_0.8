@@ -1,61 +1,51 @@
 {
-    "ko_lu": "이다.a",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 1732",
-            "examples": {
-                "ko_annotation_id": 1732,
-                "denotations": [
-                    {
-                        "obj": "landmark_occasion",
-                        "span": {
-                            "begin": 0,
-                            "end": 13
+            "examples": [
+                {
+                    "text": "미무라가 신뢰받는 기업의 직원이라는 점은 유리하게 작용하겠지만, 키다 씨는 아직 아내가 아닌, 약혼자라 부를 수 밖에 없다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4772,
+                    "frameName": "Personal_relationship",
+                    "ko_annotation_id": 1740,
+                    "origin_lus": [
+                        "kon'yaku sya .婚約 者 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "Partner_2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 15,
-                            "end": 16
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 40
+                            },
+                            "obj": "Partner_1"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "focal_occasion",
-                        "span": {
-                            "begin": 19,
-                            "end": 58
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Relative_time",
-                "origin_lus": [
-                    "Following"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 12032,
-                "sent_id": 2384
-            }
+                        {
+                            "span": {
+                                "begin": 53,
+                                "end": 56
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1740"
         }
     ],
-    "frameID": 81,
-    "en_lu": [
-        "Following"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Relative_time"
+    "frameName": "Personal_relationship",
+    "lu_id": 564,
+    "frameID": 102,
+    "ko_lu": "약혼자.n.Personal_relationship",
+    "en_lus": [
+        "kon'yaku sya .婚約 者 "
+    ]
 }

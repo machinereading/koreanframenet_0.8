@@ -1,111 +1,134 @@
 {
-    "ko_lu": "완료되다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 20095",
-            "examples": {
-                "ko_annotation_id": 20095,
-                "denotations": [
-                    {
-                        "obj": "activity",
-                        "span": {
-                            "begin": 51,
-                            "end": 56
+            "examples": [
+                {
+                    "text": "그는 요르단의 기자들에게 말하지 않았지만, 그러나 그는 \" 인도주의적인 작업을 정치적인 문제와 분리 \" 하기를 희망한다는 것을 미국을 떠나기 전에 연합 통신사에 언급하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 58,
-                            "end": 61
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Activity_finish",
-                "origin_lus": [
-                    "completed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14395,
-                "sent_id": 2835
-            }
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7105,
+                    "sent_id": 1496,
+                    "frameName": "Chatting",
+                    "ko_annotation_id": 4105,
+                    "origin_lus": [
+                        "speak",
+                        "talk"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "obj": "interlocutor_1",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "obj": "place",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "obj": "interlocutor_2",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4105"
         },
         {
-            "valenceText": "annotation id: 3943",
-            "examples": {
-                "ko_annotation_id": 3943,
-                "denotations": [
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 27,
-                            "end": 31
+            "examples": [
+                {
+                    "text": "그들이 알 카에다 멤버들일지라도, 다른 사람들과 알 카에다가 배정한 일에 대해 말하지 말라.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 32,
-                            "end": 35
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8053,
+                    "sent_id": 1644,
+                    "frameName": "Chatting",
+                    "ko_annotation_id": 4106,
+                    "origin_lus": [
+                        "speak",
+                        "talk"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 25
+                            },
+                            "obj": "interlocutor_2",
+                            "id": "3"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "activity",
-                        "span": {
-                            "begin": 36,
-                            "end": 44
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 43
+                            },
+                            "obj": "topic",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "activity",
-                        "span": {
-                            "begin": 36,
-                            "end": 44
-                        },
-                        "id": "4"
-                    }
-                ],
-                "frameName": "Activity_finish",
-                "origin_lus": [
-                    "completed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 15263,
-                "sent_id": 2967
-            }
+                        {
+                            "span": {
+                                "begin": 44,
+                                "end": 46
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4106"
         }
     ],
-    "frameID": 165,
-    "en_lu": [
-        "complete"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Activity_finish"
+    "frameName": "Chatting",
+    "lu_id": 1322,
+    "frameID": 910,
+    "ko_lu": "말하다.v.Chatting",
+    "en_lus": [
+        "talk",
+        "speak"
+    ]
 }

@@ -1,54 +1,78 @@
 {
-    "ko_lu": "타다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 10420",
-            "examples": {
-                "ko_annotation_id": 10420,
-                "denotations": [
-                    {
-                        "obj": "Driver",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "오전 12시 6분 HRH : 나는 지진이 났을 때 버클리 중앙도서관에 있었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Goal",
-                        "span": {
-                            "begin": 3,
-                            "end": 7
+                    ],
+                    "annotation_id": 704,
+                    "sent_id": 112,
+                    "frameName": "Buildings",
+                    "ko_annotation_id": 11404,
+                    "origin_lus": [
+                        "library"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "obj": "name",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Vehicle",
-                        "span": {
-                            "begin": 9,
-                            "end": 10
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11404"
+        },
+        {
+            "examples": [
+                {
+                    "text": "중앙은 갈채를 받고 있는 음향 기기, 극장, 도서관, 전시 갤러리, 가게, 식당, 그리고 바를 갖춘 콘서트 홀을 포함하고 있다.",
+                    "relations": [],
+                    "annotation_id": 6086,
+                    "sent_id": 1161,
+                    "frameName": "Buildings",
+                    "ko_annotation_id": 11405,
+                    "origin_lus": [
+                        "library"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 12,
-                            "end": 18
-                        }
-                    }
-                ],
-                "frameName": "Operate_vehicle",
-                "origin_lus": [
-                    "noriireru .乗り入れる"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4209
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11405"
         }
     ],
-    "frameID": 65,
-    "en_lu": [
-        "noriireru .乗り入れる"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Operate_vehicle"
+    "frameName": "Buildings",
+    "lu_id": 3399,
+    "frameID": 173,
+    "ko_lu": "도서관.n.Buildings",
+    "en_lus": [
+        "library"
+    ]
 }

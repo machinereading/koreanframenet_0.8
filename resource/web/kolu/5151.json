@@ -1,48 +1,121 @@
 {
-    "ko_lu": "승인되다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 16020",
-            "examples": {
-                "ko_annotation_id": 16020,
-                "denotations": [
-                    {
-                        "obj": "action",
-                        "span": {
-                            "begin": 39,
-                            "end": 80
+            "examples": [
+                {
+                    "text": "이 찬란한 예배당과 함께, 솔로몬은 왕궁, 그의 부인들을 위한 저택, 그가 결혼한 공주들이 숭배하던 이방신들을 위한 신전들, 그리고 수도를 방어하기 위한 성벽들을 건축하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3430,
+                    "sent_id": 635,
+                    "frameName": "Buildings",
+                    "ko_annotation_id": 17707,
+                    "origin_lus": [
+                        "palace",
+                        "palaces"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "obj": "function",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 82,
-                            "end": 85
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17707"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그 신전과 왕궁은 금과 아프리카의 상아와 레바논의 향나무로 장식되었고 ; 솔로몬 하에서의 예루살렘의 미와 영광은 거의 3,000년 동안 성경의 독자들을 매혹시켰다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3441,
+                    "sent_id": 637,
+                    "frameName": "Buildings",
+                    "ko_annotation_id": 17708,
+                    "origin_lus": [
+                        "palace",
+                        "palaces"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 8
+                            },
+                            "obj": "descriptor",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Grant_permission",
-                "origin_lus": [
-                    "approved"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18033,
-                "sent_id": 3413
-            }
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 8
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17708"
+        },
+        {
+            "examples": [
+                {
+                    "text": "여러 왕궁이 건축되고 급수시설이 설치되었다.",
+                    "relations": [],
+                    "annotation_id": 3513,
+                    "sent_id": 655,
+                    "frameName": "Buildings",
+                    "ko_annotation_id": 17709,
+                    "origin_lus": [
+                        "palace",
+                        "palaces"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17709"
         }
     ],
-    "frameID": 520,
-    "en_lu": [
-        "approve"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Deny_or_grant_permission"
+    "frameName": "Buildings",
+    "lu_id": 5151,
+    "frameID": 173,
+    "ko_lu": "왕궁.n.Buildings",
+    "en_lus": [
+        "palace"
+    ]
 }

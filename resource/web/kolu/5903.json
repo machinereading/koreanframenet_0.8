@@ -1,61 +1,65 @@
 {
-    "ko_lu": "제공하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 18482",
-            "examples": {
-                "ko_annotation_id": 18482,
-                "denotations": [
-                    {
-                        "obj": "supplier",
-                        "span": {
-                            "begin": 5,
-                            "end": 9
+            "examples": [
+                {
+                    "text": "일부 버스는 노출되고 다른 버스는 위장되어야 한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 11,
-                            "end": 49
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7733,
+                    "sent_id": 1589,
+                    "frameName": "Required_event",
+                    "ko_annotation_id": 20278,
+                    "origin_lus": [
+                        "should"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "obj": "required_situation",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 51,
-                            "end": 54
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "obj": "required_situation",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Supply",
-                "origin_lus": [
-                    "provide"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1574,
-                "sent_id": 285
-            }
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20278"
         }
     ],
-    "frameID": 1346,
-    "en_lu": [
-        "provide"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Supply"
+    "frameName": "Required_event",
+    "lu_id": 5903,
+    "frameID": 1381,
+    "ko_lu": "노출되다.v.Required_event",
+    "en_lus": [
+        "should"
+    ]
 }

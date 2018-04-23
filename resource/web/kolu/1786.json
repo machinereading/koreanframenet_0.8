@@ -1,48 +1,52 @@
 {
-    "ko_lu": "더하다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 5305",
-            "examples": {
-                "ko_annotation_id": 5305,
-                "denotations": [
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 10,
-                            "end": 12
+            "examples": [
+                {
+                    "text": "협정 조규에 의해, 철수는 공지 후 90일 까지 유효하지 않다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15167,
+                    "sent_id": 2950,
+                    "frameName": "Terms_of_agreement",
+                    "ko_annotation_id": 5580,
+                    "origin_lus": [
+                        "terms"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "agreement",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 14,
-                            "end": 15
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Position_on_a_scale",
-                "origin_lus": [
-                    "higher"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 612,
-                "sent_id": 94
-            }
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5580"
         }
     ],
-    "frameID": 95,
-    "en_lu": [
-        "higher"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Position_on_a_scale"
+    "frameName": "Terms_of_agreement",
+    "lu_id": 1786,
+    "frameID": 1531,
+    "ko_lu": "조규.n.Terms_of_agreement",
+    "en_lus": [
+        "term"
+    ]
 }

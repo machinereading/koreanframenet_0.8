@@ -1,61 +1,52 @@
 {
-    "ko_lu": "소유자.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 2845",
-            "examples": {
-                "ko_annotation_id": 2845,
-                "denotations": [
-                    {
-                        "obj": "possession",
-                        "span": {
-                            "begin": 0,
-                            "end": 23
+            "examples": [
+                {
+                    "text": "1962년에 독립한 이후부터 관광은 자마이카의 주요 산업이었고 이 섬은 카리브 해에서 최고의 목적지 가운데 하나로 이름나게 되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4818,
+                    "sent_id": 931,
+                    "frameName": "Change_of_leadership",
+                    "ko_annotation_id": 3018,
+                    "origin_lus": [
+                        "independence"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "obj": "time",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 25,
-                            "end": 28
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "owner",
-                        "span": {
-                            "begin": 30,
-                            "end": 42
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Possession",
-                "origin_lus": [
-                    "owner"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6257,
-                "sent_id": 1233
-            }
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 3018"
         }
     ],
-    "frameID": 118,
-    "en_lu": [
-        "owner"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Possession"
+    "frameName": "Change_of_leadership",
+    "lu_id": 987,
+    "frameID": 72,
+    "ko_lu": "독립하다.v.Change_of_leadership",
+    "en_lus": [
+        "independence"
+    ]
 }

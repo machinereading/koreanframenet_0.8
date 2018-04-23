@@ -1,61 +1,65 @@
 {
-    "ko_lu": "자원.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 14753",
-            "examples": {
-                "ko_annotation_id": 14753,
-                "denotations": [
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 21,
-                            "end": 27
+            "examples": [
+                {
+                    "text": "QN : 원심 분리기는 북한에 판매되었나 ?",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "variable",
-                        "span": {
-                            "begin": 48,
-                            "end": 50
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6852,
+                    "sent_id": 1405,
+                    "frameName": "Commerce_sell",
+                    "ko_annotation_id": 16090,
+                    "origin_lus": [
+                        "sold"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "obj": "goods",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 51,
-                            "end": 58
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "obj": "buyer",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Position_on_a_scale",
-                "origin_lus": [
-                    "rich"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18342,
-                "sent_id": 3494
-            }
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16090"
         }
     ],
-    "frameID": 95,
-    "en_lu": [
-        "rich"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Position_on_a_scale"
+    "frameName": "Commerce_sell",
+    "lu_id": 4733,
+    "frameID": 172,
+    "ko_lu": "판매되다.v.Commerce_sell",
+    "en_lus": [
+        "sell"
+    ]
 }

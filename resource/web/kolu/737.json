@@ -1,48 +1,65 @@
 {
-    "ko_lu": "비슷하다.a",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 2206",
-            "examples": {
-                "ko_annotation_id": 2206,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 24,
-                            "end": 27
+            "examples": [
+                {
+                    "text": "콜롬비아에서는 국가를 장악하고 민주주의를 파괴하려는 마약 재정지원을 받는 게릴라들은 M-19 이 포함되고, 이는 카스트로가 분명히 지원하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "entities",
-                        "span": {
-                            "begin": 28,
-                            "end": 29
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9644,
+                    "sent_id": 1994,
+                    "frameName": "Taking",
+                    "ko_annotation_id": 2226,
+                    "origin_lus": [
+                        "seize"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "obj": "theme",
+                            "id": "3"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Similarity",
-                "origin_lus": [
-                    "similar"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8949,
-                "sent_id": 1857
-            }
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 45
+                            },
+                            "obj": "agent",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2226"
         }
     ],
-    "frameID": 481,
-    "en_lu": [
-        "similar"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Similarity"
+    "frameName": "Taking",
+    "lu_id": 737,
+    "frameID": 410,
+    "ko_lu": "장악하다.v.Taking",
+    "en_lus": [
+        "seize"
+    ]
 }

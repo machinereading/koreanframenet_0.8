@@ -1,48 +1,52 @@
 {
-    "ko_lu": "하부.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 2189",
-            "examples": {
-                "ko_annotation_id": 2189,
-                "denotations": [
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 3,
-                            "end": 9
+            "examples": [
+                {
+                    "text": "그래서 형제들은 국가 경호원 유니폼을 입고 비슷한 차를 운전하고 한 밤중에 그의 집을 습격하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8949,
+                    "sent_id": 1857,
+                    "frameName": "Similarity",
+                    "ko_annotation_id": 2206,
+                    "origin_lus": [
+                        "similar"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 7,
-                            "end": 9
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Position_on_a_scale",
-                "origin_lus": [
-                    "lower"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7809,
-                "sent_id": 1602
-            }
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 29
+                            },
+                            "obj": "entities",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2206"
         }
     ],
-    "frameID": 95,
-    "en_lu": [
-        "lower"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Position_on_a_scale"
+    "frameName": "Similarity",
+    "lu_id": 727,
+    "frameID": 481,
+    "ko_lu": "비슷하다.a.Similarity",
+    "en_lus": [
+        "similar"
+    ]
 }

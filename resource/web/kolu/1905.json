@@ -1,48 +1,107 @@
 {
-    "ko_lu": "수립.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 5717",
-            "examples": {
-                "ko_annotation_id": 5717,
-                "denotations": [
-                    {
-                        "obj": "created_entity",
-                        "span": {
-                            "begin": 22,
-                            "end": 28
+            "examples": [
+                {
+                    "text": "사람들이 전통적으로 언덕 꼭대기를 찾는 봄과 가을 축제 동안에는 인파가 너무 많아 당신은 다른 시기에 시도할 것을 충고받는 것이 더 좋을 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 29,
-                            "end": 31
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5627,
+                    "sent_id": 1079,
+                    "frameName": "Social_event",
+                    "ko_annotation_id": 5932,
+                    "origin_lus": [
+                        "festivals",
+                        "maturi .祭り "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 23
+                            },
+                            "obj": "occasion",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Intentionally_create",
-                "origin_lus": [
-                    "establishment"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8006,
-                "sent_id": 1636
-            }
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "obj": "occasion",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5932"
+        },
+        {
+            "examples": [
+                {
+                    "text": "하지만 인도에 도착하자마자, 곧 시바라뜨리라는 축제가 시작된다는 말을 듣고, 시바라뜨리 하면 역시 시바의 고장 바라나시에 가야지, 하는 생각에 바라나시에 와버린 것이 잘못이었다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4636,
+                    "frameName": "Social_event",
+                    "ko_annotation_id": 5933,
+                    "origin_lus": [
+                        "festivals",
+                        "maturi .祭り "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 28
+                            },
+                            "obj": "Social_event"
+                        },
+                        {
+                            "span": {
+                                "begin": 80,
+                                "end": 84
+                            },
+                            "obj": "Place"
+                        },
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5933"
         }
     ],
-    "frameID": 280,
-    "en_lu": [
-        "establishment"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Intentionally_create"
+    "frameName": "Social_event",
+    "lu_id": 1905,
+    "frameID": 125,
+    "ko_lu": "축제.n.Social_event",
+    "en_lus": [
+        "maturi .祭り ",
+        "festival"
+    ]
 }

@@ -1,47 +1,65 @@
 {
-    "ko_lu": "감다.a",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 11588",
-            "examples": {
-                "ko_annotation_id": 11588,
-                "denotations": [
-                    {
-                        "obj": "Agent",
-                        "span": {
-                            "begin": 28,
-                            "end": 30
+            "examples": [
+                {
+                    "text": "얼마나 많은 사람이 AEOI에서 근무하는지 불분명하다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Containing_object",
-                        "span": {
-                            "begin": 32,
-                            "end": 33
+                    ],
+                    "annotation_id": 13291,
+                    "sent_id": 2651,
+                    "frameName": "Being_employed",
+                    "ko_annotation_id": 12537,
+                    "origin_lus": [
+                        "work"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "obj": "employee",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "obj": "place_of_employment",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 35,
-                            "end": 37
-                        }
-                    }
-                ],
-                "frameName": "Closure",
-                "origin_lus": [
-                    "tumuru .つむる "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4518
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12537"
         }
     ],
-    "frameID": 254,
-    "en_lu": [
-        "tumuru .つむる "
-    ],
-    "ko_pos": "VA",
-    "frameName": "Closure"
+    "frameName": "Being_employed",
+    "lu_id": 3713,
+    "frameID": 282,
+    "ko_lu": "근무하다.v.Being_employed",
+    "en_lus": [
+        "work"
+    ]
 }

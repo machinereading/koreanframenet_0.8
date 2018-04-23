@@ -1,48 +1,92 @@
 {
-    "ko_lu": "조규.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 5580",
-            "examples": {
-                "ko_annotation_id": 5580,
-                "denotations": [
-                    {
-                        "obj": "agreement",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "외국 및 산업 스파이와 불만스러워 하는 종업원에 의한 전자 절도는 미국 회사들에 수십억의 비용이 들게 하고 그들의 국제 경쟁력의 이점을 잠식하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9384,
+                    "sent_id": 1947,
+                    "frameName": "Employing",
+                    "ko_annotation_id": 5843,
+                    "origin_lus": [
+                        "employees"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 21
+                            },
+                            "obj": "descriptor",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 3,
-                            "end": 5
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5843"
+        },
+        {
+            "examples": [
+                {
+                    "text": "AOL은 그것이 여기에 설립되었다면 결코 존재하지 않았을 것이라고 나는 확신하는데, 그 이유는 그곳의 종업원들이 디지털 지식층에 의해 애매하게 조롱당했을 것이기 때문이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2509,
+                    "sent_id": 477,
+                    "frameName": "Employing",
+                    "ko_annotation_id": 15646,
+                    "origin_lus": [
+                        "employees"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 53,
+                                "end": 55
+                            },
+                            "obj": "employer",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Terms_of_agreement",
-                "origin_lus": [
-                    "terms"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 15167,
-                "sent_id": 2950
-            }
+                        {
+                            "span": {
+                                "begin": 57,
+                                "end": 61
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15646"
         }
     ],
-    "frameID": 1531,
-    "en_lu": [
-        "term"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Terms_of_agreement"
+    "frameName": "Employing",
+    "lu_id": 1864,
+    "frameID": 323,
+    "ko_lu": "종업원.n.Employing",
+    "en_lus": [
+        "employee"
+    ]
 }

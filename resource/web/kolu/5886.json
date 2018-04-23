@@ -1,61 +1,105 @@
 {
-    "ko_lu": "관여하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 18433",
-            "examples": {
-                "ko_annotation_id": 18433,
-                "denotations": [
-                    {
-                        "obj": "event",
-                        "span": {
-                            "begin": 0,
-                            "end": 10
+            "examples": [
+                {
+                    "text": "이러한 노력의 일환으로, 들리는 바에 의하면 1991, 1992, 그리고 1993년 동안 기술, 부품, 그리고 완전한 M-9/11 미사일을 이란에 제공하기 위하여 이란과 중국 간에 협정들이 체결되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12455,
+                    "sent_id": 2488,
+                    "frameName": "Part_whole",
+                    "ko_annotation_id": 20246,
+                    "origin_lus": [
+                        "part"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "obj": "whole",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 12,
-                            "end": 15
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20246"
+        },
+        {
+            "examples": [
+                {
+                    "text": " 고농축 우라늄을 사용하는 연료의 이 출하량은 이러한 유형의 물질이 엉뚱한 사람의 수중에 들어가지 않도록 확실하게 하기 위한 NNSA의 노력의 일환이다, ' 라고 NNSA 행정원 Linton F. Brooks가 4월 20일 언론 공식 발표에서 말하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "participant_1",
-                        "span": {
-                            "begin": 16,
-                            "end": 22
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16632,
+                    "sent_id": 3178,
+                    "frameName": "Part_whole",
+                    "ko_annotation_id": 20247,
+                    "origin_lus": [
+                        "part"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 1,
+                                "end": 24
+                            },
+                            "obj": "part",
+                            "id": "2"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Participation",
-                "origin_lus": [
-                    "involved"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11613,
-                "sent_id": 2308
-            }
+                        {
+                            "span": {
+                                "begin": 38,
+                                "end": 78
+                            },
+                            "obj": "whole",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 80,
+                                "end": 82
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20247"
         }
     ],
-    "frameID": 1144,
-    "en_lu": [
-        "involve"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Participation"
+    "frameName": "Part_whole",
+    "lu_id": 5886,
+    "frameID": 140,
+    "ko_lu": "일환.n.Part_whole",
+    "en_lus": [
+        "part"
+    ]
 }

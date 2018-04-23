@@ -1,40 +1,65 @@
 {
-    "ko_lu": "감지하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 11875",
-            "examples": {
-                "ko_annotation_id": 11875,
-                "denotations": [
-                    {
-                        "obj": "Agent",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "그는 6년 동안 돈이 고갈된 공공 서비스에 자금을 이용할 수 있도록, 공공 보조금과 전용을 더 줄이기 위해 노력할 수 있었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 24,
-                            "end": 27
+                    ],
+                    "annotation_id": 628,
+                    "sent_id": 95,
+                    "frameName": "Prevent_from_having",
+                    "ko_annotation_id": 12771,
+                    "origin_lus": [
+                        "starved"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 10
+                            },
+                            "obj": "state_of_affairs",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 22
+                            },
+                            "obj": "protagonist",
+                            "id": "3"
                         }
-                    }
-                ],
-                "frameName": "Intentionally_act",
-                "origin_lus": [
-                    "kyatti .キャッチ "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4928
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12771"
         }
     ],
-    "frameID": 198,
-    "en_lu": [
-        "kyatti .キャッチ "
-    ],
-    "ko_pos": "VV",
-    "frameName": "Intentionally_act"
+    "frameName": "Preventing_or_letting",
+    "lu_id": 3792,
+    "frameID": 516,
+    "ko_lu": "고갈되다.v.Preventing_or_letting",
+    "en_lus": [
+        "starve"
+    ]
 }

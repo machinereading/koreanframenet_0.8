@@ -1,61 +1,64 @@
 {
-    "ko_lu": "건립하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 17234",
-            "examples": {
-                "ko_annotation_id": 17234,
-                "denotations": [
-                    {
-                        "obj": "creator",
-                        "span": {
-                            "begin": 27,
-                            "end": 29
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "created_entity",
-                        "span": {
-                            "begin": 61,
-                            "end": 69
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 71,
-                            "end": 74
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Intentionally_create",
-                "origin_lus": [
-                    "establish"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8676,
-                "sent_id": 1793
-            }
+            "examples": [
+                {
+                    "text": "주민 센터에서의 한 집회에서 연설하면서, Goodwill 직원 멤버는 청중들에게 어떻게 Goodwill이 그들이 일자리를 찾고 유지하도록 도울 수 있는 지에 대해  이야기 한다.",
+                    "relations": [],
+                    "annotation_id": 2047,
+                    "sent_id": 378,
+                    "frameName": "Telling",
+                    "ko_annotation_id": 18985,
+                    "origin_lus": [
+                        "tells"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 92,
+                                "end": 97
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18985"
+        },
+        {
+            "examples": [
+                {
+                    "text": "다음 모퉁이에서 그는 다섯 사람과 더 이야기 한다.",
+                    "relations": [],
+                    "annotation_id": 2057,
+                    "sent_id": 380,
+                    "frameName": "Telling",
+                    "ko_annotation_id": 18986,
+                    "origin_lus": [
+                        "tells"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18986"
         }
     ],
-    "frameID": 280,
-    "en_lu": [
-        "establish"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Intentionally_create"
+    "frameName": "Telling",
+    "lu_id": 5495,
+    "frameID": 750,
+    "ko_lu": "이야기.n.Telling",
+    "en_lus": [
+        "tell"
+    ]
 }

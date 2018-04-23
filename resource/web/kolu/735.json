@@ -1,40 +1,52 @@
 {
-    "ko_lu": "노인.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 2203",
-            "examples": {
-                "ko_annotation_id": 2203,
-                "denotations": [
-                    {
-                        "obj": "Person",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "그 신문의 지역 관리자인 Maria Luz Lopez는 그녀의 차가 신호등 빨간 불에 멈추었을 때 사살되었고 그의 어머니는 부상 당하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+                    ],
+                    "annotation_id": 9551,
+                    "sent_id": 1976,
+                    "frameName": "Dead_or_alive",
+                    "ko_annotation_id": 2223,
+                    "origin_lus": [
+                        "dead"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 29
+                            },
+                            "obj": "protagonist",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "People_by_age",
-                "origin_lus": [
-                    "roozin .老人 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4797
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2223"
         }
     ],
-    "frameID": 973,
-    "en_lu": [
-        "roozin .老人 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "People_by_age"
+    "frameName": "Dead_or_alive",
+    "lu_id": 735,
+    "frameID": 310,
+    "ko_lu": "사살되다.v.Dead_or_alive",
+    "en_lus": [
+        "dead"
+    ]
 }

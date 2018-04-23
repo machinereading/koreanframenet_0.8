@@ -1,61 +1,65 @@
 {
-    "ko_lu": "시작하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 3986",
-            "examples": {
-                "ko_annotation_id": 3986,
-                "denotations": [
-                    {
-                        "obj": "event",
-                        "span": {
-                            "begin": 65,
-                            "end": 85
+            "examples": [
+                {
+                    "text": "나의 고모, 삼촌 그리고 할머니에게 안부를 전해주세요.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "event",
-                        "span": {
-                            "begin": 87,
-                            "end": 90
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8294,
+                    "sent_id": 1704,
+                    "frameName": "Sending",
+                    "ko_annotation_id": 4150,
+                    "origin_lus": [
+                        "Send"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 17
+                            },
+                            "obj": "recipient",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 92,
-                            "end": 97
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "obj": "theme",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Process_start",
-                "origin_lus": [
-                    "beginning"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3315,
-                "sent_id": 618
-            }
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4150"
         }
     ],
-    "frameID": 133,
-    "en_lu": [
-        "begin"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Process_start"
+    "frameName": "Sending",
+    "lu_id": 1343,
+    "frameID": 243,
+    "ko_lu": "심기일전하다.v.Sending",
+    "en_lus": [
+        "Send"
+    ]
 }

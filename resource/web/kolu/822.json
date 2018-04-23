@@ -1,101 +1,37 @@
 {
-    "ko_lu": "대비하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 2451",
-            "examples": {
-                "ko_annotation_id": 2451,
-                "denotations": [
-                    {
-                        "obj": "activity",
-                        "span": {
-                            "begin": 24,
-                            "end": 38
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 40,
-                            "end": 43
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Activity_prepare",
-                "origin_lus": [
-                    "prepare",
-                    "Prepares"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8504,
-                "sent_id": 1746
-            }
-        },
-        {
-            "valenceText": "annotation id: 2452",
-            "examples": {
-                "ko_annotation_id": 2452,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 2,
-                            "end": 13
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "activity",
-                        "span": {
-                            "begin": 14,
-                            "end": 43
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 25,
-                            "end": 28
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Activity_prepare",
-                "origin_lus": [
-                    "prepare",
-                    "Prepares"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 16533,
-                "sent_id": 3166
-            }
+            "examples": [
+                {
+                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4550,
+                    "frameName": "Store",
+                    "ko_annotation_id": 2476,
+                    "origin_lus": [
+                        "zaiko .在庫 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2476"
         }
     ],
-    "frameID": 170,
-    "en_lu": [
-        "Prepares",
-        "prepare"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Activity_prepare"
+    "frameName": "Store",
+    "lu_id": 822,
+    "frameID": 1511,
+    "ko_lu": "재고수.n.Store",
+    "en_lus": [
+        "zaiko .在庫 "
+    ]
 }

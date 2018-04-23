@@ -1,47 +1,65 @@
 {
-    "ko_lu": "장.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 6172",
-            "examples": {
-                "ko_annotation_id": 6172,
-                "denotations": [
-                    {
-                        "obj": "Interval",
-                        "span": {
-                            "begin": 0,
-                            "end": 1
+            "examples": [
+                {
+                    "text": "1.6조 달러의 세계에서 가장 비싼 리조트인 Bellagio의 편의 시설은 5성 식당, 샤넬 등급의 부티크, 그리고 세계 최상급 예술 명품 컬렉션을 포함한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Event",
-                        "span": {
-                            "begin": 5,
-                            "end": 19
+                    ],
+                    "annotation_id": 4381,
+                    "sent_id": 843,
+                    "frameName": "Aggregate",
+                    "ko_annotation_id": 6526,
+                    "origin_lus": [
+                        "collection"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 65,
+                                "end": 71
+                            },
+                            "obj": "aggregateproperty",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 72,
+                                "end": 77
+                            },
+                            "obj": "individuals",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 78,
+                                "end": 81
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 2,
-                            "end": 3
-                        }
-                    }
-                ],
-                "frameName": "Frequency",
-                "origin_lus": [
-                    "goto .ごと"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4117
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6526"
         }
     ],
-    "frameID": 80,
-    "en_lu": [
-        "goto .ごと"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Frequency"
+    "frameName": "Aggregate",
+    "lu_id": 2073,
+    "frameID": 103,
+    "ko_lu": "컬렉션.n.Aggregate",
+    "en_lus": [
+        "collection"
+    ]
 }

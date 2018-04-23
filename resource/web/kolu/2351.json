@@ -1,48 +1,65 @@
 {
-    "ko_lu": "하다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 7124",
-            "examples": {
-                "ko_annotation_id": 7124,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 99,
-                            "end": 102
+            "examples": [
+                {
+                    "text": "좀더 최근에, 남아공은 A.Q. Khan의 네트워크와의 연결이 드러난 남아공의 한 사업가를 조사한 후, 핵무기 물질의 국제적 밀매를 감시하기 위해, 2004년에 IAEA와의 더 긴밀한 작업을 시작하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "activity",
-                        "span": {
-                            "begin": 87,
-                            "end": 98
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15622,
+                    "sent_id": 3026,
+                    "frameName": "Smuggling",
+                    "ko_annotation_id": 7530,
+                    "origin_lus": [
+                        "smuggling"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 58,
+                                "end": 64
+                            },
+                            "obj": "goods",
+                            "id": "3"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Activity_ongoing",
-                "origin_lus": [
-                    "Keep"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7966,
-                "sent_id": 1626
-            }
+                        {
+                            "span": {
+                                "begin": 66,
+                                "end": 69
+                            },
+                            "obj": "goal",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 70,
+                                "end": 72
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7530"
         }
     ],
-    "frameID": 164,
-    "en_lu": [
-        "Keep"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Activity_ongoing"
+    "frameName": "Smuggling",
+    "lu_id": 2351,
+    "frameID": 175,
+    "ko_lu": "밀매.n.Smuggling",
+    "en_lus": [
+        "smuggle"
+    ]
 }

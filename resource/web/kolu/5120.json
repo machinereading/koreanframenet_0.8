@@ -1,85 +1,73 @@
 {
-    "ko_lu": "보유하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 15901",
-            "examples": {
-                "ko_annotation_id": 15901,
-                "denotations": [
-                    {
-                        "obj": "possession",
-                        "span": {
-                            "begin": 54,
-                            "end": 57
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 59,
-                            "end": 62
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Possession",
-                "origin_lus": [
-                    "possess"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11904,
-                "sent_id": 2362
-            }
+            "examples": [
+                {
+                    "text": "그의 뉴욕행 기차는 10 : 30에 역을 출발하기로 예정되어 있었다.",
+                    "relations": [],
+                    "annotation_id": 6187,
+                    "sent_id": 1201,
+                    "frameName": "Vehicle",
+                    "ko_annotation_id": 17648,
+                    "origin_lus": [
+                        "train",
+                        "kisya .汽車 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17648"
         },
         {
-            "valenceText": "annotation id: 15902",
-            "examples": {
-                "ko_annotation_id": 15902,
-                "denotations": [
-                    {
-                        "obj": "possession",
-                        "span": {
-                            "begin": 34,
-                            "end": 71
+            "examples": [
+                {
+                    "text": "이거 참 어쩌지, 하면서도 묵기에 마음이 편한 바라나시를 떠날 생각도 들지 않고, 기차표를 끊는 수고로움을 생각하니 더욱 엉덩이가 떨어지지 않아, 딱 2, 3일만 더 있자 하며 어물어물 주저앉아 버린 것이다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4804,
+                    "frameName": "Vehicle",
+                    "ko_annotation_id": 17649,
+                    "origin_lus": [
+                        "train",
+                        "kisya .汽車 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 46,
+                                "end": 48
+                            },
+                            "obj": "Vehicle"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 57,
-                            "end": 60
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Possession",
-                "origin_lus": [
-                    "possess"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17822,
-                "sent_id": 3357
-            }
+                        {
+                            "span": {
+                                "begin": 46,
+                                "end": 48
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17649"
         }
     ],
-    "frameID": 118,
-    "en_lu": [
-        "posse"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Possession"
+    "frameName": "Vehicle",
+    "lu_id": 5120,
+    "frameID": 429,
+    "ko_lu": "기차.n.Vehicle",
+    "en_lus": [
+        "kisya .汽車 ",
+        "train"
+    ]
 }

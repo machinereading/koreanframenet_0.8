@@ -1,50 +1,52 @@
 {
-    "ko_lu": "조.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 936",
-            "examples": {
-                "ko_annotation_id": 936,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 4,
-                            "end": 6
+            "examples": [
+                {
+                    "text": "내가 말하는 의미는 아주 많은 정말 중요한 연쇄 살인들이 있고 그리고 그것은 단순한 하나의 사건이거나 그 유사한 것이 아니라 일어나는 살인 사건들 중 매우 끔찍스러운 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9228,
+                    "sent_id": 1912,
+                    "frameName": "Relational_quantity",
+                    "ko_annotation_id": 941,
+                    "origin_lus": [
+                        "some"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 13,
-                            "end": 16
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Intentionally_act",
-                "origin_lus": [
-                    "measures",
-                    "actions"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18488,
-                "sent_id": 3529
-            }
+                        {
+                            "span": {
+                                "begin": 70,
+                                "end": 83
+                            },
+                            "obj": "individuals",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 941"
         }
     ],
-    "frameID": 198,
-    "en_lu": [
-        "action",
-        "measure"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Intentionally_act"
+    "frameName": "Relational_quantity",
+    "lu_id": 373,
+    "frameID": 2427,
+    "ko_lu": "중요하다.a.Relational_quantity",
+    "en_lus": [
+        "some"
+    ]
 }

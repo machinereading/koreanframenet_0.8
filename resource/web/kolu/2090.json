@@ -1,48 +1,52 @@
 {
-    "ko_lu": "고위.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 6220",
-            "examples": {
-                "ko_annotation_id": 6220,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 9,
-                            "end": 11
+            "examples": [
+                {
+                    "text": "이것은 마피아 도박 타운에서 기업 도박 장소로 바뀌면서, 라스 베이거스 인구는 급증하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4387,
+                    "sent_id": 845,
+                    "frameName": "Change_position_on_a_scale",
+                    "ko_annotation_id": 6587,
+                    "origin_lus": [
+                        "skyrocketed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 32,
+                                "end": 42
+                            },
+                            "obj": "attribute",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 13,
-                            "end": 19
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Position_on_a_scale",
-                "origin_lus": [
-                    "high"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18550,
-                "sent_id": 3539
-            }
+                        {
+                            "span": {
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6587"
         }
     ],
-    "frameID": 95,
-    "en_lu": [
-        "high"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Position_on_a_scale"
+    "frameName": "Change_position_on_a_scale",
+    "lu_id": 2090,
+    "frameID": 91,
+    "ko_lu": "급증하다.v.Change_position_on_a_scale",
+    "en_lus": [
+        "skyrocket"
+    ]
 }

@@ -1,40 +1,65 @@
 {
-    "ko_lu": "해당.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 4903",
-            "examples": {
-                "ko_annotation_id": 4903,
-                "denotations": [
-                    {
-                        "obj": "Organization",
-                        "span": {
-                            "begin": 80,
-                            "end": 85
+            "examples": [
+                {
+                    "text": "이 모든 연구 분야는 작물 수확량 향상과 해충과 질병으로 제기되는 이란의 농업 산업에 대한 위협 감소에 합법적이고 중요한 이용이 된다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 80,
-                            "end": 85
+                    ],
+                    "annotation_id": 10927,
+                    "sent_id": 2190,
+                    "frameName": "Possession",
+                    "ko_annotation_id": 5109,
+                    "origin_lus": [
+                        "have"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "obj": "owner",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 70
+                            },
+                            "obj": "possession",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 72,
+                                "end": 73
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Organization",
-                "origin_lus": [
-                    "tookai .当会 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4112
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5109"
         }
     ],
-    "frameID": 1371,
-    "en_lu": [
-        "tookai .当会 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Organization"
+    "frameName": "Possession",
+    "lu_id": 1636,
+    "frameID": 118,
+    "ko_lu": "되다.a.Possession",
+    "en_lus": [
+        "have"
+    ]
 }

@@ -1,48 +1,52 @@
 {
-    "ko_lu": "중요하다.a",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 941",
-            "examples": {
-                "ko_annotation_id": 941,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 20,
-                            "end": 23
+            "examples": [
+                {
+                    "text": "정부 보고나 추방 단체로부터의 주장을 검증할 구체적인 기제가 없기 때문에, 이란의 생물무기 프로그램에 관한 많은 주장은 입증되지 않고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10825,
+                    "sent_id": 2172,
+                    "frameName": "Verification",
+                    "ko_annotation_id": 944,
+                    "origin_lus": [
+                        "verifying"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 19
+                            },
+                            "obj": "unconfirmed_content",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "individuals",
-                        "span": {
-                            "begin": 70,
-                            "end": 83
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Relational_quantity",
-                "origin_lus": [
-                    "some"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9228,
-                "sent_id": 1912
-            }
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 944"
         }
     ],
-    "frameID": 2427,
-    "en_lu": [
-        "some"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Relational_quantity"
+    "frameName": "Verification",
+    "lu_id": 376,
+    "frameID": 1230,
+    "ko_lu": "검증하다.v.Verification",
+    "en_lus": [
+        "verify"
+    ]
 }

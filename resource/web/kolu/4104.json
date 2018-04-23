@@ -1,34 +1,78 @@
 {
-    "ko_lu": "기준.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 12784",
-            "examples": {
-                "ko_annotation_id": 12784,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 3,
-                            "end": 5
+            "examples": [
+                {
+                    "text": "2001년 9월 11일에, 19 명의  Al Qa'ida 테러리스트들은 네 대의 민항기를 납치하였고 이들 중 세 대가 세계무역센터와 펜타곤으로 비행하였고 ; 네 번째는 펜실바니아 주 Shanksville의 들판에 추락하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Simple_name",
-                "origin_lus": [
-                    "terms"
-                ],
-                "relations": [],
-                "annotation_id": 1321,
-                "sent_id": 243
-            }
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10236,
+                    "sent_id": 2087,
+                    "frameName": "Cause_impact",
+                    "ko_annotation_id": 13728,
+                    "origin_lus": [
+                        "crashed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 87,
+                                "end": 91
+                            },
+                            "obj": "impactor",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 93,
+                                "end": 112
+                            },
+                            "obj": "place",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 114,
+                                "end": 116
+                            },
+                            "obj": "impactee",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 118,
+                                "end": 121
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13728"
         }
     ],
-    "frameID": 1260,
-    "en_lu": [
-        "term"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Simple_name"
+    "frameName": "Cause_impact",
+    "lu_id": 4104,
+    "frameID": 395,
+    "ko_lu": "추락하다.v.Cause_impact",
+    "en_lus": [
+        "crashed"
+    ]
 }

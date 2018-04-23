@@ -1,61 +1,94 @@
 {
-    "ko_lu": "삐지다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 1817",
-            "examples": {
-                "ko_annotation_id": 1817,
-                "denotations": [
-                    {
-                        "obj": "fluid",
-                        "span": {
-                            "begin": 35,
-                            "end": 52
+            "examples": [
+                {
+                    "text": "로마 집정 및 정치적 내분 초기 이후, 로마는 헤롯 ( 사막의 유대 왕국인 Iduma 출신 가계의 자손 ) 을 유대의 왕으로 추대하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3500,
+                    "sent_id": 653,
+                    "frameName": "Kinship",
+                    "ko_annotation_id": 1827,
+                    "origin_lus": [
+                        "scion",
+                        "sison .子孫 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 53
+                            },
+                            "obj": "ego",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "path",
-                        "span": {
-                            "begin": 54,
-                            "end": 56
+                        {
+                            "span": {
+                                "begin": 55,
+                                "end": 57
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1827"
+        },
+        {
+            "examples": [
+                {
+                    "text": "아베 가문에 아베의 피가 흐르고 있는지 어떤지 따위 알 수 없고, 구사하라 요코가 가쓰라 일족의 자손인지 어떤지도, 알 길이 없다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4466,
+                    "frameName": "Kinship",
+                    "ko_annotation_id": 1828,
+                    "origin_lus": [
+                        "scion",
+                        "sison .子孫 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": "37",
+                                "end": "44"
+                            },
+                            "obj": "Alter"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 58,
-                            "end": 62
+                        {
+                            "span": {
+                                "begin": "46",
+                                "end": "52"
+                            },
+                            "obj": "Ego"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Fluidic_motion",
-                "origin_lus": [
-                    "oozing"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 848,
-                "sent_id": 148
-            }
+                        {
+                            "span": {
+                                "begin": "54",
+                                "end": "56"
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1828"
         }
     ],
-    "frameID": 345,
-    "en_lu": [
-        "ooze"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Fluidic_motion"
+    "frameName": "Kinship",
+    "lu_id": 597,
+    "frameID": 104,
+    "ko_lu": "자손.n.Kinship",
+    "en_lus": [
+        "scion",
+        "sison .子孫 "
+    ]
 }

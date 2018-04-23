@@ -1,48 +1,52 @@
 {
-    "ko_lu": "무기.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 730",
-            "examples": {
-                "ko_annotation_id": 730,
-                "denotations": [
-                    {
-                        "obj": "type",
-                        "span": {
-                            "begin": 0,
-                            "end": 5
+            "examples": [
+                {
+                    "text": "1982년, 전쟁이 2년째로 접어들면서, 이라크의 작전은 FROG-7AS 타격의 사용을 확장하고 이란의 전략적 후방에 대한 공격에 스커드-B 단거리 탄도 미사일 ( SRBM ) 을 최초로 사용하는 새로운 단계로 진입하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12194,
+                    "sent_id": 2422,
+                    "frameName": "Attack",
+                    "ko_annotation_id": 731,
+                    "origin_lus": [
+                        "strikes"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 32,
+                                "end": 40
+                            },
+                            "obj": "weapon",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 5,
-                            "end": 7
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Active_substance",
-                "origin_lus": [
-                    "agents"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9951,
-                "sent_id": 2039
-            }
+                        {
+                            "span": {
+                                "begin": 41,
+                                "end": 43
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 731"
         }
     ],
-    "frameID": 1322,
-    "en_lu": [
-        "agent"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Active_substance"
+    "frameName": "Attack",
+    "lu_id": 251,
+    "frameID": 424,
+    "ko_lu": "타격.n.Attack",
+    "en_lus": [
+        "strike"
+    ]
 }

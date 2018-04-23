@@ -1,74 +1,52 @@
 {
-    "ko_lu": "수입되다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 12476",
-            "examples": {
-                "ko_annotation_id": 12476,
-                "denotations": [
-                    {
-                        "obj": "goods",
-                        "span": {
-                            "begin": 0,
-                            "end": 11
+            "examples": [
+                {
+                    "text": "테러리즘 분석가 Bruce Hoffman에 의하면, 1968년 당시 활발하게 활동하던 11 개 주요 테러리스트 조직들 가운데 어떤 조직도 종교적으로 동기화되어 있지 않았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10136,
+                    "sent_id": 2063,
+                    "frameName": "Organization",
+                    "ko_annotation_id": 13386,
+                    "origin_lus": [
+                        "organizations"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 56,
+                                "end": 61
+                            },
+                            "obj": "members",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "exporting_area",
-                        "span": {
-                            "begin": 13,
-                            "end": 19
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "importing_area",
-                        "span": {
-                            "begin": 23,
-                            "end": 25
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 28,
-                            "end": 31
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Importing",
-                "origin_lus": [
-                    "imported"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10692,
-                "sent_id": 2143
-            }
+                        {
+                            "span": {
+                                "begin": 62,
+                                "end": 65
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13386"
         }
     ],
-    "frameID": 1567,
-    "en_lu": [
-        "import"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Importing"
+    "frameName": "Organization",
+    "lu_id": 3971,
+    "frameID": 1371,
+    "ko_lu": "조직.n.Organization",
+    "en_lus": [
+        "organization"
+    ]
 }

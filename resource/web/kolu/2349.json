@@ -1,48 +1,65 @@
 {
-    "ko_lu": "조사하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 7121",
-            "examples": {
-                "ko_annotation_id": 7121,
-                "denotations": [
-                    {
-                        "obj": "suspect",
-                        "span": {
-                            "begin": 39,
-                            "end": 49
+            "examples": [
+                {
+                    "text": "도시 외곽에 있는 명소들로 가는 많은 안내 버스 관광이 있고, 몇몇은 도시 버스로 접근할 수도 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 51,
-                            "end": 54
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5246,
+                    "sent_id": 998,
+                    "frameName": "Having_or_lacking_access",
+                    "ko_annotation_id": 7528,
+                    "origin_lus": [
+                        "accessible"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 37
+                            },
+                            "obj": "useful_location",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Criminal_investigation",
-                "origin_lus": [
-                    "investigations"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 15625,
-                "sent_id": 3026
-            }
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 44
+                            },
+                            "obj": "circumstances",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 46,
+                                "end": 51
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7528"
         }
     ],
-    "frameID": 500,
-    "en_lu": [
-        "investigation"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Criminal_investigation"
+    "frameName": "Having_or_lacking_access",
+    "lu_id": 2349,
+    "frameID": 1870,
+    "ko_lu": "접근하다.v.Having_or_lacking_access",
+    "en_lus": [
+        "accessible"
+    ]
 }

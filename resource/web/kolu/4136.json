@@ -1,48 +1,38 @@
 {
-    "ko_lu": "비트.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 12923",
-            "examples": {
-                "ko_annotation_id": 12923,
-                "denotations": [
-                    {
-                        "obj": "descriptor",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 3,
-                            "end": 5
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Temporal_pattern",
-                "origin_lus": [
-                    "beat"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4737,
-                "sent_id": 917
-            }
+            "examples": [
+                {
+                    "text": "미국 국토안보부는 국가 생체방어 분석 및 대책 본부에서 월요일 착공 예정이었다.",
+                    "relations": [],
+                    "annotation_id": 16771,
+                    "sent_id": 3200,
+                    "frameName": "Foreign_or_domestic_country",
+                    "ko_annotation_id": 13835,
+                    "origin_lus": [
+                        "Homeland"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13835"
         }
     ],
-    "frameID": 1040,
-    "en_lu": [
-        "beat"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Temporal_pattern"
+    "frameName": "Foreign_or_domestic_country",
+    "lu_id": 4136,
+    "frameID": 1483,
+    "ko_lu": "국토안.n.Foreign_or_domestic_country",
+    "en_lus": [
+        "Homeland"
+    ]
 }

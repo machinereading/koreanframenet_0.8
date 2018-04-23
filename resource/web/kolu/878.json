@@ -1,61 +1,52 @@
 {
-    "ko_lu": "보이.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 2556",
-            "examples": {
-                "ko_annotation_id": 2556,
-                "denotations": [
-                    {
-                        "obj": "hypothetical_event",
-                        "span": {
-                            "begin": 0,
-                            "end": 16
+            "examples": [
+                {
+                    "text": "이들은 상업 회사의 차량이나 이동 판매원의 차량들 처럼 보이도록 위장된다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7761,
+                    "sent_id": 1594,
+                    "frameName": "People_by_vocation",
+                    "ko_annotation_id": 2621,
+                    "origin_lus": [
+                        "salesmen"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "obj": "type",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 15,
-                            "end": 22
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "hypothetical_event",
-                        "span": {
-                            "begin": 23,
-                            "end": 32
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Likelihood",
-                "origin_lus": [
-                    "likely"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10067,
-                "sent_id": 2054
-            }
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2621"
         }
     ],
-    "frameID": 114,
-    "en_lu": [
-        "likely"
-    ],
-    "ko_pos": "NNB",
-    "frameName": "Likelihood"
+    "frameName": "People_by_vocation",
+    "lu_id": 878,
+    "frameID": 1071,
+    "ko_lu": "판매원.n.People_by_vocation",
+    "en_lus": [
+        "salesman"
+    ]
 }

@@ -1,34 +1,52 @@
 {
-    "ko_lu": "걸다.a",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 15352",
-            "examples": {
-                "ko_annotation_id": 15352,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 25,
-                            "end": 26
+            "examples": [
+                {
+                    "text": "찬장 문이 날아가고, 부엌의 쓰레기통이 몇 피트 움직였고, 개들이 달려왔으며, 나는 서둘러 개들을 개집에 넣고 나 자신이 출입구에 서서,밖의 쓰레기통들이 콘크리트를 가로질러 춤추는 것을 보았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 900,
+                    "sent_id": 158,
+                    "frameName": "Self_motion",
+                    "ko_annotation_id": 16916,
+                    "origin_lus": [
+                        "running"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 35
+                            },
+                            "obj": "self_mover",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Observable_body_parts",
-                "origin_lus": [
-                    "foot"
-                ],
-                "relations": [],
-                "annotation_id": 4982,
-                "sent_id": 958
-            }
+                        {
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16916"
         }
     ],
-    "frameID": 119,
-    "en_lu": [
-        "foot"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Body_parts"
+    "frameName": "Self_motion",
+    "lu_id": 4925,
+    "frameID": 64,
+    "ko_lu": "달려오다.v.Self_motion",
+    "en_lus": [
+        "run"
+    ]
 }

@@ -1,74 +1,146 @@
 {
-    "ko_lu": "온도.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 9903",
-            "examples": {
-                "ko_annotation_id": 9903,
-                "denotations": [
-                    {
-                        "obj": "temperature",
-                        "span": {
-                            "begin": 34,
-                            "end": 39
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 40,
-                            "end": 42
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Temperature",
-                "origin_lus": [
-                    "temperature",
-                    "Temperatures"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6273,
-                "sent_id": 1237
-            }
+            "examples": [
+                {
+                    "text": "2005년 9월 14일 뉴욕에서 푸틴은 국제핵테러행위 억제협약에 서명하였다.",
+                    "relations": [],
+                    "annotation_id": 17124,
+                    "sent_id": 3244,
+                    "frameName": "Terrorism",
+                    "ko_annotation_id": 11038,
+                    "origin_lus": [
+                        "Terrorism",
+                        "tero .テロ"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11038"
         },
         {
-            "valenceText": "annotation id: 9904",
-            "examples": {
-                "ko_annotation_id": 9904,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 45,
-                            "end": 47
+            "examples": [
+                {
+                    "text": "테러의 기억이 사람들의 뇌리에서 떠나지 않고, 마음 속에는 늘 안개가 낀 것처럼, 맑게 개는 날이 없어져 버린 것입니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3832,
+                    "frameName": "Terrorism",
+                    "ko_annotation_id": 11039,
+                    "origin_lus": [
+                        "Terrorism",
+                        "tero .テロ"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Act"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Temperature",
-                "origin_lus": [
-                    "temperature",
-                    "Temperatures"
-                ],
-                "relations": [],
-                "annotation_id": 4628,
-                "sent_id": 890
-            }
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11039"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그 때문에, 이슬람교 자체를 없애버리지 않는 한, 테러는 사라지지 않을 것이라고 생각하는 것입니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4278,
+                    "frameName": "Terrorism",
+                    "ko_annotation_id": 11040,
+                    "origin_lus": [
+                        "Terrorism",
+                        "tero .テロ"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "obj": "Act"
+                        },
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11040"
+        },
+        {
+            "examples": [
+                {
+                    "text": "종종 뉴스에서는, 이슬람교 그 자체와 테러를 일으킨 그룹의 가르침은, 전혀 다르다고 보도됩니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4295,
+                    "frameName": "Terrorism",
+                    "ko_annotation_id": 11041,
+                    "origin_lus": [
+                        "Terrorism",
+                        "tero .テロ"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "obj": "Act"
+                        },
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 31
+                            },
+                            "obj": "Terrorist"
+                        },
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11041"
         }
     ],
-    "frameID": 1050,
-    "en_lu": [
-        "Temperatures",
-        "temperature"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Temperature"
+    "frameName": "Terrorism",
+    "lu_id": 3293,
+    "frameID": 1750,
+    "ko_lu": "테러.n.Terrorism",
+    "en_lus": [
+        "Terrorism",
+        "tero .テロ"
+    ]
 }

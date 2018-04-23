@@ -1,61 +1,65 @@
 {
-    "ko_lu": "설명.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 5182",
-            "examples": {
-                "ko_annotation_id": 5182,
-                "denotations": [
-                    {
-                        "obj": "state_of_affairs",
-                        "span": {
-                            "begin": 21,
-                            "end": 62
+            "examples": [
+                {
+                    "text": "중국 회사들은 이란의 화학무기 프로그램을 위한 핵심 보급자들이었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "manner",
-                        "span": {
-                            "begin": 69,
-                            "end": 73
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11440,
+                    "sent_id": 2282,
+                    "frameName": "Supply",
+                    "ko_annotation_id": 5429,
+                    "origin_lus": [
+                        "suppliers"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "obj": "supplier",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 74,
-                            "end": 76
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 25
+                            },
+                            "obj": "purpose_of_recipient",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Explaining_the_facts",
-                "origin_lus": [
-                    "explanation"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1688,
-                "sent_id": 302
-            }
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5429"
         }
     ],
-    "frameID": 1462,
-    "en_lu": [
-        "explanation"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Explaining_the_facts"
+    "frameName": "Supply",
+    "lu_id": 1748,
+    "frameID": 1346,
+    "ko_lu": "보급자들.n.Supply",
+    "en_lus": [
+        "supplier"
+    ]
 }

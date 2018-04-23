@@ -1,48 +1,52 @@
 {
-    "ko_lu": "비다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 11409",
-            "examples": {
-                "ko_annotation_id": 11409,
-                "denotations": [
-                    {
-                        "obj": "container",
-                        "span": {
-                            "begin": 23,
-                            "end": 33
+            "examples": [
+                {
+                    "text": "그들은 결국 섬에 도착하여 에게 해의 최단 북쪽 부분의 섬들에 식민지를 건설하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2598,
+                    "sent_id": 492,
+                    "frameName": "Part_whole",
+                    "ko_annotation_id": 12292,
+                    "origin_lus": [
+                        "part"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 19
+                            },
+                            "obj": "whole",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 35,
-                            "end": 39
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Fullness",
-                "origin_lus": [
-                    "empty"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14775,
-                "sent_id": 2888
-            }
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12292"
         }
     ],
-    "frameID": 244,
-    "en_lu": [
-        "empty"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Fullness"
+    "frameName": "Part_whole",
+    "lu_id": 3652,
+    "frameID": 140,
+    "ko_lu": "최단.n.Part_whole",
+    "en_lus": [
+        "part"
+    ]
 }

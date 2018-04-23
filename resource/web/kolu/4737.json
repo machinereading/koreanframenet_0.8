@@ -1,61 +1,65 @@
 {
-    "ko_lu": "불리다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 14761",
-            "examples": {
-                "ko_annotation_id": 14761,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 28,
-                            "end": 30
+            "examples": [
+                {
+                    "text": "미국 정부는 러시아 독립국가들이 대량살상무기 기술을 이란에 이전하는 것과 관여되었다는 첩보를 폭로하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "name",
-                        "span": {
-                            "begin": 38,
-                            "end": 46
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6933,
+                    "sent_id": 1446,
+                    "frameName": "Participation",
+                    "ko_annotation_id": 16094,
+                    "origin_lus": [
+                        "involved"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 16
+                            },
+                            "obj": "participant_1",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 47,
-                            "end": 52
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 39
+                            },
+                            "obj": "event",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Being_named",
-                "origin_lus": [
-                    "called"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1476,
-                "sent_id": 271
-            }
+                        {
+                            "span": {
+                                "begin": 41,
+                                "end": 47
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16094"
         }
     ],
-    "frameID": 228,
-    "en_lu": [
-        "call"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Being_named"
+    "frameName": "Participation",
+    "lu_id": 4737,
+    "frameID": 1144,
+    "ko_lu": "관여되다.v.Participation",
+    "en_lus": [
+        "involve"
+    ]
 }

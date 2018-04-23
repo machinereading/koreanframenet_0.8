@@ -1,48 +1,52 @@
 {
-    "ko_lu": "막히다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 15002",
-            "examples": {
-                "ko_annotation_id": 15002,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 12,
-                            "end": 14
+            "examples": [
+                {
+                    "text": "오전 12시 38분 DAYAC : 지진이 강타했을 때 나는 나의 트럭을 몰고 있었고,  Oakland - Berkeley 접경에 있는 Shattuck과 Alcatraz 모퉁이의 신호등 빨간불에 멈추어 있었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 747,
+                    "sent_id": 124,
+                    "frameName": "Impact",
+                    "ko_annotation_id": 16619,
+                    "origin_lus": [
+                        "hit"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "obj": "impactor",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "holding_location",
-                        "span": {
-                            "begin": 15,
-                            "end": 17
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Inhibit_movement",
-                "origin_lus": [
-                    "confined"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 16990,
-                "sent_id": 3231
-            }
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16619"
         }
     ],
-    "frameID": 245,
-    "en_lu": [
-        "confine"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Inhibit_movement"
+    "frameName": "Impact",
+    "lu_id": 4817,
+    "frameID": 311,
+    "ko_lu": "강타하다.v.Impact",
+    "en_lus": [
+        "hit"
+    ]
 }

@@ -1,74 +1,100 @@
 {
-    "ko_lu": "협조.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 16874",
-            "examples": {
-                "ko_annotation_id": 16874,
-                "denotations": [
-                    {
-                        "obj": "partners",
-                        "span": {
-                            "begin": 13,
-                            "end": 17
+            "examples": [
+                {
+                    "text": "예수의 성전으로의 입장은 소란을 일으켰다 ; 유월절 만찬 후 그는 로마의 직접 통치하에 있었던 성전 제사장들에 의해 체포되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 18,
-                            "end": 20
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3556,
+                    "sent_id": 665,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 18563,
+                    "origin_lus": [
+                        "caused",
+                        "okosu .起こす "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "obj": "cause",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Collaboration",
-                "origin_lus": [
-                    "cooperation",
-                    "Cooperation"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 15945,
-                "sent_id": 3064
-            }
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "obj": "effect",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18563"
         },
         {
-            "valenceText": "annotation id: 16875",
-            "examples": {
-                "ko_annotation_id": 16875,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 17,
-                            "end": 19
+            "examples": [
+                {
+                    "text": "종종 뉴스에서는, 이슬람교 그 자체와 테러를 일으킨 그룹의 가르침은, 전혀 다르다고 보도됩니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4295,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 18564,
+                    "origin_lus": [
+                        "caused",
+                        "okosu .起こす "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "obj": "Effect"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Collaboration",
-                "origin_lus": [
-                    "cooperation",
-                    "Cooperation"
-                ],
-                "relations": [],
-                "annotation_id": 16118,
-                "sent_id": 3094
-            }
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18564"
         }
     ],
-    "frameID": 418,
-    "en_lu": [
-        "cooperation",
-        "Cooperation"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Collaboration"
+    "frameName": "Causation",
+    "lu_id": 5383,
+    "frameID": 5,
+    "ko_lu": "일으키다.v.Causation",
+    "en_lus": [
+        "cause",
+        "okosu .起こす "
+    ]
 }

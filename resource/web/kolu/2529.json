@@ -1,42 +1,51 @@
 {
-    "ko_lu": "슬프다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 7627",
-            "examples": {
-                "ko_annotation_id": 7627,
-                "denotations": [
-                    {
-                        "obj": "Experiencer",
-                        "span": {
-                            "begin": 8,
-                            "end": 12
+            "examples": [
+                {
+                    "text": "저는, 지금까지 수백 명에 달하는 사람들이 흡연을 중지하게 하는 데 성공했습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4692,
+                    "frameName": "Ingest_substance",
+                    "ko_annotation_id": 8268,
+                    "origin_lus": [
+                        "kituen .喫煙 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 22
+                            },
+                            "obj": "Ingestor"
+                        },
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "obj": "Substance"
+                        },
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "obj": "Target"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 14,
-                            "end": 16
-                        }
-                    }
-                ],
-                "frameName": "Emotion_directed",
-                "origin_lus": [
-                    "sad",
-                    "kanasii .かなしい"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3898
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8268"
         }
     ],
-    "frameID": 46,
-    "en_lu": [
-        "sad",
-        "kanasii .かなしい"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Emotion_directed"
+    "frameName": "Ingest_substance",
+    "lu_id": 2529,
+    "frameID": 386,
+    "ko_lu": "흡연.n.Ingest_substance",
+    "en_lus": [
+        "kituen .喫煙 "
+    ]
 }

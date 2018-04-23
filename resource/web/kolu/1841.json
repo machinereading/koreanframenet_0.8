@@ -1,36 +1,65 @@
 {
-    "ko_lu": "의사.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 5520",
-            "examples": {
-                "ko_annotation_id": 5520,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 3,
-                            "end": 5
+            "examples": [
+                {
+                    "text": "유엔은 쓰나미 희생자를 위한 식량 원조품을 나르는 유엔의 전세 선박을 납치한 소말리족 무장 범인들이 두 달 이상 잡아둔 후 선박을 풀어주었다고 말한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Medical_professionals",
-                "origin_lus": [
-                    "doctor",
-                    "dokutaa .ドクター "
-                ],
-                "relations": [],
-                "annotation_id": 8616,
-                "sent_id": 1774
-            }
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 17548,
+                    "sent_id": 3293,
+                    "frameName": "Bringing",
+                    "ko_annotation_id": 5764,
+                    "origin_lus": [
+                        "carrying"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 22
+                            },
+                            "obj": "theme",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 37
+                            },
+                            "obj": "carrier",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5764"
         }
     ],
-    "frameID": 255,
-    "en_lu": [
-        "doctor",
-        "dokutaa .ドクター "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Medical_professionals"
+    "frameName": "Bringing",
+    "lu_id": 1841,
+    "frameID": 240,
+    "ko_lu": "나르다.v.Bringing",
+    "en_lus": [
+        "carry"
+    ]
 }

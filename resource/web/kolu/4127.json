@@ -1,48 +1,52 @@
 {
-    "ko_lu": "주.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 12879",
-            "examples": {
-                "ko_annotation_id": 12879,
-                "denotations": [
-                    {
-                        "obj": "count",
-                        "span": {
-                            "begin": 0,
-                            "end": 1
+            "examples": [
+                {
+                    "text": "게다가, 전기 기반시설의 불충분과 오일 수익 감소는 이란으로부터 외국 공급자들의 철수와 원자력 협력의 포기에 기여하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12902,
+                    "sent_id": 2576,
+                    "frameName": "Sufficiency",
+                    "ko_annotation_id": 13802,
+                    "origin_lus": [
+                        "insufficiency"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "obj": "item",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 2,
-                            "end": 3
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Measure_duration",
-                "origin_lus": [
-                    "weeks"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4280,
-                "sent_id": 825
-            }
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13802"
         }
     ],
-    "frameID": 224,
-    "en_lu": [
-        "week"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Measure_duration"
+    "frameName": "Sufficiency",
+    "lu_id": 4127,
+    "frameID": 342,
+    "ko_lu": "불충분하다.a.Sufficiency",
+    "en_lus": [
+        "insufficiency"
+    ]
 }

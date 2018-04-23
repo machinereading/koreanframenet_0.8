@@ -1,61 +1,108 @@
 {
-    "ko_lu": "드러내다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 10537",
-            "examples": {
-                "ko_annotation_id": 10537,
-                "denotations": [
-                    {
-                        "obj": "support",
-                        "span": {
-                            "begin": 0,
-                            "end": 17
+            "examples": [
+                {
+                    "text": "중국은 약 400 기의 전략 및 전술 핵무기와 훨씬 더 큰 무기를 생산하기에 충분한 핵분열성 물질의 비축물을 가지고 있는 것으로 예상되고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "proposition",
-                        "span": {
-                            "begin": 19,
-                            "end": 53
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10355,
+                    "sent_id": 2105,
+                    "frameName": "Store",
+                    "ko_annotation_id": 11423,
+                    "origin_lus": [
+                        "stocks",
+                        "reserves"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "possessor",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 55,
-                            "end": 58
+                        {
+                            "span": {
+                                "begin": 47,
+                                "end": 54
+                            },
+                            "obj": "resource",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Evidence",
-                "origin_lus": [
-                    "revealed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13187,
-                "sent_id": 2629
-            }
+                        {
+                            "span": {
+                                "begin": 56,
+                                "end": 59
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11423"
+        },
+        {
+            "examples": [
+                {
+                    "text": "Yazd 지방의 Shghand에 상당한  우라늄 광의 비축물을 발견한데 이어, 이란은 고유 자원에만 의존하는 원자력 계획을 발전시키고 있다고 선언하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 13053,
+                    "sent_id": 2605,
+                    "frameName": "Store",
+                    "ko_annotation_id": 11424,
+                    "origin_lus": [
+                        "stocks",
+                        "reserves"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 28
+                            },
+                            "obj": "resource",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11424"
         }
     ],
-    "frameID": 25,
-    "en_lu": [
-        "reveal"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Evidence"
+    "frameName": "Store",
+    "lu_id": 3411,
+    "frameID": 1511,
+    "ko_lu": "비축물.n.Store",
+    "en_lus": [
+        "stock",
+        "reserve"
+    ]
 }

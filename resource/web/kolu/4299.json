@@ -1,50 +1,52 @@
 {
-    "ko_lu": "발전.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 13351",
-            "examples": {
-                "ko_annotation_id": 13351,
-                "denotations": [
-                    {
-                        "obj": "project",
-                        "span": {
-                            "begin": 6,
-                            "end": 9
+            "examples": [
+                {
+                    "text": "유리한 환경을 고려하면, 이란은 향후 5년 내에 사실적인 핵무기 투하 능력을 달성할 수 있을 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12121,
+                    "sent_id": 2402,
+                    "frameName": "Aggregate",
+                    "ko_annotation_id": 14524,
+                    "origin_lus": [
+                        "set"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "aggregateproperty",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 10,
-                            "end": 12
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_to_make_progress",
-                "origin_lus": [
-                    "development",
-                    "Development"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6478,
-                "sent_id": 1293
-            }
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14524"
         }
     ],
-    "frameID": 1349,
-    "en_lu": [
-        "Development",
-        "development"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Cause_to_make_progress"
+    "frameName": "Aggregate",
+    "lu_id": 4299,
+    "frameID": 103,
+    "ko_lu": "환경.n.Aggregate",
+    "en_lus": [
+        "set"
+    ]
 }

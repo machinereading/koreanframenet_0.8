@@ -1,48 +1,52 @@
 {
-    "ko_lu": "거래자.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 16940",
-            "examples": {
-                "ko_annotation_id": 16940,
-                "denotations": [
-                    {
-                        "obj": "goods",
-                        "span": {
-                            "begin": 14,
-                            "end": 16
+            "examples": [
+                {
+                    "text": "여기에는 아직도 바와 클럽들이 있으나, 그 지역은 거의 주류가 되었고, 사무실 타워들이 많은 사악한 옛 지역들을 대체하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5834,
+                    "sent_id": 1115,
+                    "frameName": "Morality_evaluation",
+                    "ko_annotation_id": 18644,
+                    "origin_lus": [
+                        "sinful"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 52,
+                                "end": 55
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 17,
-                            "end": 20
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Commerce_scenario",
-                "origin_lus": [
-                    "traffickers"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9521,
-                "sent_id": 1971
-            }
+                        {
+                            "span": {
+                                "begin": 56,
+                                "end": 61
+                            },
+                            "obj": "evaluee",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18644"
         }
     ],
-    "frameID": 82,
-    "en_lu": [
-        "trafficker"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Commerce_scenario"
+    "frameName": "Morality_evaluation",
+    "lu_id": 5413,
+    "frameID": 370,
+    "ko_lu": "사악하다.a.Morality_evaluation",
+    "en_lus": [
+        "sinful"
+    ]
 }

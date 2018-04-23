@@ -1,61 +1,37 @@
 {
-    "ko_lu": "공급하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 11615",
-            "examples": {
-                "ko_annotation_id": 11615,
-                "denotations": [
-                    {
-                        "obj": "ingestor",
-                        "span": {
-                            "begin": 59,
-                            "end": 71
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 73,
-                            "end": 80
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "ingestibles",
-                        "span": {
-                            "begin": 81,
-                            "end": 101
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Ingestion",
-                "origin_lus": [
-                    "feed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14287,
-                "sent_id": 2815
-            }
+            "examples": [
+                {
+                    "text": "물건을 고르다가, 저도 모르는 사이에 예산을 초과해서 사버렸다면 누구라도 찜찜할 것입니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4449,
+                    "frameName": "Commerce_scenario",
+                    "ko_annotation_id": 12549,
+                    "origin_lus": [
+                        "yosan .予算 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12549"
         }
     ],
-    "frameID": 263,
-    "en_lu": [
-        "feed"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Ingestion"
+    "frameName": "Commerce_scenario",
+    "lu_id": 3719,
+    "frameID": 82,
+    "ko_lu": "예산.n.Commerce_scenario",
+    "en_lus": [
+        "yosan .予算 "
+    ]
 }

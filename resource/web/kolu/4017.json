@@ -1,48 +1,107 @@
 {
-    "ko_lu": "방해.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 12561",
-            "examples": {
-                "ko_annotation_id": 12561,
-                "denotations": [
-                    {
-                        "obj": "ctrlr",
-                        "span": {
-                            "begin": 26,
-                            "end": 27
+            "examples": [
+                {
+                    "text": "이곳 기후는 \" 변덕스러운 \" 으로 가장 잘 묘사될 수 있고 그러나 밝음에서 어두움으로, 맑은 날씨에서 소나기로의 갑작스런 변화는 이 도시 매력의 한 부분이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 36,
-                            "end": 38
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5060,
+                    "sent_id": 973,
+                    "frameName": "Change_position_on_a_scale",
+                    "ko_annotation_id": 13495,
+                    "origin_lus": [
+                        "shifts",
+                        "shift"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 38
+                            },
+                            "obj": "initial_state",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Hindering",
-                "origin_lus": [
-                    "obstructions"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8446,
-                "sent_id": 1732
-            }
+                        {
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "obj": "final_state",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 67,
+                                "end": 69
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13495"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그래서 Gates의 이미지 변화는 내가 주시하는 흥미로운 것이었다",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2466,
+                    "sent_id": 470,
+                    "frameName": "Change_position_on_a_scale",
+                    "ko_annotation_id": 13496,
+                    "origin_lus": [
+                        "shifts",
+                        "shift"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 17
+                            },
+                            "obj": "attribute",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13496"
         }
     ],
-    "frameID": 480,
-    "en_lu": [
-        "obstruction"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Hindering"
+    "frameName": "Change_position_on_a_scale",
+    "lu_id": 4017,
+    "frameID": 91,
+    "ko_lu": "변화.n.Change_position_on_a_scale",
+    "en_lus": [
+        "shift"
+    ]
 }

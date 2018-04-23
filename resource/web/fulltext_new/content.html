@@ -1,0 +1,123 @@
+<HTML>
+	<HEAD> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	</HEAD>
+
+	<BODY> 
+
+	    <script language="JavaScript">
+			<!--   
+		  
+		  		var textsPerFile = 200;
+
+				$.ajaxSetup({
+                    async: false
+                });
+
+				var index = 0;
+				var pos = 7;
+				while (true) {
+					var chr = top.frames['content'].window.location.search[pos];
+					if (chr >= '0' && chr <='9') {
+						index = index*10 + parseInt(chr);
+					}
+					else {
+						break;
+					}
+					pos += 1;
+				} 
+
+				/*
+				if (top.window.location.href.includes('index=')) {
+					var pos = top.window.location.href.indexOf('index=') + 6;
+					index = 0;
+					while (true) {
+						var chr = top.window.location.href[pos];
+						if (chr >= '0' && chr <='9') {
+							index = index*10 + parseInt(chr);
+						}
+						else {
+							break;
+						}
+						pos += 1;
+					}
+				}
+				*/
+
+				sent_index = index
+				index = parseInt(index/200) + 1
+				if (index <1 || index > 26) {
+					index = 1;
+				}
+
+				var currentFile = window.location.pathname;
+                var dir = currentFile.substring(0, currentFile.lastIndexOf('content.'));
+                var data = $.getJSON(dir + "KO__fulltext" + index + ".json").responseText;
+	            var myJSON = JSON.parse(data);
+	            var innerHTML = ""; 
+
+				innerHTML += "<div style=\"float:right;\"><a href=\'http://framenet.kaist.ac.kr/frameIndex.xml?banner=\' target=_parent>" + "Frame Index" +  "</a></div>"
+
+				innerHTML += "<div style=\"float:right;\">&nbsp;&nbsp;</div>"
+				//innerHTML += "<div style=\"float:right;\"><a href=\'http://framenet.kaist.ac.kr/luIndex.xml?banner=\'>" + "Lexical Unit Index" +  "</a></div>"
+				innerHTML += "<h1><b>" + 'KO - fulltext ' + index + "</b></h1><br />";
+
+	            innerHTML += '<font size=3>';
+	            for (var i=0; i<myJSON.length; i++) {
+	            	innerHTML += '<h id="' + (index*200+i+1-200)  + '"> <b>' + (i+1+textsPerFile*(index-1)) + '. </b>' + highlightedSent(myJSON[i].kor, i, myJSON[i]['text']) + '</div><br /> <br />';
+	            }
+	            innerHTML += '</font>';
+
+	            top.fulltext = myJSON;
+ 
+ 
+
+	            function highlightedSent(frames, sentNum, text) {
+	            	if (frames.length == 0) {
+	            		return;
+	            	}
+
+	            	var highlights = new Array();
+	            	for (var i=0; i<frames.length; i++) {
+		           		highlights.push(frames[i].target);
+	            		highlights[i].index = i;
+	            	}
+
+
+	            	var temp, highlights2 = new Array();
+	            	for (var i=0; i<highlights.length; i++) {
+	            		for (var j=i+1; j<highlights.length; j++) {
+	            			if (highlights[i].begin > highlights[j].begin) {
+	            				temp = highlights[i];
+	            				highlights[i] = highlights[j];
+	            				highlights[j] = temp;
+	            			}
+	            		}
+	            	}
+	            	for (var i=0; i<highlights.length-1; i++) {
+	            		if (highlights[i].end > highlights[i+1].begin) {
+	            		}
+	            		else {
+	            			highlights2.push(highlights[i]);
+	            		}
+	            	}
+	            	highlights2.push(highlights[highlights.length-1]);
+
+	            	highlights = highlights2;
+
+	            	for (var i=highlights.length-1; i>=0; i--) {
+	            		var highlight = highlights[i];
+	            		text = text.substring(0, highlight.begin) + "<a href=\"javascript:top.frames['content']['pubannotation'].visualize(" + sentNum + ',' + highlight.index + ")\">" +  text.substring(highlight.begin, highlight.end) + '</a>' + text.substring(highlight.end);
+ 
+	            	}
+	            	return text;
+	            }
+				document.body.innerHTML = innerHTML; 
+				console.log(sent_index);
+				if (sent_index != index*200-199) 	
+					document.location.href = "http://framenet.kaist.ac.kr/fulltext_new/content.html#" + sent_index
+			// -->
+		</script>
+	</BDOY>
+</HTML>

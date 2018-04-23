@@ -1,61 +1,44 @@
 {
-    "ko_lu": "관계.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 5400",
-            "examples": {
-                "ko_annotation_id": 5400,
-                "denotations": [
-                    {
-                        "obj": "concept_1",
-                        "span": {
-                            "begin": 0,
-                            "end": 16
+            "examples": [
+                {
+                    "text": "하지만, 이것은 와세다대학만의 문제가 아니며, 각 대학 산악부나 반더포겔부 등은 신입 부원이 없어, 대가 끊길 위기에 처해있다고 한다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3565,
+                    "frameName": "Age",
+                    "ko_annotation_id": 5639,
+                    "origin_lus": [
+                        "sinnyuu .新入"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 48,
+                                "end": 50
+                            },
+                            "obj": "Entity"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "concept_2",
-                        "span": {
-                            "begin": 18,
-                            "end": 31
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 34,
-                            "end": 36
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Make_cognitive_connection",
-                "origin_lus": [
-                    "tie"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17164,
-                "sent_id": 3247
-            }
+                        {
+                            "span": {
+                                "begin": 45,
+                                "end": 47
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5639"
         }
     ],
-    "frameID": 252,
-    "en_lu": [
-        "tie"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Make_cognitive_connection"
+    "frameName": "Age",
+    "lu_id": 1809,
+    "frameID": 972,
+    "ko_lu": "신입.n.Age",
+    "en_lus": [
+        "sinnyuu .新入"
+    ]
 }

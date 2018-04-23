@@ -1,48 +1,52 @@
 {
-    "ko_lu": "부착되다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 8314",
-            "examples": {
-                "ko_annotation_id": 8314,
-                "denotations": [
-                    {
-                        "obj": "goal",
-                        "span": {
-                            "begin": 11,
-                            "end": 13
+            "examples": [
+                {
+                    "text": "단 두 달 후에, 조선 노동당 중앙위원회는 군대를 강화하고 무기 수입 의존을 감소시키도록 수입 대체 프로그램을 시행하기 위한 정책을 채택하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14998,
+                    "sent_id": 2923,
+                    "frameName": "Reliance",
+                    "ko_annotation_id": 8729,
+                    "origin_lus": [
+                        "dependency"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 38
+                            },
+                            "obj": "means",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 15,
-                            "end": 18
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Attaching",
-                "origin_lus": [
-                    "mounted"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 259,
-                "sent_id": 38
-            }
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 41
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8729"
         }
     ],
-    "frameID": 197,
-    "en_lu": [
-        "mount"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Attaching"
+    "frameName": "Reliance",
+    "lu_id": 2710,
+    "frameID": 901,
+    "ko_lu": "의존.n.Reliance",
+    "en_lus": [
+        "dependency"
+    ]
 }

@@ -1,74 +1,87 @@
 {
-    "ko_lu": "알다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 16003",
-            "examples": {
-                "ko_annotation_id": 16003,
-                "denotations": [
-                    {
-                        "obj": "perceiver",
-                        "span": {
-                            "begin": 30,
-                            "end": 32
+            "examples": [
+                {
+                    "text": "이란의 반대 단체에 따르면, Naanz에 있는 우라늄 농축시설과 Arak 인근의 중수 생산 공장인 두 곳은 위장 회사의 자금지원을 받았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11830,
+                    "sent_id": 2350,
+                    "frameName": "Locale_by_use",
+                    "ko_annotation_id": 17702,
+                    "origin_lus": [
+                        "sites",
+                        "basyo .場所 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 54
+                            },
+                            "obj": "locale",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "sought_entity",
-                        "span": {
-                            "begin": 34,
-                            "end": 36
+                        {
+                            "span": {
+                                "begin": 57,
+                                "end": 58
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17702"
+        },
+        {
+            "examples": [
+                {
+                    "text": "많은 배가 드나들었고, 일본처럼 일정 국가 이외에 문호를 개방하지 않았던 조선에서 수도 한성에 뒤지지 않는 중요한 곳이었다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4188,
+                    "frameName": "Locale_by_use",
+                    "ko_annotation_id": 17703,
+                    "origin_lus": [
+                        "sites",
+                        "basyo .場所 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 64,
+                                "end": 65
+                            },
+                            "obj": "Locale"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "location",
-                        "span": {
-                            "begin": 38,
-                            "end": 51
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 53,
-                            "end": 57
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Locating",
-                "origin_lus": [
-                    "find"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6061,
-                "sent_id": 1156
-            }
+                        {
+                            "span": {
+                                "begin": 64,
+                                "end": 65
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17703"
         }
     ],
-    "frameID": 792,
-    "en_lu": [
-        "find"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Locating"
+    "frameName": "Locale_by_use",
+    "lu_id": 5148,
+    "frameID": 196,
+    "ko_lu": "곳.n.Locale_by_use",
+    "en_lus": [
+        "site",
+        "basyo .場所 "
+    ]
 }

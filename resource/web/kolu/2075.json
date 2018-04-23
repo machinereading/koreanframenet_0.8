@@ -1,61 +1,65 @@
 {
-    "ko_lu": "행사.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 6186",
-            "examples": {
-                "ko_annotation_id": 6186,
-                "denotations": [
-                    {
-                        "obj": "occasion",
-                        "span": {
-                            "begin": 55,
-                            "end": 67
+            "examples": [
+                {
+                    "text": "대량 살상 공격은 정부 당국으로 하여금 매우 공격적으로 테러리스트를 찾도록 자극하여 그들은 결국 살아있는 조직으로서는 파멸될 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "frequency",
-                        "span": {
-                            "begin": 55,
-                            "end": 57
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10093,
+                    "sent_id": 2059,
+                    "frameName": "Cause_to_start",
+                    "ko_annotation_id": 6531,
+                    "origin_lus": [
+                        "provoke"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "obj": "cause",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 68,
-                            "end": 70
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 72
+                            },
+                            "obj": "effect",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Social_event",
-                "origin_lus": [
-                    "celebration"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7486,
-                "sent_id": 1545
-            }
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6531"
         }
     ],
-    "frameID": 125,
-    "en_lu": [
-        "celebration"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Social_event"
+    "frameName": "Cause_to_start",
+    "lu_id": 2075,
+    "frameID": 381,
+    "ko_lu": "자극하다.v.Cause_to_start",
+    "en_lus": [
+        "provoke"
+    ]
 }

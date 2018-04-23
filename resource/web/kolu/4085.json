@@ -1,61 +1,87 @@
 {
-    "ko_lu": "중점.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 12717",
-            "examples": {
-                "ko_annotation_id": 12717,
-                "denotations": [
-                    {
-                        "obj": "artifact",
-                        "span": {
-                            "begin": 0,
-                            "end": 9
+            "examples": [
+                {
+                    "text": "이 소개 장에서는 화학 생물전을 정의하고, 어떤 유형의 테러리스트 단체가 이와 같은 공격을 수행할 것인가를 탐색하고,D4518 요약한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9747,
+                    "sent_id": 2011,
+                    "frameName": "Summarizing",
+                    "ko_annotation_id": 13668,
+                    "origin_lus": [
+                        "summarizes",
+                        "yooyaku .要約 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "obj": "medium",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "consideration",
-                        "span": {
-                            "begin": 11,
-                            "end": 135
+                        {
+                            "span": {
+                                "begin": 71,
+                                "end": 74
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13668"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그 주장은 다음과 같이 요약할 수 있을 것이다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4834,
+                    "frameName": "Summarizing",
+                    "ko_annotation_id": 13669,
+                    "origin_lus": [
+                        "summarizes",
+                        "yooyaku .要約 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "obj": "State_of_affairs"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 137,
-                            "end": 142
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Place_weight_on",
-                "origin_lus": [
-                    "focus"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9765,
-                "sent_id": 2012
-            }
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13669"
         }
     ],
-    "frameID": 1542,
-    "en_lu": [
-        "focus"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Emphasizing"
+    "frameName": "Summarizing",
+    "lu_id": 4085,
+    "frameID": 1722,
+    "ko_lu": "요약하다.v.Summarizing",
+    "en_lus": [
+        "summarizes",
+        "yooyaku .要約 "
+    ]
 }

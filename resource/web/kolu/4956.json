@@ -1,100 +1,52 @@
 {
-    "ko_lu": "떠나다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 15462",
-            "examples": {
-                "ko_annotation_id": 15462,
-                "denotations": [
-                    {
-                        "obj": "reason",
-                        "span": {
-                            "begin": 3,
-                            "end": 13
+            "examples": [
+                {
+                    "text": "당신이 친구들 사이의 담소를 우연히 듣게 될 때 알아챌지 모르나 그들은 서로와의 교제에서 매우 직선적이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4756,
+                    "sent_id": 920,
+                    "frameName": "Aggregate",
+                    "ko_annotation_id": 16983,
+                    "origin_lus": [
+                        "group"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "obj": "individuals",
+                            "id": "2"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "employer",
-                        "span": {
-                            "begin": 14,
-                            "end": 19
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 21,
-                            "end": 23
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "employee",
-                        "span": {
-                            "begin": 30,
-                            "end": 32
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Quitting",
-                "origin_lus": [
-                    "leave",
-                    "leaves"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8137,
-                "sent_id": 1659
-            }
-        },
-        {
-            "valenceText": "annotation id: 15463",
-            "examples": {
-                "ko_annotation_id": 15463,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 31,
-                            "end": 33
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Quitting",
-                "origin_lus": [
-                    "leave",
-                    "leaves"
-                ],
-                "relations": [],
-                "annotation_id": 2078,
-                "sent_id": 384
-            }
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16983"
         }
     ],
-    "frameID": 325,
-    "en_lu": [
-        "leaf",
-        "leave"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Quitting"
+    "frameName": "Aggregate",
+    "lu_id": 4956,
+    "frameID": 103,
+    "ko_lu": "친구.n.Aggregate",
+    "en_lus": [
+        "group"
+    ]
 }

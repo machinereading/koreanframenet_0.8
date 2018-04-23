@@ -1,48 +1,92 @@
 {
-    "ko_lu": "끝나다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 6199",
-            "examples": {
-                "ko_annotation_id": 6199,
-                "denotations": [
-                    {
-                        "obj": "process",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 4,
-                            "end": 10
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Process_completed_state",
-                "origin_lus": [
-                    "over"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 913,
-                "sent_id": 159
-            }
+            "examples": [
+                {
+                    "text": "마천루가 건설될 수 있기 전에, 장소와 건물이 건강, 조화, 그리고 번영의 향상을 보장하도록 풍수 ( 페이지 68 참조 ) 조사가 이루어져야 한다.",
+                    "relations": [],
+                    "annotation_id": 4554,
+                    "sent_id": 877,
+                    "frameName": "Medical_conditions",
+                    "ko_annotation_id": 6565,
+                    "origin_lus": [
+                        "health",
+                        "kenkoo .健康 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6565"
+        },
+        {
+            "examples": [
+                {
+                    "text": "통상적으로, 자연주택 또는 건강주택을 부르짖는 회사는, 비용이 비싸거나, 디자인 감각이 떨어져, 선뜻 결정하기 힘이 든데, 종합적으로 보았을 때 월등해, 정말이지 고민스럽습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4938,
+                    "frameName": "Medical_conditions",
+                    "ko_annotation_id": 6566,
+                    "origin_lus": [
+                        "health",
+                        "kenkoo .健康 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6566"
+        },
+        {
+            "examples": [
+                {
+                    "text": "나 같은 사람은, 일요일에 친구와 테니스나 골프를 치고 있어도, 건강상담이라면 눈이 번쩍 뜨입니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3758,
+                    "frameName": "Medical_conditions",
+                    "ko_annotation_id": 6567,
+                    "origin_lus": [
+                        "health",
+                        "kenkoo .健康 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 38
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6567"
         }
     ],
-    "frameID": 234,
-    "en_lu": [
-        "over"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Process_completed_state"
+    "frameName": "Medical_conditions",
+    "lu_id": 2085,
+    "frameID": 239,
+    "ko_lu": "건강.n.Medical_conditions",
+    "en_lus": [
+        "kenkoo .健康 ",
+        "health"
+    ]
 }

@@ -1,61 +1,44 @@
 {
-    "ko_lu": "조.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 10880",
-            "examples": {
-                "ko_annotation_id": 10880,
-                "denotations": [
-                    {
-                        "obj": "inspector",
-                        "span": {
-                            "begin": 43,
-                            "end": 52
+            "examples": [
+                {
+                    "text": "대부분의 사람이, 이 건물을 보면 적어도 평당 단가 70만엔 이상으로 예측할 것이라 생각합니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4189,
+                    "frameName": "Commerce_scenario",
+                    "ko_annotation_id": 11749,
+                    "origin_lus": [
+                        "tanka .単価 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 36
+                            },
+                            "obj": "Money"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 53,
-                            "end": 57
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "ground",
-                        "span": {
-                            "begin": 85,
-                            "end": 98
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Inspecting",
-                "origin_lus": [
-                    "inspections"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11396,
-                "sent_id": 2274
-            }
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11749"
         }
     ],
-    "frameID": 1262,
-    "en_lu": [
-        "inspection"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Inspecting"
+    "frameName": "Commerce_scenario",
+    "lu_id": 3493,
+    "frameID": 82,
+    "ko_lu": "단가.n.Commerce_scenario",
+    "en_lus": [
+        "tanka .単価 "
+    ]
 }

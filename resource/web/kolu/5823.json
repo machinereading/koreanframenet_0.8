@@ -1,87 +1,52 @@
 {
-    "ko_lu": "해군.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 18234",
-            "examples": {
-                "ko_annotation_id": 18234,
-                "denotations": [
-                    {
-                        "obj": "possessor",
-                        "span": {
-                            "begin": 11,
-                            "end": 17
+            "examples": [
+                {
+                    "text": "FDA의 미국 희귀의약품법은 회사들이 희귀 질병과 장애 치료를 위한 안전하고 효율적인 치료제를 개발하도록 지원하고 격려하는 것을 목적으로 한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16847,
+                    "sent_id": 3212,
+                    "frameName": "Cure",
+                    "ko_annotation_id": 20016,
+                    "origin_lus": [
+                        "therapies"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 37
+                            },
+                            "obj": "affliction",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "domain",
-                        "span": {
-                            "begin": 18,
-                            "end": 20
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 18,
-                            "end": 20
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Military",
-                "origin_lus": [
-                    "forces",
-                    "naval"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14392,
-                "sent_id": 2834
-            }
-        },
-        {
-            "valenceText": "annotation id: 18235",
-            "examples": {
-                "ko_annotation_id": 18235,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 18,
-                            "end": 20
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Military",
-                "origin_lus": [
-                    "forces",
-                    "naval"
-                ],
-                "relations": [],
-                "annotation_id": 14392,
-                "sent_id": 2834
-            }
+                        {
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20016"
         }
     ],
-    "frameID": 1514,
-    "en_lu": [
-        "force",
-        "naval"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Military"
+    "frameName": "Cure",
+    "lu_id": 5823,
+    "frameID": 50,
+    "ko_lu": "치료제.n.Cure",
+    "en_lus": [
+        "therapy"
+    ]
 }

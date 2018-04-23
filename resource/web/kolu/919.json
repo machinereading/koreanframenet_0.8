@@ -1,61 +1,119 @@
 {
-    "ko_lu": "믿다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 2677",
-            "examples": {
-                "ko_annotation_id": 2677,
-                "denotations": [
-                    {
-                        "obj": "cognizer",
-                        "span": {
-                            "begin": 8,
-                            "end": 19
+            "examples": [
+                {
+                    "text": "그러나, 혁명 후 테헤란에서 발견된 밝혀진 문서에 의하면, 1970년대 말에 이란과 이스라엘은 이란이 사용하기 위해 핵무기를 장착할 수 있는 이스라엘의 지대지 Jericho 미사일을 개조하기 위한 계획을 논의하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 21,
-                            "end": 25
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12873,
+                    "sent_id": 2571,
+                    "frameName": "Cause_change",
+                    "ko_annotation_id": 2714,
+                    "origin_lus": [
+                        "modify"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 53,
+                                "end": 64
+                            },
+                            "obj": "purpose",
+                            "id": "3"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "opinion",
-                        "span": {
-                            "begin": 27,
-                            "end": 86
+                        {
+                            "span": {
+                                "begin": 79,
+                                "end": 100
+                            },
+                            "obj": "entity",
+                            "id": "2"
                         },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Opinion",
-                "origin_lus": [
-                    "belief"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17312,
-                "sent_id": 3267
-            }
+                        {
+                            "span": {
+                                "begin": 102,
+                                "end": 105
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2714"
+        },
+        {
+            "examples": [
+                {
+                    "text": "Investigaciones Aplicadas ( Invap ) 는 93% 농축 우라늄을 얻기 위해 미국이 설계한, 심을 개조할 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 18003,
+                    "sent_id": 3403,
+                    "frameName": "Cause_change",
+                    "ko_annotation_id": 12599,
+                    "origin_lus": [
+                        "modify"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 35
+                            },
+                            "obj": "agent",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 38,
+                                "end": 66
+                            },
+                            "obj": "entity",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 68,
+                                "end": 71
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12599"
         }
     ],
-    "frameID": 1412,
-    "en_lu": [
-        "belief"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Opinion"
+    "frameName": "Cause_change",
+    "lu_id": 919,
+    "frameID": 683,
+    "ko_lu": "개조하다.v.Cause_change",
+    "en_lus": [
+        "modify",
+        "modify"
+    ]
 }

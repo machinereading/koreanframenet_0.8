@@ -1,48 +1,52 @@
 {
-    "ko_lu": "토론하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 254",
-            "examples": {
-                "ko_annotation_id": 254,
-                "denotations": [
-                    {
-                        "obj": "interlocutor_1",
-                        "span": {
-                            "begin": 0,
-                            "end": 6
+            "examples": [
+                {
+                    "text": "부시 대통령은 페루 대통령 Baroc와 볼리비아의 Jaime Paz Zamora 대통령과 토론하기 위해 90일 이내에 만나기로 합의하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9687,
+                    "sent_id": 2002,
+                    "frameName": "Discussion",
+                    "ko_annotation_id": 254,
+                    "origin_lus": [
+                        "discuss"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "obj": "interlocutor_1",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 50,
-                            "end": 53
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Discussion",
-                "origin_lus": [
-                    "discuss"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9687,
-                "sent_id": 2002
-            }
+                        {
+                            "span": {
+                                "begin": 50,
+                                "end": 53
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 254"
         }
     ],
+    "frameName": "Discussion",
+    "lu_id": 91,
     "frameID": 34,
-    "en_lu": [
+    "ko_lu": "토론하다.v.Discussion",
+    "en_lus": [
         "discus"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Discussion"
+    ]
 }

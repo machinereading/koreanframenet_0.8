@@ -1,61 +1,52 @@
 {
-    "ko_lu": "불러오다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 9072",
-            "examples": {
-                "ko_annotation_id": 9072,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "MNSR은 핵 분석을 위한 중성자, 산업용을 위한 동위 원소, 그리고 훈련 목적의 방사성 동위 원소를 생산하기 위한 능력을 시리아에 제공하였으나, 무기 생산에는 부적합하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16077,
+                    "sent_id": 3087,
+                    "frameName": "Purpose",
+                    "ko_annotation_id": 9677,
+                    "origin_lus": [
+                        "applications"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "obj": "domain",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 10,
-                            "end": 27
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 29,
-                            "end": 32
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Bringing",
-                "origin_lus": [
-                    "brought"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4958,
-                "sent_id": 954
-            }
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9677"
         }
     ],
-    "frameID": 240,
-    "en_lu": [
-        "brought"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Bringing"
+    "frameName": "Purpose",
+    "lu_id": 2988,
+    "frameID": 513,
+    "ko_lu": "산업용.n.Purpose",
+    "en_lus": [
+        "application"
+    ]
 }

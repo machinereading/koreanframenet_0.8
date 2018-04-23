@@ -1,47 +1,65 @@
 {
-    "ko_lu": "보충수.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 5633",
-            "examples": {
-                "ko_annotation_id": 5633,
-                "denotations": [
-                    {
-                        "obj": "Attribute",
-                        "span": {
-                            "begin": 23,
-                            "end": 29
+            "examples": [
+                {
+                    "text": "QN : 그는 바로 비행기를 타고 파리로 비행할 수 있나 ?",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Numbers",
-                        "span": {
-                            "begin": 26,
-                            "end": 29
+                    ],
+                    "annotation_id": 6173,
+                    "sent_id": 1191,
+                    "frameName": "Ride_vehicle",
+                    "ko_annotation_id": 5902,
+                    "origin_lus": [
+                        "fly"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 6
+                            },
+                            "obj": "theme",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "obj": "goal",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 26,
-                            "end": 29
-                        }
-                    }
-                ],
-                "frameName": "Amounting_to",
-                "origin_lus": [
-                    "kazu .数 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4550
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5902"
         }
     ],
-    "frameID": 602,
-    "en_lu": [
-        "kazu .数 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Amounting_to"
+    "frameName": "Ride_vehicle",
+    "lu_id": 1885,
+    "frameID": 690,
+    "ko_lu": "비행하다.v.Ride_vehicle",
+    "en_lus": [
+        "fly"
+    ]
 }

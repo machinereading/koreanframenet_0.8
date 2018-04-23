@@ -1,47 +1,81 @@
 {
-    "ko_lu": "참배하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 15727",
-            "examples": {
-                "ko_annotation_id": 15727,
-                "denotations": [
-                    {
-                        "obj": "Agent",
-                        "span": {
-                            "begin": 0,
-                            "end": 6
+            "examples": [
+                {
+                    "text": "주택은 부족하고 공공 서비스는 -- 법정 시스템, 학교, 우편 서비스, 전화 연결망 그리고 고속도로 --  수치스러운 상태에 있다.",
+                    "relations": [],
+                    "annotation_id": 548,
+                    "sent_id": 81,
+                    "frameName": "Roadways",
+                    "ko_annotation_id": 17431,
+                    "origin_lus": [
+                        "highways",
+                        "Highway"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 51,
+                                "end": 54
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Entity",
-                        "span": {
-                            "begin": 9,
-                            "end": 11
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17431"
+        },
+        {
+            "examples": [
+                {
+                    "text": "1930년대와 1940년대 초에 많은 도박장들이 Downtown에 개점된데 반해, 궁극적으로 Strip이 된 옛날 로스앤젤레스 고속도로 지역에 단 두 곳이 건설되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 13,
-                            "end": 16
+                    ],
+                    "annotation_id": 4202,
+                    "sent_id": 802,
+                    "frameName": "Roadways",
+                    "ko_annotation_id": 17432,
+                    "origin_lus": [
+                        "highways",
+                        "Highway"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 64,
+                                "end": 70
+                            },
+                            "obj": "name",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 71,
+                                "end": 74
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Visiting",
-                "origin_lus": [
-                    "mairu .まいる "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4304
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17432"
         }
     ],
-    "frameID": 1911,
-    "en_lu": [
-        "mairu .まいる "
-    ],
-    "ko_pos": "VV",
-    "frameName": "Visiting"
+    "frameName": "Roadways",
+    "lu_id": 5052,
+    "frameID": 203,
+    "ko_lu": "고속도.n.Roadways",
+    "en_lus": [
+        "highway",
+        "Highway"
+    ]
 }

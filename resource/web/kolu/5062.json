@@ -1,48 +1,65 @@
 {
-    "ko_lu": "어제.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 15755",
-            "examples": {
-                "ko_annotation_id": 15755,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 84,
-                            "end": 86
+            "examples": [
+                {
+                    "text": "그러나, 분석가들은, 특히 공급 원료나 제품이 공급자 국가 (연료 생산 공장 ) 에 의해 제공되거나 이란의 총체적인 핵 프로그램 ( 우라늄 금속 실험실 ) 에 맞지 않는 여러 부품들에 대한 필요성에 의문을 제기한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "focal_occasion",
-                        "span": {
-                            "begin": 86,
-                            "end": 87
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 13372,
+                    "sent_id": 2672,
+                    "frameName": "Supply",
+                    "ko_annotation_id": 17466,
+                    "origin_lus": [
+                        "provided"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 24
+                            },
+                            "obj": "theme",
+                            "id": "2"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Relative_time",
-                "origin_lus": [
-                    "last"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9160,
-                "sent_id": 1903
-            }
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 49
+                            },
+                            "obj": "supplier",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 50,
+                                "end": 53
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17466"
         }
     ],
-    "frameID": 81,
-    "en_lu": [
-        "last"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Relative_time"
+    "frameName": "Supply",
+    "lu_id": 5062,
+    "frameID": 1346,
+    "ko_lu": "제공되다.v.Supply",
+    "en_lus": [
+        "provide"
+    ]
 }

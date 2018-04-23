@@ -1,61 +1,52 @@
 {
-    "ko_lu": "필요하다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 6892",
-            "examples": {
-                "ko_annotation_id": 6892,
-                "denotations": [
-                    {
-                        "obj": "dependent",
-                        "span": {
-                            "begin": 0,
-                            "end": 52
+            "examples": [
+                {
+                    "text": "정치적으로, 1990년대는 그리스 수상 Andreas Papndreou의 이혼과 이를 뒤 이은 그의 훨씬 더 젊은 여성과의 결혼이 보수적인 그리스 사회에서 실망을 유발시키긴 했지만, 제도가 비교적 조용한 시기였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3293,
+                    "sent_id": 616,
+                    "frameName": "Forming_relationships",
+                    "ko_annotation_id": 7332,
+                    "origin_lus": [
+                        "divorce"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 39
+                            },
+                            "obj": "partner_1",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "requirement",
-                        "span": {
-                            "begin": 55,
-                            "end": 84
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 86,
-                            "end": 89
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Have_as_requirement",
-                "origin_lus": [
-                    "requires"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14590,
-                "sent_id": 2857
-            }
+                        {
+                            "span": {
+                                "begin": 41,
+                                "end": 43
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7332"
         }
     ],
-    "frameID": 1491,
-    "en_lu": [
-        "require"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Have_as_requirement"
+    "frameName": "Forming_relationships",
+    "lu_id": 2282,
+    "frameID": 723,
+    "ko_lu": "이혼.n.Forming_relationships",
+    "en_lus": [
+        "divorce"
+    ]
 }

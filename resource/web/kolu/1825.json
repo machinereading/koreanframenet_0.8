@@ -1,61 +1,52 @@
 {
-    "ko_lu": "개발하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 5452",
-            "examples": {
-                "ko_annotation_id": 5452,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 0,
-                            "end": 16
+            "examples": [
+                {
+                    "text": "알 카에다의 목적 : 신의 종교 지지, 이슬람 규칙 수립, 그리고 신의 뜻인 이슬람 칼리프 지위 회복.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8006,
+                    "sent_id": 1636,
+                    "frameName": "Intentionally_create",
+                    "ko_annotation_id": 5717,
+                    "origin_lus": [
+                        "establishment"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 28
+                            },
+                            "obj": "created_entity",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "project",
-                        "span": {
-                            "begin": 21,
-                            "end": 30
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 32,
-                            "end": 36
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_to_make_progress",
-                "origin_lus": [
-                    "developed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9800,
-                "sent_id": 2017
-            }
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 31
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5717"
         }
     ],
-    "frameID": 1349,
-    "en_lu": [
-        "developed"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cause_to_make_progress"
+    "frameName": "Intentionally_create",
+    "lu_id": 1825,
+    "frameID": 280,
+    "ko_lu": "수립.n.Intentionally_create",
+    "en_lus": [
+        "establishment"
+    ]
 }

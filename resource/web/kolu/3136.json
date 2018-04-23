@@ -1,61 +1,100 @@
 {
-    "ko_lu": "유발시키다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 9539",
-            "examples": {
-                "ko_annotation_id": 9539,
-                "denotations": [
-                    {
-                        "obj": "cause",
-                        "span": {
-                            "begin": 15,
-                            "end": 71
+            "examples": [
+                {
+                    "text": "경사진 차도의 맨 위에는, 원래 대학 건물이었던 위풍당당한 Edward 건축물은 연구원의 더 새로운 빌딩들을 주도하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "effect",
-                        "span": {
-                            "begin": 73,
-                            "end": 89
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5740,
+                    "sent_id": 1098,
+                    "frameName": "Buildings",
+                    "ko_annotation_id": 10266,
+                    "origin_lus": [
+                        "structure",
+                        "kenzoo butu .建造 物 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 32
+                            },
+                            "obj": "descriptor",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 91,
-                            "end": 95
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 43
+                            },
+                            "obj": "type",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Causation",
-                "origin_lus": [
-                    "caused"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3299,
-                "sent_id": 616
-            }
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 43
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10266"
+        },
+        {
+            "examples": [
+                {
+                    "text": "무엇보다도 전 세계의 건축물을 수없이 봐온 나의 감성을 자극한 것은, 그 디자인 감각의 훌륭함이었습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4674,
+                    "frameName": "Buildings",
+                    "ko_annotation_id": 10267,
+                    "origin_lus": [
+                        "structure",
+                        "kenzoo butu .建造 物 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 15
+                            },
+                            "obj": "Building"
+                        },
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10267"
         }
     ],
-    "frameID": 5,
-    "en_lu": [
-        "cause"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Causation"
+    "frameName": "Buildings",
+    "lu_id": 3136,
+    "frameID": 173,
+    "ko_lu": "건축물.n.Buildings",
+    "en_lus": [
+        "kenzoo butu .建造 物 ",
+        "structure"
+    ]
 }

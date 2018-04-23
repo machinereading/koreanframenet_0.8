@@ -1,74 +1,64 @@
 {
-    "ko_lu": "판매하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 15059",
-            "examples": {
-                "ko_annotation_id": 15059,
-                "denotations": [
-                    {
-                        "obj": "seller",
-                        "span": {
-                            "begin": 0,
-                            "end": 13
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "buyer",
-                        "span": {
-                            "begin": 15,
-                            "end": 17
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "goods",
-                        "span": {
-                            "begin": 19,
-                            "end": 28
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 30,
-                            "end": 35
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Commerce_sell",
-                "origin_lus": [
-                    "sold"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18093,
-                "sent_id": 3427
-            }
+            "examples": [
+                {
+                    "text": "그럼에도 불구하고, 북한은 또한 가난에 시달리는 경제와 서민들에도 불구하고 그의 군사 능력을 부지하는데에 한결같은 역점을 보여 왔다.",
+                    "relations": [],
+                    "annotation_id": 14098,
+                    "sent_id": 2788,
+                    "frameName": "Wealthiness",
+                    "ko_annotation_id": 16622,
+                    "origin_lus": [
+                        "poverty"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16622"
+        },
+        {
+            "examples": [
+                {
+                    "text": "많은 그리스 섬사람들은 가난과 공포에서 살기보다는 떠나는 것을 선택하였으며, 많은 사람들이 미국과 오스트랄리아에서 새로운 가정을 이루었다.",
+                    "relations": [],
+                    "annotation_id": 3250,
+                    "sent_id": 609,
+                    "frameName": "Wealthiness",
+                    "ko_annotation_id": 16623,
+                    "origin_lus": [
+                        "poverty"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16623"
         }
     ],
-    "frameID": 172,
-    "en_lu": [
-        "sell"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Commerce_sell"
+    "frameName": "Wealthiness",
+    "lu_id": 4820,
+    "frameID": 85,
+    "ko_lu": "가난.n.Wealthiness",
+    "en_lus": [
+        "poverty"
+    ]
 }

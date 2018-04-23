@@ -1,48 +1,92 @@
 {
-    "ko_lu": "위하다.v",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 18454",
-            "examples": {
-                "ko_annotation_id": 18454,
-                "denotations": [
-                    {
-                        "obj": "event",
-                        "span": {
-                            "begin": 49,
-                            "end": 77
+            "examples": [
+                {
+                    "text": "보안팀이 해야 할 것 : A : 정기적인 뉴스 단신을 발간하고 모든 거주자들에게 배포하여, 그들이 안전하게 gaz와 일지를 저장하는 방법을 조언한다 B : 소방관이 언제나 경계하게 한다 C : 화재 재난일지 모르는 것을 보고한다 D : 어린이들의 장남감 안전에 대해 경고한다 E : 누구나 예방책을 갖도록 권고하고 그들의 집을 단단히 감시한다",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7964,
+                    "sent_id": 1626,
+                    "frameName": "Risky_situation",
+                    "ko_annotation_id": 20267,
+                    "origin_lus": [
+                        "safely"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 75,
-                            "end": 77
+                        {
+                            "span": {
+                                "begin": 60,
+                                "end": 73
+                            },
+                            "obj": "situation",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20267"
+        },
+        {
+            "examples": [
+                {
+                    "text": "Anniston Chemical Activity가 저장하고 있는 화학 탄약을 그들이 안전하게 파괴하는 동안 안전하게 작업하려는 그들의 노력이 나는 자랑스럽다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16907,
+                    "sent_id": 3221,
+                    "frameName": "Risky_situation",
+                    "ko_annotation_id": 20268,
+                    "origin_lus": [
+                        "safely"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 47,
+                                "end": 50
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Capability",
-                "origin_lus": [
-                    "able"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8558,
-                "sent_id": 1761
-            }
+                        {
+                            "span": {
+                                "begin": 65,
+                                "end": 77
+                            },
+                            "obj": "situation",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20268"
         }
     ],
-    "frameID": 990,
-    "en_lu": [
-        "able"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Capability"
+    "frameName": "Risky_situation",
+    "lu_id": 5898,
+    "frameID": 1762,
+    "ko_lu": "안전하다.a.Risky_situation",
+    "en_lus": [
+        "safely"
+    ]
 }

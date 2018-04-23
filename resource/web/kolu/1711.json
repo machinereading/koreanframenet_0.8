@@ -1,59 +1,65 @@
 {
-    "ko_lu": "작물.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 5121",
-            "examples": {
-                "ko_annotation_id": 5121,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 142,
-                            "end": 144
+            "examples": [
+                {
+                    "text": "10년 이상이 된 후에 전투가 종료되었어도 국가는 안정되지 않았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Aggregate",
-                "origin_lus": [
-                    "crops",
-                    "crop"
-                ],
-                "relations": [],
-                "annotation_id": 10918,
-                "sent_id": 2189
-            }
-        },
-        {
-            "valenceText": "annotation id: 5122",
-            "examples": {
-                "ko_annotation_id": 5122,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 12,
-                            "end": 14
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3221,
+                    "sent_id": 605,
+                    "frameName": "Process_stop",
+                    "ko_annotation_id": 5272,
+                    "origin_lus": [
+                        "stopped"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "obj": "time",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Aggregate",
-                "origin_lus": [
-                    "crops",
-                    "crop"
-                ],
-                "relations": [],
-                "annotation_id": 10926,
-                "sent_id": 2190
-            }
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "obj": "process",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5272"
         }
     ],
-    "frameID": 103,
-    "en_lu": [
-        "crop"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Aggregate"
+    "frameName": "Process_stop",
+    "lu_id": 1711,
+    "frameID": 144,
+    "ko_lu": "종료되다.v.Process_stop",
+    "en_lus": [
+        "stop"
+    ]
 }

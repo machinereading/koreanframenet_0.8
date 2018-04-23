@@ -1,61 +1,52 @@
 {
-    "ko_lu": "멈추다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 5343",
-            "examples": {
-                "ko_annotation_id": 5343,
-                "denotations": [
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 30,
-                            "end": 31
+            "examples": [
+                {
+                    "text": "예수는 신속히 재판에 회부되었고 일반 범죄자들은 물론이고 정치적 그리고 종교적 반대자들을 사형하는 로마의 형태인 십자가 처형 선고를 받았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3563,
+                    "sent_id": 666,
+                    "frameName": "Execution",
+                    "ko_annotation_id": 5600,
+                    "origin_lus": [
+                        "execution"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 48
+                            },
+                            "obj": "executed",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "place",
-                        "span": {
-                            "begin": 49,
-                            "end": 106
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 108,
-                            "end": 113
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Halt",
-                "origin_lus": [
-                    "stopped"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 748,
-                "sent_id": 124
-            }
+                        {
+                            "span": {
+                                "begin": 50,
+                                "end": 53
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5600"
         }
     ],
-    "frameID": 1024,
-    "en_lu": [
-        "stop"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Halt"
+    "frameName": "Execution",
+    "lu_id": 1794,
+    "frameID": 225,
+    "ko_lu": "사형하다.v.Execution",
+    "en_lus": [
+        "execution"
+    ]
 }

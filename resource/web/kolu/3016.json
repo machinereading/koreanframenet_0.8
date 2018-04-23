@@ -1,48 +1,99 @@
 {
-    "ko_lu": "탐험하다.v",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 9116",
-            "examples": {
-                "ko_annotation_id": 9116,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "1980년대 말 이후, 수포 및 신경작용제가 Rabta에서 생산되었으나, 생산률은 낮았고, 공장은 공격 위험 때문에 사용되지 않고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6666,
+                    "sent_id": 1342,
+                    "frameName": "Position_on_a_scale",
+                    "ko_annotation_id": 13200,
+                    "origin_lus": [
+                        "low"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "obj": "variable",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "ground",
-                        "span": {
-                            "begin": 13,
-                            "end": 38
+                        {
+                            "span": {
+                                "begin": 46,
+                                "end": 47
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13200"
+        },
+        {
+            "examples": [
+                {
+                    "text": "이 인물에 대해서도, 당신은 꽤나 낮은 평가를 하고 있군요.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3671,
+                    "frameName": "Position_on_a_scale",
+                    "ko_annotation_id": 9749,
+                    "origin_lus": [
+                        "hikui .低い "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "obj": "Degree"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Scrutiny",
-                "origin_lus": [
-                    "explored"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4896,
-                "sent_id": 943
-            }
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "obj": "Value"
+                        },
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 24
+                            },
+                            "obj": "Variable"
+                        },
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9749"
         }
     ],
-    "frameID": 31,
-    "en_lu": [
-        "explore"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Scrutiny"
+    "frameName": "Position_on_a_scale",
+    "lu_id": 3016,
+    "frameID": 95,
+    "ko_lu": "낮다.a.Position_on_a_scale",
+    "en_lus": [
+        "hikui .低い ",
+        "low"
+    ]
 }

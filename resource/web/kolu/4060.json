@@ -1,61 +1,131 @@
 {
-    "ko_lu": "선행하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 12642",
-            "examples": {
-                "ko_annotation_id": 12642,
-                "denotations": [
-                    {
-                        "obj": "focal_occasion",
-                        "span": {
-                            "begin": 48,
-                            "end": 69
+            "examples": [
+                {
+                    "text": "문화센터에서 Salisbury Road 바로 건너에 역사적인 반도 호텔이 있는데, 지금은 32층 타워로 확장되고 현대화 되었다.",
+                    "relations": [],
+                    "annotation_id": 6135,
+                    "sent_id": 1172,
+                    "frameName": "Cause_expansion",
+                    "ko_annotation_id": 13592,
+                    "origin_lus": [
+                        "expanded"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 58,
+                                "end": 61
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13592"
+        },
+        {
+            "examples": [
+                {
+                    "text": "많은 섬에 비행장이 건설되었고, 도로 시스템은 확장되고 향상되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3287,
+                    "sent_id": 614,
+                    "frameName": "Cause_expansion",
+                    "ko_annotation_id": 13593,
+                    "origin_lus": [
+                        "expanded"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 24
+                            },
+                            "obj": "item",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 70,
-                            "end": 73
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13593"
+        },
+        {
+            "examples": [
+                {
+                    "text": "성전 주변의 뜰은 수많은 순례자들을 위한 충분한 공간을 제공하기 위해 확장되었고, 성전산은 커다란 돌 블록들로 만들어진 벽을 유지함으로써 강화되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "landmark_occasion",
-                        "span": {
-                            "begin": 75,
-                            "end": 88
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3522,
+                    "sent_id": 657,
+                    "frameName": "Cause_expansion",
+                    "ko_annotation_id": 13594,
+                    "origin_lus": [
+                        "expanded"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "obj": "item",
+                            "id": "2"
                         },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Relative_time",
-                "origin_lus": [
-                    "preceded"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8199,
-                "sent_id": 1669
-            }
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 38
+                            },
+                            "obj": "purpose",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13594"
         }
     ],
-    "frameID": 81,
-    "en_lu": [
-        "precede"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Relative_time"
+    "frameName": "Cause_expansion",
+    "lu_id": 4060,
+    "frameID": 77,
+    "ko_lu": "확장되다.v.Cause_expansion",
+    "en_lus": [
+        "expand"
+    ]
 }

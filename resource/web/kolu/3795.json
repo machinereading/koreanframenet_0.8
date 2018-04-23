@@ -1,48 +1,52 @@
 {
-    "ko_lu": "두다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 11879",
-            "examples": {
-                "ko_annotation_id": 11879,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 16,
-                            "end": 17
+            "examples": [
+                {
+                    "text": "예를 들면, 1996년에 일본의 한 한국 교포가 북한에 식량을 지원하는 화물선을 이용하여 북한에 50 킬로그램의 플루오르화나트륨을 수출하려다 붙잡혔다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14081,
+                    "sent_id": 2783,
+                    "frameName": "Vehicle",
+                    "ko_annotation_id": 12774,
+                    "origin_lus": [
+                        "vessels"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 43
+                            },
+                            "obj": "use",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 70,
-                            "end": 77
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Cardinal_numbers",
-                "origin_lus": [
-                    "two"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3314,
-                "sent_id": 618
-            }
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 43
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12774"
         }
     ],
-    "frameID": 218,
-    "en_lu": [
-        "two"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cardinal_numbers"
+    "frameName": "Vehicle",
+    "lu_id": 3795,
+    "frameID": 429,
+    "ko_lu": "화물선.n.Vehicle",
+    "en_lus": [
+        "vessel"
+    ]
 }

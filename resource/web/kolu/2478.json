@@ -1,48 +1,111 @@
 {
-    "ko_lu": "군.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 7500",
-            "examples": {
-                "ko_annotation_id": 7500,
-                "denotations": [
-                    {
-                        "obj": "employer",
-                        "span": {
-                            "begin": 39,
-                            "end": 47
+            "examples": [
+                {
+                    "text": "이거 참 어쩌지, 하면서도 묵기에 마음이 편한 바라나시를 떠날 생각도 들지 않고, 기차표를 끊는 수고로움을 생각하니 더욱 엉덩이가 떨어지지 않아, 딱 2, 3일만 더 있자 하며 어물어물 주저앉아 버린 것이다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4804,
+                    "frameName": "Becoming",
+                    "ko_annotation_id": 8050,
+                    "origin_lus": [
+                        "naru .なる"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 37
+                            },
+                            "obj": "Final_state"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 46,
-                            "end": 47
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 40
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8050"
+        },
+        {
+            "examples": [
+                {
+                    "text": "페르시아인들은 패배하였고 아테네인들은 이에 반기를 든 섬들에 응분의 벌을 주었다 .",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "People_by_vocation",
-                "origin_lus": [
-                    "soldiers"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17294,
-                "sent_id": 3263
-            }
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2786,
+                    "sent_id": 530,
+                    "frameName": "Becoming",
+                    "ko_annotation_id": 19508,
+                    "origin_lus": [
+                        "turned"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "obj": "final_state",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 29
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "obj": "entity",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19508"
         }
     ],
-    "frameID": 1071,
-    "en_lu": [
-        "soldier"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "People_by_vocation"
+    "frameName": "Becoming",
+    "lu_id": 2478,
+    "frameID": 2971,
+    "ko_lu": "들다.v.Becoming",
+    "en_lus": [
+        "naru .なる",
+        "turn"
+    ]
 }

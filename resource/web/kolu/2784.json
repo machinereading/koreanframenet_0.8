@@ -1,61 +1,52 @@
 {
-    "ko_lu": "열다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 8513",
-            "examples": {
-                "ko_annotation_id": 8513,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 0,
-                            "end": 10
+            "examples": [
+                {
+                    "text": "대부분 기자들은 이런 이야기들을 일반 대중과 공유하기 보다는 서로서로 그리고 그들의 정보 원천과 이야기한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2438,
+                    "sent_id": 465,
+                    "frameName": "Attributed_information",
+                    "ko_annotation_id": 8993,
+                    "origin_lus": [
+                        "sources"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 43,
+                                "end": 45
+                            },
+                            "obj": "speaker",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "body_part",
-                        "span": {
-                            "begin": 12,
-                            "end": 17
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 19,
-                            "end": 20
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Body_movement",
-                "origin_lus": [
-                    "opened"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9063,
-                "sent_id": 1871
-            }
+                        {
+                            "span": {
+                                "begin": 50,
+                                "end": 52
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8993"
         }
     ],
-    "frameID": 16,
-    "en_lu": [
-        "open"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Body_movement"
+    "frameName": "Attributed_information",
+    "lu_id": 2784,
+    "frameID": 1148,
+    "ko_lu": "원천.n.Attributed_information",
+    "en_lus": [
+        "source"
+    ]
 }

@@ -1,48 +1,52 @@
 {
-    "ko_lu": "악화시키다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 12704",
-            "examples": {
-                "ko_annotation_id": 12704,
-                "denotations": [
-                    {
-                        "obj": "evaluee",
-                        "span": {
-                            "begin": 33,
-                            "end": 35
+            "examples": [
+                {
+                    "text": "소방관 책임 : 1- 소방 훈련 2- 훈련 철수 3- 확실히 하기 위해 소방 장비 감시 : A : 제자리에 위치한다 B : 파손시키지 않는다 4- 부정적인 것을 확인하기 위해 일부 테스트를 한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7955,
+                    "sent_id": 1625,
+                    "frameName": "Categorization",
+                    "ko_annotation_id": 13657,
+                    "origin_lus": [
+                        "identify"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 82,
+                                "end": 88
+                            },
+                            "obj": "item",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 56,
-                            "end": 62
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Desirability",
-                "origin_lus": [
-                    "worse"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1294,
-                "sent_id": 239
-            }
+                        {
+                            "span": {
+                                "begin": 90,
+                                "end": 93
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13657"
         }
     ],
-    "frameID": 354,
-    "en_lu": [
-        "worse"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Desirability"
+    "frameName": "Categorization",
+    "lu_id": 4080,
+    "frameID": 21,
+    "ko_lu": "확인하다.v.Categorization",
+    "en_lus": [
+        "identify"
+    ]
 }

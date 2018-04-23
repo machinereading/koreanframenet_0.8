@@ -1,61 +1,136 @@
 {
-    "ko_lu": "수도.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 947",
-            "examples": {
-                "ko_annotation_id": 947,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 43,
-                            "end": 45
+            "examples": [
+                {
+                    "text": "최소한 한 명의 다른 국회의원이 이라크를 방문하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7161,
+                    "sent_id": 1503,
+                    "frameName": "Relational_quantity",
+                    "ko_annotation_id": 953,
+                    "origin_lus": [
+                        "At least",
+                        "at least"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "event",
-                        "span": {
-                            "begin": 47,
-                            "end": 65
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 16
+                            },
+                            "obj": "individuals",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 953"
+        },
+        {
+            "examples": [
+                {
+                    "text": "과거 12년에 걸쳐서, 최소한 40 명의 기자가 거기에서 죽었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9528,
+                    "sent_id": 1972,
+                    "frameName": "Relational_quantity",
+                    "ko_annotation_id": 954,
+                    "origin_lus": [
+                        "At least",
+                        "at least"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 66,
-                            "end": 70
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 25
+                            },
+                            "obj": "individuals",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 954"
+        },
+        {
+            "examples": [
+                {
+                    "text": "흥미롭고, 신비롭고, 매력이 넘치는 - 이 말들은 최소한 1세기 동안 홍콩을 묘사해 왔다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4417,
+                    "sent_id": 852,
+                    "frameName": "Relational_quantity",
+                    "ko_annotation_id": 955,
+                    "origin_lus": [
+                        "At least",
+                        "at least"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Capability",
-                "origin_lus": [
-                    "can"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14573,
-                "sent_id": 2855
-            }
+                        {
+                            "span": {
+                                "begin": 32,
+                                "end": 35
+                            },
+                            "obj": "individuals",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 955"
         }
     ],
-    "frameID": 990,
-    "en_lu": [
-        "can"
-    ],
-    "ko_pos": "NNB",
-    "frameName": "Capability"
+    "frameName": "Relational_quantity",
+    "lu_id": 381,
+    "frameID": 2427,
+    "ko_lu": "최소한.n.Relational_quantity",
+    "en_lus": [
+        "At least",
+        "at least"
+    ]
 }

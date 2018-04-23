@@ -1,61 +1,52 @@
 {
-    "ko_lu": "전환되다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 8370",
-            "examples": {
-                "ko_annotation_id": 8370,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 0,
-                            "end": 46
+            "examples": [
+                {
+                    "text": "미국은 또한 이란과 러시아가 무엇보다 가스 원심분리기 농축 시설 건설을 명시하는 비밀 협약을 맺었다는 것을 알았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 13017,
+                    "sent_id": 2601,
+                    "frameName": "Law",
+                    "ko_annotation_id": 8793,
+                    "origin_lus": [
+                        "protocol"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 45,
+                                "end": 47
+                            },
+                            "obj": "type",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "final_category",
-                        "span": {
-                            "begin": 70,
-                            "end": 78
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 81,
-                            "end": 84
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_change",
-                "origin_lus": [
-                    "converted"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13504,
-                "sent_id": 2695
-            }
+                        {
+                            "span": {
+                                "begin": 48,
+                                "end": 50
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8793"
         }
     ],
-    "frameID": 683,
-    "en_lu": [
-        "convert"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cause_change"
+    "frameName": "Law",
+    "lu_id": 2723,
+    "frameID": 950,
+    "ko_lu": "협약.n.Law",
+    "en_lus": [
+        "protocol"
+    ]
 }

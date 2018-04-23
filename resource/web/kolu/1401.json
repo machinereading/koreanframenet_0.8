@@ -1,93 +1,52 @@
 {
-    "ko_lu": "감사하다.a",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 4164",
-            "examples": {
-                "ko_annotation_id": 4164,
-                "denotations": [
-                    {
-                        "obj": "addressee",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "reason",
-                        "span": {
-                            "begin": 0,
-                            "end": 32
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 33,
-                            "end": 36
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Judgment_direct_address",
-                "origin_lus": [
-                    "Thanks",
-                    "arigatoo .ありがとう "
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8761,
-                "sent_id": 1813
-            }
-        },
-        {
-            "valenceText": "annotation id: 4165",
-            "examples": {
-                "ko_annotation_id": 4165,
-                "denotations": [
-                    {
-                        "obj": "Addressee",
-                        "span": {
-                            "begin": 56,
-                            "end": 58
+            "examples": [
+                {
+                    "text": "러시아는 대규모 핵무기 생산 단지와 많은 무기급 핵분열성 물질을 물려받았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 25,
-                            "end": 28
+                    ],
+                    "annotation_id": 15386,
+                    "sent_id": 2988,
+                    "frameName": "Store",
+                    "ko_annotation_id": 4411,
+                    "origin_lus": [
+                        "stocks"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 34
+                            },
+                            "obj": "resource",
+                            "id": "2"
                         }
-                    }
-                ],
-                "frameName": "Judgment_direct_address",
-                "origin_lus": [
-                    "Thanks",
-                    "arigatoo .ありがとう "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4094
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4411"
         }
     ],
-    "frameID": 711,
-    "en_lu": [
-        "arigatoo .ありがとう ",
-        "Thanks"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Judgment_direct_address"
+    "frameName": "Store",
+    "lu_id": 1401,
+    "frameID": 1511,
+    "ko_lu": "많다.a.Store",
+    "en_lus": [
+        "stock"
+    ]
 }

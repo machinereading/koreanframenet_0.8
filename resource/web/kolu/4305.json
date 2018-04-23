@@ -1,48 +1,65 @@
 {
-    "ko_lu": "조.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 13386",
-            "examples": {
-                "ko_annotation_id": 13386,
-                "denotations": [
-                    {
-                        "obj": "members",
-                        "span": {
-                            "begin": 56,
-                            "end": 61
+            "examples": [
+                {
+                    "text": "예루살렘은 성장하였고 엄청난 성벽으로 둘러쌓여으며 Jaffa Gate 옆의 타워에 의해 방어되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 62,
-                            "end": 65
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3494,
+                    "sent_id": 651,
+                    "frameName": "Defend",
+                    "ko_annotation_id": 14554,
+                    "origin_lus": [
+                        "defended"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "obj": "victim",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Organization",
-                "origin_lus": [
-                    "organizations"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10136,
-                "sent_id": 2063
-            }
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 48
+                            },
+                            "obj": "defender",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 49,
+                                "end": 52
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14554"
         }
     ],
-    "frameID": 1371,
-    "en_lu": [
-        "organization"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Organization"
+    "frameName": "Defending",
+    "lu_id": 4305,
+    "frameID": 1330,
+    "ko_lu": "방어되다.v.Defending",
+    "en_lus": [
+        "defend"
+    ]
 }

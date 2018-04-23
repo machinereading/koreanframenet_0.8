@@ -1,111 +1,78 @@
 {
-    "ko_lu": "반응하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 8221",
-            "examples": {
-                "ko_annotation_id": 8221,
-                "denotations": [
-                    {
-                        "obj": "speaker",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "message",
-                        "span": {
-                            "begin": 4,
-                            "end": 20
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 23,
-                            "end": 26
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Communication_response",
-                "origin_lus": [
-                    "responded"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11901,
-                "sent_id": 2362
-            }
+            "examples": [
+                {
+                    "text": "Ed_Henry : 민주당원들은 또한 공화당의 다수에 맞서 대항할 준비가 되어 있고 그리고 이 사건들을 심지어 훨씬 더 추한 싸움에서의 개막 불꽃놀이 같이 보이도록 하는 조치로 대통령이 최근 대법관으로 Alito를 지명한데 대해 의사진행 방해까지 할 것이라고 말하고 있다.",
+                    "relations": [],
+                    "annotation_id": 8478,
+                    "sent_id": 1740,
+                    "frameName": "Event",
+                    "ko_annotation_id": 8623,
+                    "origin_lus": [
+                        "events"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 53,
+                                "end": 56
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8623"
         },
         {
-            "valenceText": "annotation id: 8222",
-            "examples": {
-                "ko_annotation_id": 8222,
-                "denotations": [
-                    {
-                        "obj": "speaker",
-                        "span": {
-                            "begin": 6,
-                            "end": 8
+            "examples": [
+                {
+                    "text": "나의 족장이여, Ramadi에서 발생한 몇몇 사건들이 여기에 있습니다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8918,
+                    "sent_id": 1852,
+                    "frameName": "Event",
+                    "ko_annotation_id": 8624,
+                    "origin_lus": [
+                        "events"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "obj": "time",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "trigger",
-                        "span": {
-                            "begin": 10,
-                            "end": 14
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 16,
-                            "end": 19
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Communication_response",
-                "origin_lus": [
-                    "responded"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11915,
-                "sent_id": 2365
-            }
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8624"
         }
     ],
-    "frameID": 42,
-    "en_lu": [
-        "respond"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Communication_response"
+    "frameName": "Event",
+    "lu_id": 2664,
+    "frameID": 187,
+    "ko_lu": "사건.n.Event",
+    "en_lus": [
+        "event"
+    ]
 }

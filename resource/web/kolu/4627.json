@@ -1,61 +1,119 @@
 {
-    "ko_lu": "신장시키다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 14405",
-            "examples": {
-                "ko_annotation_id": 14405,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 17,
-                            "end": 19
+            "examples": [
+                {
+                    "text": "이란, 인도, 중국, 리비아, 그리고 북한과 같은 국가들에 대한 러시아 미사일 기술의 수출 및 누출 보고는 러시아가 미사일 기술 통제 체제 ( MTCR ) 의 멤버로서의 의무를 위반하고 있다는 우려를 낳게 한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "attribute",
-                        "span": {
-                            "begin": 21,
-                            "end": 66
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15524,
+                    "sent_id": 3011,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 15737,
+                    "origin_lus": [
+                        "led"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 58
+                            },
+                            "obj": "cause",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 68,
-                            "end": 72
+                        {
+                            "span": {
+                                "begin": 60,
+                                "end": 110
+                            },
+                            "obj": "effect",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_change_of_position_on_a_scale",
-                "origin_lus": [
-                    "increased"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13777,
-                "sent_id": 2737
-            }
+                        {
+                            "span": {
+                                "begin": 112,
+                                "end": 116
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15737"
+        },
+        {
+            "examples": [
+                {
+                    "text": "이 공격들로 야기된 사상자와 같은 식으로 대응하지 못한 이란의 무능력은 장거리 로케트 포와 탄도 미사일 -- 특히 스커드-B를 확보하기 위한 노력을 낳았다. 이란은 또한 몇 가지 고유한 탄도 미사일과 로케트 프로그램을 수립하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12202,
+                    "sent_id": 2423,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 18481,
+                    "origin_lus": [
+                        "caused"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "obj": "cause",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "obj": "effect",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 83,
+                                "end": 84
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18481"
         }
     ],
-    "frameID": 96,
-    "en_lu": [
-        "increase"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cause_change_of_position_on_a_scale"
+    "frameName": "Causation",
+    "lu_id": 4627,
+    "frameID": 5,
+    "ko_lu": "낳다.v.Causation",
+    "en_lus": [
+        "cause",
+        "lead"
+    ]
 }

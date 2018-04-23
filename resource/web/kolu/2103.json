@@ -1,61 +1,91 @@
 {
-    "ko_lu": "제거하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 6271",
-            "examples": {
-                "ko_annotation_id": 6271,
-                "denotations": [
-                    {
-                        "obj": "destroyer",
-                        "span": {
-                            "begin": 35,
-                            "end": 38
+            "examples": [
+                {
+                    "text": "Aberdeen의 극장식 부유 식당들은 여러해 동안 관광객들의 매력을 끌어왔다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "undergoer",
-                        "span": {
-                            "begin": 79,
-                            "end": 84
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5967,
+                    "sent_id": 1135,
+                    "frameName": "Locale_by_use",
+                    "ko_annotation_id": 6621,
+                    "origin_lus": [
+                        "restaurants"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "obj": "relative_location",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 86,
-                            "end": 89
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 16
+                            },
+                            "obj": "descriptor",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Destroying",
-                "origin_lus": [
-                    "dismantled"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 15911,
-                "sent_id": 3058
-            }
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6621"
+        },
+        {
+            "examples": [
+                {
+                    "text": "Star Ferry 터미널에 인접하여는 Ocean 터미널이 있고, 이곳은 국제 유람선 부두, 그리고 거대한 Harbour City, 복합 몰, 호텔과 식당들이 있다.",
+                    "relations": [],
+                    "annotation_id": 6058,
+                    "sent_id": 1155,
+                    "frameName": "Locale_by_use",
+                    "ko_annotation_id": 6622,
+                    "origin_lus": [
+                        "restaurants"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 84,
+                                "end": 87
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6622"
         }
     ],
-    "frameID": 417,
-    "en_lu": [
-        "dismantle"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Destroying"
+    "frameName": "Locale_by_use",
+    "lu_id": 2103,
+    "frameID": 196,
+    "ko_lu": "식당.n.Locale_by_use",
+    "en_lus": [
+        "restaurant"
+    ]
 }

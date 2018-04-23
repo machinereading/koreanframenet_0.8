@@ -1,61 +1,65 @@
 {
-    "ko_lu": "전환되다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 7178",
-            "examples": {
-                "ko_annotation_id": 7178,
-                "denotations": [
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 55,
-                            "end": 62
+            "examples": [
+                {
+                    "text": "당신이 충분히 일찍 일어날 수 있다면, 넓은 지역 도매 생선 시장에서 열리는 새벽 전 경매에 참석할 수 있다 ; 그렇지 않으면, 나중에 낮에 여는 거리 시장을 보아라.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "goal",
-                        "span": {
-                            "begin": 64,
-                            "end": 69
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5974,
+                    "sent_id": 1137,
+                    "frameName": "Waking_up",
+                    "ko_annotation_id": 7588,
+                    "origin_lus": [
+                        "get up"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "sleeper",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 71,
-                            "end": 74
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "obj": "time",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Redirecting",
-                "origin_lus": [
-                    "diverted"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14222,
-                "sent_id": 2808
-            }
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7588"
         }
     ],
-    "frameID": 1530,
-    "en_lu": [
-        "divert"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Redirecting"
+    "frameName": "Waking_up",
+    "lu_id": 2369,
+    "frameID": 295,
+    "ko_lu": "일어나다.v.Waking_up",
+    "en_lus": [
+        "get up"
+    ]
 }

@@ -1,71 +1,144 @@
 {
-    "ko_lu": "패배.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 1172",
-            "examples": {
-                "ko_annotation_id": 1172,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 62,
-                            "end": 64
+            "examples": [
+                {
+                    "text": "그는 또한 방아쇠에 필요한 핵심 부품인 XYZ-11을 팔았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Beat_opponent",
-                "origin_lus": [
-                    "defeat"
-                ],
-                "relations": [],
-                "annotation_id": 1556,
-                "sent_id": 281
-            }
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6184,
+                    "sent_id": 1198,
+                    "frameName": "Part_whole",
+                    "ko_annotation_id": 1195,
+                    "origin_lus": [
+                        "part",
+                        "parts",
+                        "buhin .部品 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "obj": "part_prop",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 28
+                            },
+                            "obj": "part",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1195"
         },
         {
-            "valenceText": "annotation id: 1173",
-            "examples": {
-                "ko_annotation_id": 1173,
-                "denotations": [
-                    {
-                        "obj": "winner",
-                        "span": {
-                            "begin": 10,
-                            "end": 21
+            "examples": [
+                {
+                    "text": "2004년 4월에, 이란은 농축 프로그램을 보류하였을 뿐만 아니라 관련 부품을 생산하고 조립하는 것도 멈추었다고 부언하며, IAEA와의 협력 관계를 증진시키겠다고 맹세하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11953,
+                    "sent_id": 2370,
+                    "frameName": "Part_whole",
+                    "ko_annotation_id": 1196,
+                    "origin_lus": [
+                        "part",
+                        "parts",
+                        "buhin .部品 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 37,
+                                "end": 39
+                            },
+                            "obj": "part_prop",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 27,
-                            "end": 29
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 42
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1196"
+        },
+        {
+            "examples": [
+                {
+                    "text": "인터넷에서 알아보아도 완성된 시스템만 검색될 뿐, 개개의 부품에 관해서는 어떠한 설명도 찾을 수 없다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4475,
+                    "frameName": "Part_whole",
+                    "ko_annotation_id": 1197,
+                    "origin_lus": [
+                        "part",
+                        "parts",
+                        "buhin .部品 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "obj": "Part"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Beat_opponent",
-                "origin_lus": [
-                    "defeat"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1565,
-                "sent_id": 283
-            }
+                        {
+                            "span": {
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1197"
         }
     ],
-    "frameID": 2074,
-    "en_lu": [
-        "defeat"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Beat_opponent"
+    "frameName": "Part_whole",
+    "lu_id": 441,
+    "frameID": 140,
+    "ko_lu": "부품.n.Part_whole",
+    "en_lus": [
+        "buhin .部品 ",
+        "part"
+    ]
 }

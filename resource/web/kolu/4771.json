@@ -1,48 +1,65 @@
 {
-    "ko_lu": "희망하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 14854",
-            "examples": {
-                "ko_annotation_id": 14854,
-                "denotations": [
-                    {
-                        "obj": "event",
-                        "span": {
-                            "begin": 0,
-                            "end": 58
+            "examples": [
+                {
+                    "text": "그들은 또한 감시자나 다른 경비 순찰이 총격전에 관여 시에 여분의 화력을 제공한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 61,
-                            "end": 64
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7854,
+                    "sent_id": 1611,
+                    "frameName": "Intentionally_act",
+                    "ko_annotation_id": 16322,
+                    "origin_lus": [
+                        "engaged"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 20
+                            },
+                            "obj": "agent",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Desiring",
-                "origin_lus": [
-                    "hoped"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 491,
-                "sent_id": 74
-            }
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "obj": "act",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16322"
         }
     ],
-    "frameID": 366,
-    "en_lu": [
-        "hop"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Desiring"
+    "frameName": "Intentionally_act",
+    "lu_id": 4771,
+    "frameID": 198,
+    "ko_lu": "관여.n.Intentionally_act",
+    "en_lus": [
+        "engage"
+    ]
 }

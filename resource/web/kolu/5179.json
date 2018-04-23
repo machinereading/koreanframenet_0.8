@@ -1,61 +1,90 @@
 {
-    "ko_lu": "판매되다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 16090",
-            "examples": {
-                "ko_annotation_id": 16090,
-                "denotations": [
-                    {
-                        "obj": "goods",
-                        "span": {
-                            "begin": 5,
-                            "end": 11
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "buyer",
-                        "span": {
-                            "begin": 13,
-                            "end": 15
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 17,
-                            "end": 20
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Commerce_sell",
-                "origin_lus": [
-                    "sold"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6852,
-                "sent_id": 1405
-            }
+            "examples": [
+                {
+                    "text": "소비에트가 주도한 이 지원 기간에 이어, 북한은 화학전 분야에서 실질적인 증대를 이루었다.",
+                    "relations": [],
+                    "annotation_id": 13842,
+                    "sent_id": 2748,
+                    "frameName": "Substance",
+                    "ko_annotation_id": 17845,
+                    "origin_lus": [
+                        "chemical"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17845"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그럼에도 불구하고, 이란은 화학전 생산 기반 시설과 탄약 무기를 계속 개선하고 확장하고 있다.",
+                    "relations": [],
+                    "annotation_id": 17737,
+                    "sent_id": 3342,
+                    "frameName": "Substance",
+                    "ko_annotation_id": 17846,
+                    "origin_lus": [
+                        "chemical"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17846"
+        },
+        {
+            "examples": [
+                {
+                    "text": "중국은 이란의 화학전 프로그램을 위한 기술과 장비의 중요한 공급국이다.",
+                    "relations": [],
+                    "annotation_id": 17767,
+                    "sent_id": 3346,
+                    "frameName": "Substance",
+                    "ko_annotation_id": 17847,
+                    "origin_lus": [
+                        "chemical"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17847"
         }
     ],
-    "frameID": 172,
-    "en_lu": [
-        "sell"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Commerce_sell"
+    "frameName": "Substance",
+    "lu_id": 5179,
+    "frameID": 1321,
+    "ko_lu": "화학전.n.Substance",
+    "en_lus": [
+        "chemical"
+    ]
 }

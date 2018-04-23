@@ -1,34 +1,87 @@
 {
-    "ko_lu": "고속도로.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 8710",
-            "examples": {
-                "ko_annotation_id": 8710,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 11,
-                            "end": 15
+            "examples": [
+                {
+                    "text": "이곳은 따뜻한 햇볕, 아름다운 해변, 우거진 열대 경관, 그리고 멋진 호텔로 조금의 휴식과 기분 전환을 제공하기를 보장한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4568,
+                    "sent_id": 880,
+                    "frameName": "Weather",
+                    "ko_annotation_id": 9371,
+                    "origin_lus": [
+                        "sunshine",
+                        "hizasi .日差し "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "obj": "specification",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Roadways",
-                "origin_lus": [
-                    "highways"
-                ],
-                "relations": [],
-                "annotation_id": 7558,
-                "sent_id": 1558
-            }
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9371"
+        },
+        {
+            "examples": [
+                {
+                    "text": "질량이 느껴지는 강한 햇볕이 빌딩과 가로수에 쏟아져, 도로 위에 진한 음영을 그리고 있었다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3591,
+                    "frameName": "Weather",
+                    "ko_annotation_id": 9372,
+                    "origin_lus": [
+                        "sunshine",
+                        "hizasi .日差し "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "obj": "Specification"
+                        },
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9372"
         }
     ],
-    "frameID": 203,
-    "en_lu": [
-        "highway"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Roadways"
+    "frameName": "Weather",
+    "lu_id": 2881,
+    "frameID": 303,
+    "ko_lu": "햇볕.n.Weather",
+    "en_lus": [
+        "sunshine",
+        "hizasi .日差し "
+    ]
 }

@@ -1,87 +1,51 @@
 {
-    "ko_lu": "통지하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 17458",
-            "examples": {
-                "ko_annotation_id": 17458,
-                "denotations": [
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 0,
-                            "end": 12
+            "examples": [
+                {
+                    "text": "그런 피해를 입고 있습니다. 이 금리 정책에 의해.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4458,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 19204,
+                    "origin_lus": [
+                        "yoru .よる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "obj": "Effect"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "speaker",
-                        "span": {
-                            "begin": 14,
-                            "end": 16
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 23
+                            },
+                            "obj": "Cause"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "message",
-                        "span": {
-                            "begin": 18,
-                            "end": 58
-                        },
-                        "id": "5"
-                    },
-                    {
-                        "obj": "addressee",
-                        "span": {
-                            "begin": 61,
-                            "end": 88
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 90,
-                            "end": 93
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Telling",
-                "origin_lus": [
-                    "notified"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "5",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14688,
-                "sent_id": 2877
-            }
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19204"
         }
     ],
-    "frameID": 750,
-    "en_lu": [
-        "notify"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Telling"
+    "frameName": "Causation",
+    "lu_id": 5554,
+    "frameID": 5,
+    "ko_lu": "의하다.v.Causation",
+    "en_lus": [
+        "yoru .よる "
+    ]
 }

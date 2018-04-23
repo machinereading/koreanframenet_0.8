@@ -1,40 +1,65 @@
 {
-    "ko_lu": "반성.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 16456",
-            "examples": {
-                "ko_annotation_id": 16456,
-                "denotations": [
-                    {
-                        "obj": "Topic",
-                        "span": {
-                            "begin": 5,
-                            "end": 31
+            "examples": [
+                {
+                    "text": "소방관 책임 : 1- 소방 훈련 2- 훈련 철수 3- 확실히 하기 위해 소방 장비 감시 : A : 제자리에 위치한다 B : 파손시키지 않는다 4- 부정적인 것을 확인하기 위해 일부 테스트를 한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 32,
-                            "end": 34
+                    ],
+                    "annotation_id": 7954,
+                    "sent_id": 1625,
+                    "frameName": "Operating_a_system",
+                    "ko_annotation_id": 18063,
+                    "origin_lus": [
+                        "Run"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 106,
+                                "end": 107
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 82,
+                                "end": 97
+                            },
+                            "obj": "purpose",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 98,
+                                "end": 104
+                            },
+                            "obj": "system",
+                            "id": "2"
                         }
-                    }
-                ],
-                "frameName": "Cogitation",
-                "origin_lus": [
-                    "hansee .反省"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4357
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18063"
         }
     ],
-    "frameID": 22,
-    "en_lu": [
-        "hansee .反省"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Cogitation"
+    "frameName": "Operating_a_system",
+    "lu_id": 5247,
+    "frameID": 1495,
+    "ko_lu": "하다.a.Operating_a_system",
+    "en_lus": [
+        "Run"
+    ]
 }

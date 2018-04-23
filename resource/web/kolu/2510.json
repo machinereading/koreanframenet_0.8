@@ -1,48 +1,118 @@
 {
-    "ko_lu": "가공되다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 7589",
-            "examples": {
-                "ko_annotation_id": 7589,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 22,
-                            "end": 25
+            "examples": [
+                {
+                    "text": "이란은 지속적으로 혐의를 부인하는 것으로 반응하였으나, 또한 이스라엘의 무기류에 대응하기 위하여 핵무기를 보유할 권리를 가졌다고 하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "undergoer",
-                        "span": {
-                            "begin": 26,
-                            "end": 29
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11901,
+                    "sent_id": 2362,
+                    "frameName": "Communication_response",
+                    "ko_annotation_id": 8221,
+                    "origin_lus": [
+                        "responded"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "speaker",
+                            "id": "2"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Ground_up",
-                "origin_lus": [
-                    "milled"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14577,
-                "sent_id": 2856
-            }
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 20
+                            },
+                            "obj": "message",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8221"
+        },
+        {
+            "examples": [
+                {
+                    "text": "지금까지, 미국은 그 제의에 반응하지 않았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11915,
+                    "sent_id": 2365,
+                    "frameName": "Communication_response",
+                    "ko_annotation_id": 8222,
+                    "origin_lus": [
+                        "responded"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 8
+                            },
+                            "obj": "speaker",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "obj": "trigger",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8222"
         }
     ],
-    "frameID": 357,
-    "en_lu": [
-        "mill"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Ground_up"
+    "frameName": "Communication_response",
+    "lu_id": 2510,
+    "frameID": 42,
+    "ko_lu": "반응하다.v.Communication_response",
+    "en_lus": [
+        "respond"
+    ]
 }

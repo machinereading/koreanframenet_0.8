@@ -1,74 +1,105 @@
 {
-    "ko_lu": "강탈되다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 7059",
-            "examples": {
-                "ko_annotation_id": 7059,
-                "denotations": [
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 0,
-                            "end": 6
+            "examples": [
+                {
+                    "text": "비잔틴 영토가 분할되는 동안 바다를 통제하는 사람이 없었고, 그래서 해적들이 많은 섬들의 마을들을 습격하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 8,
-                            "end": 13
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2946,
+                    "sent_id": 560,
+                    "frameName": "Be_in_control",
+                    "ko_annotation_id": 7388,
+                    "origin_lus": [
+                        "control"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "obj": "dependent_entity",
+                            "id": "3"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "conqueror",
-                        "span": {
-                            "begin": 15,
-                            "end": 25
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 26,
-                            "end": 29
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 30
+                            },
+                            "obj": "controlling_entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7388"
+        },
+        {
+            "examples": [
+                {
+                    "text": "예루살렘은 1517년에 오스만인들에게 멸망하여 400년 동안 그들의 통제하에 머물렀다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3701,
+                    "sent_id": 702,
+                    "frameName": "Be_in_control",
+                    "ko_annotation_id": 13350,
+                    "origin_lus": [
+                        "control"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 34,
+                                "end": 36
+                            },
+                            "obj": "controlling_entity",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Conquering",
-                "origin_lus": [
-                    "taken"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 2944,
-                "sent_id": 559
-            }
+                        {
+                            "span": {
+                                "begin": 38,
+                                "end": 41
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13350"
         }
     ],
-    "frameID": 2021,
-    "en_lu": [
-        "take"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Conquering"
+    "frameName": "Being_in_control",
+    "lu_id": 2309,
+    "frameID": 1800,
+    "ko_lu": "통제하다.v.Being_in_control",
+    "en_lus": [
+        "control"
+    ]
 }

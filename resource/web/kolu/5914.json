@@ -1,61 +1,81 @@
 {
-    "ko_lu": "알리다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 18524",
-            "examples": {
-                "ko_annotation_id": 18524,
-                "denotations": [
-                    {
-                        "obj": "reported_fact",
-                        "span": {
-                            "begin": 5,
-                            "end": 12
+            "examples": [
+                {
+                    "text": "그 이후, 중국은 열핵무기와 중성자 폭탄을 포함하여, 45 회의 핵실험을 하였다.",
+                    "relations": [],
+                    "annotation_id": 10333,
+                    "sent_id": 2103,
+                    "frameName": "Weapon",
+                    "ko_annotation_id": 20309,
+                    "origin_lus": [
+                        "nuclear",
+                        "weapons"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20309"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그 이후, 중국은 열핵무기와 중성자 폭탄을 포함하여, 45 회의 핵실험을 하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10333,
+                    "sent_id": 2103,
+                    "frameName": "Weapon",
+                    "ko_annotation_id": 20310,
+                    "origin_lus": [
+                        "nuclear",
+                        "weapons"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "obj": "type",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "reported_fact",
-                        "span": {
-                            "begin": 14,
-                            "end": 74
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 77,
-                            "end": 79
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Unattributed_information",
-                "origin_lus": [
-                    "reportedly"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14599,
-                "sent_id": 2859
-            }
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20310"
         }
     ],
-    "frameID": 1154,
-    "en_lu": [
-        "reportedly"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Unattributed_information"
+    "frameName": "Weapon",
+    "lu_id": 5914,
+    "frameID": 426,
+    "ko_lu": "열핵무기.n.Weapon",
+    "en_lus": [
+        "weapon",
+        "nuclear"
+    ]
 }

@@ -1,48 +1,90 @@
 {
-    "ko_lu": "연.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 14729",
-            "examples": {
-                "ko_annotation_id": 14729,
-                "denotations": [
-                    {
-                        "obj": "partner_1",
-                        "span": {
-                            "begin": 35,
-                            "end": 38
+            "examples": [
+                {
+                    "text": "하지만, 이것은 와세다대학만의 문제가 아니며, 각 대학 산악부나 반더포겔부 등은 신입 부원이 없어, 대가 끊길 위기에 처해있다고 한다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3565,
+                    "frameName": "Membership",
+                    "ko_annotation_id": 16053,
+                    "origin_lus": [
+                        "buin .部員 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 43
+                            },
+                            "obj": "Group"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 40,
-                            "end": 43
+                        {
+                            "span": {
+                                "begin": 45,
+                                "end": 50
+                            },
+                            "obj": "Member"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Personal_relationship",
-                "origin_lus": [
-                    "paramours"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5361,
-                "sent_id": 1023
-            }
+                        {
+                            "span": {
+                                "begin": 48,
+                                "end": 50
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16053"
+        },
+        {
+            "examples": [
+                {
+                    "text": "창립 80주년의 역사를 지닌 동 대학 산악부의 현역 부원이 고작 5명이라는 사실에 놀랐다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4501,
+                    "frameName": "Membership",
+                    "ko_annotation_id": 16054,
+                    "origin_lus": [
+                        "buin .部員 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 24
+                            },
+                            "obj": "Group"
+                        },
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "obj": "Member"
+                        },
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 31
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16054"
         }
     ],
-    "frameID": 102,
-    "en_lu": [
-        "paramour"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Personal_relationship"
+    "frameName": "Membership",
+    "lu_id": 4721,
+    "frameID": 1026,
+    "ko_lu": "부원.n.Membership",
+    "en_lus": [
+        "buin .部員 "
+    ]
 }

@@ -1,100 +1,52 @@
 {
-    "ko_lu": "관련하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 8600",
-            "examples": {
-                "ko_annotation_id": 8600,
-                "denotations": [
-                    {
-                        "obj": "concept_2",
-                        "span": {
-                            "begin": 0,
-                            "end": 13
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 15,
-                            "end": 18
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "concept_1",
-                        "span": {
-                            "begin": 24,
-                            "end": 54
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Cognitive_connection",
-                "origin_lus": [
-                    "Related",
-                    "kanren .関連 "
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18365,
-                "sent_id": 3499
-            }
-        },
-        {
-            "valenceText": "annotation id: 8601",
-            "examples": {
-                "ko_annotation_id": 8601,
-                "denotations": [
-                    {
-                        "obj": "Concept_1",
-                        "span": {
-                            "begin": 0,
-                            "end": 4
+            "examples": [
+                {
+                    "text": "그러나, 그는 걸프 정권들이 사담 후세인을 공격하는데 있어서는 불신자들에게 의존하는 것을 허락하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Concept_2",
-                        "span": {
-                            "begin": 54,
-                            "end": 123
+                    ],
+                    "annotation_id": 8265,
+                    "sent_id": 1691,
+                    "frameName": "Leadership",
+                    "ko_annotation_id": 9114,
+                    "origin_lus": [
+                        "regimes"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "obj": "governed",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 6,
-                            "end": 9
-                        }
-                    }
-                ],
-                "frameName": "Cognitive_connection",
-                "origin_lus": [
-                    "Related",
-                    "kanren .関連 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4038
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9114"
         }
     ],
-    "frameID": 720,
-    "en_lu": [
-        "kanren .関連 ",
-        "Related"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cognitive_connection"
+    "frameName": "Leadership",
+    "lu_id": 2824,
+    "frameID": 73,
+    "ko_lu": "정권.n.Leadership",
+    "en_lus": [
+        "regime"
+    ]
 }

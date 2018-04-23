@@ -1,48 +1,52 @@
 {
-    "ko_lu": "신고.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 13448",
-            "examples": {
-                "ko_annotation_id": 13448,
-                "denotations": [
-                    {
-                        "obj": "message",
-                        "span": {
-                            "begin": 61,
-                            "end": 71
+            "examples": [
+                {
+                    "text": "War Room의 끝 가까이에서, Stephanopoulos는 클린턴의 연인들의 목록을 가지고 있고, 지금 막 공개하려고 한다고 분명히 주장하는 누군가로부터 전화를 받는다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5361,
+                    "sent_id": 1023,
+                    "frameName": "Personal_relationship",
+                    "ko_annotation_id": 14729,
+                    "origin_lus": [
+                        "paramours"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "obj": "partner_1",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 83,
-                            "end": 86
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Statement",
-                "origin_lus": [
-                    "declaration"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13109,
-                "sent_id": 2613
-            }
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 43
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14729"
         }
     ],
-    "frameID": 43,
-    "en_lu": [
-        "declaration"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Statement"
+    "frameName": "Personal_relationship",
+    "lu_id": 4338,
+    "frameID": 102,
+    "ko_lu": "연인.n.Personal_relationship",
+    "en_lus": [
+        "paramour"
+    ]
 }

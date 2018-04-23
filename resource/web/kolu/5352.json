@@ -1,61 +1,44 @@
 {
-    "ko_lu": "이름짓다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 16779",
-            "examples": {
-                "ko_annotation_id": 16779,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 45,
-                            "end": 47
+            "examples": [
+                {
+                    "text": "예를 들면, 홍차를 탔는데, 웬일인지, 커피를 탔다고 착각하게 된다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4471,
+                    "frameName": "Bungling",
+                    "ko_annotation_id": 18447,
+                    "origin_lus": [
+                        "kantigai .勘違い"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "obj": "Action"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "name",
-                        "span": {
-                            "begin": 49,
-                            "end": 54
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 56,
-                            "end": 62
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Name_conferral",
-                "origin_lus": [
-                    "renaming"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3033,
-                "sent_id": 574
-            }
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18447"
         }
     ],
-    "frameID": 221,
-    "en_lu": [
-        "rename"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Name_conferral"
+    "frameName": "Bungling",
+    "lu_id": 5352,
+    "frameID": 266,
+    "ko_lu": "착각하다.v.Bungling",
+    "en_lus": [
+        "kantigai .勘違い"
+    ]
 }

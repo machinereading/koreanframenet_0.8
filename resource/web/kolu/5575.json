@@ -1,100 +1,58 @@
 {
-    "ko_lu": "몰다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 17491",
-            "examples": {
-                "ko_annotation_id": 17491,
-                "denotations": [
-                    {
-                        "obj": "driver",
-                        "span": {
-                            "begin": 30,
-                            "end": 31
+            "examples": [
+                {
+                    "text": "피크 헌터도 있었지만 백명산은 등산가들의 뜨거운 관심의 표적이 되지는 않았다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4263,
+                    "frameName": "Intentional_traversing",
+                    "ko_annotation_id": 19275,
+                    "origin_lus": [
+                        "tozan .登山 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "obj": "Goal"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "vehicle",
-                        "span": {
-                            "begin": 33,
-                            "end": 38
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "obj": "Direction"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 40,
-                            "end": 41
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "obj": "Self_mover"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Operate_vehicle",
-                "origin_lus": [
-                    "driving",
-                    "susumeru .進める"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 741,
-                "sent_id": 124
-            }
-        },
-        {
-            "valenceText": "annotation id: 17492",
-            "examples": {
-                "ko_annotation_id": 17492,
-                "denotations": [
-                    {
-                        "obj": "Vehicle",
-                        "span": {
-                            "begin": 12,
-                            "end": 13
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "obj": "Target"
                         }
-                    },
-                    {
-                        "obj": "Area",
-                        "span": {
-                            "begin": 15,
-                            "end": 20
-                        }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 23,
-                            "end": 24
-                        }
-                    }
-                ],
-                "frameName": "Operate_vehicle",
-                "origin_lus": [
-                    "driving",
-                    "susumeru .進める"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4518
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19275"
         }
     ],
-    "frameID": 65,
-    "en_lu": [
-        "drive",
-        "susumeru .進める"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Operate_vehicle"
+    "frameName": "Intentional_traversing",
+    "lu_id": 5575,
+    "frameID": 1642,
+    "ko_lu": "등산가들.n.Intentional_traversing",
+    "en_lus": [
+        "tozan .登山 "
+    ]
 }

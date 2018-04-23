@@ -1,61 +1,106 @@
 {
-    "ko_lu": "담당하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 11280",
-            "examples": {
-                "ko_annotation_id": 11280,
-                "denotations": [
-                    {
-                        "obj": "leader",
-                        "span": {
-                            "begin": 5,
-                            "end": 31
+            "examples": [
+                {
+                    "text": "그들은  그 다음에 Knights of St. John 섬을 목표로 삼고 1480년에 포위를 성공적으로 못한 후, 그들은 마침내 1522년에 Dodecanese로부터 기사들을 쫓아냈다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "governed",
-                        "span": {
-                            "begin": 38,
-                            "end": 47
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3036,
+                    "sent_id": 575,
+                    "frameName": "Successful_action",
+                    "ko_annotation_id": 12104,
+                    "origin_lus": [
+                        "unsuccessful"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 41,
+                                "end": 46
+                            },
+                            "obj": "time",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 49,
-                            "end": 52
+                        {
+                            "span": {
+                                "begin": 48,
+                                "end": 50
+                            },
+                            "obj": "means",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Leadership",
-                "origin_lus": [
-                    "charge"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 2552,
-                "sent_id": 484
-            }
+                        {
+                            "span": {
+                                "begin": 52,
+                                "end": 60
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12104"
+        },
+        {
+            "examples": [
+                {
+                    "text": "비록 이러한 시도가 성공적이지 않았지만, 그리스 국가를 위한 캠페인은 19세기에 계속되었고 세력이 증가하기 시작하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3078,
+                    "sent_id": 581,
+                    "frameName": "Successful_action",
+                    "ko_annotation_id": 16384,
+                    "origin_lus": [
+                        "unsuccessful"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "obj": "means",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 18
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16384"
         }
     ],
-    "frameID": 73,
-    "en_lu": [
-        "charge"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Leadership"
+    "frameName": "Successful_action",
+    "lu_id": 3613,
+    "frameID": 1389,
+    "ko_lu": "성공.n.Successful_action",
+    "en_lus": [
+        "unsuccessful",
+        "unsuccessful"
+    ]
 }

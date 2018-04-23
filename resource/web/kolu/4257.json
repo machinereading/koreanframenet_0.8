@@ -1,48 +1,65 @@
 {
-    "ko_lu": "탐지하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 13235",
-            "examples": {
-                "ko_annotation_id": 13235,
-                "denotations": [
-                    {
-                        "obj": "phenomenon",
-                        "span": {
-                            "begin": 19,
-                            "end": 30
+            "examples": [
+                {
+                    "text": "이러한 순찰은 주기적으로 위치 주변으로 더 큰 지역을 샅샅이 뒤지고 ; 일주일에 삼사 회 정도 순찰은 필요 사항이 발생하면 즉각적인 조치를 취할 수 있도록 안전 장교가 인솔해야 한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 32,
-                            "end": 35
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7885,
+                    "sent_id": 1615,
+                    "frameName": "Leadership",
+                    "ko_annotation_id": 14415,
+                    "origin_lus": [
+                        "lead"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "obj": "governed",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Perception_experience",
-                "origin_lus": [
-                    "detect"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6446,
-                "sent_id": 1284
-            }
+                        {
+                            "span": {
+                                "begin": 86,
+                                "end": 91
+                            },
+                            "obj": "leader",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 93,
+                                "end": 96
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14415"
         }
     ],
-    "frameID": 70,
-    "en_lu": [
-        "detect"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Perception_experience"
+    "frameName": "Leadership",
+    "lu_id": 4257,
+    "frameID": 73,
+    "ko_lu": "인솔하다.v.Leadership",
+    "en_lus": [
+        "lead"
+    ]
 }

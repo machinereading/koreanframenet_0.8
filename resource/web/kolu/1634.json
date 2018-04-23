@@ -1,48 +1,86 @@
 {
-    "ko_lu": "위생계.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 4900",
-            "examples": {
-                "ko_annotation_id": 4900,
-                "denotations": [
-                    {
-                        "obj": "patient",
-                        "span": {
-                            "begin": 20,
-                            "end": 22
+            "examples": [
+                {
+                    "text": "그 결과, 학문에 기초한 진정한 기술만이 통용된다는 사실이 여러 산업분야에서 지금 나타나기 시작했다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4799,
+                    "frameName": "Artificiality",
+                    "ko_annotation_id": 5106,
+                    "origin_lus": [
+                        "honmono .本物 ",
+                        "hontoo .本当 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "obj": "Type"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 23,
-                            "end": 26
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "obj": "Entity"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Medical_conditions",
-                "origin_lus": [
-                    "health"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8554,
-                "sent_id": 1760
-            }
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5106"
+        },
+        {
+            "examples": [
+                {
+                    "text": "Q42 「신과 어떻게 교류해야 할까요」 A「일본의 신은 진정한 신이 아닙니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3965,
+                    "frameName": "Artificiality",
+                    "ko_annotation_id": 5107,
+                    "origin_lus": [
+                        "honmono .本物 ",
+                        "hontoo .本当 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "obj": "Entity"
+                        },
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5107"
         }
     ],
-    "frameID": 239,
-    "en_lu": [
-        "health"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Medical_conditions"
+    "frameName": "Artificiality",
+    "lu_id": 1634,
+    "frameID": 1660,
+    "ko_lu": "진정하다.v.Artificiality",
+    "en_lus": [
+        "hontoo .本当 ",
+        "honmono .本物 "
+    ]
 }

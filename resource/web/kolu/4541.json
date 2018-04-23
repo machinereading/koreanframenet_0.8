@@ -1,48 +1,65 @@
 {
-    "ko_lu": "주시당하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 14142",
-            "examples": {
-                "ko_annotation_id": 14142,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 73,
-                            "end": 75
+            "examples": [
+                {
+                    "text": "나는 세탁실에 갇혀 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 76,
-                            "end": 85
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9378,
+                    "sent_id": 1945,
+                    "frameName": "Immobilization",
+                    "ko_annotation_id": 15459,
+                    "origin_lus": [
+                        "locked up"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "obj": "patient",
+                            "id": "2"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "First_rank",
-                "origin_lus": [
-                    "primary"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11445,
-                "sent_id": 2283
-            }
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "obj": "place",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15459"
         }
     ],
-    "frameID": 402,
-    "en_lu": [
-        "primary"
-    ],
-    "ko_pos": "VV",
-    "frameName": "First_rank"
+    "frameName": "Immobilization",
+    "lu_id": 4541,
+    "frameID": 250,
+    "ko_lu": "갇히다.v.Immobilization",
+    "en_lus": [
+        "locked up"
+    ]
 }

@@ -1,48 +1,185 @@
 {
-    "ko_lu": "살다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 10896",
-            "examples": {
-                "ko_annotation_id": 10896,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 6,
-                            "end": 10
+            "examples": [
+                {
+                    "text": "오전 1시 11분 RD : 모퉁이에 있는 건물은 심하게 파괴되었고, 그래서 한 나이든 여자와 그녀의 아주 늙은 어머니가 객실에 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 803,
+                    "sent_id": 139,
+                    "frameName": "Kinship",
+                    "ko_annotation_id": 11781,
+                    "origin_lus": [
+                        "mother"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 52,
+                                "end": 54
+                            },
+                            "obj": "alter",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "protagonist",
-                        "span": {
-                            "begin": 11,
-                            "end": 25
+                        {
+                            "span": {
+                                "begin": 62,
+                                "end": 65
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11781"
+        },
+        {
+            "examples": [
+                {
+                    "text": "QN : 암이 그들의 어머니의 죽음을 야기시켰나 ?",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6315,
+                    "sent_id": 1249,
+                    "frameName": "Kinship",
+                    "ko_annotation_id": 11782,
+                    "origin_lus": [
+                        "mother"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "obj": "ego",
+                            "id": "2"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Dead_or_alive",
-                "origin_lus": [
-                    "living"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9900,
-                "sent_id": 2031
-            }
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11782"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그 신문의 지역 관리자인 Maria Luz Lopez는 그녀의 차가 신호등 빨간 불에 멈추었을 때 사살되었고 그의 어머니는 부상 당하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9553,
+                    "sent_id": 1976,
+                    "frameName": "Kinship",
+                    "ko_annotation_id": 11783,
+                    "origin_lus": [
+                        "mother"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "obj": "ego",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 64,
+                                "end": 67
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11783"
+        },
+        {
+            "examples": [
+                {
+                    "text": "범죄로 고통받는 이웃의 문제로부터 자기 아이들을 지키려고 필사적으로 애쓰는, 직업이 없는 세 아이의 어머니 Mary T. 와 같은 젊은 성인들.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2309,
+                    "sent_id": 440,
+                    "frameName": "Kinship",
+                    "ko_annotation_id": 11784,
+                    "origin_lus": [
+                        "mother"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "obj": "ego",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 56,
+                                "end": 59
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 60,
+                                "end": 69
+                            },
+                            "obj": "alter",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11784"
         }
     ],
-    "frameID": 310,
-    "en_lu": [
-        "living"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Dead_or_alive"
+    "frameName": "Kinship",
+    "lu_id": 3501,
+    "frameID": 104,
+    "ko_lu": "어머니.n.Kinship",
+    "en_lus": [
+        "mother"
+    ]
 }

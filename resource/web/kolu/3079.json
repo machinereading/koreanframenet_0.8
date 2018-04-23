@@ -1,74 +1,52 @@
 {
-    "ko_lu": "답변하다.v",
+    "ko_pos": "NNB",
     "patterns": [
         {
-            "valenceText": "annotation id: 9427",
-            "examples": {
-                "ko_annotation_id": 9427,
-                "denotations": [
-                    {
-                        "obj": "speaker",
-                        "span": {
-                            "begin": 0,
-                            "end": 60
+            "examples": [
+                {
+                    "text": "금년 초에, 70 명의 미국 국회의원은 제재 해제로 이라크에서의 인도주의적인 위기를 끝내도록 요청하는 서한 하나를 미 대통령 빌 클린턴에게 보냈다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7266,
+                    "sent_id": 1516,
+                    "frameName": "Relational_quantity",
+                    "ko_annotation_id": 10129,
+                    "origin_lus": [
+                        "some"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 20
+                            },
+                            "obj": "individuals",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "addressee",
-                        "span": {
-                            "begin": 62,
-                            "end": 122
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 125,
-                            "end": 128
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 133,
-                            "end": 136
-                        },
-                        "id": "4"
-                    }
-                ],
-                "frameName": "Communication_response",
-                "origin_lus": [
-                    "answer"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17055,
-                "sent_id": 3238
-            }
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 11
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10129"
         }
     ],
-    "frameID": 42,
-    "en_lu": [
-        "answer"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Communication_response"
+    "frameName": "Relational_quantity",
+    "lu_id": 3079,
+    "frameID": 2427,
+    "ko_lu": "명.n.Relational_quantity",
+    "en_lus": [
+        "some"
+    ]
 }

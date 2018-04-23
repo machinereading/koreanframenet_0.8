@@ -1,101 +1,52 @@
 {
-    "ko_lu": "증가.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 6203",
-            "examples": {
-                "ko_annotation_id": 6203,
-                "denotations": [
-                    {
-                        "obj": "degree",
-                        "span": {
-                            "begin": 5,
-                            "end": 8
+            "examples": [
+                {
+                    "text": "나는 그들이 선고된 살인자의 감옥에 있는 평균 시간은, 저, 그가 가석방 되기 전에 이년이고 강간자는 육개월이고 도둑은 이개월이라고 그들이 말한 것을 어제밤 뉴스에서 보았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9164,
+                    "sent_id": 1903,
+                    "frameName": "Sentencing",
+                    "ko_annotation_id": 6584,
+                    "origin_lus": [
+                        "sentenced"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 9,
-                            "end": 19
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 21,
-                            "end": 23
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Change_position_on_a_scale",
-                "origin_lus": [
-                    "growth",
-                    "increases"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3226,
-                "sent_id": 606
-            }
-        },
-        {
-            "valenceText": "annotation id: 6204",
-            "examples": {
-                "ko_annotation_id": 6204,
-                "denotations": [
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 47,
-                            "end": 50
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 51,
-                            "end": 53
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Change_position_on_a_scale",
-                "origin_lus": [
-                    "growth",
-                    "increases"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 601,
-                "sent_id": 91
-            }
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "obj": "convict",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6584"
         }
     ],
-    "frameID": 91,
-    "en_lu": [
-        "growth",
-        "increase"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Change_position_on_a_scale"
+    "frameName": "Sentencing",
+    "lu_id": 2088,
+    "frameID": 297,
+    "ko_lu": "선고되다.v.Sentencing",
+    "en_lus": [
+        "sentence"
+    ]
 }

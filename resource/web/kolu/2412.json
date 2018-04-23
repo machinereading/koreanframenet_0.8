@@ -1,71 +1,52 @@
 {
-    "ko_lu": "의심.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 7313",
-            "examples": {
-                "ko_annotation_id": 7313,
-                "denotations": [
-                    {
-                        "obj": "topic",
-                        "span": {
-                            "begin": 31,
-                            "end": 72
+            "examples": [
+                {
+                    "text": "오전 4시 2분 SHIBUMI : 다시 전기가 공급되고 UCSF { 메디칼 센터 }는 밤에는 조용해지는 것 같다 ( 그들은 그 소리와 주차장의 불빛으로 주차장에서 부상자들을 분류하고 응급처치를 하였다 ).",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 863,
+                    "sent_id": 151,
+                    "frameName": "Being_in_operation",
+                    "ko_annotation_id": 7711,
+                    "origin_lus": [
+                        "on"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 24
+                            },
+                            "obj": "device",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 73,
-                            "end": 75
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Certainty",
-                "origin_lus": [
-                    "doubt"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 0,
-                "sent_id": 1460
-            }
-        },
-        {
-            "valenceText": "annotation id: 7314",
-            "examples": {
-                "ko_annotation_id": 7314,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 23,
-                            "end": 25
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Certainty",
-                "origin_lus": [
-                    "doubt"
-                ],
-                "relations": [],
-                "annotation_id": 9217,
-                "sent_id": 1911
-            }
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7711"
         }
     ],
-    "frameID": 141,
-    "en_lu": [
-        "doubt"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Certainty"
+    "frameName": "Being_in_operation",
+    "lu_id": 2412,
+    "frameID": 880,
+    "ko_lu": "공급되다.v.Being_in_operation",
+    "en_lus": [
+        "on"
+    ]
 }

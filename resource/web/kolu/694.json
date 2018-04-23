@@ -1,61 +1,78 @@
 {
-    "ko_lu": "위협하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 2102",
-            "examples": {
-                "ko_annotation_id": 2102,
-                "denotations": [
-                    {
-                        "obj": "phenomenon_2",
-                        "span": {
-                            "begin": 0,
-                            "end": 13
+            "examples": [
+                {
+                    "text": "지미 카터 전 대통령이 김일성을 만나기 위해 평양으로 이동했을 때인 1994년 6월에 위기가 확산되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "outcome",
-                        "span": {
-                            "begin": 15,
-                            "end": 73
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 76,
-                            "end": 79
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15221,
+                    "sent_id": 2959,
+                    "frameName": "Travel",
+                    "ko_annotation_id": 2130,
+                    "origin_lus": [
+                        "traveled"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "obj": "traveler",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Omen",
-                "origin_lus": [
-                    "threatened"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4121,
-                "sent_id": 787
-            }
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 24
+                            },
+                            "obj": "purpose",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "obj": "goal",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2130"
         }
     ],
-    "frameID": 412,
-    "en_lu": [
-        "threaten"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Omen"
+    "frameName": "Travel",
+    "lu_id": 694,
+    "frameID": 343,
+    "ko_lu": "이동하다.v.Travel",
+    "en_lus": [
+        "travel"
+    ]
 }

@@ -1,48 +1,105 @@
 {
-    "ko_lu": "보호하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 13113",
-            "examples": {
-                "ko_annotation_id": 13113,
-                "denotations": [
-                    {
-                        "obj": "asset",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "Goodwill에 대한 당신의 지원은 중부 인디애나에서 봉사하기 가장 어려운 사람들이 의미있는 일자리를 찾도록 돕기 위해 직업 훈련과 취업 알선 서비스를 제공할 것이다.",
+                    "relations": [],
+                    "annotation_id": 2287,
+                    "sent_id": 436,
+                    "frameName": "Assistance",
+                    "ko_annotation_id": 14277,
+                    "origin_lus": [
+                        "serve"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14277"
+        },
+        {
+            "examples": [
+                {
+                    "text": "1999년에 Goodwill이 봉사한 42,000명 이상 가운데 이들 중 5,000명 이상은 일자리를 찾고 그것을 유지하는데 복합적인 장애를 가지고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 58,
-                            "end": 61
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Protecting",
-                "origin_lus": [
-                    "safeguard"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17088,
-                "sent_id": 3241
-            }
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2259,
+                    "sent_id": 430,
+                    "frameName": "Assistance",
+                    "ko_annotation_id": 14742,
+                    "origin_lus": [
+                        "served"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "obj": "time",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 15
+                            },
+                            "obj": "helper",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 31
+                            },
+                            "obj": "benefited_party",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14742"
         }
     ],
-    "frameID": 1631,
-    "en_lu": [
-        "safeguard"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Protecting"
+    "frameName": "Assistance",
+    "lu_id": 4209,
+    "frameID": 391,
+    "ko_lu": "봉사하다.v.Assistance",
+    "en_lus": [
+        "serve",
+        "serve"
+    ]
 }

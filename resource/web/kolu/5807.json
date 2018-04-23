@@ -1,48 +1,65 @@
 {
-    "ko_lu": "유력하다.a",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 18157",
-            "examples": {
-                "ko_annotation_id": 18157,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "Mansour 호텔의 입구에서, Hall은 이락에 대한 인도주의적인 상황에 대해 오랫동안 들었고, 특히 이라크 어린이들 사이의 영양 실조와 어린이와 노인층의 증가하는 사망률에 대해 들었기 때문에 이라크에 왔다고 간결하게 말하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 4,
-                            "end": 8
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7196,
+                    "sent_id": 1507,
+                    "frameName": "Frequency",
+                    "ko_annotation_id": 19985,
+                    "origin_lus": [
+                        "rate"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 78,
+                                "end": 86
+                            },
+                            "obj": "salient_entity",
+                            "id": "3"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Capability",
-                "origin_lus": [
-                    "Potential"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1566,
-                "sent_id": 283
-            }
+                        {
+                            "span": {
+                                "begin": 93,
+                                "end": 96
+                            },
+                            "obj": "event",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 93,
+                                "end": 96
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19985"
         }
     ],
-    "frameID": 990,
-    "en_lu": [
-        "Potential"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Capability"
+    "frameName": "Frequency",
+    "lu_id": 5807,
+    "frameID": 80,
+    "ko_lu": "사망률.n.Frequency",
+    "en_lus": [
+        "rate"
+    ]
 }

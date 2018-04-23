@@ -1,61 +1,87 @@
 {
-    "ko_lu": "만들다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 14794",
-            "examples": {
-                "ko_annotation_id": 14794,
-                "denotations": [
-                    {
-                        "obj": "components",
-                        "span": {
-                            "begin": 51,
-                            "end": 60
+            "examples": [
+                {
+                    "text": "카자흐스탄은 Pavlodar 시에 있는 알려진 화학무기 ( CW ) 생산 공장 하나를 물려받았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 13474,
+                    "sent_id": 2689,
+                    "frameName": "Political_locales",
+                    "ko_annotation_id": 16226,
+                    "origin_lus": [
+                        "city",
+                        "si .市"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 15
+                            },
+                            "obj": "name",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 62,
-                            "end": 66
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 17
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16226"
+        },
+        {
+            "examples": [
+                {
+                    "text": "당신도 개와 대화할 수 있다!-우선 가나가와 현・가와사키 시에 있는「다카에스 동물 애호 병원」에서는, 매우 독특한 치료 광경을 볼 수 있습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4203,
+                    "frameName": "Political_locales",
+                    "ko_annotation_id": 16227,
+                    "origin_lus": [
+                        "city",
+                        "si .市"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 33
+                            },
+                            "obj": "Name"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "created_entity",
-                        "span": {
-                            "begin": 67,
-                            "end": 68
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Building",
-                "origin_lus": [
-                    "made"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3524,
-                "sent_id": 657
-            }
+                        {
+                            "span": {
+                                "begin": 32,
+                                "end": 33
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16227"
         }
     ],
-    "frameID": 259,
-    "en_lu": [
-        "make"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Building"
+    "frameName": "Political_locales",
+    "lu_id": 4754,
+    "frameID": 195,
+    "ko_lu": "시.n.Political_locales",
+    "en_lus": [
+        "city",
+        "si .市"
+    ]
 }

@@ -1,34 +1,121 @@
 {
-    "ko_lu": "초안하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 7598",
-            "examples": {
-                "ko_annotation_id": 7598,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 65,
-                            "end": 68
+            "examples": [
+                {
+                    "text": "커피는 어디에나 있는 차를 대체하였다 -- 더블린은 지금 거의 비엔나나 시애틀과 같은 수준의 커피 도시이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Summarizing",
-                "origin_lus": [
-                    "outline"
-                ],
-                "relations": [],
-                "annotation_id": 8559,
-                "sent_id": 1761
-            }
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5186,
+                    "sent_id": 989,
+                    "frameName": "Take_place_of",
+                    "ko_annotation_id": 8248,
+                    "origin_lus": [
+                        "replaced",
+                        "replacing"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "new",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 13
+                            },
+                            "obj": "old",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8248"
+        },
+        {
+            "examples": [
+                {
+                    "text": "여기에는 아직도 바와 클럽들이 있으나, 그 지역은 거의 주류가 되었고, 사무실 타워들이 많은 사악한 옛 지역들을 대체하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5832,
+                    "sent_id": 1115,
+                    "frameName": "Take_place_of",
+                    "ko_annotation_id": 8249,
+                    "origin_lus": [
+                        "replaced",
+                        "replacing"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 47
+                            },
+                            "obj": "new",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 49,
+                                "end": 61
+                            },
+                            "obj": "old",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 63,
+                                "end": 66
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8249"
         }
     ],
-    "frameID": 1722,
-    "en_lu": [
-        "outline"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Summarizing"
+    "frameName": "Take_place_of",
+    "lu_id": 2516,
+    "frameID": 1171,
+    "ko_lu": "대체하다.v.Take_place_of",
+    "en_lus": [
+        "replacing",
+        "replace"
+    ]
 }

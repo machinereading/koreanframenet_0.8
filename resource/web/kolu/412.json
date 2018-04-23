@@ -1,61 +1,121 @@
 {
-    "ko_lu": "기자단.n",
+    "ko_pos": "NNP",
     "patterns": [
         {
-            "valenceText": "annotation id: 1024",
-            "examples": {
-                "ko_annotation_id": 1024,
-                "denotations": [
-                    {
-                        "obj": "aggregateproperty",
-                        "span": {
-                            "begin": 80,
-                            "end": 84
+            "examples": [
+                {
+                    "text": "강은 도시의 북쪽과 남쪽 지방 사이의 자연 경계선을 형성한다.",
+                    "relations": [],
+                    "annotation_id": 4992,
+                    "sent_id": 960,
+                    "frameName": "Natural_features",
+                    "ko_annotation_id": 1028,
+                    "origin_lus": [
+                        "river",
+                        "kawa .川 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1028"
+        },
+        {
+            "examples": [
+                {
+                    "text": "2- 거의 같은 기간에, Uphrte 강 다른 쪽의 우리 형제들은 al-Malahima와 AlbuHazim에 있는 Jasim al-Awwad를 죽였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8974,
+                    "sent_id": 1861,
+                    "frameName": "Natural_features",
+                    "ko_annotation_id": 1029,
+                    "origin_lus": [
+                        "river",
+                        "kawa .川 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "obj": "name",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "individuals",
-                        "span": {
-                            "begin": 85,
-                            "end": 93
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 22
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1029"
+        },
+        {
+            "examples": [
+                {
+                    "text": "강 저편에서, 다다쓰구가 슬프게 울부짓기 시작했다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3898,
+                    "frameName": "Natural_features",
+                    "ko_annotation_id": 1030,
+                    "origin_lus": [
+                        "river",
+                        "kawa .川 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "obj": "Locale"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 90,
-                            "end": 93
+                        {
+                            "span": {
+                                "begin": 2,
+                                "end": 4
+                            },
+                            "obj": "Relative_location"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Aggregate",
-                "origin_lus": [
-                    "corps"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5386,
-                "sent_id": 1030
-            }
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1030"
         }
     ],
-    "frameID": 103,
-    "en_lu": [
-        "corp"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Aggregate"
+    "frameName": "Natural_features",
+    "lu_id": 412,
+    "frameID": 191,
+    "ko_lu": "강.n.Natural_features",
+    "en_lus": [
+        "kawa .川 ",
+        "river"
+    ]
 }

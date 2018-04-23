@@ -1,34 +1,168 @@
 {
-    "ko_lu": "합의.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 4783",
-            "examples": {
-                "ko_annotation_id": 4783,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 2,
-                            "end": 4
+            "examples": [
+                {
+                    "text": "인쇄물을 상대로도 당신이 「게임」을 할 수 있는 것은, 당신이 처음에 전제로 하고 있던 사고방식이 원인임이 틀림없다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4192,
+                    "frameName": "Possession",
+                    "ko_annotation_id": 4912,
+                    "origin_lus": [
+                        "having",
+                        "motu .持つ "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "obj": "Owner"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Documents",
-                "origin_lus": [
-                    "accord"
-                ],
-                "relations": [],
-                "annotation_id": 16121,
-                "sent_id": 3095
-            }
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 41
+                            },
+                            "obj": "Manner"
+                        },
+                        {
+                            "span": {
+                                "begin": 49,
+                                "end": 53
+                            },
+                            "obj": "Possession"
+                        },
+                        {
+                            "span": {
+                                "begin": 43,
+                                "end": 44
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4912"
+        },
+        {
+            "examples": [
+                {
+                    "text": " \" 나의 관심은 그들이 나에게 보여주어야 하는 것을 보고, 나 자신의 눈으로 보고 그리고 결정하기 위해, 적십자 ( 이라크 ) Red Crescent에 있다. \"",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7231,
+                    "sent_id": 1512,
+                    "frameName": "Possession",
+                    "ko_annotation_id": 19893,
+                    "origin_lus": [
+                        "have"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "obj": "owner",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 20
+                            },
+                            "obj": "possession",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 24
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 27
+                            },
+                            "obj": "possession",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19893"
+        },
+        {
+            "examples": [
+                {
+                    "text": "인근 지역은 울타리 외곽 지역을 배회하는 순찰을 하지 않으면 완전히 보호될 수 없다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7836,
+                    "sent_id": 1608,
+                    "frameName": "Possession",
+                    "ko_annotation_id": 4911,
+                    "origin_lus": [
+                        "having",
+                        "motu .持つ "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 25
+                            },
+                            "obj": "possession",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 28
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4911"
         }
     ],
-    "frameID": 560,
-    "en_lu": [
-        "accord"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Documents"
+    "frameName": "Possession",
+    "lu_id": 1576,
+    "frameID": 118,
+    "ko_lu": "하다.a.Possession",
+    "en_lus": [
+        "have",
+        "motu .持つ ",
+        "have"
+    ]
 }

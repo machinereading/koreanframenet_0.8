@@ -1,61 +1,52 @@
 {
-    "ko_lu": "기여.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 1824",
-            "examples": {
-                "ko_annotation_id": 1824,
-                "denotations": [
-                    {
-                        "obj": "donor",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "번창한 여행자 지역인 이곳은 많은 좋은 식당과 함께, 쇼핑 센터와 백화점으로 가득 차있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5867,
+                    "sent_id": 1121,
+                    "frameName": "Wealthiness",
+                    "ko_annotation_id": 1832,
+                    "origin_lus": [
+                        "prosperous"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "recipient",
-                        "span": {
-                            "begin": 5,
-                            "end": 34
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 37,
-                            "end": 39
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Giving",
-                "origin_lus": [
-                    "contribution"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 2292,
-                "sent_id": 437
-            }
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "obj": "institution",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1832"
         }
     ],
-    "frameID": 139,
-    "en_lu": [
-        "contribution"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Giving"
+    "frameName": "Wealthiness",
+    "lu_id": 601,
+    "frameID": 85,
+    "ko_lu": "번창하다.v.Wealthiness",
+    "en_lus": [
+        "prosperous"
+    ]
 }

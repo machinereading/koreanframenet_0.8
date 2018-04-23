@@ -1,48 +1,52 @@
 {
-    "ko_lu": "모.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 10867",
-            "examples": {
-                "ko_annotation_id": 10867,
-                "denotations": [
-                    {
-                        "obj": "original",
-                        "span": {
-                            "begin": 45,
-                            "end": 70
+            "examples": [
+                {
+                    "text": "게다가, 입법 기관도 도박을 불법화한 해인1909년에 라스 베이거스는 네바다의 새로운 Clark County의 일부가 되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4108,
+                    "sent_id": 786,
+                    "frameName": "Membership",
+                    "ko_annotation_id": 11746,
+                    "origin_lus": [
+                        "part"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 60
+                            },
+                            "obj": "group",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 81,
-                            "end": 85
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Duplication",
-                "origin_lus": [
-                    "replicas"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6013,
-                "sent_id": 1143
-            }
+                        {
+                            "span": {
+                                "begin": 62,
+                                "end": 64
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11746"
         }
     ],
-    "frameID": 11,
-    "en_lu": [
-        "replica"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Duplication"
+    "frameName": "Membership",
+    "lu_id": 3491,
+    "frameID": 1026,
+    "ko_lu": "일부.n.Membership",
+    "en_lus": [
+        "part"
+    ]
 }

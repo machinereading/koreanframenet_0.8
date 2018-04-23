@@ -1,61 +1,52 @@
 {
-    "ko_lu": "밀려나다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 9750",
-            "examples": {
-                "ko_annotation_id": 9750,
-                "denotations": [
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 10,
-                            "end": 13
+            "examples": [
+                {
+                    "text": "국회의 하원에서는 지역의 이익 추구와 관련된 문제들은 더 중요하고 국가정책 결정과 관련된 문제들은 덜 중요하기 때문에, 공화당원들이 민주당원들보다 지역의 이익 추구에 덜 개입한다면 이는 우리가 정확히 예상하는 패턴이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 1586,
+                    "sent_id": 287,
+                    "frameName": "Building_subparts",
+                    "ko_annotation_id": 10693,
+                    "origin_lus": [
+                        "chamber"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "whole",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "manner",
-                        "span": {
-                            "begin": 15,
-                            "end": 18
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 19,
-                            "end": 22
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_motion",
-                "origin_lus": [
-                    "pushed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4317,
-                "sent_id": 831
-            }
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10693"
         }
     ],
-    "frameID": 55,
-    "en_lu": [
-        "push"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cause_motion"
+    "frameName": "Building_subparts",
+    "lu_id": 3225,
+    "frameID": 188,
+    "ko_lu": "하원.n.Building_subparts",
+    "en_lus": [
+        "chamber"
+    ]
 }

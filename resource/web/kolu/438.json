@@ -1,50 +1,118 @@
 {
-    "ko_lu": "유사하다.a",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 1169",
-            "examples": {
-                "ko_annotation_id": 1169,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "2003년 1월 10일, 북한은 평양이 핵확산 방지 조약에서 탈퇴하며 그 탈퇴는 그 다음 날로부터 유효하다고 국제 원자력 기구 ( IAEA ) 와 유엔 안보리에 통지하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "entity_1",
-                        "span": {
-                            "begin": 15,
-                            "end": 17
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14691,
+                    "sent_id": 2877,
+                    "frameName": "Being_in_effect",
+                    "ko_annotation_id": 1189,
+                    "origin_lus": [
+                        "effective"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 43
+                            },
+                            "obj": "binding_principle",
+                            "id": "3"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Similarity",
-                "origin_lus": [
-                    "similar",
-                    "resembles"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10981,
-                "sent_id": 2201
-            }
+                        {
+                            "span": {
+                                "begin": 45,
+                                "end": 51
+                            },
+                            "obj": "time",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1189"
+        },
+        {
+            "examples": [
+                {
+                    "text": "협정 조규에 의해, 철수는 공지 후 90일 까지 유효하지 않다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15169,
+                    "sent_id": 2950,
+                    "frameName": "Being_in_effect",
+                    "ko_annotation_id": 1190,
+                    "origin_lus": [
+                        "effective"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "obj": "binding_principle",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 23
+                            },
+                            "obj": "time",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1190"
         }
     ],
-    "frameID": 481,
-    "en_lu": [
-        "similar",
-        "resembles"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Similarity"
+    "frameName": "Being_in_effect",
+    "lu_id": 438,
+    "frameID": 1510,
+    "ko_lu": "유효하다.a.Being_in_effect",
+    "en_lus": [
+        "effective"
+    ]
 }

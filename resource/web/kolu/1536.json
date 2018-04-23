@@ -1,34 +1,54 @@
 {
-    "ko_lu": "자살.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 4664",
-            "examples": {
-                "ko_annotation_id": 4664,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 6,
-                            "end": 8
+            "examples": [
+                {
+                    "text": "Main 및 Fremont 거리에 있는 역에 서서, 철도 관리들은 사막 관목지역 40 평방 블록에서 세분화 한 1200 개의 부지를 경매에 부쳤다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4039,
+                    "sent_id": 774,
+                    "frameName": "Locale_by_use",
+                    "ko_annotation_id": 4832,
+                    "origin_lus": [
+                        "depot",
+                        "eki .駅"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 17
+                            },
+                            "obj": "relative_location",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Killing",
-                "origin_lus": [
-                    "suicide"
-                ],
-                "relations": [],
-                "annotation_id": 8634,
-                "sent_id": 1782
-            }
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 23
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4832"
         }
     ],
-    "frameID": 590,
-    "en_lu": [
-        "suicide"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Killing"
+    "frameName": "Locale_by_use",
+    "lu_id": 1536,
+    "frameID": 196,
+    "ko_lu": "역.n.Locale_by_use",
+    "en_lus": [
+        "depot",
+        "eki .駅"
+    ]
 }

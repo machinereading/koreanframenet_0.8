@@ -1,48 +1,52 @@
 {
-    "ko_lu": "추정치.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 385",
-            "examples": {
-                "ko_annotation_id": 385,
-                "denotations": [
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 6,
-                            "end": 48
+            "examples": [
+                {
+                    "text": "신뢰할만한 장거리 로케트 포 ( 예, Fair, Naeat 그리고 Zelzal ) 재고의 추정치는 가용하지 않다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12640,
+                    "sent_id": 2529,
+                    "frameName": "Estimated_value",
+                    "ko_annotation_id": 385,
+                    "origin_lus": [
+                        "estimates"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 48
+                            },
+                            "obj": "item",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 50,
-                            "end": 53
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Estimated_value",
-                "origin_lus": [
-                    "estimates"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 12640,
-                "sent_id": 2529
-            }
+                        {
+                            "span": {
+                                "begin": 50,
+                                "end": 53
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 385"
         }
     ],
+    "frameName": "Estimated_value",
+    "lu_id": 148,
     "frameID": 1516,
-    "en_lu": [
+    "ko_lu": "추정치.n.Estimated_value",
+    "en_lus": [
         "estimate"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Estimated_value"
+    ]
 }

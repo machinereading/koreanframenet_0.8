@@ -1,61 +1,64 @@
 {
-    "ko_lu": "포함하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 10969",
-            "examples": {
-                "ko_annotation_id": 10969,
-                "denotations": [
-                    {
-                        "obj": "container",
-                        "span": {
-                            "begin": 0,
-                            "end": 8
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "contents",
-                        "span": {
-                            "begin": 10,
-                            "end": 29
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 31,
-                            "end": 37
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Containing",
-                "origin_lus": [
-                    "contain"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6693,
-                "sent_id": 1351
-            }
+            "examples": [
+                {
+                    "text": "제재는 유엔 검사관들이 이라크가 대량 살상 무기와 그들을 생산하기 위한 수단을 제거하였다는 것을 확인할 때까지 해제될 수 없다.",
+                    "relations": [],
+                    "annotation_id": 7154,
+                    "sent_id": 1501,
+                    "frameName": "Scrutiny",
+                    "ko_annotation_id": 11830,
+                    "origin_lus": [
+                        "inspectors"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11830"
+        },
+        {
+            "examples": [
+                {
+                    "text": "이라크는 1998년 말 이후 그렇게 하였고 그리고 검사관들을 막았다고 말하고 있다.",
+                    "relations": [],
+                    "annotation_id": 7160,
+                    "sent_id": 1502,
+                    "frameName": "Scrutiny",
+                    "ko_annotation_id": 11831,
+                    "origin_lus": [
+                        "inspectors"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11831"
         }
     ],
-    "frameID": 397,
-    "en_lu": [
-        "contain"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Containing"
+    "frameName": "Scrutiny",
+    "lu_id": 3517,
+    "frameID": 31,
+    "ko_lu": "검사관들.n.Scrutiny",
+    "en_lus": [
+        "inspector"
+    ]
 }

@@ -1,61 +1,51 @@
 {
-    "ko_lu": "부정하다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 15220",
-            "examples": {
-                "ko_annotation_id": 15220,
-                "denotations": [
-                    {
-                        "obj": "speaker",
-                        "span": {
-                            "begin": 0,
-                            "end": 7
+            "examples": [
+                {
+                    "text": "하고 싶어도, 다리, 허리, 팔이 너무도 아파서, 도저히 무리라는 것을 깨달았기 때문이다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4675,
+                    "frameName": "Observable_bodyparts",
+                    "ko_annotation_id": 16765,
+                    "origin_lus": [
+                        "te .手 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "obj": "Body_part"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "message",
-                        "span": {
-                            "begin": 9,
-                            "end": 19
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 25
+                            },
+                            "obj": "Descriptor"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 23,
-                            "end": 26
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Statement",
-                "origin_lus": [
-                    "deny"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6539,
-                "sent_id": 1307
-            }
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 17
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16765"
         }
     ],
-    "frameID": 43,
-    "en_lu": [
-        "deny"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Statement"
+    "frameName": "Body_parts",
+    "lu_id": 4873,
+    "frameID": 119,
+    "ko_lu": "팔.n.Body_parts",
+    "en_lus": [
+        "te .手 "
+    ]
 }

@@ -1,61 +1,65 @@
 {
-    "ko_lu": "포함되다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 12069",
-            "examples": {
-                "ko_annotation_id": 12069,
-                "denotations": [
-                    {
-                        "obj": "contents",
-                        "span": {
-                            "begin": 6,
-                            "end": 19
+            "examples": [
+                {
+                    "text": "국방성은 BioPort사에게 탄저백신을 제조, 시험, 병으로 만들고 저장하기 위한 계약을 주었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 21,
-                            "end": 24
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6688,
+                    "sent_id": 1349,
+                    "frameName": "Statement",
+                    "ko_annotation_id": 13039,
+                    "origin_lus": [
+                        "announced"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 45
+                            },
+                            "obj": "message",
+                            "id": "3"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "container",
-                        "span": {
-                            "begin": 25,
-                            "end": 33
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 13
+                            },
+                            "obj": "speaker",
+                            "id": "2"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Containing",
-                "origin_lus": [
-                    "containing"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3386,
-                "sent_id": 629
-            }
+                        {
+                            "span": {
+                                "begin": 50,
+                                "end": 51
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13039"
         }
     ],
-    "frameID": 397,
-    "en_lu": [
-        "contain"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Containing"
+    "frameName": "Statement",
+    "lu_id": 3871,
+    "frameID": 43,
+    "ko_lu": "주시당하다.v.Statement",
+    "en_lus": [
+        "announce"
+    ]
 }

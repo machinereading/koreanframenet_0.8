@@ -1,40 +1,52 @@
 {
-    "ko_lu": "나라.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 7110",
-            "examples": {
-                "ko_annotation_id": 7110,
-                "denotations": [
-                    {
-                        "obj": "Discourse_salient_country",
-                        "span": {
-                            "begin": 10,
-                            "end": 15
+            "examples": [
+                {
+                    "text": "단체는 또한 이스라엘이 가자 지구 침입에 대한 위협을 실행에 옮긴다면 이스라엘 방위군에 대해 무기를 사용하겠다고 위협하였다. ( Jerusalem Post지, 06년 6월 25일, Khaled Abu Toameh ) ( Link )",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 16,
-                            "end": 18
+                    ],
+                    "annotation_id": 17294,
+                    "sent_id": 3263,
+                    "frameName": "People_by_vocation",
+                    "ko_annotation_id": 7500,
+                    "origin_lus": [
+                        "soldiers"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 47
+                            },
+                            "obj": "employer",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 46,
+                                "end": 47
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Foreign_or_domestic_country",
-                "origin_lus": [
-                    "kokunai .国内"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3845
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7500"
         }
     ],
-    "frameID": 1483,
-    "en_lu": [
-        "kokunai .国内"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Foreign_or_domestic_country"
+    "frameName": "People_by_vocation",
+    "lu_id": 2340,
+    "frameID": 1071,
+    "ko_lu": "군.n.People_by_vocation",
+    "en_lus": [
+        "soldier"
+    ]
 }

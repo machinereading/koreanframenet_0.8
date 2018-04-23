@@ -1,61 +1,52 @@
 {
-    "ko_lu": "공급되다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 12045",
-            "examples": {
-                "ko_annotation_id": 12045,
-                "denotations": [
-                    {
-                        "obj": "goal_area",
-                        "span": {
-                            "begin": 42,
-                            "end": 50
+            "examples": [
+                {
+                    "text": "미국의 미사일 확산 반대와 인종 격리 정부의 종식에 직면하자, 남아공은 1991년에 미사일 및 우주 발사 프로그램을 포기하고 국제 감시 하에 관련 시설을 제거하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15906,
+                    "sent_id": 3058,
+                    "frameName": "Process_end",
+                    "ko_annotation_id": 13016,
+                    "origin_lus": [
+                        "end"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 23
+                            },
+                            "obj": "process",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 52,
-                            "end": 56
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "individuals",
-                        "span": {
-                            "begin": 57,
-                            "end": 65
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Dispersal",
-                "origin_lus": [
-                    "distributed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10991,
-                "sent_id": 2202
-            }
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13016"
         }
     ],
-    "frameID": 267,
-    "en_lu": [
-        "distribute"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Dispersal"
+    "frameName": "Process_end",
+    "lu_id": 3858,
+    "frameID": 232,
+    "ko_lu": "종식.n.Process_end",
+    "en_lus": [
+        "end"
+    ]
 }

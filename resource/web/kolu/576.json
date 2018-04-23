@@ -1,34 +1,194 @@
 {
-    "ko_lu": "피부.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 1751",
-            "examples": {
-                "ko_annotation_id": 1751,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 30,
-                            "end": 32
+            "examples": [
+                {
+                    "text": "올바른 신을 믿는다면, 옳지 않은 신은 자연히 소멸해 버릴 것입니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4303,
+                    "frameName": "Religious_belief",
+                    "ko_annotation_id": 8838,
+                    "origin_lus": [
+                        "believe",
+                        "sinziru .信じる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "obj": "Element"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Observable_body_parts",
-                "origin_lus": [
-                    "skin"
-                ],
-                "relations": [],
-                "annotation_id": 9878,
-                "sent_id": 2027
-            }
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 8
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8838"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그들은 계시의 예언을 믿고 활발하게 아마게돈, 또는 세상의 종말이 초래하는 것을 추구한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10157,
+                    "sent_id": 2071,
+                    "frameName": "Religious_belief",
+                    "ko_annotation_id": 8836,
+                    "origin_lus": [
+                        "believe",
+                        "sinziru .信じる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "believer",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "obj": "element",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 13
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8836"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그 교회 멤버들은 백인이 진짜 이스라엘의 후손들이고, 유대인은 사탄 혹은 카인의 악의 후예이고 흑인과 다른 소수 인종은 하등 인간이라고 믿는다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10202,
+                    "sent_id": 2080,
+                    "frameName": "Religious_belief",
+                    "ko_annotation_id": 8837,
+                    "origin_lus": [
+                        "believe",
+                        "sinziru .信じる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 2,
+                                "end": 8
+                            },
+                            "obj": "believer",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 73
+                            },
+                            "obj": "content",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 76,
+                                "end": 77
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8837"
+        },
+        {
+            "examples": [
+                {
+                    "text": "믿은 자에게 안전을 제공하라고 말한 알라를 찬양하고 우리 선지자에게 평안이 있을지어다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7493,
+                    "sent_id": 1546,
+                    "frameName": "Religious_belief",
+                    "ko_annotation_id": 1766,
+                    "origin_lus": [
+                        "believed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 4
+                            },
+                            "obj": "believer",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1766"
         }
     ],
-    "frameID": 119,
-    "en_lu": [
-        "skin"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Body_parts"
+    "frameName": "Religious_belief",
+    "lu_id": 576,
+    "frameID": 1019,
+    "ko_lu": "믿다.v.Religious_belief",
+    "en_lus": [
+        "believe",
+        "sinziru .信じる "
+    ]
 }

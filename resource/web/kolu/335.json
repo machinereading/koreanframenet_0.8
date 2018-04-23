@@ -1,34 +1,65 @@
 {
-    "ko_lu": "연설하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 875",
-            "examples": {
-                "ko_annotation_id": 875,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 16,
-                            "end": 19
+            "examples": [
+                {
+                    "text": "주 : 타이완은 중국 정부와 타이완 자치정부 모두가 자기의 소유라고 주장되고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Statement",
-                "origin_lus": [
-                    "Addressing"
-                ],
-                "relations": [],
-                "annotation_id": 2041,
-                "sent_id": 378
-            }
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16239,
+                    "sent_id": 3111,
+                    "frameName": "Claim_ownership",
+                    "ko_annotation_id": 878,
+                    "origin_lus": [
+                        "claimed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "obj": "property",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 35
+                            },
+                            "obj": "claimant",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 38,
+                                "end": 44
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 878"
         }
     ],
-    "frameID": 43,
-    "en_lu": [
-        "Addressing"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Statement"
+    "frameName": "Claim_ownership",
+    "lu_id": 335,
+    "frameID": 550,
+    "ko_lu": "주장되다.v.Claim_ownership",
+    "en_lus": [
+        "claimed"
+    ]
 }

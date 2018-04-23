@@ -1,74 +1,78 @@
 {
-    "ko_lu": "비난하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 8796",
-            "examples": {
-                "ko_annotation_id": 8796,
-                "denotations": [
-                    {
-                        "obj": "cognizer",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "후버 댐 ( 원래 Boulder Dam이고 뒤이어 프로젝트를 승인한 대통령 이름을 따서 다시 명명되었다 ) 건설은 1931년에 라스 베이거스의 남동쪽으로 45 마일 ( 72 km ) 떨어진 협곡에서 시작되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "reason",
-                        "span": {
-                            "begin": 8,
-                            "end": 27
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "evaluee",
-                        "span": {
-                            "begin": 28,
-                            "end": 30
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4131,
+                    "sent_id": 789,
+                    "frameName": "Name_conferral",
+                    "ko_annotation_id": 9465,
+                    "origin_lus": [
+                        "renamed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 22
+                            },
+                            "obj": "entity",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 32,
-                            "end": 35
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "obj": "time",
+                            "id": "4"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Judgment",
-                "origin_lus": [
-                    "blame"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1250,
-                "sent_id": 231
-            }
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 41
+                            },
+                            "obj": "name",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 49,
+                                "end": 55
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9465"
         }
     ],
-    "frameID": 28,
-    "en_lu": [
-        "blame"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Judgment"
+    "frameName": "Name_conferral",
+    "lu_id": 2905,
+    "frameID": 221,
+    "ko_lu": "명명되다.v.Name_conferral",
+    "en_lus": [
+        "rename"
+    ]
 }

@@ -1,61 +1,153 @@
 {
-    "ko_lu": "촉발시키다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 13107",
-            "examples": {
-                "ko_annotation_id": 13107,
-                "denotations": [
-                    {
-                        "obj": "hypothetical_event",
-                        "span": {
-                            "begin": 47,
-                            "end": 56
+            "examples": [
+                {
+                    "text": "많은 선조가 있었고, 각각의 영혼의 진화 과정이 있었기 때문에, 필연적이라고나 할까, 자신이 스스로 선택하여 이 시대, 이 장소, 이 가족 안에서 태어난 것이라고 나는 생각한다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4896,
+                    "frameName": "Being_born",
+                    "ko_annotation_id": 14244,
+                    "origin_lus": [
+                        "umareru .生まれる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 61,
+                                "end": 65
+                            },
+                            "obj": "Time"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "hypothetical_event",
-                        "span": {
-                            "begin": 58,
-                            "end": 81
+                        {
+                            "span": {
+                                "begin": 67,
+                                "end": 71
+                            },
+                            "obj": "Place"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 77,
-                            "end": 81
+                        {
+                            "span": {
+                                "begin": 73,
+                                "end": 79
+                            },
+                            "obj": "Relatives"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Likelihood",
-                "origin_lus": [
-                    "may"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14973,
-                "sent_id": 2919
-            }
+                        {
+                            "span": {
+                                "begin": 82,
+                                "end": 85
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14244"
+        },
+        {
+            "examples": [
+                {
+                    "text": "대다수는 홍콩에서 태어나거나 중국 남부 출신인 광동인이지만, 그러나 중국 전역에서 온 이주민들이 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4520,
+                    "sent_id": 873,
+                    "frameName": "Being_born",
+                    "ko_annotation_id": 15221,
+                    "origin_lus": [
+                        "born",
+                        "umareru .生まれる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "obj": "place",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "obj": "child",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15221"
+        },
+        {
+            "examples": [
+                {
+                    "text": "우리는 우연히 이 세상에 태어난 것이 아니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3597,
+                    "frameName": "Being_born",
+                    "ko_annotation_id": 15222,
+                    "origin_lus": [
+                        "born",
+                        "umareru .生まれる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Child"
+                        },
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "obj": "Place"
+                        },
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15222"
         }
     ],
-    "frameID": 114,
-    "en_lu": [
-        "may"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Likelihood"
+    "frameName": "Being_born",
+    "lu_id": 4205,
+    "frameID": 793,
+    "ko_lu": "태어나다.v.Being_born",
+    "en_lus": [
+        "umareru .生まれる ",
+        "bear"
+    ]
 }

@@ -1,48 +1,52 @@
 {
-    "ko_lu": "방.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 13186",
-            "examples": {
-                "ko_annotation_id": 13186,
-                "denotations": [
-                    {
-                        "obj": "victim",
-                        "span": {
-                            "begin": 42,
-                            "end": 46
+            "examples": [
+                {
+                    "text": "화학 생물 무기 테러리즘을 토의함에 있어서, 여러 면에서 서로 다른 화학 및 생물전 작용제들과 관련된 테러리스트 공격들을 구별하는 것은 중요하다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9859,
+                    "sent_id": 2026,
+                    "frameName": "Speak_on_topic",
+                    "ko_annotation_id": 14376,
+                    "origin_lus": [
+                        "discussing"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "obj": "topic",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 58,
-                            "end": 62
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Defend",
-                "origin_lus": [
-                    "defenders"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3580,
-                "sent_id": 670
-            }
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14376"
         }
     ],
-    "frameID": 1330,
-    "en_lu": [
-        "defender"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Defending"
+    "frameName": "Speak_on_topic",
+    "lu_id": 4239,
+    "frameID": 523,
+    "ko_lu": "토의하다.v.Speak_on_topic",
+    "en_lus": [
+        "discuss"
+    ]
 }

@@ -1,47 +1,92 @@
 {
-    "ko_lu": "탄생하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 752",
-            "examples": {
-                "ko_annotation_id": 752,
-                "denotations": [
-                    {
-                        "obj": "Time",
-                        "span": {
-                            "begin": 12,
-                            "end": 14
+            "examples": [
+                {
+                    "text": "부탁합니다, 알려주십시오! 「님」을 사용하는지, 「귀하」를 사용하는지는 수신인에 따라 다릅니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3559,
+                    "frameName": "Contingency",
+                    "ko_annotation_id": 755,
+                    "origin_lus": [
+                        "yoru .よる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 37
+                            },
+                            "obj": "Outcome"
+                        },
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 43
+                            },
+                            "obj": "Determinant"
+                        },
+                        {
+                            "span": {
+                                "begin": 45,
+                                "end": 50
+                            },
+                            "obj": "Target"
                         }
-                    },
-                    {
-                        "obj": "Entity",
-                        "span": {
-                            "begin": 36,
-                            "end": 54
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 755"
+        },
+        {
+            "examples": [
+                {
+                    "text": "무기 설계에 따라 최단 경로는 핵분열성 물질을 구매하거나 훔치는 것일 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 56,
-                            "end": 59
+                    ],
+                    "annotation_id": 17675,
+                    "sent_id": 3330,
+                    "frameName": "Contingency",
+                    "ko_annotation_id": 12654,
+                    "origin_lus": [
+                        "depending"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "obj": "determinant",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Coming_to_be",
-                "origin_lus": [
-                    "dekiru .できる "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3940
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12654"
         }
     ],
-    "frameID": 316,
-    "en_lu": [
-        "dekiru .できる "
-    ],
-    "ko_pos": "VV",
-    "frameName": "Coming_to_be"
+    "frameName": "Contingency",
+    "lu_id": 263,
+    "frameID": 900,
+    "ko_lu": "따르다.v.Contingency",
+    "en_lus": [
+        "depend",
+        "yoru .よる "
+    ]
 }

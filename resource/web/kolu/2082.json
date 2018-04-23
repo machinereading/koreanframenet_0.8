@@ -1,48 +1,65 @@
 {
-    "ko_lu": "거래.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 6196",
-            "examples": {
-                "ko_annotation_id": 6196,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 13,
-                            "end": 19
+            "examples": [
+                {
+                    "text": "그래서 라스 베이거스의 평판이 성인 테마 파크로 유래되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "seller",
-                        "span": {
-                            "begin": 20,
-                            "end": 35
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4178,
+                    "sent_id": 798,
+                    "frameName": "Origin",
+                    "ko_annotation_id": 6560,
+                    "origin_lus": [
+                        "originated"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "origin",
+                            "id": "3"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Commerce_scenario",
-                "origin_lus": [
-                    "trafficker"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18553,
-                "sent_id": 3539
-            }
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 30
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6560"
         }
     ],
-    "frameID": 82,
-    "en_lu": [
-        "trafficker"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Commerce_scenario"
+    "frameName": "Origin",
+    "lu_id": 2082,
+    "frameID": 1103,
+    "ko_lu": "유래되다.v.Origin",
+    "en_lus": [
+        "originate"
+    ]
 }

@@ -1,91 +1,152 @@
 {
-    "ko_lu": "말하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 228",
-            "examples": {
-                "ko_annotation_id": 228,
-                "denotations": [
-                    {
-                        "obj": "medium",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "누군가 말한대로, 콜럼버스는 단지 그가 자마이카를 발견했다고 생각했을 뿐이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "message",
-                        "span": {
-                            "begin": 5,
-                            "end": 63
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4679,
+                    "sent_id": 901,
+                    "frameName": "Communication",
+                    "ko_annotation_id": 20058,
+                    "origin_lus": [
+                        "said"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "communicator",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 66,
-                            "end": 68
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Communication",
-                "origin_lus": [
-                    "indicate"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18039,
-                "sent_id": 3415
-            }
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 41
+                            },
+                            "obj": "message",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20058"
         },
         {
-            "valenceText": "annotation id: 11263",
-            "examples": {
-                "ko_annotation_id": 11263,
-                "denotations": [
-                    {
-                        "obj": "Topic",
-                        "span": {
-                            "begin": 8,
-                            "end": 15
+            "examples": [
+                {
+                    "text": "보고들은 이란이1980년대 말 남아공으로부터 수입된 우라늄을 농축하기 위한 도움을 요청하기 위해 파키스탄에 접근했다고 말한다. 파키스탄이 이란의 핵무기 개발을 돕고 있다는 소문이 지속되고 있다 ( 7198 ).",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 4,
-                            "end": 6
+                    ],
+                    "annotation_id": 18039,
+                    "sent_id": 3415,
+                    "frameName": "Communication",
+                    "ko_annotation_id": 228,
+                    "origin_lus": [
+                        "indicate"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "medium",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 63
+                            },
+                            "obj": "message",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 66,
+                                "end": 68
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Communication",
-                "origin_lus": [
-                    "iu .言う "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4646
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 228"
+        },
+        {
+            "examples": [
+                {
+                    "text": "여기서 말하는 「육상 다발기」란, 해상이나 호면에서 이착륙할 수 있는 수상기와 달리, 통상적인 활주로를 사용해 이착륙하는 비행기를 가리키는 용어로 이해해주시기 바란다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4646,
+                    "frameName": "Communication",
+                    "ko_annotation_id": 11263,
+                    "origin_lus": [
+                        "iu .言う "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 15
+                            },
+                            "obj": "Topic"
+                        },
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11263"
         }
     ],
+    "frameName": "Communication",
+    "lu_id": 78,
     "frameID": 6,
-    "en_lu": [
+    "ko_lu": "말하다.v.Communication",
+    "en_lus": [
         "indicate",
-        "iu .言う "
-    ],
-    "ko_pos": "VV",
-    "frameName": "Communication"
+        "iu .言う ",
+        "say"
+    ]
 }

@@ -1,63 +1,92 @@
 {
-    "ko_lu": "추구.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 7937",
-            "examples": {
-                "ko_annotation_id": 7937,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 0,
-                            "end": 7
+            "examples": [
+                {
+                    "text": "이슬람교도들은 방사능 폭탄을 터뜨릴 것이라고 스파이 두목들은 믿고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 17299,
+                    "sent_id": 3264,
+                    "frameName": "Leadership",
+                    "ko_annotation_id": 8464,
+                    "origin_lus": [
+                        "bosses"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "obj": "governed",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "state_of_affairs",
-                        "span": {
-                            "begin": 9,
-                            "end": 20
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8464"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그러나 운영을 재정지원한 Mafia 두목들은 Flamingo의 성과에 만족하지 못하였다  ; 1947년 여름에 Siegel은 살해되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4215,
+                    "sent_id": 807,
+                    "frameName": "Leadership",
+                    "ko_annotation_id": 8465,
+                    "origin_lus": [
+                        "bosses"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "obj": "governed",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 18,
-                            "end": 20
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Seeking_to_achieve",
-                "origin_lus": [
-                    "pursuit",
-                    "seek"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 0,
-                "sent_id": 2818
-            }
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8465"
         }
     ],
-    "frameID": 1480,
-    "en_lu": [
-        "pursuit",
-        "seek"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Seeking_to_achieve"
+    "frameName": "Leadership",
+    "lu_id": 2596,
+    "frameID": 73,
+    "ko_lu": "두목.n.Leadership",
+    "en_lus": [
+        "boss"
+    ]
 }

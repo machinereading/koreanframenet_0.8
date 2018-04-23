@@ -1,48 +1,52 @@
 {
-    "ko_lu": "군축.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 16794",
-            "examples": {
-                "ko_annotation_id": 16794,
-                "denotations": [
-                    {
-                        "obj": "state_of_affairs",
-                        "span": {
-                            "begin": 141,
-                            "end": 143
+            "examples": [
+                {
+                    "text": "자금 출처는 줄어들고 있지만, 필요는 폭발적으로 증가하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2397,
+                    "sent_id": 458,
+                    "frameName": "Expansion",
+                    "ko_annotation_id": 18457,
+                    "origin_lus": [
+                        "shrinking"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "obj": "item",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 141,
-                            "end": 143
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Prohibiting",
-                "origin_lus": [
-                    "control"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 16824,
-                "sent_id": 3209
-            }
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 13
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18457"
         }
     ],
-    "frameID": 521,
-    "en_lu": [
-        "control"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Prohibiting_or_licensing"
+    "frameName": "Expansion",
+    "lu_id": 5358,
+    "frameID": 725,
+    "ko_lu": "줄어들다.v.Expansion",
+    "en_lus": [
+        "shrink"
+    ]
 }

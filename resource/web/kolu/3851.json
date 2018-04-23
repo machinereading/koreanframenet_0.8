@@ -1,47 +1,67 @@
 {
-    "ko_lu": "마을.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 12026",
-            "examples": {
-                "ko_annotation_id": 12026,
-                "denotations": [
-                    {
-                        "obj": "Name",
-                        "span": {
-                            "begin": 0,
-                            "end": 5
+            "examples": [
+                {
+                    "text": "상부 터미널에는 4층 쇼핑 센터인 Peak Galleria와 공항 타워를 닮았고 상점들, 위락시설, 식당들이 있는 Peak Tower가 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Entity",
-                        "span": {
-                            "begin": 6,
-                            "end": 23
+                    ],
+                    "annotation_id": 5640,
+                    "sent_id": 1080,
+                    "frameName": "Similarity",
+                    "ko_annotation_id": 12994,
+                    "origin_lus": [
+                        "resembles",
+                        "niru .似る"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 34,
+                                "end": 39
+                            },
+                            "obj": "entity_2",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 41,
+                                "end": 42
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 64,
+                                "end": 74
+                            },
+                            "obj": "entity_1",
+                            "id": "3"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 38,
-                            "end": 43
-                        }
-                    }
-                ],
-                "frameName": "Being_named",
-                "origin_lus": [
-                    "tyoomee .町名 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 5007
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12994"
         }
     ],
-    "frameID": 228,
-    "en_lu": [
-        "tyoomee .町名 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Being_named"
+    "frameName": "Similarity",
+    "lu_id": 3851,
+    "frameID": 481,
+    "ko_lu": "닮다.v.Similarity",
+    "en_lus": [
+        "niru .似る",
+        "resembles"
+    ]
 }

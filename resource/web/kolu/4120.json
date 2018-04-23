@@ -1,74 +1,78 @@
 {
-    "ko_lu": "같다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 12817",
-            "examples": {
-                "ko_annotation_id": 12817,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 0,
-                            "end": 19
+            "examples": [
+                {
+                    "text": "그러나 알다싶이, 우리가 지금 가진 현금의 지출이 적으면 적을수록 더 좋다.",
+                    "relations": [],
+                    "annotation_id": 8764,
+                    "sent_id": 1814,
+                    "frameName": "Money",
+                    "ko_annotation_id": 13762,
+                    "origin_lus": [
+                        "cash"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13762"
+        },
+        {
+            "examples": [
+                {
+                    "text": "조직 범죄는 곧 라스 베이거스를 지배하는데 있어서 강력한 적수가 나타났다. -- 기업 현금.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4267,
+                    "sent_id": 821,
+                    "frameName": "Money",
+                    "ko_annotation_id": 13763,
+                    "origin_lus": [
+                        "cash"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 45,
+                                "end": 47
+                            },
+                            "obj": "possessor",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 48,
-                            "end": 72
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "state",
-                        "span": {
-                            "begin": 75,
-                            "end": 79
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 80,
-                            "end": 81
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "State_continue",
-                "origin_lus": [
-                    "remain"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13377,
-                "sent_id": 2673
-            }
+                        {
+                            "span": {
+                                "begin": 48,
+                                "end": 50
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13763"
         }
     ],
-    "frameID": 1155,
-    "en_lu": [
-        "remain"
-    ],
-    "ko_pos": "VA",
-    "frameName": "State_continue"
+    "frameName": "Money",
+    "lu_id": 4120,
+    "frameID": 1761,
+    "ko_lu": "현금.n.Money",
+    "en_lus": [
+        "cash"
+    ]
 }

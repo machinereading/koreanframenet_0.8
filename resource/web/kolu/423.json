@@ -1,48 +1,91 @@
 {
-    "ko_lu": "없어지다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 1114",
-            "examples": {
-                "ko_annotation_id": 1114,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 9,
-                            "end": 11
+            "examples": [
+                {
+                    "text": "독서를 할 때, 그 저자인 나와 독자인 당신 사이에, 이처럼 바보스러운 「추리 게임」을 시작하게 한 것은 과연 무엇인가? 나는 당신과 대화하고 있는 것이 아니며, 당신의 눈앞에 있는 이러한 문장은, 당신의 의견에 따라서 바뀌는 것이 아니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4099,
+                    "frameName": "Chatting",
+                    "ko_annotation_id": 13040,
+                    "origin_lus": [
+                        "kaiwa .会話"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 68,
+                                "end": 69
+                            },
+                            "obj": "Interlocutor_1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 13,
-                            "end": 16
+                        {
+                            "span": {
+                                "begin": 71,
+                                "end": 73
+                            },
+                            "obj": "Interlocutor_2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Ceasing_to_be",
-                "origin_lus": [
-                    "go away"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 2365,
-                "sent_id": 450
-            }
+                        {
+                            "span": {
+                                "begin": 75,
+                                "end": 78
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13040"
+        },
+        {
+            "examples": [
+                {
+                    "text": "당신도 개와 대화할 수 있다!-우선 가나가와 현・가와사키 시에 있는「다카에스 동물 애호 병원」에서는, 매우 독특한 치료 광경을 볼 수 있습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4203,
+                    "frameName": "Chatting",
+                    "ko_annotation_id": 1122,
+                    "origin_lus": [
+                        "hanasi .話"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Interlocutor_1"
+                        },
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 5
+                            },
+                            "obj": "Interlocutor_2"
+                        },
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1122"
         }
     ],
-    "frameID": 2104,
-    "en_lu": [
-        "go away"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Ceasing_to_be"
+    "frameName": "Chatting",
+    "lu_id": 423,
+    "frameID": 910,
+    "ko_lu": "대화하다.v.Chatting",
+    "en_lus": [
+        "hanasi .話",
+        "kaiwa .会話"
+    ]
 }

@@ -1,48 +1,52 @@
 {
-    "ko_lu": "커.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 4667",
-            "examples": {
-                "ko_annotation_id": 4667,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 5,
-                            "end": 7
+            "examples": [
+                {
+                    "text": "사원을 막 지나면 잘 이름지은 Ladder Street이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5794,
+                    "sent_id": 1108,
+                    "frameName": "Being_named",
+                    "ko_annotation_id": 4835,
+                    "origin_lus": [
+                        "named"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 9,
-                            "end": 15
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Change_position_on_a_scale",
-                "origin_lus": [
-                    "growing"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 12935,
-                "sent_id": 2582
-            }
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 31
+                            },
+                            "obj": "name",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4835"
         }
     ],
-    "frameID": 91,
-    "en_lu": [
-        "grow"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Change_position_on_a_scale"
+    "frameName": "Being_named",
+    "lu_id": 1538,
+    "frameID": 228,
+    "ko_lu": "이름지.n.Being_named",
+    "en_lus": [
+        "name"
+    ]
 }

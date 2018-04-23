@@ -1,74 +1,52 @@
 {
-    "ko_lu": "하다.a",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 13824",
-            "examples": {
-                "ko_annotation_id": 13824,
-                "denotations": [
-                    {
-                        "obj": "required_situation",
-                        "span": {
-                            "begin": 31,
-                            "end": 36
+            "examples": [
+                {
+                    "text": "경매 후 일년, 라스 베이거스의 인구는 1500명의 거주민으로 급속히 늘어났는데, 이는 향후 90년 동안 일어날 일들의 전조였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4077,
+                    "sent_id": 779,
+                    "frameName": "Aggregate",
+                    "ko_annotation_id": 15255,
+                    "origin_lus": [
+                        "population"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 16
+                            },
+                            "obj": "container_possessor",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "purpose",
-                        "span": {
-                            "begin": 38,
-                            "end": 55
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "required_situation",
-                        "span": {
-                            "begin": 56,
-                            "end": 63
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 62,
-                            "end": 66
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Required_event",
-                "origin_lus": [
-                    "must"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4398,
-                "sent_id": 847
-            }
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15255"
         }
     ],
-    "frameID": 1381,
-    "en_lu": [
-        "must"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Required_event"
+    "frameName": "Aggregate",
+    "lu_id": 4484,
+    "frameID": 103,
+    "ko_lu": "거주민.n.Aggregate",
+    "en_lus": [
+        "population"
+    ]
 }

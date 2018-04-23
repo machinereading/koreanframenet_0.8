@@ -1,48 +1,94 @@
 {
-    "ko_lu": "규제.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 8307",
-            "examples": {
-                "ko_annotation_id": 8307,
-                "denotations": [
-                    {
-                        "obj": "forbidden",
-                        "span": {
-                            "begin": 17,
-                            "end": 35
+            "examples": [
+                {
+                    "text": "강은 도시의 북쪽과 남쪽 지방 사이의 자연 경계선을 형성한다.",
+                    "relations": [],
+                    "annotation_id": 4995,
+                    "sent_id": 960,
+                    "frameName": "Part_orientational",
+                    "ko_annotation_id": 8713,
+                    "origin_lus": [
+                        "south",
+                        "southern"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8713"
+        },
+        {
+            "examples": [
+                {
+                    "text": "1945년에 Siegel은 LA Highway의 남쪽 끝에 호화로운 리조트를 계획하면서, 라스 베이거스 최초의 선지자 중 하나가 되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 36,
-                            "end": 38
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4210,
+                    "sent_id": 805,
+                    "frameName": "Part_orientational",
+                    "ko_annotation_id": 8714,
+                    "origin_lus": [
+                        "south",
+                        "southern"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 25
+                            },
+                            "obj": "whole",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Law",
-                "origin_lus": [
-                    "regulations"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10396,
-                "sent_id": 2108
-            }
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 31
+                            },
+                            "obj": "part",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8714"
         }
     ],
-    "frameID": 950,
-    "en_lu": [
-        "regulation"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Law"
+    "frameName": "Part_orientational",
+    "lu_id": 2704,
+    "frameID": 143,
+    "ko_lu": "남쪽.n.Part_orientational",
+    "en_lus": [
+        "southern",
+        "south"
+    ]
 }

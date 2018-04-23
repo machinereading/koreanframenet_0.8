@@ -1,61 +1,52 @@
 {
-    "ko_lu": "회원.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 6865",
-            "examples": {
-                "ko_annotation_id": 6865,
-                "denotations": [
-                    {
-                        "obj": "group",
-                        "span": {
-                            "begin": 0,
-                            "end": 5
+            "examples": [
+                {
+                    "text": "그가 똑똑했다면, 그는 아마 우선 가정의가 되지 않았을 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 1139,
+                    "sent_id": 210,
+                    "frameName": "Mental_property",
+                    "ko_annotation_id": 7302,
+                    "origin_lus": [
+                        "brilliant"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "obj": "protagonist",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 7,
-                            "end": 11
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "standing",
-                        "span": {
-                            "begin": 13,
-                            "end": 20
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Membership",
-                "origin_lus": [
-                    "membership"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 304,
-                "sent_id": 46
-            }
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7302"
         }
     ],
-    "frameID": 1026,
-    "en_lu": [
-        "membership"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Membership"
+    "frameName": "Mental_property",
+    "lu_id": 2271,
+    "frameID": 29,
+    "ko_lu": "똑똑하다.a.Mental_property",
+    "en_lus": [
+        "brilliant"
+    ]
 }

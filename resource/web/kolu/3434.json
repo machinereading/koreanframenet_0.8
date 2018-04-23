@@ -1,47 +1,65 @@
 {
-    "ko_lu": "대리.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 10629",
-            "examples": {
-                "ko_annotation_id": 10629,
-                "denotations": [
-                    {
-                        "obj": "Agent",
-                        "span": {
-                            "begin": 15,
-                            "end": 17
+            "examples": [
+                {
+                    "text": "사실은 비밀 활동이 이 장소에서 일어나고 있었다면, 이들 검사는 이와 같은 노력을 심각하게 위협했을 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Act",
-                        "span": {
-                            "begin": 18,
-                            "end": 20
+                    ],
+                    "annotation_id": 10852,
+                    "sent_id": 2178,
+                    "frameName": "Endangering",
+                    "ko_annotation_id": 11500,
+                    "origin_lus": [
+                        "jeopardized"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 34
+                            },
+                            "obj": "cause",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 44
+                            },
+                            "obj": "valued_entity",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 51,
+                                "end": 55
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 21,
-                            "end": 23
-                        }
-                    }
-                ],
-                "frameName": "Intentionally_act",
-                "origin_lus": [
-                    "daikoo .代行 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4344
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11500"
         }
     ],
-    "frameID": 198,
-    "en_lu": [
-        "daikoo .代行 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Intentionally_act"
+    "frameName": "Endangering",
+    "lu_id": 3434,
+    "frameID": 631,
+    "ko_lu": "위협하다.v.Endangering",
+    "en_lus": [
+        "jeopardized"
+    ]
 }

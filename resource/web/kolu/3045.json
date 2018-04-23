@@ -1,48 +1,65 @@
 {
-    "ko_lu": "실험하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 9185",
-            "examples": {
-                "ko_annotation_id": 9185,
-                "denotations": [
-                    {
-                        "obj": "product",
-                        "span": {
-                            "begin": 28,
-                            "end": 44
+            "examples": [
+                {
+                    "text": "열쇠로 자물쇠를 열었고, 그가 안으로 지나가자 안에서 특이한 휙휙하는 소리가 있었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 46,
-                            "end": 49
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 17594,
+                    "sent_id": 3303,
+                    "frameName": "Moving_in_place",
+                    "ko_annotation_id": 9808,
+                    "origin_lus": [
+                        "turned"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "theme",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Operational_testing",
-                "origin_lus": [
-                    "test"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6701,
-                "sent_id": 1354
-            }
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "obj": "fixed_location",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9808"
         }
     ],
-    "frameID": 1301,
-    "en_lu": [
-        "test"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Operational_testing"
+    "frameName": "Moving_in_place",
+    "lu_id": 3045,
+    "frameID": 670,
+    "ko_lu": "열다.v.Moving_in_place",
+    "en_lus": [
+        "turn"
+    ]
 }

@@ -1,61 +1,78 @@
 {
-    "ko_lu": "수도.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 6078",
-            "examples": {
-                "ko_annotation_id": 6078,
-                "denotations": [
-                    {
-                        "obj": "hypothetical_event",
-                        "span": {
-                            "begin": 16,
-                            "end": 22
+            "examples": [
+                {
+                    "text": "과학 박물관 ( 페이지 55 참조 ) 은 고대 범선에서부터 최신 기술까지 모든 것과 어떤 것이나 어떻게 작용하는지를 가르치는 최첨단의 쌍방향 박물관이다.",
+                    "relations": [],
+                    "annotation_id": 6121,
+                    "sent_id": 1169,
+                    "frameName": "Relative_time",
+                    "ko_annotation_id": 6383,
+                    "origin_lus": [
+                        "latest"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 35
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6383"
+        },
+        {
+            "examples": [
+                {
+                    "text": "게다가, 나는 박물관의 전통적인 배경 자료와 다가오는 행사, 전시, 그리고 교육 프로그램을 상세히 알리는 두 권의 최신 발행한 우리들의 Preivews 잡지를 보냅니다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7434,
+                    "sent_id": 1539,
+                    "frameName": "Relative_time",
+                    "ko_annotation_id": 6384,
+                    "origin_lus": [
+                        "latest"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 64,
+                                "end": 66
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "hypothetical_event",
-                        "span": {
-                            "begin": 24,
-                            "end": 32
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 80,
-                            "end": 85
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Likelihood",
-                "origin_lus": [
-                    "might"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17082,
-                "sent_id": 3240
-            }
+                        {
+                            "span": {
+                                "begin": 67,
+                                "end": 87
+                            },
+                            "obj": "focal_participant",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6384"
         }
     ],
-    "frameID": 114,
-    "en_lu": [
-        "might"
-    ],
-    "ko_pos": "NNB",
-    "frameName": "Likelihood"
+    "frameName": "Relative_time",
+    "lu_id": 2027,
+    "frameID": 81,
+    "ko_lu": "최신.n.Relative_time",
+    "en_lus": [
+        "latest"
+    ]
 }

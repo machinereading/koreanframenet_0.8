@@ -1,47 +1,65 @@
 {
-    "ko_lu": "만지다.v",
+    "ko_pos": "NNB",
     "patterns": [
         {
-            "valenceText": "annotation id: 2526",
-            "examples": {
-                "ko_annotation_id": 2526,
-                "denotations": [
-                    {
-                        "obj": "Impactor",
-                        "span": {
-                            "begin": 1,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "화학 생물무기 공격을 수행할것으로 보이는 테러리스트 단체들의 동기와 조직 구조에 대한 더 상세한 내용은 다음 두 페이지에서 제공된다. ( 생물 작용제의 확보와 배달에 요구되는 구체적인 능력들에 대해서는 다음 장들에서 논의된다. )",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Impactee",
-                        "span": {
-                            "begin": 15,
-                            "end": 21
+                    ],
+                    "annotation_id": 10067,
+                    "sent_id": 2054,
+                    "frameName": "Likelihood",
+                    "ko_annotation_id": 2556,
+                    "origin_lus": [
+                        "likely"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 16
+                            },
+                            "obj": "hypothetical_event",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 22
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 32
+                            },
+                            "obj": "hypothetical_event",
+                            "id": "3"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 24,
-                            "end": 27
-                        }
-                    }
-                ],
-                "frameName": "Impact",
-                "origin_lus": [
-                    "hureru .触れる "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4253
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2556"
         }
     ],
-    "frameID": 311,
-    "en_lu": [
-        "hureru .触れる "
-    ],
-    "ko_pos": "VV",
-    "frameName": "Impact"
+    "frameName": "Likelihood",
+    "lu_id": 861,
+    "frameID": 114,
+    "ko_lu": "보이.n.Likelihood",
+    "en_lus": [
+        "likely"
+    ]
 }

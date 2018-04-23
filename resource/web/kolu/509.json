@@ -1,61 +1,52 @@
 {
-    "ko_lu": "증명되다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 1431",
-            "examples": {
-                "ko_annotation_id": 1431,
-                "denotations": [
-                    {
-                        "obj": "arguer",
-                        "span": {
-                            "begin": 16,
-                            "end": 18
+            "examples": [
+                {
+                    "text": "남아공의 핵 및 미사일 프로그램의 확산 유산은 국제적 환호를 받은 입증된 폐기 조치를 통하여 효과적으로 해결된 반면, 그 나라의 화학 및 생물 무기 능력의 폐기는 비교할만한 정도로 확실하게 입증되지 못하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15562,
+                    "sent_id": 3015,
+                    "frameName": "Evaluative_comparison",
+                    "ko_annotation_id": 1446,
+                    "origin_lus": [
+                        "comparable"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 91,
+                                "end": 96
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "content",
-                        "span": {
-                            "begin": 20,
-                            "end": 50
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 52,
-                            "end": 55
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Reasoning",
-                "origin_lus": [
-                    "proved"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 12555,
-                "sent_id": 2512
-            }
+                        {
+                            "span": {
+                                "begin": 97,
+                                "end": 104
+                            },
+                            "obj": "profiled_item",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1446"
         }
     ],
-    "frameID": 308,
-    "en_lu": [
-        "prove"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Reasoning"
+    "frameName": "Evaluative_comparison",
+    "lu_id": 509,
+    "frameID": 353,
+    "ko_lu": "비교하다.v.Evaluative_comparison",
+    "en_lus": [
+        "comparable"
+    ]
 }

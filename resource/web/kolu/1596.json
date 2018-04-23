@@ -1,40 +1,107 @@
 {
-    "ko_lu": "포스트.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 4829",
-            "examples": {
-                "ko_annotation_id": 4829,
-                "denotations": [
-                    {
-                        "obj": "Landmark",
-                        "span": {
-                            "begin": 4,
-                            "end": 8
+            "examples": [
+                {
+                    "text": "가장 최근 분기에서, 지난 해 33 백만 달러의 수익에 비해, Aetna는 자동차 / 주택소유자 계열에서 23 백만 달러의 손실을 가져왔다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+                    ],
+                    "annotation_id": 42,
+                    "sent_id": 7,
+                    "frameName": "Evaluative_comparison",
+                    "ko_annotation_id": 5027,
+                    "origin_lus": [
+                        "compared",
+                        "kuraberu .比べる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 29
+                            },
+                            "obj": "standard_attribute",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 76
+                            },
+                            "obj": "profiled_item",
+                            "id": "2"
                         }
-                    }
-                ],
-                "frameName": "Time_vector",
-                "origin_lus": [
-                    "posuto .ポスト "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4182
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5027"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그에 비하면, 이 마을의 아이들은 마치 물고기처럼 물과 친했다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4681,
+                    "frameName": "Evaluative_comparison",
+                    "ko_annotation_id": 5028,
+                    "origin_lus": [
+                        "compared",
+                        "kuraberu .比べる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "obj": "Profiled_item"
+                        },
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 17
+                            },
+                            "obj": "Standard_item"
+                        },
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5028"
         }
     ],
-    "frameID": 379,
-    "en_lu": [
-        "posuto .ポスト "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Time_vector"
+    "frameName": "Evaluative_comparison",
+    "lu_id": 1596,
+    "frameID": 353,
+    "ko_lu": "비하다.v.Evaluative_comparison",
+    "en_lus": [
+        "kuraberu .比べる ",
+        "compare"
+    ]
 }

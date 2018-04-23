@@ -1,48 +1,71 @@
 {
-    "ko_lu": "기반.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 13859",
-            "examples": {
-                "ko_annotation_id": 13859,
-                "denotations": [
-                    {
-                        "obj": "place",
-                        "span": {
-                            "begin": 0,
-                            "end": 11
+            "examples": [
+                {
+                    "text": "북한은 또한 비무장 지대 ( DMZ ) 와 서울 도달 범위 이내에 화학무기 투하에 특히 효과적인  다연장로켓포를 포함한 -- 수 천문의 포병 시스템을 배치하였다.",
+                    "relations": [],
+                    "annotation_id": 14358,
+                    "sent_id": 2828,
+                    "frameName": "Range",
+                    "ko_annotation_id": 15299,
+                    "origin_lus": [
+                        "reach"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 32
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15299"
+        },
+        {
+            "examples": [
+                {
+                    "text": "바다를 돌아다니며 이제껏 살아온 것 같지만, 섬이 보이지 않을 만큼 멀리까지는 가본 적이 없어, 돌아다닌 범위는 생각보다 좁다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4638,
+                    "frameName": "Range",
+                    "ko_annotation_id": 19732,
+                    "origin_lus": [
+                        "han'i .範囲 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 54,
+                                "end": 58
+                            },
+                            "obj": "Event"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 13,
-                            "end": 15
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Building",
-                "origin_lus": [
-                    "Building"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 12432,
-                "sent_id": 2483
-            }
+                        {
+                            "span": {
+                                "begin": 59,
+                                "end": 61
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19732"
         }
     ],
-    "frameID": 259,
-    "en_lu": [
-        "Building"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Building"
+    "frameName": "Range",
+    "lu_id": 4496,
+    "frameID": 1350,
+    "ko_lu": "범위.n.Range",
+    "en_lus": [
+        "han'i .範囲 ",
+        "reach"
+    ]
 }

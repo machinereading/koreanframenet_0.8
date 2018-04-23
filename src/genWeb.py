@@ -42,12 +42,12 @@ def gen_lu_files():
                         patterns.append(pat)
 
         d['patterns'] = patterns
-        with open('../resource/web/lu/'+filename,'w') as f:
+        with open('../resource/web/kolu/'+filename,'w') as f:
             json.dump(d,f,indent=4,ensure_ascii=False)
             print(filename,'is written')
 
 def gen_lu_index():
-    files = glob.glob('../resource/web/lu/*.json')
+    files = glob.glob('../resource/web/kolu/*.json')
     lu_files = []
     for i in files:
         if 'index.json' in i:
@@ -71,7 +71,7 @@ def gen_lu_index():
         indices.append({'lu':kolu, 'pos':data['ko_pos'], 'id':data['lu_id']})
 
     indices = sorted(indices,key=lambda x: x['lu'])
-    with open('../resource/web/lu/index.json', 'w') as f:
+    with open('../resource/web/kolu/index.json', 'w') as f:
         json.dump(indices,f,indent=4,ensure_ascii=False)
         print('index.json is written')
     print(len(indices), 'is indexed')

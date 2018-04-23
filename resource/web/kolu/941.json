@@ -1,47 +1,52 @@
 {
-    "ko_lu": "이상.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 2713",
-            "examples": {
-                "ko_annotation_id": 2713,
-                "denotations": [
-                    {
-                        "obj": "Lower_limit",
-                        "span": {
-                            "begin": 4,
-                            "end": 8
+            "examples": [
+                {
+                    "text": "도망가지 못한 사람들은 처형되거나 노예로 팔렸다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Item",
-                        "span": {
-                            "begin": 13,
-                            "end": 19
+                    ],
+                    "annotation_id": 3583,
+                    "sent_id": 671,
+                    "frameName": "Execution",
+                    "ko_annotation_id": 2777,
+                    "origin_lus": [
+                        "executed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "obj": "executed",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 9,
-                            "end": 11
-                        }
-                    }
-                ],
-                "frameName": "Position_on_a_scale",
-                "origin_lus": [
-                    "izyoo .以上 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4305
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2777"
         }
     ],
-    "frameID": 95,
-    "en_lu": [
-        "izyoo .以上 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Position_on_a_scale"
+    "frameName": "Execution",
+    "lu_id": 941,
+    "frameID": 225,
+    "ko_lu": "처형되다.v.Execution",
+    "en_lus": [
+        "execute"
+    ]
 }

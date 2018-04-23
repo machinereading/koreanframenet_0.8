@@ -1,74 +1,92 @@
 {
-    "ko_lu": "판매액.n",
+    "ko_pos": "NNP",
     "patterns": [
         {
-            "valenceText": "annotation id: 17004",
-            "examples": {
-                "ko_annotation_id": 17004,
-                "denotations": [
-                    {
-                        "obj": "goods",
-                        "span": {
-                            "begin": 8,
-                            "end": 15
+            "examples": [
+                {
+                    "text": "2002년 12월, 한 이탈리아 신문은 시리아는 이라크가 시리아 연구 센터에 대량 파괴 무기를 저장하도록 허용했다고 주장하는 한 이라크 관리를 인용하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16154,
+                    "sent_id": 3099,
+                    "frameName": "Origin",
+                    "ko_annotation_id": 18749,
+                    "origin_lus": [
+                        "Italian"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 17,
-                            "end": 19
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18749"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그리스는 제2차 세계대전에 관여하지 않으려고 하였으나, 무솔리니는 그리스를 그의 이탈리아 제국으로의 이상적인 추가로 보았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3184,
+                    "sent_id": 599,
+                    "frameName": "Origin",
+                    "ko_annotation_id": 18750,
+                    "origin_lus": [
+                        "Italian"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 45,
+                                "end": 49
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 20,
-                            "end": 23
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "money",
-                        "span": {
-                            "begin": 24,
-                            "end": 32
-                        },
-                        "id": "4"
-                    }
-                ],
-                "frameName": "Commerce_sell",
-                "origin_lus": [
-                    "sale"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 63,
-                "sent_id": 10
-            }
+                        {
+                            "span": {
+                                "begin": 50,
+                                "end": 52
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18750"
         }
     ],
-    "frameID": 172,
-    "en_lu": [
-        "sale"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Commerce_sell"
+    "frameName": "Origin",
+    "lu_id": 5438,
+    "frameID": 1103,
+    "ko_lu": "이탈리아.n.Origin",
+    "en_lus": [
+        "Italian"
+    ]
 }

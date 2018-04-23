@@ -1,61 +1,95 @@
 {
-    "ko_lu": "개발되다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 17819",
-            "examples": {
-                "ko_annotation_id": 17819,
-                "denotations": [
-                    {
-                        "obj": "project",
-                        "span": {
-                            "begin": 0,
-                            "end": 53
+            "examples": [
+                {
+                    "text": "제2차 세계대전 중, 그 교회는 일본 장교들을 위한 클럽으로 변하였고 ; 그것은 전쟁 후에 복원되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5547,
+                    "sent_id": 1061,
+                    "frameName": "Organization",
+                    "ko_annotation_id": 19683,
+                    "origin_lus": [
+                        "club",
+                        "Club"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 28
+                            },
+                            "obj": "members",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "manner",
-                        "span": {
-                            "begin": 54,
-                            "end": 60
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 31
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19683"
+        },
+        {
+            "examples": [
+                {
+                    "text": "바닷쪽에 Causeway 만 태풍 피난소가 있는데, 이곳은 비싼 요트가 뱃전마다 정박되어 있고, 홍콩 요트 클럽 본부가 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5887,
+                    "sent_id": 1123,
+                    "frameName": "Organization",
+                    "ko_annotation_id": 19684,
+                    "origin_lus": [
+                        "club",
+                        "Club"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 54,
+                                "end": 59
+                            },
+                            "obj": "name",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 64,
-                            "end": 68
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_to_make_progress",
-                "origin_lus": [
-                    "developed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 15486,
-                "sent_id": 3005
-            }
+                        {
+                            "span": {
+                                "begin": 60,
+                                "end": 62
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19684"
         }
     ],
-    "frameID": 1349,
-    "en_lu": [
-        "developed"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cause_to_make_progress"
+    "frameName": "Organization",
+    "lu_id": 5687,
+    "frameID": 1371,
+    "ko_lu": "클럽.n.Organization",
+    "en_lus": [
+        "Club",
+        "club"
+    ]
 }

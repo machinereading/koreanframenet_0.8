@@ -1,33 +1,65 @@
 {
-    "ko_lu": "주인.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 13825",
-            "examples": {
-                "ko_annotation_id": 13825,
-                "denotations": [
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 6,
-                            "end": 8
+            "examples": [
+                {
+                    "text": "이란이 리신을 생산하기 위한 시도를 했다는 증거가 있나 ?",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    }
-                ],
-                "frameName": "Leadership",
-                "origin_lus": [
-                    "oyakata .親方 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4789
-            }
+                    ],
+                    "annotation_id": 6512,
+                    "sent_id": 1300,
+                    "frameName": "Attempt",
+                    "ko_annotation_id": 15257,
+                    "origin_lus": [
+                        "attempted"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "agent",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 15
+                            },
+                            "obj": "goal",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 23
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15257"
         }
     ],
-    "frameID": 73,
-    "en_lu": [
-        "oyakata .親方 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Leadership"
+    "frameName": "Attempt",
+    "lu_id": 4485,
+    "frameID": 116,
+    "ko_lu": "시도되다.v.Attempt",
+    "en_lus": [
+        "attempt"
+    ]
 }

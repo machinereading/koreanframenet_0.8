@@ -1,40 +1,65 @@
 {
-    "ko_lu": "회사.n",
+    "ko_pos": "NNB",
     "patterns": [
         {
-            "valenceText": "annotation id: 14451",
-            "examples": {
-                "ko_annotation_id": 14451,
-                "denotations": [
-                    {
-                        "obj": "Part",
-                        "span": {
-                            "begin": 0,
-                            "end": 4
+            "examples": [
+                {
+                    "text": "제2차 세계대전 중, 그 교회는 일본 장교들을 위한 클럽으로 변하였고 ; 그것은 전쟁 후에 복원되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 0,
-                            "end": 4
+                    ],
+                    "annotation_id": 5544,
+                    "sent_id": 1061,
+                    "frameName": "Temporal_collocation",
+                    "ko_annotation_id": 15804,
+                    "origin_lus": [
+                        "During"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "obj": "landmark_event",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 36
+                            },
+                            "obj": "trajector_event",
+                            "id": "3"
                         }
-                    }
-                ],
-                "frameName": "Part_inner_outer",
-                "origin_lus": [
-                    "syanai .社内"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4143
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15804"
         }
     ],
-    "frameID": 327,
-    "en_lu": [
-        "syanai .社内"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Part_inner_outer"
+    "frameName": "Temporal_collocation",
+    "lu_id": 4647,
+    "frameID": 1895,
+    "ko_lu": "중.n.Temporal_collocation",
+    "en_lus": [
+        "During"
+    ]
 }

@@ -1,48 +1,65 @@
 {
-    "ko_lu": "모르다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 9684",
-            "examples": {
-                "ko_annotation_id": 9684,
-                "denotations": [
-                    {
-                        "obj": "owner",
-                        "span": {
-                            "begin": 0,
-                            "end": 1
+            "examples": [
+                {
+                    "text": "공화당 대통령이 투표자의 해당 지역/주에 지역에 대한 혜택을 제한할지라도, 그와 같은 대통령은 또한 다른 지역/주와 그들 의원들이 지역 혜택을 가져가지 못하게 하는데 더 효과적일 수도 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 14,
-                            "end": 16
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 1500,
+                    "sent_id": 274,
+                    "frameName": "Bringing",
+                    "ko_annotation_id": 10627,
+                    "origin_lus": [
+                        "bringing"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 56,
+                                "end": 71
+                            },
+                            "obj": "agent",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Possession",
-                "origin_lus": [
-                    "have"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8806,
-                "sent_id": 1825
-            }
+                        {
+                            "span": {
+                                "begin": 73,
+                                "end": 78
+                            },
+                            "obj": "theme",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 80,
+                                "end": 83
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10627"
         }
     ],
-    "frameID": 118,
-    "en_lu": [
-        "have"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Possession"
+    "frameName": "Bringing",
+    "lu_id": 3197,
+    "frameID": 240,
+    "ko_lu": "가져가다.v.Bringing",
+    "en_lus": [
+        "bring"
+    ]
 }

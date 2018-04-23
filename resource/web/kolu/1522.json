@@ -1,48 +1,65 @@
 {
-    "ko_lu": "조사관.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 4639",
-            "examples": {
-                "ko_annotation_id": 4639,
-                "denotations": [
-                    {
-                        "obj": "cognizer",
-                        "span": {
-                            "begin": 65,
-                            "end": 69
+            "examples": [
+                {
+                    "text": "김일성은 한국 전쟁 동안 소비에트와 중국의 지원에  감사하였으나, 그는 더 많은 것을 기대하였고, 특히 소비에트로부터 더 많이 기대하였고, 전쟁이 궁지에 빠진 것에 불만족하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 70,
-                            "end": 73
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14979,
+                    "sent_id": 2920,
+                    "frameName": "Experiencer_focus",
+                    "ko_annotation_id": 4802,
+                    "origin_lus": [
+                        "dissatisfied"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 37,
+                                "end": 38
+                            },
+                            "obj": "experiencer",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Scrutiny",
-                "origin_lus": [
-                    "inspectors"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 15319,
-                "sent_id": 2973
-            }
+                        {
+                            "span": {
+                                "begin": 78,
+                                "end": 90
+                            },
+                            "obj": "content",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 92,
+                                "end": 96
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4802"
         }
     ],
-    "frameID": 31,
-    "en_lu": [
-        "inspector"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Scrutiny"
+    "frameName": "Experiencer_focus",
+    "lu_id": 1522,
+    "frameID": 48,
+    "ko_lu": "불만족하다.v.Experiencer_focus",
+    "en_lus": [
+        "dissatisfied"
+    ]
 }

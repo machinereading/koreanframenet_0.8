@@ -1,40 +1,106 @@
 {
-    "ko_lu": "옛날.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 11033",
-            "examples": {
-                "ko_annotation_id": 11033,
-                "denotations": [
-                    {
-                        "obj": "Landmark",
-                        "span": {
-                            "begin": 23,
-                            "end": 32
+            "examples": [
+                {
+                    "text": "IAEA 국장 Hans Blix는 핵 기술을 획득하려는 이란의 시도와 관련하여 그는 우려할만한 요인이 없다고 말하였다 ( 6906 ).",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 18,
-                            "end": 20
+                    ],
+                    "annotation_id": 18230,
+                    "sent_id": 3462,
+                    "frameName": "Emotion_directed",
+                    "ko_annotation_id": 11878,
+                    "origin_lus": [
+                        "concern"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 42
+                            },
+                            "obj": "stimulus",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 47,
+                                "end": 52
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Time_vector",
-                "origin_lus": [
-                    "mukasi .むかし "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4446
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11878"
+        },
+        {
+            "examples": [
+                {
+                    "text": "미국은 이란이 농축 우라늄을 비축해 놓았다면, 향후  핵확산 방지 조약에서 탈퇴하고 ( 북한이 한 것처럼 ) 그런 다음 신속히, 심지어 수 개월 내에 핵무기를 건조할 수 있을 것을 우려하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11883,
+                    "sent_id": 2358,
+                    "frameName": "Emotion_directed",
+                    "ko_annotation_id": 15247,
+                    "origin_lus": [
+                        "concerned"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "experiencer",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 99
+                            },
+                            "obj": "event",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 101,
+                                "end": 104
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15247"
         }
     ],
-    "frameID": 379,
-    "en_lu": [
-        "mukasi .むかし "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Time_vector"
+    "frameName": "Emotion_directed",
+    "lu_id": 3532,
+    "frameID": 46,
+    "ko_lu": "우려하다.v.Emotion_directed",
+    "en_lus": [
+        "concerned",
+        "concern"
+    ]
 }

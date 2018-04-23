@@ -1,61 +1,95 @@
 {
-    "ko_lu": "주.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 5124",
-            "examples": {
-                "ko_annotation_id": 5124,
-                "denotations": [
-                    {
-                        "obj": "relative_time",
-                        "span": {
-                            "begin": 8,
-                            "end": 9
+            "examples": [
+                {
+                    "text": "이러한 대 실패에 이어 오토만은 그리고 나서 제1차 세계대전에서 독일과 동맹하였고 전쟁에서 독일이 패배하여 더 많은 영토를 잃었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3126,
+                    "sent_id": 591,
+                    "frameName": "Hostile_encounter",
+                    "ko_annotation_id": 5296,
+                    "origin_lus": [
+                        "War",
+                        "taisen .大戦 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 31
+                            },
+                            "obj": "sides",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "count",
-                        "span": {
-                            "begin": 10,
-                            "end": 11
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5296"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그리스는 제2차 세계대전에 관여하지 않으려고 하였으나, 무솔리니는 그리스를 그의 이탈리아 제국으로의 이상적인 추가로 보았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3181,
+                    "sent_id": 599,
+                    "frameName": "Hostile_encounter",
+                    "ko_annotation_id": 5297,
+                    "origin_lus": [
+                        "War",
+                        "taisen .大戦 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "obj": "sides",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 11,
-                            "end": 12
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Calendric_unit",
-                "origin_lus": [
-                    "weeks"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8082,
-                "sent_id": 1648
-            }
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5297"
         }
     ],
-    "frameID": 229,
-    "en_lu": [
-        "week"
-    ],
-    "ko_pos": "NNB",
-    "frameName": "Calendric_unit"
+    "frameName": "Hostile_encounter",
+    "lu_id": 1712,
+    "frameID": 93,
+    "ko_lu": "대전.n.Hostile_encounter",
+    "en_lus": [
+        "taisen .大戦 ",
+        "War"
+    ]
 }

@@ -1,61 +1,52 @@
 {
-    "ko_lu": "제한하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 9795",
-            "examples": {
-                "ko_annotation_id": 9795,
-                "denotations": [
-                    {
-                        "obj": "grantor",
-                        "span": {
-                            "begin": 11,
-                            "end": 13
+            "examples": [
+                {
+                    "text": "그는 세금인하에서 자기가 할 수 있는 한도까지 가지 않았고 ; 실제로 그는 세금인하를 간접세 증가와 결합시켰다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 599,
+                    "sent_id": 91,
+                    "frameName": "Cause_change_of_position_on_a_scale",
+                    "ko_annotation_id": 10858,
+                    "origin_lus": [
+                        "reductions"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "obj": "item",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "action",
-                        "span": {
-                            "begin": 15,
-                            "end": 29
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 31,
-                            "end": 34
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Grant_permission",
-                "origin_lus": [
-                    "restricting"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10587,
-                "sent_id": 2128
-            }
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10858"
         }
     ],
-    "frameID": 520,
-    "en_lu": [
-        "restrict"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Deny_or_grant_permission"
+    "frameName": "Cause_change_of_position_on_a_scale",
+    "lu_id": 3249,
+    "frameID": 96,
+    "ko_lu": "인하.n.Cause_change_of_position_on_a_scale",
+    "en_lus": [
+        "reduction"
+    ]
 }

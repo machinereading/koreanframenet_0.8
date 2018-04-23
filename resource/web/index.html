@@ -1,0 +1,139 @@
+
+
+<HTML lang="ko">
+    <HEAD> 
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=10">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Korean FrameNet </title>
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+      <link rel="stylesheet" href="textae-4.0.5.min.css" />
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+      <script src="jquery.jsPlumb-1.5.2-min.js"></script>
+      <script src="textae-4.0.5.min.js"></script>
+
+      <script language="JavaScript">
+        <!-- 
+          var serverAddr = "";
+          var isSending = false;
+          var result = [];
+
+          function showResult() {
+           
+            document.body.innerHTML = savedHTML;
+            document.body.innerHTML += "<br />"
+
+            resultHTML = "";
+            for (var i=0; i<result.length; i++) {
+              resultHTML += "<b>" + result[i].ko_lu + ". " + result[i].ko_pos + "  (" + result[i].frameName + ")</b> <br />";
+              resultHTML += "<div class=\"textae-editor\" style=\"padding-top: 30px\">" + JSON.stringify(result[i].pubannotation) + "</div><br />";
+            }
+            document.body.innerHTML += resultHTML;
+
+            var addon = document.createElement("script"); 
+            addon.setAttribute("src", "textae-4.0.5.min.js");
+            document.body.appendChild(addon);
+
+            document.getElementById("box1").focus();
+            isSending = false;
+          }
+
+          function postSentence(sentence) {
+            $.ajax({
+              type: "POST",
+              url: "http://143.248.135.15:10007/korean-semafor/demo",
+              data: JSON.stringify({'text': sentence}),
+              contentType: "application/json",
+              dataType: "json",
+              beforeSend: function() {},
+              success: function (data) {
+                result = data
+                showResult();
+              },
+              error: function(err) {
+                console.log(err.responseText);
+                result = JSON.parse(err.responseText);
+                console.log(result);
+                showResult();
+              }
+            });     
+          }
+   
+          function parse (sentence) {
+            if (! isSending) { 
+              isSending = true;
+              postSentence(sentence); 
+            }
+          }
+      // -->
+    </script>
+  </HEAD>
+
+  <BODY> 
+    <div style="margin-top:10px;">
+    </div>
+
+    <div style="float:left; margin-left:10px;">
+      <img src="kfn_logo.png" id="logo"/>
+    </div>
+
+    <div style="margin-left:200px;">
+      <ul class="nav nav-tabs">
+        <li class="m"><a target="content" href="main.html">FrameNet</a></li>
+
+        <li class="m dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Frame Index<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a target="content" href="frameindex_info.html">Frame Index is</a></li>
+            <li><a target="content" href="frameIndex.xml">Frame Index List</a></li>
+          </ul>
+        </li>
+
+        <li class="m dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Full-Text Annotation<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a target="content" href="fulltext_info.html">Full-Text Annotation is</a></li>
+            <li><a target="content" href="fulltext_new/index.html">Full-Text Data</a></li>
+          </ul>
+        </li>
+
+        <li class="m dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">LU Annotation<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a target="content" href="lu_info.html">LU Annotation is</a></li>
+            <li><a target="content" href="kolu/lu.html">LU Data</a></li>
+          </ul>
+        </li>
+
+        <li class="m"><a target="content" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <script>
+    $(document).ready(function(){
+      $('#content').height($(window).height()-60);
+    });
+    $("a").click(function(){
+      $("a").parent().removeClass("active");
+      $(this).parents().filter(".m").addClass("active");
+    });
+    $("#logo").click(function() {
+      $("a").parent().removeClass("active");
+      document.getElementById("content").src="main.html";
+      return false;
+    });
+   
+</script>
+
+    <div style="margin-top:10px;">
+    </div>
+
+    <div align="center" style="margin-left:60px">
+    <iframe id="content" name="content" src='main.html' frameborder='0' width="100%" align="center">
+    </iframe>
+    </div>
+
+  </BDOY>
+</HTML>

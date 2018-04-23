@@ -1,72 +1,81 @@
 {
-    "ko_lu": "관계.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 2768",
-            "examples": {
-                "ko_annotation_id": 2768,
-                "denotations": [
-                    {
-                        "obj": "Concepts",
-                        "span": {
-                            "begin": 31,
-                            "end": 35
+            "examples": [
+                {
+                    "text": "2- 소지품 A : 차량 B : 개인 소지품 C : 전자 장비.",
+                    "relations": [],
+                    "annotation_id": 7937,
+                    "sent_id": 1622,
+                    "frameName": "Possession",
+                    "ko_annotation_id": 2849,
+                    "origin_lus": [
+                        "Belongings",
+                        "effects"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 37,
-                            "end": 39
-                        }
-                    }
-                ],
-                "frameName": "Cognitive_connection",
-                "origin_lus": [
-                    "aidagara .間柄 ",
-                    "kankee .関係 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4656
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2849"
         },
         {
-            "valenceText": "annotation id: 2769",
-            "examples": {
-                "ko_annotation_id": 2769,
-                "denotations": [
-                    {
-                        "obj": "Concept_1",
-                        "span": {
-                            "begin": 0,
-                            "end": 12
+            "examples": [
+                {
+                    "text": "2- 소지품 A : 차량 B : 개인 소지품 C : 전자 장비.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 15,
-                            "end": 17
+                    ],
+                    "annotation_id": 7937,
+                    "sent_id": 1622,
+                    "frameName": "Possession",
+                    "ko_annotation_id": 2850,
+                    "origin_lus": [
+                        "Belongings",
+                        "effects"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "obj": "depictive",
+                            "id": "2"
                         }
-                    }
-                ],
-                "frameName": "Cognitive_connection",
-                "origin_lus": [
-                    "aidagara .間柄 ",
-                    "kankee .関係 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3697
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2850"
         }
     ],
-    "frameID": 720,
-    "en_lu": [
-        "kankee .関係 ",
-        "aidagara .間柄 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Cognitive_connection"
+    "frameName": "Possession",
+    "lu_id": 962,
+    "frameID": 118,
+    "ko_lu": "소지품.n.Possession",
+    "en_lus": [
+        "Belongings",
+        "effect"
+    ]
 }

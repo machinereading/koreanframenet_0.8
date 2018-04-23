@@ -1,40 +1,65 @@
 {
-    "ko_lu": "추구하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 3302",
-            "examples": {
-                "ko_annotation_id": 3302,
-                "denotations": [
-                    {
-                        "obj": "Entity",
-                        "span": {
-                            "begin": 95,
-                            "end": 100
+            "examples": [
+                {
+                    "text": "이것은 1999년에 시작한 것으로 전해지는 다른 미사일 부품 적하물을 보완하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 90,
-                            "end": 93
+                    ],
+                    "annotation_id": 13722,
+                    "sent_id": 2726,
+                    "frameName": "Rest",
+                    "ko_annotation_id": 3391,
+                    "origin_lus": [
+                        "complemented"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "part",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 37
+                            },
+                            "obj": "rest",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Usefulness",
-                "origin_lus": [
-                    "riron .理論 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3619
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 3391"
         }
     ],
-    "frameID": 726,
-    "en_lu": [
-        "riron .理論 "
-    ],
-    "ko_pos": "VV",
-    "frameName": "Usefulness"
+    "frameName": "Rest",
+    "lu_id": 1091,
+    "frameID": 1000,
+    "ko_lu": "보완하다.v.Rest",
+    "en_lus": [
+        "complement"
+    ]
 }

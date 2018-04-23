@@ -1,47 +1,65 @@
 {
-    "ko_lu": "동거이.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 11834",
-            "examples": {
-                "ko_annotation_id": 11834,
-                "denotations": [
-                    {
-                        "obj": "Partner_1",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "그 결과, 상인들은 하루에 한 발의 발포로 제한되었고 - 그리고 그때부터, 그들은 모두가 듣도록 매일 정오 시간을 알렸다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Partner_2",
-                        "span": {
-                            "begin": 3,
-                            "end": 6
+                    ],
+                    "annotation_id": 5905,
+                    "sent_id": 1128,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 12682,
+                    "origin_lus": [
+                        "forced"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "obj": "affected",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 27
+                            },
+                            "obj": "effect",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 3,
-                            "end": 6
-                        }
-                    }
-                ],
-                "frameName": "Personal_relationship",
-                "origin_lus": [
-                    "dookyo nin .同居 人 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3892
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12682"
         }
     ],
-    "frameID": 102,
-    "en_lu": [
-        "dookyo nin .同居 人 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Personal_relationship"
+    "frameName": "Causation",
+    "lu_id": 3778,
+    "frameID": 5,
+    "ko_lu": "제한되다.v.Causation",
+    "en_lus": [
+        "force"
+    ]
 }

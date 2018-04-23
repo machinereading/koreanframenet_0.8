@@ -1,61 +1,38 @@
 {
-    "ko_lu": "소유하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 9547",
-            "examples": {
-                "ko_annotation_id": 9547,
-                "denotations": [
-                    {
-                        "obj": "owner",
-                        "span": {
-                            "begin": 50,
-                            "end": 64
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 66,
-                            "end": 69
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "possession",
-                        "span": {
-                            "begin": 70,
-                            "end": 78
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Possession",
-                "origin_lus": [
-                    "possessed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4950,
-                "sent_id": 953
-            }
+            "examples": [
+                {
+                    "text": "대륙 유럽의 편종을 연주하는 것처럼, 덜 복잡한 형태의 종을 연주하는 것은 영국인들에게는 유치한 것이고, 외국인들에게만 적합하다고 여긴다.",
+                    "relations": [],
+                    "annotation_id": 185,
+                    "sent_id": 27,
+                    "frameName": "People_by_origin",
+                    "ko_annotation_id": 10297,
+                    "origin_lus": [
+                        "foreigners"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 59,
+                                "end": 63
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10297"
         }
     ],
-    "frameID": 118,
-    "en_lu": [
-        "possess"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Possession"
+    "frameName": "People_by_origin",
+    "lu_id": 3144,
+    "frameID": 974,
+    "ko_lu": "외국인.n.People_by_origin",
+    "en_lus": [
+        "foreigner"
+    ]
 }

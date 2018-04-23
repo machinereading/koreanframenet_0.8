@@ -1,61 +1,94 @@
 {
-    "ko_lu": "작업하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 13246",
-            "examples": {
-                "ko_annotation_id": 13246,
-                "denotations": [
-                    {
-                        "obj": "task",
-                        "span": {
-                            "begin": 15,
-                            "end": 27
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 29,
-                            "end": 32
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "employee",
-                        "span": {
-                            "begin": 33,
-                            "end": 44
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Being_employed",
-                "origin_lus": [
-                    "work"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13714,
-                "sent_id": 2725
-            }
+            "examples": [
+                {
+                    "text": "1- 외부 보호 : A : 장벽, 벽, 주차장 B : 사람 보호 : - 위치에 가까운 순찰 - 위치에서 먼 순찰 C : 동물 보호 : 개 D : 전자 보호 : 카메라, 경보 장비, 야시 장비 … 등",
+                    "relations": [],
+                    "annotation_id": 7567,
+                    "sent_id": 1560,
+                    "frameName": "Locale_by_use",
+                    "ko_annotation_id": 14436,
+                    "origin_lus": [
+                        "parking lots",
+                        "parking lot"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14436"
+        },
+        {
+            "examples": [
+                {
+                    "text": "따라서, 다음을 취하는 것이 중요하다 : 1- 주차장은 울타리로부터 50 미터 떨어져야 한다.",
+                    "relations": [],
+                    "annotation_id": 7687,
+                    "sent_id": 1580,
+                    "frameName": "Locale_by_use",
+                    "ko_annotation_id": 14437,
+                    "origin_lus": [
+                        "parking lots",
+                        "parking lot"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14437"
+        },
+        {
+            "examples": [
+                {
+                    "text": "4- 내부 주차장은 차들을 방해 행위로부터 보호하기 위해 그 위치의 차들만을 위한 것으로 엄격히 지정되어야 한다.",
+                    "relations": [],
+                    "annotation_id": 7705,
+                    "sent_id": 1585,
+                    "frameName": "Locale_by_use",
+                    "ko_annotation_id": 14438,
+                    "origin_lus": [
+                        "parking lots",
+                        "parking lot"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14438"
         }
     ],
-    "frameID": 282,
-    "en_lu": [
-        "work"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Being_employed"
+    "frameName": "Locale_by_use",
+    "lu_id": 4265,
+    "frameID": 196,
+    "ko_lu": "주차장.n.Locale_by_use",
+    "en_lus": [
+        "parking lots",
+        "parking lot"
+    ]
 }

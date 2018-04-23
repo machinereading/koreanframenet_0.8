@@ -1,61 +1,44 @@
 {
-    "ko_lu": "가져오다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 10414",
-            "examples": {
-                "ko_annotation_id": 10414,
-                "denotations": [
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 14,
-                            "end": 23
+            "examples": [
+                {
+                    "text": "연회는 육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의 연회가 중심을 이뤘다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3649,
+                    "frameName": "Organization",
+                    "ko_annotation_id": 11398,
+                    "origin_lus": [
+                        "yakusyo .役所 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "obj": "Organization"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "goal",
-                        "span": {
-                            "begin": 25,
-                            "end": 27
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 29,
-                            "end": 35
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Bringing",
-                "origin_lus": [
-                    "bringing"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7466,
-                "sent_id": 1542
-            }
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11398"
         }
     ],
-    "frameID": 240,
-    "en_lu": [
-        "bring"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Bringing"
+    "frameName": "Organization",
+    "lu_id": 3395,
+    "frameID": 1371,
+    "ko_lu": "관공서.n.Organization",
+    "en_lus": [
+        "yakusyo .役所 "
+    ]
 }

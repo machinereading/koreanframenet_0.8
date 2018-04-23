@@ -1,74 +1,79 @@
 {
-    "ko_lu": "맞추다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 7359",
-            "examples": {
-                "ko_annotation_id": 7359,
-                "denotations": [
-                    {
-                        "obj": "helper",
-                        "span": {
-                            "begin": 5,
-                            "end": 76
+            "examples": [
+                {
+                    "text": "나는 결국 학교 선생이 될지도 모른다는 생각을 하며, 나 자신은 대학에서 그와 같은 과목들을 수강했다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 1105,
+                    "sent_id": 201,
+                    "frameName": "Education_teaching",
+                    "ko_annotation_id": 7883,
+                    "origin_lus": [
+                        "schoolteacher"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "obj": "teacher",
+                            "id": "2"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "manner",
-                        "span": {
-                            "begin": 86,
-                            "end": 89
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "benefited_party",
-                        "span": {
-                            "begin": 90,
-                            "end": 102
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 108,
-                            "end": 110
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Assistance",
-                "origin_lus": [
-                    "catering"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4376,
-                "sent_id": 842
-            }
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7883"
+        },
+        {
+            "examples": [
+                {
+                    "text": "나는 많은 학교 선생들을 알고 그리고, 대체적으로, 그들은 양심적인 교육에 진지하게 전념하고 있다.",
+                    "relations": [],
+                    "annotation_id": 1112,
+                    "sent_id": 204,
+                    "frameName": "Education_teaching",
+                    "ko_annotation_id": 17843,
+                    "origin_lus": [
+                        "schoolteachers"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17843"
         }
     ],
-    "frameID": 391,
-    "en_lu": [
-        "catering"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Assistance"
+    "frameName": "Education_teaching",
+    "lu_id": 2432,
+    "frameID": 111,
+    "ko_lu": "학교.n.Education_teaching",
+    "en_lus": [
+        "schoolteacher",
+        "schoolteacher"
+    ]
 }

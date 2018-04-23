@@ -1,47 +1,52 @@
 {
-    "ko_lu": "분화.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 16661",
-            "examples": {
-                "ko_annotation_id": 16661,
-                "denotations": [
-                    {
-                        "obj": "Time",
-                        "span": {
-                            "begin": 0,
-                            "end": 5
+            "examples": [
+                {
+                    "text": "오전 4시 2분 SHIBUMI : 다시 전기가 공급되고 UCSF { 메디칼 센터 }는 밤에는 조용해지는 것 같다 ( 그들은 그 소리와 주차장의 불빛으로 주차장에서 부상자들을 분류하고 응급처치를 하였다 ).",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Event",
-                        "span": {
-                            "begin": 7,
-                            "end": 37
+                    ],
+                    "annotation_id": 858,
+                    "sent_id": 151,
+                    "frameName": "Become_silent",
+                    "ko_annotation_id": 18267,
+                    "origin_lus": [
+                        "quieted down"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 46
+                            },
+                            "obj": "speaker",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 52,
+                                "end": 57
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 35,
-                            "end": 37
-                        }
-                    }
-                ],
-                "frameName": "Process_start",
-                "origin_lus": [
-                    "hunka .噴火"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4594
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18267"
         }
     ],
-    "frameID": 133,
-    "en_lu": [
-        "hunka .噴火"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Process_start"
+    "frameName": "Becoming_silent",
+    "lu_id": 5297,
+    "frameID": 731,
+    "ko_lu": "조용하다.a.Becoming_silent",
+    "en_lus": [
+        "quieted down"
+    ]
 }

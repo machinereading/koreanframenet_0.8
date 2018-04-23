@@ -1,48 +1,52 @@
 {
-    "ko_lu": "미래.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 455",
-            "examples": {
-                "ko_annotation_id": 455,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 28,
-                            "end": 30
+            "examples": [
+                {
+                    "text": "두 개의 센터로 분리될 이 실험실의 임무는 현재와 미래의 생물학적 위협들을 이해하는 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16789,
+                    "sent_id": 3202,
+                    "frameName": "Temporal_collocation",
+                    "ko_annotation_id": 455,
+                    "origin_lus": [
+                        "future"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "trajector_entity",
-                        "span": {
-                            "begin": 32,
-                            "end": 40
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Temporal_collocation",
-                "origin_lus": [
-                    "future"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 16789,
-                "sent_id": 3202
-            }
+                        {
+                            "span": {
+                                "begin": 32,
+                                "end": 40
+                            },
+                            "obj": "trajector_entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 455"
         }
     ],
+    "frameName": "Temporal_collocation",
+    "lu_id": 157,
     "frameID": 1895,
-    "en_lu": [
+    "ko_lu": "미래.n.Temporal_collocation",
+    "en_lus": [
         "future"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Temporal_collocation"
+    ]
 }

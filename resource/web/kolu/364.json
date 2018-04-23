@@ -1,48 +1,87 @@
 {
-    "ko_lu": "통.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 922",
-            "examples": {
-                "ko_annotation_id": 922,
-                "denotations": [
-                    {
-                        "obj": "domain",
-                        "span": {
-                            "begin": 106,
-                            "end": 110
+            "examples": [
+                {
+                    "text": "극좌파는 비록 그것들을 다루기 위한 좋은 프로그램들은 가지고 있지 않았지만 몇 몇 좋은 이슈들은 가지고 있었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 530,
+                    "sent_id": 78,
+                    "frameName": "Usefulness",
+                    "ko_annotation_id": 927,
+                    "origin_lus": [
+                        "good",
+                        "ee .ええ"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 106,
-                            "end": 110
+                        {
+                            "span": {
+                                "begin": 49,
+                                "end": 52
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 927"
+        },
+        {
+            "examples": [
+                {
+                    "text": "마을 사람들은, 신사를 참배하며, 「부디, 좋은 물을 주시옵소서」하고 소원을 빌었단다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4304,
+                    "frameName": "Usefulness",
+                    "ko_annotation_id": 928,
+                    "origin_lus": [
+                        "good",
+                        "ee .ええ"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 28
+                            },
+                            "obj": "Entity"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Public_services",
-                "origin_lus": [
-                    "services"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17367,
-                "sent_id": 3271
-            }
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 928"
         }
     ],
-    "frameID": 1605,
-    "en_lu": [
-        "service"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Public_services"
+    "frameName": "Usefulness",
+    "lu_id": 364,
+    "frameID": 726,
+    "ko_lu": "좋다.a.Usefulness",
+    "en_lus": [
+        "good",
+        "ee .ええ"
+    ]
 }

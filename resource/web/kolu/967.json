@@ -1,61 +1,52 @@
 {
-    "ko_lu": "독특하다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 2776",
-            "examples": {
-                "ko_annotation_id": 2776,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 22,
-                            "end": 24
+            "examples": [
+                {
+                    "text": "투표자들은 Gonzalez 씨에게 그의 성공을 위해 세 번째 권한을 부여하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 631,
+                    "sent_id": 96,
+                    "frameName": "Grant_permission",
+                    "ko_annotation_id": 2862,
+                    "origin_lus": [
+                        "mandate"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 28
+                            },
+                            "obj": "reason",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 26,
-                            "end": 29
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "feature",
-                        "span": {
-                            "begin": 30,
-                            "end": 37
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Distinctiveness",
-                "origin_lus": [
-                    "characteristic"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4728,
-                "sent_id": 915
-            }
+                        {
+                            "span": {
+                                "begin": 34,
+                                "end": 36
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2862"
         }
     ],
-    "frameID": 1133,
-    "en_lu": [
-        "characteristic"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Distinctiveness"
+    "frameName": "Deny_or_grant_permission",
+    "lu_id": 967,
+    "frameID": 520,
+    "ko_lu": "권한.n.Deny_or_grant_permission",
+    "en_lus": [
+        "mandate"
+    ]
 }

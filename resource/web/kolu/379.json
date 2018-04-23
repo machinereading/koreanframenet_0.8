@@ -1,48 +1,80 @@
 {
-    "ko_lu": "검증하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 944",
-            "examples": {
-                "ko_annotation_id": 944,
-                "denotations": [
-                    {
-                        "obj": "unconfirmed_content",
-                        "span": {
-                            "begin": 0,
-                            "end": 19
+            "examples": [
+                {
+                    "text": "지역 순찰은 다음에서와 같이 단일 순찰과 다르다 : 1- 그것은 기관총을 장착한 차량을 갖는다 2- 그것은 지역을 조사하기 위해 말을 사용할 수 있지만, 순찰은 적어도 두 명 혹은 세 명으로 이루어져야 한다",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7906,
+                    "sent_id": 1617,
+                    "frameName": "Weapon",
+                    "ko_annotation_id": 949,
+                    "origin_lus": [
+                        "gun",
+                        "guns"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 38
+                            },
+                            "obj": "type",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 21,
-                            "end": 24
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Verification",
-                "origin_lus": [
-                    "verifying"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10825,
-                "sent_id": 2172
-            }
+                        {
+                            "span": {
+                                "begin": 38,
+                                "end": 39
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 949"
+        },
+        {
+            "examples": [
+                {
+                    "text": "알자지라의 al-Bubali 부족의 족장인 Sheik Sarhan은 반역자들 중 한 명이고, 그들의 배반자들 중 한 명이 사살될 때마다, 그는 분노를 나타내고 그의 형제들에 맞서 그들의 총으로 그의 부족을 처리한다.",
+                    "relations": [],
+                    "annotation_id": 8996,
+                    "sent_id": 1864,
+                    "frameName": "Weapon",
+                    "ko_annotation_id": 950,
+                    "origin_lus": [
+                        "gun",
+                        "guns"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 104,
+                                "end": 105
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 950"
         }
     ],
-    "frameID": 1230,
-    "en_lu": [
-        "verify"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Verification"
+    "frameName": "Weapon",
+    "lu_id": 379,
+    "frameID": 426,
+    "ko_lu": "총.n.Weapon",
+    "en_lus": [
+        "gun"
+    ]
 }

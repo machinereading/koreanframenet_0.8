@@ -1,69 +1,78 @@
 {
-    "ko_lu": "없다.a",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 12769",
-            "examples": {
-                "ko_annotation_id": 12769,
-                "denotations": [
-                    {
-                        "obj": "Entity",
-                        "span": {
-                            "begin": 34,
-                            "end": 41
+            "examples": [
+                {
+                    "text": "그리고 나서 Union Pacific은 라스 베이거스 수리 시설을 제거하여 운영을 강화하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 39,
-                            "end": 41
+                    ],
+                    "annotation_id": 4104,
+                    "sent_id": 785,
+                    "frameName": "Temporal_collocation",
+                    "ko_annotation_id": 13678,
+                    "origin_lus": [
+                        "then"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 20
+                            },
+                            "obj": "trajector_event",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 40
+                            },
+                            "obj": "event_description",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 49
+                            },
+                            "obj": "trajector_event",
+                            "id": "3"
                         }
-                    }
-                ],
-                "frameName": "Existence",
-                "origin_lus": [
-                    "nai .ない"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4086
-            }
-        },
-        {
-            "valenceText": "annotation id: 12770",
-            "examples": {
-                "ko_annotation_id": 12770,
-                "denotations": [
-                    {
-                        "obj": "Entity",
-                        "span": {
-                            "begin": 4,
-                            "end": 7
-                        }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 9,
-                            "end": 11
-                        }
-                    }
-                ],
-                "frameName": "Existence",
-                "origin_lus": [
-                    "nai .ない"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3601
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13678"
         }
     ],
-    "frameID": 660,
-    "en_lu": [
-        "nai .ない"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Existence"
+    "frameName": "Temporal_collocation",
+    "lu_id": 4092,
+    "frameID": 1895,
+    "ko_lu": "나서다.v.Temporal_collocation",
+    "en_lus": [
+        "then"
+    ]
 }

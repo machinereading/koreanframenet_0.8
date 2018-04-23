@@ -1,34 +1,92 @@
 {
-    "ko_lu": "의료.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 9166",
-            "examples": {
-                "ko_annotation_id": 9166,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 8,
-                            "end": 10
+            "examples": [
+                {
+                    "text": "미국 정부의 추측에 의하면, 이란은 일년에 1,000 미터톤의 작용제를 생산할 수 있고 최소한 수 천 미터톤의 무기화된 많은 작용제의 비축량을 보유했을 것으로 예측한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12009,
+                    "sent_id": 2378,
+                    "frameName": "Estimated_value",
+                    "ko_annotation_id": 9776,
+                    "origin_lus": [
+                        "estimates"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "obj": "cognizer",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Medical_specialties",
-                "origin_lus": [
-                    "medicine"
-                ],
-                "relations": [],
-                "annotation_id": 5724,
-                "sent_id": 1095
-            }
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9776"
+        },
+        {
+            "examples": [
+                {
+                    "text": "분석 도구로는 뉴스 매체의 성명 및 기사 검사, 비밀이 아닌 정보 추측을 포함한 정부 보고서, 비밀 프로그램에 관한 정보에 접근한 내부자 인터뷰, 분석가들의 보고와 같은 제2 출처 검토, 그리고 국가 핵 기반 시설에 관한 가장 가용한 정보에 바탕을 둔 과학적인 계산을 하는 것을 포함한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14462,
+                    "sent_id": 2845,
+                    "frameName": "Estimated_value",
+                    "ko_annotation_id": 9777,
+                    "origin_lus": [
+                        "estimates"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 34,
+                                "end": 36
+                            },
+                            "obj": "item",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 37,
+                                "end": 39
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9777"
         }
     ],
-    "frameID": 256,
-    "en_lu": [
-        "medicine"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Medical_specialties"
+    "frameName": "Estimated_value",
+    "lu_id": 3031,
+    "frameID": 1516,
+    "ko_lu": "추측.n.Estimated_value",
+    "en_lus": [
+        "estimate"
+    ]
 }

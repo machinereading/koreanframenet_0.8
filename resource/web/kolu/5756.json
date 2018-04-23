@@ -1,48 +1,65 @@
 {
-    "ko_lu": "해결되다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 18001",
-            "examples": {
-                "ko_annotation_id": 18001,
-                "denotations": [
-                    {
-                        "obj": "problem",
-                        "span": {
-                            "begin": 48,
-                            "end": 65
+            "examples": [
+                {
+                    "text": "이와 같은 이전은 중국의 기관들에 부과되고 있는 많은 미국의 비확산 제재들을 초래하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 67,
-                            "end": 70
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10455,
+                    "sent_id": 2113,
+                    "frameName": "Revenge",
+                    "ko_annotation_id": 19853,
+                    "origin_lus": [
+                        "sanctions"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 17
+                            },
+                            "obj": "offender",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Resolve_problem",
-                "origin_lus": [
-                    "resolved"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13382,
-                "sent_id": 2673
-            }
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "obj": "avenger",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 38,
+                                "end": 41
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19853"
         }
     ],
-    "frameID": 1523,
-    "en_lu": [
-        "resolve"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Resolve_problem"
+    "frameName": "Revenge",
+    "lu_id": 5756,
+    "frameID": 347,
+    "ko_lu": "제재.n.Revenge",
+    "en_lus": [
+        "sanction"
+    ]
 }

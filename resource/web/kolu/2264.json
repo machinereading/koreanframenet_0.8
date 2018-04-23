@@ -1,48 +1,92 @@
 {
-    "ko_lu": "날카롭다.a",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 6853",
-            "examples": {
-                "ko_annotation_id": 6853,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 71,
-                            "end": 74
+            "examples": [
+                {
+                    "text": "1996년에 세계보건기구는 많은 인구가 \" 반 굶주림. \" 상태로 존재한다는 것을 알게 되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7064,
+                    "sent_id": 1488,
+                    "frameName": "Relational_quantity",
+                    "ko_annotation_id": 7290,
+                    "origin_lus": [
+                        "much"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 76,
-                            "end": 78
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "obj": "mass",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7290"
+        },
+        {
+            "examples": [
+                {
+                    "text": "Paula_Zahn : 지금 그 돈의 많은 부분은 20 백만 건강관리 종사자와 다른 최초 처치자들을 보호하기 위한 충분한 백신을 비축하는데 사용될 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8507,
+                    "sent_id": 1747,
+                    "frameName": "Relational_quantity",
+                    "ko_annotation_id": 7291,
+                    "origin_lus": [
+                        "much"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "obj": "mass",
+                            "id": "2"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Sharpness",
-                "origin_lus": [
-                    "sharp"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5508,
-                "sent_id": 1053
-            }
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7291"
         }
     ],
-    "frameID": 1271,
-    "en_lu": [
-        "sharp"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Sharpness"
+    "frameName": "Relational_quantity",
+    "lu_id": 2264,
+    "frameID": 2427,
+    "ko_lu": "많다.a.Relational_quantity",
+    "en_lus": [
+        "much"
+    ]
 }

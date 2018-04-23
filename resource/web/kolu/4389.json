@@ -1,40 +1,121 @@
 {
-    "ko_lu": "불륜.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 13567",
-            "examples": {
-                "ko_annotation_id": 13567,
-                "denotations": [
-                    {
-                        "obj": "Partner_1",
-                        "span": {
-                            "begin": 48,
-                            "end": 53
+            "examples": [
+                {
+                    "text": "Harry_Reed : 이 조사는 매 단계마다 위로부터 중단되고 방해 받았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 16,
-                            "end": 18
+                    ],
+                    "annotation_id": 8445,
+                    "sent_id": 1732,
+                    "frameName": "Activity_stop",
+                    "ko_annotation_id": 14876,
+                    "origin_lus": [
+                        "stopped",
+                        "halted"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "obj": "activity",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Personal_relationship",
-                "origin_lus": [
-                    "hurin .不倫"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3891
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14876"
+        },
+        {
+            "examples": [
+                {
+                    "text": "소비에트 연방이 화학무기금지협정과 관련된 협상에 관여하게된 이후인 1987년에 그 공장 건설은 중단되었고, 그래서 공장은 어떤 화학무기 작용제도 생산하지 않았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 13485,
+                    "sent_id": 2691,
+                    "frameName": "Activity_stop",
+                    "ko_annotation_id": 14877,
+                    "origin_lus": [
+                        "stopped",
+                        "halted"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 36
+                            },
+                            "obj": "time",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 37,
+                                "end": 42
+                            },
+                            "obj": "time",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 44,
+                                "end": 51
+                            },
+                            "obj": "activity",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 53,
+                                "end": 56
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14877"
         }
     ],
-    "frameID": 102,
-    "en_lu": [
-        "hurin .不倫"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Personal_relationship"
+    "frameName": "Activity_stop",
+    "lu_id": 4389,
+    "frameID": 166,
+    "ko_lu": "중단되다.v.Activity_stop",
+    "en_lus": [
+        "halt",
+        "stop"
+    ]
 }

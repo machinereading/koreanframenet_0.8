@@ -1,61 +1,107 @@
 {
-    "ko_lu": "수.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 8776",
-            "examples": {
-                "ko_annotation_id": 8776,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 25,
-                            "end": 29
+            "examples": [
+                {
+                    "text": "QN : 항공기는 바그다드에 있나 ?",
+                    "relations": [],
+                    "annotation_id": 6161,
+                    "sent_id": 1183,
+                    "frameName": "Vehicle",
+                    "ko_annotation_id": 9456,
+                    "origin_lus": [
+                        "plane",
+                        "vehicle"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9456"
+        },
+        {
+            "examples": [
+                {
+                    "text": "2002년에 이란은 새로운 형태의 무인 항공기 ( UAV ) Muajar -4 ( Mohajer ) 를 시험하였는데, 이것은 일부 전문가들의 주장에 의하면 잠재적인 화학 생물 무기 투하에 사용될 수 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "goal",
-                        "span": {
-                            "begin": 31,
-                            "end": 69
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 70,
-                            "end": 73
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11329,
+                    "sent_id": 2265,
+                    "frameName": "Vehicle",
+                    "ko_annotation_id": 9457,
+                    "origin_lus": [
+                        "plane",
+                        "vehicle"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "obj": "possessor",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Success_or_failure",
-                "origin_lus": [
-                    "managed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17278,
-                "sent_id": 3261
-            }
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "obj": "descriptor",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 34,
+                                "end": 55
+                            },
+                            "obj": "descriptor",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9457"
         }
     ],
-    "frameID": 1388,
-    "en_lu": [
-        "manage"
-    ],
-    "ko_pos": "NNB",
-    "frameName": "Success_or_failure"
+    "frameName": "Vehicle",
+    "lu_id": 2899,
+    "frameID": 429,
+    "ko_lu": "항공기.n.Vehicle",
+    "en_lus": [
+        "vehicle",
+        "plane"
+    ]
 }

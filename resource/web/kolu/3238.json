@@ -1,61 +1,52 @@
 {
-    "ko_lu": "진행하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 9772",
-            "examples": {
-                "ko_annotation_id": 9772,
-                "denotations": [
-                    {
-                        "obj": "event",
-                        "span": {
-                            "begin": 15,
-                            "end": 35
+            "examples": [
+                {
+                    "text": "1990년대 초에, 중국의 관리들은 새로운 병원을 위해 가용한 땅과 건설과 운영비를 위한 자금을 만들었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6324,
+                    "sent_id": 1252,
+                    "frameName": "Expensiveness",
+                    "ko_annotation_id": 10713,
+                    "origin_lus": [
+                        "costs"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 38,
+                                "end": 45
+                            },
+                            "obj": "goods",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "manner",
-                        "span": {
-                            "begin": 37,
-                            "end": 49
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 50,
-                            "end": 53
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Process_continue",
-                "origin_lus": [
-                    "proceed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8146,
-                "sent_id": 1661
-            }
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10713"
         }
     ],
-    "frameID": 145,
-    "en_lu": [
-        "proceed"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Process_continue"
+    "frameName": "Expensiveness",
+    "lu_id": 3238,
+    "frameID": 83,
+    "ko_lu": "운영비.n.Expensiveness",
+    "en_lus": [
+        "cost"
+    ]
 }

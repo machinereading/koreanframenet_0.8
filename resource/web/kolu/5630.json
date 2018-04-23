@@ -1,74 +1,52 @@
 {
-    "ko_lu": "들어가다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 17656",
-            "examples": {
-                "ko_annotation_id": 17656,
-                "denotations": [
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 0,
-                            "end": 15
+            "examples": [
+                {
+                    "text": "2- 어떠한 상황에서도 차는, 위치에 속한 차라도 울타리 옆에 주차하는 것이 허용되어서는 안된다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7699,
+                    "sent_id": 1582,
+                    "frameName": "Placing",
+                    "ko_annotation_id": 19506,
+                    "origin_lus": [
+                        "park"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 33
+                            },
+                            "obj": "goal",
+                            "id": "2"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "path",
-                        "span": {
-                            "begin": 27,
-                            "end": 36
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "goal",
-                        "span": {
-                            "begin": 37,
-                            "end": 39
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 41,
-                            "end": 44
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Arriving",
-                "origin_lus": [
-                    "enter"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9876,
-                "sent_id": 2027
-            }
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19506"
         }
     ],
-    "frameID": 54,
-    "en_lu": [
-        "enter"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Arriving"
+    "frameName": "Placing",
+    "lu_id": 5630,
+    "frameID": 62,
+    "ko_lu": "주차하다.v.Placing",
+    "en_lus": [
+        "park"
+    ]
 }

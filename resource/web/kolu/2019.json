@@ -1,61 +1,44 @@
 {
-    "ko_lu": "빠지다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 6063",
-            "examples": {
-                "ko_annotation_id": 6063,
-                "denotations": [
-                    {
-                        "obj": "process",
-                        "span": {
-                            "begin": 78,
-                            "end": 80
+            "examples": [
+                {
+                    "text": "원이 개설되고부터, 명치 원년에 형장이 폐지되기까지, 이백여 년 동안에 매장된 사체는 20여만 구라 합니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4670,
+                    "frameName": "Timespan",
+                    "ko_annotation_id": 6310,
+                    "origin_lus": [
+                        "aida .間 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "obj": "Duration"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "result",
-                        "span": {
-                            "begin": 82,
-                            "end": 84
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 86,
-                            "end": 88
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Process_end",
-                "origin_lus": [
-                    "ended"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14980,
-                "sent_id": 2920
-            }
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 38
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6310"
         }
     ],
-    "frameID": 232,
-    "en_lu": [
-        "end"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Process_end"
+    "frameName": "Timespan",
+    "lu_id": 2019,
+    "frameID": 2142,
+    "ko_lu": "동안.n.Timespan",
+    "en_lus": [
+        "aida .間 "
+    ]
 }

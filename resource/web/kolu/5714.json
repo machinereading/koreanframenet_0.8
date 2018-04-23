@@ -1,74 +1,92 @@
 {
-    "ko_lu": "기억하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 17872",
-            "examples": {
-                "ko_annotation_id": 17872,
-                "denotations": [
-                    {
-                        "obj": "cognizer",
-                        "span": {
-                            "begin": 5,
-                            "end": 10
+            "examples": [
+                {
+                    "text": "특정 테러리스트 단체나 개인이 다른 종류의 무기에 비해 화학 생물무기의 사용을 선호하는 몇 가지 이유들이 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9917,
+                    "sent_id": 2035,
+                    "frameName": "Reason",
+                    "ko_annotation_id": 19750,
+                    "origin_lus": [
+                        "reasons"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 48
+                            },
+                            "obj": "action",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "experience",
-                        "span": {
-                            "begin": 15,
-                            "end": 20
+                        {
+                            "span": {
+                                "begin": 54,
+                                "end": 57
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19750"
+        },
+        {
+            "examples": [
+                {
+                    "text": "미국은 시리아가 이러한 조치의 이유들 중 하나로 대량 파괴 무기 프로그램을 추구하고 있다고 인용하면서, 5월에 제재를 가하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16211,
+                    "sent_id": 3106,
+                    "frameName": "Reason",
+                    "ko_annotation_id": 19751,
+                    "origin_lus": [
+                        "reasons"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "obj": "action",
+                            "id": "2"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "content",
-                        "span": {
-                            "begin": 22,
-                            "end": 43
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 45,
-                            "end": 48
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Memory",
-                "origin_lus": [
-                    "remember"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1125,
-                "sent_id": 207
-            }
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19751"
         }
     ],
-    "frameID": 135,
-    "en_lu": [
-        "remember"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Memory"
+    "frameName": "Reason",
+    "lu_id": 5714,
+    "frameID": 514,
+    "ko_lu": "이유.n.Reason",
+    "en_lus": [
+        "reason"
+    ]
 }

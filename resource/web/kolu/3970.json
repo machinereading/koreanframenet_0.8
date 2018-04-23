@@ -1,48 +1,94 @@
 {
-    "ko_lu": "살다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 12475",
-            "examples": {
-                "ko_annotation_id": 12475,
-                "denotations": [
-                    {
-                        "obj": "figure",
-                        "span": {
-                            "begin": 0,
-                            "end": 12
+            "examples": [
+                {
+                    "text": "직업이 매우 정치적으로 민감하여 이름이 지명되거나 인용되지 않는 조건에서 말하는 한 전문가는 향후 몇 년에 걸쳐서 동유럽 난민자들의 예상되는 유입으로 컴퓨터 정비 작업자, 예를 들면, 해외 스파이를 두 배로 할 가능성을 크게 증가시킬 것이라고 말하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 25,
-                            "end": 28
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9466,
+                    "sent_id": 1961,
+                    "frameName": "Terms_of_agreement",
+                    "ko_annotation_id": 13384,
+                    "origin_lus": [
+                        "condition",
+                        "terms"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 35
+                            },
+                            "obj": "requirements",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Dead_or_alive",
-                "origin_lus": [
-                    "alive"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5116,
-                "sent_id": 981
-            }
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 38
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "obj": "agreement",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13384"
+        },
+        {
+            "examples": [
+                {
+                    "text": "핵무기가 한국에서 결코 사용되지 않았더라도, 미국의 정치 지도자들과 군 사령관들은 미국에 유리한 조건으로 한국 전쟁을 종료시키기 위해 핵무기를 사용하겠다고 위협하였다.",
+                    "relations": [],
+                    "annotation_id": 14838,
+                    "sent_id": 2899,
+                    "frameName": "Terms_of_agreement",
+                    "ko_annotation_id": 13385,
+                    "origin_lus": [
+                        "condition",
+                        "terms"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 54,
+                                "end": 56
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13385"
         }
     ],
-    "frameID": 310,
-    "en_lu": [
-        "alive"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Dead_or_alive"
+    "frameName": "Terms_of_agreement",
+    "lu_id": 3970,
+    "frameID": 1531,
+    "ko_lu": "조건.n.Terms_of_agreement",
+    "en_lus": [
+        "condition",
+        "term"
+    ]
 }

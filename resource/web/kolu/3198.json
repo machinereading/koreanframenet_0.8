@@ -1,48 +1,78 @@
 {
-    "ko_lu": "건물.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 9685",
-            "examples": {
-                "ko_annotation_id": 9685,
-                "denotations": [
-                    {
-                        "obj": "use",
-                        "span": {
-                            "begin": 53,
-                            "end": 58
+            "examples": [
+                {
+                    "text": "당신은 Des Voeus Road를 따라 홍콩의 역사적인 전차 중의 하나를 잡아 타고 Central 만에서 Causeway 만 까지 갈 수 있다 ( 페이지 66, 박스 참조 ).",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 58,
-                            "end": 60
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Locale_by_use",
-                "origin_lus": [
-                    "complex"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10998,
-                "sent_id": 2204
-            }
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5526,
+                    "sent_id": 1057,
+                    "frameName": "Ride_vehicle",
+                    "ko_annotation_id": 10628,
+                    "origin_lus": [
+                        "ride"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "theme",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 46
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 48,
+                                "end": 57
+                            },
+                            "obj": "source",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 60,
+                                "end": 70
+                            },
+                            "obj": "goal",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10628"
         }
     ],
-    "frameID": 196,
-    "en_lu": [
-        "complex"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Locale_by_use"
+    "frameName": "Ride_vehicle",
+    "lu_id": 3198,
+    "frameID": 690,
+    "ko_lu": "잡다.v.Ride_vehicle",
+    "en_lus": [
+        "ride"
+    ]
 }

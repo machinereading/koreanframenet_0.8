@@ -1,48 +1,52 @@
 {
-    "ko_lu": "많다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 14833",
-            "examples": {
-                "ko_annotation_id": 14833,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 5,
-                            "end": 7
+            "examples": [
+                {
+                    "text": "중국 - 이란 관계의 유지와 확장은 자연적으로 지역에 대한 영향을 확장하는데에 중국의 전략에서 중요한 요소를 이루고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 18346,
+                    "sent_id": 3495,
+                    "frameName": "Cause_expansion",
+                    "ko_annotation_id": 16301,
+                    "origin_lus": [
+                        "expansion"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "obj": "item",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "collection",
-                        "span": {
-                            "begin": 13,
-                            "end": 15
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Abundance",
-                "origin_lus": [
-                    "galore"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5176,
-                "sent_id": 988
-            }
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16301"
         }
     ],
-    "frameID": 1602,
-    "en_lu": [
-        "galore"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Abundance"
+    "frameName": "Cause_expansion",
+    "lu_id": 4765,
+    "frameID": 77,
+    "ko_lu": "확장.n.Cause_expansion",
+    "en_lus": [
+        "expansion"
+    ]
 }

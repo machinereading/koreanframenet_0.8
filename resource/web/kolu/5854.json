@@ -1,61 +1,104 @@
 {
-    "ko_lu": "처형.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 18345",
-            "examples": {
-                "ko_annotation_id": 18345,
-                "denotations": [
-                    {
-                        "obj": "executed",
-                        "span": {
-                            "begin": 17,
-                            "end": 36
+            "examples": [
+                {
+                    "text": "그는 미국인들을 여러 차례 큰 만찬 파티를 위해 그의 집에 초대한 거물 스파이 / 에이전트이나, 우리 형제들은 그를 살해한 범행에 대해 성명을 내지 않았다.",
+                    "relations": [],
+                    "annotation_id": 8978,
+                    "sent_id": 1863,
+                    "frameName": "Request",
+                    "ko_annotation_id": 20129,
+                    "origin_lus": [
+                        "invited"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20129"
+        },
+        {
+            "examples": [
+                {
+                    "text": "2- Albu'Ubaid ( Salah al-Dhari ) 의 족장은  그들의 젊은이들이 경찰과 국가 경호대에 가입하도록 격려하기 위해, Ramadi 의 수장들과 부족의 족장들을 초대한 한 만찬 파티에서 30마리의 양을 도살하였고, 그것은 Sheik Nasr al-Fahdawi의 살해 이틀 전이었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "place",
-                        "span": {
-                            "begin": 38,
-                            "end": 42
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 46,
-                            "end": 48
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9019,
+                    "sent_id": 1866,
+                    "frameName": "Request",
+                    "ko_annotation_id": 20130,
+                    "origin_lus": [
+                        "invited"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 37
+                            },
+                            "obj": "speaker",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Execution",
-                "origin_lus": [
-                    "execution"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3569,
-                "sent_id": 667
-            }
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 75
+                            },
+                            "obj": "message",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 77,
+                                "end": 98
+                            },
+                            "obj": "addressee",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 100,
+                                "end": 103
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20130"
         }
     ],
-    "frameID": 225,
-    "en_lu": [
-        "execution"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Execution"
+    "frameName": "Request",
+    "lu_id": 5854,
+    "frameID": 41,
+    "ko_lu": "초대하다.v.Request",
+    "en_lus": [
+        "invite"
+    ]
 }

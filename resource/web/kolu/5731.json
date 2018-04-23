@@ -1,61 +1,65 @@
 {
-    "ko_lu": "사용하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 17957",
-            "examples": {
-                "ko_annotation_id": 17957,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 5,
-                            "end": 22
+            "examples": [
+                {
+                    "text": "화학 및 생물 방어를 위한 APG 내의 1.5 백만 제곱 피트의 연구 및 엔지니어링 시설인 Edgewood 화학 생물 센터에서의 두 번째 사고에서 작업자들은 아무도 부상당하지 않았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "act",
-                        "span": {
-                            "begin": 78,
-                            "end": 90
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16577,
+                    "sent_id": 3173,
+                    "frameName": "Cause_harm",
+                    "ko_annotation_id": 19784,
+                    "origin_lus": [
+                        "injured"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 77,
+                                "end": 79
+                            },
+                            "obj": "containing_event",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 92,
-                            "end": 95
+                        {
+                            "span": {
+                                "begin": 82,
+                                "end": 90
+                            },
+                            "obj": "victim",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Intentionally_act",
-                "origin_lus": [
-                    "engage"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9977,
-                "sent_id": 2043
-            }
+                        {
+                            "span": {
+                                "begin": 92,
+                                "end": 99
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19784"
         }
     ],
-    "frameID": 198,
-    "en_lu": [
-        "engage"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Intentionally_act"
+    "frameName": "Cause_harm",
+    "lu_id": 5731,
+    "frameID": 112,
+    "ko_lu": "부상당하다.v.Cause_harm",
+    "en_lus": [
+        "injured"
+    ]
 }

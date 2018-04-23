@@ -1,48 +1,51 @@
 {
-    "ko_lu": "기.n",
+    "ko_pos": "NNP",
     "patterns": [
         {
-            "valenceText": "annotation id: 8945",
-            "examples": {
-                "ko_annotation_id": 8945,
-                "denotations": [
-                    {
-                        "obj": "type",
-                        "span": {
-                            "begin": 10,
-                            "end": 12
+            "examples": [
+                {
+                    "text": "이번에 다룰 사안 아들의 잘못은 부모 책임? 나카지마 씨의 아들 아케토 군 (차남・22세 학생・현재 하숙 중.)이, X사의 영업사원 되어 「영업실적을 올리기 위한 거니까 진짜로 사지 않더라도 사인만 해주면 돼요.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4440,
+                    "frameName": "Kinship",
+                    "ko_annotation_id": 9582,
+                    "origin_lus": [
+                        "zinan .次男"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 31
+                            },
+                            "obj": "Ego"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 14,
-                            "end": 17
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 41
+                            },
+                            "obj": "Alter"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Entity",
-                "origin_lus": [
-                    "entities"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10453,
-                "sent_id": 2113
-            }
+                        {
+                            "span": {
+                                "begin": 43,
+                                "end": 46
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9582"
         }
     ],
-    "frameID": 251,
-    "en_lu": [
-        "entity"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Entity"
+    "frameName": "Kinship",
+    "lu_id": 2953,
+    "frameID": 104,
+    "ko_lu": "차남・.n.Kinship",
+    "en_lus": [
+        "zinan .次男"
+    ]
 }

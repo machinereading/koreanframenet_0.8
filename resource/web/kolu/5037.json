@@ -1,34 +1,52 @@
 {
-    "ko_lu": "소득.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 15692",
-            "examples": {
-                "ko_annotation_id": 15692,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 47,
-                            "end": 49
+            "examples": [
+                {
+                    "text": "St. Michael과 All Angels의 교구민들은 이곳의 멤버들이 항상 하는 것처럼, 교회 문에서 담소를 나누기 위해 멈춘다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 96,
+                    "sent_id": 14,
+                    "frameName": "People_by_jurisdiction",
+                    "ko_annotation_id": 17378,
+                    "origin_lus": [
+                        "parishioners"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "obj": "jurisdiction",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Earnings_and_losses",
-                "origin_lus": [
-                    "income"
-                ],
-                "relations": [],
-                "annotation_id": 618,
-                "sent_id": 94
-            }
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17378"
         }
     ],
-    "frameID": 1873,
-    "en_lu": [
-        "income"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Earnings_and_losses"
+    "frameName": "People_by_jurisdiction",
+    "lu_id": 5037,
+    "frameID": 1023,
+    "ko_lu": "교구민들.n.People_by_jurisdiction",
+    "en_lus": [
+        "parishioner"
+    ]
 }

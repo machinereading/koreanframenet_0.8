@@ -1,48 +1,52 @@
 {
-    "ko_lu": "가치있다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 6924",
-            "examples": {
-                "ko_annotation_id": 6924,
-                "denotations": [
-                    {
-                        "obj": "purpose",
-                        "span": {
-                            "begin": 7,
-                            "end": 20
+            "examples": [
+                {
+                    "text": "미국기업연구소 선임 연구원인 Kristol 씨는 The Public Interest를 공동편집하고 The National Interest를 발행하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 1395,
+                    "sent_id": 258,
+                    "frameName": "Origin",
+                    "ko_annotation_id": 7358,
+                    "origin_lus": [
+                        "American"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 24,
-                            "end": 29
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Usefulness",
-                "origin_lus": [
-                    "valuable"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 2997,
-                "sent_id": 566
-            }
+                        {
+                            "span": {
+                                "begin": 2,
+                                "end": 4
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7358"
         }
     ],
-    "frameID": 726,
-    "en_lu": [
-        "valuable"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Usefulness"
+    "frameName": "Origin",
+    "lu_id": 2295,
+    "frameID": 1103,
+    "ko_lu": "미국.n.Origin",
+    "en_lus": [
+        "American"
+    ]
 }

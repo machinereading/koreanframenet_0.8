@@ -1,48 +1,65 @@
 {
-    "ko_lu": "보고되다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 13243",
-            "examples": {
-                "ko_annotation_id": 13243,
-                "denotations": [
-                    {
-                        "obj": "message",
-                        "span": {
-                            "begin": 0,
-                            "end": 51
+            "examples": [
+                {
+                    "text": "알렉산더 사후, 그의 영토는 그의 장군들에게 분배되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 54,
-                            "end": 57
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2860,
+                    "sent_id": 543,
+                    "frameName": "Relative_time",
+                    "ko_annotation_id": 14431,
+                    "origin_lus": [
+                        "Following"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "obj": "landmark_occasion",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Statement",
-                "origin_lus": [
-                    "reported"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13926,
-                "sent_id": 2758
-            }
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 28
+                            },
+                            "obj": "focal_occasion",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14431"
         }
     ],
-    "frameID": 43,
-    "en_lu": [
-        "report"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Statement"
+    "frameName": "Relative_time",
+    "lu_id": 4263,
+    "frameID": 81,
+    "ko_lu": "사후.n.Relative_time",
+    "en_lus": [
+        "Following"
+    ]
 }

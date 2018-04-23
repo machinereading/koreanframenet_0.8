@@ -1,33 +1,78 @@
 {
-    "ko_lu": "엘리베이터.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 17826",
-            "examples": {
-                "ko_annotation_id": 17826,
-                "denotations": [
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 0,
-                            "end": 5
+            "examples": [
+                {
+                    "text": "침대의 감소는 도시 [ 시드니 ] 를 위험에 빠뜨린다 : 병원 직원",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
                         }
-                    }
-                ],
-                "frameName": "Building_subparts",
-                "origin_lus": [
-                    "erebeetaa .エレベーター "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4204
-            }
+                    ],
+                    "annotation_id": 16502,
+                    "sent_id": 3162,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 19689,
+                    "origin_lus": [
+                        "puts"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "obj": "cause",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 18
+                            },
+                            "obj": "effect",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "obj": "effect",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19689"
         }
     ],
-    "frameID": 188,
-    "en_lu": [
-        "erebeetaa .エレベーター "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Building_subparts"
+    "frameName": "Causation",
+    "lu_id": 5691,
+    "frameID": 5,
+    "ko_lu": "빠뜨리다.v.Causation",
+    "en_lus": [
+        "put"
+    ]
 }

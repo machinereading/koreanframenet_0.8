@@ -1,40 +1,44 @@
 {
-    "ko_lu": "후렴.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 8618",
-            "examples": {
-                "ko_annotation_id": 8618,
-                "denotations": [
-                    {
-                        "obj": "Event",
-                        "span": {
-                            "begin": 0,
-                            "end": 9
+            "examples": [
+                {
+                    "text": "상처가 나았으니 의사가 허락해 준 것이겠지.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4451,
+                    "frameName": "Grant_permission",
+                    "ko_annotation_id": 9145,
+                    "origin_lus": [
+                        "yurusi .許し"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "obj": "Grantor"
+                        },
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "obj": "Target"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 7,
-                            "end": 9
-                        }
-                    }
-                ],
-                "frameName": "Frequency",
-                "origin_lus": [
-                    "rihurein .リフレイン "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3622
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9145"
         }
     ],
-    "frameID": 80,
-    "en_lu": [
-        "rihurein .リフレイン "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Frequency"
+    "frameName": "Deny_or_grant_permission",
+    "lu_id": 2832,
+    "frameID": 520,
+    "ko_lu": "허락하다.v.Deny_or_grant_permission",
+    "en_lus": [
+        "yurusi .許し"
+    ]
 }

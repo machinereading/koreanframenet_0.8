@@ -1,61 +1,143 @@
 {
-    "ko_lu": "에다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 15300",
-            "examples": {
-                "ko_annotation_id": 15300,
-                "denotations": [
-                    {
-                        "obj": "ground",
-                        "span": {
-                            "begin": 0,
-                            "end": 8
+            "examples": [
+                {
+                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4550,
+                    "frameName": "Commerce_sell",
+                    "ko_annotation_id": 17392,
+                    "origin_lus": [
+                        "ureru .売れる"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 73,
+                                "end": 75
+                            },
+                            "obj": "Time"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 8,
-                            "end": 9
+                        {
+                            "span": {
+                                "begin": 83,
+                                "end": 85
+                            },
+                            "obj": "Goods"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "figure",
-                        "span": {
-                            "begin": 10,
-                            "end": 17
+                        {
+                            "span": {
+                                "begin": 73,
+                                "end": 75
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17392"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그렇다면, 영업력이 없어도 팔리는 상품을 만들면 된다는 말이 된다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4502,
+                    "frameName": "Commerce_sell",
+                    "ko_annotation_id": 18737,
+                    "origin_lus": [
+                        "ureru .売れる"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "obj": "Goods"
                         },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Containment_relation",
-                "origin_lus": [
-                    "in"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4529,
-                "sent_id": 875
-            }
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18737"
+        },
+        {
+            "examples": [
+                {
+                    "text": "물론 팔릴 것이라고는 생각하지 않지만….",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4910,
+                    "frameName": "Commerce_sell",
+                    "ko_annotation_id": 16859,
+                    "origin_lus": [
+                        "ureru .売れる"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16859"
+        },
+        {
+            "examples": [
+                {
+                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4550,
+                    "frameName": "Commerce_sell",
+                    "ko_annotation_id": 19824,
+                    "origin_lus": [
+                        "ureru .売れる"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 83,
+                                "end": 85
+                            },
+                            "obj": "Goods"
+                        },
+                        {
+                            "span": {
+                                "begin": 78,
+                                "end": 82
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19824"
         }
     ],
-    "frameID": 199,
-    "en_lu": [
-        "in"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Locative_relation"
+    "frameName": "Commerce_sell",
+    "lu_id": 4902,
+    "frameID": 172,
+    "ko_lu": "팔리다.v.Commerce_sell",
+    "en_lus": [
+        "ureru .売れる",
+        "ureru .売れる",
+        "ureru .売れる",
+        "ureru .売れる"
+    ]
 }

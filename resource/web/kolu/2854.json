@@ -1,61 +1,52 @@
 {
-    "ko_lu": "행하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 8651",
-            "examples": {
-                "ko_annotation_id": 8651,
-                "denotations": [
-                    {
-                        "obj": "purpose",
-                        "span": {
-                            "begin": 5,
-                            "end": 32
+            "examples": [
+                {
+                    "text": "유타주의 Dugway Proving Ground는 세균전작용제에 저항할 군 백신을 실험하기 위한 장소로 선정되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6701,
+                    "sent_id": 1354,
+                    "frameName": "Operational_testing",
+                    "ko_annotation_id": 9185,
+                    "origin_lus": [
+                        "test"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 44
+                            },
+                            "obj": "product",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "act",
-                        "span": {
-                            "begin": 33,
-                            "end": 35
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 37,
-                            "end": 39
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Intentionally_act",
-                "origin_lus": [
-                    "done"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9735,
-                "sent_id": 2010
-            }
+                        {
+                            "span": {
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9185"
         }
     ],
-    "frameID": 198,
-    "en_lu": [
-        "do"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Intentionally_act"
+    "frameName": "Operational_testing",
+    "lu_id": 2854,
+    "frameID": 1301,
+    "ko_lu": "실험하다.v.Operational_testing",
+    "en_lus": [
+        "test"
+    ]
 }

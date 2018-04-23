@@ -1,50 +1,52 @@
 {
-    "ko_lu": "파트너.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 7212",
-            "examples": {
-                "ko_annotation_id": 7212,
-                "denotations": [
-                    {
-                        "obj": "partners",
-                        "span": {
-                            "begin": 32,
-                            "end": 46
+            "examples": [
+                {
+                    "text": "예를 들면, 그들은 해외에서 천연 혹은 가공된 우라늄을 구매하고, 그런 다음 이를 무기급 물질로 농축하기 위해 고유의 시설을 사용한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14577,
+                    "sent_id": 2856,
+                    "frameName": "Ground_up",
+                    "ko_annotation_id": 7589,
+                    "origin_lus": [
+                        "milled"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 48,
-                            "end": 51
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Collaboration",
-                "origin_lus": [
-                    "partners",
-                    "paatonaa .パートナー "
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17068,
-                "sent_id": 3239
-            }
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "obj": "undergoer",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7589"
         }
     ],
-    "frameID": 418,
-    "en_lu": [
-        "paatonaa .パートナー ",
-        "partner"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Collaboration"
+    "frameName": "Ground_up",
+    "lu_id": 2370,
+    "frameID": 357,
+    "ko_lu": "가공되다.v.Ground_up",
+    "en_lus": [
+        "mill"
+    ]
 }

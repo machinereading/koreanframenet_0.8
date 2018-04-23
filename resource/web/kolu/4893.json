@@ -1,74 +1,134 @@
 {
-    "ko_lu": "전해지다.v",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 15261",
-            "examples": {
-                "ko_annotation_id": 15261,
-                "denotations": [
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 0,
-                            "end": 13
+            "examples": [
+                {
+                    "text": "주요한 호텔이나 여관에는 감시자가 있을 것이다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4082,
+                    "frameName": "Presence",
+                    "ko_annotation_id": 18628,
+                    "origin_lus": [
+                        "iru .いる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "obj": "Location"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "evaluee",
-                        "span": {
-                            "begin": 15,
-                            "end": 17
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "obj": "Entity"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "reason",
-                        "span": {
-                            "begin": 19,
-                            "end": 44
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18628"
+        },
+        {
+            "examples": [
+                {
+                    "text": "이때에 계곡은 그것이 오늘날 존재하는 것과 많이 동일한 지리적인 상태에 있었는데 한 가지 예외는 -- 몇몇 지역의 표면으로 거품이 이는 자분천이 있었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3869,
+                    "sent_id": 736,
+                    "frameName": "Presence",
+                    "ko_annotation_id": 16828,
+                    "origin_lus": [
+                        "presence",
+                        "aru .ある "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 57,
+                                "end": 79
+                            },
+                            "obj": "entity",
+                            "id": "2"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 47,
-                            "end": 49
+                        {
+                            "span": {
+                                "begin": 81,
+                                "end": 82
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16828"
+        },
+        {
+            "examples": [
+                {
+                    "text": "뭐, 이 같은 역사는 어디라도 있습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4980,
+                    "frameName": "Presence",
+                    "ko_annotation_id": 16829,
+                    "origin_lus": [
+                        "presence",
+                        "aru .ある "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 10
+                            },
+                            "obj": "Entity"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Judgment_communication",
-                "origin_lus": [
-                    "cited"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 12580,
-                "sent_id": 2516
-            }
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "obj": "Location"
+                        },
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 18
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16829"
         }
     ],
-    "frameID": 219,
-    "en_lu": [
-        "cite"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Judgment_communication"
+    "frameName": "Presence",
+    "lu_id": 4893,
+    "frameID": 1922,
+    "ko_lu": "있다.a.Presence",
+    "en_lus": [
+        "aru .ある ",
+        "presence",
+        "iru .いる "
+    ]
 }

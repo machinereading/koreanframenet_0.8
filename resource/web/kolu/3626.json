@@ -1,48 +1,52 @@
 {
-    "ko_lu": "백악관.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 11323",
-            "examples": {
-                "ko_annotation_id": 11323,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 30,
-                            "end": 33
+            "examples": [
+                {
+                    "text": "그들은 소속되고, 자급자족하게 되고, 그들의 자부심과 자신감을 되찾을 기회를 환영한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2384,
+                    "sent_id": 455,
+                    "frameName": "Becoming",
+                    "ko_annotation_id": 12217,
+                    "origin_lus": [
+                        "become"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 30,
-                            "end": 33
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Color",
-                "origin_lus": [
-                    "White"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8415,
-                "sent_id": 1725
-            }
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "obj": "final_state",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12217"
         }
     ],
-    "frameID": 423,
-    "en_lu": [
-        "White"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Color"
+    "frameName": "Becoming",
+    "lu_id": 3626,
+    "frameID": 2971,
+    "ko_lu": "소속되다.v.Becoming",
+    "en_lus": [
+        "become"
+    ]
 }

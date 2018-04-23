@@ -1,74 +1,159 @@
 {
-    "ko_lu": "특징.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 12782",
-            "examples": {
-                "ko_annotation_id": 12782,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 29,
-                            "end": 32
+            "examples": [
+                {
+                    "text": "Star Ferry 터미널에 인접하여는 Ocean 터미널이 있고, 이곳은 국제 유람선 부두, 그리고 거대한 Harbour City, 복합 몰, 호텔과 식당들이 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6051,
+                    "sent_id": 1155,
+                    "frameName": "Locative_relation",
+                    "ko_annotation_id": 20104,
+                    "origin_lus": [
+                        "Adjacent"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "obj": "ground",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "degree",
-                        "span": {
-                            "begin": 183,
-                            "end": 185
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20104"
+        },
+        {
+            "examples": [
+                {
+                    "text": "3- 산악 위치가 실행 불가능하면, 그때는 폭격 당하는 것을 피하기 위해 청사에 인접한 위치를 선정하라.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "feature",
-                        "span": {
-                            "begin": 186,
-                            "end": 192
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7550,
+                    "sent_id": 1556,
+                    "frameName": "Locative_relation",
+                    "ko_annotation_id": 13725,
+                    "origin_lus": [
+                        "next to"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 41,
+                                "end": 43
+                            },
+                            "obj": "ground",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 194,
-                            "end": 200
+                        {
+                            "span": {
+                                "begin": 45,
+                                "end": 48
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Distinctiveness",
-                "origin_lus": [
-                    "characterized"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10127,
-                "sent_id": 2062
-            }
+                        {
+                            "span": {
+                                "begin": 49,
+                                "end": 51
+                            },
+                            "obj": "figure",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13725"
+        },
+        {
+            "examples": [
+                {
+                    "text": "다시, 상기한 것이 가능하지 않으면, 그때는 상기한 것과 동일한 이유 때문에, 주거 지역 인접한 위치를 선정하라.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7554,
+                    "sent_id": 1557,
+                    "frameName": "Locative_relation",
+                    "ko_annotation_id": 13726,
+                    "origin_lus": [
+                        "next to"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 44,
+                                "end": 49
+                            },
+                            "obj": "ground",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 50,
+                                "end": 53
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 54,
+                                "end": 56
+                            },
+                            "obj": "figure",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13726"
         }
     ],
-    "frameID": 1133,
-    "en_lu": [
-        "characterize"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Distinctiveness"
+    "frameName": "Locative_relation",
+    "lu_id": 4102,
+    "frameID": 199,
+    "ko_lu": "인접하다.v.Locative_relation",
+    "en_lus": [
+        "Adjacent",
+        "next to"
+    ]
 }

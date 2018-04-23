@@ -1,61 +1,65 @@
 {
-    "ko_lu": "옮기다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 8002",
-            "examples": {
-                "ko_annotation_id": 8002,
-                "denotations": [
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 4,
-                            "end": 12
+            "examples": [
+                {
+                    "text": "중국의 미사일 전문가들은 10년 이상 문제가 되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "path",
-                        "span": {
-                            "begin": 14,
-                            "end": 23
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10548,
+                    "sent_id": 2123,
+                    "frameName": "Exporting",
+                    "ko_annotation_id": 8519,
+                    "origin_lus": [
+                        "exports"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "exporter",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 24,
-                            "end": 26
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "obj": "goods",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Bringing",
-                "origin_lus": [
-                    "transported"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17203,
-                "sent_id": 3251
-            }
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8519"
         }
     ],
-    "frameID": 240,
-    "en_lu": [
-        "transport"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Bringing"
+    "frameName": "Exporting",
+    "lu_id": 2622,
+    "frameID": 1568,
+    "ko_lu": "전문가.n.Exporting",
+    "en_lus": [
+        "export"
+    ]
 }

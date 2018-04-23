@@ -1,87 +1,120 @@
 {
-    "ko_lu": "강화하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 11144",
-            "examples": {
-                "ko_annotation_id": 11144,
-                "denotations": [
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 0,
-                            "end": 6
+            "examples": [
+                {
+                    "text": "신뢰할만한 장거리 로케트 포 ( 예, Fair, Naeat 그리고 Zelzal ) 재고의 추정치는 가용하지 않다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12641,
+                    "sent_id": 2529,
+                    "frameName": "Store",
+                    "ko_annotation_id": 12001,
+                    "origin_lus": [
+                        "inventories",
+                        "zaiko .在庫 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 45
+                            },
+                            "obj": "resource",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 7,
-                            "end": 20
+                        {
+                            "span": {
+                                "begin": 46,
+                                "end": 48
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12001"
+        },
+        {
+            "examples": [
+                {
+                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4550,
+                    "frameName": "Store",
+                    "ko_annotation_id": 12002,
+                    "origin_lus": [
+                        "inventories",
+                        "zaiko .在庫 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 83,
+                                "end": 85
+                            },
+                            "obj": "Supply"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "means",
-                        "span": {
-                            "begin": 22,
-                            "end": 40
+                        {
+                            "span": {
+                                "begin": 83,
+                                "end": 85
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12002"
+        },
+        {
+            "examples": [
+                {
+                    "text": "창호지 담당이 아닌 분들은 재미가 없을지 모르나, 어떻게 애초의 상품구성 목표를 검증하고, 어떻게 진열을 바꾸어 재고 상태를 개선했는지, 실례를 보며 자신의 사업에 대입시켜 보면서 참고하기 바란다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4613,
+                    "frameName": "Store",
+                    "ko_annotation_id": 12003,
+                    "origin_lus": [
+                        "inventories",
+                        "zaiko .在庫 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 63,
+                                "end": 65
+                            },
+                            "obj": "Supply"
                         },
-                        "id": "5"
-                    },
-                    {
-                        "obj": "parts",
-                        "span": {
-                            "begin": 42,
-                            "end": 44
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 46,
-                            "end": 49
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_to_amalgamate",
-                "origin_lus": [
-                    "consolidated"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "5",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4105,
-                "sent_id": 785
-            }
+                        {
+                            "span": {
+                                "begin": 63,
+                                "end": 65
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12003"
         }
     ],
-    "frameID": 13,
-    "en_lu": [
-        "consolidated"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cause_to_amalgamate"
+    "frameName": "Store",
+    "lu_id": 3570,
+    "frameID": 1511,
+    "ko_lu": "재고.n.Store",
+    "en_lus": [
+        "zaiko .在庫 ",
+        "inventory"
+    ]
 }

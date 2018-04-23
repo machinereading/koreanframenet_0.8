@@ -1,74 +1,52 @@
 {
-    "ko_lu": "분출되다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 5360",
-            "examples": {
-                "ko_annotation_id": 5360,
-                "denotations": [
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 26,
-                            "end": 48
+            "examples": [
+                {
+                    "text": "Bolinas에 돌아왔을 때, 모든 것이 떨어져 있었다 : 바닥에 유리와 함께 깨진 포스터 프레임, 서류 캐비넷들은 열리거나 마루 위에 버려졌다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 681,
+                    "sent_id": 107,
+                    "frameName": "Being_operational",
+                    "ko_annotation_id": 5611,
+                    "origin_lus": [
+                        "broken"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 44,
+                                "end": 46
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 51,
-                            "end": 54
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "event",
-                        "span": {
-                            "begin": 55,
-                            "end": 57
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "event",
-                        "span": {
-                            "begin": 55,
-                            "end": 57
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Process_start",
-                "origin_lus": [
-                    "erupted"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3753,
-                "sent_id": 716
-            }
+                        {
+                            "span": {
+                                "begin": 47,
+                                "end": 54
+                            },
+                            "obj": "artifact",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5611"
         }
     ],
-    "frameID": 133,
-    "en_lu": [
-        "erupt"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Process_start"
+    "frameName": "Being_operational",
+    "lu_id": 1799,
+    "frameID": 1200,
+    "ko_lu": "깨다.v.Being_operational",
+    "en_lus": [
+        "broken"
+    ]
 }

@@ -1,48 +1,91 @@
 {
-    "ko_lu": "봉사.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 627",
-            "examples": {
-                "ko_annotation_id": 627,
-                "denotations": [
-                    {
-                        "obj": "target_group",
-                        "span": {
-                            "begin": 67,
-                            "end": 71
+            "examples": [
+                {
+                    "text": "2001년 9월 11일에, 19 명의  Al Qa'ida 테러리스트들은 네 대의 민항기를 납치하였고 이들 중 세 대가 세계무역센터와 펜타곤으로 비행하였고 ; 네 번째는 펜실바니아 주 Shanksville의 들판에 추락하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 72,
-                            "end": 74
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Public_services",
-                "origin_lus": [
-                    "services"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8644,
-                "sent_id": 1783
-            }
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "5",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10235,
+                    "sent_id": 2087,
+                    "frameName": "Operate_vehicle",
+                    "ko_annotation_id": 628,
+                    "origin_lus": [
+                        "flew"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "obj": "time",
+                            "id": "5"
+                        },
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 38
+                            },
+                            "obj": "driver",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 56,
+                                "end": 64
+                            },
+                            "obj": "vehicle",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 66,
+                                "end": 77
+                            },
+                            "obj": "goal",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 80,
+                                "end": 83
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 628"
         }
     ],
-    "frameID": 1605,
-    "en_lu": [
-        "service"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Public_services"
+    "frameName": "Operate_vehicle",
+    "lu_id": 193,
+    "frameID": 65,
+    "ko_lu": "비행하다.v.Operate_vehicle",
+    "en_lus": [
+        "flew"
+    ]
 }

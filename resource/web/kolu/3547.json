@@ -1,61 +1,38 @@
 {
-    "ko_lu": "이행.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 11077",
-            "examples": {
-                "ko_annotation_id": 11077,
-                "denotations": [
-                    {
-                        "obj": "plan",
-                        "span": {
-                            "begin": 49,
-                            "end": 53
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "degree",
-                        "span": {
-                            "begin": 59,
-                            "end": 63
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 64,
-                            "end": 66
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Execute_plan",
-                "origin_lus": [
-                    "implementation"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11384,
-                "sent_id": 2272
-            }
+            "examples": [
+                {
+                    "text": "Goodwill 프로그램의 한 참여자는 우리의 탁상 출판 훈련 프로그램의 자기 급우들과 인터뷰 결과를 공유하기 위해 일자리 인터뷰에서 급히 돌아온다.",
+                    "relations": [],
+                    "annotation_id": 2028,
+                    "sent_id": 376,
+                    "frameName": "Participation",
+                    "ko_annotation_id": 11910,
+                    "origin_lus": [
+                        "participant"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11910"
         }
     ],
-    "frameID": 1726,
-    "en_lu": [
-        "implementation"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Execute_plan"
+    "frameName": "Participation",
+    "lu_id": 3547,
+    "frameID": 1144,
+    "ko_lu": "참여자.n.Participation",
+    "en_lus": [
+        "participant"
+    ]
 }

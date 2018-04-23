@@ -1,61 +1,52 @@
 {
-    "ko_lu": "지불하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 15680",
-            "examples": {
-                "ko_annotation_id": 15680,
-                "denotations": [
-                    {
-                        "obj": "goods",
-                        "span": {
-                            "begin": 14,
-                            "end": 27
+            "examples": [
+                {
+                    "text": "집들 중 한 곳에서 발견된 여권들은 남자들이  법을 무시하는 부족으로 알려진 특권이 용이한 지방 출신으로 확인되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 17520,
+                    "sent_id": 3288,
+                    "frameName": "Documents",
+                    "ko_annotation_id": 17286,
+                    "origin_lus": [
+                        "Passports"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "obj": "gov",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 28,
-                            "end": 31
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "money",
-                        "span": {
-                            "begin": 32,
-                            "end": 41
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Commerce_pay",
-                "origin_lus": [
-                    "paid"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18429,
-                "sent_id": 3508
-            }
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17286"
         }
     ],
-    "frameID": 180,
-    "en_lu": [
-        "paid"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Commerce_pay"
+    "frameName": "Documents",
+    "lu_id": 5027,
+    "frameID": 560,
+    "ko_lu": "여권.n.Documents",
+    "en_lus": [
+        "Passports"
+    ]
 }

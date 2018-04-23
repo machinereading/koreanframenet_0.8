@@ -1,87 +1,84 @@
 {
-    "ko_lu": "살다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 15888",
-            "examples": {
-                "ko_annotation_id": 15888,
-                "denotations": [
-                    {
-                        "obj": "resident",
-                        "span": {
-                            "begin": 4,
-                            "end": 11
+            "examples": [
+                {
+                    "text": "광신적인 세계관으로 이루어진 테러리스트들은 미국의 경제 및 군사력의 상징적 표적을 공격하면서 가능한 한 많은 미국인들의 사살을 추구하였다.",
+                    "relations": [],
+                    "annotation_id": 10244,
+                    "sent_id": 2089,
+                    "frameName": "Military",
+                    "ko_annotation_id": 17607,
+                    "origin_lus": [
+                        "military",
+                        "forces",
+                        "military forces"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17607"
+        },
+        {
+            "examples": [
+                {
+                    "text": "이라크와의 8년간의 전쟁, Bushehr 원자로 사이트에서의 많은 폭격, 이란의 군사력에 대한 화학 공격, 도시에 대한 미사일 강타,  그리고 전체적인 자원 고갈은 분명히 이란에 파괴적인 영향을 주었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12932,
+                    "sent_id": 2581,
+                    "frameName": "Military",
+                    "ko_annotation_id": 17608,
+                    "origin_lus": [
+                        "military",
+                        "forces",
+                        "military forces"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 41,
+                                "end": 43
+                            },
+                            "obj": "possessor",
+                            "id": "2"
                         },
-                        "id": "5"
-                    },
-                    {
-                        "obj": "depictive",
-                        "span": {
-                            "begin": 28,
-                            "end": 44
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 45,
-                            "end": 50
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "location",
-                        "span": {
-                            "begin": 51,
-                            "end": 58
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 61,
-                            "end": 67
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Residence",
-                "origin_lus": [
-                    "live"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "5",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3905,
-                "sent_id": 743
-            }
+                        {
+                            "span": {
+                                "begin": 45,
+                                "end": 48
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17608"
         }
     ],
-    "frameID": 110,
-    "en_lu": [
-        "live"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Residence"
+    "frameName": "Military",
+    "lu_id": 5111,
+    "frameID": 1514,
+    "ko_lu": "군사력.n.Military",
+    "en_lus": [
+        "force",
+        "military",
+        "military forces"
+    ]
 }

@@ -1,40 +1,78 @@
 {
-    "ko_lu": "오다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 15683",
-            "examples": {
-                "ko_annotation_id": 15683,
-                "denotations": [
-                    {
-                        "obj": "Event",
-                        "span": {
-                            "begin": 3,
-                            "end": 5
+            "examples": [
+                {
+                    "text": "이 바쁘고 현대적인 유럽 도시는 천년의 역사 위에 자리잡고 있다 -- 우아한 Merrion 광장에서 중앙 우체국의 총탄 구멍까지 역사는 도처에 존재한다.",
+                    "relations": [],
+                    "annotation_id": 4941,
+                    "sent_id": 951,
+                    "frameName": "Individual_history",
+                    "ko_annotation_id": 17293,
+                    "origin_lus": [
+                        "history"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 24
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 7,
-                            "end": 8
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17293"
+        },
+        {
+            "examples": [
+                {
+                    "text": "당신은 청동기 시대의 공예품을 보고 부활절 봉기의 역사를 더듬어 올라가고, 또는 율리시스에서 Leopold Bloom의 모험을 되돌아 볼 수 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    }
-                ],
-                "frameName": "Process_start",
-                "origin_lus": [
-                    "akeru .明ける "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4563
-            }
+                    ],
+                    "annotation_id": 4967,
+                    "sent_id": 956,
+                    "frameName": "Individual_history",
+                    "ko_annotation_id": 17294,
+                    "origin_lus": [
+                        "history"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 26
+                            },
+                            "obj": "events",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17294"
         }
     ],
-    "frameID": 133,
-    "en_lu": [
-        "akeru .明ける "
-    ],
-    "ko_pos": "VV",
-    "frameName": "Process_start"
+    "frameName": "Individual_history",
+    "lu_id": 5030,
+    "frameID": 1906,
+    "ko_lu": "역사.n.Individual_history",
+    "en_lus": [
+        "history"
+    ]
 }

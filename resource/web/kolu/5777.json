@@ -1,61 +1,67 @@
 {
-    "ko_lu": "하다.a",
+    "ko_pos": "NNP",
     "patterns": [
         {
-            "valenceText": "annotation id: 18062",
-            "examples": {
-                "ko_annotation_id": 18062,
-                "denotations": [
-                    {
-                        "obj": "state_of_affairs",
-                        "span": {
-                            "begin": 0,
-                            "end": 14
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "state_of_affairs",
-                        "span": {
-                            "begin": 16,
-                            "end": 23
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 26,
-                            "end": 27
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Desirable_event",
-                "origin_lus": [
-                    "should"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7621,
-                "sent_id": 1565
-            }
+            "examples": [
+                {
+                    "text": "DART ( 더블린 지역 도시 고속 수송 체제 ) 는 해안을 따라 남북으로 운행된다.",
+                    "relations": [],
+                    "annotation_id": 5233,
+                    "sent_id": 996,
+                    "frameName": "Direction",
+                    "ko_annotation_id": 19909,
+                    "origin_lus": [
+                        "north",
+                        "south"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 37,
+                                "end": 39
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19909"
+        },
+        {
+            "examples": [
+                {
+                    "text": "DART ( 더블린 지역 도시 고속 수송 체제 ) 는 해안을 따라 남북으로 운행된다.",
+                    "relations": [],
+                    "annotation_id": 5233,
+                    "sent_id": 996,
+                    "frameName": "Direction",
+                    "ko_annotation_id": 19910,
+                    "origin_lus": [
+                        "north",
+                        "south"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 37,
+                                "end": 39
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19910"
         }
     ],
-    "frameID": 1383,
-    "en_lu": [
-        "should"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Desirable_event"
+    "frameName": "Direction",
+    "lu_id": 5777,
+    "frameID": 215,
+    "ko_lu": "남북.n.Direction",
+    "en_lus": [
+        "south",
+        "north"
+    ]
 }

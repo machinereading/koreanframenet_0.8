@@ -1,61 +1,65 @@
 {
-    "ko_lu": "뻗치다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 11464",
-            "examples": {
-                "ko_annotation_id": 11464,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 22,
-                            "end": 24
+            "examples": [
+                {
+                    "text": "북부 이라크 도시인 Kirkuk의 외곽에서 그들이 폭탄을 제거하는 중 기름 파이프관에서 폭탄이 터져 최소한 아홉 명의 경찰이 사망했고 세 명이 중상을 입었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 25,
-                            "end": 29
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6902,
+                    "sent_id": 1431,
+                    "frameName": "Cause_harm",
+                    "ko_annotation_id": 12463,
+                    "origin_lus": [
+                        "wounded"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 55
+                            },
+                            "obj": "time",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 27,
-                            "end": 29
+                        {
+                            "span": {
+                                "begin": 75,
+                                "end": 78
+                            },
+                            "obj": "victim",
+                            "id": "2"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Expansion",
-                "origin_lus": [
-                    "stretched"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3057,
-                "sent_id": 577
-            }
+                        {
+                            "span": {
+                                "begin": 80,
+                                "end": 85
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12463"
         }
     ],
-    "frameID": 725,
-    "en_lu": [
-        "stretch"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Expansion"
+    "frameName": "Cause_harm",
+    "lu_id": 3679,
+    "frameID": 112,
+    "ko_lu": "중상.n.Cause_harm",
+    "en_lus": [
+        "wound"
+    ]
 }

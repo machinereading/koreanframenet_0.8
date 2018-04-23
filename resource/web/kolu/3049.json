@@ -1,61 +1,52 @@
 {
-    "ko_lu": "찾다.v",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 9198",
-            "examples": {
-                "ko_annotation_id": 9198,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 0,
-                            "end": 44
+            "examples": [
+                {
+                    "text": "나는 또한 샌프란시스코 Marina 지역의 끔찍한 화재로부터 만을 가로지르는 구름을 볼 수 있었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 784,
+                    "sent_id": 134,
+                    "frameName": "Desirability",
+                    "ko_annotation_id": 9816,
+                    "origin_lus": [
+                        "horrible"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "state_of_affairs",
-                        "span": {
-                            "begin": 47,
-                            "end": 90
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 92,
-                            "end": 93
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Seeking_to_achieve",
-                "origin_lus": [
-                    "seek"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7030,
-                "sent_id": 1485
-            }
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "obj": "evaluee",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9816"
         }
     ],
-    "frameID": 1480,
-    "en_lu": [
-        "seek"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Seeking_to_achieve"
+    "frameName": "Desirability",
+    "lu_id": 3049,
+    "frameID": 354,
+    "ko_lu": "끔찍하다.a.Desirability",
+    "en_lus": [
+        "horrible"
+    ]
 }

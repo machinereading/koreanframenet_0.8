@@ -1,61 +1,52 @@
 {
-    "ko_lu": "알리다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 7520",
-            "examples": {
-                "ko_annotation_id": 7520,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "정치적 그리고 종교적 벽은 1967년 6월의 6일 전쟁 때까지 가끔의 테러리즘이나 저격 사건으로 악화되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3803,
+                    "sent_id": 724,
+                    "frameName": "Frequency",
+                    "ko_annotation_id": 8067,
+                    "origin_lus": [
+                        "occasional"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 37
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "name",
-                        "span": {
-                            "begin": 4,
-                            "end": 17
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 19,
-                            "end": 22
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Being_named",
-                "origin_lus": [
-                    "known"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 2806,
-                "sent_id": 533
-            }
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 51
+                            },
+                            "obj": "event",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8067"
         }
     ],
-    "frameID": 228,
-    "en_lu": [
-        "know"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Being_named"
+    "frameName": "Frequency",
+    "lu_id": 2484,
+    "frameID": 80,
+    "ko_lu": "가끔.n.Frequency",
+    "en_lus": [
+        "occasional"
+    ]
 }

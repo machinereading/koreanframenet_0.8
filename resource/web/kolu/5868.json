@@ -1,34 +1,65 @@
 {
-    "ko_lu": "군용.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 18407",
-            "examples": {
-                "ko_annotation_id": 18407,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 57,
-                            "end": 59
+            "examples": [
+                {
+                    "text": "그러나 교육기관과는 별개로, 선생들을 매도하는 것은 부당하다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Military",
-                "origin_lus": [
-                    "military"
-                ],
-                "relations": [],
-                "annotation_id": 15427,
-                "sent_id": 2994
-            }
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 1110,
+                    "sent_id": 203,
+                    "frameName": "Identicality",
+                    "ko_annotation_id": 20205,
+                    "origin_lus": [
+                        "distinct"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "obj": "previous_instance",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "obj": "previous_instance",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20205"
         }
     ],
-    "frameID": 1514,
-    "en_lu": [
-        "military"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Military"
+    "frameName": "Identicality",
+    "lu_id": 5868,
+    "frameID": 1029,
+    "ko_lu": "별개.n.Identicality",
+    "en_lus": [
+        "distinct"
+    ]
 }

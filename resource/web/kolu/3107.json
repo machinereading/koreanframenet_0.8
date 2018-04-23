@@ -1,61 +1,38 @@
 {
-    "ko_lu": "요청.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 9486",
-            "examples": {
-                "ko_annotation_id": 9486,
-                "denotations": [
-                    {
-                        "obj": "goal",
-                        "span": {
-                            "begin": 7,
-                            "end": 21
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 22,
-                            "end": 25
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 27,
-                            "end": 29
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Attempt",
-                "origin_lus": [
-                    "quest"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 16192,
-                "sent_id": 3104
-            }
+            "examples": [
+                {
+                    "text": "이란은 공세적 생물전 ( BW ) 프로그램을 비밀리에 개발하고 있어 서방 세계로부터 종종 비난받고 있다.",
+                    "relations": [],
+                    "annotation_id": 10627,
+                    "sent_id": 2132,
+                    "frameName": "Attack",
+                    "ko_annotation_id": 10202,
+                    "origin_lus": [
+                        "offensive"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10202"
         }
     ],
-    "frameID": 116,
-    "en_lu": [
-        "quest"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Attempt"
+    "frameName": "Attack",
+    "lu_id": 3107,
+    "frameID": 424,
+    "ko_lu": "공세적.n.Attack",
+    "en_lus": [
+        "offensive"
+    ]
 }

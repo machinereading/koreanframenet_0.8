@@ -1,61 +1,65 @@
 {
-    "ko_lu": "납치되다.v",
+    "ko_pos": "NNB",
     "patterns": [
         {
-            "valenceText": "annotation id: 17827",
-            "examples": {
-                "ko_annotation_id": 17827,
-                "denotations": [
-                    {
-                        "obj": "perpetrator",
-                        "span": {
-                            "begin": 14,
-                            "end": 59
+            "examples": [
+                {
+                    "text": "기자 : 두 번째 Intifada가 2000년에 시작된 이래, 700 명 이상의 이스라엘인들이 사살되었고, 같은 기간 동안, Red Crescent 에 의하면, 암살의 표적이 된 Hamas 지도자들을 포함하여, 2000 명 이상의 팔레스타인이 죽었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "victim",
-                        "span": {
-                            "begin": 75,
-                            "end": 78
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8691,
+                    "sent_id": 1798,
+                    "frameName": "Time_vector",
+                    "ko_annotation_id": 19690,
+                    "origin_lus": [
+                        "Since"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 30
+                            },
+                            "obj": "landmark_event",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 80,
-                            "end": 83
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Kidnapping",
-                "origin_lus": [
-                    "kidnapped"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9520,
-                "sent_id": 1971
-            }
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 56
+                            },
+                            "obj": "event",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19690"
         }
     ],
-    "frameID": 122,
-    "en_lu": [
-        "kidnap"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Kidnapping"
+    "frameName": "Time_vector",
+    "lu_id": 5692,
+    "frameID": 379,
+    "ko_lu": "이래.n.Time_vector",
+    "en_lus": [
+        "Since"
+    ]
 }

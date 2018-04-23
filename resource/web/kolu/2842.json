@@ -1,61 +1,38 @@
 {
-    "ko_lu": "관여하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 8634",
-            "examples": {
-                "ko_annotation_id": 8634,
-                "denotations": [
-                    {
-                        "obj": "participant_1",
-                        "span": {
-                            "begin": 0,
-                            "end": 7
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "event",
-                        "span": {
-                            "begin": 9,
-                            "end": 25
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 27,
-                            "end": 32
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Participation",
-                "origin_lus": [
-                    "involved"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13486,
-                "sent_id": 2691
-            }
+            "examples": [
+                {
+                    "text": "그가 신약의 마지막 책인 요한계시록이 된 것을 그가 쓴 것은 여기였다.",
+                    "relations": [],
+                    "annotation_id": 2890,
+                    "sent_id": 550,
+                    "frameName": "Part_ordered_segments",
+                    "ko_annotation_id": 9169,
+                    "origin_lus": [
+                        "Book"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9169"
         }
     ],
-    "frameID": 1144,
-    "en_lu": [
-        "involve"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Participation"
+    "frameName": "Part_ordered_segments",
+    "lu_id": 2842,
+    "frameID": 331,
+    "ko_lu": "계시록.n.Part_ordered_segments",
+    "en_lus": [
+        "Book"
+    ]
 }

@@ -1,87 +1,65 @@
 {
-    "ko_lu": "속이다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 11319",
-            "examples": {
-                "ko_annotation_id": 11319,
-                "denotations": [
-                    {
-                        "obj": "manipulator",
-                        "span": {
-                            "begin": 0,
-                            "end": 14
+            "examples": [
+                {
+                    "text": "부모들이 학교에 불만이 있으면, 그들은 다른 학교로 전학시킬 방안을 가져야 한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "manner",
-                        "span": {
-                            "begin": 16,
-                            "end": 19
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 1270,
+                    "sent_id": 234,
+                    "frameName": "Change_tool",
+                    "ko_annotation_id": 12164,
+                    "origin_lus": [
+                        "switching"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "obj": "agent",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "victim",
-                        "span": {
-                            "begin": 21,
-                            "end": 22
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "obj": "new_tool",
+                            "id": "3"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "resulting_action",
-                        "span": {
-                            "begin": 24,
-                            "end": 29
-                        },
-                        "id": "5"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 43,
-                            "end": 45
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Manipulate_into_doing",
-                "origin_lus": [
-                    "bullies"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "5",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5365,
-                "sent_id": 1024
-            }
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12164"
         }
     ],
-    "frameID": 92,
-    "en_lu": [
-        "bully"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Manipulate_into_doing"
+    "frameName": "Change_tool",
+    "lu_id": 3623,
+    "frameID": 1173,
+    "ko_lu": "전학시키다.v.Change_tool",
+    "en_lus": [
+        "switch"
+    ]
 }

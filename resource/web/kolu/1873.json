@@ -1,48 +1,65 @@
 {
-    "ko_lu": "사형하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 5600",
-            "examples": {
-                "ko_annotation_id": 5600,
-                "denotations": [
-                    {
-                        "obj": "executed",
-                        "span": {
-                            "begin": 18,
-                            "end": 48
+            "examples": [
+                {
+                    "text": "테러리스트들은 화학 생물무기 작용제를 개발, 생산, 및 배달하는 데 필요한 기술적인 능력을 가졌다는 것을 보여줌으로써 더 큰 지위 협상력을 가지려고 할 수 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 50,
-                            "end": 53
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9943,
+                    "sent_id": 2038,
+                    "frameName": "Reasoning",
+                    "ko_annotation_id": 5869,
+                    "origin_lus": [
+                        "demonstrating"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "obj": "arguer",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Execution",
-                "origin_lus": [
-                    "execution"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3563,
-                "sent_id": 666
-            }
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 57
+                            },
+                            "obj": "content",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 59,
+                                "end": 61
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5869"
         }
     ],
-    "frameID": 225,
-    "en_lu": [
-        "execution"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Execution"
+    "frameName": "Reasoning",
+    "lu_id": 1873,
+    "frameID": 308,
+    "ko_lu": "보이다.v.Reasoning",
+    "en_lus": [
+        "demonstrate"
+    ]
 }

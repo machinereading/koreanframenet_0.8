@@ -1,61 +1,52 @@
 {
-    "ko_lu": "못하다.a",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 914",
-            "examples": {
-                "ko_annotation_id": 914,
-                "denotations": [
-                    {
-                        "obj": "goal",
-                        "span": {
-                            "begin": 30,
-                            "end": 72
+            "examples": [
+                {
+                    "text": "국제 원자력 기구가 현장을 감시하기 원하는 대로 접근이 혀용되는지에 대한 논쟁이 소용돌이 치면서 이란은 우라늄 농축 시설에 수천 개의 원심 분리기를 설치하기 위한 예비 작업을 시작하였다고, 통신사들이 오늘 보도하였다 ( GSN, 2월 1일 참조 )",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 17367,
+                    "sent_id": 3271,
+                    "frameName": "Public_services",
+                    "ko_annotation_id": 922,
+                    "origin_lus": [
+                        "services"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 106,
+                                "end": 110
+                            },
+                            "obj": "domain",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 74,
-                            "end": 76
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 79,
-                            "end": 84
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Success_or_failure",
-                "origin_lus": [
-                    "failing"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8412,
-                "sent_id": 1725
-            }
+                        {
+                            "span": {
+                                "begin": 106,
+                                "end": 110
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 922"
         }
     ],
-    "frameID": 1388,
-    "en_lu": [
-        "fail"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Success_or_failure"
+    "frameName": "Public_services",
+    "lu_id": 361,
+    "frameID": 1605,
+    "ko_lu": "통신사.n.Public_services",
+    "en_lus": [
+        "service"
+    ]
 }

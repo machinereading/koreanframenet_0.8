@@ -1,48 +1,52 @@
 {
-    "ko_lu": "따뜻하다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 11703",
-            "examples": {
-                "ko_annotation_id": 11703,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 4,
-                            "end": 7
+            "examples": [
+                {
+                    "text": "이란이 구매한 다른 방어 자재는 스페인제 방독면, 한국제 보호장비, 그리고 네델란드제 아트로핀 주사를 포함한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11279,
+                    "sent_id": 2253,
+                    "frameName": "Substance",
+                    "ko_annotation_id": 12584,
+                    "origin_lus": [
+                        "material"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "obj": "use",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "attribute",
-                        "span": {
-                            "begin": 8,
-                            "end": 10
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Ambient_temperature",
-                "origin_lus": [
-                    "warm"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4567,
-                "sent_id": 880
-            }
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12584"
         }
     ],
-    "frameID": 1052,
-    "en_lu": [
-        "warm"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Ambient_temperature"
+    "frameName": "Substance",
+    "lu_id": 3740,
+    "frameID": 1321,
+    "ko_lu": "자재.n.Substance",
+    "en_lus": [
+        "material"
+    ]
 }

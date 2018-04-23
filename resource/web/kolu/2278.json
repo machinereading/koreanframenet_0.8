@@ -1,61 +1,78 @@
 {
-    "ko_lu": "나타내다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 6885",
-            "examples": {
-                "ko_annotation_id": 6885,
-                "denotations": [
-                    {
-                        "obj": "cause",
-                        "span": {
-                            "begin": 0,
-                            "end": 10
+            "examples": [
+                {
+                    "text": "5 년간의 완화된 신용 이후, Fed는 코스를 뒤바꾸어 결국 활기를 찾기 시작한 경제에서 인플레이션과의 싸움에 전념하는 것에 대해 의심의 여지를 남기지 않았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 0,
+                    "sent_id": 1460,
+                    "frameName": "Certainty",
+                    "ko_annotation_id": 7313,
+                    "origin_lus": [
+                        "doubt"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 72
+                            },
+                            "obj": "topic",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "effect",
-                        "span": {
-                            "begin": 12,
-                            "end": 23
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 25,
-                            "end": 31
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Causation",
-                "origin_lus": [
-                    "giving rise"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4659,
-                "sent_id": 896
-            }
+                        {
+                            "span": {
+                                "begin": 73,
+                                "end": 75
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7313"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그래서 나로서는 누군가가, 저어, 타당한 의심의 여지없이 종신형이면, 그들은 그렇게 되어야 하고, 어, 특히 이들의 일부는 정말로 그렇다.",
+                    "relations": [],
+                    "annotation_id": 9217,
+                    "sent_id": 1911,
+                    "frameName": "Certainty",
+                    "ko_annotation_id": 7314,
+                    "origin_lus": [
+                        "doubt"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 25
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7314"
         }
     ],
-    "frameID": 5,
-    "en_lu": [
-        "giving rise"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Causation"
+    "frameName": "Certainty",
+    "lu_id": 2278,
+    "frameID": 141,
+    "ko_lu": "의심.n.Certainty",
+    "en_lus": [
+        "doubt"
+    ]
 }

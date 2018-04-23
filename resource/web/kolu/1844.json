@@ -1,61 +1,85 @@
 {
-    "ko_lu": "성명.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 5530",
-            "examples": {
-                "ko_annotation_id": 5530,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 5,
-                            "end": 10
+            "examples": [
+                {
+                    "text": "나는 경험이나 기술이 없었다... 내가 확실히 알고 있던 유일한 것은 나와 나의 자식들을 위해 상황을 변화시킬 기회가 여기 있었다는 것이다... 나는 비와 눈 속에서 자전거를 타고 Goodwill로 갔다.",
+                    "relations": [],
+                    "annotation_id": 1749,
+                    "sent_id": 319,
+                    "frameName": "Operate_vehicle",
+                    "ko_annotation_id": 5770,
+                    "origin_lus": [
+                        "rode"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 98,
+                                "end": 99
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5770"
+        },
+        {
+            "examples": [
+                {
+                    "text": "내가 한 공터에 차를 타고 들어가, 그녀에게 달려들자, 지금껏 축 늘어져 있던 사람이 마치 다른 사람이 된 것처럼 격렬하게 저항했다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4209,
+                    "frameName": "Operate_vehicle",
+                    "ko_annotation_id": 10420,
+                    "origin_lus": [
+                        "noriireru .乗り入れる"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Driver"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "claimant",
-                        "span": {
-                            "begin": 11,
-                            "end": 15
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "obj": "Goal"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "claimant",
-                        "span": {
-                            "begin": 11,
-                            "end": 15
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 10
+                            },
+                            "obj": "Vehicle"
                         },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Claim_ownership",
-                "origin_lus": [
-                    "claimed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9564,
-                "sent_id": 1978
-            }
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 18
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10420"
         }
     ],
-    "frameID": 550,
-    "en_lu": [
-        "claimed"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Claim_ownership"
+    "frameName": "Operate_vehicle",
+    "lu_id": 1844,
+    "frameID": 65,
+    "ko_lu": "타다.v.Operate_vehicle",
+    "en_lus": [
+        "rode",
+        "noriireru .乗り入れる"
+    ]
 }

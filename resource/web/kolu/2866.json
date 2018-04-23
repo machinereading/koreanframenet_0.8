@@ -1,61 +1,52 @@
 {
-    "ko_lu": "생성.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 8680",
-            "examples": {
-                "ko_annotation_id": 8680,
-                "denotations": [
-                    {
-                        "obj": "created_entity",
-                        "span": {
-                            "begin": 17,
-                            "end": 19
+            "examples": [
+                {
+                    "text": "동시에, 많은 유대인들은 팔레스타인 ( 성지가 전통적으로 불려왔듯이 ) 과 특히 예루살렘으로 이주함으로써 종교의 자유와 실현을 추구하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3718,
+                    "sent_id": 707,
+                    "frameName": "Experiencer_focus",
+                    "ko_annotation_id": 9230,
+                    "origin_lus": [
+                        "fulfillment"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "obj": "experiencer",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 20,
-                            "end": 22
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "manner",
-                        "span": {
-                            "begin": 25,
-                            "end": 23
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Intentionally_create",
-                "origin_lus": [
-                    "generation"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11945,
-                "sent_id": 2369
-            }
+                        {
+                            "span": {
+                                "begin": 67,
+                                "end": 69
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9230"
         }
     ],
-    "frameID": 280,
-    "en_lu": [
-        "generation"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Intentionally_create"
+    "frameName": "Experiencer_focus",
+    "lu_id": 2866,
+    "frameID": 48,
+    "ko_lu": "실현.n.Experiencer_focus",
+    "en_lus": [
+        "fulfillment"
+    ]
 }

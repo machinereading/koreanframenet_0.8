@@ -1,48 +1,104 @@
 {
-    "ko_lu": "있다.a",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 5399",
-            "examples": {
-                "ko_annotation_id": 5399,
-                "denotations": [
-                    {
-                        "obj": "charges",
-                        "span": {
-                            "begin": 55,
-                            "end": 108
+            "examples": [
+                {
+                    "text": "국토안보부 ( DHS ) 는 이 트럭들이 제기하는 안보 위험을 노골적으로 인정하는 공화당 John Dingell과 상원 Debbie Stabenow와 함께 ( Carl Levin ) 이 한 요청에 응하여 행한 연구를 최근에 끝냈다.",
+                    "relations": [],
+                    "annotation_id": 16739,
+                    "sent_id": 3194,
+                    "frameName": "Vehicle",
+                    "ko_annotation_id": 5636,
+                    "origin_lus": [
+                        "trucks"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5636"
+        },
+        {
+            "examples": [
+                {
+                    "text": "이 트럭들이 생물 혹은 화학무기를 나르기 위해 테러리스트들이 사용할 수 있다는 가능성을 무시하는 것은 무책임하다.",
+                    "relations": [],
+                    "annotation_id": 16763,
+                    "sent_id": 3197,
+                    "frameName": "Vehicle",
+                    "ko_annotation_id": 5637,
+                    "origin_lus": [
+                        "trucks"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 2,
+                                "end": 5
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5637"
+        },
+        {
+            "examples": [
+                {
+                    "text": "미국 관세청과 국경수비대는 이들 쓰레기 트럭들이 미시간으로 들어올 때 차단하거나 조사할 효과적인 방법이 없고, 안보 틈새의 잠재적인 결과는 엄청나다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16732,
+                    "sent_id": 3193,
+                    "frameName": "Vehicle",
+                    "ko_annotation_id": 5638,
+                    "origin_lus": [
+                        "trucks"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "obj": "use",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 109,
-                            "end": 117
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Verdict",
-                "origin_lus": [
-                    "guilty"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11234,
-                "sent_id": 2244
-            }
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5638"
         }
     ],
-    "frameID": 318,
-    "en_lu": [
-        "guilty"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Verdict"
+    "frameName": "Vehicle",
+    "lu_id": 1808,
+    "frameID": 429,
+    "ko_lu": "트럭.n.Vehicle",
+    "en_lus": [
+        "truck"
+    ]
 }

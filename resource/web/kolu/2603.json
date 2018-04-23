@@ -1,98 +1,78 @@
 {
-    "ko_lu": "관련하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 7946",
-            "examples": {
-                "ko_annotation_id": 7946,
-                "denotations": [
-                    {
-                        "obj": "topic",
-                        "span": {
-                            "begin": 84,
-                            "end": 92
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 94,
-                            "end": 97
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Topic",
-                "origin_lus": [
-                    "regarding"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11409,
-                "sent_id": 2276
-            }
+            "examples": [
+                {
+                    "text": "그가 지역사회의 다른 곳에서 일하기 위한 자신감을 얻는데는 오랜 시간이 걸린다.",
+                    "relations": [],
+                    "annotation_id": 2071,
+                    "sent_id": 382,
+                    "frameName": "Certainty",
+                    "ko_annotation_id": 8483,
+                    "origin_lus": [
+                        "confidence"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8483"
         },
         {
-            "valenceText": "annotation id: 7947",
-            "examples": {
-                "ko_annotation_id": 7947,
-                "denotations": [
-                    {
-                        "obj": "topic",
-                        "span": {
-                            "begin": 27,
-                            "end": 40
+            "examples": [
+                {
+                    "text": "그러나, 활기찬 서민 문화와 독립국가의 증가하는 자신감으로, 버림받은 섬의 광고 고정 관념을 거부한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4577,
+                    "sent_id": 881,
+                    "frameName": "Certainty",
+                    "ko_annotation_id": 8484,
+                    "origin_lus": [
+                        "confidence"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "obj": "cognizer",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 42,
-                            "end": 45
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "text",
-                        "span": {
-                            "begin": 47,
-                            "end": 52
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Topic",
-                "origin_lus": [
-                    "regarding"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11778,
-                "sent_id": 2342
-            }
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8484"
         }
     ],
-    "frameID": 373,
-    "en_lu": [
-        "regard"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Topic"
+    "frameName": "Certainty",
+    "lu_id": 2603,
+    "frameID": 141,
+    "ko_lu": "자신감.n.Certainty",
+    "en_lus": [
+        "confidence"
+    ]
 }

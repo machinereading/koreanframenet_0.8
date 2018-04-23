@@ -1,48 +1,65 @@
 {
-    "ko_lu": "깨다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 5611",
-            "examples": {
-                "ko_annotation_id": 5611,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 44,
-                            "end": 46
+            "examples": [
+                {
+                    "text": "그는 컴퓨터 중 한 대가 바닥에서 3 피트 이동하여 미끄러졌다고 말했다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "artifact",
-                        "span": {
-                            "begin": 47,
-                            "end": 54
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 872,
+                    "sent_id": 153,
+                    "frameName": "Motion",
+                    "ko_annotation_id": 5878,
+                    "origin_lus": [
+                        "sliding"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 12
+                            },
+                            "obj": "theme",
+                            "id": "3"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Being_operational",
-                "origin_lus": [
-                    "broken"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 681,
-                "sent_id": 107
-            }
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "obj": "path",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5878"
         }
     ],
-    "frameID": 1200,
-    "en_lu": [
-        "broken"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Being_operational"
+    "frameName": "Motion",
+    "lu_id": 1878,
+    "frameID": 7,
+    "ko_lu": "미끄러지다.v.Motion",
+    "en_lus": [
+        "slide"
+    ]
 }

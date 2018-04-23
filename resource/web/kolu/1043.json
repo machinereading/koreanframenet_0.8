@@ -1,74 +1,65 @@
 {
-    "ko_lu": "협의하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 3164",
-            "examples": {
-                "ko_annotation_id": 3164,
-                "denotations": [
-                    {
-                        "obj": "period_of_iterations",
-                        "span": {
-                            "begin": 0,
-                            "end": 8
+            "examples": [
+                {
+                    "text": "한 성명에서, Hall은 이라크 국민에 대한 10년간의 제재에 대한 부정적인 영향에 유감을 표명하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 10,
-                            "end": 12
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7334,
+                    "sent_id": 1525,
+                    "frameName": "Experiencer_focus",
+                    "ko_annotation_id": 3274,
+                    "origin_lus": [
+                        "regret"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "obj": "experiencer",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "act",
-                        "span": {
-                            "begin": 14,
-                            "end": 31
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 45
+                            },
+                            "obj": "topic",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 28,
-                            "end": 31
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Intentionally_act",
-                "origin_lus": [
-                    "engaged"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10590,
-                "sent_id": 2129
-            }
+                        {
+                            "span": {
+                                "begin": 47,
+                                "end": 49
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 3274"
         }
     ],
-    "frameID": 198,
-    "en_lu": [
-        "engage"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Intentionally_act"
+    "frameName": "Experiencer_focus",
+    "lu_id": 1043,
+    "frameID": 48,
+    "ko_lu": "유감.n.Experiencer_focus",
+    "en_lus": [
+        "regret"
+    ]
 }

@@ -1,57 +1,52 @@
 {
-    "ko_lu": "공항.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 6161",
-            "examples": {
-                "ko_annotation_id": 6161,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 34,
-                            "end": 36
+            "examples": [
+                {
+                    "text": "당신은 약초와 의료 가게, 향 가게, 관인 제조자 가게 ( 중국 인장 제조자 ), 그리고 더 많은 것을 발견할 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5730,
+                    "sent_id": 1095,
+                    "frameName": "Manufacturing",
+                    "ko_annotation_id": 6482,
+                    "origin_lus": [
+                        "makers"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "obj": "product",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Buildings",
-                "origin_lus": [
-                    "airport"
-                ],
-                "relations": [],
-                "annotation_id": 5641,
-                "sent_id": 1080
-            }
-        },
-        {
-            "valenceText": "annotation id: 6162",
-            "examples": {
-                "ko_annotation_id": 6162,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 61,
-                            "end": 63
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Buildings",
-                "origin_lus": [
-                    "airport"
-                ],
-                "relations": [],
-                "annotation_id": 4292,
-                "sent_id": 827
-            }
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6482"
         }
     ],
-    "frameID": 173,
-    "en_lu": [
-        "airport"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Buildings"
+    "frameName": "Manufacturing",
+    "lu_id": 2065,
+    "frameID": 408,
+    "ko_lu": "제조자.n.Manufacturing",
+    "en_lus": [
+        "maker"
+    ]
 }

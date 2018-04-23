@@ -1,71 +1,122 @@
 {
-    "ko_lu": "기후.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 16972",
-            "examples": {
-                "ko_annotation_id": 16972,
-                "denotations": [
-                    {
-                        "obj": "place",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "일반적인 연회도 줄었다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4004,
+                    "frameName": "Social_event",
+                    "ko_annotation_id": 18715,
+                    "origin_lus": [
+                        "enkai .宴会 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "obj": "Attendee"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 3,
-                            "end": 5
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "obj": "Social_event"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Weather",
-                "origin_lus": [
-                    "climate"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5065,
-                "sent_id": 973
-            }
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18715"
         },
         {
-            "valenceText": "annotation id: 16973",
-            "examples": {
-                "ko_annotation_id": 16973,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 15,
-                            "end": 17
+            "examples": [
+                {
+                    "text": "연회는 육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의 연회가 중심을 이뤘다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3649,
+                    "frameName": "Social_event",
+                    "ko_annotation_id": 18716,
+                    "origin_lus": [
+                        "enkai .宴会 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 44,
+                                "end": 46
+                            },
+                            "obj": "Social_event"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Weather",
-                "origin_lus": [
-                    "climate"
-                ],
-                "relations": [],
-                "annotation_id": 4806,
-                "sent_id": 929
-            }
+                        {
+                            "span": {
+                                "begin": 44,
+                                "end": 46
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18716"
+        },
+        {
+            "examples": [
+                {
+                    "text": "연회는 육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의 연회가 중심을 이뤘다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3649,
+                    "frameName": "Social_event",
+                    "ko_annotation_id": 18717,
+                    "origin_lus": [
+                        "enkai .宴会 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Social_event"
+                        },
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 42
+                            },
+                            "obj": "Attendee"
+                        },
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18717"
         }
     ],
-    "frameID": 303,
-    "en_lu": [
-        "climate"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Weather"
+    "frameName": "Social_event",
+    "lu_id": 5428,
+    "frameID": 125,
+    "ko_lu": "연회.n.Social_event",
+    "en_lus": [
+        "enkai .宴会 "
+    ]
 }

@@ -1,74 +1,148 @@
 {
-    "ko_lu": "출생하다.v",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 879",
-            "examples": {
-                "ko_annotation_id": 879,
-                "denotations": [
-                    {
-                        "obj": "child",
-                        "span": {
-                            "begin": 0,
-                            "end": 9
+            "examples": [
+                {
+                    "text": "확실히 내 입으로 「댁의 문제는 이거라구요.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4576,
+                    "frameName": "Certainty",
+                    "ko_annotation_id": 8264,
+                    "origin_lus": [
+                        "tasika .確か "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8264"
+        },
+        {
+            "examples": [
+                {
+                    "text": "러시아는 전술 핵무기의 정확한 집계가 없기 때문에 총 보유 규모는 확실하지 않지만, 약 20,000 개의 핵무기를 현재 보유한 것으로 추정된다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15370,
+                    "sent_id": 2983,
+                    "frameName": "Certainty",
+                    "ko_annotation_id": 15082,
+                    "origin_lus": [
+                        "uncertain",
+                        "certainty"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 35
+                            },
+                            "obj": "content",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "place",
-                        "span": {
-                            "begin": 11,
-                            "end": 13
+                        {
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15082"
+        },
+        {
+            "examples": [
+                {
+                    "text": "한때 확실했던 것이 훨씬 더 경쟁적이게 되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4319,
+                    "sent_id": 832,
+                    "frameName": "Certainty",
+                    "ko_annotation_id": 882,
+                    "origin_lus": [
+                        "sure"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 16,
-                            "end": 28
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 29,
-                            "end": 32
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Being_born",
-                "origin_lus": [
-                    "born"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6213,
-                "sent_id": 1218
-            }
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 9
+                            },
+                            "obj": "content",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 882"
+        },
+        {
+            "examples": [
+                {
+                    "text": "남아공의 핵 및 미사일 프로그램의 확산 유산은 국제적 환호를 받은 입증된 폐기 조치를 통하여 효과적으로 해결된 반면, 그 나라의 화학 및 생물 무기 능력의 폐기는 비교할만한 정도로 확실하게 입증되지 못하였다.",
+                    "relations": [],
+                    "annotation_id": 15563,
+                    "sent_id": 3015,
+                    "frameName": "Certainty",
+                    "ko_annotation_id": 15083,
+                    "origin_lus": [
+                        "uncertain",
+                        "certainty"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 101,
+                                "end": 104
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15083"
         }
     ],
-    "frameID": 793,
-    "en_lu": [
-        "born"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Being_born"
+    "frameName": "Certainty",
+    "lu_id": 339,
+    "frameID": 141,
+    "ko_lu": "확실하다.a.Certainty",
+    "en_lus": [
+        "sure",
+        "tasika .確か ",
+        "certainty",
+        "uncertain"
+    ]
 }

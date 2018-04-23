@@ -1,48 +1,52 @@
 {
-    "ko_lu": "부서지다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 190",
-            "examples": {
-                "ko_annotation_id": 190,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 7,
-                            "end": 10
+            "examples": [
+                {
+                    "text": "부엌은 온통 부서진 크리스털로 꽉찼다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 965,
+                    "sent_id": 171,
+                    "frameName": "Being_operational",
+                    "ko_annotation_id": 190,
+                    "origin_lus": [
+                        "broken"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "artifact",
-                        "span": {
-                            "begin": 11,
-                            "end": 15
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Being_operational",
-                "origin_lus": [
-                    "broken"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 965,
-                "sent_id": 171
-            }
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "obj": "artifact",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 190"
         }
     ],
+    "frameName": "Being_operational",
+    "lu_id": 59,
     "frameID": 1200,
-    "en_lu": [
+    "ko_lu": "부서지다.v.Being_operational",
+    "en_lus": [
         "broken"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Being_operational"
+    ]
 }

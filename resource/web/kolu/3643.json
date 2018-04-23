@@ -1,48 +1,65 @@
 {
-    "ko_lu": "고소.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 11394",
-            "examples": {
-                "ko_annotation_id": 11394,
-                "denotations": [
-                    {
-                        "obj": "charges",
-                        "span": {
-                            "begin": 3,
-                            "end": 20
+            "examples": [
+                {
+                    "text": "중국은 이란의 화학전 프로그램을 위한 기술과 장비의 중요한 공급국이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 21,
-                            "end": 23
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 17764,
+                    "sent_id": 3346,
+                    "frameName": "Supply",
+                    "ko_annotation_id": 12268,
+                    "origin_lus": [
+                        "supplier"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "supplier",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Notification_of_charges",
-                "origin_lus": [
-                    "charges"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8222,
-                "sent_id": 1679
-            }
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "obj": "theme",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12268"
         }
     ],
-    "frameID": 129,
-    "en_lu": [
-        "charge"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Notification_of_charges"
+    "frameName": "Supply",
+    "lu_id": 3643,
+    "frameID": 1346,
+    "ko_lu": "공급국.n.Supply",
+    "en_lus": [
+        "supplier"
+    ]
 }

@@ -1,48 +1,52 @@
 {
-    "ko_lu": "도.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 381",
-            "examples": {
-                "ko_annotation_id": 381,
-                "denotations": [
-                    {
-                        "obj": "descriptor",
-                        "span": {
-                            "begin": 10,
-                            "end": 12
+            "examples": [
+                {
+                    "text": "이곳 가게의 창과 열린 도어들은 아시아 가구, 카페트, 조각품, 무덤 조각상, 도자기, 그리고 동제품의 유혹하는 수장품을 보여준다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5762,
+                    "sent_id": 1102,
+                    "frameName": "Connecting_architecture",
+                    "ko_annotation_id": 381,
+                    "origin_lus": [
+                        "doors"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "obj": "descriptor",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 13,
-                            "end": 16
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Connecting_architecture",
-                "origin_lus": [
-                    "doors"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5762,
-                "sent_id": 1102
-            }
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 381"
         }
     ],
+    "frameName": "Connecting_architecture",
+    "lu_id": 145,
     "frameID": 1025,
-    "en_lu": [
+    "ko_lu": "도어.n.Connecting_architecture",
+    "en_lus": [
         "door"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Connecting_architecture"
+    ]
 }

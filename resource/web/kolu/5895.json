@@ -1,61 +1,80 @@
 {
-    "ko_lu": "놀라다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 18449",
-            "examples": {
-                "ko_annotation_id": 18449,
-                "denotations": [
-                    {
-                        "obj": "experiencer",
-                        "span": {
-                            "begin": 8,
-                            "end": 9
+            "examples": [
+                {
+                    "text": " \" 독가스를 제조하기 위해 사용되는 금지된 물질을 공급하려는 인도 정부와의 비밀의 수 백만 파운드의 거래 \" 에 대해 1996년 6월 23일에 Sunday Telegraph가 보도하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 0,
+                    "sent_id": 1257,
+                    "frameName": "Toxic_substance",
+                    "ko_annotation_id": 20263,
+                    "origin_lus": [
+                        "poison",
+                        "poisons"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 2,
+                                "end": 3
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "degree",
-                        "span": {
-                            "begin": 14,
-                            "end": 15
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 18,
-                            "end": 25
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Fear",
-                "origin_lus": [
-                    "frightened"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 919,
-                "sent_id": 160
-            }
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "obj": "toxic_substance",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20263"
+        },
+        {
+            "examples": [
+                {
+                    "text": "일부 단체는 전염병과 독에 특히 매력을 가질 수 있다.",
+                    "relations": [],
+                    "annotation_id": 9984,
+                    "sent_id": 2044,
+                    "frameName": "Toxic_substance",
+                    "ko_annotation_id": 20264,
+                    "origin_lus": [
+                        "poison",
+                        "poisons"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 13
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20264"
         }
     ],
-    "frameID": 2052,
-    "en_lu": [
-        "frighten"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Fear"
+    "frameName": "Toxic_substance",
+    "lu_id": 5895,
+    "frameID": 1163,
+    "ko_lu": "독.n.Toxic_substance",
+    "en_lus": [
+        "poison"
+    ]
 }

@@ -1,61 +1,92 @@
 {
-    "ko_lu": "예측되다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 15198",
-            "examples": {
-                "ko_annotation_id": 15198,
-                "denotations": [
-                    {
-                        "obj": "accuracy",
-                        "span": {
-                            "begin": 9,
-                            "end": 12
+            "examples": [
+                {
+                    "text": "큰 녹색과 흰색 보트는 크고 작은 선박의 변화무쌍한 장애물 통과 훈련장을 통과하여 누비듯이 나아가고, 그리고 홍콩의 치솟는 스카이라인은 더 가깝게 다가온다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5438,
+                    "sent_id": 1040,
+                    "frameName": "Color",
+                    "ko_annotation_id": 16723,
+                    "origin_lus": [
+                        "green"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 2,
+                                "end": 4
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 13,
-                            "end": 16
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16723"
+        },
+        {
+            "examples": [
+                {
+                    "text": "다음의 작은 만은 녹색 언덕을 한 널찍하고, 모래가 많은 초승달 모양의 Repulse 만이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6027,
+                    "sent_id": 1147,
+                    "frameName": "Color",
+                    "ko_annotation_id": 16724,
+                    "origin_lus": [
+                        "green"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "eventuality",
-                        "span": {
-                            "begin": 26,
-                            "end": 36
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Predicting",
-                "origin_lus": [
-                    "predicted"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 12107,
-                "sent_id": 2400
-            }
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16724"
         }
     ],
-    "frameID": 425,
-    "en_lu": [
-        "predict"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Predicting"
+    "frameName": "Color",
+    "lu_id": 4863,
+    "frameID": 423,
+    "ko_lu": "녹색.n.Color",
+    "en_lus": [
+        "green"
+    ]
 }

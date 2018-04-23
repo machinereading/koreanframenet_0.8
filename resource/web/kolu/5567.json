@@ -1,48 +1,105 @@
 {
-    "ko_lu": "의도.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 17478",
-            "examples": {
-                "ko_annotation_id": 17478,
-                "denotations": [
-                    {
-                        "obj": "experiencer",
-                        "span": {
-                            "begin": 24,
-                            "end": 28
+            "examples": [
+                {
+                    "text": "결국에는 현대 라스 베이거스 대도시의 센터가 된 지역에 많은 샘들이 있었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3886,
+                    "sent_id": 739,
+                    "frameName": "Time_vector",
+                    "ko_annotation_id": 19262,
+                    "origin_lus": [
+                        "eventually"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 30,
-                            "end": 32
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "obj": "event",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19262"
+        },
+        {
+            "examples": [
+                {
+                    "text": "1855년에 Mormon 지도자 Brigham Young은 30명의 선교사 정착자들을 계곡에 보냄으로써 라스 베이거스에 관한 좋은 보고들에 반응을 보였는데 ; 그들은 결국 오늘날 Downtown에서 멀지 않은 곳에 요새를 구축했다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Desiring",
-                "origin_lus": [
-                    "will"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5092,
-                "sent_id": 977
-            }
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3956,
+                    "sent_id": 751,
+                    "frameName": "Time_vector",
+                    "ko_annotation_id": 19263,
+                    "origin_lus": [
+                        "eventually"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 88,
+                                "end": 90
+                            },
+                            "obj": "event",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 92,
+                                "end": 94
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 95,
+                                "end": 126
+                            },
+                            "obj": "event",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19263"
         }
     ],
-    "frameID": 366,
-    "en_lu": [
-        "will"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Desiring"
+    "frameName": "Time_vector",
+    "lu_id": 5567,
+    "frameID": 379,
+    "ko_lu": "결국.n.Time_vector",
+    "en_lus": [
+        "eventually"
+    ]
 }

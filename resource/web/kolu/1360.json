@@ -1,54 +1,65 @@
 {
-    "ko_lu": "안되다.a",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 4019",
-            "examples": {
-                "ko_annotation_id": 4019,
-                "denotations": [
-                    {
-                        "obj": "Entity",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "독일 정부는 지멘스/KWU 사업부가 이란의 Bushehr 원자로를 완성하도록 허용하지 않을 것과 Siemens의 자회사인 스페인의 Empresarios Agrupados사 또한 그 원자로들을 완성하지 못하게 할 것임을 발표한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Reason",
-                        "span": {
-                            "begin": 4,
-                            "end": 9
+                    ],
+                    "annotation_id": 18468,
+                    "sent_id": 3520,
+                    "frameName": "Deny_permission",
+                    "ko_annotation_id": 4190,
+                    "origin_lus": [
+                        "prohibited"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 54,
+                                "end": 95
+                            },
+                            "obj": "protagonist",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 101,
+                                "end": 110
+                            },
+                            "obj": "action",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 112,
+                                "end": 114
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Final_state",
-                        "span": {
-                            "begin": 11,
-                            "end": 13
-                        }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 15,
-                            "end": 17
-                        }
-                    }
-                ],
-                "frameName": "Becoming",
-                "origin_lus": [
-                    "naru .なる"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4699
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4190"
         }
     ],
-    "frameID": 2971,
-    "en_lu": [
-        "naru .なる"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Becoming"
+    "frameName": "Deny_or_grant_permission",
+    "lu_id": 1360,
+    "frameID": 520,
+    "ko_lu": "못하다.a.Deny_or_grant_permission",
+    "en_lus": [
+        "prohibit"
+    ]
 }

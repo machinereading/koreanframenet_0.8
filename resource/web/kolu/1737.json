@@ -1,34 +1,52 @@
 {
-    "ko_lu": "총격전.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 5165",
-            "examples": {
-                "ko_annotation_id": 5165,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 22,
-                            "end": 25
+            "examples": [
+                {
+                    "text": "1989 년에 미국 당국은 메릴랜드 주 볼티모어에 기반을 둔 제약회사인 Alcolac 국제 회사가 이란에 거의 120 톤의 thiodyglycol ( 겨자 가스 전구물질 ) 을 불법적으로 선적한 죄가 있다는 것을 발견하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11234,
+                    "sent_id": 2244,
+                    "frameName": "Verdict",
+                    "ko_annotation_id": 5399,
+                    "origin_lus": [
+                        "guilty"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 55,
+                                "end": 108
+                            },
+                            "obj": "charges",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Weapon",
-                "origin_lus": [
-                    "gun"
-                ],
-                "relations": [],
-                "annotation_id": 7855,
-                "sent_id": 1611
-            }
+                        {
+                            "span": {
+                                "begin": 109,
+                                "end": 117
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5399"
         }
     ],
-    "frameID": 426,
-    "en_lu": [
-        "gun"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Weapon"
+    "frameName": "Verdict",
+    "lu_id": 1737,
+    "frameID": 318,
+    "ko_lu": "있다.a.Verdict",
+    "en_lus": [
+        "guilty"
+    ]
 }

@@ -1,48 +1,52 @@
 {
-    "ko_lu": "세우다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 14006",
-            "examples": {
-                "ko_annotation_id": 14006,
-                "denotations": [
-                    {
-                        "obj": "created_entity",
-                        "span": {
-                            "begin": 76,
-                            "end": 78
+            "examples": [
+                {
+                    "text": "산책로 끝으로 계속 가면, 60 헥타르 ( 150 에이커 ) 보다 더 많은 매립지에 지은 분주한 상업지역인 Tsim Sha Tsui East에 이른다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6073,
+                    "sent_id": 1158,
+                    "frameName": "Locale_by_ownership",
+                    "ko_annotation_id": 15376,
+                    "origin_lus": [
+                        "land"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "obj": "descriptor",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 83,
-                            "end": 86
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Intentionally_create",
-                "origin_lus": [
-                    "founded"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5415,
-                "sent_id": 1037
-            }
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15376"
         }
     ],
-    "frameID": 280,
-    "en_lu": [
-        "found"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Intentionally_create"
+    "frameName": "Locale_by_ownership",
+    "lu_id": 4529,
+    "frameID": 2171,
+    "ko_lu": "매립지.n.Locale_by_ownership",
+    "en_lus": [
+        "land"
+    ]
 }

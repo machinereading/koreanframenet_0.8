@@ -1,61 +1,52 @@
 {
-    "ko_lu": "시작하다.v",
+    "ko_pos": "NNP",
     "patterns": [
         {
-            "valenceText": "annotation id: 11453",
-            "examples": {
-                "ko_annotation_id": 11453,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 4,
-                            "end": 6
+            "examples": [
+                {
+                    "text": "그 공원의 10.5 헥타르 ( 25 에이크 ) 의 조경된 공원과 호수는 많은 종의 식물과 다양한 이국적인 새들이 있는 대형 온실을 가지고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5567,
+                    "sent_id": 1065,
+                    "frameName": "Measure_area",
+                    "ko_annotation_id": 12460,
+                    "origin_lus": [
+                        "acres"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "obj": "count",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "activity",
-                        "span": {
-                            "begin": 8,
-                            "end": 52
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 54,
-                            "end": 58
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Activity_start",
-                "origin_lus": [
-                    "started"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17835,
-                "sent_id": 3360
-            }
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12460"
         }
     ],
-    "frameID": 146,
-    "en_lu": [
-        "start"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Activity_start"
+    "frameName": "Measure_area",
+    "lu_id": 3676,
+    "frameID": 156,
+    "ko_lu": "에이크.n.Measure_area",
+    "en_lus": [
+        "acre"
+    ]
 }

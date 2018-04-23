@@ -1,61 +1,52 @@
 {
-    "ko_lu": "성취하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 12625",
-            "examples": {
-                "ko_annotation_id": 12625,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 53,
-                            "end": 60
+            "examples": [
+                {
+                    "text": "그가 신약의 마지막 책인 요한계시록이 된 것을 그가 쓴 것은 여기였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2892,
+                    "sent_id": 550,
+                    "frameName": "Version_sequence",
+                    "ko_annotation_id": 13568,
+                    "origin_lus": [
+                        "final"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "goal",
-                        "span": {
-                            "begin": 67,
-                            "end": 69
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 71,
-                            "end": 74
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Accomplishment",
-                "origin_lus": [
-                    "achieve"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4129,
-                "sent_id": 788
-            }
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "obj": "item",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13568"
         }
     ],
-    "frameID": 1519,
-    "en_lu": [
-        "achieve"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Accomplishment"
+    "frameName": "Version_sequence",
+    "lu_id": 4048,
+    "frameID": 1960,
+    "ko_lu": "마지막.n.Version_sequence",
+    "en_lus": [
+        "final"
+    ]
 }

@@ -1,48 +1,92 @@
 {
-    "ko_lu": "수송.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 5179",
-            "examples": {
-                "ko_annotation_id": 5179,
-                "denotations": [
-                    {
-                        "obj": "sent_item",
-                        "span": {
-                            "begin": 0,
-                            "end": 8
+            "examples": [
+                {
+                    "text": "Fort Detrick의 최신 생체방어 센터의 생물학자들은 이미 있는 것보다 훨씬 더 위험한 세계에서 가장 치명적인 미생물의 일부를 만들도록 요청받을지도 모른다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16802,
+                    "sent_id": 3207,
+                    "frameName": "Age",
+                    "ko_annotation_id": 5425,
+                    "origin_lus": [
+                        "newest"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 10,
-                            "end": 12
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 24
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5425"
+        },
+        {
+            "examples": [
+                {
+                    "text": "땅 투기꾼과 지역민들은 똑같이 최신의 철로 신흥 도시의 일부를 소유하려고 안달하였고 오후에 부지의 80 % 이상이 팔렸다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4049,
+                    "sent_id": 775,
+                    "frameName": "Age",
+                    "ko_annotation_id": 5426,
+                    "origin_lus": [
+                        "newest"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Sent_items",
-                "origin_lus": [
-                    "shipments"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13927,
-                "sent_id": 2758
-            }
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 29
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5426"
         }
     ],
-    "frameID": 1609,
-    "en_lu": [
-        "shipment"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Sent_items"
+    "frameName": "Age",
+    "lu_id": 1745,
+    "frameID": 972,
+    "ko_lu": "최신.n.Age",
+    "en_lus": [
+        "newest"
+    ]
 }

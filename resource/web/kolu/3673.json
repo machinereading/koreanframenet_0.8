@@ -1,34 +1,78 @@
 {
-    "ko_lu": "곡물.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 11448",
-            "examples": {
-                "ko_annotation_id": 11448,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 27,
-                            "end": 29
+            "examples": [
+                {
+                    "text": "그리고 그에 맞춰 : 1- 알 카에다 임무와 그것의 다른 계획들은 이슬람 법 조항에 따라 진행한다.",
+                    "relations": [],
+                    "annotation_id": 8145,
+                    "sent_id": 1661,
+                    "frameName": "Project",
+                    "ko_annotation_id": 12452,
+                    "origin_lus": [
+                        "plans"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 32,
+                                "end": 35
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12452"
+        },
+        {
+            "examples": [
+                {
+                    "text": "몇몇 섬과 그리스 도시국가들이 함께 일하기로 합의하였고, 그들은 Delos 섬에서 가진 그들의 계획들에 자금을 지원하기 위해 보고를 결성하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2800,
+                    "sent_id": 532,
+                    "frameName": "Project",
+                    "ko_annotation_id": 12453,
+                    "origin_lus": [
+                        "plans"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 49,
+                                "end": 51
+                            },
+                            "obj": "agent",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Aggregate",
-                "origin_lus": [
-                    "crops"
-                ],
-                "relations": [],
-                "annotation_id": 9894,
-                "sent_id": 2029
-            }
+                        {
+                            "span": {
+                                "begin": 53,
+                                "end": 56
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12453"
         }
     ],
-    "frameID": 103,
-    "en_lu": [
-        "crop"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Aggregate"
+    "frameName": "Project",
+    "lu_id": 3673,
+    "frameID": 1158,
+    "ko_lu": "계획.n.Project",
+    "en_lus": [
+        "plan"
+    ]
 }

@@ -6,9 +6,9 @@ from collections import OrderedDict
 
 #load data
 def load_data():
-    with open('./resource/sejongset.json','r') as f:
+    with open('../resource/sejongset.json','r') as f:
         sejongset = json.load(f)
-    with open('./resource/kolu_from_annotations.json','r') as f:
+    with open('../resource/kolu_from_annotations.json','r') as f:
         kolu_anno = json.load(f)
 
     return sejongset, kolu_anno
@@ -305,7 +305,7 @@ def gen_entry():
 #            print(lu)
 
 
-    with open('./KFN_lus.json','w') as f:
+    with open('./KFN_lus_v1.json','w') as f:
         json.dump(result,f,indent=4,ensure_ascii=False)
 
 
@@ -325,7 +325,7 @@ def get_fid(frame):
     return fid
 
 def load_manual():
-    with open('./added_kolus.csv','r') as f:
+    with open('../resource/added_kolus.csv','r') as f:
         d = f.readlines()
 
     n = 0
@@ -371,7 +371,7 @@ def load_manual():
 
 def rev_kolu():
 
-    with open('./KFN_lus.json','r') as f:
+    with open('./KFN_lus_v1.json','r') as f:
         kfn2 = json.load(f)
 
     for i in kfn2:
@@ -417,7 +417,7 @@ def rev_kolu():
                     i['publish'] = True
     print(kfn2[0])
 
-    with open('./KFN_lus.json.bak2','w') as f:
+    with open('./KFN_lus_v2.json','w') as f:
         json.dump(kfn2,f,indent=4,ensure_ascii=False)
 
 #rev_kolu()
@@ -425,7 +425,7 @@ def rev_kolu():
 
 def rev_kolu2():
     #중복된걸 합치기 위함!
-    with open('./KFN_lus.json.bak2','r') as f:
+    with open('./KFN_lus_v2.json.','r') as f:
         d = json.load(f)
     result = []
     n = 0
@@ -462,14 +462,14 @@ def rev_kolu2():
             if new:
                 result.append(i)
             n = n+1
-    with open('./KFN_lus.json.bak3','w') as f:
+    with open('./KFN_lus_v3.json','w') as f:
         json.dump(result,f,indent=4,ensure_ascii=False)
 
 
 
 def get_from_manual():
 
-    with open('./KFN_lus.json.bak3','r') as f:
+    with open('./KFN_lus_v3.json','r') as f:
         kfn2 = json.load(f)
     lus = load_manual()
     n = 0
@@ -550,21 +550,70 @@ def get_from_manual():
             kfn2.append(lu_json)
 
 
-    with open('./resource/KFN_lus.json','w') as f:
+    with open('../resource/KFN_lus.json','w') as f:
         json.dump(kfn2,f,indent=4,ensure_ascii=False)
 
     print('done')
 
 #get_from_manual()
 
+def rev_kolu_for_luname():
+    with open('../resource/KFN_lus.json','r') as f:
+        d = json.load(f)
+    for i in d:
+        lu_olds = i['lu'].split('.')
+        lu_old = lu_olds[0]+'.'+lu_olds[1]
+        frame = i['frameName']
+        lu_new = lu_old+'.'+frame
+        i['lu'] = lu_new
+    with open('../resource/KFN_lus.json','w') as f:
+        json.dump(d,f,indent=4,ensure_ascii=False)
+
+def rev_with_sejong():
+    with open('../resource/KFN_lus.json','r') as f:
+        d = json.load(f)
+    with open('../resource/sejongset.json','r') as f:
+        s = json.load(f)
+
+    for i in d:
+        sejongset = i['mapSejong']
+        if sejongset != False:
+            for j in s:
+                if j['sejongset'] == sejongset:
+                    lemma = j['lemma']
+                    l = lemma
+                    if len(lemma) == 1:
+                        l = j['word'][:-1]
+                    break
+#            print(l)
+            i['lexeme'] = l
+
+    for i in d:
+        sejongset = i['mapSejong']
+        if sejongset != False:
+            pass
+        else:
+            ss = []
+            for j in s:
+                lu = i['lu'].split('.')[0]
+                pos = i['lu'].split('.')[1]
+                if lu == j['word'] and pos == j['pos']:
+                    ss.append(j['sejongset'])
+#            print(ss)
+            if len(ss) == 1:
+                i['mapSejong'] = ss[0]
+
+    with open('../resource/KFN_lus.json','w') as f:
+        json.dump(d,f,indent=4,ensure_ascii=False)
+
 def gen_public():
-    with open('./resource/KFN_lus.json','r') as f:
+    with open('../resource/KFN_lus.json','r') as f:
         nopub = json.load(f)
 
-    with open('./resource/KFN_lus_all.pickle','wb') as f:
+    with open('../resource/KFN_lus_all.pickle','wb') as f:
         pickle.dump(nopub,f)
 
-    with open('./resource/KFN_lus_all.pickle','rb') as f:
+    with open('../resource/KFN_lus_all.pickle','rb') as f:
         nopub = pickle.load(f)
 
     lus = []
@@ -575,15 +624,15 @@ def gen_public():
             i['lu_id'] = lid
             lus.append(i)
             lid = lid +1
-    with open('./resource/KFN_lus.json','w') as f:
+    with open('../resource/KFN_lus.json','w') as f:
         json.dump(lus,f,indent=4,ensure_ascii=False)
 
 
 def gen_kfn_by_frame():
-    with open('./resource/KFN_lus.json','r') as f:
+    with open('../resource/KFN_lus.json','r') as f:
         lus = json.load(f)
 
-    with open('./resource/FN17_frame_id.json') as f:
+    with open('../resource/FN17_frame_id.json') as f:
         fids = json.load(f)
 
     for i in fids:
@@ -595,19 +644,21 @@ def gen_kfn_by_frame():
                 pass
         i['ko_lu'] = kolu
 
-    with open('./resource/KFN_frame_lu_pair.json','w') as f:
+    with open('../resource/KFN_frame_lu_pair.json','w') as f:
         json.dump(fids,f,indent=4,ensure_ascii=False)
 
 
-gen_entry()
-rev_kolu()
-rev_kolu2()
-get_from_manual()
-gen_public()
-gen_kfn_by_frame()
+#gen_entry()
+#rev_kolu()
+#rev_kolu2()
+#get_from_manual()
+#rev_kolu_for_luname()
+#rev_with_sejong()
+#gen_public()
+#gen_kfn_by_frame()
 
 def test():
-    with open('./resource/KFN_lus.json','r') as f:
+    with open('../resource/KFN_lus.json','r') as f:
         d = json.load(f)
     print(len(d))
 

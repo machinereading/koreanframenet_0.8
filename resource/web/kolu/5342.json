@@ -1,61 +1,65 @@
 {
-    "ko_lu": "빼앗다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 16766",
-            "examples": {
-                "ko_annotation_id": 16766,
-                "denotations": [
-                    {
-                        "obj": "cause",
-                        "span": {
-                            "begin": 43,
-                            "end": 54
+            "examples": [
+                {
+                    "text": "선임 과학자 Bernard Courtney에 의하면, 생물학자들의 일 중의 하나는 테러리스트들이 비밀리에 만드는 균주에 필적하는 병원균을 만들고 이들과 싸울 백신과 약을 개발하는 것일 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "source",
-                        "span": {
-                            "begin": 56,
-                            "end": 85
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16813,
+                    "sent_id": 3208,
+                    "frameName": "Intentionally_create",
+                    "ko_annotation_id": 18430,
+                    "origin_lus": [
+                        "create"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "obj": "creator",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 87,
-                            "end": 92
+                        {
+                            "span": {
+                                "begin": 46,
+                                "end": 75
+                            },
+                            "obj": "created_entity",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Removing",
-                "origin_lus": [
-                    "takes"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1623,
-                "sent_id": 292
-            }
+                        {
+                            "span": {
+                                "begin": 95,
+                                "end": 98
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18430"
         }
     ],
-    "frameID": 63,
-    "en_lu": [
-        "take"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Removing"
+    "frameName": "Intentionally_create",
+    "lu_id": 5342,
+    "frameID": 280,
+    "ko_lu": "개발하다.v.Intentionally_create",
+    "en_lus": [
+        "create"
+    ]
 }

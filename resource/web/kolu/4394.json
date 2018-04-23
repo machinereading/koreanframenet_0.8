@@ -1,48 +1,108 @@
 {
-    "ko_lu": "혐의.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 13572",
-            "examples": {
-                "ko_annotation_id": 13572,
-                "denotations": [
-                    {
-                        "obj": "charges",
-                        "span": {
-                            "begin": 4,
-                            "end": 19
+            "examples": [
+                {
+                    "text": "Stanley는 한때 홍콩 섬의 주된 어촌 마을 중 하나였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6033,
+                    "sent_id": 1149,
+                    "frameName": "Importance",
+                    "ko_annotation_id": 14889,
+                    "origin_lus": [
+                        "main",
+                        "major"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 20,
-                            "end": 22
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "obj": "factor",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14889"
+        },
+        {
+            "examples": [
+                {
+                    "text": "공연 예술을 위한 홍콩의 주된 장소인 이 건물은 요새 같은 구조와 창문이 없는 외관 때문에 비난을 받아 왔다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Notification_of_charges",
-                "origin_lus": [
-                    "charges"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11810,
-                "sent_id": 2348
-            }
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6074,
+                    "sent_id": 1159,
+                    "frameName": "Importance",
+                    "ko_annotation_id": 14890,
+                    "origin_lus": [
+                        "main",
+                        "major"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "obj": "field",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "obj": "factor",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14890"
         }
     ],
-    "frameID": 129,
-    "en_lu": [
-        "charge"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Notification_of_charges"
+    "frameName": "Importance",
+    "lu_id": 4394,
+    "frameID": 407,
+    "ko_lu": "주되다.a.Importance",
+    "en_lus": [
+        "main",
+        "major"
+    ]
 }

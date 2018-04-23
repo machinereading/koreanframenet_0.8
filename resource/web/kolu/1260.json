@@ -1,47 +1,52 @@
 {
-    "ko_lu": "태도.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 3729",
-            "examples": {
-                "ko_annotation_id": 3729,
-                "denotations": [
-                    {
-                        "obj": "Agent",
-                        "span": {
-                            "begin": 1,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "Mayak에서의 사고는 러시아에서 핵무기나 시설과 관련하여 최근 몇 주 동안 일어난 세 번째 발사였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Manner",
-                        "span": {
-                            "begin": 11,
-                            "end": 32
+                    ],
+                    "annotation_id": 6696,
+                    "sent_id": 1352,
+                    "frameName": "Calendric_unit",
+                    "ko_annotation_id": 3903,
+                    "origin_lus": [
+                        "weeks"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 35
+                            },
+                            "obj": "relative_time",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 33,
-                            "end": 35
-                        }
-                    }
-                ],
-                "frameName": "Conduct",
-                "origin_lus": [
-                    "taido .態度"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4253
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 3903"
         }
     ],
-    "frameID": 491,
-    "en_lu": [
-        "taido .態度"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Conduct"
+    "frameName": "Calendric_unit",
+    "lu_id": 1260,
+    "frameID": 229,
+    "ko_lu": "주시당하다.v.Calendric_unit",
+    "en_lus": [
+        "week"
+    ]
 }

@@ -1,48 +1,52 @@
 {
-    "ko_lu": "오아시스.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 245",
-            "examples": {
-                "ko_annotation_id": 245,
-                "denotations": [
-                    {
-                        "obj": "container_possessor",
-                        "span": {
-                            "begin": 75,
-                            "end": 80
+            "examples": [
+                {
+                    "text": "대저택 건너에 있는 동식물원 ( 매일 오전 6시 - 오후 10시 ; 동물원은 오전 6시 - 오후 7시 까지 열고 ; 입장료는 무료 ) 은 대도시 간의 환영 오아시스를 제공한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5675,
+                    "sent_id": 1087,
+                    "frameName": "Biological_area",
+                    "ko_annotation_id": 245,
+                    "origin_lus": [
+                        "oasis"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 75,
+                                "end": 80
+                            },
+                            "obj": "container_possessor",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 85,
-                            "end": 89
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Biological_area",
-                "origin_lus": [
-                    "oasis"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5675,
-                "sent_id": 1087
-            }
+                        {
+                            "span": {
+                                "begin": 85,
+                                "end": 89
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 245"
         }
     ],
+    "frameName": "Biological_area",
+    "lu_id": 87,
     "frameID": 193,
-    "en_lu": [
+    "ko_lu": "오아시스.n.Biological_area",
+    "en_lus": [
         "oasis"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Biological_area"
+    ]
 }

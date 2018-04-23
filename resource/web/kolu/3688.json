@@ -1,61 +1,78 @@
 {
-    "ko_lu": "평가하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 11502",
-            "examples": {
-                "ko_annotation_id": 11502,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 35,
-                            "end": 38
+            "examples": [
+                {
+                    "text": "전시에는, 처방된 작용제는 공중투하 폭탄과 탄도 미사일 탄두를 포함한, 다양한 투하 시스템에 적재된다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "result",
-                        "span": {
-                            "begin": 85,
-                            "end": 111
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "act",
-                        "span": {
-                            "begin": 99,
-                            "end": 100
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15406,
+                    "sent_id": 2992,
+                    "frameName": "Placing",
+                    "ko_annotation_id": 12479,
+                    "origin_lus": [
+                        "loaded"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "time",
+                            "id": "2"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Intentionally_act",
-                "origin_lus": [
-                    "do"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7285,
-                "sent_id": 1517
-            }
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 13
+                            },
+                            "obj": "theme",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 50
+                            },
+                            "obj": "goal",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 52,
+                                "end": 55
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12479"
         }
     ],
-    "frameID": 198,
-    "en_lu": [
-        "do"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Intentionally_act"
+    "frameName": "Placing",
+    "lu_id": 3688,
+    "frameID": 62,
+    "ko_lu": "적재되다.v.Placing",
+    "en_lus": [
+        "load"
+    ]
 }

@@ -1,74 +1,51 @@
 {
-    "ko_lu": "배치되다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 5921",
-            "examples": {
-                "ko_annotation_id": 5921,
-                "denotations": [
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "(오십견인가?) 병원에서 동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이 생각났다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3913,
+                    "frameName": "Medical_specialties",
+                    "ko_annotation_id": 6251,
+                    "origin_lus": [
+                        "seekee .整形 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "obj": "Specialty"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 3,
-                            "end": 13
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "obj": "Type"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "location",
-                        "span": {
-                            "begin": 33,
-                            "end": 36
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 38,
-                            "end": 41
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Arranging",
-                "origin_lus": [
-                    "deployed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 15508,
-                "sent_id": 3009
-            }
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6251"
         }
     ],
-    "frameID": 921,
-    "en_lu": [
-        "deployed"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Arranging"
+    "frameName": "Medical_specialties",
+    "lu_id": 1990,
+    "frameID": 256,
+    "ko_lu": "정형외.n.Medical_specialties",
+    "en_lus": [
+        "seekee .整形 "
+    ]
 }

@@ -1,61 +1,114 @@
 {
-    "ko_lu": "놓이다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 2420",
-            "examples": {
-                "ko_annotation_id": 2420,
-                "denotations": [
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 0,
-                            "end": 24
+            "examples": [
+                {
+                    "text": "QN : 회의는 목요일에 열렸나 ?",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "location",
-                        "span": {
-                            "begin": 26,
-                            "end": 35
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6178,
+                    "sent_id": 1195,
+                    "frameName": "Event",
+                    "ko_annotation_id": 2449,
+                    "origin_lus": [
+                        "take place",
+                        "hiraku .開く"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "obj": "event",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 37,
-                            "end": 41
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "obj": "time",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Being_located",
-                "origin_lus": [
-                    "lay"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3087,
-                "sent_id": 583
-            }
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2449"
+        },
+        {
+            "examples": [
+                {
+                    "text": "4 아와즈 쇼조를 초청하여 그해 5월 예년과 같이 프랑스 선수권대회가 열렸다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4231,
+                    "frameName": "Event",
+                    "ko_annotation_id": 2450,
+                    "origin_lus": [
+                        "take place",
+                        "hiraku .開く"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "obj": "Time"
+                        },
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "obj": "Frequency"
+                        },
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 37
+                            },
+                            "obj": "Event"
+                        },
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 41
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2450"
         }
     ],
-    "frameID": 960,
-    "en_lu": [
-        "lay"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Being_located"
+    "frameName": "Event",
+    "lu_id": 808,
+    "frameID": 187,
+    "ko_lu": "열리다.v.Event",
+    "en_lus": [
+        "hiraku .開く",
+        "take place"
+    ]
 }

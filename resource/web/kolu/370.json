@@ -1,74 +1,54 @@
 {
-    "ko_lu": "걱정.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 931",
-            "examples": {
-                "ko_annotation_id": 931,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 15,
-                            "end": 17
+            "examples": [
+                {
+                    "text": "우리는 중국의 주장들과 조치들이 우리가 그와 같은 자격을 옹호하기에 충분하다는 추가적인 확신이 필요하다 … 우리는 이 주제에 관해 중국으로부터 최대 수준의 협력을 얻도록 우리가 할 수 있는 것은 다하였다고 확신하기 원한다. [ 미 국무성, 일일 기자단 브리핑, 1997년 10월 14일. ]",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 18488,
+                    "sent_id": 3529,
+                    "frameName": "Intentionally_act",
+                    "ko_annotation_id": 936,
+                    "origin_lus": [
+                        "measures",
+                        "actions"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "obj": "agent",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "degree",
-                        "span": {
-                            "begin": 19,
-                            "end": 20
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "experiencer",
-                        "span": {
-                            "begin": 38,
-                            "end": 40
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "topic",
-                        "span": {
-                            "begin": 42,
-                            "end": 64
-                        },
-                        "id": "4"
-                    }
-                ],
-                "frameName": "Emotion_active",
-                "origin_lus": [
-                    "worry"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4797,
-                "sent_id": 927
-            }
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 936"
         }
     ],
-    "frameID": 45,
-    "en_lu": [
-        "worry"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Emotion_active"
+    "frameName": "Intentionally_act",
+    "lu_id": 370,
+    "frameID": 198,
+    "ko_lu": "조치.n.Intentionally_act",
+    "en_lus": [
+        "action",
+        "measure"
+    ]
 }

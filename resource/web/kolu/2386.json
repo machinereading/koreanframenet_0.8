@@ -1,48 +1,46 @@
 {
-    "ko_lu": "임계.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 7256",
-            "examples": {
-                "ko_annotation_id": 7256,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 8,
-                            "end": 10
+            "examples": [
+                {
+                    "text": "강 저편에서, 다다쓰구가 슬프게 울부짓기 시작했다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3898,
+                    "frameName": "Emotion_directed",
+                    "ko_annotation_id": 7627,
+                    "origin_lus": [
+                        "sad",
+                        "kanasii .かなしい"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "obj": "Experiencer"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "factor",
-                        "span": {
-                            "begin": 11,
-                            "end": 13
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Importance",
-                "origin_lus": [
-                    "critical"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17948,
-                "sent_id": 3390
-            }
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7627"
         }
     ],
-    "frameID": 407,
-    "en_lu": [
-        "critical"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Importance"
+    "frameName": "Emotion_directed",
+    "lu_id": 2386,
+    "frameID": 46,
+    "ko_lu": "슬프다.a.Emotion_directed",
+    "en_lus": [
+        "sad",
+        "kanasii .かなしい"
+    ]
 }

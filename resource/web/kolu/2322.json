@@ -1,34 +1,105 @@
 {
-    "ko_lu": "고맙다.a",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 7074",
-            "examples": {
-                "ko_annotation_id": 7074,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 6,
-                            "end": 8
+            "examples": [
+                {
+                    "text": "그들이 일년에 몇 천 달러를 더 받으면 그들은 우리 어린이들을 더 잘 교육시킬 것이라고 생각하는 것은 선생에 대한 어리석은 모욕이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Judgment_direct_address",
-                "origin_lus": [
-                    "thanks"
-                ],
-                "relations": [],
-                "annotation_id": 9379,
-                "sent_id": 1946
-            }
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 1150,
+                    "sent_id": 214,
+                    "frameName": "Education_teaching",
+                    "ko_annotation_id": 7426,
+                    "origin_lus": [
+                        "educate"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "teacher",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 33
+                            },
+                            "obj": "student",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "obj": "manner",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 45
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7426"
+        },
+        {
+            "examples": [
+                {
+                    "text": "사람에게 고기를 잡도록 교육시키는 것은 전 생애 동안 그를 계속해서 먹일 것이기 때문이다.",
+                    "relations": [],
+                    "annotation_id": 1759,
+                    "sent_id": 321,
+                    "frameName": "Education_teaching",
+                    "ko_annotation_id": 9355,
+                    "origin_lus": [
+                        "teaching"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9355"
         }
     ],
-    "frameID": 711,
-    "en_lu": [
-        "thanks"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Judgment_direct_address"
+    "frameName": "Education_teaching",
+    "lu_id": 2322,
+    "frameID": 111,
+    "ko_lu": "교육시키다.v.Education_teaching",
+    "en_lus": [
+        "educate",
+        "teach"
+    ]
 }

@@ -1,34 +1,119 @@
 {
-    "ko_lu": "극좌.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 5158",
-            "examples": {
-                "ko_annotation_id": 5158,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 20,
-                            "end": 22
+            "examples": [
+                {
+                    "text": "1 계발활동・학습회 현장에서는, 아이들의 특징을 이해하는 것과, 상황에 적합한 구체적인 대응책이 요구됩니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4488,
+                    "frameName": "Being_necessary",
+                    "ko_annotation_id": 17416,
+                    "origin_lus": [
+                        "yookyuu .要求",
+                        "hituyoo .必要 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 54,
+                                "end": 57
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17416"
+        },
+        {
+            "examples": [
+                {
+                    "text": "화학 생물무기 공격을 수행할것으로 보이는 테러리스트 단체들의 동기와 조직 구조에 대한 더 상세한 내용은 다음 두 페이지에서 제공된다. ( 생물 작용제의 확보와 배달에 요구되는 구체적인 능력들에 대해서는 다음 장들에서 논의된다. )",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "People_along_political_spectrum",
-                "origin_lus": [
-                    "far-left"
-                ],
-                "relations": [],
-                "annotation_id": 520,
-                "sent_id": 77
-            }
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10069,
+                    "sent_id": 2054,
+                    "frameName": "Being_necessary",
+                    "ko_annotation_id": 5373,
+                    "origin_lus": [
+                        "required"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 77,
+                                "end": 91
+                            },
+                            "obj": "dependent",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 93,
+                                "end": 97
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 98,
+                                "end": 110
+                            },
+                            "obj": "requirement",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5373"
+        },
+        {
+            "examples": [
+                {
+                    "text": "실제로, 예를 들어 우리가 개발하고 있는 반도체분야는, 연속적인 성능향상이 요구되므로, 설계되는 제품은 대부분 이론 한계치에 근사하게 설계된다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4174,
+                    "frameName": "Being_necessary",
+                    "ko_annotation_id": 17415,
+                    "origin_lus": [
+                        "yookyuu .要求",
+                        "hituyoo .必要 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17415"
         }
     ],
-    "frameID": 1564,
-    "en_lu": [
-        "far-left"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "People_along_political_spectrum"
+    "frameName": "Being_necessary",
+    "lu_id": 1734,
+    "frameID": 1157,
+    "ko_lu": "요구되다.v.Being_necessary",
+    "en_lus": [
+        "require",
+        "hituyoo .必要 ",
+        "yookyuu .要求"
+    ]
 }

@@ -1,48 +1,65 @@
 {
-    "ko_lu": "하다.a",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 2748",
-            "examples": {
-                "ko_annotation_id": 2748,
-                "denotations": [
-                    {
-                        "obj": "duty",
-                        "span": {
-                            "begin": 53,
-                            "end": 62
+            "examples": [
+                {
+                    "text": "Dayton에 있는Merit Awnings의 소유자인 Kevin Tatman에 의하면, 직물 차양 가격은 알루미늄 차양 가격보다 변동이 더 심하다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 61,
-                            "end": 65
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6257,
+                    "sent_id": 1233,
+                    "frameName": "Possession",
+                    "ko_annotation_id": 2845,
+                    "origin_lus": [
+                        "owner"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "obj": "possession",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Being_obligated",
-                "origin_lus": [
-                    "must"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8716,
-                "sent_id": 1800
-            }
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 42
+                            },
+                            "obj": "owner",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2845"
         }
     ],
-    "frameID": 392,
-    "en_lu": [
-        "must"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Being_obligated"
+    "frameName": "Possession",
+    "lu_id": 959,
+    "frameID": 118,
+    "ko_lu": "소유자.n.Possession",
+    "en_lus": [
+        "owner"
+    ]
 }

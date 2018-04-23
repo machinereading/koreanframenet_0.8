@@ -1,40 +1,83 @@
 {
-    "ko_lu": "위하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 16057",
-            "examples": {
-                "ko_annotation_id": 16057,
-                "denotations": [
-                    {
-                        "obj": "Topic",
-                        "span": {
-                            "begin": 53,
-                            "end": 75
+            "examples": [
+                {
+                    "text": "포켓몬스터 카드 「목사를 내놔라!!」 전화를 받자마자 욕설이 퍼부어졌다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4324,
+                    "frameName": "People_by_vocation",
+                    "ko_annotation_id": 17820,
+                    "origin_lus": [
+                        "bokusi .牧師 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "obj": "Person"
+                        },
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "obj": "Target"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 77,
-                            "end": 79
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17820"
+        },
+        {
+            "examples": [
+                {
+                    "text": "「예, 제가 목사입니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3921,
+                    "frameName": "People_by_vocation",
+                    "ko_annotation_id": 17821,
+                    "origin_lus": [
+                        "bokusi .牧師 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 5
+                            },
+                            "obj": "Person"
+                        },
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "obj": "Type"
+                        },
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "obj": "Target"
                         }
-                    }
-                ],
-                "frameName": "Statement",
-                "origin_lus": [
-                    "iu .いう "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3720
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17821"
         }
     ],
-    "frameID": 43,
-    "en_lu": [
-        "iu .いう "
-    ],
-    "ko_pos": "VV",
-    "frameName": "Statement"
+    "frameName": "People_by_vocation",
+    "lu_id": 5170,
+    "frameID": 1071,
+    "ko_lu": "목사.n.People_by_vocation",
+    "en_lus": [
+        "bokusi .牧師 "
+    ]
 }

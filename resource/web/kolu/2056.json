@@ -1,48 +1,78 @@
 {
-    "ko_lu": "미터.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 6126",
-            "examples": {
-                "ko_annotation_id": 6126,
-                "denotations": [
-                    {
-                        "obj": "count",
-                        "span": {
-                            "begin": 54,
-                            "end": 55
+            "examples": [
+                {
+                    "text": "이 프로그램은 나중에 Shehab-2 ( 스커드-C/Hwasong-6 ) 와 Shehab-3 ( 노동 ) 프로그램으로 바뀌었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 56,
-                            "end": 58
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Measure_linear_extent",
-                "origin_lus": [
-                    "meter"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5856,
-                "sent_id": 1119
-            }
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12491,
+                    "sent_id": 2495,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 6464,
+                    "origin_lus": [
+                        "lead"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "obj": "cause",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "obj": "time",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 63
+                            },
+                            "obj": "effect",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 66,
+                                "end": 68
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6464"
         }
     ],
-    "frameID": 154,
-    "en_lu": [
-        "meter"
-    ],
-    "ko_pos": "NNP",
-    "frameName": "Measure_linear_extent"
+    "frameName": "Causation",
+    "lu_id": 2056,
+    "frameID": 5,
+    "ko_lu": "바뀌다.v.Causation",
+    "en_lus": [
+        "lead"
+    ]
 }

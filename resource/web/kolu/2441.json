@@ -1,48 +1,52 @@
 {
-    "ko_lu": "속하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 7378",
-            "examples": {
-                "ko_annotation_id": 7378,
-                "denotations": [
-                    {
-                        "obj": "owner",
-                        "span": {
-                            "begin": 17,
-                            "end": 19
+            "examples": [
+                {
+                    "text": "다음에 일어난 것은 성공적인 Las Vegas Ranch의 종료와 오늘날까지 거의 모든 미국 서부에 걸쳐서 볼 수 있는 재분할 시대의 시작을 특징짓는다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3992,
+                    "sent_id": 762,
+                    "frameName": "Temporal_subregion",
+                    "ko_annotation_id": 7907,
+                    "origin_lus": [
+                        "end"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 31
+                            },
+                            "obj": "time_period",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 21,
-                            "end": 23
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Possession",
-                "origin_lus": [
-                    "belongs"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7695,
-                "sent_id": 1582
-            }
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 35
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7907"
         }
     ],
-    "frameID": 118,
-    "en_lu": [
-        "belongs"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Possession"
+    "frameName": "Temporal_subregion",
+    "lu_id": 2441,
+    "frameID": 1470,
+    "ko_lu": "종료.n.Temporal_subregion",
+    "en_lus": [
+        "end"
+    ]
 }

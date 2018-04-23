@@ -1,48 +1,96 @@
 {
-    "ko_lu": "평범하다.a",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 18559",
-            "examples": {
-                "ko_annotation_id": 18559,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 85,
-                            "end": 88
+            "examples": [
+                {
+                    "text": "우리는 왜 이 조사가 수행되지 않는지 이해한다는 것을 미국 국민을 대신하여 요구한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 89,
-                            "end": 93
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8405,
+                    "sent_id": 1724,
+                    "frameName": "Request",
+                    "ko_annotation_id": 20362,
+                    "origin_lus": [
+                        "demand",
+                        "demanded",
+                        "call"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "speaker",
+                            "id": "2"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Typicality",
-                "origin_lus": [
-                    "ordinary"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7286,
-                "sent_id": 1517
-            }
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 28
+                            },
+                            "obj": "message",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20362"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그의 직무의 목표는 그가 그것을 30분 안에 할 것을 요구한다.",
+                    "relations": [],
+                    "annotation_id": 1944,
+                    "sent_id": 362,
+                    "frameName": "Request",
+                    "ko_annotation_id": 20363,
+                    "origin_lus": [
+                        "demand",
+                        "demanded",
+                        "call"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20363"
         }
     ],
-    "frameID": 1134,
-    "en_lu": [
-        "ordinary"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Typicality"
+    "frameName": "Request",
+    "lu_id": 5927,
+    "frameID": 41,
+    "ko_lu": "요구하다.v.Request",
+    "en_lus": [
+        "call",
+        "demand"
+    ]
 }

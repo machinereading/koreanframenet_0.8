@@ -1,34 +1,92 @@
 {
-    "ko_lu": "착수하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 15910",
-            "examples": {
-                "ko_annotation_id": 15910,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 129,
-                            "end": 132
+            "examples": [
+                {
+                    "text": "공원의 동물원은 신기하고 멋진 재잘거리는 정글 새들의 집합장이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5690,
+                    "sent_id": 1090,
+                    "frameName": "Aggregate",
+                    "ko_annotation_id": 17660,
+                    "origin_lus": [
+                        "collection"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 28
+                            },
+                            "obj": "individuals",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Attempt",
-                "origin_lus": [
-                    "undertaken"
-                ],
-                "relations": [],
-                "annotation_id": 12790,
-                "sent_id": 2555
-            }
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17660"
+        },
+        {
+            "examples": [
+                {
+                    "text": "서부 구역은 홍콩의 가장 오래된 지역 중의 하나이고, 이곳의 좁은 거리들은 매력적인 전통 가게와 기업들의 집합장이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5701,
+                    "sent_id": 1091,
+                    "frameName": "Aggregate",
+                    "ko_annotation_id": 17661,
+                    "origin_lus": [
+                        "collection"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 57
+                            },
+                            "obj": "individuals",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 59,
+                                "end": 62
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17661"
         }
     ],
-    "frameID": 116,
-    "en_lu": [
-        "undertaken"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Attempt"
+    "frameName": "Aggregate",
+    "lu_id": 5124,
+    "frameID": 103,
+    "ko_lu": "집합장.n.Aggregate",
+    "en_lus": [
+        "collection"
+    ]
 }

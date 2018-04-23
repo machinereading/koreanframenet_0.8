@@ -1,61 +1,52 @@
 {
-    "ko_lu": "도망가다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 16980",
-            "examples": {
-                "ko_annotation_id": 16980,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "비행기 여행의 확대는 대중관광 시대를 시작하였고, 그리스는 에게 해 제도와 함께 축축하고 시원한 여름을 벗어나려는 북부 유럽인들을 위한 흥미진진한 목적지가 되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3257,
+                    "sent_id": 610,
+                    "frameName": "Expansion",
+                    "ko_annotation_id": 18724,
+                    "origin_lus": [
+                        "expansion"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "obj": "item",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "escapee",
-                        "span": {
-                            "begin": 8,
-                            "end": 11
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "escapee",
-                        "span": {
-                            "begin": 8,
-                            "end": 11
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Escaping",
-                "origin_lus": [
-                    "escape"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3582,
-                "sent_id": 671
-            }
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18724"
         }
     ],
-    "frameID": 273,
-    "en_lu": [
-        "escape"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Escaping"
+    "frameName": "Expansion",
+    "lu_id": 5432,
+    "frameID": 725,
+    "ko_lu": "확대.n.Expansion",
+    "en_lus": [
+        "expansion"
+    ]
 }

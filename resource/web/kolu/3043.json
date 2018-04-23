@@ -1,48 +1,52 @@
 {
-    "ko_lu": "나중.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 9180",
-            "examples": {
-                "ko_annotation_id": 9180,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 71,
-                            "end": 73
+            "examples": [
+                {
+                    "text": "Stephanopoulos는 \" 그는 그의 결혼에 문제가 있었다, \" 고 그날 미리 쓴 애메한 문구와 다른 Donaldson의 언급을 수정하면서 말한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5352,
+                    "sent_id": 1021,
+                    "frameName": "Personal_relationship",
+                    "ko_annotation_id": 9806,
+                    "origin_lus": [
+                        "marriage"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 21
+                            },
+                            "obj": "partner_1",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "time_period",
-                        "span": {
-                            "begin": 75,
-                            "end": 76
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Temporal_subregion",
-                "origin_lus": [
-                    "later"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5983,
-                "sent_id": 1137
-            }
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 25
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9806"
         }
     ],
-    "frameID": 1470,
-    "en_lu": [
-        "later"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Temporal_subregion"
+    "frameName": "Personal_relationship",
+    "lu_id": 3043,
+    "frameID": 102,
+    "ko_lu": "결혼.n.Personal_relationship",
+    "en_lus": [
+        "marriage"
+    ]
 }

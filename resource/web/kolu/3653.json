@@ -1,48 +1,81 @@
 {
-    "ko_lu": "암흑.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 11413",
-            "examples": {
-                "ko_annotation_id": 11413,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 49,
-                            "end": 51
+            "examples": [
+                {
+                    "text": "공연 예술을 위한 홍콩의 주된 장소인 이 건물은 요새 같은 구조와 창문이 없는 외관 때문에 비난을 받아 왔다.",
+                    "relations": [],
+                    "annotation_id": 6079,
+                    "sent_id": 1159,
+                    "frameName": "Buildings",
+                    "ko_annotation_id": 12293,
+                    "origin_lus": [
+                        "fortress",
+                        "fort"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12293"
+        },
+        {
+            "examples": [
+                {
+                    "text": "Gass는 떠난 몰몬 요새와 이를 에워싼 640 에이커 ( 260 헥타르) 를 인수하고, 그곳을 Las Vegas Ranch라고 불렀다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3973,
+                    "sent_id": 757,
+                    "frameName": "Buildings",
+                    "ko_annotation_id": 12294,
+                    "origin_lus": [
+                        "fortress",
+                        "fort"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "obj": "builder",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "object",
-                        "span": {
-                            "begin": 51,
-                            "end": 53
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Dimension",
-                "origin_lus": [
-                    "dark"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 2704,
-                "sent_id": 513
-            }
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12294"
         }
     ],
-    "frameID": 108,
-    "en_lu": [
-        "dark"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Dimension"
+    "frameName": "Buildings",
+    "lu_id": 3653,
+    "frameID": 173,
+    "ko_lu": "요새.n.Buildings",
+    "en_lus": [
+        "fort",
+        "fortress"
+    ]
 }

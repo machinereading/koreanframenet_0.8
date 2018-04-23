@@ -1,48 +1,52 @@
 {
-    "ko_lu": "지난해.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 5137",
-            "examples": {
-                "ko_annotation_id": 5137,
-                "denotations": [
-                    {
-                        "obj": "relative_time",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "빈 라덴이 Tora Bora에 있었다는 사실은 아프간 캠페인을 잘못 시행했다는 의혹으로 이어졌다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6856,
+                    "sent_id": 1407,
+                    "frameName": "Awareness",
+                    "ko_annotation_id": 5335,
+                    "origin_lus": [
+                        "suspicion"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 43
+                            },
+                            "obj": "content",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Calendric_unit",
-                "origin_lus": [
-                    "year"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 19,
-                "sent_id": 3
-            }
+                        {
+                            "span": {
+                                "begin": 44,
+                                "end": 46
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5335"
         }
     ],
-    "frameID": 229,
-    "en_lu": [
-        "year"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Calendric_unit"
+    "frameName": "Awareness",
+    "lu_id": 1720,
+    "frameID": 19,
+    "ko_lu": "의혹.n.Awareness",
+    "en_lus": [
+        "suspicion"
+    ]
 }

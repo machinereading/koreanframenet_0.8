@@ -1,74 +1,52 @@
 {
-    "ko_lu": "상해율.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 1680",
-            "examples": {
-                "ko_annotation_id": 1680,
-                "denotations": [
-                    {
-                        "obj": "time_span",
-                        "span": {
-                            "begin": 86,
-                            "end": 93
+            "examples": [
+                {
+                    "text": "성서 기록에 의하면, 예수는 그의 일생을 갈릴리 계곡에서 사역하며 보냈다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3551,
+                    "sent_id": 663,
+                    "frameName": "Text",
+                    "ko_annotation_id": 1724,
+                    "origin_lus": [
+                        "accounts"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "text",
+                            "id": "2"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "rate",
-                        "span": {
-                            "begin": 96,
-                            "end": 115
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "event",
-                        "span": {
-                            "begin": 123,
-                            "end": 126
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 123,
-                            "end": 126
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Frequency",
-                "origin_lus": [
-                    "rate"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 16913,
-                "sent_id": 3223
-            }
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1724"
         }
     ],
-    "frameID": 80,
-    "en_lu": [
-        "rate"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Frequency"
+    "frameName": "Text",
+    "lu_id": 554,
+    "frameID": 298,
+    "ko_lu": "기록.n.Text",
+    "en_lus": [
+        "account"
+    ]
 }

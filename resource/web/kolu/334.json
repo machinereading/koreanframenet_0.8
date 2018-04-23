@@ -1,40 +1,52 @@
 {
-    "ko_lu": "개선하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 874",
-            "examples": {
-                "ko_annotation_id": 874,
-                "denotations": [
-                    {
-                        "obj": "Entity",
-                        "span": {
-                            "begin": 63,
-                            "end": 68
+            "examples": [
+                {
+                    "text": "그리고 매일의 그들의 삶에서 이러한 도전에 직면하는 많은 사람이 있습니다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 70,
-                            "end": 73
+                    ],
+                    "annotation_id": 2147,
+                    "sent_id": 407,
+                    "frameName": "Frequency",
+                    "ko_annotation_id": 877,
+                    "origin_lus": [
+                        "every"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 13
+                            },
+                            "obj": "interval",
+                            "id": "2"
                         }
-                    }
-                ],
-                "frameName": "Cause_change",
-                "origin_lus": [
-                    "kaeru .変える "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4613
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 877"
         }
     ],
-    "frameID": 683,
-    "en_lu": [
-        "kaeru .変える "
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cause_change"
+    "frameName": "Frequency",
+    "lu_id": 334,
+    "frameID": 80,
+    "ko_lu": "매일.n.Frequency",
+    "en_lus": [
+        "every"
+    ]
 }

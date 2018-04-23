@@ -1,61 +1,65 @@
 {
-    "ko_lu": "자극하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 6531",
-            "examples": {
-                "ko_annotation_id": 6531,
-                "denotations": [
-                    {
-                        "obj": "cause",
-                        "span": {
-                            "begin": 0,
-                            "end": 8
+            "examples": [
+                {
+                    "text": "행정부는 사담 후세인이 대량살상무기를 가지고 있는지 판단하려고 하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "effect",
-                        "span": {
-                            "begin": 10,
-                            "end": 72
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6195,
+                    "sent_id": 1208,
+                    "frameName": "Attempt",
+                    "ko_annotation_id": 7058,
+                    "origin_lus": [
+                        "trying"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "agent",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 42,
-                            "end": 45
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 32
+                            },
+                            "obj": "goal",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_to_start",
-                "origin_lus": [
-                    "provoke"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10093,
-                "sent_id": 2059
-            }
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 39
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7058"
         }
     ],
-    "frameID": 381,
-    "en_lu": [
-        "provoke"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cause_to_start"
+    "frameName": "Attempt",
+    "lu_id": 2183,
+    "frameID": 116,
+    "ko_lu": "판단하다.v.Attempt",
+    "en_lus": [
+        "try"
+    ]
 }

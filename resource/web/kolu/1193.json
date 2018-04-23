@@ -1,42 +1,78 @@
 {
-    "ko_lu": "완성되다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 3568",
-            "examples": {
-                "ko_annotation_id": 3568,
-                "denotations": [
-                    {
-                        "obj": "Activity",
-                        "span": {
-                            "begin": 16,
-                            "end": 19
+            "examples": [
+                {
+                    "text": "오클라호마 시티의 연방 건물에 대한 1995년 4월의 폭격을 자행한  Timothy McVeigh는 애국자 조직의 멤버는 아니었으나 신념적으로 반정부 공동체인 것으로 강하게  확인되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 12,
-                            "end": 15
+                    ],
+                    "annotation_id": 10212,
+                    "sent_id": 2084,
+                    "frameName": "Committing_crime",
+                    "ko_annotation_id": 3687,
+                    "origin_lus": [
+                        "perpetrated"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 32
+                            },
+                            "obj": "crime",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 54
+                            },
+                            "obj": "perpetrator",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 54
+                            },
+                            "obj": "perpetrator",
+                            "id": "3"
                         }
-                    }
-                ],
-                "frameName": "Activity_finish",
-                "origin_lus": [
-                    "completed",
-                    "kansee .完成 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4475
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 3687"
         }
     ],
-    "frameID": 165,
-    "en_lu": [
-        "kansee .完成 ",
-        "complete"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Activity_finish"
+    "frameName": "Committing_crime",
+    "lu_id": 1193,
+    "frameID": 700,
+    "ko_lu": "자행하다.v.Committing_crime",
+    "en_lus": [
+        "perpetrate"
+    ]
 }

@@ -1,61 +1,44 @@
 {
-    "ko_lu": "출석률.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 9594",
-            "examples": {
-                "ko_annotation_id": 9594,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 9,
-                            "end": 12
+            "examples": [
+                {
+                    "text": "만약 「요카와 헤이시치로를 죽여라」라는 명령이 시즈에서 내려졌다면, 아무리 배를 뒤쫓아가도 소용없었을 것이다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3642,
+                    "frameName": "Coming_to_be",
+                    "ko_annotation_id": 10406,
+                    "origin_lus": [
+                        "deru .出る "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 24
+                            },
+                            "obj": "Entity"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "event",
-                        "span": {
-                            "begin": 13,
-                            "end": 17
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 18,
-                            "end": 21
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Attending",
-                "origin_lus": [
-                    "attendance"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1628,
-                "sent_id": 294
-            }
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10406"
         }
     ],
-    "frameID": 2030,
-    "en_lu": [
-        "attendance"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Attending"
+    "frameName": "Coming_to_be",
+    "lu_id": 3162,
+    "frameID": 316,
+    "ko_lu": "내려지다.v.Coming_to_be",
+    "en_lus": [
+        "deru .出る "
+    ]
 }

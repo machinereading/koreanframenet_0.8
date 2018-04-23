@@ -1,48 +1,65 @@
 {
-    "ko_lu": "하.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 9525",
-            "examples": {
-                "ko_annotation_id": 9525,
-                "denotations": [
-                    {
-                        "obj": "type",
-                        "span": {
-                            "begin": 19,
-                            "end": 22
+            "examples": [
+                {
+                    "text": "더블린 극장은 전설적이며, 어떤 방문객도 Abbey 극장이나 Gate 극장에서의 공연을 놓치지 말아야 한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 23,
-                            "end": 27
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5103,
+                    "sent_id": 979,
+                    "frameName": "Success_or_failure",
+                    "ko_annotation_id": 10248,
+                    "origin_lus": [
+                        "miss"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "obj": "agent",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Buildings",
-                "origin_lus": [
-                    "houses"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5161,
-                "sent_id": 985
-            }
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 47
+                            },
+                            "obj": "goal",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 49,
+                                "end": 51
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10248"
         }
     ],
-    "frameID": 173,
-    "en_lu": [
-        "house"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Buildings"
+    "frameName": "Success_or_failure",
+    "lu_id": 3126,
+    "frameID": 1388,
+    "ko_lu": "놓치다.v.Success_or_failure",
+    "en_lus": [
+        "miss"
+    ]
 }

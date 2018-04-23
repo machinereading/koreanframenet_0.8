@@ -1,48 +1,52 @@
 {
-    "ko_lu": "위반.n",
+    "ko_pos": "NNB",
     "patterns": [
         {
-            "valenceText": "annotation id: 1755",
-            "examples": {
-                "ko_annotation_id": 1755,
-                "denotations": [
-                    {
-                        "obj": "self_mover",
-                        "span": {
-                            "begin": 45,
-                            "end": 50
+            "examples": [
+                {
+                    "text": "이란 군에 대한 이라크의 화학무기 작용제의 사용에 대한 미약한 국제적인 반응--특히 유엔의 반응--은 국제 협약을 시행하는데 있어서 이중잣대를 적용하는 것으로 보여 이란을 불쾌하게 했다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11153,
+                    "sent_id": 2233,
+                    "frameName": "Categorization",
+                    "ko_annotation_id": 1769,
+                    "origin_lus": [
+                        "perceived"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 57,
+                                "end": 84
+                            },
+                            "obj": "category",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 52,
-                            "end": 54
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Quitting_a_place",
-                "origin_lus": [
-                    "defection"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9988,
-                "sent_id": 2045
-            }
+                        {
+                            "span": {
+                                "begin": 85,
+                                "end": 91
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1769"
         }
     ],
-    "frameID": 1644,
-    "en_lu": [
-        "defection"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Quitting_a_place"
+    "frameName": "Categorization",
+    "lu_id": 578,
+    "frameID": 21,
+    "ko_lu": "보이.n.Categorization",
+    "en_lus": [
+        "perceive"
+    ]
 }

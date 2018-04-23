@@ -1,48 +1,52 @@
 {
-    "ko_lu": "알다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 13945",
-            "examples": {
-                "ko_annotation_id": 13945,
-                "denotations": [
-                    {
-                        "obj": "content",
-                        "span": {
-                            "begin": 55,
-                            "end": 78
+            "examples": [
+                {
+                    "text": "Maccabee 가의 후예인 하스몬 왕조는 Negy에서 갈릴리까지 뻗은 독립한 유대 연방을 통치하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3490,
+                    "sent_id": 650,
+                    "frameName": "Kinship",
+                    "ko_annotation_id": 15356,
+                    "origin_lus": [
+                        "descendants"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "obj": "ego",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 80,
-                            "end": 84
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Awareness",
-                "origin_lus": [
-                    "knowing"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14591,
-                "sent_id": 2857
-            }
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15356"
         }
     ],
-    "frameID": 19,
-    "en_lu": [
-        "know"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Awareness"
+    "frameName": "Kinship",
+    "lu_id": 4523,
+    "frameID": 104,
+    "ko_lu": "후예.n.Kinship",
+    "en_lus": [
+        "descendant"
+    ]
 }

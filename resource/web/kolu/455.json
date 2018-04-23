@@ -1,40 +1,119 @@
 {
-    "ko_lu": "소설.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 1213",
-            "examples": {
-                "ko_annotation_id": 1213,
-                "denotations": [
-                    {
-                        "obj": "Text",
-                        "span": {
-                            "begin": 42,
-                            "end": 46
+            "examples": [
+                {
+                    "text": "미국 민주당 국회의원 Tony Hall은 1990년 이후 전면적인 유엔 제재를 받아왔던 이라크에 대한 그의 획기적인 방문을 마친 후 목요일 이곳을 떠났다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 44,
-                            "end": 46
+                    ],
+                    "annotation_id": 7328,
+                    "sent_id": 1524,
+                    "frameName": "Activity_finish",
+                    "ko_annotation_id": 1252,
+                    "origin_lus": [
+                        "concluding"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 21
+                            },
+                            "obj": "agent",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 67
+                            },
+                            "obj": "activity",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 69,
+                                "end": 71
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Text",
-                "origin_lus": [
-                    "syoosetu .小説 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3563
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1252"
+        },
+        {
+            "examples": [
+                {
+                    "text": "Ed_Henry : Reed는 부시 행정부가 정보를 왜곡하였는지에 대한 오래 끌어온 보고를 공화당이 주도하는 정보 위원회가 마치도록 요구하는 것을 철회하기를 거부하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8439,
+                    "sent_id": 1731,
+                    "frameName": "Activity_finish",
+                    "ko_annotation_id": 2263,
+                    "origin_lus": [
+                        "finish"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 49
+                            },
+                            "obj": "activity",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 51,
+                                "end": 67
+                            },
+                            "obj": "agent",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 69,
+                                "end": 71
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2263"
         }
     ],
-    "frameID": 298,
-    "en_lu": [
-        "syoosetu .小説 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Text"
+    "frameName": "Activity_finish",
+    "lu_id": 455,
+    "frameID": 165,
+    "ko_lu": "마치다.v.Activity_finish",
+    "en_lus": [
+        "finish",
+        "conclude"
+    ]
 }

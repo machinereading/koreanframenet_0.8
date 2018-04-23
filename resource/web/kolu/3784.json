@@ -1,34 +1,78 @@
 {
-    "ko_lu": "사람.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 11844",
-            "examples": {
-                "ko_annotation_id": 11844,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 56,
-                            "end": 64
+            "examples": [
+                {
+                    "text": "이와 같은 인적 비율의 도시에서 공원과 정원들이 오락과 휴식을 위해 많다는 것은 놀랍지 않다.",
+                    "relations": [],
+                    "annotation_id": 5199,
+                    "sent_id": 991,
+                    "frameName": "Stimulus_focus",
+                    "ko_annotation_id": 12710,
+                    "origin_lus": [
+                        "recreation"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12710"
+        },
+        {
+            "examples": [
+                {
+                    "text": "이섬은 산호초와 산호 벽으로 둘러싸여 있고, 이들은 수 백종의 바다 생명체에 거처를 그리고 다이버와 스노클러들에게는 오락을 제공한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4627,
+                    "sent_id": 889,
+                    "frameName": "Stimulus_focus",
+                    "ko_annotation_id": 12711,
+                    "origin_lus": [
+                        "recreation"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 51,
+                                "end": 61
+                            },
+                            "obj": "experiencer",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "People_by_origin",
-                "origin_lus": [
-                    "Irish"
-                ],
-                "relations": [],
-                "annotation_id": 4953,
-                "sent_id": 953
-            }
+                        {
+                            "span": {
+                                "begin": 65,
+                                "end": 67
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12711"
         }
     ],
-    "frameID": 974,
-    "en_lu": [
-        "Irish"
-    ],
-    "ko_pos": "NNP",
-    "frameName": "People_by_origin"
+    "frameName": "Stimulus_focus",
+    "lu_id": 3784,
+    "frameID": 364,
+    "ko_lu": "오락.n.Stimulus_focus",
+    "en_lus": [
+        "recreation"
+    ]
 }

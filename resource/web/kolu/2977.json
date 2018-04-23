@@ -1,40 +1,65 @@
 {
-    "ko_lu": "커다랗다.a",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 9050",
-            "examples": {
-                "ko_annotation_id": 9050,
-                "denotations": [
-                    {
-                        "obj": "Entity",
-                        "span": {
-                            "begin": 14,
-                            "end": 15
+            "examples": [
+                {
+                    "text": "따라서, 러시아의 화학무기 비축량에 의해 제기된 가장 큰 위험은 저장소 인근에 사는 사람들은 이들 작용제에 노출될 것이라는 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 18,
-                            "end": 21
+                    ],
+                    "annotation_id": 6439,
+                    "sent_id": 1283,
+                    "frameName": "Store",
+                    "ko_annotation_id": 9656,
+                    "origin_lus": [
+                        "stockpile"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "obj": "possessor",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "obj": "resource",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Size",
-                "origin_lus": [
-                    "ookii .大きい"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3787
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9656"
         }
     ],
-    "frameID": 2282,
-    "en_lu": [
-        "ookii .大きい"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Size"
+    "frameName": "Store",
+    "lu_id": 2977,
+    "frameID": 1511,
+    "ko_lu": "저장소.n.Store",
+    "en_lus": [
+        "stockpile"
+    ]
 }

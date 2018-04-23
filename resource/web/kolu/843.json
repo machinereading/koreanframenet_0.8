@@ -1,48 +1,94 @@
 {
-    "ko_lu": "만들다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 2491",
-            "examples": {
-                "ko_annotation_id": 2491,
-                "denotations": [
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 0,
-                            "end": 5
+            "examples": [
+                {
+                    "text": "그러나 또한 이 시원한 가을 저녁에 종소리를 즐기는 교회를 다니는 사람들이 들을 수 없을지라도, Aslacton에는 귀에 거슬리는 현대적인 음이 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 115,
+                    "sent_id": 16,
+                    "frameName": "Perception_experience",
+                    "ko_annotation_id": 2521,
+                    "origin_lus": [
+                        "heard",
+                        "toraeru .とらえる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 40
+                            },
+                            "obj": "perceiver_passive",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 30,
-                            "end": 34
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 44
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2521"
+        },
+        {
+            "examples": [
+                {
+                    "text": "박쥐는 거의 눈이 보이지 않으나, 초음파를 감지하는 레이더가 있어, 4백 미터 정도 떨어진 곳에서도 모깃소리를 들을 수 있습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4928,
+                    "frameName": "Perception_experience",
+                    "ko_annotation_id": 2522,
+                    "origin_lus": [
+                        "heard",
+                        "toraeru .とらえる "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Perceiver_passive"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Creating",
-                "origin_lus": [
-                    "formed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 12658,
-                "sent_id": 2535
-            }
+                        {
+                            "span": {
+                                "begin": 56,
+                                "end": 60
+                            },
+                            "obj": "Phenomenon"
+                        },
+                        {
+                            "span": {
+                                "begin": 62,
+                                "end": 64
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2522"
         }
     ],
-    "frameID": 319,
-    "en_lu": [
-        "form"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Creating"
+    "frameName": "Perception_experience",
+    "lu_id": 843,
+    "frameID": 70,
+    "ko_lu": "듣다.v.Perception_experience",
+    "en_lus": [
+        "heard",
+        "toraeru .とらえる "
+    ]
 }

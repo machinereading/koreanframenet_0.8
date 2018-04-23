@@ -1,40 +1,67 @@
 {
-    "ko_lu": "분석하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 17024",
-            "examples": {
-                "ko_annotation_id": 17024,
-                "denotations": [
-                    {
-                        "obj": "Cognizer",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "재해 손실은 Aetna의 순이익을 Hugo로 인한 36 백만 달러를 포함하여, 50 백만 달러로 감소시켰다.",
+                    "relations": [],
+                    "annotation_id": 9,
+                    "sent_id": 2,
+                    "frameName": "Catastrophe",
+                    "ko_annotation_id": 18798,
+                    "origin_lus": [
+                        "Catastrophe",
+                        "catastrophe"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 3,
-                            "end": 6
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18798"
+        },
+        {
+            "examples": [
+                {
+                    "text": "지난해 재해 손실은 순이익이 235.5 백만 달러 또는 주당 2.07 달러 시 5 백만 달러의 총합에 이르렀다.",
+                    "relations": [],
+                    "annotation_id": 14,
+                    "sent_id": 3,
+                    "frameName": "Catastrophe",
+                    "ko_annotation_id": 18799,
+                    "origin_lus": [
+                        "Catastrophe",
+                        "catastrophe"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Scrutiny",
-                "origin_lus": [
-                    "bunseki .分析 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3984
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18799"
         }
     ],
-    "frameID": 31,
-    "en_lu": [
-        "bunseki .分析 "
-    ],
-    "ko_pos": "VV",
-    "frameName": "Scrutiny"
+    "frameName": "Catastrophe",
+    "lu_id": 5450,
+    "frameID": 115,
+    "ko_lu": "재해.n.Catastrophe",
+    "en_lus": [
+        "Catastrophe",
+        "catastrophe"
+    ]
 }

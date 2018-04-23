@@ -1,48 +1,162 @@
 {
-    "ko_lu": "역겹다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 5248",
-            "examples": {
-                "ko_annotation_id": 5248,
-                "denotations": [
-                    {
-                        "obj": "stimulus",
-                        "span": {
-                            "begin": 0,
-                            "end": 43
+            "examples": [
+                {
+                    "text": "그 범행 성명을 낸 마약 왕은 Medellin 에 신문 배포를 계속한다면 보고타 신문사 사무실을 날려버리겠다고 말하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 54,
-                            "end": 56
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9564,
+                    "sent_id": 1978,
+                    "frameName": "Claim_ownership",
+                    "ko_annotation_id": 5530,
+                    "origin_lus": [
+                        "claimed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Stimulus_focus",
-                "origin_lus": [
-                    "disgusting"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5313,
-                "sent_id": 1011
-            }
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "obj": "claimant",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "obj": "claimant",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5530"
+        },
+        {
+            "examples": [
+                {
+                    "text": "무슬림 형제들은 지금 그들이 시작하자 마자, 배신한 우두머리들을 없애 버리고, 결코 범행 성명을 내지 않고, 우리는 그것에 대해 떠들어대기를 원하는 자들을 우리들 가운데에서 발견하였고, 유감스럽게도 조직 (알케이다) 에서 우리와 함께 하는 일부 형제들은 그것을 무의미고 신이 나의 증인이라고 본다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8909,
+                    "sent_id": 1851,
+                    "frameName": "Claim_ownership",
+                    "ko_annotation_id": 10213,
+                    "origin_lus": [
+                        "claiming",
+                        "claimed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 47,
+                                "end": 49
+                            },
+                            "obj": "property",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 50,
+                                "end": 55
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10213"
+        },
+        {
+            "examples": [
+                {
+                    "text": "아무도 그의 사살에 대한 범행 성명을 내지 않았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8966,
+                    "sent_id": 1860,
+                    "frameName": "Claim_ownership",
+                    "ko_annotation_id": 10214,
+                    "origin_lus": [
+                        "claiming",
+                        "claimed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "claimant",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 16
+                            },
+                            "obj": "property",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 22
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10214"
         }
     ],
-    "frameID": 364,
-    "en_lu": [
-        "disgust"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Stimulus_focus"
+    "frameName": "Claim_ownership",
+    "lu_id": 1767,
+    "frameID": 550,
+    "ko_lu": "성명.n.Claim_ownership",
+    "en_lus": [
+        "claimed",
+        "claim",
+        "claiming"
+    ]
 }

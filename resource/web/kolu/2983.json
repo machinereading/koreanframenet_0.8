@@ -1,61 +1,65 @@
 {
-    "ko_lu": "조립되다.v",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 9066",
-            "examples": {
-                "ko_annotation_id": 9066,
-                "denotations": [
-                    {
-                        "obj": "created_entity",
-                        "span": {
-                            "begin": 96,
-                            "end": 99
+            "examples": [
+                {
+                    "text": "헬리콥터들은 식량 없이 발이 묶인 사람들의 위치를 찾으려 하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "components",
-                        "span": {
-                            "begin": 101,
-                            "end": 111
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6196,
+                    "sent_id": 1209,
+                    "frameName": "Attempt",
+                    "ko_annotation_id": 9666,
+                    "origin_lus": [
+                        "trying"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "obj": "agent",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 114,
-                            "end": 119
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 26
+                            },
+                            "obj": "goal",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Building",
-                "origin_lus": [
-                    "assembled"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 12379,
-                "sent_id": 2464
-            }
+                        {
+                            "span": {
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9666"
         }
     ],
-    "frameID": 259,
-    "en_lu": [
-        "assemble"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Building"
+    "frameName": "Attempt",
+    "lu_id": 2983,
+    "frameID": 116,
+    "ko_lu": "하고많다.a.Attempt",
+    "en_lus": [
+        "try"
+    ]
 }

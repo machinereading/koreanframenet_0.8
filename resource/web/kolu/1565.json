@@ -1,34 +1,106 @@
 {
-    "ko_lu": "건물.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 4763",
-            "examples": {
-                "ko_annotation_id": 4763,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 93,
-                            "end": 100
+            "examples": [
+                {
+                    "text": "좀더 최근에, 남아공은 A.Q. Khan의 네트워크와의 연결이 드러난 남아공의 한 사업가를 조사한 후, 핵무기 물질의 국제적 밀매를 감시하기 위해, 2004년에 IAEA와의 더 긴밀한 작업을 시작하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15625,
+                    "sent_id": 3026,
+                    "frameName": "Criminal_investigation",
+                    "ko_annotation_id": 7121,
+                    "origin_lus": [
+                        "investigations"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 49
+                            },
+                            "obj": "suspect",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Destroying",
-                "origin_lus": [
-                    "demolitions"
-                ],
-                "relations": [],
-                "annotation_id": 4350,
-                "sent_id": 837
-            }
+                        {
+                            "span": {
+                                "begin": 51,
+                                "end": 54
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7121"
+        },
+        {
+            "examples": [
+                {
+                    "text": "Ed_Hnery : 민주당 대표 Harry Reed는 백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을 조사하지 못했다고 공화당원들을 비난하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8413,
+                    "sent_id": 1725,
+                    "frameName": "Criminal_investigation",
+                    "ko_annotation_id": 4892,
+                    "origin_lus": [
+                        "probe"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 67
+                            },
+                            "obj": "incident",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 69,
+                                "end": 72
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 79,
+                                "end": 84
+                            },
+                            "obj": "investigator",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4892"
         }
     ],
-    "frameID": 417,
-    "en_lu": [
-        "demolition"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Destroying"
+    "frameName": "Criminal_investigation",
+    "lu_id": 1565,
+    "frameID": 500,
+    "ko_lu": "조사하다.v.Criminal_investigation",
+    "en_lus": [
+        "probe",
+        "investigation"
+    ]
 }

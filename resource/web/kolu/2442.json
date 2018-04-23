@@ -1,48 +1,65 @@
 {
-    "ko_lu": "죄.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 7379",
-            "examples": {
-                "ko_annotation_id": 7379,
-                "denotations": [
-                    {
-                        "obj": "wrongdoer",
-                        "span": {
-                            "begin": 0,
-                            "end": 5
+            "examples": [
+                {
+                    "text": "몇 달 전에 당신은 Goodwill의 도움으로 일자리를 얻은 사람들의 성공 이야기들을 전하는 한 통의 편지를 나로부터 받았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 7,
-                            "end": 8
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 1808,
+                    "sent_id": 332,
+                    "frameName": "Telling",
+                    "ko_annotation_id": 7908,
+                    "origin_lus": [
+                        "telling"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 46
+                            },
+                            "obj": "topic",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Misdeed",
-                "origin_lus": [
-                    "sin"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8215,
-                "sent_id": 1676
-            }
+                        {
+                            "span": {
+                                "begin": 48,
+                                "end": 50
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 52,
+                                "end": 62
+                            },
+                            "obj": "speaker",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7908"
         }
     ],
-    "frameID": 1100,
-    "en_lu": [
-        "sin"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Misdeed"
+    "frameName": "Telling",
+    "lu_id": 2442,
+    "frameID": 750,
+    "ko_lu": "심기일전하다.v.Telling",
+    "en_lus": [
+        "tell"
+    ]
 }

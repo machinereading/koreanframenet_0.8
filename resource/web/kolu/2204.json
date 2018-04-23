@@ -1,87 +1,78 @@
 {
-    "ko_lu": "사용하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 6594",
-            "examples": {
-                "ko_annotation_id": 6594,
-                "denotations": [
-                    {
-                        "obj": "purpose",
-                        "span": {
-                            "begin": 9,
-                            "end": 17
+            "examples": [
+                {
+                    "text": "이 바쁘고 현대적인 유럽 도시는 천년의 역사 위에 자리잡고 있다 -- 우아한 Merrion 광장에서 중앙 우체국의 총탄 구멍까지 역사는 도처에 존재한다.",
+                    "relations": [],
+                    "annotation_id": 4944,
+                    "sent_id": 951,
+                    "frameName": "Locale_by_use",
+                    "ko_annotation_id": 7092,
+                    "origin_lus": [
+                        "Post Office"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 59,
+                                "end": 62
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7092"
+        },
+        {
+            "examples": [
+                {
+                    "text": "Jardine 건물 옆에 대형 쇼핑 몰이 있는 복합단지인 Exchange Square가 있다 ; 바로 뒤에는 1층에 우표수집 센터가 있는 중앙 우체국이 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5461,
+                    "sent_id": 1043,
+                    "frameName": "Locale_by_use",
+                    "ko_annotation_id": 7093,
+                    "origin_lus": [
+                        "Post Office"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 76,
+                                "end": 78
+                            },
+                            "obj": "name",
+                            "id": "2"
                         },
-                        "id": "5"
-                    },
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 18,
-                            "end": 22
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "time",
-                        "span": {
-                            "begin": 24,
-                            "end": 26
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 27,
-                            "end": 34
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "instrument",
-                        "span": {
-                            "begin": 35,
-                            "end": 42
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Using",
-                "origin_lus": [
-                    "used"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "5",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 16741,
-                "sent_id": 3195
-            }
+                        {
+                            "span": {
+                                "begin": 79,
+                                "end": 82
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7093"
         }
     ],
-    "frameID": 1141,
-    "en_lu": [
-        "use"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Using"
+    "frameName": "Locale_by_use",
+    "lu_id": 2204,
+    "frameID": 196,
+    "ko_lu": "우체국.n.Locale_by_use",
+    "en_lus": [
+        "Post Office"
+    ]
 }

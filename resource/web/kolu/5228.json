@@ -1,61 +1,78 @@
 {
-    "ko_lu": "관여하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 16341",
-            "examples": {
-                "ko_annotation_id": 16341,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "러시아 또한 2003년 11월 러시아 대통령 블라디미르 푸틴의 이란은 IAEA 조사에 충분히 응하지 못함으로써 불성실하게 행동하였다는 기소에도 불구하고, 이란의 공개 노력을 지지하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "state",
-                        "span": {
-                            "begin": 5,
-                            "end": 13
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 15,
-                            "end": 18
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 13258,
+                    "sent_id": 2642,
+                    "frameName": "Intentionally_act",
+                    "ko_annotation_id": 18008,
+                    "origin_lus": [
+                        "acted"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 37
+                            },
+                            "obj": "agent",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "State_continue",
-                "origin_lus": [
-                    "stay"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 3180,
-                "sent_id": 599
-            }
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 58
+                            },
+                            "obj": "act",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 62,
+                                "end": 66
+                            },
+                            "obj": "manner",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 68,
+                                "end": 74
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18008"
         }
     ],
-    "frameID": 1155,
-    "en_lu": [
-        "stay"
-    ],
-    "ko_pos": "VV",
-    "frameName": "State_continue"
+    "frameName": "Intentionally_act",
+    "lu_id": 5228,
+    "frameID": 198,
+    "ko_lu": "행동하다.v.Intentionally_act",
+    "en_lus": [
+        "act"
+    ]
 }

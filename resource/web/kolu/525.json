@@ -1,61 +1,78 @@
 {
-    "ko_lu": "자매여.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 1464",
-            "examples": {
-                "ko_annotation_id": 1464,
-                "denotations": [
-                    {
-                        "obj": "ego",
-                        "span": {
-                            "begin": 0,
-                            "end": 1
+            "examples": [
+                {
+                    "text": "소비에트 연방은 VX보다 5 - 10 배 더 독하다고 추정되는, 새로운 형태의 신경 작용제 ( Novichok ) 를 개발하였다는 주장이 있었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "descriptor",
-                        "span": {
-                            "begin": 3,
-                            "end": 7
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 8,
-                            "end": 11
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15464,
+                    "sent_id": 3000,
+                    "frameName": "Toxic_substance",
+                    "ko_annotation_id": 1470,
+                    "origin_lus": [
+                        "toxic"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "obj": "degree",
+                            "id": "4"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Kinship",
-                "origin_lus": [
-                    "sister"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8284,
-                "sent_id": 1697
-            }
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 24
+                            },
+                            "obj": "degree",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 63
+                            },
+                            "obj": "toxic_substance",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1470"
         }
     ],
-    "frameID": 104,
-    "en_lu": [
-        "sister"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Kinship"
+    "frameName": "Toxic_substance",
+    "lu_id": 525,
+    "frameID": 1163,
+    "ko_lu": "독하다.a.Toxic_substance",
+    "en_lus": [
+        "toxic"
+    ]
 }

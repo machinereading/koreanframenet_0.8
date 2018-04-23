@@ -1,48 +1,52 @@
 {
-    "ko_lu": "지난해.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 243",
-            "examples": {
-                "ko_annotation_id": 243,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "지난해 재해 손실은 순이익이 235.5 백만 달러 또는 주당 2.07 달러 시 5 백만 달러의 총합에 이르렀다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 18,
+                    "sent_id": 3,
+                    "frameName": "Relative_time",
+                    "ko_annotation_id": 243,
+                    "origin_lus": [
+                        "Last"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "focal_occasion",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Relative_time",
-                "origin_lus": [
-                    "Last"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18,
-                "sent_id": 3
-            }
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "focal_occasion",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 243"
         }
     ],
+    "frameName": "Relative_time",
+    "lu_id": 86,
     "frameID": 81,
-    "en_lu": [
+    "ko_lu": "지난해.n.Relative_time",
+    "en_lus": [
         "Last"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Relative_time"
+    ]
 }

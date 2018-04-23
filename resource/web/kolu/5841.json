@@ -1,74 +1,52 @@
 {
-    "ko_lu": "지원하다.v",
+    "ko_pos": "NNP",
     "patterns": [
         {
-            "valenceText": "annotation id: 18287",
-            "examples": {
-                "ko_annotation_id": 18287,
-                "denotations": [
-                    {
-                        "obj": "helper",
-                        "span": {
-                            "begin": 19,
-                            "end": 23
+            "examples": [
+                {
+                    "text": "이란은 네덜란드 회사로부터 신경 가스 해독제로 쓰이는 아트로핀 주사기들을 구매하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11593,
+                    "sent_id": 2304,
+                    "frameName": "Origin",
+                    "ko_annotation_id": 20083,
+                    "origin_lus": [
+                        "Dutch"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "goal",
-                        "span": {
-                            "begin": 25,
-                            "end": 32
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "benefited_party",
-                        "span": {
-                            "begin": 34,
-                            "end": 36
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 38,
-                            "end": 44
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Assistance",
-                "origin_lus": [
-                    "aiding"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18458,
-                "sent_id": 3518
-            }
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20083"
         }
     ],
-    "frameID": 391,
-    "en_lu": [
-        "aid"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Assistance"
+    "frameName": "Origin",
+    "lu_id": 5841,
+    "frameID": 1103,
+    "ko_lu": "네덜란드.n.Origin",
+    "en_lus": [
+        "Dutch"
+    ]
 }

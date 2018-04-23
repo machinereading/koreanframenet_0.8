@@ -1,61 +1,52 @@
 {
-    "ko_lu": "돕다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 2722",
-            "examples": {
-                "ko_annotation_id": 2722,
-                "denotations": [
-                    {
-                        "obj": "helper",
-                        "span": {
-                            "begin": 4,
-                            "end": 18
+            "examples": [
+                {
+                    "text": "이 사용 지침서는 위협에 대한 더 큰 이해와 이용 가능한 정책 반응을 제공하는 목표와 함께 생물 전 ( BW ) 테러리즘을 여러 각도에서 다룬다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9728,
+                    "sent_id": 2008,
+                    "frameName": "Distinctiveness",
+                    "ko_annotation_id": 2782,
+                    "origin_lus": [
+                        "aspects"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 51,
+                                "end": 67
+                            },
+                            "obj": "entity",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "goal",
-                        "span": {
-                            "begin": 28,
-                            "end": 39
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 42,
-                            "end": 46
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Assistance",
-                "origin_lus": [
-                    "helped"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5328,
-                "sent_id": 1015
-            }
+                        {
+                            "span": {
+                                "begin": 72,
+                                "end": 74
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2782"
         }
     ],
-    "frameID": 391,
-    "en_lu": [
-        "help"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Assistance"
+    "frameName": "Distinctiveness",
+    "lu_id": 945,
+    "frameID": 1133,
+    "ko_lu": "각도.n.Distinctiveness",
+    "en_lus": [
+        "aspect"
+    ]
 }

@@ -1,48 +1,52 @@
 {
-    "ko_lu": "일단.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 17978",
-            "examples": {
-                "ko_annotation_id": 17978,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 87,
-                            "end": 89
+            "examples": [
+                {
+                    "text": "이라크는 대통령 사담 후세인을 수반으로 하는 이라크 정권을 억제하는 도구로서 제재를 사용하여, 이라크에 대한 제재 해제를 맹렬하게 반대하는 미국을 기소하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7259,
+                    "sent_id": 1515,
+                    "frameName": "Containing",
+                    "ko_annotation_id": 19822,
+                    "origin_lus": [
+                        "contain"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 31
+                            },
+                            "obj": "contents",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "individuals",
-                        "span": {
-                            "begin": 91,
-                            "end": 99
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Aggregate",
-                "origin_lus": [
-                    "group"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17169,
-                "sent_id": 3248
-            }
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19822"
         }
     ],
-    "frameID": 103,
-    "en_lu": [
-        "group"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Aggregate"
+    "frameName": "Containing",
+    "lu_id": 5745,
+    "frameID": 397,
+    "ko_lu": "억제하다.v.Containing",
+    "en_lus": [
+        "contain"
+    ]
 }

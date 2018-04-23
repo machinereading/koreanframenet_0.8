@@ -1,98 +1,65 @@
 {
-    "ko_lu": "가지다.v",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 9802",
-            "examples": {
-                "ko_annotation_id": 9802,
-                "denotations": [
-                    {
-                        "obj": "possession",
-                        "span": {
-                            "begin": 0,
-                            "end": 11
+            "examples": [
+                {
+                    "text": "버스들은 다음 사항을 구비해야 한다 : 1- 가벼운 갑옷과 로켓탄 발사기 2- 위험 활동을 보고할 무선 장비 3- 의심스러운 활동이나 면허판 번호를 적기 위한 필기물 4- 기총 발사로부터 보호하기 위한 버스 둘레의 샌드백",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 13,
-                            "end": 19
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7753,
+                    "sent_id": 1593,
+                    "frameName": "Text_creation",
+                    "ko_annotation_id": 10866,
+                    "origin_lus": [
+                        "jot down"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 64,
+                                "end": 81
+                            },
+                            "obj": "text",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Possession",
-                "origin_lus": [
-                    "have"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17648,
-                "sent_id": 3321
-            }
-        },
-        {
-            "valenceText": "annotation id: 9803",
-            "examples": {
-                "ko_annotation_id": 9803,
-                "denotations": [
-                    {
-                        "obj": "owner",
-                        "span": {
-                            "begin": 16,
-                            "end": 18
+                        {
+                            "span": {
+                                "begin": 83,
+                                "end": 84
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "possession",
-                        "span": {
-                            "begin": 48,
-                            "end": 79
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 81,
-                            "end": 87
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Possession",
-                "origin_lus": [
-                    "have"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17854,
-                "sent_id": 3364
-            }
+                        {
+                            "span": {
+                                "begin": 89,
+                                "end": 92
+                            },
+                            "obj": "instrument",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10866"
         }
     ],
-    "frameID": 118,
-    "en_lu": [
-        "have"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Possession"
+    "frameName": "Text_creation",
+    "lu_id": 3253,
+    "frameID": 278,
+    "ko_lu": "적다.a.Text_creation",
+    "en_lus": [
+        "jot down"
+    ]
 }

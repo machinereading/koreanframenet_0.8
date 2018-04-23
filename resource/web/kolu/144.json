@@ -1,61 +1,65 @@
 {
-    "ko_lu": "체류.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 380",
-            "examples": {
-                "ko_annotation_id": 380,
-                "denotations": [
-                    {
-                        "obj": "duration",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "4일간의 체류 동안, Hall은 바그다와 남부 Muthana 지방의 병원과 보건기관을 방문하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 5,
-                            "end": 7
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7337,
+                    "sent_id": 1526,
+                    "frameName": "Temporary_stay",
+                    "ko_annotation_id": 380,
+                    "origin_lus": [
+                        "stay"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "duration",
+                            "id": "3"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "guest",
-                        "span": {
-                            "begin": 12,
-                            "end": 16
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Temporary_stay",
-                "origin_lus": [
-                    "stay"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7337,
-                "sent_id": 1526
-            }
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "obj": "guest",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 380"
         }
     ],
+    "frameName": "Temporary_stay",
+    "lu_id": 144,
     "frameID": 1885,
-    "en_lu": [
+    "ko_lu": "체류.n.Temporary_stay",
+    "en_lus": [
         "stay"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Temporary_stay"
+    ]
 }

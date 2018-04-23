@@ -1,61 +1,65 @@
 {
-    "ko_lu": "협력하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 17555",
-            "examples": {
-                "ko_annotation_id": 17555,
-                "denotations": [
-                    {
-                        "obj": "partner_1",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "우라늄 기반의 폭탄 프로그램은 우라늄을 채굴 및 가공하고 무기급 혹은 무기급 ( 무기급 우라늄보다 적게 사용된 히로시마 폭탄 ) 에 근접하게 농축하기 위한 능력이 요구된다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "partner_2",
-                        "span": {
-                            "begin": 22,
-                            "end": 31
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14550,
+                    "sent_id": 2853,
+                    "frameName": "Have_as_requirement",
+                    "ko_annotation_id": 19374,
+                    "origin_lus": [
+                        "requires"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "obj": "dependent",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 33,
-                            "end": 39
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 89
+                            },
+                            "obj": "requirement",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Collaboration",
-                "origin_lus": [
-                    "cooperating"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14818,
-                "sent_id": 2894
-            }
+                        {
+                            "span": {
+                                "begin": 91,
+                                "end": 94
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19374"
         }
     ],
-    "frameID": 418,
-    "en_lu": [
-        "cooperate"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Collaboration"
+    "frameName": "Have_as_requirement",
+    "lu_id": 5602,
+    "frameID": 1491,
+    "ko_lu": "요구되다.v.Have_as_requirement",
+    "en_lus": [
+        "require"
+    ]
 }

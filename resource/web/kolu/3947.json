@@ -1,61 +1,95 @@
 {
-    "ko_lu": "층.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 12430",
-            "examples": {
-                "ko_annotation_id": 12430,
-                "denotations": [
-                    {
-                        "obj": "rank",
-                        "span": {
-                            "begin": 9,
-                            "end": 13
+            "examples": [
+                {
+                    "text": "리비아 정부는 생물학 무기 획득이나 생산을 강력하게 부인하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6658,
+                    "sent_id": 1340,
+                    "frameName": "Weapon",
+                    "ko_annotation_id": 13257,
+                    "origin_lus": [
+                        "BW",
+                        "biological weapon"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "obj": "creator",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 12,
-                            "end": 13
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 14
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13257"
+        },
+        {
+            "examples": [
+                {
+                    "text": "군대는 테러리스트가 폭탄만이 아니고, 보이지 않는 죽음을 부르는 화학 또는 생물학 무기를 터뜨리는 날을 위해 훈련하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6725,
+                    "sent_id": 1360,
+                    "frameName": "Weapon",
+                    "ko_annotation_id": 13258,
+                    "origin_lus": [
+                        "BW",
+                        "biological weapon"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "obj": "wielder",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 14,
-                            "end": 23
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Occupy_rank",
-                "origin_lus": [
-                    "ranking"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14052,
-                "sent_id": 2778
-            }
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 48
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13258"
         }
     ],
-    "frameID": 1379,
-    "en_lu": [
-        "rank"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Occupy_rank"
+    "frameName": "Weapon",
+    "lu_id": 3947,
+    "frameID": 426,
+    "ko_lu": "생물학무기.n.Weapon",
+    "en_lus": [
+        "BW",
+        "biological weapon"
+    ]
 }

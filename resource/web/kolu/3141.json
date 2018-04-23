@@ -1,48 +1,52 @@
 {
-    "ko_lu": "불명확하다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 9544",
-            "examples": {
-                "ko_annotation_id": 9544,
-                "denotations": [
-                    {
-                        "obj": "phenomenon",
-                        "span": {
-                            "begin": 51,
-                            "end": 61
+            "examples": [
+                {
+                    "text": "Summerlin과 Lake Las Vegas의 리조트들을 포함하여 20,000개 이상의 추가적인 호텔 방들이 裏 수년만에 더해졌다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4392,
+                    "sent_id": 846,
+                    "frameName": "Quantity",
+                    "ko_annotation_id": 10276,
+                    "origin_lus": [
+                        "few"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 64,
+                                "end": 66
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 66,
-                            "end": 70
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Obviousness",
-                "origin_lus": [
-                    "unclear"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14398,
-                "sent_id": 2835
-            }
+                        {
+                            "span": {
+                                "begin": 64,
+                                "end": 66
+                            },
+                            "obj": "individuals",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10276"
         }
     ],
-    "frameID": 1360,
-    "en_lu": [
-        "unclear"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Obviousness"
+    "frameName": "Quantity",
+    "lu_id": 3141,
+    "frameID": 2604,
+    "ko_lu": "수년.n.Quantity",
+    "en_lus": [
+        "few"
+    ]
 }

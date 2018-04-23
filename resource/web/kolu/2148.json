@@ -1,74 +1,105 @@
 {
-    "ko_lu": "움직이다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 6422",
-            "examples": {
-                "ko_annotation_id": 6422,
-                "denotations": [
-                    {
-                        "obj": "bodypart_of_agent",
-                        "span": {
-                            "begin": 12,
-                            "end": 15
+            "examples": [
+                {
+                    "text": "1999년 9월, 평양은 미사일 비행 시험의 일시적 중단에 동의하였고 이후 평양은 적어도 2003년 까지 일시적 중단을 계속 유지할 것이라고 발표하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14414,
+                    "sent_id": 2838,
+                    "frameName": "Activity_pause",
+                    "ko_annotation_id": 6858,
+                    "origin_lus": [
+                        "moratorium"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 23
+                            },
+                            "obj": "activity",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 12,
-                            "end": 15
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 31
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6858"
+        },
+        {
+            "examples": [
+                {
+                    "text": "1999년 9월, 평양은 미사일 비행 시험의 일시적 중단에 동의하였고 이후 평양은 적어도 2003년 까지 일시적 중단을 계속 유지할 것이라고 발표하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 18,
-                            "end": 22
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14414,
+                    "sent_id": 2838,
+                    "frameName": "Activity_pause",
+                    "ko_annotation_id": 6859,
+                    "origin_lus": [
+                        "moratorium"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 31
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 32,
-                            "end": 37
+                        {
+                            "span": {
+                                "begin": 59,
+                                "end": 65
+                            },
+                            "obj": "x",
+                            "id": "3"
                         },
-                        "id": "4"
-                    }
-                ],
-                "frameName": "Manipulation",
-                "origin_lus": [
-                    "diddle"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6208,
-                "sent_id": 1214
-            }
+                        {
+                            "span": {
+                                "begin": 70,
+                                "end": 75
+                            },
+                            "obj": "gov",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6859"
         }
     ],
-    "frameID": 17,
-    "en_lu": [
-        "diddle"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Manipulation"
+    "frameName": "Activity_pause",
+    "lu_id": 2148,
+    "frameID": 167,
+    "ko_lu": "중단.n.Activity_pause",
+    "en_lus": [
+        "moratorium"
+    ]
 }

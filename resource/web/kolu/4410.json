@@ -1,61 +1,144 @@
 {
-    "ko_lu": "유보하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 13604",
-            "examples": {
-                "ko_annotation_id": 13604,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "나는 결혼도 아이들의 세례도 거부할 용기가 있었으므로, 지금, 사랑하는 자식의 죽음에 직면하여, 그리스도교의 장례라 불리는 허례허식은 하지 않겠다고 주장했다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 5015,
+                    "frameName": "Hostile_encounter",
+                    "ko_annotation_id": 14947,
+                    "origin_lus": [
+                        "tyokumen .直面 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "obj": "Side_1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "activity",
-                        "span": {
-                            "begin": 4,
-                            "end": 9
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 46
+                            },
+                            "obj": "Issue"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 11,
-                            "end": 14
+                        {
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14947"
+        },
+        {
+            "examples": [
+                {
+                    "text": "자아, 여기까지 왔으면, 당신이 생활 속에서 직면하여 고민하게 되는 모순된 「현실」은, 당신의 사고방식을 전제로 하고 있어, 그것에 따라 현실을 변화시킬 수 있다는 것을 이해할 수 있는 단계가 되었다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4198,
+                    "frameName": "Hostile_encounter",
+                    "ko_annotation_id": 14948,
+                    "origin_lus": [
+                        "tyokumen .直面 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "obj": "Side_1"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Activity_pause",
-                "origin_lus": [
-                    "suspending"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 15312,
-                "sent_id": 2973
-            }
+                        {
+                            "span": {
+                                "begin": 43,
+                                "end": 45
+                            },
+                            "obj": "Issue"
+                        },
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14948"
+        },
+        {
+            "examples": [
+                {
+                    "text": "우리 사회에 직면하는 적은 세 가지 부류에 속한다 : 1- 미국, 사우디 아라비아, 이집트, 파키스탄 그리고 유대인과 같은, 적대적 정보 기관, 2- 무신론자와 배교자인 벗어난 집단 3- 기존 환경.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7495,
+                    "sent_id": 1547,
+                    "frameName": "Hostile_encounter",
+                    "ko_annotation_id": 15595,
+                    "origin_lus": [
+                        "confronting"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "obj": "side_2",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "obj": "side_1",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15595"
         }
     ],
-    "frameID": 167,
-    "en_lu": [
-        "suspend"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Activity_pause"
+    "frameName": "Hostile_encounter",
+    "lu_id": 4410,
+    "frameID": 93,
+    "ko_lu": "직면하다.v.Hostile_encounter",
+    "en_lus": [
+        "confront",
+        "tyokumen .直面 "
+    ]
 }

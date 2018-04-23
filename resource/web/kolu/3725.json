@@ -1,74 +1,52 @@
 {
-    "ko_lu": "다니다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 11636",
-            "examples": {
-                "ko_annotation_id": 11636,
-                "denotations": [
-                    {
-                        "obj": "theme",
-                        "span": {
-                            "begin": 0,
-                            "end": 7
+            "examples": [
+                {
+                    "text": " \" 독가스를 제조하기 위해 사용되는 금지된 물질을 공급하려는 인도 정부와의 비밀의 수 백만 파운드의 거래 \" 에 대해 1996년 6월 23일에 Sunday Telegraph가 보도하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 0,
+                    "sent_id": 1257,
+                    "frameName": "Prohibiting",
+                    "ko_annotation_id": 12557,
+                    "origin_lus": [
+                        "banned"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "constant_location",
-                        "span": {
-                            "begin": 12,
-                            "end": 14
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 16,
-                            "end": 19
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 20,
-                            "end": 24
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Bringing",
-                "origin_lus": [
-                    "carries"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6165,
-                "sent_id": 1187
-            }
+                        {
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "obj": "state_of_affairs",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12557"
         }
     ],
-    "frameID": 240,
-    "en_lu": [
-        "carry"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Bringing"
+    "frameName": "Prohibiting_or_licensing",
+    "lu_id": 3725,
+    "frameID": 521,
+    "ko_lu": "금지되다.v.Prohibiting_or_licensing",
+    "en_lus": [
+        "ban"
+    ]
 }

@@ -1,48 +1,73 @@
 {
-    "ko_lu": "재판하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 15968",
-            "examples": {
-                "ko_annotation_id": 15968,
-                "denotations": [
-                    {
-                        "obj": "defendant",
-                        "span": {
-                            "begin": 76,
-                            "end": 78
+            "examples": [
+                {
+                    "text": "Lewinsky 혐의에 신빙성을 제공하고, 클린턴의 친숙한 방어를 마치 거짓과 반 거짓이 존재하는 것 같이 다룸으로써, Stephanopoulos는 자가가 바보가 아니라는 것을 보여준다.",
+                    "relations": [],
+                    "annotation_id": 5322,
+                    "sent_id": 1014,
+                    "frameName": "Prevarication",
+                    "ko_annotation_id": 17689,
+                    "origin_lus": [
+                        "lies",
+                        "uso .嘘"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 42
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17689"
+        },
+        {
+            "examples": [
+                {
+                    "text": "일본 고유의 신령에 대한 상식도, 거짓은 아닙니다만, 그런 것에 매달리기보다는, 더 큰, 전세계적인 신을 제대로 알아가는 방법을 취하는 것이 좋습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3575,
+                    "frameName": "Prevarication",
+                    "ko_annotation_id": 17690,
+                    "origin_lus": [
+                        "lies",
+                        "uso .嘘"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 18
+                            },
+                            "obj": "Topic"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 80,
-                            "end": 83
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Try_defendant",
-                "origin_lus": [
-                    "try"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6865,
-                "sent_id": 1415
-            }
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 17690"
         }
     ],
-    "frameID": 320,
-    "en_lu": [
-        "try"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Try_defendant"
+    "frameName": "Prevarication",
+    "lu_id": 5138,
+    "frameID": 287,
+    "ko_lu": "거짓.n.Prevarication",
+    "en_lus": [
+        "lie",
+        "uso .嘘"
+    ]
 }

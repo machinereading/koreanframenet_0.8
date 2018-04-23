@@ -1,48 +1,78 @@
 {
-    "ko_lu": "논쟁.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 13670",
-            "examples": {
-                "ko_annotation_id": 13670,
-                "denotations": [
-                    {
-                        "obj": "issue",
-                        "span": {
-                            "begin": 38,
-                            "end": 47
+            "examples": [
+                {
+                    "text": "로마는 이교도 제국을 다스렸지만, 에게 해는 초기 기독교 발달에 중요한 영향을 미쳤다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2880,
+                    "sent_id": 548,
+                    "frameName": "Temporal_subregion",
+                    "ko_annotation_id": 15135,
+                    "origin_lus": [
+                        "early"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 48,
-                            "end": 50
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Hostile_encounter",
-                "origin_lus": [
-                    "dust-up"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 338,
-                "sent_id": 51
-            }
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "obj": "time_period",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15135"
+        },
+        {
+            "examples": [
+                {
+                    "text": "사업체들이 하룻밤 사이에 생겼고 많은 초기 정착자들이 살았던 텐트 도시를 대체하기 위해 목재 주택이 세워졌다.",
+                    "relations": [],
+                    "annotation_id": 4072,
+                    "sent_id": 778,
+                    "frameName": "Temporal_subregion",
+                    "ko_annotation_id": 15136,
+                    "origin_lus": [
+                        "early"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 15136"
         }
     ],
-    "frameID": 93,
-    "en_lu": [
-        "dust-up"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Hostile_encounter"
+    "frameName": "Temporal_subregion",
+    "lu_id": 4432,
+    "frameID": 1470,
+    "ko_lu": "초기.n.Temporal_subregion",
+    "en_lus": [
+        "early"
+    ]
 }

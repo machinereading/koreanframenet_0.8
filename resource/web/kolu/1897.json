@@ -1,48 +1,91 @@
 {
-    "ko_lu": "패배.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 5661",
-            "examples": {
-                "ko_annotation_id": 5661,
-                "denotations": [
-                    {
-                        "obj": "competition",
-                        "span": {
-                            "begin": 0,
-                            "end": 5
+            "examples": [
+                {
+                    "text": "비잔틴 제국이 처음 천년 말기에 약화됨에 따라, 십자군은 무슬림 세력에 대응하고 기독교 신앙을 위한 예루살렘 탈환을 위해 서유럽으로부터 보내졌다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 7,
-                            "end": 9
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Finish_competition",
-                "origin_lus": [
-                    "losses"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 15977,
-                "sent_id": 3070
-            }
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "5",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2924,
+                    "sent_id": 556,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 5918,
+                    "origin_lus": [
+                        "sent"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 25
+                            },
+                            "obj": "time",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "obj": "affected",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 32,
+                                "end": 67
+                            },
+                            "obj": "effect",
+                            "id": "5"
+                        },
+                        {
+                            "span": {
+                                "begin": 68,
+                                "end": 71
+                            },
+                            "obj": "place",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 76,
+                                "end": 79
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5918"
         }
     ],
-    "frameID": 798,
-    "en_lu": [
-        "loss"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Finish_competition"
+    "frameName": "Causation",
+    "lu_id": 1897,
+    "frameID": 5,
+    "ko_lu": "보내다.v.Causation",
+    "en_lus": [
+        "sent"
+    ]
 }

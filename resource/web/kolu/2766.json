@@ -1,61 +1,52 @@
 {
-    "ko_lu": "보다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 8468",
-            "examples": {
-                "ko_annotation_id": 8468,
-                "denotations": [
-                    {
-                        "obj": "group",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "약간의 시간이 걸리고 어려운 일이었지만 Goodwill의 도움으로, Jerry는 검찰과 함께 지불 계획을 성공적으로 세우고 거처를 찾고 더 철저한 일자리 찾기를 할 수 있었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2239,
+                    "sent_id": 428,
+                    "frameName": "Relational_quantity",
+                    "ko_annotation_id": 8905,
+                    "origin_lus": [
+                        "some"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 2,
-                            "end": 4
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "subset",
-                        "span": {
-                            "begin": 5,
-                            "end": 13
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Partitive",
-                "origin_lus": [
-                    "of"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1382,
-                "sent_id": 254
-            }
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "obj": "mass",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8905"
         }
     ],
-    "frameID": 1010,
-    "en_lu": [
-        "of"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Partitive"
+    "frameName": "Relational_quantity",
+    "lu_id": 2766,
+    "frameID": 2427,
+    "ko_lu": "약간.n.Relational_quantity",
+    "en_lus": [
+        "some"
+    ]
 }

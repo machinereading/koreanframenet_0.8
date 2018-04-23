@@ -1,61 +1,78 @@
 {
-    "ko_lu": "결합되다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 17663",
-            "examples": {
-                "ko_annotation_id": 17663,
-                "denotations": [
-                    {
-                        "obj": "part_2",
-                        "span": {
-                            "begin": 0,
-                            "end": 35
+            "examples": [
+                {
+                    "text": "이 실험실은 특히 생체에 적합하게 만들기 위한 목적으로 고분자 재료의 물리적, 화학적, 생물학적, 그리고 역학적 성질을 변형하는 고분자 재료 분야에서 활발한 활동을 하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 36,
-                            "end": 39
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "part_1",
-                        "span": {
-                            "begin": 40,
-                            "end": 42
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11029,
+                    "sent_id": 2211,
+                    "frameName": "Cause_change",
+                    "ko_annotation_id": 19540,
+                    "origin_lus": [
+                        "modifying"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "obj": "agent",
+                            "id": "2"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Amalgamation",
-                "origin_lus": [
-                    "combined"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4310,
-                "sent_id": 830
-            }
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 25
+                            },
+                            "obj": "purpose",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 65
+                            },
+                            "obj": "attribute",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 67,
+                                "end": 70
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19540"
         }
     ],
-    "frameID": 790,
-    "en_lu": [
-        "combine"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Amalgamation"
+    "frameName": "Cause_change",
+    "lu_id": 5636,
+    "frameID": 683,
+    "ko_lu": "변형하다.v.Cause_change",
+    "en_lus": [
+        "modify"
+    ]
 }

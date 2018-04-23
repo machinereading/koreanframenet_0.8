@@ -1,48 +1,65 @@
 {
-    "ko_lu": "결혼.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 9806",
-            "examples": {
-                "ko_annotation_id": 9806,
-                "denotations": [
-                    {
-                        "obj": "partner_1",
-                        "span": {
-                            "begin": 20,
-                            "end": 21
+            "examples": [
+                {
+                    "text": "이란은 화학 시설과 과거 화학무기 비축에 관한 선언서를 제출하였는데, 이란은 화학무기 금지기구 조사관들이 있는 곳에서 화학무기 생산 장비를 파괴하였고, 화학 산업 시설들에 대해 화학무기 금지기구의 조사를 수 차례 받았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 23,
-                            "end": 25
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11396,
+                    "sent_id": 2274,
+                    "frameName": "Inspecting",
+                    "ko_annotation_id": 10880,
+                    "origin_lus": [
+                        "inspections"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 43,
+                                "end": 52
+                            },
+                            "obj": "inspector",
+                            "id": "2"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Personal_relationship",
-                "origin_lus": [
-                    "marriage"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5352,
-                "sent_id": 1021
-            }
+                        {
+                            "span": {
+                                "begin": 53,
+                                "end": 57
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 85,
+                                "end": 98
+                            },
+                            "obj": "ground",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10880"
         }
     ],
-    "frameID": 102,
-    "en_lu": [
-        "marriage"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Personal_relationship"
+    "frameName": "Inspecting",
+    "lu_id": 3256,
+    "frameID": 1262,
+    "ko_lu": "조사관들.n.Inspecting",
+    "en_lus": [
+        "inspection"
+    ]
 }

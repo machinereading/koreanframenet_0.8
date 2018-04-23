@@ -1,48 +1,52 @@
 {
-    "ko_lu": "학교.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 7883",
-            "examples": {
-                "ko_annotation_id": 7883,
-                "denotations": [
-                    {
-                        "obj": "teacher",
-                        "span": {
-                            "begin": 0,
-                            "end": 1
+            "examples": [
+                {
+                    "text": "이러한 믿음이 우리 교육기관, 우리 미디어, 우리 정치인, 심지어 우리 부모들까지 너무나 지배하고 있어 이들에 대해 도전하는 것은 거의 모독적인 것처럼 보인다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 1031,
+                    "sent_id": 186,
+                    "frameName": "People_by_vocation",
+                    "ko_annotation_id": 8422,
+                    "origin_lus": [
+                        "politicians"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "obj": "employer",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 6,
-                            "end": 11
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Education_teaching",
-                "origin_lus": [
-                    "schoolteacher"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1105,
-                "sent_id": 201
-            }
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8422"
         }
     ],
-    "frameID": 111,
-    "en_lu": [
-        "schoolteacher"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Education_teaching"
+    "frameName": "People_by_vocation",
+    "lu_id": 2578,
+    "frameID": 1071,
+    "ko_lu": "정치인.n.People_by_vocation",
+    "en_lus": [
+        "politician"
+    ]
 }

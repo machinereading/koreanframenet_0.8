@@ -1,61 +1,52 @@
 {
-    "ko_lu": "찬성하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 16700",
-            "examples": {
-                "ko_annotation_id": 16700,
-                "denotations": [
-                    {
-                        "obj": "protagonist",
-                        "span": {
-                            "begin": 0,
-                            "end": 22
+            "examples": [
+                {
+                    "text": "이러한 최근의 추세에 대한 하나의 예외는 레이건 혁명으로 1980년에 당선되고 1982년에 재선에 출마한 52명의 신참 공화당 의원 중 13명이  패배한 것이었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 1552,
+                    "sent_id": 280,
+                    "frameName": "Goal",
+                    "ko_annotation_id": 18374,
+                    "origin_lus": [
+                        "into"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "norm",
-                        "span": {
-                            "begin": 24,
-                            "end": 34
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 36,
-                            "end": 42
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Compliance",
-                "origin_lus": [
-                    "honoring"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6190,
-                "sent_id": 1203
-            }
+                        {
+                            "span": {
+                                "begin": 59,
+                                "end": 73
+                            },
+                            "obj": "trajector",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18374"
         }
     ],
-    "frameID": 117,
-    "en_lu": [
-        "honor"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Compliance"
+    "frameName": "Goal",
+    "lu_id": 5319,
+    "frameID": 1177,
+    "ko_lu": "당선되다.v.Goal",
+    "en_lus": [
+        "into"
+    ]
 }

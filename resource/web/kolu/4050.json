@@ -1,48 +1,52 @@
 {
-    "ko_lu": "건설되다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 12627",
-            "examples": {
-                "ko_annotation_id": 12627,
-                "denotations": [
-                    {
-                        "obj": "created_entity",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "이란의 강한 생명 공학 및 제약 기반 시설을 고려하면, 숨겨진 생물무기 프로그램 개발을 기대하는 것은 어렵지 않다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10683,
+                    "sent_id": 2142,
+                    "frameName": "Secrecy_status",
+                    "ko_annotation_id": 13570,
+                    "origin_lus": [
+                        "concealed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 5,
-                            "end": 8
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Building",
-                "origin_lus": [
-                    "built"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4546,
-                "sent_id": 877
-            }
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 44
+                            },
+                            "obj": "phenomenon",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13570"
         }
     ],
-    "frameID": 259,
-    "en_lu": [
-        "built"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Building"
+    "frameName": "Secrecy_status",
+    "lu_id": 4050,
+    "frameID": 1145,
+    "ko_lu": "숨다.v.Secrecy_status",
+    "en_lus": [
+        "conceal"
+    ]
 }

@@ -1,61 +1,52 @@
 {
-    "ko_lu": "도움받다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 8647",
-            "examples": {
-                "ko_annotation_id": 8647,
-                "denotations": [
-                    {
-                        "obj": "helper",
-                        "span": {
-                            "begin": 0,
-                            "end": 62
+            "examples": [
+                {
+                    "text": "당신이 충분히 일찍 일어날 수 있다면, 넓은 지역 도매 생선 시장에서 열리는 새벽 전 경매에 참석할 수 있다 ; 그렇지 않으면, 나중에 낮에 여는 거리 시장을 보아라.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5983,
+                    "sent_id": 1137,
+                    "frameName": "Temporal_subregion",
+                    "ko_annotation_id": 9180,
+                    "origin_lus": [
+                        "later"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 71,
+                                "end": 73
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 65,
-                            "end": 70
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "benefited_party",
-                        "span": {
-                            "begin": 73,
-                            "end": 79
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Assistance",
-                "origin_lus": [
-                    "helped"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 2727,
-                "sent_id": 518
-            }
+                        {
+                            "span": {
+                                "begin": 75,
+                                "end": 76
+                            },
+                            "obj": "time_period",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9180"
         }
     ],
-    "frameID": 391,
-    "en_lu": [
-        "help"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Assistance"
+    "frameName": "Temporal_subregion",
+    "lu_id": 2851,
+    "frameID": 1470,
+    "ko_lu": "나중.n.Temporal_subregion",
+    "en_lus": [
+        "later"
+    ]
 }

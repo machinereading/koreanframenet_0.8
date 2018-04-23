@@ -1,74 +1,106 @@
 {
-    "ko_lu": "제출.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 764",
-            "examples": {
-                "ko_annotation_id": 764,
-                "denotations": [
-                    {
-                        "obj": "submittor",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "2- 어떠한 상황에서도 차는, 위치에 속한 차라도 울타리 옆에 주차하는 것이 허용되어서는 안된다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7698,
+                    "sent_id": 1582,
+                    "frameName": "Permitting",
+                    "ko_annotation_id": 769,
+                    "origin_lus": [
+                        "permitted"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 28,
+                                "end": 41
+                            },
+                            "obj": "principle",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "purpose_of_theme",
-                        "span": {
-                            "begin": 3,
-                            "end": 8
+                        {
+                            "span": {
+                                "begin": 43,
+                                "end": 46
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 769"
+        },
+        {
+            "examples": [
+                {
+                    "text": "핵확산 방지 조약에 의해 허용되는 러시아나 중국의 동력용 원자로 공급은 이란의 제한된 핵 기반 시설을 향상시키고 핵무기 프로그램을 발전시킬 수 있을 것이다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "documents",
-                        "span": {
-                            "begin": 9,
-                            "end": 18
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 17717,
+                    "sent_id": 3337,
+                    "frameName": "Permitting",
+                    "ko_annotation_id": 2094,
+                    "origin_lus": [
+                        "allowed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "obj": "principle",
+                            "id": "3"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 19,
-                            "end": 20
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Submitting_documents",
-                "origin_lus": [
-                    "submits"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17104,
-                "sent_id": 3242
-            }
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 38
+                            },
+                            "obj": "state_of_affairs",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2094"
         }
     ],
-    "frameID": 1521,
-    "en_lu": [
-        "submits"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Submitting_documents"
+    "frameName": "Prohibiting_or_licensing",
+    "lu_id": 272,
+    "frameID": 521,
+    "ko_lu": "허용되다.v.Prohibiting_or_licensing",
+    "en_lus": [
+        "permit",
+        "allow"
+    ]
 }

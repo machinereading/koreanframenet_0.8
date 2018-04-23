@@ -1,40 +1,168 @@
 {
-    "ko_lu": "하다.a",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 12880",
-            "examples": {
-                "ko_annotation_id": 12880,
-                "denotations": [
-                    {
-                        "obj": "Act",
-                        "span": {
-                            "begin": 29,
-                            "end": 36
+            "examples": [
+                {
+                    "text": "이란의 원자력 기구는 인도는 핵 기술 수출을 추구한다는 인도 원자력 위원의 91년 2월 1일 발표에 이어, 인도로부터 핵 기술이나 전문 지식을 사기 위해 협상한다. ( 5511, 5883 ).",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 35,
-                            "end": 36
+                    ],
+                    "annotation_id": 18433,
+                    "sent_id": 3511,
+                    "frameName": "Commerce_buy",
+                    "ko_annotation_id": 13805,
+                    "origin_lus": [
+                        "buy",
+                        "purchase",
+                        "kau .買う ",
+                        "kaikomu .買い込む "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "obj": "buyer",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 60,
+                                "end": 62
+                            },
+                            "obj": "seller",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 66,
+                                "end": 78
+                            },
+                            "obj": "goods",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 80,
+                                "end": 81
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Intentionally_act",
-                "origin_lus": [
-                    "okonau .行う "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4596
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13805"
+        },
+        {
+            "examples": [
+                {
+                    "text": "이번에 다룰 사안 아들의 잘못은 부모 책임? 나카지마 씨의 아들 아케토 군 (차남・22세 학생・현재 하숙 중.)이, X사의 영업사원 되어 「영업실적을 올리기 위한 거니까 진짜로 사지 않더라도 사인만 해주면 돼요.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4440,
+                    "frameName": "Commerce_buy",
+                    "ko_annotation_id": 13806,
+                    "origin_lus": [
+                        "buy",
+                        "purchase",
+                        "kau .買う ",
+                        "kaikomu .買い込む "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 62
+                            },
+                            "obj": "Buyer"
+                        },
+                        {
+                            "span": {
+                                "begin": 65,
+                                "end": 75
+                            },
+                            "obj": "Seller"
+                        },
+                        {
+                            "span": {
+                                "begin": 99,
+                                "end": 100
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13806"
+        },
+        {
+            "examples": [
+                {
+                    "text": "물건을 고르다가, 저도 모르는 사이에 예산을 초과해서 사버렸다면 누구라도 찜찜할 것입니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4449,
+                    "frameName": "Commerce_buy",
+                    "ko_annotation_id": 13807,
+                    "origin_lus": [
+                        "buy",
+                        "purchase",
+                        "kau .買う ",
+                        "kaikomu .買い込む "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 10,
+                                "end": 19
+                            },
+                            "obj": "Time"
+                        },
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 28
+                            },
+                            "obj": "Manner"
+                        },
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 31
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13807"
         }
     ],
-    "frameID": 198,
-    "en_lu": [
-        "okonau .行う "
-    ],
-    "ko_pos": "VA",
-    "frameName": "Intentionally_act"
+    "frameName": "Commerce_buy",
+    "lu_id": 4128,
+    "frameID": 171,
+    "ko_lu": "사다.v.Commerce_buy",
+    "en_lus": [
+        "kaikomu .買い込む ",
+        "buy",
+        "purchase",
+        "kau .買う "
+    ]
 }

@@ -1,47 +1,81 @@
 {
-    "ko_lu": "정형외.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 6251",
-            "examples": {
-                "ko_annotation_id": 6251,
-                "denotations": [
-                    {
-                        "obj": "Specialty",
-                        "span": {
-                            "begin": 25,
-                            "end": 28
+            "examples": [
+                {
+                    "text": "그녀가 난소암으로 죽기 전에 그들의 엄마가 유전자 테스트를 가졌다는 것을 아는 두 자매는 그녀의 테스트 결과를 알기 원한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Type",
-                        "span": {
-                            "begin": 30,
-                            "end": 32
+                    ],
+                    "annotation_id": 6308,
+                    "sent_id": 1248,
+                    "frameName": "Kinship",
+                    "ko_annotation_id": 6589,
+                    "origin_lus": [
+                        "mother",
+                        "Mom"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "obj": "ego",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 25,
-                            "end": 28
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6589"
+        },
+        {
+            "examples": [
+                {
+                    "text": "엄마와 아빠의 목숨을 앗아 간 인디애나폴리의 최근의 살해 - 자살 후 집을 잃은, Tracy와 Kerry 같은 더 나이 든 아이들.",
+                    "relations": [],
+                    "annotation_id": 2303,
+                    "sent_id": 439,
+                    "frameName": "Kinship",
+                    "ko_annotation_id": 6590,
+                    "origin_lus": [
+                        "mother",
+                        "Mom"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Medical_specialties",
-                "origin_lus": [
-                    "seekee .整形 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3913
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6590"
         }
     ],
-    "frameID": 256,
-    "en_lu": [
-        "seekee .整形 "
-    ],
-    "ko_pos": "NN",
-    "frameName": "Medical_specialties"
+    "frameName": "Kinship",
+    "lu_id": 2092,
+    "frameID": 104,
+    "ko_lu": "엄마.n.Kinship",
+    "en_lus": [
+        "Mom",
+        "mother"
+    ]
 }

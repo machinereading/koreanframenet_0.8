@@ -1,61 +1,52 @@
 {
-    "ko_lu": "당기다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 6059",
-            "examples": {
-                "ko_annotation_id": 6059,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 56,
-                            "end": 92
+            "examples": [
+                {
+                    "text": "후버 댐 ( 원래 Boulder Dam이고 뒤이어 프로젝트를 승인한 대통령 이름을 따서 다시 명명되었다 ) 건설은 1931년에 라스 베이거스의 남동쪽으로 45 마일 ( 72 km ) 떨어진 협곡에서 시작되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4137,
+                    "sent_id": 789,
+                    "frameName": "Natural_features",
+                    "ko_annotation_id": 6308,
+                    "origin_lus": [
+                        "canyon"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 71,
+                                "end": 101
+                            },
+                            "obj": "relative_location",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 94,
-                            "end": 96
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 97,
-                            "end": 99
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Manipulation",
-                "origin_lus": [
-                    "pulling"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 229,
-                "sent_id": 35
-            }
+                        {
+                            "span": {
+                                "begin": 106,
+                                "end": 108
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6308"
         }
     ],
-    "frameID": 17,
-    "en_lu": [
-        "pull"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Manipulation"
+    "frameName": "Natural_features",
+    "lu_id": 2017,
+    "frameID": 191,
+    "ko_lu": "협곡.n.Natural_features",
+    "en_lus": [
+        "canyon"
+    ]
 }

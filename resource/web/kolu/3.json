@@ -1,48 +1,52 @@
 {
-    "ko_lu": "의문시되다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 4",
-            "examples": {
-                "ko_annotation_id": 4,
-                "denotations": [
-                    {
-                        "obj": "behavior",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "신뢰성이 의문시 되는 이 보고서를 국방부 ( MND ) 는 맹렬히 부인하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16317,
+                    "sent_id": 3126,
+                    "frameName": "Suspiciousness",
+                    "ko_annotation_id": 4,
+                    "origin_lus": [
+                        "questionable"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "behavior",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 5,
-                            "end": 11
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Suspiciousness",
-                "origin_lus": [
-                    "questionable"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 16317,
-                "sent_id": 3126
-            }
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4"
         }
     ],
+    "frameName": "Suspicion",
+    "lu_id": 3,
     "frameID": 503,
-    "en_lu": [
+    "ko_lu": "의문시되다.v.Suspicion",
+    "en_lus": [
         "questionable"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Suspicion"
+    ]
 }

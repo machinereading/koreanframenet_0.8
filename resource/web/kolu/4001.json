@@ -1,61 +1,58 @@
 {
-    "ko_lu": "근무하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 12537",
-            "examples": {
-                "ko_annotation_id": 12537,
-                "denotations": [
-                    {
-                        "obj": "employee",
-                        "span": {
-                            "begin": 0,
-                            "end": 9
+            "examples": [
+                {
+                    "text": "낮 열두 시경에 가와고에로 향하는 나룻배가 뜨는데, 거기에 시즈가 타고 있다는 기별이 왔기 때문이다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4376,
+                    "frameName": "Vehicle",
+                    "ko_annotation_id": 13447,
+                    "origin_lus": [
+                        "takase bune .高瀬 船"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "obj": "Itinerary"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "place_of_employment",
-                        "span": {
-                            "begin": 11,
-                            "end": 15
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 18
+                            },
+                            "obj": "Itinerary"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 18,
-                            "end": 21
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "obj": "Vehicle"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Being_employed",
-                "origin_lus": [
-                    "work"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13291,
-                "sent_id": 2651
-            }
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13447"
         }
     ],
-    "frameID": 282,
-    "en_lu": [
-        "work"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Being_employed"
+    "frameName": "Vehicle",
+    "lu_id": 4001,
+    "frameID": 429,
+    "ko_lu": "나룻.n.Vehicle",
+    "en_lus": [
+        "takase bune .高瀬 船"
+    ]
 }

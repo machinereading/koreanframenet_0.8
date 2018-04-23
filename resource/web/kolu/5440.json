@@ -1,48 +1,65 @@
 {
-    "ko_lu": "장치.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 17006",
-            "examples": {
-                "ko_annotation_id": 17006,
-                "denotations": [
-                    {
-                        "obj": "aggregateproperty",
-                        "span": {
-                            "begin": 42,
-                            "end": 45
+            "examples": [
+                {
+                    "text": "이것이 발생하면서, 콜롬비아, 쿠바, 파나마 그리고 니카라과로 인용된 4 개국은 언론이 많은 공격을 받고 있을 뿐만 아니라 마약  좌파 정치와 연결되어 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 46,
-                            "end": 48
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9637,
+                    "sent_id": 1991,
+                    "frameName": "Cognitive_connection",
+                    "ko_annotation_id": 18758,
+                    "origin_lus": [
+                        "linked"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 43
+                            },
+                            "obj": "concept_1",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Aggregate",
-                "origin_lus": [
-                    "assemblies"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13316,
-                "sent_id": 2659
-            }
+                        {
+                            "span": {
+                                "begin": 69,
+                                "end": 78
+                            },
+                            "obj": "concept_2",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 80,
+                                "end": 83
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18758"
         }
     ],
-    "frameID": 103,
-    "en_lu": [
-        "assembly"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Aggregate"
+    "frameName": "Cognitive_connection",
+    "lu_id": 5440,
+    "frameID": 720,
+    "ko_lu": "연결되다.v.Cognitive_connection",
+    "en_lus": [
+        "link"
+    ]
 }

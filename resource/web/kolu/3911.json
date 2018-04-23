@@ -1,74 +1,134 @@
 {
-    "ko_lu": "분리.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 12249",
-            "examples": {
-                "ko_annotation_id": 12249,
-                "denotations": [
-                    {
-                        "obj": "cognizer",
-                        "span": {
-                            "begin": 0,
-                            "end": 1
+            "examples": [
+                {
+                    "text": "민간 투자는 점점 더 최신의 연락선이 지나가는 것을 가능케 하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "phenomenon_1",
-                        "span": {
-                            "begin": 32,
-                            "end": 41
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "phenomenon_2",
-                        "span": {
-                            "begin": 43,
-                            "end": 50
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3288,
+                    "sent_id": 615,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 16786,
+                    "origin_lus": [
+                        "sent",
+                        "made"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "obj": "cause",
+                            "id": "2"
                         },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 52,
-                            "end": 54
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 19
+                            },
+                            "obj": "effect",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Differentiation",
-                "origin_lus": [
-                    "separate"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7111,
-                "sent_id": 1496
-            }
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "obj": "effect",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 34
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16786"
+        },
+        {
+            "examples": [
+                {
+                    "text": "확실히, 광범위한 오일 파생의 중간급인, 특히 에틸렌옥사이드의 유용성은 북한의 능력 범위 내에서 충분히 겨자와 같은 단순한 화학무기 작용제의 대규모 제조를 할 수 있게 한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14068,
+                    "sent_id": 2780,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 13167,
+                    "origin_lus": [
+                        "makes"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 38
+                            },
+                            "obj": "cause",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 85
+                            },
+                            "obj": "effect",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 87,
+                                "end": 95
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13167"
         }
     ],
-    "frameID": 24,
-    "en_lu": [
-        "separate"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Differentiation"
+    "frameName": "Causation",
+    "lu_id": 3911,
+    "frameID": 5,
+    "ko_lu": "하다.a.Causation",
+    "en_lus": [
+        "make",
+        "make",
+        "sent"
+    ]
 }

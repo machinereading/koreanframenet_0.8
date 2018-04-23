@@ -1,47 +1,65 @@
 {
-    "ko_lu": "올리다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 3886",
-            "examples": {
-                "ko_annotation_id": 3886,
-                "denotations": [
-                    {
-                        "obj": "Agent",
-                        "span": {
-                            "begin": 65,
-                            "end": 75
+            "examples": [
+                {
+                    "text": "그는 또한 유엔이 쿠웨이트 침공에 대해 이라크에 대한 제재를 가했을 때인, 1990년 이후 영양 실조와 소아마비의 사례에 있어서는 두 배가 된 사례를 목격하였다고 이라크 통신사가 말하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Attribute",
-                        "span": {
-                            "begin": 78,
-                            "end": 82
+                    ],
+                    "annotation_id": 7350,
+                    "sent_id": 1528,
+                    "frameName": "Perception_experience",
+                    "ko_annotation_id": 3994,
+                    "origin_lus": [
+                        "witnessed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "obj": "perceiver_passive",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 82
+                            },
+                            "obj": "phenomenon",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 84,
+                                "end": 87
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 84,
-                            "end": 86
-                        }
-                    }
-                ],
-                "frameName": "Cause_change_of_position_on_a_scale",
-                "origin_lus": [
-                    "ageru .あげる "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4440
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 3994"
         }
     ],
-    "frameID": 96,
-    "en_lu": [
-        "ageru .あげる "
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cause_change_of_position_on_a_scale"
+    "frameName": "Perception_experience",
+    "lu_id": 1298,
+    "frameID": 70,
+    "ko_lu": "목격하다.v.Perception_experience",
+    "en_lus": [
+        "witness"
+    ]
 }

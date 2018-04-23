@@ -1,0 +1,31 @@
+<HTML>
+	<HEAD> 
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	</HEAD>
+
+	<BODY> 
+
+	    <script language="JavaScript">
+			<!--  
+				var innerHTML = "";   
+				innerHTML += "<div style=\"float:right;\"><a href=\'http://framenet.kaist.ac.kr/frameIndex.xml?banner=\'>" + "Frame Index" +  "</a></div>"
+
+				innerHTML += "<div style=\"float:right;\">&nbsp;&nbsp;</div>"
+				//innerHTML += "<div style=\"float:right;\"><a href=\'http://framenet.kaist.ac.kr/luIndex.xml?banner=\'>" + "Lexical Unit Index" +  "</a></div>"
+				innerHTML += "<h1><b>" + 'Korean FrameNet Fulltext Annotation' + "</b></h1><br />";
+
+	            innerHTML += '<font size=3>';
+	            for (var i=1; i<=28; i++) {
+	            	innerHTML += '&nbsp;<a href=\"http://framenet.kaist.ac.kr/fulltext_new/fulltext.html?index=' + (i*200-199) + '\">Korean Fulltext ' + i + '</a>' + '<br />';
+	            }
+//	            for (var i=0; i<myJSON.length; i++) {
+//	            	innerHTML += '<b>' + (i+1) + '. </b>' + highlightedSent(myJSON[i], i) + '<br /><br />';
+//	            }
+	            innerHTML += '</font>';
+
+
+				document.body.innerHTML = innerHTML;
+			// -->
+		</script>
+	</BODY>
+</HTML>

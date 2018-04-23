@@ -1,61 +1,52 @@
 {
-    "ko_lu": "어루만지다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 2653",
-            "examples": {
-                "ko_annotation_id": 2653,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 25,
-                            "end": 27
+            "examples": [
+                {
+                    "text": "화요일의 파괴적인 지진 후 길고, 무서운 밤에 Bay Area 주민들은 그들이 할 수 있는 곳에서는 어디에서나 평안과 위로를 찾았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 643,
+                    "sent_id": 99,
+                    "frameName": "Residence",
+                    "ko_annotation_id": 2698,
+                    "origin_lus": [
+                        "residents"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 34
+                            },
+                            "obj": "location",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 40,
-                            "end": 45
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 47,
-                            "end": 51
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Manipulation",
-                "origin_lus": [
-                    "caress"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4592,
-                "sent_id": 883
-            }
+                        {
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 2698"
         }
     ],
-    "frameID": 17,
-    "en_lu": [
-        "caress"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Manipulation"
+    "frameName": "Residence",
+    "lu_id": 909,
+    "frameID": 110,
+    "ko_lu": "주민.n.Residence",
+    "en_lus": [
+        "resident"
+    ]
 }

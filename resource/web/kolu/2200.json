@@ -1,74 +1,52 @@
 {
-    "ko_lu": "엄마.n",
+    "ko_pos": "NNB",
     "patterns": [
         {
-            "valenceText": "annotation id: 6589",
-            "examples": {
-                "ko_annotation_id": 6589,
-                "denotations": [
-                    {
-                        "obj": "ego",
-                        "span": {
-                            "begin": 16,
-                            "end": 18
+            "examples": [
+                {
+                    "text": "최악인 것은 나의 머리 위로 흔들리는 송전선을 보는 것이었고 운전하여 떠날 방법이 없었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 751,
+                    "sent_id": 125,
+                    "frameName": "Part_whole",
+                    "ko_annotation_id": 7088,
+                    "origin_lus": [
+                        "part"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "part_prop",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 20,
-                            "end": 22
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Kinship",
-                "origin_lus": [
-                    "mother",
-                    "Mom"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 6308,
-                "sent_id": 1248
-            }
-        },
-        {
-            "valenceText": "annotation id: 6590",
-            "examples": {
-                "ko_annotation_id": 6590,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Kinship",
-                "origin_lus": [
-                    "mother",
-                    "Mom"
-                ],
-                "relations": [],
-                "annotation_id": 2303,
-                "sent_id": 439
-            }
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 5
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7088"
         }
     ],
-    "frameID": 104,
-    "en_lu": [
-        "Mom",
-        "mother"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Kinship"
+    "frameName": "Part_whole",
+    "lu_id": 2200,
+    "frameID": 140,
+    "ko_lu": "것.n.Part_whole",
+    "en_lus": [
+        "part"
+    ]
 }

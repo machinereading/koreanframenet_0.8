@@ -1,48 +1,52 @@
 {
-    "ko_lu": "필요성.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 6106",
-            "examples": {
-                "ko_annotation_id": 6106,
-                "denotations": [
-                    {
-                        "obj": "requirement",
-                        "span": {
-                            "begin": 53,
-                            "end": 61
+            "examples": [
+                {
+                    "text": "버스들은 위치에 접근하고 있는 낯선 사람들의 이동을 추적하는 임무가 맡겨진다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7763,
+                    "sent_id": 1595,
+                    "frameName": "Cotheme",
+                    "ko_annotation_id": 6429,
+                    "origin_lus": [
+                        "tracking"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 27
+                            },
+                            "obj": "cotheme",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 62,
-                            "end": 65
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Needing",
-                "origin_lus": [
-                    "need"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 17099,
-                "sent_id": 3241
-            }
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6429"
         }
     ],
-    "frameID": 1375,
-    "en_lu": [
-        "need"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Needing"
+    "frameName": "Cotheme",
+    "lu_id": 2047,
+    "frameID": 56,
+    "ko_lu": "추적하다.v.Cotheme",
+    "en_lus": [
+        "track"
+    ]
 }

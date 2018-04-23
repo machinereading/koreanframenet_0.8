@@ -1,87 +1,38 @@
 {
-    "ko_lu": "구입하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 10253",
-            "examples": {
-                "ko_annotation_id": 10253,
-                "denotations": [
-                    {
-                        "obj": "buyer",
-                        "span": {
-                            "begin": 11,
-                            "end": 13
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "seller",
-                        "span": {
-                            "begin": 15,
-                            "end": 24
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "goods",
-                        "span": {
-                            "begin": 27,
-                            "end": 32
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 34,
-                            "end": 37
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "goods",
-                        "span": {
-                            "begin": 53,
-                            "end": 79
-                        },
-                        "id": "5"
-                    }
-                ],
-                "frameName": "Commerce_buy",
-                "origin_lus": [
-                    "purchase"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "5",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10720,
-                "sent_id": 2149
-            }
+            "examples": [
+                {
+                    "text": "그들의 위험은 매우 커서, 수백 명의 사람들이 경찰과 군에 자원하였고, 수천 명의 사람들이 그들의 종교를 포기하고 변덕스런 사람들이라는 소리를 들으며, 선거에 참여하였다.",
+                    "relations": [],
+                    "annotation_id": 8862,
+                    "sent_id": 1845,
+                    "frameName": "Commitment",
+                    "ko_annotation_id": 11248,
+                    "origin_lus": [
+                        "volunteered"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11248"
         }
     ],
-    "frameID": 171,
-    "en_lu": [
-        "purchase"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Commerce_buy"
+    "frameName": "Commitment",
+    "lu_id": 3355,
+    "frameID": 33,
+    "ko_lu": "자원하다.v.Commitment",
+    "en_lus": [
+        "volunteer"
+    ]
 }

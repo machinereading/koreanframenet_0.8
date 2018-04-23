@@ -1,33 +1,194 @@
 {
-    "ko_lu": "확실하다.a",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 8264",
-            "examples": {
-                "ko_annotation_id": 8264,
-                "denotations": [
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 0,
-                            "end": 3
+            "examples": [
+                {
+                    "text": "많은 자마이카인들은 더 공부하기 위해 미국으로 가고 있고, 기업 투자 및 계획과 같은 분야에서 미국의 경제적 영향은 증가하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
                         }
-                    }
-                ],
-                "frameName": "Certainty",
-                "origin_lus": [
-                    "tasika .確か "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4576
-            }
+                    ],
+                    "annotation_id": 4713,
+                    "sent_id": 911,
+                    "frameName": "Self_motion",
+                    "ko_annotation_id": 8658,
+                    "origin_lus": [
+                        "head"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "obj": "self_mover",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 20
+                            },
+                            "obj": "reason",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "obj": "goal",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 30
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8658"
+        },
+        {
+            "examples": [
+                {
+                    "text": "수백 명의 캘리포니아인들은 지진 후 그들의 컴퓨터에 가서, 전화선을 통해 컴퓨터를 CB-라디오 형태로 연결하는 전자 게시판 상에서 서로를 점검하였다,",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 652,
+                    "sent_id": 100,
+                    "frameName": "Self_motion",
+                    "ko_annotation_id": 14597,
+                    "origin_lus": [
+                        "made",
+                        "susumu .進む"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "obj": "self_mover",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "obj": "time",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 27
+                            },
+                            "obj": "path",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 30
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14597"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그리고 나서 다시 털석 의자에 앉으려고 했지만 뭔가 생각이 난 듯, 갑자기 드르렁 드드렁 코를 골고 있는 청개구리 쪽으로 가서, 닥치는 대로 모두의 지갑을 꺼내 안을 열었습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4166,
+                    "frameName": "Self_motion",
+                    "ko_annotation_id": 14598,
+                    "origin_lus": [
+                        "made",
+                        "susumu .進む"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 36
+                            },
+                            "obj": "Internal_cause"
+                        },
+                        {
+                            "span": {
+                                "begin": 38,
+                                "end": 41
+                            },
+                            "obj": "Manner"
+                        },
+                        {
+                            "span": {
+                                "begin": 42,
+                                "end": 65
+                            },
+                            "obj": "Direction"
+                        },
+                        {
+                            "span": {
+                                "begin": 68,
+                                "end": 69
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 14598"
         }
     ],
-    "frameID": 141,
-    "en_lu": [
-        "tasika .確か "
-    ],
-    "ko_pos": "VA",
-    "frameName": "Certainty"
+    "frameName": "Self_motion",
+    "lu_id": 2681,
+    "frameID": 64,
+    "ko_lu": "가다.v.Self_motion",
+    "en_lus": [
+        "head",
+        "susumu .進む",
+        "make"
+    ]
 }

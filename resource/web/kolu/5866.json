@@ -1,47 +1,65 @@
 {
-    "ko_lu": "위자료.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 18405",
-            "examples": {
-                "ko_annotation_id": 18405,
-                "denotations": [
-                    {
-                        "obj": "Agent",
-                        "span": {
-                            "begin": 12,
-                            "end": 15
+            "examples": [
+                {
+                    "text": "Shehab-1 과 Shehab-2 시스템의 상대적 숫자는 이란이 Shhabe-2 형태의 초기 시스템을 업그레드하면 Shehab-2를 더 선호하는 쪽으로 바뀔 수 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Problem",
-                        "span": {
-                            "begin": 34,
-                            "end": 39
+                    ],
+                    "annotation_id": 12638,
+                    "sent_id": 2528,
+                    "frameName": "Attempt",
+                    "ko_annotation_id": 20197,
+                    "origin_lus": [
+                        "undertakes"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 33,
+                                "end": 35
+                            },
+                            "obj": "agent",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 37,
+                                "end": 63
+                            },
+                            "obj": "goal",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 58,
+                                "end": 63
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 22,
-                            "end": 25
-                        }
-                    }
-                ],
-                "frameName": "Resolve_problem",
-                "origin_lus": [
-                    "kaiketu .解決 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3848
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20197"
         }
     ],
-    "frameID": 1523,
-    "en_lu": [
-        "kaiketu .解決 "
-    ],
-    "ko_pos": "NN",
-    "frameName": "Resolve_problem"
+    "frameName": "Attempt",
+    "lu_id": 5866,
+    "frameID": 116,
+    "ko_lu": "업그레이드하다.v.Attempt",
+    "en_lus": [
+        "undertakes"
+    ]
 }

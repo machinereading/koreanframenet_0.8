@@ -1,48 +1,65 @@
 {
-    "ko_lu": "일련.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 16457",
-            "examples": {
-                "ko_annotation_id": 16457,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 80,
-                            "end": 82
+            "examples": [
+                {
+                    "text": "1985년 3월 12일에, 이란은 0240 시 부대가 리비아로부터 공급 받은 스커드-B를  Kirkuk에 발사함으로 이라크에 대한 최초의 탄도 미사일 공격을 개시하였다 .",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "individuals",
-                        "span": {
-                            "begin": 84,
-                            "end": 88
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 12278,
+                    "sent_id": 2440,
+                    "frameName": "Supply",
+                    "ko_annotation_id": 18080,
+                    "origin_lus": [
+                        "supplied"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "obj": "supplier",
+                            "id": "2"
                         },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Aggregate",
-                "origin_lus": [
-                    "cluster"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8570,
-                "sent_id": 1761
-            }
+                        {
+                            "span": {
+                                "begin": 37,
+                                "end": 42
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        },
+                        {
+                            "span": {
+                                "begin": 43,
+                                "end": 48
+                            },
+                            "obj": "theme",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18080"
         }
     ],
-    "frameID": 103,
-    "en_lu": [
-        "cluster"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Aggregate"
+    "frameName": "Supply",
+    "lu_id": 5248,
+    "frameID": 1346,
+    "ko_lu": "공급받다.v.Supply",
+    "en_lus": [
+        "supply"
+    ]
 }

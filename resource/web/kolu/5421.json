@@ -1,40 +1,91 @@
 {
-    "ko_lu": "확실하다.a",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 16953",
-            "examples": {
-                "ko_annotation_id": 16953,
-                "denotations": [
-                    {
-                        "obj": "Phenomenon",
-                        "span": {
-                            "begin": 28,
-                            "end": 30
+            "examples": [
+                {
+                    "text": "웨스팅하우스 Anniston, 그의 하도급 업체들과 Anniston 화학 작용제 처분 시설은 8.7 백만 이상의 안전 작업시간, 2,214 안전 작업일과 5월 말 현재까지 일한 200,000 시간당 0.49 의 기록적인 상해율을 가지고 있다.",
+                    "relations": [],
+                    "annotation_id": 16911,
+                    "sent_id": 3223,
+                    "frameName": "Being_employed",
+                    "ko_annotation_id": 18690,
+                    "origin_lus": [
+                        "work"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 66,
+                                "end": 68
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 24,
-                            "end": 27
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18690"
+        },
+        {
+            "examples": [
+                {
+                    "text": "소비에트 과학자들은 이란의 핵 프로그램에 대한 작업을 위해 월 20,000 달러까지 제의받는다 ( 7325 ).",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    }
-                ],
-                "frameName": "Obviousness",
-                "origin_lus": [
-                    "hakkiri .はっきり"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3892
-            }
+                    ],
+                    "annotation_id": 18307,
+                    "sent_id": 3484,
+                    "frameName": "Being_employed",
+                    "ko_annotation_id": 18691,
+                    "origin_lus": [
+                        "work"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "obj": "employee",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 25
+                            },
+                            "obj": "task",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 18691"
         }
     ],
-    "frameID": 1360,
-    "en_lu": [
-        "hakkiri .はっきり"
-    ],
-    "ko_pos": "VA",
-    "frameName": "Obviousness"
+    "frameName": "Being_employed",
+    "lu_id": 5421,
+    "frameID": 282,
+    "ko_lu": "작업.n.Being_employed",
+    "en_lus": [
+        "work"
+    ]
 }

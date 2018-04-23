@@ -1,74 +1,52 @@
 {
-    "ko_lu": "구매하다.v",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 18422",
-            "examples": {
-                "ko_annotation_id": 18422,
-                "denotations": [
-                    {
-                        "obj": "buyer",
-                        "span": {
-                            "begin": 13,
-                            "end": 15
+            "examples": [
+                {
+                    "text": "현대식 120 명의 승객이 승차하는 객차들은 약 8분만에 그 여정을 마친다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5614,
+                    "sent_id": 1077,
+                    "frameName": "Stage_of_progress",
+                    "ko_annotation_id": 20237,
+                    "origin_lus": [
+                        "modern"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "seller",
-                        "span": {
-                            "begin": 42,
-                            "end": 51
-                        },
-                        "id": "4"
-                    },
-                    {
-                        "obj": "goods",
-                        "span": {
-                            "begin": 59,
-                            "end": 62
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 64,
-                            "end": 69
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Commerce_buy",
-                "origin_lus": [
-                    "purchase"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "4",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 10835,
-                "sent_id": 2174
-            }
+                        {
+                            "span": {
+                                "begin": 4,
+                                "end": 23
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 20237"
         }
     ],
-    "frameID": 171,
-    "en_lu": [
-        "purchase"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Commerce_buy"
+    "frameName": "Stage_of_progress",
+    "lu_id": 5879,
+    "frameID": 1341,
+    "ko_lu": "현대식.n.Stage_of_progress",
+    "en_lus": [
+        "modern"
+    ]
 }

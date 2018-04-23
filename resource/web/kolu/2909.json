@@ -1,48 +1,65 @@
 {
-    "ko_lu": "논란.n",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 8809",
-            "examples": {
-                "ko_annotation_id": 8809,
-                "denotations": [
-                    {
-                        "obj": "topic",
-                        "span": {
-                            "begin": 0,
-                            "end": 9
+            "examples": [
+                {
+                    "text": "버스들은 다음 사항을 구비해야 한다 : 1- 가벼운 갑옷과 로켓탄 발사기 2- 위험 활동을 보고할 무선 장비 3- 의심스러운 활동이나 면허판 번호를 적기 위한 필기물 4- 기총 발사로부터 보호하기 위한 버스 둘레의 샌드백",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 10,
-                            "end": 12
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7752,
+                    "sent_id": 1593,
+                    "frameName": "Substance",
+                    "ko_annotation_id": 9483,
+                    "origin_lus": [
+                        "materials"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 64,
+                                "end": 88
+                            },
+                            "obj": "use",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Discussion",
-                "origin_lus": [
-                    "debate"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 2183,
-                "sent_id": 416
-            }
+                        {
+                            "span": {
+                                "begin": 89,
+                                "end": 92
+                            },
+                            "obj": "type",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 89,
+                                "end": 92
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 9483"
         }
     ],
-    "frameID": 34,
-    "en_lu": [
-        "debate"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Discussion"
+    "frameName": "Substance",
+    "lu_id": 2909,
+    "frameID": 1321,
+    "ko_lu": "필기물.n.Substance",
+    "en_lus": [
+        "material"
+    ]
 }

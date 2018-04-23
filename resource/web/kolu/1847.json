@@ -1,48 +1,52 @@
 {
-    "ko_lu": "연결.n",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 5533",
-            "examples": {
-                "ko_annotation_id": 5533,
-                "denotations": [
-                    {
-                        "obj": "individual2",
-                        "span": {
-                            "begin": 13,
-                            "end": 28
+            "examples": [
+                {
+                    "text": "대학들은 전 세계에서 학생들을 끌어들이고, 이러한 유입은 더블린을 분주하고, 왁자지껄한 국제 도시로 만들도록 돕는다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5272,
+                    "sent_id": 1001,
+                    "frameName": "Lively_place",
+                    "ko_annotation_id": 5782,
+                    "origin_lus": [
+                        "buzzing"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 43,
+                                "end": 48
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 31,
-                            "end": 33
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Social_connection",
-                "origin_lus": [
-                    "connections"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 15626,
-                "sent_id": 3026
-            }
+                        {
+                            "span": {
+                                "begin": 52,
+                                "end": 54
+                            },
+                            "obj": "location",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 5782"
         }
     ],
-    "frameID": 253,
-    "en_lu": [
-        "connection"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Social_connection"
+    "frameName": "Lively_place",
+    "lu_id": 1847,
+    "frameID": 1904,
+    "ko_lu": "왁자지껄하다.a.Lively_place",
+    "en_lus": [
+        "buzzing"
+    ]
 }

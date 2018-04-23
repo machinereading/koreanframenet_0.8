@@ -1,40 +1,145 @@
 {
-    "ko_lu": "고용.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 1460",
-            "examples": {
-                "ko_annotation_id": 1460,
-                "denotations": [
-                    {
-                        "obj": "Place",
-                        "span": {
-                            "begin": 21,
-                            "end": 25
+            "examples": [
+                {
+                    "text": "AKU는 480 명의 상근 교사와 550 명의 행정 고용원을 고용하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 13,
-                            "end": 15
+                    ],
+                    "annotation_id": 11002,
+                    "sent_id": 2205,
+                    "frameName": "Employing",
+                    "ko_annotation_id": 1467,
+                    "origin_lus": [
+                        "employs"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "employer",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 32
+                            },
+                            "obj": "employee",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Employing",
-                "origin_lus": [
-                    "koyoo .雇用 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4123
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 1467"
+        },
+        {
+            "examples": [
+                {
+                    "text": "그는 완전 외국 소유의 회사들을 포함하여 전자 상거래에 종사하는 회사들이 개방 지역에 사무실을 설치하고 직원을 고용하고 장비를 소유할 수 있을 것이라고 말하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "5",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8325,
+                    "sent_id": 1710,
+                    "frameName": "Employing",
+                    "ko_annotation_id": 16703,
+                    "origin_lus": [
+                        "employ",
+                        "employed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 3,
+                                "end": 21
+                            },
+                            "obj": "employer",
+                            "id": "4"
+                        },
+                        {
+                            "span": {
+                                "begin": 23,
+                                "end": 39
+                            },
+                            "obj": "employer",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 41,
+                                "end": 46
+                            },
+                            "obj": "place",
+                            "id": "5"
+                        },
+                        {
+                            "span": {
+                                "begin": 58,
+                                "end": 60
+                            },
+                            "obj": "employee",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 62,
+                                "end": 65
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16703"
         }
     ],
+    "frameName": "Employing",
+    "lu_id": 522,
     "frameID": 323,
-    "en_lu": [
-        "koyoo .雇用 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Employing"
+    "ko_lu": "고용하다.v.Employing",
+    "en_lus": [
+        "employ"
+    ]
 }

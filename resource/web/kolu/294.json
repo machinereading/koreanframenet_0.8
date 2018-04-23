@@ -1,91 +1,52 @@
 {
-    "ko_lu": "중점.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 801",
-            "examples": {
-                "ko_annotation_id": 801,
-                "denotations": [
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "consideration",
-                        "span": {
-                            "begin": 4,
-                            "end": 35
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 37,
-                            "end": 42
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Place_weight_on",
-                "origin_lus": [
-                    "emphasized"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14345,
-                "sent_id": 2826
-            }
-        },
-        {
-            "valenceText": "annotation id: 4782",
-            "examples": {
-                "ko_annotation_id": 4782,
-                "denotations": [
-                    {
-                        "obj": "Consideration",
-                        "span": {
-                            "begin": 0,
-                            "end": 8
+            "examples": [
+                {
+                    "text": "미국 정부는 생물 무기 작용제 비축량은 폐기되었지만, 생물무기금지협약을 위반하는 활동은 러시아의 몇몇 군용 생물 시설에서 계속될 것으로 믿고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 10,
-                            "end": 12
+                    ],
+                    "annotation_id": 15422,
+                    "sent_id": 2994,
+                    "frameName": "Destroying",
+                    "ko_annotation_id": 804,
+                    "origin_lus": [
+                        "destroyed"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 20
+                            },
+                            "obj": "undergoer",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Place_weight_on",
-                "origin_lus": [
-                    "zyuuten .重点 "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3619
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 804"
         }
     ],
-    "frameID": 1542,
-    "en_lu": [
-        "emphasize",
-        "zyuuten .重点 "
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Emphasizing"
+    "frameName": "Destroying",
+    "lu_id": 294,
+    "frameID": 417,
+    "ko_lu": "폐기되다.v.Destroying",
+    "en_lus": [
+        "destroyed"
+    ]
 }

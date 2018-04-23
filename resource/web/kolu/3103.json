@@ -1,61 +1,145 @@
 {
-    "ko_lu": "제조하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 9482",
-            "examples": {
-                "ko_annotation_id": 9482,
-                "denotations": [
-                    {
-                        "obj": "created_entity",
-                        "span": {
-                            "begin": 4,
-                            "end": 7
+            "examples": [
+                {
+                    "text": "너는 무슨 일이 일어나는지 모르는 동굴에 있거나 있어야 한다.",
+                    "relations": [],
+                    "annotation_id": 9355,
+                    "sent_id": 1934,
+                    "frameName": "Natural_features",
+                    "ko_annotation_id": 10192,
+                    "origin_lus": [
+                        "cave",
+                        "caves",
+                        "dookutu .洞窟 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10192"
+        },
+        {
+            "examples": [
+                {
+                    "text": "러시아 군인들이 쓴 낙서는 Antiparos의 동굴에서 볼 수 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3075,
+                    "sent_id": 580,
+                    "frameName": "Natural_features",
+                    "ko_annotation_id": 10193,
+                    "origin_lus": [
+                        "cave",
+                        "caves",
+                        "dookutu .洞窟 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 15,
+                                "end": 24
+                            },
+                            "obj": "container_possessor",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 9,
-                            "end": 14
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10193"
+        },
+        {
+            "examples": [
+                {
+                    "text": "이 기간 동안, 해안가에 모인 포유동물을 사냥하며, 동굴에서 토착민들이 살았다.",
+                    "relations": [],
+                    "annotation_id": 3850,
+                    "sent_id": 731,
+                    "frameName": "Natural_features",
+                    "ko_annotation_id": 10194,
+                    "origin_lus": [
+                        "cave",
+                        "caves",
+                        "dookutu .洞窟 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 31
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10194"
+        },
+        {
+            "examples": [
+                {
+                    "text": "박쥐도 훌륭한 생물시계를 지니고 있어, 날이 저물었음을 감지하면 동굴에서 나와 먹이를 찾기 시작합니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4465,
+                    "frameName": "Natural_features",
+                    "ko_annotation_id": 10195,
+                    "origin_lus": [
+                        "cave",
+                        "caves",
+                        "dookutu .洞窟 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 38
+                            },
+                            "obj": "Locale"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "agent",
-                        "span": {
-                            "begin": 15,
-                            "end": 17
-                        },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Building",
-                "origin_lus": [
-                    "build"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18362,
-                "sent_id": 3498
-            }
+                        {
+                            "span": {
+                                "begin": 36,
+                                "end": 38
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 10195"
         }
     ],
-    "frameID": 259,
-    "en_lu": [
-        "build"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Building"
+    "frameName": "Natural_features",
+    "lu_id": 3103,
+    "frameID": 191,
+    "ko_lu": "동굴.n.Natural_features",
+    "en_lus": [
+        "cave",
+        "dookutu .洞窟 "
+    ]
 }

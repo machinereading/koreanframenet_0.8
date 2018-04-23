@@ -1,85 +1,78 @@
 {
-    "ko_lu": "결과.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 10251",
-            "examples": {
-                "ko_annotation_id": 10251,
-                "denotations": [
-                    {
-                        "obj": "bearer",
-                        "span": {
-                            "begin": 32,
-                            "end": 37
+            "examples": [
+                {
+                    "text": "HGTC의 등록 간호사이고 강사인 Jennifer McLeod는 훈련에서 환자로 행동하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16491,
+                    "sent_id": 3158,
+                    "frameName": "Medical_professionals",
+                    "ko_annotation_id": 11245,
+                    "origin_lus": [
+                        "nurse"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 6,
+                                "end": 8
+                            },
+                            "obj": "type",
+                            "id": "2"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 61,
-                            "end": 63
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Documents",
-                "origin_lus": [
-                    "findings"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 7846,
-                "sent_id": 1609
-            }
+                        {
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11245"
         },
         {
-            "valenceText": "annotation id: 10252",
-            "examples": {
-                "ko_annotation_id": 10252,
-                "denotations": [
-                    {
-                        "obj": "issuer",
-                        "span": {
-                            "begin": 8,
-                            "end": 15
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 16,
-                            "end": 18
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Documents",
-                "origin_lus": [
-                    "findings"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 14159,
-                "sent_id": 2799
-            }
+            "examples": [
+                {
+                    "text": "간호사로 일했기 때문에 그녀는 직원들에게 커브볼을 몇 개 던지기로 결정하였다.",
+                    "relations": [],
+                    "annotation_id": 16495,
+                    "sent_id": 3159,
+                    "frameName": "Medical_professionals",
+                    "ko_annotation_id": 11246,
+                    "origin_lus": [
+                        "nurse"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11246"
         }
     ],
-    "frameID": 560,
-    "en_lu": [
-        "finding"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Documents"
+    "frameName": "Medical_professionals",
+    "lu_id": 3354,
+    "frameID": 255,
+    "ko_lu": "간호사.n.Medical_professionals",
+    "en_lus": [
+        "nurse"
+    ]
 }

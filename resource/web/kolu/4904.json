@@ -1,48 +1,52 @@
 {
-    "ko_lu": "완전.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 15304",
-            "examples": {
-                "ko_annotation_id": 15304,
-                "denotations": [
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 25,
-                            "end": 27
+            "examples": [
+                {
+                    "text": "그러나, 어떤 핵무기 프로그램도 구체화되거나 착수되지 않았다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15937,
+                    "sent_id": 3063,
+                    "frameName": "Coming_to_be",
+                    "ko_annotation_id": 16861,
+                    "origin_lus": [
+                        "materialized"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 16
+                            },
+                            "obj": "entity",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "process",
-                        "span": {
-                            "begin": 28,
-                            "end": 35
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Process_completed_state",
-                "origin_lus": [
-                    "complete"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 13304,
-                "sent_id": 2655
-            }
+                        {
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 16861"
         }
     ],
-    "frameID": 234,
-    "en_lu": [
-        "complete"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Process_completed_state"
+    "frameName": "Coming_to_be",
+    "lu_id": 4904,
+    "frameID": 316,
+    "ko_lu": "구체화되다.v.Coming_to_be",
+    "en_lus": [
+        "materialize"
+    ]
 }

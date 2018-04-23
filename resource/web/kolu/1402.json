@@ -1,61 +1,52 @@
 {
-    "ko_lu": "접촉.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 4166",
-            "examples": {
-                "ko_annotation_id": 4166,
-                "denotations": [
-                    {
-                        "obj": "addressee",
-                        "span": {
-                            "begin": 129,
-                            "end": 131
+            "examples": [
+                {
+                    "text": "러시아는 외부 원조가 증가되지 않으면 화학무기 비축량의 파괴를 보류할 수 있다는 한 선임 관료와 협상자의 발언이 AVN 군 통신사에 인용되었다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6813,
+                    "sent_id": 1388,
+                    "frameName": "Cause_change_of_position_on_a_scale",
+                    "ko_annotation_id": 4412,
+                    "origin_lus": [
+                        "increased"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "obj": "item",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 134,
-                            "end": 136
-                        },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "communicator",
-                        "span": {
-                            "begin": 139,
-                            "end": 141
-                        },
-                        "id": "2"
-                    }
-                ],
-                "frameName": "Contacting",
-                "origin_lus": [
-                    "contacts"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 18520,
-                "sent_id": 3533
-            }
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 4412"
         }
     ],
-    "frameID": 286,
-    "en_lu": [
-        "contact"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Contacting"
+    "frameName": "Cause_change_of_position_on_a_scale",
+    "lu_id": 1402,
+    "frameID": 96,
+    "ko_lu": "증가되다.v.Cause_change_of_position_on_a_scale",
+    "en_lus": [
+        "increase"
+    ]
 }

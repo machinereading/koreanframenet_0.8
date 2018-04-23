@@ -1,48 +1,51 @@
 {
-    "ko_lu": "보장하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 11255",
-            "examples": {
-                "ko_annotation_id": 11255,
-                "denotations": [
-                    {
-                        "obj": "hypothetical_event",
-                        "span": {
-                            "begin": 43,
-                            "end": 61
+            "examples": [
+                {
+                    "text": "긴 속눈썹 너머로 예리한 눈이 반짝이고 있었으나, 하지만 그는 때때로, 그 선명한 눈빛을 거둘 줄도 알았다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3907,
+                    "frameName": "Cause_to_end",
+                    "ko_annotation_id": 12072,
+                    "origin_lus": [
+                        "kesu .消す"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 32,
+                                "end": 33
+                            },
+                            "obj": "Agent"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 64,
-                            "end": 67
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 48
+                            },
+                            "obj": "State"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Likelihood",
-                "origin_lus": [
-                    "guaranteed"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 4573,
-                "sent_id": 880
-            }
+                        {
+                            "span": {
+                                "begin": 50,
+                                "end": 52
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 12072"
         }
     ],
-    "frameID": 114,
-    "en_lu": [
-        "guaranteed"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Likelihood"
+    "frameName": "Cause_to_end",
+    "lu_id": 3603,
+    "frameID": 1149,
+    "ko_lu": "거두다.v.Cause_to_end",
+    "en_lus": [
+        "kesu .消す"
+    ]
 }

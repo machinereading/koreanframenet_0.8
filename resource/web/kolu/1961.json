@@ -1,61 +1,65 @@
 {
-    "ko_lu": "보이다.v",
+    "ko_pos": "VA",
     "patterns": [
         {
-            "valenceText": "annotation id: 5869",
-            "examples": {
-                "ko_annotation_id": 5869,
-                "denotations": [
-                    {
-                        "obj": "arguer",
-                        "span": {
-                            "begin": 0,
-                            "end": 6
+            "examples": [
+                {
+                    "text": "일본은 경제 선진국 중 하나이므로, 2020년에 제조업 노종자 인구가 2%까지 급격히 감소할 것으로 예상되고 있습니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3981,
+                    "frameName": "Change_position_on_a_scale",
+                    "ko_annotation_id": 6132,
+                    "origin_lus": [
+                        "gekigen .激減 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Place"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "content",
-                        "span": {
-                            "begin": 8,
-                            "end": 57
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 25
+                            },
+                            "obj": "Time"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 59,
-                            "end": 61
+                        {
+                            "span": {
+                                "begin": 27,
+                                "end": 37
+                            },
+                            "obj": "Item"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Reasoning",
-                "origin_lus": [
-                    "demonstrating"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9943,
-                "sent_id": 2038
-            }
+                        {
+                            "span": {
+                                "begin": 39,
+                                "end": 41
+                            },
+                            "obj": "Final_value"
+                        },
+                        {
+                            "span": {
+                                "begin": 44,
+                                "end": 51
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6132"
         }
     ],
-    "frameID": 308,
-    "en_lu": [
-        "demonstrate"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Reasoning"
+    "frameName": "Change_position_on_a_scale",
+    "lu_id": 1961,
+    "frameID": 91,
+    "ko_lu": "급격하다.a.Change_position_on_a_scale",
+    "en_lus": [
+        "gekigen .激減 "
+    ]
 }

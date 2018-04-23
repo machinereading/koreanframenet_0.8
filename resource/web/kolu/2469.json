@@ -1,40 +1,65 @@
 {
-    "ko_lu": "전진하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 7457",
-            "examples": {
-                "ko_annotation_id": 7457,
-                "denotations": [
-                    {
-                        "obj": "Direction",
-                        "span": {
-                            "begin": 1,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "그것들이 사실이라면, 그것들은 탄핵 절차로까지 갈 수 있다는 것은 의문의 여지가 없다. \"",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 5,
-                            "end": 8
+                    ],
+                    "annotation_id": 5309,
+                    "sent_id": 1010,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 7996,
+                    "origin_lus": [
+                        "lead"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "obj": "cause",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 17,
+                                "end": 22
+                            },
+                            "obj": "effect",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 27
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Self_motion",
-                "origin_lus": [
-                    "susumu .進む"
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 4410
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7996"
         }
     ],
-    "frameID": 64,
-    "en_lu": [
-        "susumu .進む"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Self_motion"
+    "frameName": "Causation",
+    "lu_id": 2469,
+    "frameID": 5,
+    "ko_lu": "가다.v.Causation",
+    "en_lus": [
+        "lead"
+    ]
 }

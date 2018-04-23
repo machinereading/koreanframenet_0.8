@@ -1,48 +1,52 @@
 {
-    "ko_lu": "개국.n",
+    "ko_pos": "NN",
     "patterns": [
         {
-            "valenceText": "annotation id: 10332",
-            "examples": {
-                "ko_annotation_id": 10332,
-                "denotations": [
-                    {
-                        "obj": "descriptor",
-                        "span": {
-                            "begin": 39,
-                            "end": 43
+            "examples": [
+                {
+                    "text": "Ed_Hnery : 민주당 대표 Harry Reed는 백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을 조사하지 못했다고 공화당원들을 비난하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8415,
+                    "sent_id": 1725,
+                    "frameName": "Color",
+                    "ko_annotation_id": 11323,
+                    "origin_lus": [
+                        "White"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 41,
-                            "end": 43
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Political_locales",
-                "origin_lus": [
-                    "countries"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 9635,
-                "sent_id": 1991
-            }
+                        {
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "obj": "entity",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11323"
         }
     ],
-    "frameID": 195,
-    "en_lu": [
-        "country"
-    ],
-    "ko_pos": "NNB",
-    "frameName": "Political_locales"
+    "frameName": "Color",
+    "lu_id": 3379,
+    "frameID": 423,
+    "ko_lu": "백악관.n.Color",
+    "en_lus": [
+        "White"
+    ]
 }

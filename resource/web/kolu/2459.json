@@ -1,61 +1,65 @@
 {
-    "ko_lu": "비판적.n",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 7425",
-            "examples": {
-                "ko_annotation_id": 7425,
-                "denotations": [
-                    {
-                        "obj": "cognizer",
-                        "span": {
-                            "begin": 0,
-                            "end": 2
+            "examples": [
+                {
+                    "text": "소방관 책임 : 1- 소방 훈련 2- 훈련 철수 3- 확실히 하기 위해 소방 장비 감시 : A : 제자리에 위치한다 B : 파손시키지 않는다 4- 부정적인 것을 확인하기 위해 일부 테스트를 한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "evaluee",
-                        "span": {
-                            "begin": 25,
-                            "end": 35
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7951,
+                    "sent_id": 1625,
+                    "frameName": "State_continue",
+                    "ko_annotation_id": 7970,
+                    "origin_lus": [
+                        "remains"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 40,
+                                "end": 45
+                            },
+                            "obj": "entity",
+                            "id": "2"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 37,
-                            "end": 40
+                        {
+                            "span": {
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "obj": "state",
+                            "id": "3"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Judgment",
-                "origin_lus": [
-                    "critical"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 563,
-                "sent_id": 83
-            }
+                        {
+                            "span": {
+                                "begin": 60,
+                                "end": 63
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 7970"
         }
     ],
-    "frameID": 28,
-    "en_lu": [
-        "critical"
-    ],
-    "ko_pos": "NN",
-    "frameName": "Judgment"
+    "frameName": "State_continue",
+    "lu_id": 2459,
+    "frameID": 1155,
+    "ko_lu": "위치하다.v.State_continue",
+    "en_lus": [
+        "remains"
+    ]
 }

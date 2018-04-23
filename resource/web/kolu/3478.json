@@ -1,61 +1,52 @@
 {
-    "ko_lu": "변경.n",
+    "ko_pos": "NNB",
     "patterns": [
         {
-            "valenceText": "annotation id: 10831",
-            "examples": {
-                "ko_annotation_id": 10831,
-                "denotations": [
-                    {
-                        "obj": "entity",
-                        "span": {
-                            "begin": 8,
-                            "end": 10
+            "examples": [
+                {
+                    "text": "몇 가지 증거에 의하면 Al Qa' ida는 화학 및 생물무기 확보에 관심이 있다는 것을 암시하고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10251,
+                    "sent_id": 2091,
+                    "frameName": "Part_piece",
+                    "ko_annotation_id": 11666,
+                    "origin_lus": [
+                        "pieces"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 2,
+                                "end": 4
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "purpose",
-                        "span": {
-                            "begin": 16,
-                            "end": 33
-                        },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 49,
-                            "end": 51
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Cause_change",
-                "origin_lus": [
-                    "modification"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 11024,
-                "sent_id": 2210
-            }
+                        {
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "obj": "substance",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 11666"
         }
     ],
-    "frameID": 683,
-    "en_lu": [
-        "modification"
-    ],
-    "ko_pos": "NNG",
-    "frameName": "Cause_change"
+    "frameName": "Part_piece",
+    "lu_id": 3478,
+    "frameID": 142,
+    "ko_lu": "가지.n.Part_piece",
+    "en_lus": [
+        "piece"
+    ]
 }

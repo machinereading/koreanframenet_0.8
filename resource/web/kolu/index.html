@@ -19,7 +19,7 @@
 	            var indexHTML = ""; 
  
 				for (var i=0; i<myJSON.length; i++) { 
-					indexHTML += "<a href=\"javascript:top.frames['content']['content'].visualizeLU(" + myJSON[i].id + ",true)\">" + myJSON[i].lu + ' (' + myJSON[i].pos + ")</a> </br>";
+					indexHTML += "<a href=\"javascript:top.frames['content']['content'].visualizeLU(" + myJSON[i].id + ",true)\">" + myJSON[i].lu + "</a> </br>";
 				}
 
 				document.body.innerHTML = indexHTML;

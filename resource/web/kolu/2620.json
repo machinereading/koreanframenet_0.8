@@ -1,61 +1,52 @@
 {
-    "ko_lu": "가다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 7996",
-            "examples": {
-                "ko_annotation_id": 7996,
-                "denotations": [
-                    {
-                        "obj": "cause",
-                        "span": {
-                            "begin": 12,
-                            "end": 15
+            "examples": [
+                {
+                    "text": "오늘날 홍콩은 원래대로의 홍콩의 법과 권리를 가진 자본주의적 고립 지역으로 남고 중국은 홍콩이 최소 50년 동안 이러한 형태로 계속될 것을 약속하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4448,
+                    "sent_id": 858,
+                    "frameName": "Relational_quantity",
+                    "ko_annotation_id": 8517,
+                    "origin_lus": [
+                        "at least"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 53,
+                                "end": 55
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "3"
-                    },
-                    {
-                        "obj": "effect",
-                        "span": {
-                            "begin": 17,
-                            "end": 22
-                        },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 26,
-                            "end": 27
-                        },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Causation",
-                "origin_lus": [
-                    "lead"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 5309,
-                "sent_id": 1010
-            }
+                        {
+                            "span": {
+                                "begin": 56,
+                                "end": 59
+                            },
+                            "obj": "individuals",
+                            "id": "2"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 8517"
         }
     ],
-    "frameID": 5,
-    "en_lu": [
-        "lead"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Causation"
+    "frameName": "Relational_quantity",
+    "lu_id": 2620,
+    "frameID": 2427,
+    "ko_lu": "최소.n.Relational_quantity",
+    "en_lus": [
+        "at least"
+    ]
 }

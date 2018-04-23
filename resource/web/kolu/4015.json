@@ -1,40 +1,95 @@
 {
-    "ko_lu": "죽이다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 12558",
-            "examples": {
-                "ko_annotation_id": 12558,
-                "denotations": [
-                    {
-                        "obj": "Victim",
-                        "span": {
-                            "begin": 3,
-                            "end": 13
+            "examples": [
+                {
+                    "text": "QN : John은 로마 공항 세관 구역으로 통과하였나 ?",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 15,
-                            "end": 17
+                    ],
+                    "annotation_id": 6159,
+                    "sent_id": 1181,
+                    "frameName": "Locale",
+                    "ko_annotation_id": 13492,
+                    "origin_lus": [
+                        "area",
+                        "zone"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "obj": "container_possessor",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Cause_harm",
-                "origin_lus": [
-                    "kiru .斬る "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3642
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13492"
+        },
+        {
+            "examples": [
+                {
+                    "text": "6- 위치가 고도로 위험 구역이면, 그때는 두 개의 평행한 울타리가 3 미터 떨어져 세워져야 한다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7672,
+                    "sent_id": 1576,
+                    "frameName": "Locale",
+                    "ko_annotation_id": 13493,
+                    "origin_lus": [
+                        "area",
+                        "zone"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 7,
+                                "end": 13
+                            },
+                            "obj": "descriptor",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 13493"
         }
     ],
-    "frameID": 112,
-    "en_lu": [
-        "kiru .斬る "
-    ],
-    "ko_pos": "VV",
-    "frameName": "Cause_harm"
+    "frameName": "Locale",
+    "lu_id": 4015,
+    "frameID": 192,
+    "ko_lu": "구역.n.Locale",
+    "en_lus": [
+        "zone",
+        "area"
+    ]
 }

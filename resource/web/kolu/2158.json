@@ -1,40 +1,65 @@
 {
-    "ko_lu": "오래다.a",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 6460",
-            "examples": {
-                "ko_annotation_id": 6460,
-                "denotations": [
-                    {
-                        "obj": "Gradable_attribute",
-                        "span": {
-                            "begin": 23,
-                            "end": 24
+            "examples": [
+                {
+                    "text": "그들은 함께 혼합되어 흥미로운 국가 정체성을 나타내고 있다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
-                    },
-                    {
-                        "obj": "Target",
-                        "span": {
-                            "begin": 20,
-                            "end": 22
+                    ],
+                    "annotation_id": 4659,
+                    "sent_id": 896,
+                    "frameName": "Causation",
+                    "ko_annotation_id": 6885,
+                    "origin_lus": [
+                        "giving rise"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "obj": "cause",
+                            "id": "3"
+                        },
+                        {
+                            "span": {
+                                "begin": 12,
+                                "end": 23
+                            },
+                            "obj": "effect",
+                            "id": "2"
+                        },
+                        {
+                            "span": {
+                                "begin": 25,
+                                "end": 31
+                            },
+                            "obj": "target",
+                            "id": "1"
                         }
-                    }
-                ],
-                "frameName": "Degree",
-                "origin_lus": [
-                    "zutto .ずっと "
-                ],
-                "relations": [],
-                "annotation_id": 0,
-                "sent_id": 3705
-            }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 6885"
         }
     ],
-    "frameID": 2001,
-    "en_lu": [
-        "zutto .ずっと "
-    ],
-    "ko_pos": "VA",
-    "frameName": "Degree"
+    "frameName": "Causation",
+    "lu_id": 2158,
+    "frameID": 5,
+    "ko_lu": "나타내다.v.Causation",
+    "en_lus": [
+        "giving rise"
+    ]
 }

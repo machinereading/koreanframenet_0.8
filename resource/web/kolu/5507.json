@@ -1,48 +1,117 @@
 {
-    "ko_lu": "감소하다.v",
+    "ko_pos": "NNG",
     "patterns": [
         {
-            "valenceText": "annotation id: 17256",
-            "examples": {
-                "ko_annotation_id": 17256,
-                "denotations": [
-                    {
-                        "obj": "item",
-                        "span": {
-                            "begin": 72,
-                            "end": 77
+            "examples": [
+                {
+                    "text": "Bill_First : 종전의 민주당 대표나 현 민주장 대표와 함께 나는 이 당당한 단체의 리더십에 이와 같은 모욕으로 얼굴을 맞은 적이 없었다.",
+                    "relations": [],
+                    "annotation_id": 8430,
+                    "sent_id": 1729,
+                    "frameName": "Observable_body_parts",
+                    "ko_annotation_id": 19010,
+                    "origin_lus": [
+                        "face"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 67,
+                                "end": 69
+                            },
+                            "obj": "target",
+                            "id": "1"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19010"
+        },
+        {
+            "examples": [
+                {
+                    "text": "얼굴은, 사과처럼 붉고, 눈은, 커다랗고, 동그란, 머리가 큰 아이입니다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 3787,
+                    "frameName": "Observable_bodyparts",
+                    "ko_annotation_id": 19093,
+                    "origin_lus": [
+                        "kao .顔 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Body_part"
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 79,
-                            "end": 85
+                        {
+                            "span": {
+                                "begin": 29,
+                                "end": 38
+                            },
+                            "obj": "Possessor"
                         },
-                        "id": "1"
-                    }
-                ],
-                "frameName": "Change_position_on_a_scale",
-                "origin_lus": [
-                    "declined"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 1319,
-                "sent_id": 243
-            }
+                        {
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19093"
+        },
+        {
+            "examples": [
+                {
+                    "text": "또 다른 작고 마른 남자는, 신경질적이고 빈틈없어 보이는 얼굴로, 눈에 띄게 눈썹 근육을 쉴 새 없이 경련시키고 있었다.",
+                    "relations": [],
+                    "annotation_id": 0,
+                    "sent_id": 4919,
+                    "frameName": "Observable_bodyparts",
+                    "ko_annotation_id": 19094,
+                    "origin_lus": [
+                        "kao .顔 "
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 16,
+                                "end": 31
+                            },
+                            "obj": "Descriptor"
+                        },
+                        {
+                            "span": {
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "obj": "Body_part"
+                        },
+                        {
+                            "span": {
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "obj": "Target"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 19094"
         }
     ],
-    "frameID": 91,
-    "en_lu": [
-        "decline"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Change_position_on_a_scale"
+    "frameName": "Body_parts",
+    "lu_id": 5507,
+    "frameID": 119,
+    "ko_lu": "얼굴.n.Body_parts",
+    "en_lus": [
+        "kao .顔 ",
+        "face"
+    ]
 }

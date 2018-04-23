@@ -1,61 +1,65 @@
 {
-    "ko_lu": "사업하다.v",
+    "ko_pos": "VV",
     "patterns": [
         {
-            "valenceText": "annotation id: 241",
-            "examples": {
-                "ko_annotation_id": 241,
-                "denotations": [
-                    {
-                        "obj": "field",
-                        "span": {
-                            "begin": 8,
-                            "end": 16
+            "examples": [
+                {
+                    "text": "그는 두바이를 전자 무역 분야에서 사업을 하는 회사들이 두바이를 그들의 본부로 하고 그리고 외국인들이 완전히 소유하고 있는 회사들에게 개방된 이 지역에 사무실을 설치하고 고용을 제공하고 기계류를 소유하는 것이 가능할 것이라고 말하였다.",
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
                         },
-                        "id": "2"
-                    },
-                    {
-                        "obj": "target",
-                        "span": {
-                            "begin": 19,
-                            "end": 24
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8369,
+                    "sent_id": 1717,
+                    "frameName": "Being_employed",
+                    "ko_annotation_id": 241,
+                    "origin_lus": [
+                        "working"
+                    ],
+                    "denotations": [
+                        {
+                            "span": {
+                                "begin": 8,
+                                "end": 16
+                            },
+                            "obj": "field",
+                            "id": "2"
                         },
-                        "id": "1"
-                    },
-                    {
-                        "obj": "employee",
-                        "span": {
-                            "begin": 26,
-                            "end": 29
+                        {
+                            "span": {
+                                "begin": 19,
+                                "end": 24
+                            },
+                            "obj": "target",
+                            "id": "1"
                         },
-                        "id": "3"
-                    }
-                ],
-                "frameName": "Being_employed",
-                "origin_lus": [
-                    "working"
-                ],
-                "relations": [
-                    {
-                        "pred": "",
-                        "obj": "2",
-                        "subj": "1"
-                    },
-                    {
-                        "pred": "",
-                        "obj": "3",
-                        "subj": "1"
-                    }
-                ],
-                "annotation_id": 8369,
-                "sent_id": 1717
-            }
+                        {
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "obj": "employee",
+                            "id": "3"
+                        }
+                    ]
+                }
+            ],
+            "valenceText": "annotation id: 241"
         }
     ],
+    "frameName": "Being_employed",
+    "lu_id": 84,
     "frameID": 282,
-    "en_lu": [
+    "ko_lu": "사업하다.v.Being_employed",
+    "en_lus": [
         "work"
-    ],
-    "ko_pos": "VV",
-    "frameName": "Being_employed"
+    ]
 }
