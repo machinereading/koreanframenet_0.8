@@ -1,65 +1,109 @@
 {
+    "ko_lu": "발생시키다.v.Causation",
+    "lu_id": 4475,
+    "frameID": 5,
+    "en_lus": [
+        "cause"
+    ],
     "ko_pos": "VV",
     "patterns": [
         {
+            "valenceText": "annotation id: 15243",
             "examples": [
                 {
+                    "denotations": [
+                        {
+                            "obj": "cause",
+                            "id": "2",
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            }
+                        },
+                        {
+                            "obj": "effect",
+                            "id": "3",
+                            "span": {
+                                "begin": 9,
+                                "end": 24
+                            }
+                        },
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 26,
+                                "end": 30
+                            }
+                        }
+                    ],
+                    "frameName": "Causation",
                     "text": "이 단일 사건은 3,000 명 이상의 사망자를 발생시켰다.",
                     "relations": [
                         {
-                            "subj": "1",
                             "obj": "2",
-                            "pred": ""
+                            "pred": "",
+                            "subj": "1"
                         },
                         {
-                            "subj": "1",
                             "obj": "3",
-                            "pred": ""
+                            "pred": "",
+                            "subj": "1"
                         }
                     ],
-                    "annotation_id": 10237,
                     "sent_id": 2088,
-                    "frameName": "Causation",
                     "ko_annotation_id": 15243,
                     "origin_lus": [
                         "caused"
                     ],
+                    "annotation_id": 10237
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.92491",
+            "examples": [
+                {
                     "denotations": [
                         {
-                            "span": {
-                                "begin": 0,
-                                "end": 7
-                            },
-                            "obj": "cause",
-                            "id": "2"
-                        },
-                        {
-                            "span": {
-                                "begin": 9,
-                                "end": 24
-                            },
-                            "obj": "effect",
-                            "id": "3"
-                        },
-                        {
-                            "span": {
-                                "begin": 26,
-                                "end": 30
-                            },
                             "obj": "target",
-                            "id": "1"
+                            "id": "1",
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            }
                         }
-                    ]
+                    ],
+                    "text": "이번 국가 정책은 더 많은 주택 문제를 발생시키고 말 것이다.",
+                    "relations": [],
+                    "target": "발생시키고",
+                    "ko_annotation_id": "sejong.92491",
+                    "frameName": "Causation"
                 }
-            ],
-            "valenceText": "annotation id: 15243"
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.92492",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            }
+                        }
+                    ],
+                    "text": "과다하게 생성된 오존은 각종 호흡기 질환을 발생시키는 주범이다.",
+                    "relations": [],
+                    "target": "발생시키는",
+                    "ko_annotation_id": "sejong.92492",
+                    "frameName": "Causation"
+                }
+            ]
         }
     ],
-    "frameName": "Causation",
-    "lu_id": 4475,
-    "frameID": 5,
-    "ko_lu": "발생시키다.v.Causation",
-    "en_lus": [
-        "cause"
-    ]
+    "frameName": "Causation"
 }

@@ -647,6 +647,36 @@ def gen_kfn_by_frame():
     with open('../resource/KFN_frame_lu_pair.json','w') as f:
         json.dump(fids,f,indent=4,ensure_ascii=False)
 
+def get_sejong_anno(sid):
+    with open('../resource/KFN_annotations_from_sejong.json','r') as f:
+        sejong = json.load(f)
+    result = []
+    for i in sejong:
+        if sid == i['sejongset']:
+            for j in  i['annotations']:
+                result.append(j['ko_annotation_id'])
+    return result
+
+def gen_annotations_from_sejong():
+    with open('../resource/KFN_lus.json','r') as f:
+        lus = json.load(f)
+
+    for i in lus:
+        sid = i['mapSejong']
+        sejong_anno = []
+        if sid != False:
+            s = get_sejong_anno(sid)
+            sejong_anno = s
+            print(s)
+        i['sejong_annotation_id'] = sejong_anno
+#        break
+    with open('../resource/KFN_lus.json','w') as f:
+        json.dump(lus,f,indent=4,ensure_ascii=False)
+
+
+
+
+
 
 #gen_entry()
 #rev_kolu()
@@ -656,6 +686,7 @@ def gen_kfn_by_frame():
 #rev_with_sejong()
 #gen_public()
 #gen_kfn_by_frame()
+#gen_annotations_from_sejong()
 
 def test():
     with open('../resource/KFN_lus.json','r') as f:

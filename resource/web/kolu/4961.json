@@ -1,78 +1,100 @@
 {
+    "ko_lu": "판매액.n.Commerce_sell",
+    "lu_id": 4961,
+    "frameID": 172,
+    "en_lus": [
+        "sale"
+    ],
     "ko_pos": "NN",
     "patterns": [
         {
+            "valenceText": "annotation id: 17004",
             "examples": [
                 {
+                    "denotations": [
+                        {
+                            "obj": "goods",
+                            "id": "2",
+                            "span": {
+                                "begin": 8,
+                                "end": 15
+                            }
+                        },
+                        {
+                            "obj": "time",
+                            "id": "3",
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            }
+                        },
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            }
+                        },
+                        {
+                            "obj": "money",
+                            "id": "4",
+                            "span": {
+                                "begin": 24,
+                                "end": 32
+                            }
+                        }
+                    ],
+                    "frameName": "Commerce_sell",
                     "text": "3분기 결과는 연합 투자자들의 8월 판매액 27 백만 달러와 15 백만 달러의 세금 공제를 포함한 48 백만 달러의 순실현자본이득을 포함하였다.",
                     "relations": [
                         {
-                            "subj": "1",
                             "obj": "2",
-                            "pred": ""
+                            "pred": "",
+                            "subj": "1"
                         },
                         {
-                            "subj": "1",
                             "obj": "3",
-                            "pred": ""
+                            "pred": "",
+                            "subj": "1"
                         },
                         {
-                            "subj": "1",
                             "obj": "4",
-                            "pred": ""
+                            "pred": "",
+                            "subj": "1"
                         }
                     ],
-                    "annotation_id": 63,
                     "sent_id": 10,
-                    "frameName": "Commerce_sell",
                     "ko_annotation_id": 17004,
                     "origin_lus": [
                         "sale"
                     ],
+                    "annotation_id": 63
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.20381",
+            "examples": [
+                {
                     "denotations": [
                         {
-                            "span": {
-                                "begin": 8,
-                                "end": 15
-                            },
-                            "obj": "goods",
-                            "id": "2"
-                        },
-                        {
-                            "span": {
-                                "begin": 17,
-                                "end": 19
-                            },
-                            "obj": "time",
-                            "id": "3"
-                        },
-                        {
-                            "span": {
-                                "begin": 20,
-                                "end": 23
-                            },
                             "obj": "target",
-                            "id": "1"
-                        },
-                        {
+                            "id": "1",
                             "span": {
-                                "begin": 24,
-                                "end": 32
-                            },
-                            "obj": "money",
-                            "id": "4"
+                                "begin": 10,
+                                "end": 13
+                            }
                         }
-                    ]
+                    ],
+                    "text": "우리 가게의 인형 판매액만 해도 백만원이 넘습니다.",
+                    "relations": [],
+                    "target": "판매액",
+                    "ko_annotation_id": "sejong.20381",
+                    "frameName": "Commerce_sell"
                 }
-            ],
-            "valenceText": "annotation id: 17004"
+            ]
         }
     ],
-    "frameName": "Commerce_sell",
-    "lu_id": 4961,
-    "frameID": 172,
-    "ko_lu": "판매액.n.Commerce_sell",
-    "en_lus": [
-        "sale"
-    ]
+    "frameName": "Commerce_sell"
 }

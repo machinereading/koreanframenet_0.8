@@ -1,52 +1,96 @@
 {
+    "ko_lu": "승인되다.v.Deny_or_grant_permission",
+    "lu_id": 4707,
+    "frameID": 520,
+    "en_lus": [
+        "approve"
+    ],
     "ko_pos": "VV",
     "patterns": [
         {
+            "valenceText": "annotation id: 16020",
             "examples": [
                 {
+                    "denotations": [
+                        {
+                            "obj": "action",
+                            "id": "2",
+                            "span": {
+                                "begin": 39,
+                                "end": 80
+                            }
+                        },
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 82,
+                                "end": 85
+                            }
+                        }
+                    ],
+                    "frameName": "Grant_permission",
                     "text": "미국은 이란에 138 백만 달러 어치의 컴퓨터 수출 허가를 승인하고 ; 130,000 달러의 오실로스코프를 포함하여, 다른 핵 관련 기술의 적하물이 승인되었다.",
                     "relations": [
                         {
-                            "subj": "1",
                             "obj": "2",
-                            "pred": ""
+                            "pred": "",
+                            "subj": "1"
                         }
                     ],
-                    "annotation_id": 18033,
                     "sent_id": 3413,
-                    "frameName": "Grant_permission",
                     "ko_annotation_id": 16020,
                     "origin_lus": [
                         "approved"
                     ],
+                    "annotation_id": 18033
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.77916",
+            "examples": [
+                {
                     "denotations": [
                         {
-                            "span": {
-                                "begin": 39,
-                                "end": 80
-                            },
-                            "obj": "action",
-                            "id": "2"
-                        },
-                        {
-                            "span": {
-                                "begin": 82,
-                                "end": 85
-                            },
                             "obj": "target",
-                            "id": "1"
+                            "id": "1",
+                            "span": {
+                                "begin": 9,
+                                "end": 16
+                            }
                         }
-                    ]
+                    ],
+                    "text": "그 사실은 이미 승인되었습니다.",
+                    "relations": [],
+                    "target": "승인되었습니다",
+                    "ko_annotation_id": "sejong.77916",
+                    "frameName": "Deny_or_grant_permission"
                 }
-            ],
-            "valenceText": "annotation id: 16020"
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.77917",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 6,
+                                "end": 13
+                            }
+                        }
+                    ],
+                    "text": "신용구매가 승인되었습니다.",
+                    "relations": [],
+                    "target": "승인되었습니다",
+                    "ko_annotation_id": "sejong.77917",
+                    "frameName": "Deny_or_grant_permission"
+                }
+            ]
         }
     ],
-    "frameName": "Deny_or_grant_permission",
-    "lu_id": 4707,
-    "frameID": 520,
-    "ko_lu": "승인되다.v.Deny_or_grant_permission",
-    "en_lus": [
-        "approve"
-    ]
+    "frameName": "Deny_or_grant_permission"
 }

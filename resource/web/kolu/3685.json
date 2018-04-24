@@ -1,52 +1,74 @@
 {
+    "ko_lu": "수입품.n.Import_export_scenario",
+    "lu_id": 3685,
+    "frameID": 422,
+    "en_lus": [
+        "import"
+    ],
     "ko_pos": "NN",
     "patterns": [
         {
+            "valenceText": "annotation id: 12474",
             "examples": [
                 {
+                    "denotations": [
+                        {
+                            "obj": "importing_area",
+                            "id": "2",
+                            "span": {
+                                "begin": 40,
+                                "end": 42
+                            }
+                        },
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 47,
+                                "end": 50
+                            }
+                        }
+                    ],
+                    "frameName": "Import_export",
                     "text": "주요 공급자 / 주요 수출자 다음 요약은 화학무기 프로그램 영역 내에서 이란의 주요 수입품을 나열한다.",
                     "relations": [
                         {
-                            "subj": "1",
                             "obj": "2",
-                            "pred": ""
+                            "pred": "",
+                            "subj": "1"
                         }
                     ],
-                    "annotation_id": 11418,
                     "sent_id": 2278,
-                    "frameName": "Import_export",
                     "ko_annotation_id": 12474,
                     "origin_lus": [
                         "imports"
                     ],
+                    "annotation_id": 11418
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.13522",
+            "examples": [
+                {
                     "denotations": [
                         {
-                            "span": {
-                                "begin": 40,
-                                "end": 42
-                            },
-                            "obj": "importing_area",
-                            "id": "2"
-                        },
-                        {
-                            "span": {
-                                "begin": 47,
-                                "end": 50
-                            },
                             "obj": "target",
-                            "id": "1"
+                            "id": "1",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            }
                         }
-                    ]
+                    ],
+                    "text": "어느 국가나 수입품에는 높은 관세를 부과한다.",
+                    "relations": [],
+                    "target": "수입품",
+                    "ko_annotation_id": "sejong.13522",
+                    "frameName": "Import_export_scenario"
                 }
-            ],
-            "valenceText": "annotation id: 12474"
+            ]
         }
     ],
-    "frameName": "Import_export_scenario",
-    "lu_id": 3685,
-    "frameID": 422,
-    "ko_lu": "수입품.n.Import_export_scenario",
-    "en_lus": [
-        "import"
-    ]
+    "frameName": "Import_export_scenario"
 }

@@ -1,126 +1,214 @@
 {
-    "ko_pos": "VA",
-    "patterns": [
-        {
-            "examples": [
-                {
-                    "text": "엄격한 통제 체제가 상기 항목을 포함해야 한다.",
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 7938,
-                    "sent_id": 1623,
-                    "frameName": "Strictness",
-                    "ko_annotation_id": 14217,
-                    "origin_lus": [
-                        "strict"
-                    ],
-                    "denotations": [
-                        {
-                            "span": {
-                                "begin": 0,
-                                "end": 3
-                            },
-                            "obj": "target",
-                            "id": "1"
-                        },
-                        {
-                            "span": {
-                                "begin": 4,
-                                "end": 9
-                            },
-                            "obj": "medium",
-                            "id": "2"
-                        }
-                    ]
-                }
-            ],
-            "valenceText": "annotation id: 14217"
-        },
-        {
-            "examples": [
-                {
-                    "text": "고객 안전기준이 엄격해 지킬 수 있을 것 같지 않다. 지금껏 해본 적 없는 안전기준을 충족시키라고 하면서, 안내서만 건네주었다.",
-                    "relations": [],
-                    "annotation_id": 0,
-                    "sent_id": 4086,
-                    "frameName": "Strictness",
-                    "ko_annotation_id": 12291,
-                    "origin_lus": [
-                        "kibisii .厳しい"
-                    ],
-                    "denotations": [
-                        {
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            },
-                            "obj": "Agent"
-                        },
-                        {
-                            "span": {
-                                "begin": 9,
-                                "end": 12
-                            },
-                            "obj": "Target"
-                        }
-                    ]
-                }
-            ],
-            "valenceText": "annotation id: 12291"
-        },
-        {
-            "examples": [
-                {
-                    "text": "1980 년대 중반에서 말에 이들 국가에 의해 더 엄격한 수출 통제가 부과되었을 때, 이란은 인도와 같은 대체 출처를 찾아야만 하였다.",
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 11688,
-                    "sent_id": 2326,
-                    "frameName": "Strictness",
-                    "ko_annotation_id": 12244,
-                    "origin_lus": [
-                        "stricter"
-                    ],
-                    "denotations": [
-                        {
-                            "span": {
-                                "begin": 26,
-                                "end": 31
-                            },
-                            "obj": "target",
-                            "id": "1"
-                        },
-                        {
-                            "span": {
-                                "begin": 32,
-                                "end": 37
-                            },
-                            "obj": "medium",
-                            "id": "2"
-                        }
-                    ]
-                }
-            ],
-            "valenceText": "annotation id: 12244"
-        }
-    ],
-    "frameName": "Strictness",
+    "ko_lu": "엄격하다.a.Strictness",
     "lu_id": 3632,
     "frameID": 75,
-    "ko_lu": "엄격하다.a.Strictness",
     "en_lus": [
         "stricter",
         "kibisii .厳しい",
         "strict"
-    ]
+    ],
+    "ko_pos": "VA",
+    "patterns": [
+        {
+            "valenceText": "annotation id: 14217",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            }
+                        },
+                        {
+                            "obj": "medium",
+                            "id": "2",
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            }
+                        }
+                    ],
+                    "frameName": "Strictness",
+                    "text": "엄격한 통제 체제가 상기 항목을 포함해야 한다.",
+                    "relations": [
+                        {
+                            "obj": "2",
+                            "pred": "",
+                            "subj": "1"
+                        }
+                    ],
+                    "sent_id": 1623,
+                    "ko_annotation_id": 14217,
+                    "origin_lus": [
+                        "strict"
+                    ],
+                    "annotation_id": 7938
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12291",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "obj": "Agent",
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            }
+                        },
+                        {
+                            "obj": "Target",
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            }
+                        }
+                    ],
+                    "frameName": "Strictness",
+                    "text": "고객 안전기준이 엄격해 지킬 수 있을 것 같지 않다. 지금껏 해본 적 없는 안전기준을 충족시키라고 하면서, 안내서만 건네주었다.",
+                    "relations": [],
+                    "sent_id": 4086,
+                    "ko_annotation_id": 12291,
+                    "origin_lus": [
+                        "kibisii .厳しい"
+                    ],
+                    "annotation_id": 0
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12244",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            }
+                        },
+                        {
+                            "obj": "medium",
+                            "id": "2",
+                            "span": {
+                                "begin": 32,
+                                "end": 37
+                            }
+                        }
+                    ],
+                    "frameName": "Strictness",
+                    "text": "1980 년대 중반에서 말에 이들 국가에 의해 더 엄격한 수출 통제가 부과되었을 때, 이란은 인도와 같은 대체 출처를 찾아야만 하였다.",
+                    "relations": [
+                        {
+                            "obj": "2",
+                            "pred": "",
+                            "subj": "1"
+                        }
+                    ],
+                    "sent_id": 2326,
+                    "ko_annotation_id": 12244,
+                    "origin_lus": [
+                        "stricter"
+                    ],
+                    "annotation_id": 11688
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.103590",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            }
+                        }
+                    ],
+                    "text": "우리 선생님은 엄격하시다.",
+                    "relations": [],
+                    "target": "엄격하시다",
+                    "ko_annotation_id": "sejong.103590",
+                    "frameName": "Strictness"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.103591",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            }
+                        }
+                    ],
+                    "text": "엄격한 부모 밑에서 자란 아이들이 예절이 바르다.",
+                    "relations": [],
+                    "target": "엄격한",
+                    "ko_annotation_id": "sejong.103591",
+                    "frameName": "Strictness"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.103592",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            }
+                        }
+                    ],
+                    "text": "김 선생은 학생들에 대해 엄격한 편이다.",
+                    "relations": [],
+                    "target": "엄격한",
+                    "ko_annotation_id": "sejong.103592",
+                    "frameName": "Strictness"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.103593",
+            "examples": [
+                {
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            }
+                        }
+                    ],
+                    "text": "여자들은 돈문제에 엄격해야 한다.",
+                    "relations": [],
+                    "target": "엄격해야",
+                    "ko_annotation_id": "sejong.103593",
+                    "frameName": "Strictness"
+                }
+            ]
+        }
+    ],
+    "frameName": "Strictness"
 }

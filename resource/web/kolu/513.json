@@ -1,65 +1,87 @@
 {
+    "ko_lu": "소유권.n.Possession",
+    "lu_id": 513,
+    "frameID": 118,
+    "en_lus": [
+        "ownership"
+    ],
     "ko_pos": "NN",
     "patterns": [
         {
+            "valenceText": "annotation id: 1455",
             "examples": [
                 {
+                    "denotations": [
+                        {
+                            "obj": "owner",
+                            "id": "2",
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            }
+                        },
+                        {
+                            "obj": "possession",
+                            "id": "3",
+                            "span": {
+                                "begin": 28,
+                                "end": 38
+                            }
+                        },
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 40,
+                                "end": 43
+                            }
+                        }
+                    ],
+                    "frameName": "Possession",
                     "text": "소송은 1991년 말 해결되었지만, 이란은 아직도 Eurodif 주식의 소유권을 유지하고 있다.",
                     "relations": [
                         {
-                            "subj": "1",
                             "obj": "2",
-                            "pred": ""
+                            "pred": "",
+                            "subj": "1"
                         },
                         {
-                            "subj": "1",
                             "obj": "3",
-                            "pred": ""
+                            "pred": "",
+                            "subj": "1"
                         }
                     ],
-                    "annotation_id": 17918,
                     "sent_id": 3383,
-                    "frameName": "Possession",
                     "ko_annotation_id": 1455,
                     "origin_lus": [
                         "ownership"
                     ],
+                    "annotation_id": 17918
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.36153",
+            "examples": [
+                {
                     "denotations": [
                         {
-                            "span": {
-                                "begin": 20,
-                                "end": 22
-                            },
-                            "obj": "owner",
-                            "id": "2"
-                        },
-                        {
-                            "span": {
-                                "begin": 28,
-                                "end": 38
-                            },
-                            "obj": "possession",
-                            "id": "3"
-                        },
-                        {
-                            "span": {
-                                "begin": 40,
-                                "end": 43
-                            },
                             "obj": "target",
-                            "id": "1"
+                            "id": "1",
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            }
                         }
-                    ]
+                    ],
+                    "text": "이번 판결로 그는 집에 대한 소유권을 보장받게 되었다.",
+                    "relations": [],
+                    "target": "소유권",
+                    "ko_annotation_id": "sejong.36153",
+                    "frameName": "Possession"
                 }
-            ],
-            "valenceText": "annotation id: 1455"
+            ]
         }
     ],
-    "frameName": "Possession",
-    "lu_id": 513,
-    "frameID": 118,
-    "ko_lu": "소유권.n.Possession",
-    "en_lus": [
-        "ownership"
-    ]
+    "frameName": "Possession"
 }

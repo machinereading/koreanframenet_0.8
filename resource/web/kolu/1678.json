@@ -1,52 +1,74 @@
 {
+    "ko_lu": "수송.n.Sent_items",
+    "lu_id": 1678,
+    "frameID": 1609,
+    "en_lus": [
+        "shipment"
+    ],
     "ko_pos": "NNG",
     "patterns": [
         {
+            "valenceText": "annotation id: 5179",
             "examples": [
                 {
+                    "denotations": [
+                        {
+                            "obj": "sent_item",
+                            "id": "2",
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            }
+                        },
+                        {
+                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            }
+                        }
+                    ],
+                    "frameName": "Sent_items",
                     "text": "화학무기 작용제의 수송은 과도한 주의를 끌지 않는 방법으로 행해지고, 일반 군 화물로 위장된다고 보고된다.",
                     "relations": [
                         {
-                            "subj": "1",
                             "obj": "2",
-                            "pred": ""
+                            "pred": "",
+                            "subj": "1"
                         }
                     ],
-                    "annotation_id": 13927,
                     "sent_id": 2758,
-                    "frameName": "Sent_items",
                     "ko_annotation_id": 5179,
                     "origin_lus": [
                         "shipments"
                     ],
+                    "annotation_id": 13927
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.13595",
+            "examples": [
+                {
                     "denotations": [
                         {
-                            "span": {
-                                "begin": 0,
-                                "end": 8
-                            },
-                            "obj": "sent_item",
-                            "id": "2"
-                        },
-                        {
-                            "span": {
-                                "begin": 10,
-                                "end": 12
-                            },
                             "obj": "target",
-                            "id": "1"
+                            "id": "1",
+                            "span": {
+                                "begin": 16,
+                                "end": 18
+                            }
                         }
-                    ]
+                    ],
+                    "text": "철도청에서는 귀성객의 원활한 수송을 위해 임시 열차편을 마련하기로 했다.",
+                    "relations": [],
+                    "target": "수송",
+                    "ko_annotation_id": "sejong.13595",
+                    "frameName": "Sent_items"
                 }
-            ],
-            "valenceText": "annotation id: 5179"
+            ]
         }
     ],
-    "frameName": "Sent_items",
-    "lu_id": 1678,
-    "frameID": 1609,
-    "ko_lu": "수송.n.Sent_items",
-    "en_lus": [
-        "shipment"
-    ]
+    "frameName": "Sent_items"
 }
