@@ -22,8 +22,9 @@ lus = kfn.lus_by_lemma('나누다')
 lus = kfn.lus_by_lemma('나누') #if you want use a morpheme
 print(lus)
 ```
-`[{'lu': '나누다.v.Separating', 'lu_id': 5045}, {'lu': '나누다.v.Giving', 'lu_id': 6937}]`
-in this case, the word '나누다' has two meanings (frames), `Separating` and `Giving`
+`[{'lu': '나누다.v.Separating', 'lu_id': 5045}, {'lu': '나누다.v.Giving', 'lu_id': 6937}]`  
+
+In this case, the word '나누다' has two meanings (frames), `Separating` and `Giving`
 
 ### 2) How to get LU object by LU IDs
 ```
@@ -45,8 +46,9 @@ annotations = kfn.annotation(lus[1]['lu_id'])
 print('text:', annotations[1]['text'])
 print('denotations:', annotations[1]['denotations'])
 ```
-`'text': '1949의 휴전협정 결과로 예루살렘은 나누어졌다 : 서 예루살렘은 ...`
-In this case, the text '1949의 휴전협정 결과' is annotated as a frame element `cause`, and the text '예루살렘' is a frame element `whole`.
+`'text': '1949의 휴전협정 결과로 예루살렘은 나누어졌다 : 서 예루살렘은 ...`  
+
+In the `denotations`, the text '1949의 휴전협정 결과' is annotated as a frame element `cause`, and the text '예루살렘' is a frame element `whole`.
 
 ## Licenses
 * `CC BY-NC-SA` [Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/2.0/)
