@@ -1,37 +1,65 @@
 {
-    "ko_lu": "워크숍.n.Education_teaching",
-    "lu_id": 2653,
-    "frameID": 111,
-    "en_lus": [
-        "kensyuu .研修 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Intentionally_create",
     "patterns": [
         {
-            "valenceText": "annotation id: 8602",
+            "valenceText": "annotation id: 8680",
             "examples": [
                 {
+                    "frameName": "Intentionally_create",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "obj": "created_entity",
                             "span": {
-                                "begin": 59,
-                                "end": 62
-                            }
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "id": "1"
+                        },
+                        {
+                            "obj": "manner",
+                            "span": {
+                                "begin": 25,
+                                "end": 23
+                            },
+                            "id": "3"
                         }
                     ],
-                    "frameName": "Education_teaching",
-                    "text": "하지만, 경도 발달 장애 자체에 대한 이해가 충분하지 못한 현장의 경우에는, 전체적인 이해력 향상을 위해 워크숍이나 세미나 등을 여는 것부터 시작할 필요가 있습니다.",
-                    "relations": [],
-                    "sent_id": 4994,
-                    "ko_annotation_id": 8602,
                     "origin_lus": [
-                        "kensyuu .研修 "
+                        "generation"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 8680,
+                    "text": "이란은 그러나, 핵 프로그램은 전기 생성만을 위한 것이라고 계속 주장하고 있다.",
+                    "sent_id": 2369,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11945
                 }
             ]
         }
     ],
-    "frameName": "Education_teaching"
+    "frameID": 280,
+    "ko_pos": "NNG",
+    "ko_lu": "생성.n.Intentionally_create",
+    "lu_id": 2653,
+    "en_lus": [
+        "generation"
+    ]
 }

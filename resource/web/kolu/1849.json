@@ -1,59 +1,65 @@
 {
-    "ko_lu": "강연회.n.Text",
-    "lu_id": 1849,
-    "frameID": 298,
-    "en_lus": [
-        "kooen .講演 "
-    ],
-    "ko_pos": "NN",
+    "frameName": "Distributed_position",
     "patterns": [
         {
-            "valenceText": "annotation id: 5784",
+            "valenceText": "annotation id: 5842",
             "examples": [
                 {
+                    "frameName": "Adorning",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "obj": "location",
                             "span": {
                                 "begin": 0,
-                                "end": 3
-                            }
-                        }
-                    ],
-                    "frameName": "Text",
-                    "text": "강연회 후에, 관계자가 참여하는 실제 사례 검토회 등을 열면, 관계자의 역량과 현장 실정도 파악할 수 있습니다.",
-                    "relations": [],
-                    "sent_id": 3884,
-                    "ko_annotation_id": 5784,
-                    "origin_lus": [
-                        "kooen .講演 "
-                    ],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.10737",
-            "examples": [
-                {
-                    "denotations": [
+                                "end": 8
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "theme",
+                            "span": {
+                                "begin": 13,
+                                "end": 31
+                            },
+                            "id": "3"
+                        },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 7,
-                                "end": 10
-                            }
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "id": "1"
                         }
                     ],
-                    "text": "민간단체에서 강연회를 개최하였다.",
-                    "relations": [],
-                    "target": "강연회",
-                    "ko_annotation_id": "sejong.10737",
-                    "frameName": "Text"
+                    "origin_lus": [
+                        "adorned"
+                    ],
+                    "ko_annotation_id": 5842,
+                    "text": "그 신전과 왕궁은 금과 아프리카의 상아와 레바논의 향나무로 장식되었고 ; 솔로몬 하에서의 예루살렘의 미와 영광은 거의 3,000년 동안 성경의 독자들을 매혹시켰다.",
+                    "sent_id": 637,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3442
                 }
             ]
         }
     ],
-    "frameName": "Text"
+    "frameID": 76,
+    "ko_pos": "VV",
+    "ko_lu": "장식되다.v.Distributed_position",
+    "lu_id": 1849,
+    "en_lus": [
+        "adorn"
+    ]
 }

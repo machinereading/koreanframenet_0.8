@@ -1,87 +1,65 @@
 {
-    "ko_lu": "관심있다.a.Experiencer_focus",
-    "lu_id": 1354,
-    "frameID": 48,
-    "en_lus": [
-        "interested"
-    ],
-    "ko_pos": "VA",
+    "frameName": "Deny_or_grant_permission",
     "patterns": [
         {
-            "valenceText": "annotation id: 4179",
+            "valenceText": "annotation id: 4190",
             "examples": [
                 {
+                    "frameName": "Deny_permission",
                     "denotations": [
                         {
-                            "obj": "experiencer",
-                            "id": "2",
+                            "obj": "protagonist",
                             "span": {
-                                "begin": 0,
-                                "end": 31
-                            }
+                                "begin": 54,
+                                "end": 95
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "content",
-                            "id": "3",
+                            "obj": "action",
                             "span": {
-                                "begin": 33,
-                                "end": 64
-                            }
+                                "begin": 101,
+                                "end": 110
+                            },
+                            "id": "3"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 67,
-                                "end": 72
-                            }
+                                "begin": 112,
+                                "end": 114
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Experiencer_focus",
-                    "text": "지멘스 면허인 스페인의 Equipos Numleares사는 이란의 원자로를 완성하기 위해 지멘스로부터 하청계약을 받는데 관심이 있다고 들었다 ( 5948 ).",
+                    "origin_lus": [
+                        "prohibited"
+                    ],
+                    "ko_annotation_id": 4190,
+                    "text": "독일 정부는 지멘스/KWU 사업부가 이란의 Bushehr 원자로를 완성하도록 허용하지 않을 것과 Siemens의 자회사인 스페인의 Empresarios Agrupados사 또한 그 원자로들을 완성하지 못하게 할 것임을 발표한다.",
+                    "sent_id": 3520,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         },
                         {
+                            "subj": "1",
                             "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 3515,
-                    "ko_annotation_id": 4179,
-                    "origin_lus": [
-                        "interested"
-                    ],
-                    "annotation_id": 18448
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.101456",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 9,
-                                "end": 13
-                            }
-                        }
-                    ],
-                    "text": "그녀는 디자인에 관심있다.",
-                    "relations": [],
-                    "target": "관심있다",
-                    "ko_annotation_id": "sejong.101456",
-                    "frameName": "Experiencer_focus"
+                    "annotation_id": 18468
                 }
             ]
         }
     ],
-    "frameName": "Experiencer_focus"
+    "frameID": 520,
+    "ko_pos": "VA",
+    "ko_lu": "못하다.a.Deny_or_grant_permission",
+    "lu_id": 1354,
+    "en_lus": [
+        "prohibit"
+    ]
 }

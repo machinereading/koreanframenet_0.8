@@ -1,52 +1,87 @@
 {
-    "ko_lu": "지속적.n.Frequency",
-    "lu_id": 4965,
-    "frameID": 80,
-    "en_lus": [
-        "constantly"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Travel",
     "patterns": [
         {
-            "valenceText": "annotation id: 17015",
+            "valenceText": "annotation id: 17484",
             "examples": [
                 {
+                    "frameName": "Travel",
+                    "denotations": [
+                        {
+                            "obj": "goal",
+                            "span": {
+                                "begin": 0,
+                                "end": 17
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "mode_of_transportation",
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "origin_lus": [
+                        "tours"
+                    ],
+                    "ko_annotation_id": 17484,
+                    "text": "도시 외곽에 있는 명소들로 가는 많은 안내 버스 관광이 있고, 몇몇은 도시 버스로 접근할 수도 있다.",
+                    "sent_id": 998,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5242
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.2249",
+            "examples": [
+                {
+                    "frameName": "Travel",
                     "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 4,
-                                "end": 7
-                            }
-                        },
-                        {
-                            "obj": "event",
-                            "id": "2",
-                            "span": {
-                                "begin": 10,
-                                "end": 23
-                            }
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Frequency",
-                    "text": "그들은 지속적으로 그들 주변 지역을 통제하기 위해 망원경을 지참해야 한다.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 1605,
-                    "ko_annotation_id": 17015,
-                    "origin_lus": [
-                        "constantly"
-                    ],
-                    "annotation_id": 7825
+                    "text": "이 조그마한 나라에서 관광으로 벌어들이는 외화가 수억 달러에 달한다.올 가을에는 아내와 단풍 관광을 떠나기로 했다.",
+                    "target": "관광",
+                    "ko_annotation_id": "sejong.2249",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Frequency"
+    "frameID": 343,
+    "ko_pos": "NNG",
+    "ko_lu": "관광.n.Travel",
+    "lu_id": 4965,
+    "en_lus": [
+        "tour"
+    ]
 }

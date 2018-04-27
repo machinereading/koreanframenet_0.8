@@ -1,38 +1,96 @@
 {
-    "ko_lu": "문제.n.Sole_instance",
-    "lu_id": 4856,
-    "frameID": 355,
-    "en_lus": [
-        "single"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Aggregate",
     "patterns": [
         {
-            "valenceText": "annotation id: 16702",
+            "valenceText": "annotation id: 16984",
             "examples": [
                 {
+                    "frameName": "Aggregate",
+                    "denotations": [
+                        {
+                            "obj": "individuals",
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "origin_lus": [
+                        "legions"
+                    ],
+                    "ko_annotation_id": 16984,
+                    "text": "Hasmoneans은 폼페이의 로마 군대가 기원전 63년에 도착할 때까지 통치하였다.",
+                    "sent_id": 652,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3498
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.9812",
+            "examples": [
+                {
+                    "frameName": "Aggregate",
                     "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 65,
-                                "end": 67
-                            }
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Sole_instance",
-                    "text": "또 다른 새로운 형태의 테러리스트 조직은 낙태, 동물 권리, 환경 보호, 혹은 유전 공학과 같은 뜨겁게 논란이 되는 문제에 초점을 맞춘다.",
-                    "relations": [],
-                    "sent_id": 2072,
-                    "ko_annotation_id": 16702,
-                    "origin_lus": [
-                        "single"
+                    "text": "장교 탈영 사건 이후, 군대의 사기를 진작시킬 필요가 있다.",
+                    "target": "군대",
+                    "ko_annotation_id": "sejong.9812",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.9813",
+            "examples": [
+                {
+                    "frameName": "Aggregate",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "id": "1"
+                        }
                     ],
-                    "annotation_id": 10164
+                    "text": "남자라면 군대에 가야지!",
+                    "target": "군대",
+                    "ko_annotation_id": "sejong.9813",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Sole_instance"
+    "frameID": 103,
+    "ko_pos": "NNG",
+    "ko_lu": "군대.n.Aggregate",
+    "lu_id": 4856,
+    "en_lus": [
+        "legion"
+    ]
 }

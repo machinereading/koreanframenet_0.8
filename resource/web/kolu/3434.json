@@ -1,65 +1,109 @@
 {
-    "ko_lu": "위협하다.v.Endangering",
-    "lu_id": 3434,
-    "frameID": 631,
-    "en_lus": [
-        "jeopardized"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Robbery",
     "patterns": [
         {
-            "valenceText": "annotation id: 11500",
+            "valenceText": "annotation id: 11732",
             "examples": [
                 {
+                    "frameName": "Robbery",
                     "denotations": [
                         {
-                            "obj": "cause",
-                            "id": "2",
+                            "obj": "victim",
                             "span": {
-                                "begin": 29,
-                                "end": 34
-                            }
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "valued_entity",
-                            "id": "3",
+                            "obj": "goods",
                             "span": {
-                                "begin": 36,
-                                "end": 44
-                            }
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 51,
-                                "end": 55
-                            }
+                                "begin": 31,
+                                "end": 36
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Endangering",
-                    "text": "사실은 비밀 활동이 이 장소에서 일어나고 있었다면, 이들 검사는 이와 같은 노력을 심각하게 위협했을 것이다.",
+                    "origin_lus": [
+                        "robbing"
+                    ],
+                    "ko_annotation_id": 11732,
+                    "text": "무슬림 학자들로 우리가 배운 것은 무슬림들로부터 종교를 빼앗는 것은 그들의 명예와 토지를 빼앗는 것보다 더 크다는 것이다.",
+                    "sent_id": 1847,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         },
                         {
+                            "subj": "1",
                             "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 2178,
-                    "ko_annotation_id": 11500,
-                    "origin_lus": [
-                        "jeopardized"
+                    "annotation_id": 8886
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.80983",
+            "examples": [
+                {
+                    "frameName": "Robbery",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 18,
+                                "end": 22
+                            },
+                            "obj": "target"
+                        }
                     ],
-                    "annotation_id": 10852
+                    "text": "그 남자는 그녀에게서 전 재산을 빼앗았다.",
+                    "target": "빼앗았다",
+                    "ko_annotation_id": "sejong.80983",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.80984",
+            "examples": [
+                {
+                    "frameName": "Robbery",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "남에게서 물건을 억지로 빼앗는 것은 범죄행위이다.",
+                    "target": "빼앗는",
+                    "ko_annotation_id": "sejong.80984",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Endangering"
+    "frameID": 99,
+    "ko_pos": "VV",
+    "ko_lu": "빼앗다.v.Robbery",
+    "lu_id": 3434,
+    "en_lus": [
+        "rob"
+    ]
 }

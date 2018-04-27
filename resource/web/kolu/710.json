@@ -1,49 +1,42 @@
 {
-    "ko_lu": "올바르다.a.Correctness",
-    "lu_id": 710,
-    "frameID": 1512,
-    "en_lus": [
-        "tadasii .正しい",
-        "right"
-    ],
-    "ko_pos": "VA",
+    "frameName": "Correctness",
     "patterns": [
         {
             "valenceText": "annotation id: 2167",
             "examples": [
                 {
+                    "frameName": "Correctness",
                     "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
                                 "begin": 46,
                                 "end": 49
-                            }
+                            },
+                            "id": "1"
                         },
                         {
                             "obj": "information",
-                            "id": "2",
                             "span": {
                                 "begin": 50,
                                 "end": 52
-                            }
+                            },
+                            "id": "2"
                         }
                     ],
-                    "frameName": "Correctness",
-                    "text": "스페인 수상 Felipe Gonzalez는 일요일 그의 간신히 이긴 선거 승리에서 올바른 결론을 내릴 것으로 희망할 수 있다.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 74,
-                    "ko_annotation_id": 2167,
                     "origin_lus": [
                         "right",
                         "tadasii .正しい"
+                    ],
+                    "ko_annotation_id": 2167,
+                    "text": "스페인 수상 Felipe Gonzalez는 일요일 그의 간신히 이긴 선거 승리에서 올바른 결론을 내릴 것으로 희망할 수 있다.",
+                    "sent_id": 74,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
                     ],
                     "annotation_id": 497
                 }
@@ -53,6 +46,7 @@
             "valenceText": "annotation id: 2168",
             "examples": [
                 {
+                    "frameName": "Correctness",
                     "denotations": [
                         {
                             "obj": "Source",
@@ -69,15 +63,14 @@
                             }
                         }
                     ],
-                    "frameName": "Correctness",
-                    "text": "올바른 신을 믿는다면, 옳지 않은 신은 자연히 소멸해 버릴 것입니다.",
-                    "relations": [],
-                    "sent_id": 4303,
-                    "ko_annotation_id": 2168,
                     "origin_lus": [
                         "right",
                         "tadasii .正しい"
                     ],
+                    "ko_annotation_id": 2168,
+                    "text": "올바른 신을 믿는다면, 옳지 않은 신은 자연히 소멸해 버릴 것입니다.",
+                    "sent_id": 4303,
+                    "relations": [],
                     "annotation_id": 0
                 }
             ]
@@ -86,24 +79,31 @@
             "valenceText": "annotation id: sejong.100520",
             "examples": [
                 {
+                    "frameName": "Correctness",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
                                 "begin": 8,
                                 "end": 12
-                            }
+                            },
+                            "obj": "target"
                         }
                     ],
                     "text": "그 사람은 늘 올바르다.",
-                    "relations": [],
                     "target": "올바르다",
                     "ko_annotation_id": "sejong.100520",
-                    "frameName": "Correctness"
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Correctness"
+    "frameID": 1512,
+    "ko_pos": "VA",
+    "ko_lu": "올바르다.a.Correctness",
+    "lu_id": 710,
+    "en_lus": [
+        "tadasii .正しい",
+        "right"
+    ]
 }

@@ -1,65 +1,66 @@
 {
-    "ko_lu": "나누다.v.Separating",
-    "lu_id": 5045,
-    "frameID": 15,
-    "en_lus": [
-        "divide"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Weather",
     "patterns": [
         {
-            "valenceText": "annotation id: 17408",
+            "valenceText": "annotation id: 17713",
             "examples": [
                 {
+                    "frameName": "Weather",
                     "denotations": [
                         {
-                            "obj": "cause",
-                            "id": "3",
+                            "obj": "Time",
                             "span": {
                                 "begin": 0,
-                                "end": 13
+                                "end": 27
                             }
                         },
                         {
-                            "obj": "whole",
-                            "id": "2",
+                            "obj": "Target",
                             "span": {
-                                "begin": 15,
-                                "end": 19
+                                "begin": 33,
+                                "end": 35
                             }
-                        },
+                        }
+                    ],
+                    "origin_lus": [
+                        "yooki .陽気"
+                    ],
+                    "ko_annotation_id": 17713,
+                    "text": "음력시대의 히나마쓰리는 지금의 4월 상순에 해당하므로, 꽤 날씨도 따뜻해져, 완연한 봄기운이 느껴졌을 것이다.",
+                    "sent_id": 4107,
+                    "relations": [],
+                    "annotation_id": 0
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.22291",
+            "examples": [
+                {
+                    "frameName": "Weather",
+                    "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 21,
-                                "end": 25
-                            }
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Separating",
-                    "text": "1949의 휴전협정 결과로 예루살렘은 나누어졌다 : 서 예루살렘은 이스라엘 통제 하에, 그리고 동 예루살렘은 ( 그곳의 유대인, 무슬림, 크리스천, 그리고 아르메니아인 구역과 함께 Old City를 포함하는 ) 요르단 권한 아래로 들어왔다.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        },
-                        {
-                            "obj": "3",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 720,
-                    "ko_annotation_id": 17408,
-                    "origin_lus": [
-                        "divided"
-                    ],
-                    "annotation_id": 3782
+                    "text": "금방이라도 비가 쏟아질 것 같은 날씨이다.",
+                    "target": "날씨",
+                    "ko_annotation_id": "sejong.22291",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Separating"
+    "frameID": 303,
+    "ko_pos": "NNG",
+    "ko_lu": "날씨.n.Weather",
+    "lu_id": 5045,
+    "en_lus": [
+        "yooki .陽気"
+    ]
 }

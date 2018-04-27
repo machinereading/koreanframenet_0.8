@@ -1,51 +1,65 @@
 {
-    "ko_lu": "앉다.v.Motion",
-    "lu_id": 5065,
-    "frameID": 7,
-    "en_lus": [
-        "tomaru .止まる"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Kidnapping",
     "patterns": [
         {
-            "valenceText": "annotation id: 17470",
+            "valenceText": "annotation id: 17827",
             "examples": [
                 {
+                    "frameName": "Kidnapping",
                     "denotations": [
                         {
-                            "obj": "Theme",
+                            "obj": "perpetrator",
                             "span": {
-                                "begin": 17,
-                                "end": 20
-                            }
+                                "begin": 14,
+                                "end": 59
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Goal",
+                            "obj": "victim",
                             "span": {
-                                "begin": 22,
-                                "end": 26
-                            }
+                                "begin": 75,
+                                "end": 78
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "target",
                             "span": {
-                                "begin": 28,
-                                "end": 29
-                            }
+                                "begin": 80,
+                                "end": 83
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Motion",
-                    "text": "지렁이를 입에 물은 한 마리의 때까치가 철책 위에 앉았다.",
-                    "relations": [],
-                    "sent_id": 4741,
-                    "ko_annotation_id": 17470,
                     "origin_lus": [
-                        "tomaru .止まる"
+                        "kidnapped"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 17827,
+                    "text": "지난 6 개월에 걸쳐서, 마약 거래자나 좌파 게릴라들 -- 콜롬비아에서 종종 하나이고 동일한 -- 에 의해 여섯 명의 기자가 피살되고 열 명은 납치되었다",
+                    "sent_id": 1971,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9520
                 }
             ]
         }
     ],
-    "frameName": "Motion"
+    "frameID": 122,
+    "ko_pos": "VV",
+    "ko_lu": "납치되다.v.Kidnapping",
+    "lu_id": 5065,
+    "en_lus": [
+        "kidnap"
+    ]
 }

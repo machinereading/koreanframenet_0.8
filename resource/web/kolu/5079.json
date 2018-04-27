@@ -1,98 +1,65 @@
 {
-    "ko_lu": "택시.n.Vehicle",
-    "lu_id": 5079,
-    "frameID": 429,
-    "en_lus": [
-        "takusii .タクシー"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Releasing",
     "patterns": [
         {
-            "valenceText": "annotation id: 17496",
+            "valenceText": "annotation id: 17869",
             "examples": [
                 {
+                    "frameName": "Releasing",
                     "denotations": [
                         {
-                            "obj": "Vehicle",
+                            "obj": "theme",
                             "span": {
-                                "begin": 9,
-                                "end": 11
-                            }
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "location_of_confinement",
                             "span": {
-                                "begin": 9,
-                                "end": 11
-                            }
-                        }
-                    ],
-                    "frameName": "Vehicle",
-                    "text": "말과는 정반대로 택시는 이츠카이치카이도에 들어섰다.",
-                    "relations": [],
-                    "sent_id": 4258,
-                    "ko_annotation_id": 17496,
-                    "origin_lus": [
-                        "takusii .タクシー"
-                    ],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 17497",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "Vehicle",
-                            "span": {
-                                "begin": 8,
-                                "end": 10
-                            }
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "id": "3"
                         },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 8,
-                                "end": 10
-                            }
-                        }
-                    ],
-                    "frameName": "Vehicle",
-                    "text": "신호 직전에서 택시는 정지한다.",
-                    "relations": [],
-                    "sent_id": 4379,
-                    "ko_annotation_id": 17497,
-                    "origin_lus": [
-                        "takusii .タクシー"
-                    ],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.43948",
-            "examples": [
-                {
-                    "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 6,
-                                "end": 8
-                            }
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "id": "1"
                         }
                     ],
-                    "text": "이 시간에 택시를 잡기란 하늘의 별따기다.",
-                    "relations": [],
-                    "target": "택시",
-                    "ko_annotation_id": "sejong.43948",
-                    "frameName": "Vehicle"
+                    "origin_lus": [
+                        "released"
+                    ],
+                    "ko_annotation_id": 17869,
+                    "text": "Jerry가 감옥에서 풀려났을 때, 그는 그의 삶을 바로잡기 위해서는 힘든 작업과 결단을 요할 것으로 알았다.",
+                    "sent_id": 420,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2205
                 }
             ]
         }
     ],
-    "frameName": "Vehicle"
+    "frameID": 317,
+    "ko_pos": "VV",
+    "ko_lu": "풀려나다.v.Releasing",
+    "lu_id": 5079,
+    "en_lus": [
+        "release"
+    ]
 }

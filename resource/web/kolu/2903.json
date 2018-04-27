@@ -1,88 +1,100 @@
 {
-    "ko_lu": "잘못되다.v.Bungling",
-    "lu_id": 2903,
-    "frameID": 266,
-    "en_lus": [
-        "matigaeru .間違える "
-    ],
-    "ko_pos": "VV",
+    "frameName": "Intentionally_act",
     "patterns": [
         {
-            "valenceText": "annotation id: 9463",
+            "valenceText": "annotation id: 9546",
             "examples": [
                 {
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "Action",
+                            "obj": "act",
                             "span": {
-                                "begin": 5,
-                                "end": 7
-                            }
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "target",
                             "span": {
-                                "begin": 9,
-                                "end": 12
-                            }
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Bungling",
-                    "text": "그것은, 계산이 잘못된 것은 아닌지, 과연 얼마나 산 것인지, 신경이 쓰이기 때문입니다.",
-                    "relations": [],
-                    "sent_id": 3739,
-                    "ko_annotation_id": 9463,
                     "origin_lus": [
-                        "matigaeru .間違える "
+                        "acts",
+                        "action",
+                        "Acts"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 9546,
+                    "text": "2005년 9월 14일 뉴욕에서 푸틴은 국제핵테러행위 억제협약에 서명하였다.",
+                    "sent_id": 3244,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 17122
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.83700",
+            "valenceText": "annotation id: sejong.31021",
             "examples": [
                 {
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 3,
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "text": "그러한 비도덕적인 행위는 비난받아 마땅하다.",
+                    "target": "행위",
+                    "ko_annotation_id": "sejong.31021",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.31022",
+            "examples": [
+                {
+                    "frameName": "Intentionally_act",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 6,
                                 "end": 8
-                            }
+                            },
+                            "id": "1"
                         }
                     ],
-                    "text": "일이 잘못되려면 어떻게 해도 잘못된다.",
-                    "relations": [],
-                    "target": "잘못되려면",
-                    "ko_annotation_id": "sejong.83700",
-                    "frameName": "Bungling"
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.83701",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 12,
-                                "end": 15
-                            }
-                        }
-                    ],
-                    "text": "좋은 의도해서 했어도 잘못될 수 있네.",
-                    "relations": [],
-                    "target": "잘못될",
-                    "ko_annotation_id": "sejong.83701",
-                    "frameName": "Bungling"
+                    "text": "다시는 호객행위를 못하도록 하기 위해서는 엄중한 처벌이 필요하다.",
+                    "target": "행위",
+                    "ko_annotation_id": "sejong.31022",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Bungling"
+    "frameID": 198,
+    "ko_pos": "NNG",
+    "ko_lu": "행위.n.Intentionally_act",
+    "lu_id": 2903,
+    "en_lus": [
+        "action",
+        "act",
+        "Acts"
+    ]
 }

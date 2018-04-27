@@ -1,65 +1,134 @@
 {
-    "ko_lu": "둘레.n.Locative_relation",
-    "lu_id": 3850,
-    "frameID": 199,
-    "en_lus": [
-        "around"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Causation",
     "patterns": [
         {
-            "valenceText": "annotation id: 12993",
+            "valenceText": "annotation id: 16786",
             "examples": [
                 {
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "obj": "ground",
-                            "id": "3",
+                            "obj": "cause",
                             "span": {
                                 "begin": 0,
-                                "end": 3
-                            }
+                                "end": 5
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "effect",
+                            "span": {
+                                "begin": 7,
+                                "end": 19
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "effect",
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "id": "4"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 116,
-                                "end": 118
-                            }
-                        },
-                        {
-                            "obj": "figure",
-                            "id": "2",
-                            "span": {
-                                "begin": 120,
-                                "end": 122
-                            }
+                                "begin": 33,
+                                "end": 34
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Locative_relation",
-                    "text": "버스들은 다음 사항을 구비해야 한다 : 1- 가벼운 갑옷과 로켓탄 발사기 2- 위험 활동을 보고할 무선 장비 3- 의심스러운 활동이나 면허판 번호를 적기 위한 필기물 4- 기총 발사로부터 보호하기 위한 버스 둘레의 샌드백",
+                    "origin_lus": [
+                        "sent",
+                        "made"
+                    ],
+                    "ko_annotation_id": 16786,
+                    "text": "민간 투자는 점점 더 최신의 연락선이 지나가는 것을 가능케 하였다.",
+                    "sent_id": 615,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         },
                         {
+                            "subj": "1",
                             "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 1593,
-                    "ko_annotation_id": 12993,
-                    "origin_lus": [
-                        "around"
+                    "annotation_id": 3288
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13167",
+            "examples": [
+                {
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "obj": "cause",
+                            "span": {
+                                "begin": 5,
+                                "end": 38
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "effect",
+                            "span": {
+                                "begin": 40,
+                                "end": 85
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 87,
+                                "end": 95
+                            },
+                            "id": "1"
+                        }
                     ],
-                    "annotation_id": 7756
+                    "origin_lus": [
+                        "makes"
+                    ],
+                    "ko_annotation_id": 13167,
+                    "text": "확실히, 광범위한 오일 파생의 중간급인, 특히 에틸렌옥사이드의 유용성은 북한의 능력 범위 내에서 충분히 겨자와 같은 단순한 화학무기 작용제의 대규모 제조를 할 수 있게 한다.",
+                    "sent_id": 2780,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14068
                 }
             ]
         }
     ],
-    "frameName": "Locative_relation"
+    "frameID": 5,
+    "ko_pos": "VA",
+    "ko_lu": "하다.a.Causation",
+    "lu_id": 3850,
+    "en_lus": [
+        "make",
+        "make",
+        "sent"
+    ]
 }

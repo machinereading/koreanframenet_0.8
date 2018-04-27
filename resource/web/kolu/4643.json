@@ -1,58 +1,87 @@
 {
-    "ko_lu": "토대.n.Reason",
-    "lu_id": 4643,
-    "frameID": 514,
-    "en_lus": [
-        "motoduku .基づく "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Participation",
     "patterns": [
         {
-            "valenceText": "annotation id: 15796",
+            "valenceText": "annotation id: 16094",
             "examples": [
                 {
+                    "frameName": "Participation",
                     "denotations": [
                         {
-                            "obj": "Agent",
+                            "obj": "participant_1",
                             "span": {
-                                "begin": 55,
-                                "end": 58
-                            }
+                                "begin": 7,
+                                "end": 16
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "State_of_Affairs",
+                            "obj": "event",
                             "span": {
-                                "begin": 59,
-                                "end": 64
-                            }
+                                "begin": 18,
+                                "end": 39
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Action",
+                            "obj": "target",
                             "span": {
-                                "begin": 71,
-                                "end": 90
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 66,
-                                "end": 68
-                            }
+                                "begin": 41,
+                                "end": 47
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Reason",
-                    "text": "이 모형 만들기 과정에 아이들도 참여시킴으로써, 모형은 교과서나 교사에 의해 제시되는 것이 아닌, 스스로 경험한 것을 토대로, 거기에 숨겨진 구조를 찾아내는 과정에서 얻어지는 것이라는 것을 아이들도 깨닫게 된다.",
-                    "relations": [],
-                    "sent_id": 3882,
-                    "ko_annotation_id": 15796,
                     "origin_lus": [
-                        "motoduku .基づく "
+                        "involved"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 16094,
+                    "text": "미국 정부는 러시아 독립국가들이 대량살상무기 기술을 이란에 이전하는 것과 관여되었다는 첩보를 폭로하였다.",
+                    "sent_id": 1446,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6933
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.74099",
+            "examples": [
+                {
+                    "frameName": "Participation",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "수사부는 비자금 조성에 그룹 회장이 직접 관여돼 있는 것으로 보고 다음주 중 소환해 조사하기로 했습니다.",
+                    "target": "관여돼",
+                    "ko_annotation_id": "sejong.74099",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Reason"
+    "frameID": 1144,
+    "ko_pos": "VV",
+    "ko_lu": "관여되다.v.Participation",
+    "lu_id": 4643,
+    "en_lus": [
+        "involve"
+    ]
 }

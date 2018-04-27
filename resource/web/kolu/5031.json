@@ -1,65 +1,109 @@
 {
-    "ko_lu": "대하다.v.Goal",
-    "lu_id": 5031,
-    "frameID": 1177,
-    "en_lus": [
-        "to"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Prevarication",
     "patterns": [
         {
-            "valenceText": "annotation id: 17296",
+            "valenceText": "annotation id: 17691",
             "examples": [
                 {
+                    "frameName": "Prevarication",
                     "denotations": [
                         {
-                            "obj": "landmark",
-                            "id": "2",
+                            "obj": "speaker",
                             "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "addressee",
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 5,
-                                "end": 7
-                            }
-                        },
-                        {
-                            "obj": "trajector",
-                            "id": "3",
-                            "span": {
-                                "begin": 8,
-                                "end": 22
-                            }
+                                "begin": 24,
+                                "end": 38
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Goal",
-                    "text": "리비아에 대한 2003년 12월 조사 팀을 이끈 국제 원자력 기구 총재 Mohamed ElBaradei에 의하면, 리비아의 핵무기 프로그램은 핵무기 생산에 약 3 내지 7년 떨어진 매우 초기 단계에 있다.",
+                    "origin_lus": [
+                        "misleading"
+                    ],
+                    "ko_annotation_id": 17691,
+                    "text": "Stephanopoulos는 자신이 국가를 잘못된 방향으로 나가게 하는데 대한 책임을 진다는 최소한의 동작 조차 거치지 않고 기회를 이용하고 있다.",
+                    "sent_id": 1035,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         },
                         {
+                            "subj": "1",
                             "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 2702,
-                    "ko_annotation_id": 17296,
-                    "origin_lus": [
-                        "to"
+                    "annotation_id": 5402
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.83700",
+            "examples": [
+                {
+                    "frameName": "Prevarication",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 3,
+                                "end": 8
+                            },
+                            "obj": "target"
+                        }
                     ],
-                    "annotation_id": 13557
+                    "text": "일이 잘못되려면 어떻게 해도 잘못된다.",
+                    "target": "잘못되려면",
+                    "ko_annotation_id": "sejong.83700",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.83701",
+            "examples": [
+                {
+                    "frameName": "Prevarication",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "좋은 의도해서 했어도 잘못될 수 있네.",
+                    "target": "잘못될",
+                    "ko_annotation_id": "sejong.83701",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Goal"
+    "frameID": 287,
+    "ko_pos": "VV",
+    "ko_lu": "잘못되다.v.Prevarication",
+    "lu_id": 5031,
+    "en_lus": [
+        "mislead"
+    ]
 }

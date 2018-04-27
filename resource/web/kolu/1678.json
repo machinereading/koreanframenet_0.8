@@ -1,74 +1,109 @@
 {
-    "ko_lu": "수송.n.Sent_items",
-    "lu_id": 1678,
-    "frameID": 1609,
-    "en_lus": [
-        "shipment"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Leadership",
     "patterns": [
         {
-            "valenceText": "annotation id: 5179",
+            "valenceText": "annotation id: 5234",
             "examples": [
                 {
+                    "frameName": "Leadership",
                     "denotations": [
                         {
-                            "obj": "sent_item",
-                            "id": "2",
+                            "obj": "leader",
                             "span": {
-                                "begin": 0,
-                                "end": 8
-                            }
+                                "begin": 5,
+                                "end": 15
+                            },
+                            "id": "3"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 10,
-                                "end": 12
-                            }
+                                "begin": 17,
+                                "end": 23
+                            },
+                            "id": "1"
+                        },
+                        {
+                            "obj": "governed",
+                            "span": {
+                                "begin": 25,
+                                "end": 31
+                            },
+                            "id": "2"
                         }
                     ],
-                    "frameName": "Sent_items",
-                    "text": "화학무기 작용제의 수송은 과도한 주의를 끌지 않는 방법으로 행해지고, 일반 군 화물로 위장된다고 보고된다.",
+                    "origin_lus": [
+                        "headed"
+                    ],
+                    "ko_annotation_id": 5234,
+                    "text": "이라크는 대통령 사담 후세인을 수반으로 하는 이라크 정권을 억제하는 도구로서 제재를 사용하여, 이라크에 대한 제재 해제를 맹렬하게 반대하는 미국을 기소하였다.",
+                    "sent_id": 1515,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 2758,
-                    "ko_annotation_id": 5179,
-                    "origin_lus": [
-                        "shipments"
-                    ],
-                    "annotation_id": 13927
+                    "annotation_id": 7262
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.13595",
+            "valenceText": "annotation id: sejong.92632",
             "examples": [
                 {
+                    "frameName": "Leadership",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "철도청에서는 귀성객의 원활한 수송을 위해 임시 열차편을 마련하기로 했다.",
-                    "relations": [],
-                    "target": "수송",
-                    "ko_annotation_id": "sejong.13595",
-                    "frameName": "Sent_items"
+                    "text": "감기는 반드시 열과 기침을 수반하는 것은 아니다.",
+                    "target": "수반하는",
+                    "ko_annotation_id": "sejong.92632",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.92633",
+            "examples": [
+                {
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "강진은 반드시 여진을 수반한다.",
+                    "target": "수반한다",
+                    "ko_annotation_id": "sejong.92633",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Sent_items"
+    "frameID": 73,
+    "ko_pos": "VV",
+    "ko_lu": "수반하다.v.Leadership",
+    "lu_id": 1678,
+    "en_lus": [
+        "head"
+    ]
 }

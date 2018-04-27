@@ -1,93 +1,135 @@
 {
-    "ko_lu": "짧다.a.Duration_description",
-    "lu_id": 3084,
-    "frameID": 79,
-    "en_lus": [
-        "short",
-        "short"
-    ],
-    "ko_pos": "VA",
+    "frameName": "Commerce_buy",
     "patterns": [
         {
-            "valenceText": "annotation id: 10142",
+            "valenceText": "annotation id: 10253",
             "examples": [
                 {
+                    "frameName": "Commerce_buy",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "buyer",
                             "span": {
-                                "begin": 40,
-                                "end": 41
-                            }
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "eventuality",
-                            "id": "2",
+                            "obj": "seller",
                             "span": {
-                                "begin": 43,
-                                "end": 45
-                            }
+                                "begin": 15,
+                                "end": 24
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "goods",
+                            "span": {
+                                "begin": 27,
+                                "end": 32
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "id": "1"
+                        },
+                        {
+                            "obj": "goods",
+                            "span": {
+                                "begin": 53,
+                                "end": 79
+                            },
+                            "id": "5"
                         }
                     ],
-                    "frameName": "Duration_attribute",
-                    "text": "Bank of China Tower 에서 Garden Road 위쪽으로 짧게 우회를 하고 랜드마크인 St. John ' s 성당에 도달하기 위해 Battery Path를 선회하라.",
+                    "origin_lus": [
+                        "purchase"
+                    ],
+                    "ko_annotation_id": 10253,
+                    "text": "1989년 8월에, 이란은 캐나다와 네델란드에서 푸사륨 종을 구입하려는데 대해 비난 받았는데, 이것은 T-2 진균독을 개발하는데 사용될 수 있다.",
+                    "sent_id": 2149,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "5",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 1059,
-                    "ko_annotation_id": 10142,
-                    "origin_lus": [
-                        "short"
-                    ],
-                    "annotation_id": 5536
+                    "annotation_id": 10720
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 12103",
+            "valenceText": "annotation id: sejong.77255",
             "examples": [
                 {
+                    "frameName": "Commerce_buy",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
-                                "begin": 11,
-                                "end": 13
-                            }
-                        },
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "물건을 구입하고는 꼭 영수증을 챙겨야 한다.",
+                    "target": "구입하고는",
+                    "ko_annotation_id": "sejong.77255",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.77256",
+            "examples": [
+                {
+                    "frameName": "Commerce_buy",
+                    "denotations": [
                         {
-                            "obj": "eventuality",
-                            "id": "2",
+                            "id": "1",
                             "span": {
-                                "begin": 14,
-                                "end": 19
-                            }
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "frameName": "Duration_attribute",
-                    "text": "QN : Lehr는 짧은 피칭 경력을 가졌는가 ?",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 1222,
-                    "ko_annotation_id": 12103,
-                    "origin_lus": [
-                        "short"
-                    ],
-                    "annotation_id": 6220
+                    "text": "명아는 동네 상점에서 시계를 구입했다.",
+                    "target": "구입했다",
+                    "ko_annotation_id": "sejong.77256",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Duration_description"
+    "frameID": 171,
+    "ko_pos": "VV",
+    "ko_lu": "구입하다.v.Commerce_buy",
+    "lu_id": 3084,
+    "en_lus": [
+        "purchase"
+    ]
 }

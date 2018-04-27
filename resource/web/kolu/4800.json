@@ -1,49 +1,42 @@
 {
-    "ko_lu": "않다.a.Quantity",
-    "lu_id": 4800,
-    "frameID": 2604,
-    "en_lus": [
-        "no"
-    ],
-    "ko_pos": "VA",
+    "frameName": "Activity_start",
     "patterns": [
         {
-            "valenceText": "annotation id: 16491",
+            "valenceText": "annotation id: 16841",
             "examples": [
                 {
+                    "frameName": "Activity_start",
                     "denotations": [
                         {
-                            "obj": "individuals",
-                            "id": "2",
+                            "obj": "Agent",
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 0,
+                                "end": 6
                             }
                         },
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "Activity",
                             "span": {
-                                "begin": 22,
-                                "end": 23
+                                "begin": 33,
+                                "end": 48
+                            }
+                        },
+                        {
+                            "obj": "Target",
+                            "span": {
+                                "begin": 50,
+                                "end": 51
                             }
                         }
                     ],
-                    "frameName": "Quantity",
-                    "text": "몬테레이의 발행인들은 부대를 지휘하지는 않지만, 그들은 오늘 판 신문에 사설로 그들의 분노를 표현하기로 동의하였다.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 1984,
-                    "ko_annotation_id": 16491,
                     "origin_lus": [
-                        "no"
+                        "hazimeru .始める"
                     ],
-                    "annotation_id": 9594
+                    "ko_annotation_id": 16841,
+                    "text": "나와 동거인은 파는 사람과 만드는 사람으로 확실히 나뉘어, 서로 상대방의 영역에 관여하지 않게 되었다.",
+                    "sent_id": 3892,
+                    "relations": [],
+                    "annotation_id": 0
                 }
             ]
         },
@@ -51,21 +44,21 @@
             "valenceText": "annotation id: sejong.102919",
             "examples": [
                 {
+                    "frameName": "Activity_start",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
                                 "begin": 8,
                                 "end": 10
-                            }
+                            },
+                            "obj": "target"
                         }
                     ],
                     "text": "방이 깨끗하지 않다.",
-                    "relations": [],
                     "target": "않다",
                     "ko_annotation_id": "sejong.102919",
-                    "frameName": "Quantity"
+                    "relations": []
                 }
             ]
         },
@@ -73,24 +66,30 @@
             "valenceText": "annotation id: sejong.102920",
             "examples": [
                 {
+                    "frameName": "Activity_start",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
                                 "begin": 7,
                                 "end": 9
-                            }
+                            },
+                            "obj": "target"
                         }
                     ],
                     "text": "건물이 높지 않다.",
-                    "relations": [],
                     "target": "않다",
                     "ko_annotation_id": "sejong.102920",
-                    "frameName": "Quantity"
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Quantity"
+    "frameID": 146,
+    "ko_pos": "VA",
+    "ko_lu": "않다.a.Activity_start",
+    "lu_id": 4800,
+    "en_lus": [
+        "hazimeru .始める"
+    ]
 }

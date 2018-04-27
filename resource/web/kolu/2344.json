@@ -1,73 +1,96 @@
 {
-    "ko_lu": "제자.n.Education_teaching",
-    "lu_id": 2344,
-    "frameID": 111,
-    "en_lus": [
-        "monzin .門人"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Punctual_perception",
     "patterns": [
         {
-            "valenceText": "annotation id: 7512",
+            "valenceText": "annotation id: 7593",
             "examples": [
                 {
+                    "frameName": "Punctual_perception",
                     "denotations": [
                         {
-                            "obj": "Teacher",
+                            "obj": "phenomenon",
                             "span": {
                                 "begin": 0,
-                                "end": 2
-                            }
+                                "end": 13
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Student",
+                            "obj": "target",
                             "span": {
-                                "begin": 4,
-                                "end": 7
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 4,
-                                "end": 7
-                            }
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Education_teaching",
-                    "text": "동양의 제자들은, 스승이 원하던 바를 알고 있었기에, 그 해 초겨울에 교토의 치안을 담당하던 쇼시다이에게 해부를 신청했다.",
-                    "relations": [],
-                    "sent_id": 4473,
-                    "ko_annotation_id": 7512,
                     "origin_lus": [
-                        "monzin .門人"
+                        "glimpse"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 7593,
+                    "text": "작고 가족 소유의 상점들을 흥미롭게 잠깐씩 둘러보기 위해서는, Bonham Strand 동쪽과 서쪽, Man Wa Lane, 그리고 Cleverly Street를 따라 걸어라.",
+                    "sent_id": 1094,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5714
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.39680",
+            "valenceText": "annotation id: sejong.64353",
             "examples": [
                 {
+                    "frameName": "Punctual_perception",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": "1",
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "그는 주위의 사람들을 죽 둘러보았다.",
+                    "target": "둘러보았다",
+                    "ko_annotation_id": "sejong.64353",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.64354",
+            "examples": [
+                {
+                    "frameName": "Punctual_perception",
+                    "denotations": [
+                        {
                             "id": "1",
                             "span": {
                                 "begin": 16,
-                                "end": 18
-                            }
+                                "end": 20
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "스승의 가르침을 따르는 것이 제자의 도리이다.",
-                    "relations": [],
-                    "target": "제자",
-                    "ko_annotation_id": "sejong.39680",
-                    "frameName": "Education_teaching"
+                    "text": "사장은 공사현장을 자주 와서 둘러보고 갔다.",
+                    "target": "둘러보고",
+                    "ko_annotation_id": "sejong.64354",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Education_teaching"
+    "frameID": 2075,
+    "ko_pos": "VV",
+    "ko_lu": "둘러보다.v.Punctual_perception",
+    "lu_id": 2344,
+    "en_lus": [
+        "glimpse"
+    ]
 }

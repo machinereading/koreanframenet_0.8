@@ -1,95 +1,87 @@
 {
-    "ko_lu": "시계.n.Accoutrements",
-    "lu_id": 3222,
-    "frameID": 158,
-    "en_lus": [
-        "tokee .時計 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Request",
     "patterns": [
         {
-            "valenceText": "annotation id: 10685",
+            "valenceText": "annotation id: 10930",
             "examples": [
                 {
+                    "frameName": "Request",
                     "denotations": [
                         {
-                            "obj": "Wearer",
+                            "obj": "addressee",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 45,
+                                "end": 49
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Accoutrement",
+                            "obj": "message",
                             "span": {
-                                "begin": 4,
-                                "end": 12
-                            }
+                                "begin": 51,
+                                "end": 67
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "target",
                             "span": {
-                                "begin": 10,
-                                "end": 12
-                            }
+                                "begin": 70,
+                                "end": 77
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Accoutrements",
-                    "text": "박쥐도 훌륭한 생물시계를 지니고 있어, 날이 저물었음을 감지하면 동굴에서 나와 먹이를 찾기 시작합니다.",
-                    "relations": [],
-                    "sent_id": 4465,
-                    "ko_annotation_id": 10685,
                     "origin_lus": [
-                        "tokee .時計 "
+                        "called"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 10930,
+                    "text": "그 신전 자리는 결국 그 위에 그것이 서 있던 모리아산으로 확인되었는데, 이곳은 아브라함이 자기 아들 이삭을 제물로 바치도록 부름을 받았던 곳이다.",
+                    "sent_id": 634,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3425
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.1",
+            "valenceText": "annotation id: sejong.13572",
             "examples": [
                 {
+                    "frameName": "Request",
                     "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 2,
-                                "end": 4
-                            }
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "id": "1"
                         }
                     ],
-                    "text": "이 시계는 10분 빠르다.",
-                    "relations": [],
-                    "target": "시계",
-                    "ko_annotation_id": "sejong.1",
-                    "frameName": "Accoutrements"
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.2",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 15,
-                                "end": 17
-                            }
-                        }
-                    ],
-                    "text": "어머니게서는 졸업 기념으로 시계를 사 주셨다.",
-                    "relations": [],
-                    "target": "시계",
-                    "ko_annotation_id": "sejong.2",
-                    "frameName": "Accoutrements"
+                    "text": "아버님의 부름을 받고 막 달려오는 길입니다.",
+                    "target": "부름",
+                    "ko_annotation_id": "sejong.13572",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Accoutrements"
+    "frameID": 41,
+    "ko_pos": "NNG",
+    "ko_lu": "부름.n.Request",
+    "lu_id": 3222,
+    "en_lus": [
+        "call"
+    ]
 }

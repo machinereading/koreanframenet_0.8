@@ -1,73 +1,74 @@
 {
-    "ko_lu": "잡무.n.Being_obligated",
-    "lu_id": 3202,
-    "frameID": 392,
-    "en_lus": [
-        "zatumu .雑務 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Cause_change_of_position_on_a_scale",
     "patterns": [
         {
-            "valenceText": "annotation id: 10640",
+            "valenceText": "annotation id: 10858",
             "examples": [
                 {
+                    "frameName": "Cause_change_of_position_on_a_scale",
                     "denotations": [
                         {
-                            "obj": "Duty",
+                            "obj": "item",
                             "span": {
-                                "begin": 8,
-                                "end": 10
-                            }
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Responsible_party",
+                            "obj": "target",
                             "span": {
-                                "begin": 23,
-                                "end": 30
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 8,
-                                "end": 10
-                            }
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Being_obligated",
-                    "text": "작품의 중개와 잡무를 떠맡는 것만으로는, 작가 에이전트의 역할을 반도 완수하지 못한 것이다.",
-                    "relations": [],
-                    "sent_id": 4998,
-                    "ko_annotation_id": 10640,
                     "origin_lus": [
-                        "zatumu .雑務 "
+                        "reductions"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 10858,
+                    "text": "그는 세금인하에서 자기가 할 수 있는 한도까지 가지 않았고 ; 실제로 그는 세금인하를 간접세 증가와 결합시켰다.",
+                    "sent_id": 91,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 599
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.14096",
+            "valenceText": "annotation id: sejong.43528",
             "examples": [
                 {
+                    "frameName": "Cause_change_of_position_on_a_scale",
                     "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 8,
-                                "end": 10
-                            }
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "id": "1"
                         }
                     ],
-                    "text": "초임 교사들은 잡무에 치여 정작 수업 준비를 제대로 하지 못할 정도라고 하소연했다.",
-                    "relations": [],
-                    "target": "잡무",
-                    "ko_annotation_id": "sejong.14096",
-                    "frameName": "Being_obligated"
+                    "text": "정부는 불황타개의 한 방편으로 일반 은행금리의 인하를 단행했다.",
+                    "target": "인하",
+                    "ko_annotation_id": "sejong.43528",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Being_obligated"
+    "frameID": 96,
+    "ko_pos": "NNG",
+    "ko_lu": "인하.n.Cause_change_of_position_on_a_scale",
+    "lu_id": 3202,
+    "en_lus": [
+        "reduction"
+    ]
 }

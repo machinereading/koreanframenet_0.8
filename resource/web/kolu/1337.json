@@ -1,104 +1,109 @@
 {
-    "ko_lu": "직원.n.Employing",
-    "lu_id": 1337,
-    "frameID": 323,
-    "en_lus": [
-        "personnel"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Sending",
     "patterns": [
         {
-            "valenceText": "annotation id: 4138",
+            "valenceText": "annotation id: 4150",
             "examples": [
                 {
+                    "frameName": "Sending",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "recipient",
                             "span": {
-                                "begin": 17,
-                                "end": 20
-                            }
-                        }
-                    ],
-                    "frameName": "Employing",
-                    "text": "간호사로 일했기 때문에 그녀는 직원들에게 커브볼을 몇 개 던지기로 결정하였다.",
-                    "relations": [],
-                    "sent_id": 3159,
-                    "ko_annotation_id": 4138,
-                    "origin_lus": [
-                        "personnel"
-                    ],
-                    "annotation_id": 16494
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.23386",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 7,
-                                "end": 9
-                            }
-                        }
-                    ],
-                    "text": "우리 회사는 직원이 많지는 않다.",
-                    "relations": [],
-                    "target": "직원",
-                    "ko_annotation_id": "sejong.23386",
-                    "frameName": "Employing"
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.23387",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 15,
+                                "begin": 0,
                                 "end": 17
-                            }
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "theme",
+                            "span": {
+                                "begin": 20,
+                                "end": 22
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "id": "1"
                         }
                     ],
-                    "text": "그는 오랫동안 우리 회사의 직원으로 일해 왔다.",
-                    "relations": [],
-                    "target": "직원",
-                    "ko_annotation_id": "sejong.23387",
-                    "frameName": "Employing"
+                    "origin_lus": [
+                        "Send"
+                    ],
+                    "ko_annotation_id": 4150,
+                    "text": "나의 고모, 삼촌 그리고 할머니에게 안부를 전해주세요.",
+                    "sent_id": 1704,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8294
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.23388",
+            "valenceText": "annotation id: sejong.54407",
             "examples": [
                 {
+                    "frameName": "Sending",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
-                                "begin": 10,
-                                "end": 12
-                            }
+                                "begin": 25,
+                                "end": 31
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "회사에서는 올해에 직원을 몇 명 더 채용하기로 했다.",
-                    "relations": [],
-                    "target": "직원",
-                    "ko_annotation_id": "sejong.23388",
-                    "frameName": "Employing"
+                    "text": "지금까지는 일이 잘 안 풀렸지만 이제 우리도 심기일전하고 앞으로는 잘 해봅시다.",
+                    "target": "심기일전하고",
+                    "ko_annotation_id": "sejong.54407",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.54408",
+            "examples": [
+                {
+                    "frameName": "Sending",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 18,
+                                "end": 24
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "우리 팀은 오늘의 승리를 계기로 심기일전하여 꼭 우승할 것입니다.",
+                    "target": "심기일전하여",
+                    "ko_annotation_id": "sejong.54408",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Employing"
+    "frameID": 243,
+    "ko_pos": "VV",
+    "ko_lu": "심기일전하다.v.Sending",
+    "lu_id": 1337,
+    "en_lus": [
+        "Send"
+    ]
 }

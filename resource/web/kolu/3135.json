@@ -1,51 +1,52 @@
 {
-    "ko_lu": "배우다.v.Getting",
-    "lu_id": 3135,
-    "frameID": 179,
-    "en_lus": [
-        "oboeru .おぼえる "
-    ],
-    "ko_pos": "VV",
+    "frameName": "Store",
     "patterns": [
         {
-            "valenceText": "annotation id: 10265",
+            "valenceText": "annotation id: 10551",
             "examples": [
                 {
+                    "frameName": "Store",
                     "denotations": [
                         {
-                            "obj": "Recipient",
+                            "obj": "possessor",
                             "span": {
-                                "begin": 0,
-                                "end": 1
-                            }
+                                "begin": 42,
+                                "end": 44
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Theme",
+                            "obj": "target",
                             "span": {
-                                "begin": 23,
-                                "end": 25
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 27,
-                                "end": 29
-                            }
+                                "begin": 45,
+                                "end": 48
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Getting",
-                    "text": "나는 도시 출생인데다가, 긴 전쟁 때문에 수영을 배울 기회도 없었다.",
-                    "relations": [],
-                    "sent_id": 4843,
-                    "ko_annotation_id": 10265,
                     "origin_lus": [
-                        "oboeru .おぼえる "
+                        "supplies"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 10551,
+                    "text": "무기 프로그램은 고유 ( 즉, 국내 ) 생산 능력에 바탕을 둘 수 있거나, 외국 조달자와 기술에 의존할 수 있다.",
+                    "sent_id": 2848,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14512
                 }
             ]
         }
     ],
-    "frameName": "Getting"
+    "frameID": 1511,
+    "ko_pos": "NNG",
+    "ko_lu": "조달자.n.Store",
+    "lu_id": 3135,
+    "en_lus": [
+        "supply"
+    ]
 }

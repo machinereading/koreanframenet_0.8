@@ -1,51 +1,109 @@
 {
-    "ko_lu": "별원.n.Buildings",
-    "lu_id": 4978,
-    "frameID": 173,
-    "en_lus": [
-        "betuin .別院 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Dispersal",
     "patterns": [
         {
-            "valenceText": "annotation id: 17052",
+            "valenceText": "annotation id: 17528",
             "examples": [
                 {
+                    "frameName": "Dispersal",
                     "denotations": [
                         {
-                            "obj": "Time_of_creation",
+                            "obj": "individuals",
                             "span": {
-                                "begin": 4,
-                                "end": 17
-                            }
+                                "begin": 0,
+                                "end": 33
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Building",
+                            "obj": "target",
                             "span": {
-                                "begin": 21,
-                                "end": 23
-                            }
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "id": "1"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "cause",
                             "span": {
-                                "begin": 21,
-                                "end": 23
-                            }
+                                "begin": 62,
+                                "end": 66
+                            },
+                            "id": "3"
                         }
                     ],
-                    "frameName": "Buildings",
-                    "text": "그리고 1667년(간분 7년.), 그 별원으로서, 고즈캇파라 형장에 세워진 것이, 이 회향원이라지.",
-                    "relations": [],
-                    "sent_id": 3577,
-                    "ko_annotation_id": 17052,
                     "origin_lus": [
-                        "betuin .別院 "
+                        "disperse"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 17528,
+                    "text": "지하철과 다른 사방이 막힌 공간에서 치명적인 시아나이드 가스를 살포하기 위해 알카이다가 개발한 것으로 전해지는 이 장치는 테러리스트 공격에 결코 사용되지 않았고  아마도 별로 효과적이지 않은 것 같다고 전문가들은 말한다.",
+                    "sent_id": 3231,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16980
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.53247",
+            "examples": [
+                {
+                    "frameName": "Dispersal",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "그 기업은 광고의 극대화를 위해 전단지에 지폐를 붙여 살포하였다.",
+                    "target": "살포하였다",
+                    "ko_annotation_id": "sejong.53247",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.53248",
+            "examples": [
+                {
+                    "frameName": "Dispersal",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "남한도 북한에 대북 선전물을 살포한다.",
+                    "target": "살포한다",
+                    "ko_annotation_id": "sejong.53248",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Buildings"
+    "frameID": 267,
+    "ko_pos": "VV",
+    "ko_lu": "살포하다.v.Dispersal",
+    "lu_id": 4978,
+    "en_lus": [
+        "disperse"
+    ]
 }

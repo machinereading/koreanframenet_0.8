@@ -1,76 +1,122 @@
 {
-    "ko_lu": "장애.n.Medical_conditions",
-    "lu_id": 922,
-    "frameID": 239,
-    "en_lus": [
-        "syoogai .障害 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Creating",
     "patterns": [
         {
-            "valenceText": "annotation id: 2723",
+            "valenceText": "annotation id: 2725",
             "examples": [
                 {
+                    "frameName": "Creating",
                     "denotations": [
                         {
-                            "obj": "Symptom",
+                            "obj": "time",
                             "span": {
-                                "begin": 48,
-                                "end": 50
-                            }
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "creator",
                             "span": {
-                                "begin": 48,
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "created_entity",
+                            "span": {
+                                "begin": 15,
+                                "end": 45
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 47,
                                 "end": 50
-                            }
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Medical_conditions",
-                    "text": "각지에 「뇌 외상 친우회」 및 관련 단체가 결성되어 가는 가운데, 가족 단체의 권고로 장애 연금, 장애인 수첩의 취득률도 오르고 있어, 작년의 해당 단체의 조사에 따르면, 장애인 수첩을 가지고 있지 않은 사람은 약 20%로 나타났다.",
-                    "relations": [],
-                    "sent_id": 4112,
-                    "ko_annotation_id": 2723,
                     "origin_lus": [
-                        "syoogai .障害 "
+                        "issued"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 2725,
+                    "text": "2002년 8월에, 중국은 미사일과 미사일 기술 수출을 제한하는 규정과 통제 목록을 발표하였다.",
+                    "sent_id": 2128,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10588
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 2724",
+            "valenceText": "annotation id: sejong.48340",
             "examples": [
                 {
+                    "frameName": "Creating",
                     "denotations": [
                         {
-                            "obj": "Name",
+                            "id": "1",
                             "span": {
-                                "begin": 5,
-                                "end": 13
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 11,
-                                "end": 13
-                            }
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "frameName": "Medical_conditions",
-                    "text": "하지만, 경도 발달 장애 자체에 대한 이해가 충분하지 못한 현장의 경우에는, 전체적인 이해력 향상을 위해 워크숍이나 세미나 등을 여는 것부터 시작할 필요가 있습니다.",
-                    "relations": [],
-                    "sent_id": 4994,
-                    "ko_annotation_id": 2724,
-                    "origin_lus": [
-                        "syoogai .障害 "
+                    "text": "이번에 정부에서 발표한 구조조정안은 재벌개혁의 측면에서 좀 미흡한 점이 있다.",
+                    "target": "발표한",
+                    "ko_annotation_id": "sejong.48340",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.48341",
+            "examples": [
+                {
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "obj": "target"
+                        }
                     ],
-                    "annotation_id": 0
+                    "text": "대변인은 국민들에게 대통령이 매우 위독하다고 발표했다.",
+                    "target": "발표했다",
+                    "ko_annotation_id": "sejong.48341",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Medical_conditions"
+    "frameID": 319,
+    "ko_pos": "VV",
+    "ko_lu": "발표하다.v.Creating",
+    "lu_id": 922,
+    "en_lus": [
+        "issue"
+    ]
 }

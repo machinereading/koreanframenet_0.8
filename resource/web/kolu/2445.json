@@ -1,73 +1,109 @@
 {
-    "ko_lu": "상순.n.Temporal_subregion",
-    "lu_id": 2445,
-    "frameID": 1470,
-    "en_lus": [
-        "zyoozyn .上旬 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Intentionally_act",
     "patterns": [
         {
-            "valenceText": "annotation id: 7928",
+            "valenceText": "annotation id: 8018",
             "examples": [
                 {
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "Time_period",
+                            "obj": "act",
                             "span": {
-                                "begin": 17,
-                                "end": 19
-                            }
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Sub_part",
+                            "obj": "target",
                             "span": {
-                                "begin": 20,
-                                "end": 22
-                            }
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "id": "1"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "agent",
                             "span": {
-                                "begin": 20,
-                                "end": 22
-                            }
+                                "begin": 19,
+                                "end": 30
+                            },
+                            "id": "2"
                         }
                     ],
-                    "frameName": "Temporal_subregion",
-                    "text": "음력시대의 히나마쓰리는 지금의 4월 상순에 해당하므로, 꽤 날씨도 따뜻해져, 완연한 봄기운이 느껴졌을 것이다.",
-                    "relations": [],
-                    "sent_id": 4107,
-                    "ko_annotation_id": 7928,
                     "origin_lus": [
-                        "zyoozyn .上旬 "
+                        "carrying"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 8018,
+                    "text": "feng shui 원리를 이행하는,두 마리의 구리 사자가 문을 지킨다.",
+                    "sent_id": 1056,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5519
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.30001",
+            "valenceText": "annotation id: sejong.48275",
             "examples": [
                 {
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
-                                "begin": 10,
-                                "end": 12
-                            }
+                                "begin": 22,
+                                "end": 26
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "남쪽 지방은 삼월 상순에 벌써 꽃이 피기 시작한다.",
-                    "relations": [],
-                    "target": "상순",
-                    "ko_annotation_id": "sejong.30001",
-                    "frameName": "Temporal_subregion"
+                    "text": "유권자는 선거의 권리이자 의무를 충실히 이행해야 한다.",
+                    "target": "이행해야",
+                    "ko_annotation_id": "sejong.48275",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.48276",
+            "examples": [
+                {
+                    "frameName": "Intentionally_act",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "각자 남과 맺은 약속을 철저히 이행할 때, 이 사회는 안정되게 된다.",
+                    "target": "이행할",
+                    "ko_annotation_id": "sejong.48276",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Temporal_subregion"
+    "frameID": 198,
+    "ko_pos": "VV",
+    "ko_lu": "이행하다.v.Intentionally_act",
+    "lu_id": 2445,
+    "en_lus": [
+        "carry"
+    ]
 }

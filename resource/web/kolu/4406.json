@@ -1,58 +1,87 @@
 {
-    "ko_lu": "배상.n.Fining",
-    "lu_id": 4406,
-    "frameID": 223,
-    "en_lus": [
-        "baisyoo .賠償"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Attempt",
     "patterns": [
         {
-            "valenceText": "annotation id: 14924",
+            "valenceText": "annotation id: 15257",
             "examples": [
                 {
+                    "frameName": "Attempt",
                     "denotations": [
                         {
-                            "obj": "Payer",
+                            "obj": "agent",
                             "span": {
-                                "begin": 27,
-                                "end": 34
-                            }
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Speaker",
+                            "obj": "goal",
                             "span": {
-                                "begin": 50,
-                                "end": 60
-                            }
+                                "begin": 4,
+                                "end": 15
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Reason",
+                            "obj": "target",
                             "span": {
-                                "begin": 62,
-                                "end": 64
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 64,
-                                "end": 66
-                            }
+                                "begin": 16,
+                                "end": 23
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Fining",
-                    "text": "출산 후, 다카코는 마사오와의 이별을 결심하고, 마사오를 상대로 「마이카라의 인지청구」와 「다카코와 마이카라의 손해배상청구(이른바 위자료.)」의 두 가지 소송을 제기했다.",
-                    "relations": [],
-                    "sent_id": 4249,
-                    "ko_annotation_id": 14924,
                     "origin_lus": [
-                        "baisyoo .賠償"
+                        "attempted"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 15257,
+                    "text": "이란이 리신을 생산하기 위한 시도를 했다는 증거가 있나 ?",
+                    "sent_id": 1300,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6512
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.62177",
+            "examples": [
+                {
+                    "frameName": "Attempt",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "이런 방식의 연구는 우리 대학 연구소에 의해 처음으로 시도되었다.",
+                    "target": "시도되었다",
+                    "ko_annotation_id": "sejong.62177",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Fining"
+    "frameID": 116,
+    "ko_pos": "VV",
+    "ko_lu": "시도되다.v.Attempt",
+    "lu_id": 4406,
+    "en_lus": [
+        "attempt"
+    ]
 }

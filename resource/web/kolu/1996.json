@@ -1,44 +1,65 @@
 {
-    "ko_lu": "원서.n.Documents",
-    "lu_id": 1996,
-    "frameID": 560,
-    "en_lus": [
-        "gansyo .願書"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Evidence",
     "patterns": [
         {
-            "valenceText": "annotation id: 6264",
+            "valenceText": "annotation id: 6303",
             "examples": [
                 {
+                    "frameName": "Evidence",
                     "denotations": [
                         {
-                            "obj": "Right",
+                            "obj": "support",
                             "span": {
-                                "begin": 50,
-                                "end": 57
-                            }
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "proposition",
                             "span": {
-                                "begin": 42,
-                                "end": 44
-                            }
+                                "begin": 13,
+                                "end": 37
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 29,
+                                "end": 37
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Documents",
-                    "text": "A 문언침해에는 해당하지 않는 특허발명이 어디까지 보호 범위에 속하는지는, 원서에 첨부한 특허청구 범위에 기재된 내용에 따라 정해집니다.",
-                    "relations": [],
-                    "sent_id": 4085,
-                    "ko_annotation_id": 6264,
                     "origin_lus": [
-                        "gansyo .願書"
+                        "disprove"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 6303,
+                    "text": "그러나, 가용한 정보는 다양한 소식통이 하는 주장이 틀렸음을 입증하지 못한다.",
+                    "sent_id": 2180,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 10857
                 }
             ]
         }
     ],
-    "frameName": "Documents"
+    "frameID": 25,
+    "ko_pos": "VV",
+    "ko_lu": "틀리다.v.Evidence",
+    "lu_id": 1996,
+    "en_lus": [
+        "disprove"
+    ]
 }

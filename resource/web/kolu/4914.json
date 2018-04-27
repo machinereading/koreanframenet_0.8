@@ -1,44 +1,109 @@
 {
-    "ko_lu": "손.n.Assistance",
-    "lu_id": 4914,
-    "frameID": 391,
-    "en_lus": [
-        "te o kasu .手 を 貸す "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Being_wet",
     "patterns": [
         {
-            "valenceText": "annotation id: 16882",
+            "valenceText": "annotation id: 17260",
             "examples": [
                 {
+                    "frameName": "Being_wet",
                     "denotations": [
                         {
-                            "obj": "Co_agent",
+                            "obj": "target",
                             "span": {
-                                "begin": 39,
-                                "end": 60
+                                "begin": 45,
+                                "end": 48
+                            },
+                            "id": "1"
+                        },
+                        {
+                            "obj": "item",
+                            "span": {
+                                "begin": 54,
+                                "end": 56
+                            },
+                            "id": "2"
+                        }
+                    ],
+                    "origin_lus": [
+                        "damp",
+                        "simeppoi .湿っぽい "
+                    ],
+                    "ko_annotation_id": 17260,
+                    "text": "비행기 여행의 확대는 대중관광 시대를 시작하였고, 그리스는 에게 해 제도와 함께 축축하고 시원한 여름을 벗어나려는 북부 유럽인들을 위한 흥미진진한 목적지가 되었다.",
+                    "sent_id": 610,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3264
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 17261",
+            "examples": [
+                {
+                    "frameName": "Being_wet",
+                    "denotations": [
+                        {
+                            "obj": "Item",
+                            "span": {
+                                "begin": 11,
+                                "end": 12
                             }
                         },
                         {
                             "obj": "Target",
                             "span": {
-                                "begin": 78,
-                                "end": 79
+                                "begin": 14,
+                                "end": 17
                             }
                         }
                     ],
-                    "frameName": "Assistance",
-                    "text": "길바닥에 주저앉아 있으면 「형아, 괜찮아요?」하고 누군가 말을 걸고, 계단 끝에 유모차를 들고 서 있는 여자에게는 「도와줄게요」하고 기꺼이 손을 내민다.",
-                    "relations": [],
-                    "sent_id": 3770,
-                    "ko_annotation_id": 16882,
                     "origin_lus": [
-                        "te o kasu .手 を 貸す "
+                        "damp",
+                        "simeppoi .湿っぽい "
                     ],
+                    "ko_annotation_id": 17261,
+                    "text": "침대는 덜컥거리고, 방은 축축하다.",
+                    "sent_id": 4829,
+                    "relations": [],
                     "annotation_id": 0
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.104724",
+            "examples": [
+                {
+                    "frameName": "Being_wet",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "습기가 차서 방바닥이 축축하다.",
+                    "target": "축축하다",
+                    "ko_annotation_id": "sejong.104724",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Assistance"
+    "frameID": 332,
+    "ko_pos": "VA",
+    "ko_lu": "축축하다.a.Being_wet",
+    "lu_id": 4914,
+    "en_lus": [
+        "simeppoi .湿っぽい ",
+        "damp"
+    ]
 }

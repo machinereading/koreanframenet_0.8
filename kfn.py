@@ -4,19 +4,22 @@ from nltk.corpus import framenet as fn
 
 def load_kfn():
     with open('./resource/KFN_lus.json','r') as f:
-        lus = json.load(f)
+        kolus = json.load(f)
     with open('./resource/KFN_annotations.json','r') as f:
         annos = json.load(f)
     with open('./resource/KFN_annotations_from_sejong.json','r') as f:
         s_annos = json.load(f)
-    return lus,annos,s_annos
+    return kolus,annos,s_annos
 
-lus,annos,s_annos = load_kfn()
+kolus,annos,s_annos = load_kfn()
+
+def lus():
+    return kolus
 
 def get_lu_id(lexicalUnit,frame):
     # get lu id from lu(entry) and frame
     lu_id = False
-    for i in lus:
+    for i in kolus:
         if lexicalUnit == i['lu'] and frame == i['frameName']:
             lu_id = i['lu_id']
             break
@@ -25,14 +28,14 @@ def get_lu_id(lexicalUnit,frame):
 def lus_by_lemma(lemma):
     lu_id = False
     lu_list = []
-    for i in lus:
+    for i in kolus:
         if lemma == i['lexeme']: #only matching with lexeme
             d = {}
             d['lu_id'] = i['lu_id']
             d['lu'] = i['lu']
             lu_list.append(d)
     if len(lu_list) == 0:
-        for i in lus:
+        for i in kolus:
             if lemma in i['lu']:
                 d = {}
                 d['lu_id'] = i['lu_id']
@@ -43,7 +46,7 @@ def lus_by_lemma(lemma):
 def lu(lu_id):
     # get lu information using lu_id
     lexicalUnit = False
-    for i in lus:
+    for i in kolus:
         if lu_id == i['lu_id']:
             lexicalUnit = i
             break

@@ -1,109 +1,96 @@
 {
-    "ko_lu": "불법화되다.v.Prohibiting_or_licensing",
-    "lu_id": 4614,
-    "frameID": 521,
-    "en_lus": [
-        "outlaw"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Deny_or_grant_permission",
     "patterns": [
         {
-            "valenceText": "annotation id: 15693",
+            "valenceText": "annotation id: 16020",
             "examples": [
                 {
+                    "frameName": "Grant_permission",
                     "denotations": [
                         {
-                            "obj": "place",
-                            "id": "3",
+                            "obj": "action",
                             "span": {
-                                "begin": 0,
-                                "end": 4
-                            }
+                                "begin": 39,
+                                "end": 80
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 8,
-                                "end": 12
-                            }
-                        },
-                        {
-                            "obj": "state_of_affairs",
-                            "id": "2",
-                            "span": {
-                                "begin": 24,
-                                "end": 26
-                            }
+                                "begin": 82,
+                                "end": 85
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Prohibiting",
-                    "text": "다른 곳에서는 불법화되거나 심하게 통제되는 악덕이 여기서는 어느 날 ( 혹은 밤 ) 어느 시간에도 이용가능하며 합법적이었다.",
+                    "origin_lus": [
+                        "approved"
+                    ],
+                    "ko_annotation_id": 16020,
+                    "text": "미국은 이란에 138 백만 달러 어치의 컴퓨터 수출 허가를 승인하고 ; 130,000 달러의 오실로스코프를 포함하여, 다른 핵 관련 기술의 적하물이 승인되었다.",
+                    "sent_id": 3413,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        },
-                        {
-                            "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 797,
-                    "ko_annotation_id": 15693,
-                    "origin_lus": [
-                        "outlawed"
-                    ],
-                    "annotation_id": 4170
+                    "annotation_id": 18033
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.83441",
+            "valenceText": "annotation id: sejong.77916",
             "examples": [
                 {
+                    "frameName": "Deny_or_grant_permission",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
                                 "begin": 9,
-                                "end": 18
-                            }
+                                "end": 16
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "태아 성 감별이 불법화되어있음에도 불구하고 여전히 자행되고 있다.",
-                    "relations": [],
-                    "target": "불법화되어있음에도",
-                    "ko_annotation_id": "sejong.83441",
-                    "frameName": "Prohibiting_or_licensing"
+                    "text": "그 사실은 이미 승인되었습니다.",
+                    "target": "승인되었습니다",
+                    "ko_annotation_id": "sejong.77916",
+                    "relations": []
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.83442",
+            "valenceText": "annotation id: sejong.77917",
             "examples": [
                 {
+                    "frameName": "Deny_or_grant_permission",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
-                                "begin": 7,
-                                "end": 12
-                            }
+                                "begin": 6,
+                                "end": 13
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "마약 밀수는 불법화되어 있지만 여전히 감쪽같이 자행되고 있다.",
-                    "relations": [],
-                    "target": "불법화되어",
-                    "ko_annotation_id": "sejong.83442",
-                    "frameName": "Prohibiting_or_licensing"
+                    "text": "신용구매가 승인되었습니다.",
+                    "target": "승인되었습니다",
+                    "ko_annotation_id": "sejong.77917",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Prohibiting_or_licensing"
+    "frameID": 520,
+    "ko_pos": "VV",
+    "ko_lu": "승인되다.v.Deny_or_grant_permission",
+    "lu_id": 4614,
+    "en_lus": [
+        "approve"
+    ]
 }

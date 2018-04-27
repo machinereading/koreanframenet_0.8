@@ -1,65 +1,109 @@
 {
-    "ko_lu": "조인국.n.Sign_agreement",
-    "lu_id": 5759,
-    "frameID": 1151,
-    "en_lus": [
-        "signatory"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Required_event",
     "patterns": [
         {
-            "valenceText": "annotation id: 19859",
+            "valenceText": "annotation id: 20278",
             "examples": [
                 {
+                    "frameName": "Required_event",
                     "denotations": [
                         {
-                            "obj": "signatory",
-                            "id": "2",
+                            "obj": "required_situation",
                             "span": {
                                 "begin": 0,
-                                "end": 2
-                            }
+                                "end": 5
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "agreement",
-                            "id": "3",
+                            "obj": "required_situation",
                             "span": {
-                                "begin": 4,
-                                "end": 13
-                            }
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "id": "3"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 15,
-                                "end": 18
-                            }
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Sign_agreement",
-                    "text": "이란은 핵확산 방지 조약의 조인국이고 IAEA 의 안전 장치 협정에 서명하였다.",
+                    "origin_lus": [
+                        "should"
+                    ],
+                    "ko_annotation_id": 20278,
+                    "text": "일부 버스는 노출되고 다른 버스는 위장되어야 한다.",
+                    "sent_id": 1589,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         },
                         {
+                            "subj": "1",
                             "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 3372,
-                    "ko_annotation_id": 19859,
-                    "origin_lus": [
-                        "signatory"
+                    "annotation_id": 7733
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.63554",
+            "examples": [
+                {
+                    "frameName": "Required_event",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "obj": "target"
+                        }
                     ],
-                    "annotation_id": 17880
+                    "text": "적에게 노출되지 않도록 위장을 잘 하여야 한다.",
+                    "target": "노출되지",
+                    "ko_annotation_id": "sejong.63554",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.63555",
+            "examples": [
+                {
+                    "frameName": "Required_event",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "그녀의 앞자락 단추가 풀어지면서 젖가슴이 살짝 노출되었다.",
+                    "target": "노출되었다",
+                    "ko_annotation_id": "sejong.63555",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Sign_agreement"
+    "frameID": 1381,
+    "ko_pos": "VV",
+    "ko_lu": "노출되다.v.Required_event",
+    "lu_id": 5759,
+    "en_lus": [
+        "should"
+    ]
 }

@@ -1,100 +1,131 @@
 {
-    "ko_lu": "중이.n.Cause_to_make_progress",
-    "lu_id": 2898,
-    "frameID": 1349,
-    "en_lus": [
-        "develop"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Causation",
     "patterns": [
         {
-            "valenceText": "annotation id: 9455",
+            "valenceText": "annotation id: 9539",
             "examples": [
                 {
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "obj": "agent",
-                            "id": "2",
+                            "obj": "cause",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 15,
+                                "end": 71
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "time",
-                            "id": "3",
+                            "obj": "effect",
                             "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
-                        },
-                        {
-                            "obj": "project",
-                            "id": "4",
-                            "span": {
-                                "begin": 7,
-                                "end": 11
-                            }
+                                "begin": 73,
+                                "end": 89
+                            },
+                            "id": "3"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 13,
-                                "end": 20
-                            }
+                                "begin": 91,
+                                "end": 95
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Cause_to_make_progress",
-                    "text": "이란이 현재 화학무기를 개발 중이라는 구체적인 증거는 없지만, 화학무기 전구물질이 과거에 외국 출처로부터 구매된 여러 사례가 있다.",
+                    "origin_lus": [
+                        "caused"
+                    ],
+                    "ko_annotation_id": 9539,
+                    "text": "정치적으로, 1990년대는 그리스 수상 Andreas Papndreou의 이혼과 이를 뒤 이은 그의 훨씬 더 젊은 여성과의 결혼이 보수적인 그리스 사회에서 실망을 유발시키긴 했지만, 제도가 비교적 조용한 시기였다.",
+                    "sent_id": 616,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         },
                         {
+                            "subj": "1",
                             "obj": "3",
-                            "pred": "",
-                            "subj": "1"
-                        },
-                        {
-                            "obj": "4",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 2242,
-                    "ko_annotation_id": 9455,
-                    "origin_lus": [
-                        "developing"
-                    ],
-                    "annotation_id": 11217
+                    "annotation_id": 3299
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.36255",
+            "valenceText": "annotation id: sejong.62173",
             "examples": [
                 {
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
-                                "begin": 15,
-                                "end": 17
-                            }
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "외이를 통해 들어온 소리는 중이의 고막과 청소골을 거쳐 내이로 전달된다.",
-                    "relations": [],
-                    "target": "중이",
-                    "ko_annotation_id": "sejong.36255",
-                    "frameName": "Cause_to_make_progress"
+                    "text": "그의 말이 우리에게 판단 착오를 유발시켰다.",
+                    "target": "유발시켰다",
+                    "ko_annotation_id": "sejong.62173",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.62174",
+            "examples": [
+                {
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 18,
+                                "end": 24
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "그의 정치적 발언은 민족 전쟁을 유발시키기에 이르렀다.",
+                    "target": "유발시키기에",
+                    "ko_annotation_id": "sejong.62174",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.62175",
+            "examples": [
+                {
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "환경 호르몬은 기형아 출산도 유발시킬 수 있다.",
+                    "target": "유발시킬",
+                    "ko_annotation_id": "sejong.62175",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Cause_to_make_progress"
+    "frameID": 5,
+    "ko_pos": "VV",
+    "ko_lu": "유발시키다.v.Causation",
+    "lu_id": 2898,
+    "en_lus": [
+        "cause"
+    ]
 }

@@ -1,52 +1,109 @@
 {
-    "ko_lu": "어제.n.Relative_time",
-    "lu_id": 4632,
-    "frameID": 81,
-    "en_lus": [
-        "last"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Commerce_buy",
     "patterns": [
         {
-            "valenceText": "annotation id: 15755",
+            "valenceText": "annotation id: 16065",
             "examples": [
                 {
+                    "frameName": "Commerce_buy",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "buyer",
                             "span": {
-                                "begin": 84,
-                                "end": 86
-                            }
+                                "begin": 17,
+                                "end": 30
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "focal_occasion",
-                            "id": "2",
+                            "obj": "goods",
                             "span": {
-                                "begin": 86,
-                                "end": 87
-                            }
+                                "begin": 32,
+                                "end": 49
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 51,
+                                "end": 55
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Relative_time",
-                    "text": "나는 그들이 선고된 살인자의 감옥에 있는 평균 시간은, 저, 그가 가석방 되기 전에 이년이고 강간자는 육개월이고 도둑은 이개월이라고 그들이 말한 것을 어제밤 뉴스에서 보았다.",
+                    "origin_lus": [
+                        "buying"
+                    ],
+                    "ko_annotation_id": 16065,
+                    "text": "철도 수송에서 증가하는 경쟁은 Union Pacific이 로스앤젤레스 - 솔트레이크 선로를 사들이는 결과를 가져왔다.",
+                    "sent_id": 784,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 1903,
-                    "ko_annotation_id": 15755,
-                    "origin_lus": [
-                        "last"
+                    "annotation_id": 4103
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.67402",
+            "examples": [
+                {
+                    "frameName": "Commerce_buy",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "obj": "target"
+                        }
                     ],
-                    "annotation_id": 9160
+                    "text": "그는 사람들에게서 땅을 헐값에 사들였다.",
+                    "target": "사들였다",
+                    "ko_annotation_id": "sejong.67402",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.67403",
+            "examples": [
+                {
+                    "frameName": "Commerce_buy",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "그는 암시장에서 달러를 사들였다.",
+                    "target": "사들였다",
+                    "ko_annotation_id": "sejong.67403",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Relative_time"
+    "frameID": 171,
+    "ko_pos": "VV",
+    "ko_lu": "사들이다.v.Commerce_buy",
+    "lu_id": 4632,
+    "en_lus": [
+        "buying"
+    ]
 }

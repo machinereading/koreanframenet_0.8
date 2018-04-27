@@ -107,6 +107,7 @@ def get_lu_id(lu):
     for i in d:
         if lu == i['lu']:
             lu_id = i['lu_id']
+            break
     return lu_id
 
 def gen_frame_index():
@@ -123,7 +124,7 @@ def gen_frame_index():
         note = tree.getroot()
         xsl = note.getprevious()
 #        note = parse(filename)
-        print(xsl)
+#        print(xsl)
         for j in i['ko_lu']:
             lu_id = get_lu_id(j)
             lu_id = 'ko.'+str(lu_id)
@@ -176,6 +177,10 @@ def gen_lu_xml():
     
 
 gen_lu_files()
-#gen_lu_index()
-#gen_frame_index()
-#gen_lu_xml()
+print(1)
+gen_lu_index()
+print(2)
+gen_frame_index()
+print(3)
+gen_lu_xml()
+print(4)

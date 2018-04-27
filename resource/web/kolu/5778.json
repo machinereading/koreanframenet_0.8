@@ -1,65 +1,140 @@
 {
-    "ko_lu": "프로그램.n.Goal",
-    "lu_id": 5778,
-    "frameID": 1177,
-    "en_lus": [
-        "to"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Request",
     "patterns": [
         {
-            "valenceText": "annotation id: 19911",
+            "valenceText": "annotation id: 20362",
             "examples": [
                 {
+                    "frameName": "Request",
                     "denotations": [
                         {
-                            "obj": "trajector",
-                            "id": "3",
+                            "obj": "speaker",
                             "span": {
-                                "begin": 9,
-                                "end": 52
-                            }
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "message",
+                            "span": {
+                                "begin": 4,
+                                "end": 28
+                            },
+                            "id": "3"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 37,
-                                "end": 41
-                            }
-                        },
-                        {
-                            "obj": "landmark",
-                            "id": "2",
-                            "span": {
-                                "begin": 45,
-                                "end": 47
-                            }
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Goal",
-                    "text": "한 가지 방법은 건강 보급품과 다른 긴급 상품을 유엔의 인도주의적 프로그램 하에 국가로의 유입 속도를 높이는 것이다.",
+                    "origin_lus": [
+                        "demand",
+                        "demanded",
+                        "call"
+                    ],
+                    "ko_annotation_id": 20362,
+                    "text": "우리는 왜 이 조사가 수행되지 않는지 이해한다는 것을 미국 국민을 대신하여 요구한다.",
+                    "sent_id": 1724,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         },
                         {
+                            "subj": "1",
                             "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 1521,
-                    "ko_annotation_id": 19911,
-                    "origin_lus": [
-                        "to"
+                    "annotation_id": 8405
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 20363",
+            "examples": [
+                {
+                    "frameName": "Request",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "id": "1"
+                        }
                     ],
-                    "annotation_id": 7313
+                    "origin_lus": [
+                        "demand",
+                        "demanded",
+                        "call"
+                    ],
+                    "ko_annotation_id": 20363,
+                    "text": "그의 직무의 목표는 그가 그것을 30분 안에 할 것을 요구한다.",
+                    "sent_id": 362,
+                    "relations": [],
+                    "annotation_id": 1944
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.56547",
+            "examples": [
+                {
+                    "frameName": "Request",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "변호사는 이번 사건의 수임료로 거액을 요구했다.",
+                    "target": "요구했다",
+                    "ko_annotation_id": "sejong.56547",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.56548",
+            "examples": [
+                {
+                    "frameName": "Request",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "노조는 사장의 퇴임을 요구했다.",
+                    "target": "요구했다",
+                    "ko_annotation_id": "sejong.56548",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Goal"
+    "frameID": 41,
+    "ko_pos": "VV",
+    "ko_lu": "요구하다.v.Request",
+    "lu_id": 5778,
+    "en_lus": [
+        "call",
+        "demand"
+    ]
 }

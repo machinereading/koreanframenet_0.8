@@ -1,95 +1,100 @@
 {
-    "ko_lu": "강물.n.Substance",
-    "lu_id": 4860,
-    "frameID": 1321,
-    "en_lus": [
-        "mizu .水 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Commerce_sell",
     "patterns": [
         {
-            "valenceText": "annotation id: 16713",
+            "valenceText": "annotation id: 17004",
             "examples": [
                 {
+                    "frameName": "Commerce_sell",
                     "denotations": [
                         {
-                            "obj": "Source",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        },
-                        {
-                            "obj": "Substance",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        }
-                    ],
-                    "frameName": "Substance",
-                    "text": "강물은 졸졸 흐르니 도움이 안되고, 마을 사람들이, 여기저기 우물을 파봐도 시원스레 깨끗한 물이 나오지 않았지.",
-                    "relations": [],
-                    "sent_id": 4699,
-                    "ko_annotation_id": 16713,
-                    "origin_lus": [
-                        "mizu .水 "
-                    ],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41135",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "goods",
                             "span": {
                                 "begin": 8,
-                                "end": 10
-                            }
+                                "end": 15
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "time",
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "id": "1"
+                        },
+                        {
+                            "obj": "money",
+                            "span": {
+                                "begin": 24,
+                                "end": 32
+                            },
+                            "id": "4"
                         }
                     ],
-                    "text": "그녀는 흐르는 강물을 말없이 바라보고 있었다.",
-                    "relations": [],
-                    "target": "강물",
-                    "ko_annotation_id": "sejong.41135",
-                    "frameName": "Substance"
+                    "origin_lus": [
+                        "sale"
+                    ],
+                    "ko_annotation_id": 17004,
+                    "text": "3분기 결과는 연합 투자자들의 8월 판매액 27 백만 달러와 15 백만 달러의 세금 공제를 포함한 48 백만 달러의 순실현자본이득을 포함하였다.",
+                    "sent_id": 10,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 63
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.41136",
+            "valenceText": "annotation id: sejong.20381",
             "examples": [
                 {
+                    "frameName": "Commerce_sell",
                     "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 6,
-                                "end": 8
-                            }
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "id": "1"
                         }
                     ],
-                    "text": "우리 집은 강물에 배를 띄워야 갈 수 있는 곳이다.",
-                    "relations": [],
-                    "target": "강물",
-                    "ko_annotation_id": "sejong.41136",
-                    "frameName": "Substance"
+                    "text": "우리 가게의 인형 판매액만 해도 백만원이 넘습니다.",
+                    "target": "판매액",
+                    "ko_annotation_id": "sejong.20381",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Substance"
+    "frameID": 172,
+    "ko_pos": "NN",
+    "ko_lu": "판매액.n.Commerce_sell",
+    "lu_id": 4860,
+    "en_lus": [
+        "sale"
+    ]
 }

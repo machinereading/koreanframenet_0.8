@@ -11,6 +11,15 @@ Korean FrameNet is a lexical database that has rich annotations to represent the
 ## How to use
 refer `example.py`
 
+### 0) get all LUs
+```
+import json
+import kfn
+lus = kfn.lus()
+print(len(lus))
+```
+`14699` LUs are in Korean FrameNet
+
 ### 1) How to get lexical unit (LU) IDs
 ```
 import json
@@ -61,4 +70,4 @@ Younggyun Hahm `hahmyg@kaist.ac.kr`
 [Machine Reading Lab](http://mrlab.kaist.ac.kr/) @ KAIST
 
 ## Ciation
-the paper 'Semi-automatic Korean FrameNet Annotation over KAIST Treebank' is accepted at LREC2018
+the paper _'Semi-automatic Korean FrameNet Annotation over KAIST Treebank'_ is accepted at LREC2018

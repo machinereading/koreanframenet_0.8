@@ -1,118 +1,135 @@
 {
-    "ko_lu": "법관.n.Judicial_body",
-    "lu_id": 1955,
-    "frameID": 1607,
-    "en_lus": [
-        "Court"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Attack",
     "patterns": [
         {
-            "valenceText": "annotation id: 6122",
+            "valenceText": "annotation id: 6171",
             "examples": [
                 {
+                    "frameName": "Attack",
                     "denotations": [
                         {
-                            "obj": "rank",
-                            "id": "2",
-                            "span": {
-                                "begin": 33,
-                                "end": 36
-                            }
-                        },
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 108,
-                                "end": 110
-                            }
-                        }
-                    ],
-                    "frameName": "Judicial_body",
-                    "text": "Ed_Henry : 민주당원들은 또한 공화당의 다수에 맞서 대항할 준비가 되어 있고 그리고 이 사건들을 심지어 훨씬 더 추한 싸움에서의 개막 불꽃놀이 같이 보이도록 하는 조치로 대통령이 최근 대법관으로 Alito를 지명한데 대해 의사진행 방해까지 할 것이라고 말하고 있다.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 1740,
-                    "ko_annotation_id": 6122,
-                    "origin_lus": [
-                        "Court"
-                    ],
-                    "annotation_id": 8477
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41178",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 7,
-                                "end": 9
-                            }
-                        }
-                    ],
-                    "text": "저는 자라서 법관이 되고 싶습니다.",
-                    "relations": [],
-                    "target": "법관",
-                    "ko_annotation_id": "sejong.41178",
-                    "frameName": "Judicial_body"
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41179",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 2,
-                                "end": 4
-                            }
-                        }
-                    ],
-                    "text": "그 법관은 유능하지만 인간미가 너무 없어 보였다.",
-                    "relations": [],
-                    "target": "법관",
-                    "ko_annotation_id": "sejong.41179",
-                    "frameName": "Judicial_body"
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41180",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "assailant",
                             "span": {
                                 "begin": 0,
                                 "end": 2
-                            }
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "time",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "victim",
+                            "span": {
+                                "begin": 9,
+                                "end": 16
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "id": "1"
+                        },
+                        {
+                            "obj": "result",
+                            "span": {
+                                "begin": 24,
+                                "end": 51
+                            },
+                            "id": "5"
                         }
                     ],
-                    "text": "법관의 판결에 따르다",
-                    "relations": [],
-                    "target": "법관",
-                    "ko_annotation_id": "sejong.41180",
-                    "frameName": "Judicial_body"
+                    "origin_lus": [
+                        "bombed"
+                    ],
+                    "ko_annotation_id": 6171,
+                    "text": "그들은 지난 달 보고타 사무실을 폭격하여, 컴퓨터를 파괴하고 2.5 백만 달러의 피해를 입혔다.",
+                    "sent_id": 1979,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "5",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9571
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.76048",
+            "examples": [
+                {
+                    "frameName": "Attack",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "미군 전투기는 적과 아무런 연관이 없는 민가를 무자비하게 폭격했다.",
+                    "target": "폭격했다",
+                    "ko_annotation_id": "sejong.76048",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.76049",
+            "examples": [
+                {
+                    "frameName": "Attack",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "이스라엘군의 무차별 폭격으로 어린이 34명을 포함해 최소한 민간인 56여명이 숨졌다.",
+                    "target": "폭격으로",
+                    "ko_annotation_id": "sejong.76049",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Judicial_body"
+    "frameID": 424,
+    "ko_pos": "VV",
+    "ko_lu": "폭격하다.v.Attack",
+    "lu_id": 1955,
+    "en_lus": [
+        "bombed"
+    ]
 }

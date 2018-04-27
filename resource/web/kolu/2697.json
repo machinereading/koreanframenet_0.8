@@ -1,51 +1,53 @@
 {
-    "ko_lu": "나오다.v.Existence",
-    "lu_id": 2697,
-    "frameID": 660,
-    "en_lus": [
-        "aru .ある "
-    ],
-    "ko_pos": "VV",
+    "frameName": "Vehicle",
     "patterns": [
         {
-            "valenceText": "annotation id: 8703",
+            "valenceText": "annotation id: 8812",
             "examples": [
                 {
+                    "frameName": "Vehicle",
                     "denotations": [
                         {
-                            "obj": "Place",
+                            "obj": "vehicle",
                             "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Entity",
+                            "obj": "target",
                             "span": {
-                                "begin": 12,
-                                "end": 59
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 8,
-                                "end": 11
-                            }
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Existence",
-                    "text": "이건, 성서에 나오는 “In the beginning was the word.”(태초에 말씀이 계시니라.)가 아니예요.",
-                    "relations": [],
-                    "sent_id": 4942,
-                    "ko_annotation_id": 8703,
                     "origin_lus": [
-                        "aru .ある "
+                        "cars",
+                        "car"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 8812,
+                    "text": "지하철과 다른 사방이 막힌 공간에서 치명적인 시아나이드 가스를 살포하기 위해 알카이다가 개발한 것으로 전해지는 이 장치는 테러리스트 공격에 결코 사용되지 않았고  아마도 별로 효과적이지 않은 것 같다고 전문가들은 말한다.",
+                    "sent_id": 3231,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16982
                 }
             ]
         }
     ],
-    "frameName": "Existence"
+    "frameID": 429,
+    "ko_pos": "NNG",
+    "ko_lu": "지하철.n.Vehicle",
+    "lu_id": 2697,
+    "en_lus": [
+        "car"
+    ]
 }

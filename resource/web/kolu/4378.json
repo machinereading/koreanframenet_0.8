@@ -1,52 +1,87 @@
 {
-    "ko_lu": "거칠다.a.Natural_features",
-    "lu_id": 4378,
-    "frameID": 191,
-    "en_lus": [
-        "rugged"
-    ],
-    "ko_pos": "VA",
+    "frameName": "Locative_relation",
     "patterns": [
         {
-            "valenceText": "annotation id: 14847",
+            "valenceText": "annotation id: 15191",
             "examples": [
                 {
+                    "frameName": "Locative_relation",
+                    "denotations": [
+                        {
+                            "obj": "figure",
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "ground",
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "origin_lus": [
+                        "by"
+                    ],
+                    "ko_annotation_id": 15191,
+                    "text": "때때로 갈매기의 울음과 예상하지 못한 멀리의 전망은 더블린이 바닷가에 있다는 것을 당신에게 상기시키고, 더블린을 연안 가까이에 붙들고 있는 Wicklow 산맥은 어디에서나 보인다.",
+                    "sent_id": 965,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5024
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.31672",
+            "examples": [
+                {
+                    "frameName": "Locative_relation",
                     "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 39,
-                                "end": 41
-                            }
-                        },
-                        {
-                            "obj": "locale",
-                            "id": "2",
-                            "span": {
-                                "begin": 42,
-                                "end": 46
-                            }
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Natural_features",
-                    "text": "아름다운 Wicklow 산, 그리고 Wicklow 산 국립공원은 보다 거친 시골전경을 보여주고, 그리고 그 지역은 Castletown, Mount Usher 및 Powerscourt와 같은 깜짝 놀랄만한 주택과 정원들을 가지고 있다.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 994,
-                    "ko_annotation_id": 14847,
-                    "origin_lus": [
-                        "rugged"
-                    ],
-                    "annotation_id": 5221
+                    "text": "그들은 바닷가로 여름 휴가를 떠났다.",
+                    "target": "바닷가",
+                    "ko_annotation_id": "sejong.31672",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Natural_features"
+    "frameID": 199,
+    "ko_pos": "NNG",
+    "ko_lu": "바닷가.n.Locative_relation",
+    "lu_id": 4378,
+    "en_lus": [
+        "by"
+    ]
 }

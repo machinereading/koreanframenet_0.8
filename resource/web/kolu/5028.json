@@ -1,58 +1,105 @@
 {
-    "ko_lu": "대서.n.Perception_active",
-    "lu_id": 5028,
-    "frameID": 66,
-    "en_lus": [
-        "hureru .触れる "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "System",
     "patterns": [
         {
-            "valenceText": "annotation id: 17289",
+            "valenceText": "annotation id: 17683",
             "examples": [
                 {
+                    "frameName": "System",
                     "denotations": [
                         {
-                            "obj": "Duration",
+                            "obj": "possessor",
                             "span": {
-                                "begin": 22,
+                                "begin": 19,
                                 "end": 27
-                            }
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Phenomenon",
+                            "obj": "component_entities",
                             "span": {
-                                "begin": 33,
-                                "end": 35
-                            }
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Body_part",
+                            "obj": "target",
                             "span": {
-                                "begin": 38,
-                                "end": 39
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 41,
-                                "end": 43
-                            }
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Perception_active",
-                    "text": "도깨비는 「약속대로 여자를 데려왔지만, 100일간은 절대로 여자에게 손을 대서는 안된다.",
-                    "relations": [],
-                    "sent_id": 4650,
-                    "ko_annotation_id": 17289,
                     "origin_lus": [
-                        "hureru .触れる "
+                        "system"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 17683,
+                    "text": "19세기 고고학자들에 의해 발견된 Cananite 급수시설의 일부이고 방문객들에게 개방한 Warren 's Shaft는 바로 다윗의 군대가 침투한 터널일지도 모른다.",
+                    "sent_id": 627,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3368
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 17684",
+            "examples": [
+                {
+                    "frameName": "System",
+                    "denotations": [
+                        {
+                            "obj": "component_entities",
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "origin_lus": [
+                        "system"
+                    ],
+                    "ko_annotation_id": 17684,
+                    "text": "여러 왕궁이 건축되고 급수시설이 설치되었다.",
+                    "sent_id": 655,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3515
                 }
             ]
         }
     ],
-    "frameName": "Perception_active"
+    "frameID": 1610,
+    "ko_pos": "NNG",
+    "ko_lu": "시설.n.System",
+    "lu_id": 5028,
+    "en_lus": [
+        "system"
+    ]
 }

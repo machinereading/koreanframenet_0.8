@@ -1,103 +1,65 @@
 {
-    "ko_lu": "소지품.n.Possession",
-    "lu_id": 962,
-    "frameID": 118,
-    "en_lus": [
-        "Belongings",
-        "effect"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Aggregate",
     "patterns": [
         {
-            "valenceText": "annotation id: 2849",
+            "valenceText": "annotation id: 2851",
             "examples": [
                 {
+                    "frameName": "Aggregate",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "aggregateproperty",
                             "span": {
-                                "begin": 3,
-                                "end": 6
-                            }
-                        }
-                    ],
-                    "frameName": "Possession",
-                    "text": "2- 소지품 A : 차량 B : 개인 소지품 C : 전자 장비.",
-                    "relations": [],
-                    "sent_id": 1622,
-                    "ko_annotation_id": 2849,
-                    "origin_lus": [
-                        "Belongings",
-                        "effects"
-                    ],
-                    "annotation_id": 7937
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 2850",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 3,
-                                "end": 6
-                            }
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "depictive",
-                            "id": "2",
+                            "obj": "individuals",
                             "span": {
-                                "begin": 18,
-                                "end": 20
-                            }
-                        }
-                    ],
-                    "frameName": "Possession",
-                    "text": "2- 소지품 A : 차량 B : 개인 소지품 C : 전자 장비.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 1622,
-                    "ko_annotation_id": 2850,
-                    "origin_lus": [
-                        "Belongings",
-                        "effects"
-                    ],
-                    "annotation_id": 7937
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.24443",
-            "examples": [
-                {
-                    "denotations": [
+                                "begin": 20,
+                                "end": 25
+                            },
+                            "id": "3"
+                        },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 8,
-                                "end": 11
-                            }
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "id": "1"
                         }
                     ],
-                    "text": "그는 경찰에게 소지품을 수색 당했다.",
-                    "relations": [],
-                    "target": "소지품",
-                    "ko_annotation_id": "sejong.24443",
-                    "frameName": "Possession"
+                    "origin_lus": [
+                        "collections"
+                    ],
+                    "ko_annotation_id": 2851,
+                    "text": "SCQZI 및 SCQZI는 광범위한 독성 염좌 더미를 보관하고 있다.",
+                    "sent_id": 2687,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 13465
                 }
             ]
         }
     ],
-    "frameName": "Possession"
+    "frameID": 103,
+    "ko_pos": "NNG",
+    "ko_lu": "더미.n.Aggregate",
+    "lu_id": 962,
+    "en_lus": [
+        "collection"
+    ]
 }

@@ -1,60 +1,120 @@
 {
-    "ko_lu": "대량.n.Weapon",
-    "lu_id": 5703,
-    "frameID": 426,
-    "en_lus": [
-        "weapons of mass destruction"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Inspecting",
     "patterns": [
         {
-            "valenceText": "annotation id: 19714",
+            "valenceText": "annotation id: 20103",
             "examples": [
                 {
+                    "frameName": "Inspecting",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "ground",
                             "span": {
-                                "begin": 44,
-                                "end": 51
-                            }
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Weapon",
-                    "text": "1991년 12월 소비에트 연방의 붕궤는 러시아 연방에 많은 대규모 소비에트의 대량파괴 무기 단지를 남겼다.",
-                    "relations": [],
-                    "sent_id": 2977,
-                    "ko_annotation_id": 19714,
                     "origin_lus": [
-                        "weapons of mass destruction"
+                        "check",
+                        "kakunin .確認 "
                     ],
-                    "annotation_id": 15345
+                    "ko_annotation_id": 20103,
+                    "text": "1- 키오스크는 방문자들이 건물에 접근 시 확인하기 위해 입구에 두어야 한다.",
+                    "sent_id": 1597,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7782
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.28812",
+            "valenceText": "annotation id: sejong.81641",
             "examples": [
                 {
+                    "frameName": "Inspecting",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
-                                "begin": 15,
-                                "end": 17
-                            }
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "국내로 밀수입되던 약제들이 대량으로 적발되었다.업체가 재료를 대량으로 구입하였다.",
-                    "relations": [],
-                    "target": "대량",
-                    "ko_annotation_id": "sejong.28812",
-                    "frameName": "Weapon"
+                    "text": "검찰은 그 회사의 비리를 확인하였다.",
+                    "target": "확인하였다",
+                    "ko_annotation_id": "sejong.81641",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.81642",
+            "examples": [
+                {
+                    "frameName": "Inspecting",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "그들은 그 사건의 진상을 확인하고는 웃지 않을 수 없었다.",
+                    "target": "확인하고는",
+                    "ko_annotation_id": "sejong.81642",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.81643",
+            "examples": [
+                {
+                    "frameName": "Inspecting",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "사건의 진상을 담당자에게 확인해 보자.",
+                    "target": "확인해",
+                    "ko_annotation_id": "sejong.81643",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Weapon"
+    "frameID": 1262,
+    "ko_pos": "VV",
+    "ko_lu": "확인하다.v.Inspecting",
+    "lu_id": 5703,
+    "en_lus": [
+        "check",
+        "kakunin .確認 "
+    ]
 }

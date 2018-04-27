@@ -1,65 +1,179 @@
 {
-    "ko_lu": "끝나다.v.Temporal_subregion",
-    "lu_id": 2774,
-    "frameID": 1470,
-    "en_lus": [
-        "end"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Travel",
     "patterns": [
         {
-            "valenceText": "annotation id: 8947",
+            "valenceText": "annotation id: 9081",
             "examples": [
                 {
+                    "frameName": "Travel",
                     "denotations": [
                         {
-                            "obj": "time",
-                            "id": "2",
-                            "span": {
-                                "begin": 0,
-                                "end": 9
-                            }
-                        },
-                        {
-                            "obj": "time_period",
-                            "id": "3",
+                            "obj": "traveler",
                             "span": {
                                 "begin": 11,
-                                "end": 13
-                            }
+                                "end": 36
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "purpose",
+                            "span": {
+                                "begin": 38,
+                                "end": 61
+                            },
+                            "id": "5"
+                        },
+                        {
+                            "obj": "time",
+                            "span": {
+                                "begin": 62,
+                                "end": 66
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "goal",
+                            "span": {
+                                "begin": 68,
+                                "end": 70
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 15,
-                                "end": 17
-                            }
+                                "begin": 72,
+                                "end": 75
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Temporal_subregion",
-                    "text": "기원 전 401년에 전쟁이 끝나기 전, 많은 섬들이 이미 Macedon의 Philip II가 이끄는 승리자들에게로 그들의 충성의 대상을 옮겼다.",
+                    "origin_lus": [
+                        "pilgrimage"
+                    ],
+                    "ko_annotation_id": 9081,
+                    "text": "독실한 기독교인이자 콘스탄티누스 황제의 어머니인 Helena 여왕은 예수의 일생과 관련된 장소를 확인하기 위해 326년에 성지를 순례하였다.",
+                    "sent_id": 681,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         },
                         {
+                            "subj": "1",
                             "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "5",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 538,
-                    "ko_annotation_id": 8947,
-                    "origin_lus": [
-                        "end"
+                    "annotation_id": 3622
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.85295",
+            "examples": [
+                {
+                    "frameName": "Travel",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "obj": "target"
+                        }
                     ],
-                    "annotation_id": 2835
+                    "text": "이슬람교도는 메카에 1년에 1번씩 순례한다.",
+                    "target": "순례한다",
+                    "ko_annotation_id": "sejong.85295",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.85296",
+            "examples": [
+                {
+                    "frameName": "Travel",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "우리는 올해 예루살렘에 순례하기로 결정했다.",
+                    "target": "순례하기로",
+                    "ko_annotation_id": "sejong.85296",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.85297",
+            "examples": [
+                {
+                    "frameName": "Travel",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "이슬람교도는 1년에 1번씩 메카를 순례한다.",
+                    "target": "순례한다",
+                    "ko_annotation_id": "sejong.85297",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.85298",
+            "examples": [
+                {
+                    "frameName": "Travel",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "우리는 올해 예루살렘을 순례하기로 결정했다.",
+                    "target": "순례하기로",
+                    "ko_annotation_id": "sejong.85298",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Temporal_subregion"
+    "frameID": 343,
+    "ko_pos": "VV",
+    "ko_lu": "순례하다.v.Travel",
+    "lu_id": 2774,
+    "en_lus": [
+        "pilgrimage"
+    ]
 }

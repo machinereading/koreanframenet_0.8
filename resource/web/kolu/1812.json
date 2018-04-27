@@ -1,80 +1,78 @@
 {
-    "ko_lu": "대응책.n.Resolve_problem",
-    "lu_id": 1812,
-    "frameID": 1523,
-    "en_lus": [
-        "taioo .対応"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Cause_to_amalgamate",
     "patterns": [
         {
-            "valenceText": "annotation id: 5652",
+            "valenceText": "annotation id: 5718",
             "examples": [
                 {
+                    "frameName": "Cause_to_amalgamate",
                     "denotations": [
                         {
-                            "obj": "Agent",
-                            "span": {
-                                "begin": 11,
-                                "end": 13
-                            }
-                        },
-                        {
-                            "obj": "Problem",
-                            "span": {
-                                "begin": 36,
-                                "end": 38
-                            }
-                        },
-                        {
-                            "obj": "Manner",
-                            "span": {
-                                "begin": 44,
-                                "end": 48
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 49,
-                                "end": 52
-                            }
-                        }
-                    ],
-                    "frameName": "Resolve_problem",
-                    "text": "1 계발활동・학습회 현장에서는, 아이들의 특징을 이해하는 것과, 상황에 적합한 구체적인 대응책이 요구됩니다.",
-                    "relations": [],
-                    "sent_id": 4488,
-                    "ko_annotation_id": 5652,
-                    "origin_lus": [
-                        "taioo .対応"
-                    ],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.29860",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "agent",
                             "span": {
                                 "begin": 0,
-                                "end": 3
-                            }
+                                "end": 1
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "part_1",
+                            "span": {
+                                "begin": 41,
+                                "end": 45
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "part_2",
+                            "span": {
+                                "begin": 47,
+                                "end": 53
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 55,
+                                "end": 59
+                            },
+                            "id": "1"
                         }
                     ],
-                    "text": "대응책을 급히 마련하시오.",
-                    "relations": [],
-                    "target": "대응책",
-                    "ko_annotation_id": "sejong.29860",
-                    "frameName": "Resolve_problem"
+                    "origin_lus": [
+                        "combined"
+                    ],
+                    "ko_annotation_id": 5718,
+                    "text": "그는 세금인하에서 자기가 할 수 있는 한도까지 가지 않았고 ; 실제로 그는 세금인하를 간접세 증가와 결합시켰다.",
+                    "sent_id": 91,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 600
                 }
             ]
         }
     ],
-    "frameName": "Resolve_problem"
+    "frameID": 13,
+    "ko_pos": "VV",
+    "ko_lu": "결합시키다.v.Cause_to_amalgamate",
+    "lu_id": 1812,
+    "en_lus": [
+        "combine"
+    ]
 }

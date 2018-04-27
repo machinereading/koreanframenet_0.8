@@ -1,51 +1,65 @@
 {
-    "ko_lu": "낮다.a.Getting",
-    "lu_id": 5667,
-    "frameID": 179,
-    "en_lus": [
-        "eru .得る"
-    ],
-    "ko_pos": "VA",
+    "frameName": "Statement",
     "patterns": [
         {
-            "valenceText": "annotation id: 19625",
+            "valenceText": "annotation id: 19988",
             "examples": [
                 {
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "Time",
+                            "obj": "speaker",
+                            "span": {
+                                "begin": 5,
+                                "end": 30
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "message",
                             "span": {
                                 "begin": 32,
-                                "end": 34
-                            }
+                                "end": 52
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Theme",
+                            "obj": "target",
                             "span": {
-                                "begin": 48,
+                                "begin": 54,
                                 "end": 55
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 57,
-                                "end": 58
-                            }
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Getting",
-                    "text": "당회는 2000년 4월에, 전국 연합체로서 설립되었으나, 당시에는 지원책이 전무했고, 사회적 인지도도 낮아, 회원의 장애인 수첩 취득률도 50%에 못 미쳤다.",
-                    "relations": [],
-                    "sent_id": 4746,
-                    "ko_annotation_id": 19625,
                     "origin_lus": [
-                        "eru .得る"
+                        "maintain"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 19988,
+                    "text": "동시에, 일부 다른 IAEA 위원회 멤버들과 함께 미국은 이란이 지하 핵무기 프로그램을 추구하고 있다고 계속해서 주장하고 있다.",
+                    "sent_id": 2635,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 13224
                 }
             ]
         }
     ],
-    "frameName": "Getting"
+    "frameID": 43,
+    "ko_pos": "VA",
+    "ko_lu": "있다.a.Statement",
+    "lu_id": 5667,
+    "en_lus": [
+        "maintain"
+    ]
 }

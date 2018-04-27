@@ -1,60 +1,78 @@
 {
-    "ko_lu": "아동.n.People_by_age",
-    "lu_id": 1715,
-    "frameID": 973,
-    "en_lus": [
-        "kid"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Process_start",
     "patterns": [
         {
-            "valenceText": "annotation id: 5300",
+            "valenceText": "annotation id: 5360",
             "examples": [
                 {
+                    "frameName": "Process_start",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "time",
                             "span": {
-                                "begin": 17,
-                                "end": 20
-                            }
+                                "begin": 26,
+                                "end": 48
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 51,
+                                "end": 54
+                            },
+                            "id": "1"
+                        },
+                        {
+                            "obj": "event",
+                            "span": {
+                                "begin": 55,
+                                "end": 57
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "event",
+                            "span": {
+                                "begin": 55,
+                                "end": 57
+                            },
+                            "id": "3"
                         }
                     ],
-                    "frameName": "People_by_age",
-                    "text": "아냐, 나는 두 어린 취학 전 아동들과 집에 있다.",
-                    "relations": [],
-                    "sent_id": 1939,
-                    "ko_annotation_id": 5300,
                     "origin_lus": [
-                        "kids"
+                        "erupted"
                     ],
-                    "annotation_id": 9370
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.6255",
-            "examples": [
-                {
-                    "denotations": [
+                    "ko_annotation_id": 5360,
+                    "text": "그러나 결정을 집행할 수단의 부족으로, 유엔은 영국이 1948년에 그들의 병력을 철수하면서 분출된 싸움을 멈추게 할 힘이 없었다.",
+                    "sent_id": 716,
+                    "relations": [
                         {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 18,
-                                "end": 20
-                            }
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
                         }
                     ],
-                    "text": "본 바자회의 수익금 일부는 결식 아동을 위해 쓰여지게 된다.",
-                    "relations": [],
-                    "target": "아동",
-                    "ko_annotation_id": "sejong.6255",
-                    "frameName": "People_by_age"
+                    "annotation_id": 3753
                 }
             ]
         }
     ],
-    "frameName": "People_by_age"
+    "frameID": 133,
+    "ko_pos": "VV",
+    "ko_lu": "분출되다.v.Process_start",
+    "lu_id": 1715,
+    "en_lus": [
+        "erupt"
+    ]
 }

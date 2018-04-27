@@ -1,47 +1,41 @@
 {
-    "ko_lu": "판매원.n.People_by_vocation",
-    "lu_id": 878,
-    "frameID": 1071,
-    "en_lus": [
-        "salesman"
-    ],
-    "ko_pos": "NN",
+    "frameName": "People_by_vocation",
     "patterns": [
         {
             "valenceText": "annotation id: 2621",
             "examples": [
                 {
+                    "frameName": "People_by_vocation",
                     "denotations": [
                         {
                             "obj": "type",
-                            "id": "2",
                             "span": {
                                 "begin": 16,
                                 "end": 18
-                            }
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
                                 "begin": 19,
                                 "end": 22
-                            }
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "People_by_vocation",
-                    "text": "이들은 상업 회사의 차량이나 이동 판매원의 차량들 처럼 보이도록 위장된다.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 1594,
-                    "ko_annotation_id": 2621,
                     "origin_lus": [
                         "salesmen"
+                    ],
+                    "ko_annotation_id": 2621,
+                    "text": "이들은 상업 회사의 차량이나 이동 판매원의 차량들 처럼 보이도록 위장된다.",
+                    "sent_id": 1594,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
                     ],
                     "annotation_id": 7761
                 }
@@ -51,24 +45,30 @@
             "valenceText": "annotation id: sejong.27373",
             "examples": [
                 {
+                    "frameName": "People_by_vocation",
                     "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
                                 "begin": 8,
                                 "end": 11
-                            }
+                            },
+                            "id": "1"
                         }
                     ],
                     "text": "그 백화점에는 판매원이 거의 없었다.",
-                    "relations": [],
                     "target": "판매원",
                     "ko_annotation_id": "sejong.27373",
-                    "frameName": "People_by_vocation"
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "People_by_vocation"
+    "frameID": 1071,
+    "ko_pos": "NN",
+    "ko_lu": "판매원.n.People_by_vocation",
+    "lu_id": 878,
+    "en_lus": [
+        "salesman"
+    ]
 }

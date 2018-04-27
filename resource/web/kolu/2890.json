@@ -1,88 +1,74 @@
 {
-    "ko_lu": "진열되다.v.Distributed_position",
-    "lu_id": 2890,
-    "frameID": 76,
-    "en_lus": [
-        "narabu .並ぶ "
-    ],
-    "ko_pos": "VV",
+    "frameName": "Operational_testing",
     "patterns": [
         {
-            "valenceText": "annotation id: 9444",
+            "valenceText": "annotation id: 9526",
             "examples": [
                 {
+                    "frameName": "Operational_testing",
                     "denotations": [
                         {
-                            "obj": "Location",
+                            "obj": "product",
                             "span": {
                                 "begin": 0,
-                                "end": 2
-                            }
+                                "end": 5
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "target",
                             "span": {
-                                "begin": 4,
-                                "end": 7
-                            }
+                                "begin": 7,
+                                "end": 14
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Adorning",
-                    "text": "서점에 진열될지 모른다고 생각하면 조금 더 사람들의 이목을 끄는 제목으로 할까 생각도 했으나, 아름다운 제목이 낫다는 남편의 의견을 따랐다.",
-                    "relations": [],
-                    "sent_id": 3570,
-                    "ko_annotation_id": 9444,
                     "origin_lus": [
-                        "narabu .並ぶ "
+                        "flight-tested"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 9526,
+                    "text": "대포동-2는 비행시험을 하지 않았지만, 미국 정보 분석가들은 언제나 시험을 위한 준비가 되었다고 믿으며, 평양은 약 175 기의 노동을 포함하여, 600 - 700 기의 탄도 미사일을 배치하였다.",
+                    "sent_id": 2833,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14379
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.81833",
+            "valenceText": "annotation id: sejong.66959",
             "examples": [
                 {
+                    "frameName": "Operational_testing",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
-                                "begin": 31,
-                                "end": 35
-                            }
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "국립 경주박물관 뜨락에 들어서면 목없는 불상 수십 채가 진열되어 있는 모습을 볼 수 있다.",
-                    "relations": [],
-                    "target": "진열되어",
-                    "ko_annotation_id": "sejong.81833",
-                    "frameName": "Distributed_position"
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.81834",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 22,
-                                "end": 25
-                            }
-                        }
-                    ],
-                    "text": "바그다드 최대 수입상가 거리인 카라다에 진열돼 있는 제품도 한국산이 대부분을 차지하고 있다.",
-                    "relations": [],
-                    "target": "진열돼",
-                    "ko_annotation_id": "sejong.81834",
-                    "frameName": "Distributed_position"
+                    "text": "나는 지금 북한 상공을 비행하고 돌아왔다.",
+                    "target": "비행하고",
+                    "ko_annotation_id": "sejong.66959",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Distributed_position"
+    "frameID": 1301,
+    "ko_pos": "VV",
+    "ko_lu": "비행하다.v.Operational_testing",
+    "lu_id": 2890,
+    "en_lus": [
+        "flight-tested"
+    ]
 }

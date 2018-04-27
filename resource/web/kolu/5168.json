@@ -1,51 +1,65 @@
 {
-    "ko_lu": "가깝다.a.Locative_relation",
-    "lu_id": 5168,
-    "frameID": 199,
-    "en_lus": [
-        "tikai .近い"
-    ],
-    "ko_pos": "VA",
+    "frameName": "Cause_to_wake",
     "patterns": [
         {
-            "valenceText": "annotation id: 17771",
+            "valenceText": "annotation id: 18210",
             "examples": [
                 {
+                    "frameName": "Cause_to_wake",
                     "denotations": [
                         {
-                            "obj": "Figure",
+                            "obj": "cause",
                             "span": {
-                                "begin": 0,
-                                "end": 4
-                            }
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Ground",
+                            "obj": "sleeper",
                             "span": {
-                                "begin": 6,
-                                "end": 11
-                            }
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "target",
                             "span": {
-                                "begin": 15,
-                                "end": 17
-                            }
+                                "begin": 35,
+                                "end": 37
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Locative_relation",
-                    "text": "다이비루는 그의 회사에서는 가깝다.",
-                    "relations": [],
-                    "sent_id": 3716,
-                    "ko_annotation_id": 17771,
                     "origin_lus": [
-                        "tikai .近い"
+                        "wakes"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 18210,
+                    "text": "섬은 해양에서 거의 동에서 서로 일직선이어서 일출은 동쪽 끝을 깨우고, 섬의 길이를 어루만지기 위해 이동하고, 그리고 굿나잇으로 서쪽 끝에 키스한다.",
+                    "sent_id": 883,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4589
                 }
             ]
         }
     ],
-    "frameName": "Locative_relation"
+    "frameID": 293,
+    "ko_pos": "VV",
+    "ko_lu": "깨우다.v.Cause_to_wake",
+    "lu_id": 5168,
+    "en_lus": [
+        "wake"
+    ]
 }

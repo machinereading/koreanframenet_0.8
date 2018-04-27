@@ -1,52 +1,109 @@
 {
-    "ko_lu": "거부.n.Respond_to_proposal",
-    "lu_id": 2940,
-    "frameID": 1623,
-    "en_lus": [
-        "rejection"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Attempt",
     "patterns": [
         {
-            "valenceText": "annotation id: 9542",
+            "valenceText": "annotation id: 9666",
             "examples": [
                 {
+                    "frameName": "Attempt",
                     "denotations": [
                         {
-                            "obj": "proposal",
-                            "id": "2",
+                            "obj": "agent",
                             "span": {
-                                "begin": 36,
-                                "end": 38
-                            }
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "goal",
+                            "span": {
+                                "begin": 7,
+                                "end": 26
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 39,
-                                "end": 41
-                            }
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Respond_to_proposal",
-                    "text": "이것은 형제들과 다른 무슬림을 향한 겸손과 융통성, 좋은 태도, 논쟁 거부, 그리고 상호 합의 및 차이 해결을 통해 이행된다. ( T.C : 코란 구절 ).",
+                    "origin_lus": [
+                        "trying"
+                    ],
+                    "ko_annotation_id": 9666,
+                    "text": "헬리콥터들은 식량 없이 발이 묶인 사람들의 위치를 찾으려 하고 있다.",
+                    "sent_id": 1209,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 1640,
-                    "ko_annotation_id": 9542,
-                    "origin_lus": [
-                        "rejection"
+                    "annotation_id": 6196
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.95463",
+            "examples": [
+                {
+                    "frameName": "Attempt",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "obj": "target"
+                        }
                     ],
-                    "annotation_id": 8037
+                    "text": "하고많은 사람 중에 왜 하필 너냐?",
+                    "target": "하고많은",
+                    "ko_annotation_id": "sejong.95463",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.95464",
+            "examples": [
+                {
+                    "frameName": "Attempt",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "여자는 이 세상에 하고많은데 왜 너는 그 여자한테만 목을 매니?",
+                    "target": "하고많은데",
+                    "ko_annotation_id": "sejong.95464",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Respond_to_proposal"
+    "frameID": 116,
+    "ko_pos": "VA",
+    "ko_lu": "하고많다.a.Attempt",
+    "lu_id": 2940,
+    "en_lus": [
+        "try"
+    ]
 }

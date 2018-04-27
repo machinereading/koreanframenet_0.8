@@ -1,120 +1,87 @@
 {
-    "ko_lu": "재고.n.Store",
-    "lu_id": 3570,
-    "frameID": 1511,
-    "en_lus": [
-        "zaiko .在庫 ",
-        "inventory"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Change_tool",
     "patterns": [
         {
-            "valenceText": "annotation id: 12001",
+            "valenceText": "annotation id: 12164",
             "examples": [
                 {
+                    "frameName": "Change_tool",
                     "denotations": [
                         {
-                            "obj": "resource",
-                            "id": "2",
+                            "obj": "agent",
                             "span": {
-                                "begin": 6,
-                                "end": 45
-                            }
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "new_tool",
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "id": "3"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 46,
-                                "end": 48
-                            }
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Store",
-                    "text": "신뢰할만한 장거리 로케트 포 ( 예, Fair, Naeat 그리고 Zelzal ) 재고의 추정치는 가용하지 않다.",
+                    "origin_lus": [
+                        "switching"
+                    ],
+                    "ko_annotation_id": 12164,
+                    "text": "부모들이 학교에 불만이 있으면, 그들은 다른 학교로 전학시킬 방안을 가져야 한다.",
+                    "sent_id": 234,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 2529,
-                    "ko_annotation_id": 12001,
-                    "origin_lus": [
-                        "inventories",
-                        "zaiko .在庫 "
-                    ],
-                    "annotation_id": 12641
+                    "annotation_id": 1270
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 12002",
+            "valenceText": "annotation id: sejong.68652",
             "examples": [
                 {
+                    "frameName": "Change_tool",
                     "denotations": [
                         {
-                            "obj": "Supply",
+                            "id": "1",
                             "span": {
-                                "begin": 83,
-                                "end": 85
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 83,
-                                "end": 85
-                            }
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "frameName": "Store",
-                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다.",
-                    "relations": [],
-                    "sent_id": 4550,
-                    "ko_annotation_id": 12002,
-                    "origin_lus": [
-                        "inventories",
-                        "zaiko .在庫 "
-                    ],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 12003",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "Supply",
-                            "span": {
-                                "begin": 63,
-                                "end": 65
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 63,
-                                "end": 65
-                            }
-                        }
-                    ],
-                    "frameName": "Store",
-                    "text": "창호지 담당이 아닌 분들은 재미가 없을지 모르나, 어떻게 애초의 상품구성 목표를 검증하고, 어떻게 진열을 바꾸어 재고 상태를 개선했는지, 실례를 보며 자신의 사업에 대입시켜 보면서 참고하기 바란다.",
-                    "relations": [],
-                    "sent_id": 4613,
-                    "ko_annotation_id": 12003,
-                    "origin_lus": [
-                        "inventories",
-                        "zaiko .在庫 "
-                    ],
-                    "annotation_id": 0
+                    "text": "불량학생은 지방학교로 전학시킬 것이다.",
+                    "target": "전학시킬",
+                    "ko_annotation_id": "sejong.68652",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Store"
+    "frameID": 1173,
+    "ko_pos": "VV",
+    "ko_lu": "전학시키다.v.Change_tool",
+    "lu_id": 3570,
+    "en_lus": [
+        "switch"
+    ]
 }

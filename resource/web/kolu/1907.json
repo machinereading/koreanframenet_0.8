@@ -1,122 +1,78 @@
 {
-    "ko_lu": "연계.n.Cognitive_connection",
-    "lu_id": 1907,
-    "frameID": 720,
-    "en_lus": [
-        "relationship"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Locative_relation",
     "patterns": [
         {
-            "valenceText": "annotation id: 5936",
+            "valenceText": "annotation id: 6057",
             "examples": [
                 {
+                    "frameName": "Locative_relation",
                     "denotations": [
                         {
-                            "obj": "concept_1",
-                            "id": "3",
+                            "obj": "distance",
+                            "span": {
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
                             "span": {
                                 "begin": 2,
                                 "end": 4
-                            }
+                            },
+                            "id": "1"
                         },
                         {
-                            "obj": "concept_2",
-                            "id": "4",
+                            "obj": "direction",
                             "span": {
-                                "begin": 6,
-                                "end": 11
-                            }
+                                "begin": 5,
+                                "end": 14
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "degree",
-                            "id": "2",
-                            "span": {
-                                "begin": 14,
-                                "end": 16
-                            }
-                        },
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 17,
-                                "end": 19
-                            }
-                        }
-                    ],
-                    "frameName": "Cognitive_connection",
-                    "text": "이 대학은 국가 산업과의 강한 연계와 훈련 프로그램의 실질적인 적용을 강조한다.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        },
-                        {
-                            "obj": "3",
-                            "pred": "",
-                            "subj": "1"
-                        },
-                        {
-                            "obj": "4",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 2213,
-                    "ko_annotation_id": 5936,
-                    "origin_lus": [
-                        "relationship"
-                    ],
-                    "annotation_id": 11042
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.40842",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "figure",
                             "span": {
                                 "begin": 16,
-                                "end": 18
-                            }
+                                "end": 41
+                            },
+                            "id": "4"
                         }
                     ],
-                    "text": "그는 이 사건을 연쇄 살인과 연계를 했다.",
-                    "relations": [],
-                    "target": "연계",
-                    "ko_annotation_id": "sejong.40842",
-                    "frameName": "Cognitive_connection"
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.40843",
-            "examples": [
-                {
-                    "denotations": [
+                    "origin_lus": [
+                        "out"
+                    ],
+                    "ko_annotation_id": 6057,
+                    "text": "더 멀리 북쪽과 남쪽 모두에 Royal 및 Grand 운하의 광범위한 만곡이 있다.",
+                    "sent_id": 964,
+                    "relations": [
                         {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 12,
-                                "end": 14
-                            }
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
                         }
                     ],
-                    "text": "이번 사건은 마피아와 연계가 되어 있다.",
-                    "relations": [],
-                    "target": "연계",
-                    "ko_annotation_id": "sejong.40843",
-                    "frameName": "Cognitive_connection"
+                    "annotation_id": 5018
                 }
             ]
         }
     ],
-    "frameName": "Cognitive_connection"
+    "frameID": 199,
+    "ko_pos": "VV",
+    "ko_lu": "멀리하다.v.Locative_relation",
+    "lu_id": 1907,
+    "en_lus": [
+        "out"
+    ]
 }

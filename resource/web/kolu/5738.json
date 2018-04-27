@@ -1,52 +1,109 @@
 {
-    "ko_lu": "공예품.n.Artifact",
-    "lu_id": 5738,
-    "frameID": 421,
-    "en_lus": [
-        "artifact"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Seeking",
     "patterns": [
         {
-            "valenceText": "annotation id: 19804",
+            "valenceText": "annotation id: 20239",
             "examples": [
                 {
+                    "frameName": "Seeking",
                     "denotations": [
                         {
-                            "obj": "time_of_creation",
-                            "id": "2",
+                            "obj": "cognizer_agent",
                             "span": {
                                 "begin": 4,
-                                "end": 10
-                            }
+                                "end": 6
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "sought_entity",
+                            "span": {
+                                "begin": 11,
+                                "end": 37
+                            },
+                            "id": "3"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 12,
-                                "end": 15
-                            }
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Artifact",
-                    "text": "당신은 청동기 시대의 공예품을 보고 부활절 봉기의 역사를 더듬어 올라가고, 또는 율리시스에서 Leopold Bloom의 모험을 되돌아 볼 수 있다.",
+                    "origin_lus": [
+                        "seeking"
+                    ],
+                    "ko_annotation_id": 20239,
+                    "text": "이때가 이란이 또한 미사일 기술과 스커드-B 급의 전술 탄도 미사일을 획득하기 위해 북한과 중국 ( PRC ) 에 접근한 기간이었다.",
+                    "sent_id": 2433,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 956,
-                    "ko_annotation_id": 19804,
-                    "origin_lus": [
-                        "artifacts"
+                    "annotation_id": 12250
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.91241",
+            "examples": [
+                {
+                    "frameName": "Seeking",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "obj": "target"
+                        }
                     ],
-                    "annotation_id": 4966
+                    "text": "야당은 정권을 획득하기 위해 안간힘을 쓰고 있다.",
+                    "target": "획득하기",
+                    "ko_annotation_id": "sejong.91241",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.91242",
+            "examples": [
+                {
+                    "frameName": "Seeking",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "영원한 지식을 획득하기란 결코 쉬운 일이 아니다.",
+                    "target": "획득하기란",
+                    "ko_annotation_id": "sejong.91242",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Artifact"
+    "frameID": 269,
+    "ko_pos": "VV",
+    "ko_lu": "획득하다.v.Seeking",
+    "lu_id": 5738,
+    "en_lus": [
+        "seek"
+    ]
 }

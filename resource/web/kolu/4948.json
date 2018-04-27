@@ -1,65 +1,89 @@
 {
-    "ko_lu": "피난소.n.Buildings",
-    "lu_id": 4948,
-    "frameID": 173,
-    "en_lus": [
-        "shelter"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Earnings_and_losses",
     "patterns": [
         {
-            "valenceText": "annotation id: 16958",
+            "valenceText": "annotation id: 17438",
             "examples": [
                 {
+                    "frameName": "Earnings_and_losses",
                     "denotations": [
                         {
-                            "obj": "relative_location",
-                            "id": "2",
+                            "obj": "time",
                             "span": {
-                                "begin": 5,
-                                "end": 15
-                            }
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "function",
-                            "id": "3",
+                            "obj": "earnings",
                             "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 17,
+                                "end": 25
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 19,
-                                "end": 22
-                            }
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Buildings",
-                    "text": "바닷쪽에 Causeway 만 태풍 피난소가 있는데, 이곳은 비싼 요트가 뱃전마다 정박되어 있고, 홍콩 요트 클럽 본부가 있다.",
+                    "origin_lus": [
+                        "earnings",
+                        "syuueki .収益 "
+                    ],
+                    "ko_annotation_id": 17438,
+                    "text": "가장 최근 분기에서, 지난 해 33 백만 달러의 수익에 비해, Aetna는 자동차 / 주택소유자 계열에서 23 백만 달러의 손실을 가져왔다.",
+                    "sent_id": 7,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         },
                         {
+                            "subj": "1",
                             "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 1123,
-                    "ko_annotation_id": 16958,
-                    "origin_lus": [
-                        "shelter"
+                    "annotation_id": 40
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.14925",
+            "examples": [
+                {
+                    "frameName": "Earnings_and_losses",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "id": "1"
+                        }
                     ],
-                    "annotation_id": 5884
+                    "text": "이 공장에서는 철저한 분리수거로 매달 많은 수익을 얻고 있다",
+                    "target": "수익",
+                    "ko_annotation_id": "sejong.14925",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Buildings"
+    "frameID": 1873,
+    "ko_pos": "NNG",
+    "ko_lu": "수익.n.Earnings_and_losses",
+    "lu_id": 4948,
+    "en_lus": [
+        "earnings",
+        "syuueki .収益 "
+    ]
 }

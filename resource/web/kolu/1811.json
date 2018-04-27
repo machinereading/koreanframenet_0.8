@@ -1,65 +1,96 @@
 {
-    "ko_lu": "결심하다.v.Choosing",
-    "lu_id": 1811,
-    "frameID": 352,
-    "en_lus": [
-        "decide"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Intentionally_create",
     "patterns": [
         {
-            "valenceText": "annotation id: 5650",
+            "valenceText": "annotation id: 5717",
             "examples": [
                 {
+                    "frameName": "Intentionally_create",
                     "denotations": [
                         {
-                            "obj": "cognizer",
-                            "id": "2",
+                            "obj": "created_entity",
                             "span": {
-                                "begin": 0,
-                                "end": 1
-                            }
-                        },
-                        {
-                            "obj": "chosen",
-                            "id": "3",
-                            "span": {
-                                "begin": 3,
-                                "end": 10
-                            }
+                                "begin": 22,
+                                "end": 28
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 13,
-                                "end": 16
-                            }
+                                "begin": 29,
+                                "end": 31
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Choosing",
-                    "text": "나는 폭풍을 이겨내기로 결심하였다.",
+                    "origin_lus": [
+                        "establishment"
+                    ],
+                    "ko_annotation_id": 5717,
+                    "text": "알 카에다의 목적 : 신의 종교 지지, 이슬람 규칙 수립, 그리고 신의 뜻인 이슬람 칼리프 지위 회복.",
+                    "sent_id": 1636,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        },
-                        {
-                            "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 132,
-                    "ko_annotation_id": 5650,
-                    "origin_lus": [
-                        "decided"
+                    "annotation_id": 8006
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.23292",
+            "examples": [
+                {
+                    "frameName": "Intentionally_create",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "id": "1"
+                        }
                     ],
-                    "annotation_id": 773
+                    "text": "그 당은 새로운 헌정질서의 수립에 이바지하겠다고 밝혔다.",
+                    "target": "수립",
+                    "ko_annotation_id": "sejong.23292",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.23293",
+            "examples": [
+                {
+                    "frameName": "Intentionally_create",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "text": "그들은 정부 수립의 기초를 다졌다.",
+                    "target": "수립",
+                    "ko_annotation_id": "sejong.23293",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Choosing"
+    "frameID": 280,
+    "ko_pos": "NNG",
+    "ko_lu": "수립.n.Intentionally_create",
+    "lu_id": 1811,
+    "en_lus": [
+        "establishment"
+    ]
 }

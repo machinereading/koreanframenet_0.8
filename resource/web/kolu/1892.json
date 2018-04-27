@@ -1,66 +1,122 @@
 {
-    "ko_lu": "칙령.n.Request",
-    "lu_id": 1892,
-    "frameID": 41,
-    "en_lus": [
-        "tyoku .勅 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Cognitive_connection",
     "patterns": [
         {
-            "valenceText": "annotation id: 5911",
+            "valenceText": "annotation id: 5936",
             "examples": [
                 {
+                    "frameName": "Cognitive_connection",
                     "denotations": [
                         {
-                            "obj": "Topic",
+                            "obj": "concept_1",
                             "span": {
-                                "begin": 60,
-                                "end": 62
-                            }
+                                "begin": 2,
+                                "end": 4
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "concept_2",
                             "span": {
-                                "begin": 64,
-                                "end": 66
-                            }
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "degree",
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Request",
-                    "text": "저는 잠시 「풍토기」를 연구한 적인 있는데, 이야기가 자꾸 오래전으로 거슬러 올라가서 죄송합니다만, 다이카 개신의 칙령에 따라, 궁정을 중심으로 하는 고대 수도권, 기나이라 불리는 지역이 생겼습니다.",
-                    "relations": [],
-                    "sent_id": 4398,
-                    "ko_annotation_id": 5911,
                     "origin_lus": [
-                        "tyoku .勅 "
+                        "relationship"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 5936,
+                    "text": "이 대학은 국가 산업과의 강한 연계와 훈련 프로그램의 실질적인 적용을 강조한다.",
+                    "sent_id": 2213,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 11042
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.22694",
+            "valenceText": "annotation id: sejong.40842",
             "examples": [
                 {
+                    "frameName": "Cognitive_connection",
                     "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
                                 "begin": 16,
                                 "end": 18
-                            }
+                            },
+                            "id": "1"
                         }
                     ],
-                    "text": "나의 할아버지께서는 일제시대 칙령을 받고 의병을 일으키셨다.",
-                    "relations": [],
-                    "target": "칙령",
-                    "ko_annotation_id": "sejong.22694",
-                    "frameName": "Request"
+                    "text": "그는 이 사건을 연쇄 살인과 연계를 했다.",
+                    "target": "연계",
+                    "ko_annotation_id": "sejong.40842",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.40843",
+            "examples": [
+                {
+                    "frameName": "Cognitive_connection",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "text": "이번 사건은 마피아와 연계가 되어 있다.",
+                    "target": "연계",
+                    "ko_annotation_id": "sejong.40843",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Request"
+    "frameID": 720,
+    "ko_pos": "NNG",
+    "ko_lu": "연계.n.Cognitive_connection",
+    "lu_id": 1892,
+    "en_lus": [
+        "relationship"
+    ]
 }

@@ -1,95 +1,109 @@
 {
-    "ko_lu": "특수하다.a.Idiosyncrasy",
-    "lu_id": 5367,
-    "frameID": 982,
-    "en_lus": [
-        "tokusyu .特殊 "
-    ],
-    "ko_pos": "VA",
+    "frameName": "Intentionally_create",
     "patterns": [
         {
-            "valenceText": "annotation id: 18518",
+            "valenceText": "annotation id: 18971",
             "examples": [
                 {
+                    "frameName": "Intentionally_create",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "obj": "creator",
                             "span": {
                                 "begin": 0,
-                                "end": 4
-                            }
+                                "end": 15
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Idiosyncrasy",
+                            "obj": "created_entity",
                             "span": {
-                                "begin": 6,
-                                "end": 22
-                            }
+                                "begin": 36,
+                                "end": 72
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "target",
+                            "span": {
+                                "begin": 74,
+                                "end": 77
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "origin_lus": [
+                        "created"
+                    ],
+                    "ko_annotation_id": 18971,
+                    "text": "몇몇 섬과 그리스 도시국가들이 함께 일하기로 합의하였고, 그들은 Delos 섬에서 가진 그들의 계획들에 자금을 지원하기 위해 보고를 결성하였다.",
+                    "sent_id": 532,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2799
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.85851",
+            "examples": [
+                {
+                    "frameName": "Intentionally_create",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "그는 주도적으로 소비자를 보호하기 위한 시민단체를 결성했다.",
+                    "target": "결성했다",
+                    "ko_annotation_id": "sejong.85851",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.85852",
+            "examples": [
+                {
+                    "frameName": "Intentionally_create",
+                    "denotations": [
+                        {
+                            "id": "1",
                             "span": {
                                 "begin": 26,
-                                "end": 29
-                            }
+                                "end": 31
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "frameName": "Idiosyncrasy",
-                    "text": "기기선정은 커넥터부터 제어판 선정에 이르기까지 특수하다.",
-                    "relations": [],
-                    "sent_id": 4313,
-                    "ko_annotation_id": 18518,
-                    "origin_lus": [
-                        "tokusyu .特殊 "
-                    ],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.100233",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 16,
-                                "end": 20
-                            }
-                        }
-                    ],
-                    "text": "그가 처해 있는 상황은 아주 특수하다.",
-                    "relations": [],
-                    "target": "특수하다",
-                    "ko_annotation_id": "sejong.100233",
-                    "frameName": "Idiosyncrasy"
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.100234",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 10,
-                                "end": 14
-                            }
-                        }
-                    ],
-                    "text": "이 도구들은 모두 특수하다.",
-                    "relations": [],
-                    "target": "특수하다",
-                    "ko_annotation_id": "sejong.100234",
-                    "frameName": "Idiosyncrasy"
+                    "text": "마음이 맞았던 10명의 친구들은 교내 중창단을 결성하기로 했다.",
+                    "target": "결성하기로",
+                    "ko_annotation_id": "sejong.85852",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Idiosyncrasy"
+    "frameID": 280,
+    "ko_pos": "VV",
+    "ko_lu": "결성하다.v.Intentionally_create",
+    "lu_id": 5367,
+    "en_lus": [
+        "create"
+    ]
 }

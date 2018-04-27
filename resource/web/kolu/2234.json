@@ -1,44 +1,91 @@
 {
-    "ko_lu": "이해하다.v.Agree_or_refuse_to_act",
-    "lu_id": 2234,
-    "frameID": 1625,
-    "en_lus": [
-        "nattoku .納得"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Causation",
     "patterns": [
         {
-            "valenceText": "annotation id: 7170",
+            "valenceText": "annotation id: 7270",
             "examples": [
                 {
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "obj": "Proposed_action",
+                            "obj": "affected",
                             "span": {
-                                "begin": 11,
-                                "end": 43
-                            }
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "target",
                             "span": {
-                                "begin": 45,
-                                "end": 48
-                            }
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "id": "1"
+                        },
+                        {
+                            "obj": "effect",
+                            "span": {
+                                "begin": 13,
+                                "end": 23
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "cause",
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "cause",
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "id": "5"
                         }
                     ],
-                    "frameName": "Agree_or_refuse_to_act",
-                    "text": "이에 비추어볼 때, 나에게 현실인 것이 타인에게는 그렇지 않을 수 있다는 사실을 이해할 수 있을 것이다.",
-                    "relations": [],
-                    "sent_id": 4676,
-                    "ko_annotation_id": 7170,
                     "origin_lus": [
-                        "nattoku .納得"
+                        "led"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 7270,
+                    "text": "미국은 북한이 플루토늄 생산 시설을 동결하도록 한 핵동결 협약 아래 제공되고 있는 중유 선적을 보류할 것을 2002년 11월에 알리는 것으로 반응하였다.",
+                    "sent_id": 2804,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "5",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 14186
                 }
             ]
         }
     ],
-    "frameName": "Agree_or_refuse_to_act"
+    "frameID": 5,
+    "ko_pos": "NNP",
+    "ko_lu": "북한.n.Causation",
+    "lu_id": 2234,
+    "en_lus": [
+        "lead"
+    ]
 }

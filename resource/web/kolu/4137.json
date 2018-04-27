@@ -1,65 +1,153 @@
 {
-    "ko_lu": "상대하다.v.Resolve_problem",
-    "lu_id": 4137,
-    "frameID": 1523,
-    "en_lus": [
-        "deal"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Being_born",
     "patterns": [
         {
-            "valenceText": "annotation id: 13841",
+            "valenceText": "annotation id: 14244",
             "examples": [
                 {
+                    "frameName": "Being_born",
                     "denotations": [
                         {
-                            "obj": "agent",
-                            "id": "2",
+                            "obj": "Time",
                             "span": {
-                                "begin": 44,
-                                "end": 46
+                                "begin": 61,
+                                "end": 65
                             }
                         },
                         {
-                            "obj": "problem",
-                            "id": "3",
+                            "obj": "Place",
                             "span": {
-                                "begin": 48,
-                                "end": 60
+                                "begin": 67,
+                                "end": 71
                             }
+                        },
+                        {
+                            "obj": "Relatives",
+                            "span": {
+                                "begin": 73,
+                                "end": 79
+                            }
+                        },
+                        {
+                            "obj": "Target",
+                            "span": {
+                                "begin": 82,
+                                "end": 85
+                            }
+                        }
+                    ],
+                    "origin_lus": [
+                        "umareru .生まれる "
+                    ],
+                    "ko_annotation_id": 14244,
+                    "text": "많은 선조가 있었고, 각각의 영혼의 진화 과정이 있었기 때문에, 필연적이라고나 할까, 자신이 스스로 선택하여 이 시대, 이 장소, 이 가족 안에서 태어난 것이라고 나는 생각한다.",
+                    "sent_id": 4896,
+                    "relations": [],
+                    "annotation_id": 0
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15221",
+            "examples": [
+                {
+                    "frameName": "Being_born",
+                    "denotations": [
+                        {
+                            "obj": "place",
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 62,
-                                "end": 65
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "id": "1"
+                        },
+                        {
+                            "obj": "child",
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "id": "3"
+                        }
+                    ],
+                    "origin_lus": [
+                        "born",
+                        "umareru .生まれる "
+                    ],
+                    "ko_annotation_id": 15221,
+                    "text": "대다수는 홍콩에서 태어나거나 중국 남부 출신인 광동인이지만, 그러나 중국 전역에서 온 이주민들이 있다.",
+                    "sent_id": 873,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4520
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15222",
+            "examples": [
+                {
+                    "frameName": "Being_born",
+                    "denotations": [
+                        {
+                            "obj": "Child",
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            }
+                        },
+                        {
+                            "obj": "Place",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            }
+                        },
+                        {
+                            "obj": "Target",
+                            "span": {
+                                "begin": 14,
+                                "end": 17
                             }
                         }
                     ],
-                    "frameName": "Resolve_problem",
-                    "text": "이란의 능력 신장과 신형 기술 확보에 대한 지속적인 관심에 대한 정보보고서들은 미국이 지역적 위협으로서 이란과 상대함에 있어서 다른 방안들을 찾도록 이끌었다.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        },
-                        {
-                            "obj": "3",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 2391,
-                    "ko_annotation_id": 13841,
                     "origin_lus": [
-                        "dealing"
+                        "born",
+                        "umareru .生まれる "
                     ],
-                    "annotation_id": 12070
+                    "ko_annotation_id": 15222,
+                    "text": "우리는 우연히 이 세상에 태어난 것이 아니다.",
+                    "sent_id": 3597,
+                    "relations": [],
+                    "annotation_id": 0
                 }
             ]
         }
     ],
-    "frameName": "Resolve_problem"
+    "frameID": 793,
+    "ko_pos": "VV",
+    "ko_lu": "태어나다.v.Being_born",
+    "lu_id": 4137,
+    "en_lus": [
+        "umareru .生まれる ",
+        "bear"
+    ]
 }

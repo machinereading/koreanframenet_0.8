@@ -1,38 +1,65 @@
 {
-    "ko_lu": "단원.n.Aggregate",
-    "lu_id": 4269,
-    "frameID": 103,
-    "en_lus": [
-        "band"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Change_event_time",
     "patterns": [
         {
-            "valenceText": "annotation id: 14450",
+            "valenceText": "annotation id: 14733",
             "examples": [
                 {
+                    "frameName": "Change_event_time",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "agent",
                             "span": {
-                                "begin": 92,
-                                "end": 94
-                            }
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "event",
+                            "span": {
+                                "begin": 8,
+                                "end": 73
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 75,
+                                "end": 82
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Aggregate",
-                    "text": "2년 전에, Devon의 Great Torrington 교구 목사인 Jeremy Hummerstone 목사는 예배에 참석하지 않는 종지기들에 너무나 질려서 그는 전 단원을 해고시켰고; 종지기들은 즉시 항의 피켓 라인을 설치하였다.",
-                    "relations": [],
-                    "sent_id": 47,
-                    "ko_annotation_id": 14450,
                     "origin_lus": [
-                        "band"
+                        "postponing"
                     ],
-                    "annotation_id": 317
+                    "ko_annotation_id": 14733,
+                    "text": "특히, 이란은 2004년 3월에 이루어지기로 계획되었던 이란의 P - 2 농축 프로그램과 관련된 다수의 장소들에 대한 IAEA 방문을 연기한데 대해 질책받았다.",
+                    "sent_id": 2632,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 13198
                 }
             ]
         }
     ],
-    "frameName": "Aggregate"
+    "frameID": 691,
+    "ko_pos": "VV",
+    "ko_lu": "연기하다.v.Change_event_time",
+    "lu_id": 4269,
+    "en_lus": [
+        "postpone"
+    ]
 }

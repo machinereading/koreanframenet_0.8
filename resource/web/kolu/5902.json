@@ -1,52 +1,56 @@
 {
-    "ko_lu": "가다.v.Operate_vehicle",
-    "lu_id": 5902,
-    "frameID": 65,
-    "en_lus": [
-        "drive"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Commitment",
     "patterns": [
         {
-            "valenceText": "annotation id: 20277",
+            "valenceText": "annotation id: sejong.59083",
             "examples": [
                 {
+                    "frameName": "Commitment",
                     "denotations": [
                         {
-                            "obj": "goal",
-                            "id": "2",
-                            "span": {
-                                "begin": 37,
-                                "end": 40
-                            }
-                        },
-                        {
-                            "obj": "target",
                             "id": "1",
                             "span": {
-                                "begin": 42,
-                                "end": 43
-                            }
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "frameName": "Operate_vehicle",
-                    "text": "Hall은 금요일에 요르단의 암만으로 비행기로 가고, 거기서 그는 이라크로 가기 전에 하룻밤을 보낼 것이다.",
-                    "relations": [
+                    "text": "수시 모집에 지원하는 수험생들은 대부분 학생부 성적이 좋기 때문에 심층 면접과 구술고사가 당락을 좌우한다.",
+                    "target": "지원하는",
+                    "ko_annotation_id": "sejong.59083",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.59084",
+            "examples": [
+                {
+                    "frameName": "Commitment",
+                    "denotations": [
                         {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "id": "1",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "sent_id": 1491,
-                    "ko_annotation_id": 20277,
-                    "origin_lus": [
-                        "driving"
-                    ],
-                    "annotation_id": 7078
+                    "text": "나는 수영을 전혀 못하지만 해군에 지원하고 싶다.",
+                    "target": "지원하고",
+                    "ko_annotation_id": "sejong.59084",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Operate_vehicle"
+    "frameID": 33,
+    "ko_pos": "VV",
+    "ko_lu": "지원하다.v.Commitment",
+    "lu_id": 5902,
+    "en_lus": [
+        "volunteer.v.487"
+    ]
 }

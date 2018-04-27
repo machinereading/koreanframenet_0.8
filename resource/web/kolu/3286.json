@@ -1,74 +1,78 @@
 {
-    "ko_lu": "기술적.n.Artifact",
-    "lu_id": 3286,
-    "frameID": 421,
-    "en_lus": [
-        "technology"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Giving",
     "patterns": [
         {
-            "valenceText": "annotation id: 11024",
+            "valenceText": "annotation id: 11177",
             "examples": [
                 {
+                    "frameName": "Giving",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "donor",
                             "span": {
-                                "begin": 3,
-                                "end": 6
-                            }
+                                "begin": 36,
+                                "end": 38
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "creator",
-                            "id": "2",
+                            "obj": "recipient",
                             "span": {
-                                "begin": 12,
-                                "end": 15
-                            }
-                        }
-                    ],
-                    "frameName": "Artifact",
-                    "text": "많은 기술적 지연 ( 러시아 기술과 원래의 지멘스 장비와의 부적합 ) 과 프로젝트를 멈추기 위한 미국의 노력에도 불구하고, 특히 Gore - Chernomyrdin 위원회 회의 동안의 거래를 취소하기 위한 러시아 정부의 빈번한 로비에도 불구하고, 시설은 거의 완공되고 있다.",
-                    "relations": [
+                                "begin": 40,
+                                "end": 42
+                            },
+                            "id": "3"
+                        },
                         {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 2598,
-                    "ko_annotation_id": 11024,
-                    "origin_lus": [
-                        "technology"
-                    ],
-                    "annotation_id": 13000
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.10764",
-            "examples": [
-                {
-                    "denotations": [
+                            "obj": "theme",
+                            "span": {
+                                "begin": 45,
+                                "end": 79
+                            },
+                            "id": "4"
+                        },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 8,
-                                "end": 11
-                            }
+                                "begin": 81,
+                                "end": 82
+                            },
+                            "id": "1"
                         }
                     ],
-                    "text": "이 프로그램은 기술적인 문제가 있다.",
-                    "relations": [],
-                    "target": "기술적",
-                    "ko_annotation_id": "sejong.10764",
-                    "frameName": "Artifact"
+                    "origin_lus": [
+                        "gives"
+                    ],
+                    "ko_annotation_id": 11177,
+                    "text": "그것이 내가 책을 쓰는 것을 환영한 이유라고 나는 생각한다 -- 그것은 사람에게 매일 언론 편집실 바닥에 남겨진 것 중 많은 것을 사용할 능력을 준다.",
+                    "sent_id": 463,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2433
                 }
             ]
         }
     ],
-    "frameName": "Artifact"
+    "frameID": 139,
+    "ko_pos": "VA",
+    "ko_lu": "준하다.a.Giving",
+    "lu_id": 3286,
+    "en_lus": [
+        "give"
+    ]
 }

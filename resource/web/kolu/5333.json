@@ -1,52 +1,87 @@
 {
-    "ko_lu": "일.n.Cardinal_numbers",
-    "lu_id": 5333,
-    "frameID": 218,
-    "en_lus": [
-        "one"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Cause_change",
     "patterns": [
         {
-            "valenceText": "annotation id: 18414",
+            "valenceText": "annotation id: 18818",
             "examples": [
                 {
+                    "frameName": "Cause_change",
+                    "denotations": [
+                        {
+                            "obj": "entity",
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "final_category",
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "origin_lus": [
+                        "transformation"
+                    ],
+                    "ko_annotation_id": 18818,
+                    "text": "화학 및 생물 무기 프로그램은 정권의 자유화 와중에 1993년에 공식적으로 해체되었다.",
+                    "sent_id": 3037,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15715
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.1315",
+            "examples": [
+                {
+                    "frameName": "Cause_change",
                     "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 3,
-                                "end": 4
-                            }
-                        },
-                        {
-                            "obj": "entity",
-                            "id": "2",
-                            "span": {
-                                "begin": 5,
-                                "end": 7
-                            }
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Cardinal_numbers",
-                    "text": "그는 일 개월 휴가를 가질 수 있다.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 1655,
-                    "ko_annotation_id": 18414,
-                    "origin_lus": [
-                        "one"
-                    ],
-                    "annotation_id": 8120
+                    "text": "그는 전란의 와중에 가족을 모두 잃었다.",
+                    "target": "와중",
+                    "ko_annotation_id": "sejong.1315",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Cardinal_numbers"
+    "frameID": 683,
+    "ko_pos": "NNG",
+    "ko_lu": "와중.n.Cause_change",
+    "lu_id": 5333,
+    "en_lus": [
+        "transformation"
+    ]
 }

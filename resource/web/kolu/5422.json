@@ -1,51 +1,87 @@
 {
-    "ko_lu": "떨어지다.v.Locative_relation",
-    "lu_id": 5422,
-    "frameID": 199,
-    "en_lus": [
-        "hanareru .離れる"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Medical_conditions",
     "patterns": [
         {
-            "valenceText": "annotation id: 18693",
+            "valenceText": "annotation id: 19182",
             "examples": [
                 {
+                    "frameName": "Medical_conditions",
                     "denotations": [
                         {
-                            "obj": "Figure",
+                            "obj": "body_part",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Distance",
+                            "obj": "target",
                             "span": {
-                                "begin": 38,
-                                "end": 46
+                                "begin": 6,
+                                "end": 7
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "origin_lus": [
+                        "cancer",
+                        "gan .ガン "
+                    ],
+                    "ko_annotation_id": 19182,
+                    "text": "그녀가 난소암으로 죽기 전에 그들의 엄마가 유전자 테스트를 가졌다는 것을 아는 두 자매는 그녀의 테스트 결과를 알기 원한다.",
+                    "sent_id": 1248,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 6312
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 19183",
+            "examples": [
+                {
+                    "frameName": "Medical_conditions",
+                    "denotations": [
+                        {
+                            "obj": "Symptom",
+                            "span": {
+                                "begin": 27,
+                                "end": 28
                             }
                         },
                         {
                             "obj": "Target",
                             "span": {
-                                "begin": 47,
-                                "end": 50
+                                "begin": 27,
+                                "end": 28
                             }
                         }
                     ],
-                    "frameName": "Locative_relation",
-                    "text": "박쥐는 거의 눈이 보이지 않으나, 초음파를 감지하는 레이더가 있어, 4백 미터 정도 떨어진 곳에서도 모깃소리를 들을 수 있습니다.",
-                    "relations": [],
-                    "sent_id": 4928,
-                    "ko_annotation_id": 18693,
                     "origin_lus": [
-                        "hanareru .離れる"
+                        "cancer",
+                        "gan .ガン "
                     ],
+                    "ko_annotation_id": 19183,
+                    "text": "악성인 것은 궤양 또는 결절을 형성하기도 하고, 암세포인 경우도 있습니다.",
+                    "sent_id": 4879,
+                    "relations": [],
                     "annotation_id": 0
                 }
             ]
         }
     ],
-    "frameName": "Locative_relation"
+    "frameID": 239,
+    "ko_pos": "NNG",
+    "ko_lu": "암.n.Medical_conditions",
+    "lu_id": 5422,
+    "en_lus": [
+        "gan .ガン ",
+        "cancer"
+    ]
 }

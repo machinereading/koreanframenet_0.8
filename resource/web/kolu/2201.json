@@ -1,44 +1,74 @@
 {
-    "ko_lu": "취사.n.Cooking_creation",
-    "lu_id": 2201,
-    "frameID": 268,
-    "en_lus": [
-        "suizi .炊事 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Secrecy_status",
     "patterns": [
         {
-            "valenceText": "annotation id: 7089",
+            "valenceText": "annotation id: 7133",
             "examples": [
                 {
+                    "frameName": "Secrecy_status",
                     "denotations": [
                         {
-                            "obj": "Cook",
+                            "obj": "target",
                             "span": {
                                 "begin": 0,
-                                "end": 11
-                            }
+                                "end": 2
+                            },
+                            "id": "1"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "phenomenon",
                             "span": {
-                                "begin": 22,
-                                "end": 24
-                            }
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "id": "2"
                         }
                     ],
-                    "frameName": "Cooking_creation",
-                    "text": "여자아이가 주로 하는 완구로 식사준비나 취사를 하는 주방놀이를, 소꿉놀이라고 합니다.",
-                    "relations": [],
-                    "sent_id": 4328,
-                    "ko_annotation_id": 7089,
                     "origin_lus": [
-                        "suizi .炊事 "
+                        "public"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 7133,
+                    "text": "공공 장소에서.",
+                    "sent_id": 1897,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 9139
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.44570",
+            "examples": [
+                {
+                    "frameName": "Secrecy_status",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "text": "국회의원들은 되도록 공공의 의견을 대변할 수 있는 사람들로 선출되어야 한다.",
+                    "target": "공공",
+                    "ko_annotation_id": "sejong.44570",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Cooking_creation"
+    "frameID": 1145,
+    "ko_pos": "NNG",
+    "ko_lu": "공공.n.Secrecy_status",
+    "lu_id": 2201,
+    "en_lus": [
+        "public"
+    ]
 }

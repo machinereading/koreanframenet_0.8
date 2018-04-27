@@ -1,51 +1,94 @@
 {
-    "ko_lu": "사다.v.Residence",
-    "lu_id": 2408,
-    "frameID": 110,
-    "en_lus": [
-        "sumu .すむ"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Weather",
     "patterns": [
         {
-            "valenceText": "annotation id: 7686",
+            "valenceText": "annotation id: 7892",
             "examples": [
                 {
+                    "frameName": "Weather",
                     "denotations": [
                         {
-                            "obj": "Location",
+                            "obj": "place",
                             "span": {
-                                "begin": 9,
-                                "end": 19
-                            }
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Resident",
+                            "obj": "target",
                             "span": {
-                                "begin": 24,
-                                "end": 26
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 21,
-                                "end": 22
-                            }
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Residence",
-                    "text": "마을 사람들은, 「신사 주변 숲 속에 사는 여우를, 이 건, 신의 심부름꾼일지도 모른다」고 생각해 유부를 공물로 바치거나, 더운 날에는 차가운 물을 슬그머니 신사 한쪽 그늘에 두기도 했었지.",
-                    "relations": [],
-                    "sent_id": 4134,
-                    "ko_annotation_id": 7686,
                     "origin_lus": [
-                        "sumu .すむ"
+                        "storm",
+                        "storms"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 7892,
+                    "text": "복지 개혁에 대한 논란이 바다의 폭풍처럼 더해지고 있는 동안, 일자리를 필요로 하는 사람들은 온갖 고생을 하고 있다.",
+                    "sent_id": 416,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2187
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7893",
+            "examples": [
+                {
+                    "frameName": "Weather",
+                    "denotations": [
+                        {
+                            "obj": "place",
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "origin_lus": [
+                        "storm",
+                        "storms"
+                    ],
+                    "ko_annotation_id": 7893,
+                    "text": "열대 폭풍에서 오는 담수는 120 개의 강과 지구상에서 가장 유명한 폭포와 작은 폭포일부에 물을 공급한다.",
+                    "sent_id": 886,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 4612
                 }
             ]
         }
     ],
-    "frameName": "Residence"
+    "frameID": 303,
+    "ko_pos": "NNG",
+    "ko_lu": "폭풍.n.Weather",
+    "lu_id": 2408,
+    "en_lus": [
+        "storm"
+    ]
 }

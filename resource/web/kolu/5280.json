@@ -1,65 +1,87 @@
 {
-    "ko_lu": "깨우다.v.Cause_to_wake",
-    "lu_id": 5280,
-    "frameID": 293,
-    "en_lus": [
-        "wake"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Complaining",
     "patterns": [
         {
-            "valenceText": "annotation id: 18210",
+            "valenceText": "annotation id: 18611",
             "examples": [
                 {
+                    "frameName": "Complaining",
                     "denotations": [
                         {
-                            "obj": "cause",
-                            "id": "3",
+                            "obj": "complainer",
                             "span": {
-                                "begin": 25,
-                                "end": 27
-                            }
-                        },
-                        {
-                            "obj": "sleeper",
-                            "id": "2",
-                            "span": {
-                                "begin": 29,
-                                "end": 33
-                            }
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 35,
-                                "end": 37
-                            }
-                        }
-                    ],
-                    "frameName": "Cause_to_wake",
-                    "text": "섬은 해양에서 거의 동에서 서로 일직선이어서 일출은 동쪽 끝을 깨우고, 섬의 길이를 어루만지기 위해 이동하고, 그리고 굿나잇으로 서쪽 끝에 키스한다.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "id": "1"
                         },
                         {
-                            "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "obj": "complaint",
+                            "span": {
+                                "begin": 8,
+                                "end": 72
+                            },
+                            "id": "3"
                         }
                     ],
-                    "sent_id": 883,
-                    "ko_annotation_id": 18210,
                     "origin_lus": [
-                        "wakes"
+                        "complaint"
                     ],
-                    "annotation_id": 4589
+                    "ko_annotation_id": 18611,
+                    "text": "그들의 불평은 많은 초보적인 일자리가 포함되지 않는 혜택을 실업으로부터 얻을 수 있기 때문에 이 제도는 일할 의욕을 꺾는다는 것이다.",
+                    "sent_id": 413,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 2162
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.34400",
+            "examples": [
+                {
+                    "frameName": "Complaining",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "text": "영희가 불평을 할 때는 그만한 이유가 있을 것이다.",
+                    "target": "불평",
+                    "ko_annotation_id": "sejong.34400",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Cause_to_wake"
+    "frameID": 1621,
+    "ko_pos": "NNG",
+    "ko_lu": "불평.n.Complaining",
+    "lu_id": 5280,
+    "en_lus": [
+        "complaint"
+    ]
 }

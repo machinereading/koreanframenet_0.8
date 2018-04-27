@@ -1,65 +1,73 @@
 {
-    "ko_lu": "얻다.v.Giving",
-    "lu_id": 2317,
-    "frameID": 139,
-    "en_lus": [
-        "give"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Education_teaching",
     "patterns": [
         {
-            "valenceText": "annotation id: 7419",
+            "valenceText": "annotation id: 7512",
             "examples": [
                 {
+                    "frameName": "Education_teaching",
                     "denotations": [
                         {
-                            "obj": "recipient",
-                            "id": "2",
+                            "obj": "Teacher",
                             "span": {
                                 "begin": 0,
-                                "end": 24
+                                "end": 2
                             }
                         },
                         {
-                            "obj": "theme",
-                            "id": "3",
+                            "obj": "Student",
                             "span": {
-                                "begin": 26,
-                                "end": 60
+                                "begin": 4,
+                                "end": 7
                             }
                         },
+                        {
+                            "obj": "Target",
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            }
+                        }
+                    ],
+                    "origin_lus": [
+                        "monzin .門人"
+                    ],
+                    "ko_annotation_id": 7512,
+                    "text": "동양의 제자들은, 스승이 원하던 바를 알고 있었기에, 그 해 초겨울에 교토의 치안을 담당하던 쇼시다이에게 해부를 신청했다.",
+                    "sent_id": 4473,
+                    "relations": [],
+                    "annotation_id": 0
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.39680",
+            "examples": [
+                {
+                    "frameName": "Education_teaching",
+                    "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 62,
-                                "end": 66
-                            }
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Giving",
-                    "text": "Pleasant Run에 오는 아이들과 가족은 행복하고, 사랑하고, 생산적인 우리 사회의 구성원들이 될 기회를 얻게 된다.",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        },
-                        {
-                            "obj": "3",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 454,
-                    "ko_annotation_id": 7419,
-                    "origin_lus": [
-                        "given"
-                    ],
-                    "annotation_id": 2377
+                    "text": "스승의 가르침을 따르는 것이 제자의 도리이다.",
+                    "target": "제자",
+                    "ko_annotation_id": "sejong.39680",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Giving"
+    "frameID": 111,
+    "ko_pos": "NN",
+    "ko_lu": "제자.n.Education_teaching",
+    "lu_id": 2317,
+    "en_lus": [
+        "monzin .門人"
+    ]
 }

@@ -1,52 +1,100 @@
 {
-    "ko_lu": "실패.n.Bungling",
-    "lu_id": 2858,
-    "frameID": 266,
-    "en_lus": [
-        "fiasco"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Cause_to_make_progress",
     "patterns": [
         {
-            "valenceText": "annotation id: 9199",
+            "valenceText": "annotation id: 9455",
             "examples": [
                 {
+                    "frameName": "Cause_to_make_progress",
                     "denotations": [
                         {
-                            "obj": "patient",
-                            "id": "2",
+                            "obj": "agent",
                             "span": {
                                 "begin": 0,
-                                "end": 3
-                            }
+                                "end": 2
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "time",
                             "span": {
                                 "begin": 4,
                                 "end": 6
-                            }
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "project",
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 13,
+                                "end": 20
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Bungling",
-                    "text": "파나마 실패 후 그들은 안심시키는 것이 필요할 것이다.",
+                    "origin_lus": [
+                        "developing"
+                    ],
+                    "ko_annotation_id": 9455,
+                    "text": "이란이 현재 화학무기를 개발 중이라는 구체적인 증거는 없지만, 화학무기 전구물질이 과거에 외국 출처로부터 구매된 여러 사례가 있다.",
+                    "sent_id": 2242,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 2004,
-                    "ko_annotation_id": 9199,
-                    "origin_lus": [
-                        "fiasco"
+                    "annotation_id": 11217
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.36255",
+            "examples": [
+                {
+                    "frameName": "Cause_to_make_progress",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "id": "1"
+                        }
                     ],
-                    "annotation_id": 9692
+                    "text": "외이를 통해 들어온 소리는 중이의 고막과 청소골을 거쳐 내이로 전달된다.",
+                    "target": "중이",
+                    "ko_annotation_id": "sejong.36255",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Bungling"
+    "frameID": 1349,
+    "ko_pos": "NNG",
+    "ko_lu": "중이.n.Cause_to_make_progress",
+    "lu_id": 2858,
+    "en_lus": [
+        "develop"
+    ]
 }

@@ -1,60 +1,54 @@
 {
-    "ko_lu": "기여.n.Giving",
-    "lu_id": 594,
-    "frameID": 139,
-    "en_lus": [
-        "contribution"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Giving",
     "patterns": [
         {
             "valenceText": "annotation id: 1824",
             "examples": [
                 {
+                    "frameName": "Giving",
                     "denotations": [
                         {
                             "obj": "donor",
-                            "id": "2",
                             "span": {
                                 "begin": 0,
                                 "end": 3
-                            }
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "recipient",
-                            "id": "3",
                             "span": {
                                 "begin": 5,
                                 "end": 34
-                            }
+                            },
+                            "id": "3"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
                                 "begin": 37,
                                 "end": 39
-                            }
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Giving",
-                    "text": "여러분의 Pleasant Run Children's Homes에의 기여로 어떤 종류의 사람들이 혜택을 받는가 ?",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        },
-                        {
-                            "obj": "3",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 437,
-                    "ko_annotation_id": 1824,
                     "origin_lus": [
                         "contribution"
+                    ],
+                    "ko_annotation_id": 1824,
+                    "text": "여러분의 Pleasant Run Children's Homes에의 기여로 어떤 종류의 사람들이 혜택을 받는가 ?",
+                    "sent_id": 437,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
                     ],
                     "annotation_id": 2292
                 }
@@ -64,24 +58,30 @@
             "valenceText": "annotation id: sejong.23266",
             "examples": [
                 {
+                    "frameName": "Giving",
                     "denotations": [
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
                                 "begin": 15,
                                 "end": 17
-                            }
+                            },
+                            "id": "1"
                         }
                     ],
                     "text": "그는 이번 회사 상장에 큰 기여를 했다",
-                    "relations": [],
                     "target": "기여",
                     "ko_annotation_id": "sejong.23266",
-                    "frameName": "Giving"
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Giving"
+    "frameID": 139,
+    "ko_pos": "NNG",
+    "ko_lu": "기여.n.Giving",
+    "lu_id": 594,
+    "en_lus": [
+        "contribution"
+    ]
 }

@@ -1,82 +1,65 @@
 {
-    "ko_lu": "치료.n.Medical_specialties",
-    "lu_id": 2685,
-    "frameID": 256,
-    "en_lus": [
-        "therapy"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Success_or_failure",
     "patterns": [
         {
-            "valenceText": "annotation id: 8673",
+            "valenceText": "annotation id: 8776",
             "examples": [
                 {
+                    "frameName": "Success_or_failure",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "agent",
                             "span": {
-                                "begin": 22,
-                                "end": 24
-                            }
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "goal",
+                            "span": {
+                                "begin": 31,
+                                "end": 69
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 70,
+                                "end": 73
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Medical_specialties",
-                    "text": "오전 6시 50분 CAROLG : 나는 치료를 위한 일부 새로운 고객인 한 커플을 만나려고 앉아 있었는데 건물이 미친듯이 흔들리기 시작하였다.",
-                    "relations": [],
-                    "sent_id": 163,
-                    "ko_annotation_id": 8673,
                     "origin_lus": [
-                        "therapy"
+                        "managed"
                     ],
-                    "annotation_id": 932
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41770",
-            "examples": [
-                {
-                    "denotations": [
+                    "ko_annotation_id": 8776,
+                    "text": "그와 같은 종류로는 최초인 성명에 따르면,  이 단체는 최소한 20 가지 다른 형태의 생물 및 화학 무기의 제조와 개발을 할 수 있었다.",
+                    "sent_id": 3261,
+                    "relations": [
                         {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
                     ],
-                    "text": "치료를 받으면 나을 수 있는 병입니다.",
-                    "relations": [],
-                    "target": "치료",
-                    "ko_annotation_id": "sejong.41770",
-                    "frameName": "Medical_specialties"
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41771",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 12,
-                                "end": 14
-                            }
-                        }
-                    ],
-                    "text": "어머니의 병은 더이상 치료가 불가능합니까?",
-                    "relations": [],
-                    "target": "치료",
-                    "ko_annotation_id": "sejong.41771",
-                    "frameName": "Medical_specialties"
+                    "annotation_id": 17278
                 }
             ]
         }
     ],
-    "frameName": "Medical_specialties"
+    "frameID": 1388,
+    "ko_pos": "NNB",
+    "ko_lu": "수.n.Success_or_failure",
+    "lu_id": 2685,
+    "en_lus": [
+        "manage"
+    ]
 }

@@ -1,44 +1,74 @@
 {
-    "ko_lu": "부문별.n.Organization",
-    "lu_id": 1641,
-    "frameID": 1371,
-    "en_lus": [
-        "bumon .部門 "
-    ],
-    "ko_pos": "NN",
+    "frameName": "Stage_of_progress",
     "patterns": [
         {
-            "valenceText": "annotation id: 5117",
+            "valenceText": "annotation id: 5133",
             "examples": [
                 {
+                    "frameName": "Stage_of_progress",
                     "denotations": [
                         {
-                            "obj": "Members",
+                            "obj": "target",
                             "span": {
-                                "begin": 12,
+                                "begin": 13,
                                 "end": 15
-                            }
+                            },
+                            "id": "1"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "entity",
                             "span": {
-                                "begin": 12,
-                                "end": 15
-                            }
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "id": "2"
                         }
                     ],
-                    "frameName": "Organization",
-                    "text": "전일본민의련의 새로운 부문별 손익계산 및 관리요강안에도 「부문 손익계산서 등의 정확성 확보 및 현장 직원이 스스로 관리하는 것을 권장하기 위하여, 부문에서 발생한 경비 등은 가능한 한 부문(현장)에서, 전표 기표하여, 실비로 계상하는 것이 적절합니다」라고 되어 있습니다.",
-                    "relations": [],
-                    "sent_id": 3720,
-                    "ko_annotation_id": 5117,
                     "origin_lus": [
-                        "bumon .部門 "
+                        "modern"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 5133,
+                    "text": "그는 자기 국민을 위한 현대 국가를 약속하였으나, 상황이 불안하게 되어 터키의 도시들에서 시민 분쟁이 발생하였고 그리스인으로 간주된 자들은 위협과 폭력의 희생자들이었다.",
+                    "sent_id": 595,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 3161
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.3457",
+            "examples": [
+                {
+                    "frameName": "Stage_of_progress",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "text": "보통 갑오개혁을 기준으로 그 이전을 근대, 그 이후를 현대라고 한다.",
+                    "target": "현대",
+                    "ko_annotation_id": "sejong.3457",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Organization"
+    "frameID": 1341,
+    "ko_pos": "NNP",
+    "ko_lu": "현대.n.Stage_of_progress",
+    "lu_id": 1641,
+    "en_lus": [
+        "modern"
+    ]
 }

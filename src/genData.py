@@ -315,7 +315,7 @@ def gen_entry():
 #gen_entry() 
 
 def get_fid(frame):
-    with open('./resource/FN17_frame_id.json','r') as f:
+    with open('../resource/FN17_frame_id.json','r') as f:
         d = json.load(f)
 
     for i in d:
@@ -345,7 +345,7 @@ def load_manual():
         c = 0
         correct = []
         for j in third_line:
-            if j == 'O' or j == 'A':
+            if j == 'O':# or j == 'A':
                 correct.append(c)
             c = c+1
         for r in correct:
@@ -355,14 +355,19 @@ def load_manual():
             lu['en_lu'] = enlu
             dum = ko.split('.')
             if dum[-1] != 'v':
+                pass
 #                print(frame,enlu,ko)
+#                if ko != '':
+#                    if dum[0][-1] != '다' and len(dum) == 2:
+#                        ko = dum[0][:-1]+'.'+dum[0][-1]+'.'+dum[1]
+#                    else:
+#                        if dum[-1] == '':
+#                            ko = dum[0]+'.v'
+#                    lu['lu'] = ko
+#                    lus.append(lu)
+            else:
                 if ko != '':
-                    if dum[0][-1] != '다' and len(dum) == 2:
-                        ko = dum[0][:-1]+'.'+dum[0][-1]+'.'+dum[1]
-                    else:
-                        if dum[-1] == '':
-                            ko = dum[0]+'.v'
-                    lu['lu'] = ko
+                    lu['lu'] = dum[0]+'다'+'.v'
                     lus.append(lu)
 
         n = n+4
@@ -610,11 +615,11 @@ def gen_public():
     with open('../resource/KFN_lus.json','r') as f:
         nopub = json.load(f)
 
-    with open('../resource/KFN_lus_all.pickle','wb') as f:
-        pickle.dump(nopub,f)
+#    with open('../resource/KFN_lus_all.pickle','wb') as f:
+#        pickle.dump(nopub,f)
 
-    with open('../resource/KFN_lus_all.pickle','rb') as f:
-        nopub = pickle.load(f)
+#    with open('../resource/KFN_lus_all.pickle','rb') as f:
+#        nopub = pickle.load(f)
 
     lus = []
     lid = 1
@@ -655,25 +660,173 @@ def get_sejong_anno(sid):
         if sid == i['sejongset']:
             for j in  i['annotations']:
                 result.append(j['ko_annotation_id'])
+            break
     return result
 
 def gen_annotations_from_sejong():
     with open('../resource/KFN_lus.json','r') as f:
         lus = json.load(f)
-
     for i in lus:
         sid = i['mapSejong']
         sejong_anno = []
         if sid != False:
-            s = get_sejong_anno(sid)
-            sejong_anno = s
-            print(s)
-        i['sejong_annotation_id'] = sejong_anno
+            try:
+                l = i['sejong_annotation_id']
+            except:
+                i['sejong_annotation_id'] = []
+            if len(i['sejong_annotation_id']) == 0:
+                s = get_sejong_anno(sid)
+#                print(i)
+                sejong_anno = s
+                print(i['lu_id'],s)
+                i['sejong_annotation_id'] = sejong_anno
 #        break
     with open('../resource/KFN_lus.json','w') as f:
         json.dump(lus,f,indent=4,ensure_ascii=False)
 
 
+def gen_again_manual():
+    manual = load_manual()
+    with open('../resource/KFN_lus.json','r') as f:
+        lus = json.load(f)
+
+    print(len(manual))
+
+    add = []
+    for m in manual:
+#        print(m)
+        l = m['lu']+'.'+m['frame']
+        lu = {}
+        lu['lu'] = l
+        lu['publish'] = True
+        lemma = m['lu'].split('.')[0][:-1]
+        lu['lexeme'] = lemma
+        lu['pos'] = 'VV'
+        lemma_var = []
+        lemma_var.append(lemma)
+        lu['lemma_var'] = lemma_var
+        lu['frameName'] = m['frame']
+        lu['mapSejong'] = False
+        lu['fid'] = get_fid(m['frame'])
+        lu['ko_annotation_id'] = []
+        en_lus = []
+        en_lus.append(m['en_lu'])
+        lu['lu_id'] = 1
+        lu['en_lu'] = en_lus
+        new = True
+        for i in lus:
+            if l == i['lu']:
+                new = False
+            else:
+                pass
+        if new:
+            add.append(lu)
+#            print(lu)
+    lus = lus + add
+    with open('../resource/KFN_lus.json','w') as f:
+        json.dump(lus,f,indent=4,ensure_ascii=False)
+
+def final_rev():
+    with open('../resource/KFN_lus.json','r') as f:
+        d = json.load(f)
+
+    for i in d:
+        try:
+            l = i['sejong_annotation_id']
+        except:
+            i['sejong_annotation_id'] = []
+            print(i['lu_id'])
+    with open('../resource/KFN_lus.json','w') as f:
+        json.dump(d,f,indent=4,ensure_ascii=False)
+
+def final_final_rev():
+    with open('../resource/KFN_lus.json','r') as f:
+        d = json.load(f)
+    n = 0
+    lus = d
+    for i in d:
+        lex = i['lu'].split('.')[0]
+        pos = i['lu'].split('.')[1]
+        frame = i['lu'].split('.')[2]
+        new = True
+        if lex[-2:] == '다다':
+            print(i['lu'])
+            i['lu'] = lex[:-1]+'.'+pos+'.'+frame
+#            for j in lus:
+#                if lu == j['lu']:
+#                    new = False
+#                else:
+#                    pass
+#            if new == True:
+#                print('wow')
+#                n = n+1
+#    print(n)
+    with open('../resource/KFN_lus.json','w') as f:
+        json.dump(d,f,indent=4,ensure_ascii=False)
+
+
+def final_check_duple():
+    with open('../resource/KFN_lus.json','r') as f:
+        d = json.load(f)
+    result = []
+    n = 0
+    for i in d:
+        if n == 0:
+            result.append(i)
+            n = n+1
+        else:
+            new = True
+            for j in result:
+                if i['lu'] == j['lu']:
+                    ko_annotation_id = j['ko_annotation_id']
+                    ko_annotation_id = ko_annotation_id + i['ko_annotation_id']
+                    j['ko_annotation_id'] = list(set(ko_annotation_id))
+                    en_lu = j['en_lu']
+                    en_lu = en_lu + list(set(i['en_lu']))
+                    j['en_lu'] = en_lu
+                    lemma_var = j['lemma_var']
+                    lemma_var = lemma_var + i['lemma_var']
+                    j['lemma_var'] = list(set(lemma_var))
+
+                    sid = j['sejong_annotation_id']
+                    sid = sid + i['sejong_annotation_id']
+                    j['sejong_annotation_id'] = list(set(sid))
+                    
+
+                    new = False
+#                    print('merged',i['lu_id'])
+#                    print(j)
+                    break
+                else:
+                    pass
+            if new:
+                result.append(i)
+#    print(len(result))
+
+
+    with open('../resource/KFN_lus.json','w') as f:
+        json.dump(result,f,indent=4,ensure_ascii=False)
+
+
+#final_check_duple()
+#gen_public()
+#gen_kfn_by_frame()
+
+
+
+
+#gen_again_manual()
+#print(1)
+#rev_with_sejong()
+#print(2)
+#gen_public()
+#print(3)
+#gen_kfn_by_frame()
+#print(4)
+#gen_annotations_from_sejong()
+#print(5)
+#final_rev()
+#final_final_rev()
 
 
 

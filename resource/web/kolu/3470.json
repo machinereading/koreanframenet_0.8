@@ -1,74 +1,153 @@
 {
-    "ko_lu": "타워.n.Buildings",
-    "lu_id": 3470,
-    "frameID": 173,
-    "en_lus": [
-        "tower"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Fairness_evaluation",
     "patterns": [
         {
-            "valenceText": "annotation id: 11642",
+            "valenceText": "annotation id: 11836",
             "examples": [
                 {
+                    "frameName": "Fairness_evaluation",
                     "denotations": [
                         {
-                            "obj": "function",
-                            "id": "2",
+                            "obj": "action",
                             "span": {
-                                "begin": 40,
-                                "end": 43
-                            }
+                                "begin": 4,
+                                "end": 56
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "actor",
+                            "span": {
+                                "begin": 57,
+                                "end": 59
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 44,
-                                "end": 47
-                            }
+                                "begin": 61,
+                                "end": 64
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Buildings",
-                    "text": "여기에는 아직도 바와 클럽들이 있으나, 그 지역은 거의 주류가 되었고, 사무실 타워들이 많은 사악한 옛 지역들을 대체하고 있다.",
+                    "origin_lus": [
+                        "fair"
+                    ],
+                    "ko_annotation_id": 11836,
+                    "text": "당신이 Sheik Bin Baz의 실수를 얕잡아보고 Sheik Maqdasi에 의한 실수를 과장할 때 당신은 공정하지 않다 …",
+                    "sent_id": 1683,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 1115,
-                    "ko_annotation_id": 11642,
-                    "origin_lus": [
-                        "towers"
-                    ],
-                    "annotation_id": 5831
+                    "annotation_id": 8229
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.22348",
+            "valenceText": "annotation id: sejong.95715",
             "examples": [
                 {
+                    "frameName": "Fairness_evaluation",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "타워에 올라가면 시내가 한눈에 보인다.",
-                    "relations": [],
-                    "target": "타워",
-                    "ko_annotation_id": "sejong.22348",
-                    "frameName": "Buildings"
+                    "text": "그 사람은 재판관으로서 보기 드물게 공정하다.",
+                    "target": "공정하다",
+                    "ko_annotation_id": "sejong.95715",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.95716",
+            "examples": [
+                {
+                    "frameName": "Fairness_evaluation",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "그는 심판관으로서 공정하기로 소문난 사람이다.",
+                    "target": "공정하기로",
+                    "ko_annotation_id": "sejong.95716",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.95717",
+            "examples": [
+                {
+                    "frameName": "Fairness_evaluation",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "김 선생은 모든 학생들에 대해 공정하다.",
+                    "target": "공정하다",
+                    "ko_annotation_id": "sejong.95717",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.95718",
+            "examples": [
+                {
+                    "frameName": "Fairness_evaluation",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "판사는 모름지기 모든 소송 사건에 공정해야 한다.",
+                    "target": "공정해야",
+                    "ko_annotation_id": "sejong.95718",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Buildings"
+    "frameID": 376,
+    "ko_pos": "VA",
+    "ko_lu": "공정하다.a.Fairness_evaluation",
+    "lu_id": 3470,
+    "en_lus": [
+        "fair"
+    ]
 }

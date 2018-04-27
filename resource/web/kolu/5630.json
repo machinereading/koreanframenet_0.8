@@ -1,96 +1,135 @@
 {
-    "ko_lu": "주차하다.v.Placing",
-    "lu_id": 5630,
-    "frameID": 62,
-    "en_lus": [
-        "park"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Besieging",
     "patterns": [
         {
-            "valenceText": "annotation id: 19506",
+            "valenceText": "annotation id: 19886",
             "examples": [
                 {
+                    "frameName": "Besieging",
                     "denotations": [
                         {
-                            "obj": "goal",
-                            "id": "2",
+                            "obj": "time",
                             "span": {
-                                "begin": 28,
-                                "end": 33
-                            }
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "assailant",
+                            "span": {
+                                "begin": 4,
+                                "end": 15
+                            },
+                            "id": "5"
+                        },
+                        {
+                            "obj": "time",
+                            "span": {
+                                "begin": 17,
+                                "end": 23
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "victim",
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 35,
-                                "end": 38
-                            }
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Placing",
-                    "text": "2- 어떠한 상황에서도 차는, 위치에 속한 차라도 울타리 옆에 주차하는 것이 허용되어서는 안된다.",
+                    "origin_lus": [
+                        "siege"
+                    ],
+                    "ko_annotation_id": 19886,
+                    "text": "결국, 로마 장군 Titus는 서기 70년에 예루살렘을 포위하였고, 마침내 예루살렘의 굶주리고 허약해진 방어자들을 공격하였다.",
+                    "sent_id": 670,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "5",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 1582,
-                    "ko_annotation_id": 19506,
-                    "origin_lus": [
-                        "park"
-                    ],
-                    "annotation_id": 7699
+                    "annotation_id": 3581
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.54329",
+            "valenceText": "annotation id: sejong.73774",
             "examples": [
                 {
+                    "frameName": "Besieging",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
                                 "begin": 15,
-                                "end": 19
-                            }
+                                "end": 18
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "철수는 늘 정문 앞에 차를 주차한다.",
-                    "relations": [],
-                    "target": "주차한다",
-                    "ko_annotation_id": "sejong.54329",
-                    "frameName": "Placing"
+                    "text": "사냥꾼들은 호랑이를 서서히 포위해 갔다.",
+                    "target": "포위해",
+                    "ko_annotation_id": "sejong.73774",
+                    "relations": []
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.54330",
+            "valenceText": "annotation id: sejong.73775",
             "examples": [
                 {
+                    "frameName": "Besieging",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
-                                "begin": 15,
-                                "end": 20
-                            }
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "경비는 나에게 차를 구석에 주차하라고 말했다.",
-                    "relations": [],
-                    "target": "주차하라고",
-                    "ko_annotation_id": "sejong.54330",
-                    "frameName": "Placing"
+                    "text": "매복 작전이 성공하여 아군은 적군을 완전히 포위했다.",
+                    "target": "포위했다",
+                    "ko_annotation_id": "sejong.73775",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Placing"
+    "frameID": 1817,
+    "ko_pos": "VV",
+    "ko_lu": "포위하다.v.Besieging",
+    "lu_id": 5630,
+    "en_lus": [
+        "siege"
+    ]
 }

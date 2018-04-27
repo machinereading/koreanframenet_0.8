@@ -1,51 +1,65 @@
 {
-    "ko_lu": "역할.n.Accomplishment",
-    "lu_id": 5739,
-    "frameID": 1519,
-    "en_lus": [
-        "sigoto .仕事 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Part_orientational",
     "patterns": [
         {
-            "valenceText": "annotation id: 19805",
+            "valenceText": "annotation id: 20240",
             "examples": [
                 {
+                    "frameName": "Part_orientational",
                     "denotations": [
                         {
-                            "obj": "Agent",
+                            "obj": "whole",
                             "span": {
-                                "begin": 0,
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "part_prop",
+                            "span": {
+                                "begin": 7,
                                 "end": 9
-                            }
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Outcome",
+                            "obj": "target",
                             "span": {
-                                "begin": 16,
-                                "end": 54
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 11,
-                                "end": 13
-                            }
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Accomplishment",
-                    "text": "그와 그 후계자들의 역할은, 벤담 학파의 반역사적 성향에 대응하여, 강력한 평형력을 유지하는 것이었다.",
-                    "relations": [],
-                    "sent_id": 4059,
-                    "ko_annotation_id": 19805,
                     "origin_lus": [
-                        "sigoto .仕事 "
+                        "side"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 20240,
+                    "text": "그들은 원탁 한쪽에서 나를 향해 그들의 옆모습을 보인채 앉았다.",
+                    "sent_id": 3295,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 17563
                 }
             ]
         }
     ],
-    "frameName": "Accomplishment"
+    "frameID": 143,
+    "ko_pos": "NNG",
+    "ko_lu": "한쪽.n.Part_orientational",
+    "lu_id": 5739,
+    "en_lus": [
+        "side"
+    ]
 }

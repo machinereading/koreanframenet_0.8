@@ -1,53 +1,74 @@
 {
-    "ko_lu": "지하철.n.Vehicle",
-    "lu_id": 2731,
-    "frameID": 429,
-    "en_lus": [
-        "car"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Relational_quantity",
     "patterns": [
         {
-            "valenceText": "annotation id: 8812",
+            "valenceText": "annotation id: 8905",
             "examples": [
                 {
+                    "frameName": "Relational_quantity",
                     "denotations": [
                         {
-                            "obj": "vehicle",
-                            "id": "2",
+                            "obj": "target",
                             "span": {
                                 "begin": 0,
-                                "end": 3
-                            }
+                                "end": 2
+                            },
+                            "id": "1"
                         },
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "mass",
                             "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "id": "2"
                         }
                     ],
-                    "frameName": "Vehicle",
-                    "text": "지하철과 다른 사방이 막힌 공간에서 치명적인 시아나이드 가스를 살포하기 위해 알카이다가 개발한 것으로 전해지는 이 장치는 테러리스트 공격에 결코 사용되지 않았고  아마도 별로 효과적이지 않은 것 같다고 전문가들은 말한다.",
+                    "origin_lus": [
+                        "some"
+                    ],
+                    "ko_annotation_id": 8905,
+                    "text": "약간의 시간이 걸리고 어려운 일이었지만 Goodwill의 도움으로, Jerry는 검찰과 함께 지불 계획을 성공적으로 세우고 거처를 찾고 더 철저한 일자리 찾기를 할 수 있었다.",
+                    "sent_id": 428,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 3231,
-                    "ko_annotation_id": 8812,
-                    "origin_lus": [
-                        "cars",
-                        "car"
+                    "annotation_id": 2239
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.38358",
+            "examples": [
+                {
+                    "frameName": "Relational_quantity",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "id": "1"
+                        }
                     ],
-                    "annotation_id": 16982
+                    "text": "그는 약간의 돈을 요구했다.",
+                    "target": "약간",
+                    "ko_annotation_id": "sejong.38358",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Vehicle"
+    "frameID": 2427,
+    "ko_pos": "NNG",
+    "ko_lu": "약간.n.Relational_quantity",
+    "lu_id": 2731,
+    "en_lus": [
+        "some"
+    ]
 }

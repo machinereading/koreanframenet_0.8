@@ -1,44 +1,74 @@
 {
-    "ko_lu": "그룹.n.Organization",
-    "lu_id": 3798,
-    "frameID": 1371,
-    "en_lus": [
-        "guruupu .グループ "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Process_end",
     "patterns": [
         {
-            "valenceText": "annotation id: 12777",
+            "valenceText": "annotation id: 13016",
             "examples": [
                 {
+                    "frameName": "Process_end",
                     "denotations": [
                         {
-                            "obj": "Organization",
+                            "obj": "process",
                             "span": {
-                                "begin": 21,
-                                "end": 31
-                            }
+                                "begin": 15,
+                                "end": 23
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "target",
                             "span": {
-                                "begin": 29,
-                                "end": 31
-                            }
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Organization",
-                    "text": "종종 뉴스에서는, 이슬람교 그 자체와 테러를 일으킨 그룹의 가르침은, 전혀 다르다고 보도됩니다.",
-                    "relations": [],
-                    "sent_id": 4295,
-                    "ko_annotation_id": 12777,
                     "origin_lus": [
-                        "guruupu .グループ "
+                        "end"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 13016,
+                    "text": "미국의 미사일 확산 반대와 인종 격리 정부의 종식에 직면하자, 남아공은 1991년에 미사일 및 우주 발사 프로그램을 포기하고 국제 감시 하에 관련 시설을 제거하였다.",
+                    "sent_id": 3058,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15906
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.30993",
+            "examples": [
+                {
+                    "frameName": "Process_end",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 6,
+                                "end": 8
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "text": "냉전시대는 종식이 된지 오래다.",
+                    "target": "종식",
+                    "ko_annotation_id": "sejong.30993",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Organization"
+    "frameID": 232,
+    "ko_pos": "NNG",
+    "ko_lu": "종식.n.Process_end",
+    "lu_id": 3798,
+    "en_lus": [
+        "end"
+    ]
 }

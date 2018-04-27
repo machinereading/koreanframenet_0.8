@@ -1,38 +1,65 @@
 {
-    "ko_lu": "빛.n.Location_of_light",
-    "lu_id": 1697,
-    "frameID": 105,
-    "en_lus": [
-        "light"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Commerce_sell",
     "patterns": [
         {
-            "valenceText": "annotation id: 5245",
+            "valenceText": "annotation id: 5269",
             "examples": [
                 {
+                    "frameName": "Commerce_sell",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "place",
                             "span": {
-                                "begin": 5,
-                                "end": 6
-                            }
+                                "begin": 22,
+                                "end": 42
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "time",
+                            "span": {
+                                "begin": 43,
+                                "end": 47
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 48,
+                                "end": 50
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Location_of_light",
-                    "text": "건물들은 빛에 따라 변하는 것처럼 보인다 ; 낮은 하늘 아래의 더블린은 맑은 날씨에서의 더블린과 다른 곳이다.",
-                    "relations": [],
-                    "sent_id": 974,
-                    "ko_annotation_id": 5245,
                     "origin_lus": [
-                        "light"
+                        "auction"
                     ],
-                    "annotation_id": 5078
+                    "ko_annotation_id": 5269,
+                    "text": "당신이 충분히 일찍 일어날 수 있다면, 넓은 지역 도매 생선 시장에서 열리는 새벽 전 경매에 참석할 수 있다 ; 그렇지 않으면, 나중에 낮에 여는 거리 시장을 보아라.",
+                    "sent_id": 1137,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5978
                 }
             ]
         }
     ],
-    "frameName": "Location_of_light"
+    "frameID": 172,
+    "ko_pos": "NNG",
+    "ko_lu": "경매.n.Commerce_sell",
+    "lu_id": 1697,
+    "en_lus": [
+        "auction"
+    ]
 }

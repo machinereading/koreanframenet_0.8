@@ -3,6 +3,11 @@ import kfn
 import pprint
 from nltk.corpus import framenet as fn
 
+
+#get all lus
+lus = kfn.lus()
+print(len(lus))
+
 #get lus
 lus = kfn.lus_by_lemma('나누다')
 print(lus)

@@ -1,65 +1,126 @@
 {
-    "ko_lu": "없다.a.Expected_location_of_person",
-    "lu_id": 2390,
-    "frameID": 1619,
-    "en_lus": [
-        "out"
-    ],
-    "ko_pos": "VA",
+    "frameName": "Touring",
     "patterns": [
         {
-            "valenceText": "annotation id: 7633",
+            "valenceText": "annotation id: 7728",
             "examples": [
                 {
+                    "frameName": "Touring",
                     "denotations": [
                         {
-                            "obj": "duration",
-                            "id": "3",
+                            "obj": "tourist",
                             "span": {
-                                "begin": 15,
-                                "end": 22
-                            }
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "id": "4"
                         },
                         {
-                            "obj": "location",
-                            "id": "2",
+                            "obj": "means",
                             "span": {
-                                "begin": 23,
-                                "end": 26
-                            }
+                                "begin": 4,
+                                "end": 31
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "attraction",
+                            "span": {
+                                "begin": 33,
+                                "end": 35
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 28,
-                                "end": 30
-                            }
+                                "begin": 36,
+                                "end": 38
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Expected_location_of_person",
-                    "text": "당신을 위한 정보 - 나는 다음 주 내내 사무실에 없을 것이다.",
+                    "origin_lus": [
+                        "tour"
+                    ],
+                    "ko_annotation_id": 7728,
+                    "text": "당신은 여성 운전자의 손에서 추진되는 작은 배들 중 하나로 항구 여행을 할 수 있다.",
+                    "sent_id": 1133,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         },
                         {
+                            "subj": "1",
                             "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 1812,
-                    "ko_annotation_id": 7633,
-                    "origin_lus": [
-                        "out"
+                    "annotation_id": 5951
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7729",
+            "examples": [
+                {
+                    "frameName": "Touring",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "id": "1"
+                        }
                     ],
-                    "annotation_id": 8759
+                    "origin_lus": [
+                        "tour"
+                    ],
+                    "ko_annotation_id": 7729,
+                    "text": "반 시간 여행에 50 홍콩달러가 든다 ; 마지막에 지불하라, 그렇지 않으면 운전자가 당신 여행을 짧게 자를 지도 모른다.",
+                    "sent_id": 1134,
+                    "relations": [],
+                    "annotation_id": 5960
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.1401",
+            "examples": [
+                {
+                    "frameName": "Touring",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "id": "1"
+                        }
+                    ],
+                    "text": "그는 여러 나라를 여행을 했다.",
+                    "target": "여행",
+                    "ko_annotation_id": "sejong.1401",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Expected_location_of_person"
+    "frameID": 1907,
+    "ko_pos": "NNG",
+    "ko_lu": "여행.n.Touring",
+    "lu_id": 2390,
+    "en_lus": [
+        "tour"
+    ]
 }

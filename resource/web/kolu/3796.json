@@ -1,51 +1,113 @@
 {
-    "ko_lu": "천황.n.Leadership",
-    "lu_id": 3796,
-    "frameID": 73,
-    "en_lus": [
-        "tennoo .天皇 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Process_resume",
     "patterns": [
         {
-            "valenceText": "annotation id: 12775",
+            "valenceText": "annotation id: 13009",
             "examples": [
                 {
+                    "frameName": "Process_resume",
                     "denotations": [
                         {
-                            "obj": "Leader",
+                            "obj": "time",
                             "span": {
-                                "begin": 13,
-                                "end": 15
-                            }
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Governed",
+                            "obj": "process",
                             "span": {
-                                "begin": 28,
-                                "end": 30
-                            }
+                                "begin": 12,
+                                "end": 27
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "time",
                             "span": {
-                                "begin": 13,
-                                "end": 15
-                            }
+                                "begin": 29,
+                                "end": 72
+                            },
+                            "id": "5"
+                        },
+                        {
+                            "obj": "time",
+                            "span": {
+                                "begin": 73,
+                                "end": 76
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 77,
+                                "end": 80
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Leadership",
-                    "text": "다시 말해서 그 영역은 천황을 중심으로 한 하나의 나라입니다.",
-                    "relations": [],
-                    "sent_id": 3814,
-                    "ko_annotation_id": 12775,
                     "origin_lus": [
-                        "tennoo .天皇 "
+                        "resumed"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 13009,
+                    "text": "2002년 10월에, 미국과 북한 간의 양자 회담이 미국의 동아시아 태평양 담당 차관보 James Kelly가 평양을 방문했을 때 마침내 재개되었다.",
+                    "sent_id": 2970,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "5",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 15289
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.75789",
+            "examples": [
+                {
+                    "frameName": "Process_resume",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "내일 양국의 협상이 재개된다.",
+                    "target": "재개된다",
+                    "ko_annotation_id": "sejong.75789",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Leadership"
+    "frameID": 148,
+    "ko_pos": "VV",
+    "ko_lu": "재개되다.v.Process_resume",
+    "lu_id": 3796,
+    "en_lus": [
+        "resume"
+    ]
 }

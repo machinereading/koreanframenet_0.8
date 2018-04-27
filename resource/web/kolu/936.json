@@ -1,51 +1,106 @@
 {
-    "ko_lu": "약국.n.Locale_by_use",
-    "lu_id": 936,
-    "frameID": 196,
-    "en_lus": [
-        "yakkyoku .薬局 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Activity_ongoing",
     "patterns": [
         {
-            "valenceText": "annotation id: 2770",
+            "valenceText": "annotation id: 2771",
             "examples": [
                 {
+                    "frameName": "Activity_ongoing",
                     "denotations": [
                         {
-                            "obj": "Relative_location",
+                            "obj": "agent",
                             "span": {
-                                "begin": 59,
-                                "end": 65
-                            }
+                                "begin": 21,
+                                "end": 22
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Locale",
+                            "obj": "activity",
                             "span": {
-                                "begin": 66,
-                                "end": 68
-                            }
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "target",
                             "span": {
-                                "begin": 66,
-                                "end": 68
-                            }
+                                "begin": 28,
+                                "end": 29
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Locale_by_use",
-                    "text": "도지마를 비스듬히 흐르는 강 건너편에 오사카병원이 있는 큰 빌딩은 1층이 아케이드로 되어있는데, 미무라는 그곳에 있는 약국에서 키다 씨를 위한 히루도이드 크림을 손에 넣을 수 있었다.",
-                    "relations": [],
-                    "sent_id": 4724,
-                    "ko_annotation_id": 2770,
                     "origin_lus": [
-                        "yakkyoku .薬局 "
+                        "keeping"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 2771,
+                    "text": "Stephanopoulos는 능숙하게 그를 조용히 하도록 협박하고 감언이설로 속인다.",
+                    "sent_id": 1024,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5367
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7124",
+            "examples": [
+                {
+                    "frameName": "Activity_ongoing",
+                    "denotations": [
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 99,
+                                "end": 102
+                            },
+                            "id": "1"
+                        },
+                        {
+                            "obj": "activity",
+                            "span": {
+                                "begin": 87,
+                                "end": 98
+                            },
+                            "id": "2"
+                        }
+                    ],
+                    "origin_lus": [
+                        "Keep"
+                    ],
+                    "ko_annotation_id": 7124,
+                    "text": "보안팀이 해야 할 것 : A : 정기적인 뉴스 단신을 발간하고 모든 거주자들에게 배포하여, 그들이 안전하게 gaz와 일지를 저장하는 방법을 조언한다 B : 소방관이 언제나 경계하게 한다 C : 화재 재난일지 모르는 것을 보고한다 D : 어린이들의 장남감 안전에 대해 경고한다 E : 누구나 예방책을 갖도록 권고하고 그들의 집을 단단히 감시한다",
+                    "sent_id": 1626,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 7966
                 }
             ]
         }
     ],
-    "frameName": "Locale_by_use"
+    "frameID": 164,
+    "ko_pos": "VA",
+    "ko_lu": "하다.a.Activity_ongoing",
+    "lu_id": 936,
+    "en_lus": [
+        "keep",
+        "Keep"
+    ]
 }

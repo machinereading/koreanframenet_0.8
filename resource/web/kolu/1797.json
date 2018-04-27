@@ -1,42 +1,65 @@
 {
-    "ko_lu": "남쪽.n.Direction",
-    "lu_id": 1797,
-    "frameID": 215,
-    "en_lus": [
-        "south",
-        "nanpoo .南方 ",
-        "minami .南 "
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Choosing",
     "patterns": [
         {
-            "valenceText": "annotation id: 5607",
+            "valenceText": "annotation id: 5650",
             "examples": [
                 {
+                    "frameName": "Choosing",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "cognizer",
                             "span": {
-                                "begin": 6,
-                                "end": 8
-                            }
+                                "begin": 0,
+                                "end": 1
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "chosen",
+                            "span": {
+                                "begin": 3,
+                                "end": 10
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Direction",
-                    "text": "Crete 남쪽 더 먼 곳의 Minoan 문명은 기원 전 2000년 이후 그 시대의 최상위로 발달하여, 그 영향이 무역과 외교를 통해 지역 전체에 퍼졌다.",
-                    "relations": [],
-                    "sent_id": 504,
-                    "ko_annotation_id": 5607,
                     "origin_lus": [
-                        "south",
-                        "nanpoo .南方 ",
-                        "minami .南 "
+                        "decided"
                     ],
-                    "annotation_id": 2651
+                    "ko_annotation_id": 5650,
+                    "text": "나는 폭풍을 이겨내기로 결심하였다.",
+                    "sent_id": 132,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 773
                 }
             ]
         }
     ],
-    "frameName": "Direction"
+    "frameID": 352,
+    "ko_pos": "VV",
+    "ko_lu": "결심하다.v.Choosing",
+    "lu_id": 1797,
+    "en_lus": [
+        "decide"
+    ]
 }

@@ -1,73 +1,109 @@
 {
-    "ko_lu": "시에프.n.Buildings",
-    "lu_id": 3720,
-    "frameID": 173,
-    "en_lus": [
-        "purehabu kentiku .プレハブ 建築 "
-    ],
-    "ko_pos": "NNB",
+    "frameName": "Causation",
     "patterns": [
         {
-            "valenceText": "annotation id: 12550",
+            "valenceText": "annotation id: 12682",
             "examples": [
                 {
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "obj": "Function",
+                            "obj": "affected",
                             "span": {
-                                "begin": 57,
-                                "end": 83
-                            }
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Building",
+                            "obj": "effect",
                             "span": {
-                                "begin": 84,
-                                "end": 92
-                            }
+                                "begin": 11,
+                                "end": 27
+                            },
+                            "id": "3"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "target",
                             "span": {
-                                "begin": 78,
-                                "end": 83
-                            }
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Buildings",
-                    "text": "An Englishman’s house is his castle (영국인은, 모름지기 일국 일성의 주인이다.)라는 속담도 있을 정도로, 재해시에 짓는 조립식 건축물인 가설주택에조차 만족한다.",
-                    "relations": [],
-                    "sent_id": 4857,
-                    "ko_annotation_id": 12550,
                     "origin_lus": [
-                        "purehabu kentiku .プレハブ 建築 "
+                        "forced"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 12682,
+                    "text": "그 결과, 상인들은 하루에 한 발의 발포로 제한되었고 - 그리고 그때부터, 그들은 모두가 듣도록 매일 정오 시간을 알렸다.",
+                    "sent_id": 1128,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5905
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.10114",
+            "valenceText": "annotation id: sejong.52322",
             "examples": [
                 {
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "obj": "target",
                             "id": "1",
                             "span": {
-                                "begin": 16,
-                                "end": 19
-                            }
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "text": "그 모델은 줄곧 우리 회사의 시에프에 출연해서 이제는 회사를 대표하는 얼굴이 되었다.",
-                    "relations": [],
-                    "target": "시에프",
-                    "ko_annotation_id": "sejong.10114",
-                    "frameName": "Buildings"
+                    "text": "그곳에서 현재 우리 나라 사람의 최장 체류기간은 1년으로 제한되어 있다.",
+                    "target": "제한되어",
+                    "ko_annotation_id": "sejong.52322",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.52323",
+            "examples": [
+                {
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "obj": "target"
+                        }
+                    ],
+                    "text": "학생들 입장에서 수강신청은 수강인원이 제한되어 있는 교양 및 선택과목을 수강하는 것이 가장 큰 관건이다.",
+                    "target": "제한되어",
+                    "ko_annotation_id": "sejong.52323",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Buildings"
+    "frameID": 5,
+    "ko_pos": "VV",
+    "ko_lu": "제한되다.v.Causation",
+    "lu_id": 3720,
+    "en_lus": [
+        "force"
+    ]
 }

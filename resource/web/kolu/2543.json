@@ -1,52 +1,54 @@
 {
-    "ko_lu": "세력.n.Leadership",
-    "lu_id": 2543,
-    "frameID": 73,
-    "en_lus": [
-        "power"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Theft",
     "patterns": [
         {
-            "valenceText": "annotation id: 8309",
+            "valenceText": "annotation id: 8416",
             "examples": [
                 {
+                    "frameName": "Theft",
                     "denotations": [
                         {
-                            "obj": "governed",
-                            "id": "2",
+                            "obj": "source",
                             "span": {
-                                "begin": 8,
-                                "end": 10
-                            }
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 11,
-                                "end": 14
-                            }
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Leadership",
-                    "text": "핵무기 생산에 외부 세력들이 이란을 어떻게 도왔나 ?",
+                    "origin_lus": [
+                        "thief",
+                        "nusubito .盗人 "
+                    ],
+                    "ko_annotation_id": 8416,
+                    "text": "전자 도둑을 잡는 유일한 방법은 그에게 틀린 정보를 제공하는 것이라고 그는 말하였다.",
+                    "sent_id": 1956,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 3434,
-                    "ko_annotation_id": 8309,
-                    "origin_lus": [
-                        "powers"
-                    ],
-                    "annotation_id": 18120
+                    "annotation_id": 9446
                 }
             ]
         }
     ],
-    "frameName": "Leadership"
+    "frameID": 94,
+    "ko_pos": "NNG",
+    "ko_lu": "도둑.n.Theft",
+    "lu_id": 2543,
+    "en_lus": [
+        "nusubito .盗人 ",
+        "thief"
+    ]
 }

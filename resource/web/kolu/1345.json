@@ -1,38 +1,52 @@
 {
-    "ko_lu": "본국.n.Foreign_or_domestic_country",
-    "lu_id": 1345,
-    "frameID": 1483,
-    "en_lus": [
-        "home"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Aggregate",
     "patterns": [
         {
-            "valenceText": "annotation id: 4162",
+            "valenceText": "annotation id: 4172",
             "examples": [
                 {
+                    "frameName": "Aggregate",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "name",
                             "span": {
-                                "begin": 47,
-                                "end": 49
-                            }
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Foreign_or_domestic_country",
-                    "text": "그리고 젊은 졸업생들은 이제 떠나지 않고 있다 -- 다국적 기업과 유럽 연합 투자는 본국에 그들을 위한 충분한 기회가 있음을 뜻한다.",
-                    "relations": [],
-                    "sent_id": 1004,
-                    "ko_annotation_id": 4162,
                     "origin_lus": [
-                        "home"
+                        "Group"
                     ],
-                    "annotation_id": 5286
+                    "ko_annotation_id": 4172,
+                    "text": "이라크 조사 단장 Charles Duelfer는 이라크 내의 대량 파괴 무기에 대한 그의 조사를 철저히 하였다.",
+                    "sent_id": 3109,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 16231
                 }
             ]
         }
     ],
-    "frameName": "Foreign_or_domestic_country"
+    "frameID": 103,
+    "ko_pos": "NNG",
+    "ko_lu": "단장.n.Aggregate",
+    "lu_id": 1345,
+    "en_lus": [
+        "Group"
+    ]
 }

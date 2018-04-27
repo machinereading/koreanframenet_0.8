@@ -1,86 +1,91 @@
 {
-    "ko_lu": "버스.n.Vehicle",
-    "lu_id": 5004,
-    "frameID": 429,
-    "en_lus": [
-        "bus"
-    ],
-    "ko_pos": "NN",
+    "frameName": "Commerce_pay",
     "patterns": [
         {
-            "valenceText": "annotation id: 17126",
+            "valenceText": "annotation id: 17609",
             "examples": [
                 {
+                    "frameName": "Commerce_pay",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "id": "1",
+                            "obj": "time",
                             "span": {
                                 "begin": 0,
-                                "end": 3
-                            }
-                        }
-                    ],
-                    "frameName": "Vehicle",
-                    "text": "버스들은 다음 사항을 구비해야 한다 : 1- 가벼운 갑옷과 로켓탄 발사기 2- 위험 활동을 보고할 무선 장비 3- 의심스러운 활동이나 면허판 번호를 적기 위한 필기물 4- 기총 발사로부터 보호하기 위한 버스 둘레의 샌드백",
-                    "relations": [],
-                    "sent_id": 1593,
-                    "ko_annotation_id": 17126,
-                    "origin_lus": [
-                        "buses"
-                    ],
-                    "annotation_id": 7757
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 17127",
-            "examples": [
-                {
-                    "denotations": [
+                                "end": 4
+                            },
+                            "id": "5"
+                        },
+                        {
+                            "obj": "buyer",
+                            "span": {
+                                "begin": 6,
+                                "end": 8
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "means",
+                            "span": {
+                                "begin": 10,
+                                "end": 37
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "goods",
+                            "span": {
+                                "begin": 41,
+                                "end": 52
+                            },
+                            "id": "3"
+                        },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
+                                "begin": 59,
+                                "end": 62
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Vehicle",
-                    "text": "버스들은 다음 사항을 구비해야 한다 : 1- 가벼운 갑옷과 로켓탄 발사기 2- 위험 활동을 보고할 무선 장비 3- 의심스러운 활동이나 면허판 번호를 적기 위한 필기물 4- 기총 발사로부터 보호하기 위한 버스 둘레의 샌드백",
-                    "relations": [],
-                    "sent_id": 1593,
-                    "ko_annotation_id": 17127,
                     "origin_lus": [
-                        "buses"
+                        "payment"
                     ],
-                    "annotation_id": 7757
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.28809",
-            "examples": [
-                {
-                    "denotations": [
+                    "ko_annotation_id": 17609,
+                    "text": "다음 해, 이란은 이스라엘에 280 백만 달러 어치의 기름을 제공함으로써 프로젝트 Flower에 대한 첫 할부금을 내었다.",
+                    "sent_id": 2415,
+                    "relations": [
                         {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 11,
-                                "end": 13
-                            }
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "5",
+                            "pred": ""
                         }
                     ],
-                    "text": "사람들이 다 오르자 버스가 출발했다.",
-                    "relations": [],
-                    "target": "버스",
-                    "ko_annotation_id": "sejong.28809",
-                    "frameName": "Vehicle"
+                    "annotation_id": 12159
                 }
             ]
         }
     ],
-    "frameName": "Vehicle"
+    "frameID": 180,
+    "ko_pos": "NN",
+    "ko_lu": "할부금.n.Commerce_pay",
+    "lu_id": 5004,
+    "en_lus": [
+        "payment"
+    ]
 }

@@ -1,62 +1,55 @@
 {
-    "ko_lu": "열리다.v.Event",
-    "lu_id": 808,
-    "frameID": 187,
-    "en_lus": [
-        "hiraku .開く",
-        "take place"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Event",
     "patterns": [
         {
             "valenceText": "annotation id: 2449",
             "examples": [
                 {
+                    "frameName": "Event",
                     "denotations": [
                         {
                             "obj": "event",
-                            "id": "2",
                             "span": {
                                 "begin": 5,
                                 "end": 7
-                            }
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "time",
-                            "id": "3",
                             "span": {
                                 "begin": 9,
                                 "end": 12
-                            }
+                            },
+                            "id": "3"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
                                 "begin": 14,
                                 "end": 16
-                            }
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Event",
-                    "text": "QN : 회의는 목요일에 열렸나 ?",
-                    "relations": [
-                        {
-                            "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        },
-                        {
-                            "obj": "3",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 1195,
-                    "ko_annotation_id": 2449,
                     "origin_lus": [
                         "take place",
                         "hiraku .開く"
+                    ],
+                    "ko_annotation_id": 2449,
+                    "text": "QN : 회의는 목요일에 열렸나 ?",
+                    "sent_id": 1195,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
                     ],
                     "annotation_id": 6178
                 }
@@ -66,6 +59,7 @@
             "valenceText": "annotation id: 2450",
             "examples": [
                 {
+                    "frameName": "Event",
                     "denotations": [
                         {
                             "obj": "Time",
@@ -96,19 +90,25 @@
                             }
                         }
                     ],
-                    "frameName": "Event",
-                    "text": "4 아와즈 쇼조를 초청하여 그해 5월 예년과 같이 프랑스 선수권대회가 열렸다.",
-                    "relations": [],
-                    "sent_id": 4231,
-                    "ko_annotation_id": 2450,
                     "origin_lus": [
                         "take place",
                         "hiraku .開く"
                     ],
+                    "ko_annotation_id": 2450,
+                    "text": "4 아와즈 쇼조를 초청하여 그해 5월 예년과 같이 프랑스 선수권대회가 열렸다.",
+                    "sent_id": 4231,
+                    "relations": [],
                     "annotation_id": 0
                 }
             ]
         }
     ],
-    "frameName": "Event"
+    "frameID": 187,
+    "ko_pos": "VV",
+    "ko_lu": "열리다.v.Event",
+    "lu_id": 808,
+    "en_lus": [
+        "hiraku .開く",
+        "take place"
+    ]
 }

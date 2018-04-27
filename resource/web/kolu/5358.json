@@ -1,74 +1,78 @@
 {
-    "ko_lu": "줄어들다.v.Expansion",
-    "lu_id": 5358,
-    "frameID": 725,
-    "en_lus": [
-        "shrink"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Body_movement",
     "patterns": [
         {
-            "valenceText": "annotation id: 18457",
+            "valenceText": "annotation id: 18906",
             "examples": [
                 {
+                    "frameName": "Body_movement",
                     "denotations": [
                         {
-                            "obj": "item",
-                            "id": "2",
+                            "obj": "agent",
                             "span": {
-                                "begin": 0,
-                                "end": 5
-                            }
+                                "begin": 19,
+                                "end": 20
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "duration",
+                            "span": {
+                                "begin": 63,
+                                "end": 75
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "manner",
+                            "span": {
+                                "begin": 78,
+                                "end": 90
+                            },
+                            "id": "4"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 7,
-                                "end": 13
-                            }
+                                "begin": 96,
+                                "end": 100
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Expansion",
-                    "text": "자금 출처는 줄어들고 있지만, 필요는 폭발적으로 증가하고 있다.",
+                    "origin_lus": [
+                        "shivering"
+                    ],
+                    "ko_annotation_id": 18906,
+                    "text": "지진이 끝났다는 것을 알았을 때, 나는 집 앞으로 걸어가 서서, Merrill이 집에 오기를 기다리며 기도하고, 그가 그곳에 도착할 때까지 영하 20도나 되는 것처럼 몸을 떨고 있었다.",
+                    "sent_id": 159,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        }
-                    ],
-                    "sent_id": 458,
-                    "ko_annotation_id": 18457,
-                    "origin_lus": [
-                        "shrinking"
-                    ],
-                    "annotation_id": 2397
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.64208",
-            "examples": [
-                {
-                    "denotations": [
+                            "pred": ""
+                        },
                         {
-                            "obj": "target",
-                            "id": "1",
-                            "span": {
-                                "begin": 21,
-                                "end": 25
-                            }
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
                         }
                     ],
-                    "text": "군대에 지원하는 장정들의 수는 해마다 줄어들고 있다.",
-                    "relations": [],
-                    "target": "줄어들고",
-                    "ko_annotation_id": "sejong.64208",
-                    "frameName": "Expansion"
+                    "annotation_id": 911
                 }
             ]
         }
     ],
-    "frameName": "Expansion"
+    "frameID": 16,
+    "ko_pos": "VV",
+    "ko_lu": "떨다.v.Body_movement",
+    "lu_id": 5358,
+    "en_lus": [
+        "shiver"
+    ]
 }

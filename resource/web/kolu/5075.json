@@ -1,107 +1,96 @@
 {
-    "ko_lu": "몰다.v.Operate_vehicle",
-    "lu_id": 5075,
-    "frameID": 65,
-    "en_lus": [
-        "drive",
-        "susumeru .進める"
-    ],
-    "ko_pos": "VV",
+    "frameName": "Likelihood",
     "patterns": [
         {
-            "valenceText": "annotation id: 17491",
+            "valenceText": "annotation id: 17854",
             "examples": [
                 {
+                    "frameName": "Likelihood",
                     "denotations": [
                         {
-                            "obj": "driver",
-                            "id": "2",
+                            "obj": "hypothetical_event",
                             "span": {
-                                "begin": 30,
-                                "end": 31
-                            }
-                        },
-                        {
-                            "obj": "vehicle",
-                            "id": "3",
-                            "span": {
-                                "begin": 33,
-                                "end": 38
-                            }
+                                "begin": 73,
+                                "end": 90
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 40,
-                                "end": 41
-                            }
+                                "begin": 92,
+                                "end": 94
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Operate_vehicle",
-                    "text": "오전 12시 38분 DAYAC : 지진이 강타했을 때 나는 나의 트럭을 몰고 있었고,  Oakland - Berkeley 접경에 있는 Shattuck과 Alcatraz 모퉁이의 신호등 빨간불에 멈추어 있었다.",
+                    "origin_lus": [
+                        "unlikely"
+                    ],
+                    "ko_annotation_id": 17854,
+                    "text": "이 320 킬로미터 사거리는 Shehab-1 ( 즉, Hwasong-5 ) 의 사거리와 같고 표준 스커드-B 보다 약간 더 길다. 이란이 이들 미사일을 제조한 것이 아니라 미사일은 북한이 제공한 부품으로 조립되었을 것이다.",
+                    "sent_id": 2464,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
-                        },
-                        {
-                            "obj": "3",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 124,
-                    "ko_annotation_id": 17491,
-                    "origin_lus": [
-                        "driving",
-                        "susumeru .進める"
-                    ],
-                    "annotation_id": 741
+                    "annotation_id": 12376
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 17492",
+            "valenceText": "annotation id: sejong.93440",
             "examples": [
                 {
+                    "frameName": "Likelihood",
                     "denotations": [
                         {
-                            "obj": "Vehicle",
+                            "id": "1",
                             "span": {
-                                "begin": 12,
-                                "end": 13
-                            }
-                        },
-                        {
-                            "obj": "Area",
-                            "span": {
-                                "begin": 15,
-                                "end": 20
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 23,
-                                "end": 24
-                            }
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "obj": "target"
                         }
                     ],
-                    "frameName": "Operate_vehicle",
-                    "text": "병원을 찾는 척하면서 차를 한적한 쪽으로 몰아도, 그녀는 눈을 감은 채 아무 말도 하지 않았다.",
-                    "relations": [],
-                    "sent_id": 4518,
-                    "ko_annotation_id": 17492,
-                    "origin_lus": [
-                        "driving",
-                        "susumeru .進める"
+                    "text": "머지 아니해서 좋은 날을 맞게 될 것이다.",
+                    "target": "아니해서",
+                    "ko_annotation_id": "sejong.93440",
+                    "relations": []
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.93441",
+            "examples": [
+                {
+                    "frameName": "Likelihood",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "obj": "target"
+                        }
                     ],
-                    "annotation_id": 0
+                    "text": "조만간 오래지 아니해서 승진하시게 될 것 같습니다.",
+                    "target": "아니해서",
+                    "ko_annotation_id": "sejong.93441",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Operate_vehicle"
+    "frameID": 114,
+    "ko_pos": "VA",
+    "ko_lu": "아니하다.a.Likelihood",
+    "lu_id": 5075,
+    "en_lus": [
+        "unlikely"
+    ]
 }

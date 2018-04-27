@@ -1,52 +1,87 @@
 {
-    "ko_lu": "범행.n.Claim_ownership",
-    "lu_id": 1423,
-    "frameID": 550,
-    "en_lus": [
-        "claim"
-    ],
-    "ko_pos": "NNG",
+    "frameName": "Choosing",
     "patterns": [
         {
-            "valenceText": "annotation id: 4538",
+            "valenceText": "annotation id: 4570",
             "examples": [
                 {
+                    "frameName": "Choosing",
                     "denotations": [
                         {
-                            "obj": "property",
-                            "id": "2",
+                            "obj": "possibilities",
                             "span": {
-                                "begin": 12,
-                                "end": 21
-                            }
+                                "begin": 21,
+                                "end": 39
+                            },
+                            "id": "3"
+                        },
+                        {
+                            "obj": "cognizer",
+                            "span": {
+                                "begin": 41,
+                                "end": 42
+                            },
+                            "id": "2"
                         },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 24,
-                                "end": 29
-                            }
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "id": "1"
                         }
                     ],
-                    "frameName": "Claim_ownership",
-                    "text": "또한 무슬림 형제단은 어떤 살해에 대해서도 범행 성명을 발표하지 않았다.",
+                    "origin_lus": [
+                        "decide"
+                    ],
+                    "ko_annotation_id": 4570,
+                    "text": "나의 집은 지주로 떠받쳐있기 때문에, Marin에 있는 집으로 가야 할지 나는 결정할 수 없었다.",
+                    "sent_id": 131,
                     "relations": [
                         {
+                            "subj": "1",
                             "obj": "2",
-                            "pred": "",
-                            "subj": "1"
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
                         }
                     ],
-                    "sent_id": 1868,
-                    "ko_annotation_id": 4538,
-                    "origin_lus": [
-                        "claim"
+                    "annotation_id": 770
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: sejong.97828",
+            "examples": [
+                {
+                    "frameName": "Choosing",
+                    "denotations": [
+                        {
+                            "id": "1",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "obj": "target"
+                        }
                     ],
-                    "annotation_id": 9048
+                    "text": "방을 결정하게 치워 놓아라.",
+                    "target": "결정하게",
+                    "ko_annotation_id": "sejong.97828",
+                    "relations": []
                 }
             ]
         }
     ],
-    "frameName": "Claim_ownership"
+    "frameID": 352,
+    "ko_pos": "VA",
+    "ko_lu": "결정하다.a.Choosing",
+    "lu_id": 1423,
+    "en_lus": [
+        "decide"
+    ]
 }

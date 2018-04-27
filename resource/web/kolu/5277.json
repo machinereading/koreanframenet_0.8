@@ -1,91 +1,131 @@
 {
-    "ko_lu": "제조업.n.Manufacturing",
-    "lu_id": 5277,
-    "frameID": 408,
-    "en_lus": [
-        "seezoo .製造 "
-    ],
-    "ko_pos": "NN",
+    "frameName": "Creating",
     "patterns": [
         {
-            "valenceText": "annotation id: 18203",
+            "valenceText": "annotation id: 18602",
             "examples": [
                 {
+                    "frameName": "Creating",
                     "denotations": [
                         {
-                            "obj": "Manufacturer",
+                            "obj": "creator",
                             "span": {
-                                "begin": 14,
-                                "end": 17
-                            }
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "id": "2"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "created_entity",
                             "span": {
-                                "begin": 14,
-                                "end": 17
-                            }
-                        }
-                    ],
-                    "frameName": "Manufacturing",
-                    "text": "근로자의 70% 가까이가 제조업 노동자에 해당했던 시대로, 젊은 노동자는 그 중심부를 담당하고 있었습니다.",
-                    "relations": [],
-                    "sent_id": 3661,
-                    "ko_annotation_id": 18203,
-                    "origin_lus": [
-                        "seezoo .製造 "
-                    ],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 18204",
-            "examples": [
-                {
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 27,
-                                "end": 30
-                            }
-                        }
-                    ],
-                    "frameName": "Manufacturing",
-                    "text": "일본은 경제 선진국 중 하나이므로, 2020년에 제조업 노종자 인구가 2%까지 급격히 감소할 것으로 예상되고 있습니다.",
-                    "relations": [],
-                    "sent_id": 3981,
-                    "ko_annotation_id": 18204,
-                    "origin_lus": [
-                        "seezoo .製造 "
-                    ],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.33021",
-            "examples": [
-                {
-                    "denotations": [
+                                "begin": 11,
+                                "end": 37
+                            },
+                            "id": "3"
+                        },
                         {
                             "obj": "target",
-                            "id": "1",
                             "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
+                                "begin": 39,
+                                "end": 40
+                            },
+                            "id": "1"
                         }
                     ],
-                    "text": "제조업에 종사하는 사람들의 비율이 점점 줄어드는 추세다.",
-                    "relations": [],
-                    "target": "제조업",
-                    "ko_annotation_id": "sejong.33021",
-                    "frameName": "Manufacturing"
+                    "origin_lus": [
+                        "issued"
+                    ],
+                    "ko_annotation_id": 18602,
+                    "text": "정말, Sheik은 서로 반박하는 동일한 문제에 관해 두 개의 칙령을 내었다.",
+                    "sent_id": 1689,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8255
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 18603",
+            "examples": [
+                {
+                    "frameName": "Creating",
+                    "denotations": [
+                        {
+                            "obj": "creator",
+                            "span": {
+                                "begin": 3,
+                                "end": 4
+                            },
+                            "id": "2"
+                        },
+                        {
+                            "obj": "target",
+                            "span": {
+                                "begin": 6,
+                                "end": 7
+                            },
+                            "id": "1"
+                        },
+                        {
+                            "obj": "purpose",
+                            "span": {
+                                "begin": 12,
+                                "end": 27
+                            },
+                            "id": "4"
+                        },
+                        {
+                            "obj": "created_entity",
+                            "span": {
+                                "begin": 28,
+                                "end": 35
+                            },
+                            "id": "3"
+                        }
+                    ],
+                    "origin_lus": [
+                        "issued"
+                    ],
+                    "ko_annotation_id": 18603,
+                    "text": " [ 그는 내었다 ] 사담 정권의 정책을 수용하는 더 많은 칙령을.",
+                    "sent_id": 1692,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "3",
+                            "pred": ""
+                        },
+                        {
+                            "subj": "1",
+                            "obj": "4",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 8268
                 }
             ]
         }
     ],
-    "frameName": "Manufacturing"
+    "frameID": 319,
+    "ko_pos": "VV",
+    "ko_lu": "내다.v.Creating",
+    "lu_id": 5277,
+    "en_lus": [
+        "issue"
+    ]
 }

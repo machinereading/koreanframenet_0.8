@@ -1,44 +1,52 @@
 {
-    "ko_lu": "깨어나다.v.Waking_up",
-    "lu_id": 2965,
-    "frameID": 295,
-    "en_lus": [
-        "okiru .起きる "
-    ],
-    "ko_pos": "VV",
+    "frameName": "Experiencer_obj",
     "patterns": [
         {
-            "valenceText": "annotation id: 9615",
+            "valenceText": "annotation id: 9736",
             "examples": [
                 {
+                    "frameName": "Experiencer_obj",
                     "denotations": [
                         {
-                            "obj": "Sleep_state",
+                            "obj": "target",
                             "span": {
-                                "begin": 14,
-                                "end": 35
-                            }
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "id": "1"
                         },
                         {
-                            "obj": "Target",
+                            "obj": "stimulus",
                             "span": {
-                                "begin": 32,
-                                "end": 35
-                            }
+                                "begin": 4,
+                                "end": 46
+                            },
+                            "id": "2"
                         }
                     ],
-                    "frameName": "Waking_up",
-                    "text": "이 시기에 밤잠이 들면, 가슴 속의 섬세해진 어떤 부분이 깨어나, 등이 쫙 펴지는 순간을 느낄 수 있습니다.",
-                    "relations": [],
-                    "sent_id": 4058,
-                    "ko_annotation_id": 9615,
                     "origin_lus": [
-                        "okiru .起きる "
+                        "trouble"
                     ],
-                    "annotation_id": 0
+                    "ko_annotation_id": 9736,
+                    "text": "문제는 Stephanopoulos 자신이 애초부터 이들 거짓들을 전파하도록 도왔다는 것이다.",
+                    "sent_id": 1015,
+                    "relations": [
+                        {
+                            "subj": "1",
+                            "obj": "2",
+                            "pred": ""
+                        }
+                    ],
+                    "annotation_id": 5327
                 }
             ]
         }
     ],
-    "frameName": "Waking_up"
+    "frameID": 47,
+    "ko_pos": "NNG",
+    "ko_lu": "문제.n.Experiencer_obj",
+    "lu_id": 2965,
+    "en_lus": [
+        "trouble"
+    ]
 }
