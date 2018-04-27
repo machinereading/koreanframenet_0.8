@@ -11,7 +11,7 @@ Korean FrameNet is a lexical database that has rich annotations to represent the
 ## How to use
 refer `example.py`
 
-### 0) get all LUs
+### How to get all LUs
 ```
 import json
 import kfn
@@ -20,7 +20,7 @@ print(len(lus))
 ```
 `14699` LUs are in Korean FrameNet
 
-### 1) How to get lexical unit (LU) IDs
+### How to get lexical unit (LU) IDs
 ```
 import json
 import kfn
@@ -35,7 +35,7 @@ print(lus)
 
 In this case, the word '나누다' has two meanings (frames), `Separating` and `Giving`
 
-### 2) How to get LU object by LU IDs
+### How to get LU object by LU IDs
 ```
 #get lu by lu_id
 lu_id == lus[0]['lu_id'] #if you want to get information about the LU '`나누다.v.Separating`'
@@ -49,7 +49,7 @@ print('definition:', f.definition) #Frame Definition
 `frame: Separating`  
 `definition: These words refer to separating a Whole into Parts, or separating one part from another.`  
 
-### 3) How to get Annotations by LU IDs
+### How to get Annotations by LU IDs
 ```
 annotations = kfn.annotation(lus[1]['lu_id'])
 print('text:', annotations[1]['text'])
