@@ -1,13 +1,17 @@
 import json
 import pprint
 from nltk.corpus import framenet as fn
+import os
+import re
 
 def load_kfn():
-    with open('./resource/KFN_lus.json','r') as f:
+    dir_path = os.path.dirname(os.path.abspath(__file__))
+    #print(type(dir_path))
+    with open(dir_path+'/resource/KFN_lus.json','r') as f:
         kolus = json.load(f)
-    with open('./resource/KFN_annotations.json','r') as f:
+    with open(dir_path+'/resource/KFN_annotations.json','r') as f:
         annos = json.load(f)
-    with open('./resource/KFN_annotations_from_sejong.json','r') as f:
+    with open(dir_path+'/resource/KFN_annotations_from_sejong.json','r') as f:
         s_annos = json.load(f)
     return kolus,annos,s_annos
 
@@ -81,3 +85,15 @@ def annotation(lu_id):
             pass
     return result
 
+def surface_to_lu_ids(surface, frame):
+    spc = ['\,','.','!','?']
+    if len(surface) >1:
+        if surface[-1] in spc:
+            surface = re.sub('[,.?!]','',surface)
+    result = []
+    for i in kolus:
+        if frame == i['frameName']:
+            if surface in i['surface_forms']:
+                result.append(i['lu_id'])
+    result = list(set(result))
+    return result
