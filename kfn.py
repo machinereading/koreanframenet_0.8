@@ -85,15 +85,41 @@ def annotation(lu_id):
             pass
     return result
 
-def surface_to_lu_ids(surface, frame):
-    spc = ['\,','.','!','?']
-    if len(surface) >1:
-        if surface[-1] in spc:
-            surface = re.sub('[,.?!]','',surface)
+def surface_to_lu_id(surface, frame):
+#    spc = ['\,','.','!','?']
+#    if len(surface) >1:
+#        if surface[-1] in spc:
+#            surface = re.sub('[,.?!]','',surface)
     result = []
     for i in kolus:
         if frame == i['frameName']:
             if surface in i['surface_forms']:
                 result.append(i['lu_id'])
     result = list(set(result))
-    return result
+    ds = []
+    for i in result:
+        lu_info = lu(i)
+        p = lu_info['lu'].split('.')[1]
+        n = len(lu_info['ko_annotation_id'])
+        d = (i, p, n)
+        ds.append(d)
+    if len(ds) > 0:
+        luid = ds[0]
+        for i in ds:
+            if i[1] == 'v':
+                luid = i
+        for i in ds:
+            if luid[1] == 'v':
+                if i[1] == 'v':
+                    if i[2] > luid[2]:
+                        luid = i
+                    else:
+                        pass
+                else:
+                    pass
+            else:
+                if i[2] > luid[2]:
+                    luid = i
+    else:
+        luid = False
+    return luid
