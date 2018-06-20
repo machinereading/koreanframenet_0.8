@@ -122,4 +122,4 @@ def surface_to_lu_id(surface, frame):
                     luid = i
     else:
         luid = False
-    return luid
+    return luid[0]
