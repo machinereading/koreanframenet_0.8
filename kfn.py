@@ -34,17 +34,24 @@ def lus_by_lemma(lemma):
     lu_list = []
     for i in kolus:
         if lemma == i['lexeme']: #only matching with lexeme
-            d = {}
-            d['lu_id'] = i['lu_id']
-            d['lu'] = i['lu']
-            lu_list.append(d)
-    if len(lu_list) == 0:
-        for i in kolus:
-            if lemma in i['lu']:
-                d = {}
-                d['lu_id'] = i['lu_id']
-                d['lu'] = i['lu']
-                lu_list.append(d)
+            lu = i['lu']
+            lu_list.append(lu)
+#    if len(lu_list) == 0:
+#        for i in kolus:
+#            if lemma in i['lu']:
+#                d = {}
+#                d['lu_id'] = i['lu_id']
+#                d['lu'] = i['lu']
+#                lu_list.append(d)
+    return lu_list
+
+def lus_by_surfaceform(surfaceform):
+    lu_id = False
+    lu_list = []
+    for i in kolus:
+        if surfaceform in i['surface_forms']:
+            lu = i['lu']
+            lu_list.append(lu)
     return lu_list
 
 def lu(lu_id):
