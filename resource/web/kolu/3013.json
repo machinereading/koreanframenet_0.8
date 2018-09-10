@@ -1,52 +1,101 @@
 {
-    "frameName": "Relational_quantity",
+    "ko_pos": "v",
+    "ko_lu": "자라다.v.Change_position_on_a_scale",
+    "frameID": 91,
+    "frameName": "Change_position_on_a_scale",
+    "en_lus": [
+        "grow"
+    ],
+    "lu_id": 3013,
     "patterns": [
         {
-            "valenceText": "annotation id: 9836",
+            "valenceText": "annotation id: 1300",
             "examples": [
                 {
-                    "frameName": "Relational_quantity",
+                    "origin_lus": [
+                        "grow"
+                    ],
+                    "ko_annotation_id": 1300,
+                    "annotation_id": 2718,
+                    "frameName": "Change_position_on_a_scale",
                     "denotations": [
                         {
-                            "obj": "individuals",
+                            "id": 1,
+                            "obj": "Change_position_on_a_scale",
                             "span": {
-                                "begin": 14,
-                                "end": 27
+                                "begin": 28,
+                                "end": 31
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "자라기"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 46,
-                                "end": 48
+                                "begin": 5,
+                                "end": 11
                             },
-                            "id": "1"
+                            "text": "도시국가들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 22
+                            },
+                            "text": "남부 그리스 본토의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Attribute",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "text": "영향으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "over"
-                    ],
-                    "ko_annotation_id": 9836,
-                    "text": "거의 8백만 명의 인구와 1,095 평방 킬로미터 ( 423 평방 마일 ) 가 갓 넘는 총면적으로, 주택은 홍콩의 지속되는 악몽 중 하나이다.",
-                    "sent_id": 869,
+                    "sent_id": 515,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4501
+                    "lu": "자라다.v.Change_position_on_a_scale",
+                    "text": "동시에, 도시국가들이 남부 그리스 본토의 영향으로 자라기 시작하였다."
                 }
             ]
         }
-    ],
-    "frameID": 2427,
-    "ko_pos": "VV",
-    "ko_lu": "넘다.v.Relational_quantity",
-    "lu_id": 3013,
-    "en_lus": [
-        "over"
     ]
 }

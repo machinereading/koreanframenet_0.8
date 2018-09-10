@@ -1,52 +1,137 @@
 {
-    "frameName": "Locale_by_use",
+    "ko_pos": "n",
+    "ko_lu": "가공.n.Processing_materials",
+    "frameID": 620,
+    "frameName": "Processing_materials",
+    "en_lus": [
+        "reprocess",
+        "processing"
+    ],
+    "lu_id": 2751,
     "patterns": [
         {
-            "valenceText": "annotation id: 8998",
+            "valenceText": "annotation id: 6099",
             "examples": [
                 {
-                    "frameName": "Locale_by_use",
+                    "origin_lus": [
+                        "processing"
+                    ],
+                    "ko_annotation_id": 6099,
+                    "annotation_id": 11023,
+                    "frameName": "Processing_materials",
                     "denotations": [
                         {
-                            "obj": "container_possessor",
+                            "id": 1,
+                            "obj": "Processing_materials",
                             "span": {
-                                "begin": 0,
-                                "end": 8
+                                "begin": 38,
+                                "end": 41
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "가공,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Material",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 11
+                                "begin": 8,
+                                "end": 10
                             },
-                            "id": "1"
+                            "text": "재료",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 33
+                            },
+                            "text": "생물학적 환경에서 사용하기 위한",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "downtown"
-                    ],
-                    "ko_annotation_id": 8998,
-                    "text": "Berkeley 시내의 Hustead 's Towing Service에서 가스 탱크가 폭발해서 타고 있는 것을 제외하고는 여기에 있는 것들은 대체로 평온하다.",
-                    "sent_id": 118,
+                    "sent_id": 2210,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 725
+                    "lu": "가공.n.Processing_materials",
+                    "text": "AKU의 생체 재료 실험실은 생물학적 환경에서 사용하기 위한 합성, 가공, 그리고 재료 변경 분야의 연구를 발전시키는 가장 큰 대학 실험실이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7071",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "reprocessing"
+                    ],
+                    "ko_annotation_id": 7071,
+                    "annotation_id": 12854,
+                    "frameName": "Processing_materials",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Processing_materials",
+                            "span": {
+                                "begin": 10,
+                                "end": 16
+                            },
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "재 가공이나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Material",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "우라늄",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2569,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가공.n.Processing_materials",
+                    "text": "Shah는 우라늄 재 가공이나 농축 연구에 관여할 특정 계획이 없었지만, 이란 원자력 기구의 새롭게 장비를 갖춘 테헤란 핵연구센터의 과학자들은 전해지는 바에 의하면 행한 실험의 본질 및 방향과 관련하여 대단한 재량권이 부여되었다."
                 }
             ]
         }
-    ],
-    "frameID": 196,
-    "ko_pos": "NNG",
-    "ko_lu": "시내.n.Locale_by_use",
-    "lu_id": 2751,
-    "en_lus": [
-        "downtown"
     ]
 }

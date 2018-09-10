@@ -1,73 +1,135 @@
 {
-    "frameName": "Resolve_problem",
+    "ko_pos": "v",
+    "ko_lu": "기여하다.v.Giving",
+    "frameID": 139,
+    "frameName": "Giving",
+    "en_lus": [
+        "contribute"
+    ],
+    "lu_id": 3568,
     "patterns": [
         {
-            "valenceText": "annotation id: 12149",
+            "valenceText": "annotation id: 1329",
             "examples": [
                 {
-                    "frameName": "Resolve_problem",
+                    "origin_lus": [
+                        "contributed"
+                    ],
+                    "ko_annotation_id": 1329,
+                    "annotation_id": 2778,
+                    "frameName": "Giving",
                     "denotations": [
                         {
-                            "obj": "Agent",
+                            "id": 1,
+                            "obj": "Giving",
                             "span": {
-                                "begin": 40,
+                                "begin": 48,
+                                "end": 54
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "기여하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Donor",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 36
+                            },
+                            "text": "Paros와 Andros는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Recipient",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 37,
                                 "end": 47
-                            }
-                        },
-                        {
-                            "obj": "Means",
-                            "span": {
-                                "begin": 48,
-                                "end": 51
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 48,
-                                "end": 51
-                            }
+                            },
+                            "text": "페르시아의 무기고에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kaiketu .解決 "
+                    "sent_id": 528,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12149,
-                    "text": "내가 분석한 결과, 해결방법은 이것이라고 생각합니다」라고 말하는 편이, 손님이 스스로 해결책을 찾도록 하는 것보다 아마도 쉬울 것으로 생각한다.",
-                    "sent_id": 3984,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "기여하다.v.Giving",
+                    "text": "다른 공동체들이 아테네를 지원하는 동안 Paros와 Andros는 페르시아의 무기고에 기여하였다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.15204",
+            "valenceText": "annotation id: 12840",
             "examples": [
                 {
-                    "frameName": "Resolve_problem",
+                    "origin_lus": [
+                        "contributing"
+                    ],
+                    "ko_annotation_id": 12840,
+                    "annotation_id": 2279,
+                    "frameName": "Giving",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Giving",
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 102,
+                                "end": 106
                             },
-                            "id": "1"
+                            "token_span": [
+                                25
+                            ],
+                            "role": "TARGET",
+                            "text": "기여하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                23,
+                                24
+                            ],
+                            "span": {
+                                "begin": 93,
+                                "end": 101
+                            },
+                            "text": "그의 지역사회에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "이번 사건의 해결책은 주변 인물들에게서 찾도록 하시오.",
-                    "target": "해결책",
-                    "ko_annotation_id": "sejong.15204",
-                    "relations": []
+                    "sent_id": 434,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기여하다.v.Giving",
+                    "text": "플라스틱 사출 성형 제조업체에서 유망한 새로운 일자리를 갖게 되고, 그의 법적 문제들을 관리하고, 안전한 살 곳을 가지게 되어, Jerry는 자신을 위한 삶을 세우고 그의 지역사회에 기여하는 일을 할 수 있게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 1523,
-    "ko_pos": "NN",
-    "ko_lu": "해결책.n.Resolve_problem",
-    "lu_id": 3568,
-    "en_lus": [
-        "kaiketu .解決 "
     ]
 }

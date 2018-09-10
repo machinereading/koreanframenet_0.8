@@ -1,44 +1,84 @@
 {
-    "frameName": "Emotion_directed",
+    "ko_pos": "n",
+    "ko_lu": "단장.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "head"
+    ],
+    "lu_id": 2328,
     "patterns": [
         {
-            "valenceText": "annotation id: 7536",
+            "valenceText": "annotation id: 15617",
             "examples": [
                 {
-                    "frameName": "Emotion_directed",
+                    "origin_lus": [
+                        "head"
+                    ],
+                    "ko_annotation_id": 15617,
+                    "annotation_id": 16229,
+                    "frameName": "Leadership",
                     "denotations": [
                         {
-                            "obj": "Expressor",
+                            "id": 1,
+                            "obj": "Leadership",
                             "span": {
-                                "begin": 12,
-                                "end": 15
-                            }
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "단장"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Governed",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 10
-                            }
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "이라크 조사 단장",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Leader",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 26
+                            },
+                            "text": "Charles Duelfer는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "piripiri .ぴりぴり"
+                    "sent_id": 3109,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7536,
-                    "text": "받자마자, 신경질적인 목소리로, 「다카시냐？」라고 물었다.",
-                    "sent_id": 4604,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "단장.n.Leadership",
+                    "text": "이라크 조사 단장 Charles Duelfer는 이라크 내의 대량 파괴 무기에 대한 그의 조사를 철저히 하였다."
                 }
             ]
         }
-    ],
-    "frameID": 46,
-    "ko_pos": "NN",
-    "ko_lu": "신경질적.n.Emotion_directed",
-    "lu_id": 2328,
-    "en_lus": [
-        "piripiri .ぴりぴり"
     ]
 }

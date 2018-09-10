@@ -1,38 +1,100 @@
 {
-    "frameName": "Temporal_subregion",
+    "ko_pos": "n",
+    "ko_lu": "지도.n.Education_teaching",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "en_lus": [
+        "sidoo .指導 "
+    ],
+    "lu_id": 1718,
     "patterns": [
         {
-            "valenceText": "annotation id: 5368",
+            "valenceText": "annotation id: 16773",
             "examples": [
                 {
-                    "frameName": "Temporal_subregion",
+                    "origin_lus": [
+                        "sidoo .指導 "
+                    ],
+                    "ko_annotation_id": 16773,
+                    "annotation_id": 0,
+                    "frameName": "Education_teaching",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Education_teaching",
                             "span": {
-                                "begin": 20,
-                                "end": 23
+                                "begin": 36,
+                                "end": 43
                             },
-                            "id": "1"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "독서지도법이,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Student",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "그런 아이들에게도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Subject",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 43
+                            },
+                            "text": "독서지도법이,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Teacher",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "text": "저희가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "turn"
+                    "sent_id": 4934,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5368,
-                    "text": "Kowloon의 중심가는 19세기의 전환기에 홍콩 주지사였던 Mattew Nathan 경에 의해 만들어졌다.",
-                    "sent_id": 1175,
-                    "relations": [],
-                    "annotation_id": 6152
+                    "lu": "지도.n.Education_teaching",
+                    "text": "그런 아이들에게도 이야기의 재미를 알게 하는 오락적 요소를 지닌 독서지도법이, 저희가 제창한 독서 아니마시온입니다."
                 }
             ]
         }
-    ],
-    "frameID": 1470,
-    "ko_pos": "NNG",
-    "ko_lu": "전환기.n.Temporal_subregion",
-    "lu_id": 1718,
-    "en_lus": [
-        "turn"
     ]
 }

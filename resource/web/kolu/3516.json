@@ -1,38 +1,82 @@
 {
-    "frameName": "Military",
+    "ko_pos": "n",
+    "ko_lu": "가동.n.Using",
+    "frameID": 1141,
+    "frameName": "Using",
+    "en_lus": [
+        "operation"
+    ],
+    "lu_id": 3516,
     "patterns": [
         {
-            "valenceText": "annotation id: 11999",
+            "valenceText": "annotation id: 7848",
             "examples": [
                 {
-                    "frameName": "Military",
+                    "origin_lus": [
+                        "operation"
+                    ],
+                    "ko_annotation_id": 7848,
+                    "annotation_id": 14273,
+                    "frameName": "Using",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Using",
                             "span": {
-                                "begin": 73,
-                                "end": 76
+                                "begin": 119,
+                                "end": 122
                             },
-                            "id": "1"
+                            "token_span": [
+                                27
+                            ],
+                            "role": "TARGET",
+                            "text": "가동을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                22
+                            ],
+                            "span": {
+                                "begin": 100,
+                                "end": 103
+                            },
+                            "text": "북한이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Instrument",
+                            "token_span": [
+                                25,
+                                26
+                            ],
+                            "span": {
+                                "begin": 112,
+                                "end": 118
+                            },
+                            "text": "대규모 공장",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "military"
+                    "sent_id": 2814,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 11999,
-                    "text": "러시아는 735에서 1,365 미터톤 ( t )  사이의 무기급에 상당하는 고농축 우라늄 ( HEU ) 과 106에서 156 톤의 군사용 플루토늄을 가지고 있다고 추정된다.",
-                    "sent_id": 2989,
-                    "relations": [],
-                    "annotation_id": 15393
+                    "lu": "가동.n.Using",
+                    "text": "2003년 4월, 이집트 세관 관리들은 100-200 개의 가스 원심분리기의 파일럿 캐스케이드에 사용된 것으로 보이는 독일산 22 톤의 알미늄 배관을 도중에서 빼앗았는데, 이것은 북한이 아마도 아직은 대규모 공장 가동을 시작하지 않았음을 시사한다."
                 }
             ]
         }
-    ],
-    "frameID": 1514,
-    "ko_pos": "NN",
-    "ko_lu": "군사용.n.Military",
-    "lu_id": 3516,
-    "en_lus": [
-        "military"
     ]
 }

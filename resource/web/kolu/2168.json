@@ -1,58 +1,64 @@
 {
-    "frameName": "Departing",
+    "ko_pos": "n",
+    "ko_lu": "백만.n.Quantity",
+    "frameID": 2604,
+    "frameName": "Quantity",
+    "en_lus": [
+        "million"
+    ],
+    "lu_id": 2168,
     "patterns": [
         {
-            "valenceText": "annotation id: 7070",
+            "valenceText": "annotation id: 5472",
             "examples": [
                 {
-                    "frameName": "Departing",
+                    "origin_lus": [
+                        "millions"
+                    ],
+                    "ko_annotation_id": 5472,
+                    "annotation_id": 9938,
+                    "frameName": "Quantity",
                     "denotations": [
                         {
-                            "obj": "Time",
+                            "id": 1,
+                            "obj": "Quantity",
                             "span": {
-                                "begin": 0,
-                                "end": 7
-                            }
+                                "begin": 22,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "수 백만명의"
                         },
                         {
-                            "obj": "Goal",
+                            "id": 2,
+                            "obj": "Individuals",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 18
-                            }
-                        },
-                        {
-                            "obj": "Theme",
-                            "span": {
-                                "begin": 19,
-                                "end": 22
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 24,
-                                "end": 25
-                            }
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "text": "미국인을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "deru .出る "
+                    "sent_id": 2037,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7070,
-                    "text": "낮 열두 시경에 가와고에로 향하는 나룻배가 뜨는데, 거기에 시즈가 타고 있다는 기별이 왔기 때문이다.",
-                    "sent_id": 4376,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "백만.n.Quantity",
+                    "text": "화학 생물무기는 단지 5 명을 죽였지만 수 백만명의 미국인을 놀라게 한 2001년의 탄저병 편지 공격이 암시한 것처럼, 재래식 폭발물보다 더 큰 심리적 영향을 가질 수 있다."
                 }
             ]
         }
-    ],
-    "frameID": 57,
-    "ko_pos": "VA",
-    "ko_lu": "뜨다.a.Departing",
-    "lu_id": 2168,
-    "en_lus": [
-        "deru .出る "
     ]
 }

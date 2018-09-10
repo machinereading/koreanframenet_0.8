@@ -1,58 +1,65 @@
 {
-    "frameName": "Fining",
+    "ko_pos": "n",
+    "ko_lu": "완전.n.Process_completed_state",
+    "frameID": 234,
+    "frameName": "Process_completed_state",
+    "en_lus": [
+        "complete"
+    ],
+    "lu_id": 4331,
     "patterns": [
         {
-            "valenceText": "annotation id: 14924",
+            "valenceText": "annotation id: 7333",
             "examples": [
                 {
-                    "frameName": "Fining",
+                    "origin_lus": [
+                        "complete"
+                    ],
+                    "ko_annotation_id": 7333,
+                    "annotation_id": 13304,
+                    "frameName": "Process_completed_state",
                     "denotations": [
                         {
-                            "obj": "Payer",
+                            "id": 1,
+                            "obj": "Process_completed_state",
                             "span": {
-                                "begin": 27,
-                                "end": 34
-                            }
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "완전"
                         },
                         {
-                            "obj": "Speaker",
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 50,
-                                "end": 60
-                            }
-                        },
-                        {
-                            "obj": "Reason",
-                            "span": {
-                                "begin": 62,
-                                "end": 64
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 64,
-                                "end": 66
-                            }
+                                "begin": 28,
+                                "end": 36
+                            },
+                            "text": "핵 연료 주기를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "baisyoo .賠償"
+                    "sent_id": 2655,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14924,
-                    "text": "출산 후, 다카코는 마사오와의 이별을 결심하고, 마사오를 상대로 「마이카라의 인지청구」와 「다카코와 마이카라의 손해배상청구(이른바 위자료.)」의 두 가지 소송을 제기했다.",
-                    "sent_id": 4249,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "완전.n.Process_completed_state",
+                    "text": "이중 두 곳인 연구 및 연료 생산은 이란에서 완전 핵 연료 주기를 개발하는데 필수적이다."
                 }
             ]
         }
-    ],
-    "frameID": 223,
-    "ko_pos": "NNG",
-    "ko_lu": "배상.n.Fining",
-    "lu_id": 4331,
-    "en_lus": [
-        "baisyoo .賠償"
     ]
 }

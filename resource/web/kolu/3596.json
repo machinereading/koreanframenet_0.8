@@ -1,44 +1,136 @@
 {
-    "frameName": "Wearing",
+    "ko_pos": "n",
+    "ko_lu": "총리.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "Premier",
+        "Prime Minister"
+    ],
+    "lu_id": 3596,
     "patterns": [
         {
-            "valenceText": "annotation id: 12290",
+            "valenceText": "annotation id: 13708",
             "examples": [
                 {
-                    "frameName": "Wearing",
+                    "origin_lus": [
+                        "Premier",
+                        "Prime Minister"
+                    ],
+                    "ko_annotation_id": 13708,
+                    "annotation_id": 6870,
+                    "frameName": "Leadership",
                     "denotations": [
                         {
-                            "obj": "Clothing",
+                            "id": 1,
+                            "obj": "Leadership",
                             "span": {
-                                "begin": 20,
-                                "end": 22
-                            }
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "총리는"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Governed",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 22
-                            }
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "text": "중국",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kasoo .仮装 "
+                    "sent_id": 1418,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12290,
-                    "text": "큼직한 인형을 실은 수레, 음악대, 가장행렬 등 수많은 공연가가 프로므나드 데 장글레라 불리는 해안 길을 따라 행진하고, 세계 곳곳에서 모여든 사람들은 죽 가로와 세로로 구획된 관객석에서 성대한 박수를 보낼 것이다.",
-                    "sent_id": 3749,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "총리.n.Leadership",
+                    "text": "QN : 중국 총리는 항의가 도쿄로 하여금 유엔 안전보장이사회 가입 신청에 대해 심각히 고려하도록 할 것이라고 말하였는가 ?"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13715",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Premier",
+                        "Prime Minister"
+                    ],
+                    "ko_annotation_id": 13715,
+                    "annotation_id": 6881,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "총리는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Governed",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "이스라엘의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Leader",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "text": "아리엘 샤론",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1424,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "총리.n.Leadership",
+                    "text": "이스라엘의 아리엘 샤론 총리는 부시 대통령에게 이란에 핵 프로그램의 모든 요소를 포기하도록 더 많은 압력을 가하도록 촉구하였다."
                 }
             ]
         }
-    ],
-    "frameID": 160,
-    "ko_pos": "NNG",
-    "ko_lu": "가장.n.Wearing",
-    "lu_id": 3596,
-    "en_lus": [
-        "kasoo .仮装 "
     ]
 }

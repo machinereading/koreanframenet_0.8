@@ -1,60 +1,63 @@
 {
-    "frameName": "Difficulty",
+    "ko_pos": "n",
+    "ko_lu": "알선자.n.People_by_vocation",
+    "frameID": 1071,
+    "frameName": "People_by_vocation",
+    "en_lus": [
+        "syookai sya .紹介 者 "
+    ],
+    "lu_id": 5381,
     "patterns": [
         {
-            "valenceText": "annotation id: 19008",
+            "valenceText": "annotation id: 11771",
             "examples": [
                 {
-                    "frameName": "Difficulty",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 19,
-                                "end": 23
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "challenges"
+                        "syookai sya .紹介 者 "
                     ],
-                    "ko_annotation_id": 19008,
-                    "text": "라스 베이거스의 최근 사업 추정은 어려움들을 예상한다 ; 관광 수입은 이미 건축된 것을 유지하기 위해 상당히 증가해야 하는 반면에 실제 수치는 방문이 변함 없거나 감소하는 것으로 나타난다.",
-                    "sent_id": 847,
-                    "relations": [],
-                    "annotation_id": 4396
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.43966",
-            "examples": [
-                {
-                    "frameName": "Difficulty",
+                    "ko_annotation_id": 11771,
+                    "annotation_id": 0,
+                    "frameName": "People_by_vocation",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "People_by_vocation",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 71,
+                                "end": 75
                             },
-                            "id": "1"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "알선자인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 76,
+                                "end": 79
+                            },
+                            "text": "지인을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "어려움을 극복한 사람만이 성공한다.",
-                    "target": "어려움",
-                    "ko_annotation_id": "sejong.43966",
-                    "relations": []
+                    "sent_id": 4609,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "알선자.n.People_by_vocation",
+                    "text": "3평 남짓한 방이라고는 해도 단독주택인 그 셋집은 처음부터 이번에야말로 기대해도 좋을 만한 이야기였으나, 그때도 미무라 혼자만 알선자인 지인을 따라 방을 보러 갔다."
                 }
             ]
         }
-    ],
-    "frameID": 375,
-    "ko_pos": "NN",
-    "ko_lu": "어려움.n.Difficulty",
-    "lu_id": 5381,
-    "en_lus": [
-        "challenge"
     ]
 }

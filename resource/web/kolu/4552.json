@@ -1,44 +1,99 @@
 {
-    "frameName": "Bringing",
+    "ko_pos": "v",
+    "ko_lu": "관통하다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "roll"
+    ],
+    "lu_id": 4552,
     "patterns": [
         {
-            "valenceText": "annotation id: 15790",
+            "valenceText": "annotation id: 12549",
             "examples": [
                 {
-                    "frameName": "Bringing",
+                    "origin_lus": [
+                        "rolled"
+                    ],
+                    "ko_annotation_id": 12549,
+                    "annotation_id": 836,
+                    "frameName": "Motion",
                     "denotations": [
                         {
-                            "obj": "Theme",
+                            "id": 1,
+                            "obj": "Motion",
                             "span": {
-                                "begin": 10,
-                                "end": 12
-                            }
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "관통하였을"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "지진이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "읍내를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
                                 "begin": 14,
-                                "end": 16
-                            }
+                                "end": 15
+                            },
+                            "text": "때",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "dasu .出す"
+                    "sent_id": 147,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15790,
-                    "text": "포켓몬스터 카드 「목사를 내놔라!!」 전화를 받자마자 욕설이 퍼부어졌다.",
-                    "sent_id": 4324,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "관통하다.v.Motion",
+                    "text": "지진이 읍내를 관통하였을 때 나는 Stinson 해변에 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 240,
-    "ko_pos": "VV",
-    "ko_lu": "내놓다.v.Bringing",
-    "lu_id": 4552,
-    "en_lus": [
-        "dasu .出す"
     ]
 }

@@ -1,52 +1,81 @@
 {
-    "frameName": "Locale_by_use",
+    "ko_pos": "n",
+    "ko_lu": "비.n.Precipitation",
+    "frameID": 314,
+    "frameName": "Precipitation",
+    "en_lus": [
+        "rain"
+    ],
+    "lu_id": 5046,
     "patterns": [
         {
-            "valenceText": "annotation id: 17714",
+            "valenceText": "annotation id: 13363",
             "examples": [
                 {
-                    "frameName": "Locale_by_use",
+                    "origin_lus": [
+                        "rain"
+                    ],
+                    "ko_annotation_id": 13363,
+                    "annotation_id": 5056,
+                    "frameName": "Precipitation",
                     "denotations": [
                         {
-                            "obj": "descriptor",
+                            "id": 1,
+                            "obj": "Precipitation",
                             "span": {
-                                "begin": 111,
-                                "end": 117
+                                "begin": 15,
+                                "end": 17
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "비를"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Frequency",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 113,
-                                "end": 117
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "1"
+                            "text": "언제나",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "더블린에서는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sites"
-                    ],
-                    "ko_annotation_id": 17714,
-                    "text": "화학무기는 더 큰 구경의 포로 투하하기에 가장 적합하기 때문에, 과거 20년에 걸쳐서 북한은 장거리 240 밀리미터 다연장로켓포와 179 밀리미터 곡사포 수를 더 증가시켰고 모두 비무장 지대 인근의 갱도방어진지에 위치시켰다.",
-                    "sent_id": 2769,
+                    "sent_id": 972,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 14000
+                    "lu": "비.n.Precipitation",
+                    "text": "언제나 더블린에서는 당신은 비를 맞지 않을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 196,
-    "ko_pos": "NNG",
-    "ko_lu": "방어진지.n.Locale_by_use",
-    "lu_id": 5046,
-    "en_lus": [
-        "site"
     ]
 }

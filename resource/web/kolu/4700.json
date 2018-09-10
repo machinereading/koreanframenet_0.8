@@ -1,52 +1,105 @@
 {
-    "frameName": "Judgment_communication",
+    "ko_pos": "v",
+    "ko_lu": "기록되다.v.Recording",
+    "frameID": 1615,
+    "frameName": "Recording",
+    "en_lus": [
+        "chronicle"
+    ],
+    "lu_id": 4700,
     "patterns": [
         {
-            "valenceText": "annotation id: 16473",
+            "valenceText": "annotation id: 1276",
             "examples": [
                 {
-                    "frameName": "Judgment_communication",
+                    "origin_lus": [
+                        "chronicled"
+                    ],
+                    "ko_annotation_id": 1276,
+                    "annotation_id": 2693,
+                    "frameName": "Recording",
                     "denotations": [
                         {
-                            "obj": "evaluee",
+                            "id": 1,
+                            "obj": "Recording",
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 68,
+                                "end": 74
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "기록되었다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 27
+                                "begin": 4,
+                                "end": 16
                             },
-                            "id": "1"
+                            "text": "광범위한 군사 캠페인은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Medium",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 41
+                            },
+                            "text": "Homer의 서사시인 오디세이와 일리아드에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Agent",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 51
+                            },
+                            "text": "Homer에 의해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Praise"
-                    ],
-                    "ko_annotation_id": 16473,
-                    "text": "믿은 자에게 안전을 제공하라고 말한 알라를 찬양하고 우리 선지자에게 평안이 있을지어다.",
-                    "sent_id": 1546,
+                    "sent_id": 511,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 7490
+                    "lu": "기록되다.v.Recording",
+                    "text": "그들의 광범위한 군사 캠페인은 Homer의 서사시인 오디세이와 일리아드에서 Homer에 의해 나중에 그에 의해 연대순으로 기록되었다."
                 }
             ]
         }
-    ],
-    "frameID": 219,
-    "ko_pos": "VV",
-    "ko_lu": "찬양하다.v.Judgment_communication",
-    "lu_id": 4700,
-    "en_lus": [
-        "Praise"
     ]
 }

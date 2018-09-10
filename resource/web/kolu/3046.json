@@ -1,88 +1,214 @@
 {
-    "frameName": "Perception_body",
+    "ko_pos": "n",
+    "ko_lu": "소송.n.Trial",
+    "frameID": 201,
+    "frameName": "Trial",
+    "en_lus": [
+        "case",
+        "sosyoo .訴訟 ",
+        "trial"
+    ],
+    "lu_id": 3046,
     "patterns": [
         {
-            "valenceText": "annotation id: 10153",
+            "valenceText": "annotation id: 1175",
             "examples": [
                 {
-                    "frameName": "Perception_body",
+                    "origin_lus": [
+                        "sosyoo .訴訟 ",
+                        "case",
+                        "trial"
+                    ],
+                    "ko_annotation_id": 1175,
+                    "annotation_id": 2523,
+                    "frameName": "Trial",
                     "denotations": [
                         {
-                            "obj": "Degree",
+                            "id": 1,
+                            "obj": "Trial",
                             "span": {
-                                "begin": 5,
-                                "end": 7
-                            }
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "소송이"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Defendant",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 11
-                            }
+                                "begin": 17,
+                                "end": 27
+                            },
+                            "text": "Microsoft의",
+                            "role": "ARGUMENT"
                         }
                     ],
+                    "sent_id": 480,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "소송.n.Trial",
+                    "text": "내가 앉아 있는 곳에서, 나는 Microsoft의 소송이 컴퓨터 시대와 디지털 시대 사이의 정말로 분명한 전환점이었다고 생각한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9858",
+            "examples": [
+                {
                     "origin_lus": [
-                        "itami .痛み "
+                        "sosyoo .訴訟 ",
+                        "case",
+                        "trial"
                     ],
-                    "ko_annotation_id": 10153,
-                    "text": "움직이면 가벼운 통증이 밀려온다.",
-                    "sent_id": 4402,
+                    "ko_annotation_id": 9858,
+                    "annotation_id": 18276,
+                    "frameName": "Trial",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Trial",
+                            "span": {
+                                "begin": 52,
+                                "end": 56
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "소송에서"
+                        }
+                    ],
+                    "sent_id": 3475,
                     "relations": [],
-                    "annotation_id": 0
+                    "lu": "소송.n.Trial",
+                    "text": "프랑스는 Karun에 두 기의 가압수형 원자로를 건설하기로 한 계약의 위반으로 이란에 제소한 소송에서 패하였다 ( 6930 )."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.1359",
+            "valenceText": "annotation id: 11219",
             "examples": [
                 {
-                    "frameName": "Perception_body",
+                    "origin_lus": [
+                        "sosyoo .訴訟 ",
+                        "case",
+                        "trial"
+                    ],
+                    "ko_annotation_id": 11219,
+                    "annotation_id": 0,
+                    "frameName": "Trial",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Trial",
                             "span": {
-                                "begin": 11,
-                                "end": 13
+                                "begin": 86,
+                                "end": 89
                             },
-                            "id": "1"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "소송을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Defendant",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 35
+                            },
+                            "text": "마사오를 상대로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Case",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 89
+                            },
+                            "text": "인지청구」와 「다카코와 마이카라의 손해배상청구(이른바 위자료.)」의 두 가지 소송을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "나는 약을 먹었어도 통증이 가라앉지 않았다.",
-                    "target": "통증",
-                    "ko_annotation_id": "sejong.1359",
-                    "relations": []
+                    "sent_id": 4249,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "소송.n.Trial",
+                    "text": "출산 후, 다카코는 마사오와의 이별을 결심하고, 마사오를 상대로 「마이카라의 인지청구」와 「다카코와 마이카라의 손해배상청구(이른바 위자료.)」의 두 가지 소송을 제기했다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.1360",
+            "valenceText": "annotation id: 12888",
             "examples": [
                 {
-                    "frameName": "Perception_body",
+                    "origin_lus": [
+                        "sosyoo .訴訟 ",
+                        "case",
+                        "trial"
+                    ],
+                    "ko_annotation_id": 12888,
+                    "annotation_id": 2491,
+                    "frameName": "Trial",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Trial",
                             "span": {
-                                "begin": 13,
-                                "end": 15
+                                "begin": 3,
+                                "end": 6
                             },
-                            "id": "1"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "소송에"
                         }
                     ],
-                    "text": "그는 허리 부분에 심한 통증을 느꼈다.",
-                    "target": "통증",
-                    "ko_annotation_id": "sejong.1360",
-                    "relations": []
+                    "sent_id": 475,
+                    "relations": [],
+                    "lu": "소송.n.Trial",
+                    "text": "내가 소송에 참석하지는 않았지만, 나는 당신의 상당히 즐겁고 유익한 공문을 읽을 수 있는 행운이 있었는데, 그들 중 몇 개는 내가 먹던 점심을 뱉으며 웃도록 만들었다. 확실히 Bill Gates의 이미지가 큰  손상을 입은 듯 했고 Microsoft의 편협한 문화가 그리 좋아보이지 않아 보였다."
                 }
             ]
         }
-    ],
-    "frameID": 68,
-    "ko_pos": "NNG",
-    "ko_lu": "통증.n.Perception_body",
-    "lu_id": 3046,
-    "en_lus": [
-        "itami .痛み "
     ]
 }

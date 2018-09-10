@@ -1,52 +1,176 @@
 {
-    "frameName": "Trust",
+    "ko_pos": "n",
+    "ko_lu": "품목.n.Entity",
+    "frameID": 251,
+    "frameName": "Entity",
+    "en_lus": [
+        "item"
+    ],
+    "lu_id": 2437,
     "patterns": [
         {
-            "valenceText": "annotation id: 7985",
+            "valenceText": "annotation id: 3937",
             "examples": [
                 {
-                    "frameName": "Trust",
+                    "origin_lus": [
+                        "items"
+                    ],
+                    "ko_annotation_id": 3937,
+                    "annotation_id": 7322,
+                    "frameName": "Entity",
                     "denotations": [
                         {
-                            "obj": "information",
+                            "id": 1,
+                            "obj": "Entity",
                             "span": {
-                                "begin": 0,
-                                "end": 20
+                                "begin": 27,
+                                "end": 30
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "품목을"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 22,
-                                "end": 27
+                                "begin": 12,
+                                "end": 54
                             },
-                            "id": "1"
+                            "text": "본래 인도주의적으로 보이는 품목을 구매하지 않고 무기 제조에 사용될 수 있는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "believed"
-                    ],
-                    "ko_annotation_id": 7985,
-                    "text": "북한 탈주자들의 공식적인 보고와 증언이 믿을만 하다면, 북한 군은 2,500에서 5,000 톤의 화학무기를 보유하고 있다.",
-                    "sent_id": 2732,
+                    "sent_id": 1523,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 13752
+                    "lu": "품목.n.Entity",
+                    "text": "미국 정부는 이라크는 본래 인도주의적으로 보이는 품목을 구매하지 않고 무기 제조에 사용될 수 있는 품목을 구매하고 있는 것을 확인하기 원한다고 말했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 5721",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "items"
+                    ],
+                    "ko_annotation_id": 5721,
+                    "annotation_id": 10307,
+                    "frameName": "Entity",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Entity",
+                            "span": {
+                                "begin": 40,
+                                "end": 43
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "품목을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Constituent_Parts",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "text": "화학무기",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2100,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "품목.n.Entity",
+                    "text": "중국의 탄도 미사일 기술의 확산과 화학무기 생산에 사용될 수 있는 화학 품목을 통제할 능력에 대해 심각하게 염려스럽다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 5814",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "items"
+                    ],
+                    "ko_annotation_id": 5814,
+                    "annotation_id": 10446,
+                    "frameName": "Entity",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Entity",
+                            "span": {
+                                "begin": 116,
+                                "end": 119
+                            },
+                            "token_span": [
+                                27
+                            ],
+                            "role": "TARGET",
+                            "text": "품목을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                25,
+                                26
+                            ],
+                            "span": {
+                                "begin": 108,
+                                "end": 115
+                            },
+                            "text": "생물무기 관련",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2112,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "품목.n.Entity",
+                    "text": "중국은 지속적으로 생물 및 독소 무기 금지조약을 준수하겠다고 공개적으로 선언하였지만, 과거 미국 정부 보고서는 중국이 소규모의 공격용 생물무기 프로그램을 가지고 있을 뿐만 아니라, 또한 통제된 생물무기 관련 품목을 이란과 같은 확산 우려가 있는 국가들에 이전하였다고 추정하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1731,
-    "ko_pos": "VA",
-    "ko_lu": "하다.a.Trust",
-    "lu_id": 2437,
-    "en_lus": [
-        "believe"
     ]
 }

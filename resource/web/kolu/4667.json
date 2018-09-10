@@ -1,60 +1,63 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "n",
+    "ko_lu": "온실.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "greenhouse"
+    ],
+    "lu_id": 4667,
     "patterns": [
         {
-            "valenceText": "annotation id: 16278",
+            "valenceText": "annotation id: 2903",
             "examples": [
                 {
-                    "frameName": "Leadership",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 16,
-                                "end": 18
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "Senate"
+                        "greenhouse"
                     ],
-                    "ko_annotation_id": 16278,
-                    "text": "Stephanopoulos는 상원에 출마하기를 원하고 클린턴의 들러리로 보이는 것을 원하지 않는다.",
-                    "sent_id": 1013,
-                    "relations": [],
-                    "annotation_id": 5319
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.34241",
-            "examples": [
-                {
-                    "frameName": "Leadership",
+                    "ko_annotation_id": 2903,
+                    "annotation_id": 5572,
+                    "frameName": "Buildings",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Buildings",
                             "span": {
-                                "begin": 9,
-                                "end": 11
+                                "begin": 69,
+                                "end": 72
                             },
-                            "id": "1"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "온실을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                19
+                            ],
+                            "span": {
+                                "begin": 66,
+                                "end": 68
+                            },
+                            "text": "대형",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 삼십 대에 상원에 진출했다.",
-                    "target": "상원",
-                    "ko_annotation_id": "sejong.34241",
-                    "relations": []
+                    "sent_id": 1065,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "온실.n.Buildings",
+                    "text": "그 공원의 10.5 헥타르 ( 25 에이크 ) 의 조경된 공원과 호수는 많은 종의 식물과 다양한 이국적인 새들이 있는 대형 온실을 가지고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "NNG",
-    "ko_lu": "상원.n.Leadership",
-    "lu_id": 4667,
-    "en_lus": [
-        "Senate"
     ]
 }

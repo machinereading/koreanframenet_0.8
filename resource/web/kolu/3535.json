@@ -1,109 +1,87 @@
 {
-    "frameName": "Dispersal",
+    "ko_pos": "v",
+    "ko_lu": "취하하다.v.Removing",
+    "frameID": 63,
+    "frameName": "Removing",
+    "en_lus": [
+        "take"
+    ],
+    "lu_id": 3535,
     "patterns": [
         {
-            "valenceText": "annotation id: 12045",
+            "valenceText": "annotation id: 7248",
             "examples": [
                 {
-                    "frameName": "Dispersal",
+                    "origin_lus": [
+                        "taken"
+                    ],
+                    "ko_annotation_id": 7248,
+                    "annotation_id": 13096,
+                    "frameName": "Removing",
                     "denotations": [
                         {
-                            "obj": "goal_area",
+                            "id": 1,
+                            "obj": "Removing",
                             "span": {
-                                "begin": 42,
-                                "end": 50
+                                "begin": 45,
+                                "end": 49
                             },
-                            "id": "2"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "공장에서"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 52,
-                                "end": 56
+                                "begin": 21,
+                                "end": 44
                             },
-                            "id": "1"
+                            "text": "Natanz에 있는 Pilot  연료 농축",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "individuals",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 57,
-                                "end": 65
+                                "begin": 50,
+                                "end": 55
                             },
-                            "id": "3"
+                            "text": "취한 환경",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "distributed"
-                    ],
-                    "ko_annotation_id": 12045,
-                    "text": "또한, 서방의 많은 시설처럼, 이란이 주도하는 생명공학 연구와 개발 시설은 이란과 전 세계에 공급되는 값진 백신 제품을 만든다.",
-                    "sent_id": 2202,
+                    "sent_id": 2611,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10991
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.50550",
-            "examples": [
-                {
-                    "frameName": "Dispersal",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 29,
-                                "end": 33
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "사람이 살 수 있는 것보다 훨씬 많은 물건이 시장에 공급되게 되면서 물건이 잘 팔리지 않게 된 것이다.",
-                    "target": "공급되게",
-                    "ko_annotation_id": "sejong.50550",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.50551",
-            "examples": [
-                {
-                    "frameName": "Dispersal",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 9,
-                                "end": 15
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "전기가 풍부하게 공급되어야만 공장이 돌아갈 수 있다.",
-                    "target": "공급되어야만",
-                    "ko_annotation_id": "sejong.50551",
-                    "relations": []
+                    "lu": "취하하다.v.Removing",
+                    "text": "2003년 6월 IAEA 조사 동안, Natanz에 있는 Pilot  연료 농축 공장에서 취한 환경 샘플은 고농축 우라늄 ( HEU ) 의 실재를 드러냈다."
                 }
             ]
         }
-    ],
-    "frameID": 267,
-    "ko_pos": "VV",
-    "ko_lu": "공급되다.v.Dispersal",
-    "lu_id": 3535,
-    "en_lus": [
-        "distribute"
     ]
 }

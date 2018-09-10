@@ -1,51 +1,107 @@
 {
-    "frameName": "Political_locales",
+    "ko_pos": "v",
+    "ko_lu": "관여하다.v.Arriving",
+    "frameID": 54,
+    "frameName": "Arriving",
+    "en_lus": [
+        "hairu .入る "
+    ],
+    "lu_id": 3408,
     "patterns": [
         {
-            "valenceText": "annotation id: 11593",
+            "valenceText": "annotation id: 10621",
             "examples": [
                 {
-                    "frameName": "Political_locales",
+                    "origin_lus": [
+                        "hairu .入る "
+                    ],
+                    "ko_annotation_id": 10621,
+                    "annotation_id": 0,
+                    "frameName": "Arriving",
                     "denotations": [
                         {
-                            "obj": "Name",
+                            "id": 1,
+                            "obj": "Arriving",
+                            "span": {
+                                "begin": 45,
+                                "end": 49
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "관여하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
-                            }
+                                "end": 7
+                            },
+                            "text": "나와 동거인은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Locale",
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 3,
-                                "end": 6
-                            }
+                                "begin": 8,
+                                "end": 32
+                            },
+                            "text": "파는 사람과 만드는 사람으로 확실히 나뉘어,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 3,
-                                "end": 6
-                            }
+                                "begin": 33,
+                                "end": 44
+                            },
+                            "text": "서로 상대방의 영역에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kuni .国 "
+                    "sent_id": 3892,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 11593,
-                    "text": "야마토노구니 안에는 물이 풍족하지 않은 마을이 꽤 많았다.",
-                    "sent_id": 3581,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "관여하다.v.Arriving",
+                    "text": "나와 동거인은 파는 사람과 만드는 사람으로 확실히 나뉘어, 서로 상대방의 영역에 관여하지 않게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 195,
-    "ko_pos": "NNG",
-    "ko_lu": "노구니.n.Political_locales",
-    "lu_id": 3408,
-    "en_lus": [
-        "kuni .国 "
     ]
 }

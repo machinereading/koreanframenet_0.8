@@ -1,60 +1,88 @@
 {
-    "frameName": "Calendric_unit",
+    "ko_pos": "v",
+    "ko_lu": "교전하다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "engage"
+    ],
+    "lu_id": 4591,
     "patterns": [
         {
-            "valenceText": "annotation id: 15903",
+            "valenceText": "annotation id: 4297",
             "examples": [
                 {
-                    "frameName": "Calendric_unit",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 48,
-                                "end": 54
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "rush hour"
+                        "engage"
                     ],
-                    "ko_annotation_id": 15903,
-                    "text": "새로운 건설이 도처에서 이루어지고, 거리는 부산하고, 교통은 점점 혼잡해지고, 그리고 출퇴근 시간의 열광적인 속도로 더블린의 모든 사람은 다른 모든 사람과 자리를 바꾸는데 여념이 없는 것처럼 보인다.",
-                    "sent_id": 947,
-                    "relations": [],
-                    "annotation_id": 4918
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.66190",
-            "examples": [
-                {
-                    "frameName": "Calendric_unit",
+                    "ko_annotation_id": 4297,
+                    "annotation_id": 7847,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 15,
-                                "end": 21
+                                "begin": 24,
+                                "end": 28
                             },
-                            "obj": "target"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "교전하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 44
+                            },
+                            "text": "인접 지역에 접근하는 사람들과 교전하고 감시자들의 업무를 지원한다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "아내는 나를 우리 집 차로 출퇴근시켰다.",
-                    "target": "출퇴근시켰다",
-                    "ko_annotation_id": "sejong.66190",
-                    "relations": []
+                    "sent_id": 1610,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "교전하다.v.Intentionally_act",
+                    "text": "그들은 또한 인접 지역에 접근하는 사람들과 교전하고 감시자들의 업무를 지원한다."
                 }
             ]
         }
-    ],
-    "frameID": 229,
-    "ko_pos": "VV",
-    "ko_lu": "출퇴근시키다.v.Calendric_unit",
-    "lu_id": 4591,
-    "en_lus": [
-        "rush hour"
     ]
 }

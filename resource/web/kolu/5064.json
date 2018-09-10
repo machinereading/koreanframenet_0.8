@@ -1,81 +1,110 @@
 {
-    "frameName": "Building_subparts",
+    "ko_pos": "v",
+    "ko_lu": "동원하다.v.Using",
+    "frameID": 1141,
+    "frameName": "Using",
+    "en_lus": [
+        "dooin .動員 "
+    ],
+    "lu_id": 5064,
     "patterns": [
         {
-            "valenceText": "annotation id: 17826",
+            "valenceText": "annotation id: 11760",
             "examples": [
                 {
-                    "frameName": "Building_subparts",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 0,
-                                "end": 5
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "erebeetaa .エレベーター "
+                        "dooin .動員 "
                     ],
-                    "ko_annotation_id": 17826,
-                    "text": "엘리베이터 안에서 노는 아이.",
-                    "sent_id": 4204,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.37365",
-            "examples": [
-                {
-                    "frameName": "Building_subparts",
+                    "ko_annotation_id": 11760,
+                    "annotation_id": 0,
+                    "frameName": "Using",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Using",
                             "span": {
-                                "begin": 8,
-                                "end": 13
+                                "begin": 54,
+                                "end": 58
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "사람들은 서로 엘리베이터를 타려고 했다.",
-                    "target": "엘리베이터",
-                    "ko_annotation_id": "sejong.37365",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.37366",
-            "examples": [
-                {
-                    "frameName": "Building_subparts",
-                    "denotations": [
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "동원하여"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 5
+                                "end": 6
                             },
-                            "id": "1"
+                            "text": "자기 회사가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 46
+                            },
+                            "text": "어떤 산업 분야에서 세계를 상대로 이길 수 있을지를 정확히 꿰뚫어보고,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Instrument",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 53
+                            },
+                            "text": "모든 자원을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "엘리베이터가 고장이 나서 사람들은 계단을 이용했다",
-                    "target": "엘리베이터",
-                    "ko_annotation_id": "sejong.37366",
-                    "relations": []
+                    "sent_id": 4607,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "동원하다.v.Using",
+                    "text": "자기 회사가 어떤 산업 분야에서 세계를 상대로 이길 수 있을지를 정확히 꿰뚫어보고, 모든 자원을 동원하여 제대로 된 산업 기술을 창출하여, 전 세계적인 판매・관리망을 구축하도록 손을 쓴 곳만이 살아남을 수 있다는 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 188,
-    "ko_pos": "NNG",
-    "ko_lu": "엘리베이터.n.Building_subparts",
-    "lu_id": 5064,
-    "en_lus": [
-        "erebeetaa .エレベーター "
     ]
 }

@@ -1,52 +1,101 @@
 {
-    "frameName": "Dimension",
+    "ko_pos": "v",
+    "ko_lu": "부딪히다.v.Compatibility",
+    "frameID": 360,
+    "frameName": "Compatibility",
+    "en_lus": [
+        "butukaru .ぶつかる"
+    ],
+    "lu_id": 4750,
     "patterns": [
         {
-            "valenceText": "annotation id: 16685",
+            "valenceText": "annotation id: 16509",
             "examples": [
                 {
-                    "frameName": "Dimension",
+                    "origin_lus": [
+                        "butukaru .ぶつかる"
+                    ],
+                    "ko_annotation_id": 16509,
+                    "annotation_id": 0,
+                    "frameName": "Compatibility",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Compatibility",
                             "span": {
-                                "begin": 4,
-                                "end": 7
+                                "begin": 54,
+                                "end": 58
                             },
-                            "id": "1"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "부딪히는"
                         },
                         {
-                            "obj": "object",
+                            "id": 2,
+                            "obj": "Item_1",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 11
+                                "begin": 3,
+                                "end": 16
                             },
-                            "id": "2"
+                            "text": "마이크로소프트와 오라클은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item_2",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 45,
+                                "end": 53
+                            },
+                            "text": "우리 시스코와는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Parameter",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 59,
+                                "end": 62
+                            },
+                            "text": "분야가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "grand"
-                    ],
-                    "ko_annotation_id": 16685,
-                    "text": "도시의 웅장한 대로인 O ' Connell Street는 Parnell Square의 북쪽으로 이르게 한다.",
-                    "sent_id": 968,
+                    "sent_id": 4455,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5042
+                    "lu": "부딪히다.v.Compatibility",
+                    "text": "가령 마이크로소프트와 오라클은 모두 애플리케이션 기업으로, 경쟁 관계에 있으나, 우리 시스코와는 부딪히는 분야가 없으므로, 시스코 쪽에서 보면, 둘 다 에코시스템을 구축할 수 있는 파트너이다."
                 }
             ]
         }
-    ],
-    "frameID": 108,
-    "ko_pos": "VA",
-    "ko_lu": "웅장하다.a.Dimension",
-    "lu_id": 4750,
-    "en_lus": [
-        "grand"
     ]
 }

@@ -1,95 +1,98 @@
 {
-    "frameName": "Board_vehicle",
+    "ko_pos": "n",
+    "ko_lu": "곳.n.Locative_relation",
+    "frameID": 199,
+    "frameName": "Locative_relation",
+    "en_lus": [
+        "where",
+        "here"
+    ],
+    "lu_id": 105,
     "patterns": [
         {
-            "valenceText": "annotation id: 298",
+            "valenceText": "annotation id: 1171",
             "examples": [
                 {
-                    "frameName": "Board_vehicle",
-                    "denotations": [
-                        {
-                            "obj": "Traveller",
-                            "span": {
-                                "begin": 26,
-                                "end": 28
-                            }
-                        },
-                        {
-                            "obj": "Vehicle",
-                            "span": {
-                                "begin": 56,
-                                "end": 57
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 59,
-                                "end": 62
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "norikomu .乗り込む "
+                        "here",
+                        "where"
                     ],
-                    "ko_annotation_id": 298,
-                    "text": "내가, 병원까지 데려다주겠다고 하자, 처음에, 그녀는 사양했으나, 무척 아팠던지, 몇 번인가 권하자 차에 올라탔다.",
-                    "sent_id": 3617,
+                    "ko_annotation_id": 1171,
+                    "annotation_id": 2521,
+                    "frameName": "Locative_relation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Locative_relation",
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "곳에서,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Figure",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 480,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "곳.n.Locative_relation",
+                    "text": "내가 앉아 있는 곳에서, 나는 Microsoft의 소송이 컴퓨터 시대와 디지털 시대 사이의 정말로 분명한 전환점이었다고 생각한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 2639",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "here",
+                        "where"
+                    ],
+                    "ko_annotation_id": 2639,
+                    "annotation_id": 5159,
+                    "frameName": "Locative_relation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Locative_relation",
+                            "span": {
+                                "begin": 32,
+                                "end": 33
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "곳"
+                        }
+                    ],
+                    "sent_id": 984,
                     "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.46295",
-            "examples": [
-                {
-                    "frameName": "Board_vehicle",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 11,
-                                "end": 15
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "우리는 모두 버스에 올라탔다.",
-                    "target": "올라탔다",
-                    "ko_annotation_id": "sejong.46295",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.46296",
-            "examples": [
-                {
-                    "frameName": "Board_vehicle",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 6,
-                                "end": 10
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "앞 자리로 올라타라.",
-                    "target": "올라타라",
-                    "ko_annotation_id": "sejong.46296",
-                    "relations": []
+                    "lu": "곳.n.Locative_relation",
+                    "text": "그리고 다국적 체인점들이 잠식해 들어왔지만, 그들은 다른 곳 보다 덜 심하게 눈에 뛰는 것 같다."
                 }
             ]
         }
-    ],
-    "frameID": 1633,
-    "ko_pos": "VV",
-    "ko_lu": "올라타다.v.Board_vehicle",
-    "lu_id": 105,
-    "en_lus": [
-        "norikomu .乗り込む "
     ]
 }

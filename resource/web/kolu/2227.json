@@ -1,38 +1,114 @@
 {
-    "frameName": "Simple_name",
+    "ko_pos": "v",
+    "ko_lu": "맞추다.v.Assistance",
+    "frameID": 391,
+    "frameName": "Assistance",
+    "en_lus": [
+        "catering"
+    ],
+    "lu_id": 2227,
     "patterns": [
         {
-            "valenceText": "annotation id: 7254",
+            "valenceText": "annotation id: 2183",
             "examples": [
                 {
-                    "frameName": "Simple_name",
+                    "origin_lus": [
+                        "catering"
+                    ],
+                    "ko_annotation_id": 2183,
+                    "annotation_id": 4376,
+                    "frameName": "Assistance",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Assistance",
                             "span": {
-                                "begin": 24,
-                                "end": 26
+                                "begin": 108,
+                                "end": 111
                             },
-                            "id": "1"
+                            "token_span": [
+                                23
+                            ],
+                            "role": "TARGET",
+                            "text": "맞추고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Helper",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 76
+                            },
+                            "text": "소수의 리조트 -- South-Seas를 테마로 한 Mandalay Bay, Mirage, 그리고 새로운 Four Seasons",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 86,
+                                "end": 89
+                            },
+                            "text": "오로지",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Benefited_Party",
+                            "token_span": [
+                                18,
+                                19,
+                                20,
+                                21
+                            ],
+                            "span": {
+                                "begin": 90,
+                                "end": 103
+                            },
+                            "text": "호화 여행 시장의 구미에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "words"
+                    "sent_id": 842,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7254,
-                    "text": "흥미롭고, 신비롭고, 매력이 넘치는 - 이 말들은 최소한 1세기 동안 홍콩을 묘사해 왔다.",
-                    "sent_id": 852,
-                    "relations": [],
-                    "annotation_id": 4415
+                    "lu": "맞추다.v.Assistance",
+                    "text": "게다가, 소수의 리조트 -- South-Seas를 테마로 한 Mandalay Bay, Mirage, 그리고 새로운 Four Seasons -- 들은 현재 오로지 호화 여행 시장의 구미에 오로지 맞추고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1260,
-    "ko_pos": "NN",
-    "ko_lu": "말들.n.Simple_name",
-    "lu_id": 2227,
-    "en_lus": [
-        "word"
     ]
 }

@@ -1,65 +1,105 @@
 {
-    "frameName": "Placing",
+    "ko_pos": "n",
+    "ko_lu": "걱정.n.Emotion_active",
+    "frameID": 45,
+    "frameName": "Emotion_active",
+    "en_lus": [
+        "worry"
+    ],
+    "lu_id": 360,
     "patterns": [
         {
-            "valenceText": "annotation id: 921",
+            "valenceText": "annotation id: 2444",
             "examples": [
                 {
-                    "frameName": "Placing",
+                    "origin_lus": [
+                        "worry"
+                    ],
+                    "ko_annotation_id": 2444,
+                    "annotation_id": 4797,
+                    "frameName": "Emotion_active",
                     "denotations": [
                         {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Emotion_active",
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 15,
+                                "end": 18
                             },
-                            "id": "3"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "걱정을"
                         },
                         {
-                            "obj": "theme",
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 19
+                                "begin": 19,
+                                "end": 21
                             },
-                            "id": "2"
+                            "text": "적게",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 23
+                                "begin": 39,
+                                "end": 42
                             },
-                            "id": "1"
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Topic",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 66
+                            },
+                            "text": "다음 몇 분에 무슨 일이 일어날지에 관해서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "positioning"
-                    ],
-                    "ko_annotation_id": 921,
-                    "text": "이란으로서는, 이란이 기관의 카메라를 배치 못하게 하였다는 것을 오늘 부인하였으나, 명확하게 카메라 위치를 거론하지 않았다.",
-                    "sent_id": 3279,
+                    "sent_id": 927,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17467
+                    "lu": "걱정.n.Emotion_active",
+                    "text": "자마이카인들은 미래에 대한 걱정을 적게 하는 것처럼 보인다 ; 때때로 그들은 다음 몇 분에 무슨 일이 일어날지에 관해서 조차 걱정을 적게 하는 것 같다."
                 }
             ]
         }
-    ],
-    "frameID": 62,
-    "ko_pos": "NNG",
-    "ko_lu": "배치.n.Placing",
-    "lu_id": 360,
-    "en_lus": [
-        "position"
     ]
 }

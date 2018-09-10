@@ -1,51 +1,129 @@
 {
-    "frameName": "Halt",
+    "ko_pos": "v",
+    "ko_lu": "잡아당기다.v.Manipulation",
+    "frameID": 17,
+    "frameName": "Manipulation",
+    "en_lus": [
+        "pull"
+    ],
+    "lu_id": 745,
     "patterns": [
         {
-            "valenceText": "annotation id: 2291",
+            "valenceText": "annotation id: 81",
             "examples": [
                 {
-                    "frameName": "Halt",
+                    "origin_lus": [
+                        "pull"
+                    ],
+                    "ko_annotation_id": 81,
+                    "annotation_id": 106,
+                    "frameName": "Manipulation",
                     "denotations": [
                         {
+                            "id": 1,
+                            "obj": "Manipulation",
+                            "span": {
+                                "begin": 69,
+                                "end": 75
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "잡아당긴다."
+                        },
+                        {
+                            "id": 2,
                             "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 4
-                            }
+                                "end": 6
+                            },
+                            "text": "종탑에서는,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Theme",
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 10
-                            }
+                                "begin": 7,
+                                "end": 16
+                            },
+                            "text": "다섯 명의 남녀가",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 4,
+                            "obj": "Entity",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 15
-                            }
+                                "begin": 17,
+                                "end": 60
+                            },
+                            "text": "처음으로 1614년에 이곳에서 울렸던 동일한 다섯 개의 종들에 매달린 밧줄들을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Manner",
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 61,
+                                "end": 68
+                            },
+                            "text": "가락에 맞추어",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tomaru .止まる"
+                    "sent_id": 15,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2291,
-                    "text": "바로 앞에 북두칠성이 머물러 있다.",
-                    "sent_id": 4089,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "잡아당기다.v.Manipulation",
+                    "text": "종탑에서는, 다섯 명의 남녀가 처음으로 1614년에 이곳에서 울렸던 동일한 다섯 개의 종들에 매달린 밧줄들을 가락에 맞추어 잡아당긴다."
                 }
             ]
         }
-    ],
-    "frameID": 1024,
-    "ko_pos": "VV",
-    "ko_lu": "머무르다.v.Halt",
-    "lu_id": 745,
-    "en_lus": [
-        "tomaru .止まる"
     ]
 }

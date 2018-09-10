@@ -1,44 +1,86 @@
 {
-    "frameName": "Grasp",
+    "ko_pos": "v",
+    "ko_lu": "스치다.v.Fluidic_motion",
+    "frameID": 345,
+    "frameName": "Fluidic_motion",
+    "en_lus": [
+        "nagareru .流れる "
+    ],
+    "lu_id": 946,
     "patterns": [
         {
-            "valenceText": "annotation id: 2785",
+            "valenceText": "annotation id: 12272",
             "examples": [
                 {
-                    "frameName": "Grasp",
+                    "origin_lus": [
+                        "nagareru .流れる "
+                    ],
+                    "ko_annotation_id": 12272,
+                    "annotation_id": 0,
+                    "frameName": "Fluidic_motion",
                     "denotations": [
                         {
-                            "obj": "Cognizer",
+                            "id": 1,
+                            "obj": "Fluidic_motion",
                             "span": {
-                                "begin": 43,
-                                "end": 47
-                            }
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "스쳐"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Fluid",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 48,
-                                "end": 51
-                            }
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "20여 년 전과 달라지지 않는 풍경이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "창밖을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "rikai .理解 "
+                    "sent_id": 4931,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2785,
-                    "text": "하지만, 경도 발달 장애 자체에 대한 이해가 충분하지 못한 현장의 경우에는, 전체적인 이해력 향상을 위해 워크숍이나 세미나 등을 여는 것부터 시작할 필요가 있습니다.",
-                    "sent_id": 4994,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "스치다.v.Fluidic_motion",
+                    "text": "20여 년 전과 달라지지 않는 풍경이 창밖을 스쳐 지나간다."
                 }
             ]
         }
-    ],
-    "frameID": 979,
-    "ko_pos": "NN",
-    "ko_lu": "이해력.n.Grasp",
-    "lu_id": 946,
-    "en_lus": [
-        "rikai .理解 "
     ]
 }

@@ -1,78 +1,207 @@
 {
-    "frameName": "Have_associated",
+    "ko_pos": "v",
+    "ko_lu": "얻다.v.Earnings_and_losses",
+    "frameID": 1873,
+    "frameName": "Earnings_and_losses",
+    "en_lus": [
+        "earn"
+    ],
+    "lu_id": 1884,
     "patterns": [
         {
-            "valenceText": "annotation id: 5920",
+            "valenceText": "annotation id: 12750",
             "examples": [
                 {
-                    "frameName": "Have_associated",
+                    "origin_lus": [
+                        "earned"
+                    ],
+                    "ko_annotation_id": 12750,
+                    "annotation_id": 1900,
+                    "frameName": "Earnings_and_losses",
                     "denotations": [
                         {
-                            "obj": "circumstances",
+                            "id": 1,
+                            "obj": "Earnings_and_losses",
+                            "span": {
+                                "begin": 63,
+                                "end": 67
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "얻었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 14
+                                "end": 11
                             },
-                            "id": "4"
+                            "text": "일생동안의 시도 후,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "topical_entity",
+                            "id": 3,
+                            "obj": "Earner",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 26
+                                "begin": 12,
+                                "end": 18
                             },
-                            "id": "2"
+                            "text": "Donna는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "entity",
+                            "id": 4,
+                            "obj": "Place",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 62,
-                                "end": 84
+                                "begin": 19,
+                                "end": 29
                             },
-                            "id": "3"
+                            "text": "Goodwill에서",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 5,
+                            "obj": "Earnings",
+                            "token_span": [
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 86,
-                                "end": 90
+                                "begin": 30,
+                                "end": 38
                             },
-                            "id": "1"
+                            "text": "그녀의 GED를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "have"
-                    ],
-                    "ko_annotation_id": 5920,
-                    "text": "이러한 가정을 견지할 경우, 의회 경선 투표자들은 소위 경제이론에서 죄수의 딜레마라 불리는 것에 직면하게 되고 한계적으로, 민주당에 기대게 하는 유인책을 갖게 된다.",
-                    "sent_id": 271,
+                    "sent_id": 352,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1477
+                    "lu": "얻다.v.Earnings_and_losses",
+                    "text": "일생동안의 시도 후, Donna는 Goodwill에서 그녀의 GED를 얻었을 뿐만 아니라 그녀는 여기서 일자리도 얻었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12751",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "earned"
+                    ],
+                    "ko_annotation_id": 12751,
+                    "annotation_id": 1900,
+                    "frameName": "Earnings_and_losses",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Earnings_and_losses",
+                            "span": {
+                                "begin": 63,
+                                "end": 67
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "얻었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Earner",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 53
+                            },
+                            "text": "그녀는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 57
+                            },
+                            "text": "여기서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Earnings",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 58,
+                                "end": 62
+                            },
+                            "text": "일자리도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 352,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "얻다.v.Earnings_and_losses",
+                    "text": "일생동안의 시도 후, Donna는 Goodwill에서 그녀의 GED를 얻었을 뿐만 아니라 그녀는 여기서 일자리도 얻었다."
                 }
             ]
         }
-    ],
-    "frameID": 1933,
-    "ko_pos": "VV",
-    "ko_lu": "갖다.v.Have_associated",
-    "lu_id": 1884,
-    "en_lus": [
-        "have"
     ]
 }

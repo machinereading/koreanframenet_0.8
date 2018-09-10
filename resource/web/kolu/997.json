@@ -1,60 +1,106 @@
 {
-    "frameName": "Using",
+    "ko_pos": "v",
+    "ko_lu": "시작하다.v.Process_continue",
+    "frameID": 145,
+    "frameName": "Process_continue",
+    "en_lus": [
+        "continued"
+    ],
+    "lu_id": 997,
     "patterns": [
         {
-            "valenceText": "annotation id: 3141",
+            "valenceText": "annotation id: 1477",
             "examples": [
                 {
-                    "frameName": "Using",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 16,
-                                "end": 19
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "applications"
+                        "continued"
                     ],
-                    "ko_annotation_id": 3141,
-                    "text": "대부분의 프로그램은 의학 및 농업용으로 이용하기 위한 동위 원소의 연구와 생산과 관련된 것이었다.",
-                    "sent_id": 3060,
-                    "relations": [],
-                    "annotation_id": 15922
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.34402",
-            "examples": [
-                {
-                    "frameName": "Using",
+                    "ko_annotation_id": 1477,
+                    "annotation_id": 3081,
+                    "frameName": "Process_continue",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Process_continue",
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 60,
+                                "end": 66
                             },
-                            "id": "1"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "시작하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Concessive",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 22
+                            },
+                            "text": "비록 이러한 시도가 성공적이지 않았지만,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 38
+                            },
+                            "text": "그리스 국가를 위한 캠페인은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Duration",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 44
+                            },
+                            "text": "19세기에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "우리 회사는 농업용으로 쓰는 기구를 전문적으로 생산하는 업체이다.",
-                    "target": "농업용",
-                    "ko_annotation_id": "sejong.34402",
-                    "relations": []
+                    "sent_id": 581,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_continue",
+                    "text": "비록 이러한 시도가 성공적이지 않았지만, 그리스 국가를 위한 캠페인은 19세기에 계속되었고 세력이 증가하기 시작하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1141,
-    "ko_pos": "NN",
-    "ko_lu": "농업용.n.Using",
-    "lu_id": 997,
-    "en_lus": [
-        "application"
     ]
 }

@@ -1,95 +1,114 @@
 {
-    "frameName": "Candidness",
+    "ko_pos": "n",
+    "ko_lu": "택시.n.Vehicle",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "en_lus": [
+        "takusii .タクシー"
+    ],
+    "lu_id": 4873,
     "patterns": [
         {
-            "valenceText": "annotation id: 17029",
+            "valenceText": "annotation id: 11430",
             "examples": [
                 {
-                    "frameName": "Candidness",
-                    "denotations": [
-                        {
-                            "obj": "Speaker",
-                            "span": {
-                                "begin": 52,
-                                "end": 54
-                            }
-                        },
-                        {
-                            "obj": "Topic",
-                            "span": {
-                                "begin": 59,
-                                "end": 63
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 56,
-                                "end": 58
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "hontoo .本当 "
+                        "takusii .タクシー"
                     ],
-                    "ko_annotation_id": 17029,
-                    "text": "가와고에로 돌아가는 것은 당연한 일이나, 헤이시치로의 마음 속에 여전히 응어리져 있는 것은, 시즈의 진짜 속마음이었다.",
-                    "sent_id": 5001,
-                    "relations": [],
-                    "annotation_id": 0
+                    "ko_annotation_id": 11430,
+                    "annotation_id": 0,
+                    "frameName": "Vehicle",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Vehicle",
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "택시는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "택시는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4379,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "택시.n.Vehicle",
+                    "text": "신호 직전에서 택시는 정지한다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.4432",
+            "valenceText": "annotation id: 16420",
             "examples": [
                 {
-                    "frameName": "Candidness",
+                    "origin_lus": [
+                        "takusii .タクシー"
+                    ],
+                    "ko_annotation_id": 16420,
+                    "annotation_id": 0,
+                    "frameName": "Vehicle",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Vehicle",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 9,
+                                "end": 12
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "위조지폐가 너무 정교해서 진짜인지 아닌지 분간이 안된다.",
-                    "target": "진짜",
-                    "ko_annotation_id": "sejong.4432",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.4433",
-            "examples": [
-                {
-                    "frameName": "Candidness",
-                    "denotations": [
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "택시는"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 9,
+                                "end": 12
                             },
-                            "id": "1"
+                            "text": "택시는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "진짜와 가짜를 구별해 낼 수 있겠느냐?",
-                    "target": "진짜",
-                    "ko_annotation_id": "sejong.4433",
-                    "relations": []
+                    "sent_id": 4258,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "택시.n.Vehicle",
+                    "text": "말과는 정반대로 택시는 이츠카이치카이도에 들어섰다."
                 }
             ]
         }
-    ],
-    "frameID": 32,
-    "ko_pos": "NNG",
-    "ko_lu": "진짜.n.Candidness",
-    "lu_id": 4873,
-    "en_lus": [
-        "hontoo .本当 "
     ]
 }

@@ -1,109 +1,145 @@
 {
-    "frameName": "Dispersal",
+    "ko_pos": "v",
+    "ko_lu": "중단되다.v.Activity_stop",
+    "frameID": 166,
+    "frameName": "Activity_stop",
+    "en_lus": [
+        "stop",
+        "halt"
+    ],
+    "lu_id": 4229,
     "patterns": [
         {
-            "valenceText": "annotation id: 14525",
+            "valenceText": "annotation id: 4633",
             "examples": [
                 {
-                    "frameName": "Test35",
-                    "denotations": [
-                        {
-                            "obj": "time",
-                            "span": {
-                                "begin": 0,
-                                "end": 5
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 7,
-                                "end": 12
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "competitor",
-                            "span": {
-                                "begin": 11,
-                                "end": 15
-                            },
-                            "id": "2"
-                        }
-                    ],
                     "origin_lus": [
-                        "prevailed"
+                        "halted",
+                        "stopped"
                     ],
-                    "ko_annotation_id": 14525,
-                    "text": "20년 전에 만연하였던 수준에서 3 R을 마스터하지 않고 초등학교를 졸업하는 것은 어떤 학생들에게도 허용되어서는 안된다.",
-                    "sent_id": 246,
-                    "relations": [
+                    "ko_annotation_id": 4633,
+                    "annotation_id": 8445,
+                    "frameName": "Activity_stop",
+                    "denotations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "id": 1,
+                            "obj": "Activity_stop",
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "중단되고"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 1334
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.93875",
-            "examples": [
-                {
-                    "frameName": "Dispersal",
-                    "denotations": [
-                        {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 17,
-                                "end": 20
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "알 수 없는 질병이 그 지역에 만연해 있었다.",
-                    "target": "만연해",
-                    "ko_annotation_id": "sejong.93875",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.93876",
-            "examples": [
-                {
-                    "frameName": "Dispersal",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 15,
+                                "begin": 13,
                                 "end": 18
                             },
-                            "obj": "target"
+                            "text": "이 조사는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "물질만능 풍조가 이 사회에 만연해 있다.",
-                    "target": "만연해",
-                    "ko_annotation_id": "sejong.93876",
-                    "relations": []
+                    "sent_id": 1732,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "중단되다.v.Activity_stop",
+                    "text": "Harry_Reed : 이 조사는 매 단계마다 위로부터 중단되고 방해 받았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7419",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "halted",
+                        "stopped"
+                    ],
+                    "ko_annotation_id": 7419,
+                    "annotation_id": 13485,
+                    "frameName": "Activity_stop",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_stop",
+                            "span": {
+                                "begin": 53,
+                                "end": 59
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "중단되었고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 43
+                            },
+                            "text": "소비에트 연방이 화학무기금지협정과 관련된 협상에 관여하게된 이후인 1987년에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 44,
+                                "end": 52
+                            },
+                            "text": "그 공장 건설은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2691,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "중단되다.v.Activity_stop",
+                    "text": "소비에트 연방이 화학무기금지협정과 관련된 협상에 관여하게된 이후인 1987년에 그 공장 건설은 중단되었고, 그래서 공장은 어떤 화학무기 작용제도 생산하지 않았다."
                 }
             ]
         }
-    ],
-    "frameID": 267,
-    "ko_pos": "VA",
-    "ko_lu": "만연하다.a.Dispersal",
-    "lu_id": 4229,
-    "en_lus": [
-        "prevail"
     ]
 }

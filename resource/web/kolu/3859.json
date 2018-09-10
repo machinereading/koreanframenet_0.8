@@ -1,74 +1,66 @@
 {
-    "frameName": "Social_interaction_evaluation",
+    "ko_pos": "n",
+    "ko_lu": "신고.n.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "declaration"
+    ],
+    "lu_id": 3859,
     "patterns": [
         {
-            "valenceText": "annotation id: 13189",
+            "valenceText": "annotation id: 14919",
             "examples": [
                 {
-                    "frameName": "Social_interaction_evaluation",
+                    "origin_lus": [
+                        "declaration"
+                    ],
+                    "ko_annotation_id": 14919,
+                    "annotation_id": 13109,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 83,
+                                "end": 87
                             },
-                            "id": "1"
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "신고서를"
                         },
                         {
-                            "obj": "behavior",
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 61,
+                                "end": 72
                             },
-                            "id": "2"
+                            "text": "핵 물질과 핵 활동의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "friendly"
-                    ],
-                    "ko_annotation_id": 13189,
-                    "text": "당신이 친구들 사이의 담소를 우연히 듣게 될 때 알아챌지 모르나 그들은 서로와의 교제에서 매우 직선적이다.",
-                    "sent_id": 920,
+                    "sent_id": 2613,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4754
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.12280",
-            "examples": [
-                {
-                    "frameName": "Social_interaction_evaluation",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "그들은 담소를 나누며 식사를 했다.",
-                    "target": "담소",
-                    "ko_annotation_id": "sejong.12280",
-                    "relations": []
+                    "lu": "신고.n.Statement",
+                    "text": "IAEA 운영 위원회는 미처리된 모든 문제들을 해결하고 특히 이란의 농축 프로그램과 과거 전환 실험을 비롯한 핵 물질과 핵 활동의 전체적이고 완전한 신고서를 제공하도록  2003년 10월 31일 마감일을 이란에 강요하였다."
                 }
             ]
         }
-    ],
-    "frameID": 372,
-    "ko_pos": "NNG",
-    "ko_lu": "담소.n.Social_interaction_evaluation",
-    "lu_id": 3859,
-    "en_lus": [
-        "friendly"
     ]
 }

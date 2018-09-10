@@ -1,65 +1,64 @@
 {
-    "frameName": "Temporal_collocation",
+    "ko_pos": "n",
+    "ko_lu": "밤중.n.Temporal_subregion",
+    "frameID": 1470,
+    "frameName": "Temporal_subregion",
+    "en_lus": [
+        "middle"
+    ],
+    "lu_id": 326,
     "patterns": [
         {
-            "valenceText": "annotation id: 867",
+            "valenceText": "annotation id: 14076",
             "examples": [
                 {
-                    "frameName": "Temporal_collocation",
+                    "origin_lus": [
+                        "middle"
+                    ],
+                    "ko_annotation_id": 14076,
+                    "annotation_id": 8944,
+                    "frameName": "Temporal_subregion",
                     "denotations": [
                         {
-                            "obj": "landmark_period",
+                            "id": 1,
+                            "obj": "Temporal_subregion",
                             "span": {
-                                "begin": 8,
-                                "end": 15
+                                "begin": 38,
+                                "end": 41
                             },
-                            "id": "2"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "밤중에"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time_Period",
+                            "token_span": [
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 15
+                                "begin": 36,
+                                "end": 41
                             },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "trajector_event",
-                            "span": {
-                                "begin": 16,
-                                "end": 31
-                            },
-                            "id": "3"
+                            "text": "한 밤중에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "in"
-                    ],
-                    "ko_annotation_id": 867,
-                    "text": "러시아 주도로 지난 해 4월 협약은 유엔 총회에서 채택되었다.",
-                    "sent_id": 3245,
+                    "sent_id": 1857,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17131
+                    "lu": "밤중.n.Temporal_subregion",
+                    "text": "그래서 형제들은 국가 경호원 유니폼을 입고 비슷한 차를 운전하고 한 밤중에 그의 집을 습격하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1895,
-    "ko_pos": "NNB",
-    "ko_lu": "월.n.Temporal_collocation",
-    "lu_id": 326,
-    "en_lus": [
-        "in"
     ]
 }

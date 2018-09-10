@@ -1,44 +1,87 @@
 {
-    "frameName": "Social_event",
+    "ko_pos": "v",
+    "ko_lu": "앉다.v.Halt",
+    "frameID": 1024,
+    "frameName": "Halt",
+    "en_lus": [
+        "tomaru .止まる"
+    ],
+    "lu_id": 5073,
     "patterns": [
         {
-            "valenceText": "annotation id: 17852",
+            "valenceText": "annotation id: 11947",
             "examples": [
                 {
-                    "frameName": "Social_event",
+                    "origin_lus": [
+                        "tomaru .止まる"
+                    ],
+                    "ko_annotation_id": 11947,
+                    "annotation_id": 0,
+                    "frameName": "Halt",
                     "denotations": [
                         {
-                            "obj": "Occasion",
+                            "id": 1,
+                            "obj": "Halt",
                             "span": {
-                                "begin": 19,
-                                "end": 21
-                            }
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "앉았다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 19,
+                                "begin": 0,
                                 "end": 21
-                            }
+                            },
+                            "text": "지렁이를 입에 물은 한 마리의 때까치가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "text": "철책 위에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kai .会 "
+                    "sent_id": 4741,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 17852,
-                    "text": "한편, 그냥 모여 푸념을 늘어놓는 모임이 이러한 계발활동 후에 열리면, 폐쇄감을 해소할 수 있습니다.",
-                    "sent_id": 3658,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "앉다.v.Halt",
+                    "text": "지렁이를 입에 물은 한 마리의 때까치가 철책 위에 앉았다."
                 }
             ]
         }
-    ],
-    "frameID": 125,
-    "ko_pos": "NNG",
-    "ko_lu": "모임.n.Social_event",
-    "lu_id": 5073,
-    "en_lus": [
-        "kai .会 "
     ]
 }

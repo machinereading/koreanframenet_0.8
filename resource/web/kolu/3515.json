@@ -1,74 +1,178 @@
 {
-    "frameName": "Point_of_dispute",
+    "ko_pos": "v",
+    "ko_lu": "제시하다.v.Evidence",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "en_lus": [
+        "suggests",
+        "suggest"
+    ],
+    "lu_id": 3515,
     "patterns": [
         {
-            "valenceText": "annotation id: 11998",
+            "valenceText": "annotation id: 722",
             "examples": [
                 {
-                    "frameName": "Point_of_dispute",
+                    "origin_lus": [
+                        "suggests"
+                    ],
+                    "ko_annotation_id": 722,
+                    "annotation_id": 1535,
+                    "frameName": "Evidence",
                     "denotations": [
                         {
-                            "obj": "question",
+                            "id": 1,
+                            "obj": "Evidence",
                             "span": {
-                                "begin": 12,
-                                "end": 46
+                                "begin": 73,
+                                "end": 80
                             },
-                            "id": "2"
+                            "token_span": [
+                                19,
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "제시해 준다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Support",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 37,
-                                "end": 39
+                                "begin": 4,
+                                "end": 9
                             },
-                            "id": "1"
+                            "text": "이 이론은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Proposition",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 72
+                            },
+                            "text": "지역의 혜택 추구에 비해 국가정책 결정에 너무 많은 관심을 기울이는 입법자들이 재임에 덜 안전한가에 대한 이유를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "question"
-                    ],
-                    "ko_annotation_id": 11998,
-                    "text": "그것들이 사실이라면, 그것들은 탄핵 절차로까지 갈 수 있다는 것은 의문의 여지가 없다. \"",
-                    "sent_id": 1010,
+                    "sent_id": 278,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5308
+                    "lu": "제시하다.v.Evidence",
+                    "text": "셋째, 이 이론은 지역의 혜택 추구에 비해 국가정책 결정에 너무 많은 관심을 기울이는 입법자들이 재임에 덜 안전한가에 대한 이유를 제시해 준다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.30045",
+            "valenceText": "annotation id: 6406",
             "examples": [
                 {
-                    "frameName": "Point_of_dispute",
+                    "origin_lus": [
+                        "suggest"
+                    ],
+                    "ko_annotation_id": 6406,
+                    "annotation_id": 11708,
+                    "frameName": "Evidence",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Evidence",
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 30,
+                                "end": 34
                             },
-                            "id": "1"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "제시하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Proposition",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 29
+                            },
+                            "text": "이란이 또한 공격적인 화학무기 프로그램을 개발하였다고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Support",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 56
+                            },
+                            "text": "기밀이 아닌 여러 개의 주장과 보고들이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 그 일에 의문을 품고 있다.그의 발언은 여러가지 의문을 가지게 한다.그는 의문의 죽임을 당했다.그가 왜 그렇게 대답했는지는 의문이다.의문이 있으면 바로 질문을 하시오.",
-                    "target": "의문",
-                    "ko_annotation_id": "sejong.30045",
-                    "relations": []
+                    "sent_id": 2330,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "제시하다.v.Evidence",
+                    "text": "이란이 또한 공격적인 화학무기 프로그램을 개발하였다고 제시하는 기밀이 아닌 여러 개의 주장과 보고들이 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1608,
-    "ko_pos": "NNG",
-    "ko_lu": "의문.n.Point_of_dispute",
-    "lu_id": 3515,
-    "en_lus": [
-        "question"
     ]
 }

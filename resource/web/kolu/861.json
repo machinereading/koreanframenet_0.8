@@ -1,87 +1,98 @@
 {
-    "frameName": "Likelihood",
+    "ko_pos": "n",
+    "ko_lu": "거래.n.Commercial_transaction",
+    "frameID": 177,
+    "frameName": "Commercial_transaction",
+    "en_lus": [
+        "transaction"
+    ],
+    "lu_id": 861,
     "patterns": [
         {
-            "valenceText": "annotation id: 2556",
+            "valenceText": "annotation id: 14594",
             "examples": [
                 {
-                    "frameName": "Likelihood",
+                    "origin_lus": [
+                        "transactions"
+                    ],
+                    "ko_annotation_id": 14594,
+                    "annotation_id": 11719,
+                    "frameName": "Commercial_transaction",
                     "denotations": [
                         {
-                            "obj": "hypothetical_event",
+                            "id": 1,
+                            "obj": "Commercial_transaction",
                             "span": {
-                                "begin": 0,
-                                "end": 16
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 15,
+                                "begin": 20,
                                 "end": 22
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "거래"
                         },
                         {
-                            "obj": "hypothetical_event",
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 23,
-                                "end": 32
+                                "begin": 5,
+                                "end": 19
                             },
-                            "id": "3"
+                            "text": "여러가지 민군 겸용 물질의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "likely"
-                    ],
-                    "ko_annotation_id": 2556,
-                    "text": "화학 생물무기 공격을 수행할것으로 보이는 테러리스트 단체들의 동기와 조직 구조에 대한 더 상세한 내용은 다음 두 페이지에서 제공된다. ( 생물 작용제의 확보와 배달에 요구되는 구체적인 능력들에 대해서는 다음 장들에서 논의된다. )",
-                    "sent_id": 2054,
+                    "sent_id": 2332,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10067
+                    "lu": "거래.n.Commercial_transaction",
+                    "text": "그러나, 여러가지 민군 겸용 물질의 거래 보고는 공개적으로 알려졌다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.8158",
+            "valenceText": "annotation id: 15214",
             "examples": [
                 {
-                    "frameName": "Likelihood",
+                    "origin_lus": [
+                        "transactions"
+                    ],
+                    "ko_annotation_id": 15214,
+                    "annotation_id": 14397,
+                    "frameName": "Commercial_transaction",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Commercial_transaction",
                             "span": {
-                                "begin": 21,
-                                "end": 23
+                                "begin": 54,
+                                "end": 57
                             },
-                            "id": "1"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "거래가"
                         }
                     ],
-                    "text": "그녀가 식당에 들어서자 흰 옷을 입은 보이가 정중하게 인사하며 외투를 받아들었다.",
-                    "target": "보이",
-                    "ko_annotation_id": "sejong.8158",
-                    "relations": []
+                    "sent_id": 2835,
+                    "relations": [],
+                    "lu": "거래.n.Commercial_transaction",
+                    "text": "북한으로부터 탄도 미사일을 구매하기 위한 2003년의 미얀마 계회에 대한 소문이 있었으나, 어떤 거래가 완료되었는지는 불명확하다."
                 }
             ]
         }
-    ],
-    "frameID": 114,
-    "ko_pos": "NNB",
-    "ko_lu": "보이.n.Likelihood",
-    "lu_id": 861,
-    "en_lus": [
-        "likely"
     ]
 }

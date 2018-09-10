@@ -1,78 +1,82 @@
 {
-    "frameName": "Being_employed",
+    "ko_pos": "v",
+    "ko_lu": "건립하다.v.Intentionally_create",
+    "frameID": 280,
+    "frameName": "Intentionally_create",
+    "en_lus": [
+        "establish"
+    ],
+    "lu_id": 4807,
     "patterns": [
         {
-            "valenceText": "annotation id: 16862",
+            "valenceText": "annotation id: 4774",
             "examples": [
                 {
-                    "frameName": "Being_employed",
+                    "origin_lus": [
+                        "establish"
+                    ],
+                    "ko_annotation_id": 4774,
+                    "annotation_id": 8676,
+                    "frameName": "Intentionally_create",
                     "denotations": [
                         {
-                            "obj": "employee",
+                            "id": 1,
+                            "obj": "Intentionally_create",
                             "span": {
-                                "begin": 0,
-                                "end": 7
+                                "begin": 71,
+                                "end": 75
                             },
-                            "id": "2"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "건립하기"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Creator",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
-                                "begin": 67,
-                                "end": 69
+                                "begin": 27,
+                                "end": 30
                             },
-                            "id": "1"
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 61,
+                                "end": 70
+                            },
+                            "text": "팔레스타인 국가를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "employment"
-                    ],
-                    "ko_annotation_id": 16862,
-                    "text": "Cornell은 작업장 상해가 주조 공장에서의 그의 일자리에서 그가 나가도록 하게 한 후 그가 결코 꿈꾸지 않았던 많은 고용 방안이 존재한다는 것을 알았다.",
-                    "sent_id": 348,
+                    "sent_id": 1793,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 1883
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 16863",
-            "examples": [
-                {
-                    "frameName": "Being_employed",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 13,
-                                "end": 15
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "origin_lus": [
-                        "employment"
-                    ],
-                    "ko_annotation_id": 16863,
-                    "text": "우리는 누군가가 그들의 고용 장벽에 대한 해결책을 발견하도록 도울 때마다, 긍정적인 효과가 우리들의 지역사회 전반에 발산된다 : 기업 공동체는 단지 또 다른 한 명의 근로자뿐만 아니라 증가된 구매력을 가진 한 명의 소비자를 맞이하는 것이다.",
-                    "sent_id": 371,
-                    "relations": [],
-                    "annotation_id": 1993
+                    "lu": "건립하다.v.Intentionally_create",
+                    "text": "통역사 : 무장한 Intifada는 끝나야 하며 우리는 팔레스타인과 이스라엘의 점령과 고통을 끝내고, 그리고 팔레스타인 국가를 건립하기 위한 우리의 요구에서 평화적인 수단을 사용하고 의지해야 한다."
                 }
             ]
         }
-    ],
-    "frameID": 282,
-    "ko_pos": "NNG",
-    "ko_lu": "고용.n.Being_employed",
-    "lu_id": 4807,
-    "en_lus": [
-        "employment"
     ]
 }

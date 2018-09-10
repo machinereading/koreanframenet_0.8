@@ -1,96 +1,83 @@
 {
-    "frameName": "Suspicion",
+    "ko_pos": "v",
+    "ko_lu": "보다.v.Partitive",
+    "frameID": 1010,
+    "frameName": "Partitive",
+    "en_lus": [
+        "of"
+    ],
+    "lu_id": 2518,
     "patterns": [
         {
-            "valenceText": "annotation id: 8316",
+            "valenceText": "annotation id: 655",
             "examples": [
                 {
-                    "frameName": "Suspiciousness",
+                    "origin_lus": [
+                        "of"
+                    ],
+                    "ko_annotation_id": 655,
+                    "annotation_id": 1382,
+                    "frameName": "Partitive",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Partitive",
                             "span": {
-                                "begin": 15,
-                                "end": 18
+                                "begin": 0,
+                                "end": 4
                             },
-                            "id": "1"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "무엇보다"
                         },
                         {
-                            "obj": "behavior",
+                            "id": 2,
+                            "obj": "Group",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 33,
-                                "end": 36
+                                "begin": 0,
+                                "end": 4
                             },
-                            "id": "2"
+                            "text": "무엇보다",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Subset",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 14
+                            },
+                            "text": "가장 중요한 것은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "dubious"
-                    ],
-                    "ko_annotation_id": 8316,
-                    "text": "그들은 교육적인 경험보다는 모호한 심리학적 그리고 사회학적 이론들에 바탕을 두고 있다.",
-                    "sent_id": 251,
+                    "sent_id": 254,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 1360
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.105429",
-            "examples": [
-                {
-                    "frameName": "Suspicion",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 15,
-                                "end": 19
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "철수에 대한 영희의 태도가 모호하다.",
-                    "target": "모호하다",
-                    "ko_annotation_id": "sejong.105429",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.105430",
-            "examples": [
-                {
-                    "frameName": "Suspicion",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 13,
-                                "end": 16
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그 사건에 대해 정부는 모호한 입장을 취하였다.",
-                    "target": "모호한",
-                    "ko_annotation_id": "sejong.105430",
-                    "relations": []
+                    "lu": "보다.v.Partitive",
+                    "text": "무엇보다 가장 중요한 것은 학교는 교직원, 교과과정, 그리고 모든 학생 규율과 관련된 문제들에 대해 상당한 양의 권위를 갖는 교장이 있어야 한다."
                 }
             ]
         }
-    ],
-    "frameID": 503,
-    "ko_pos": "VA",
-    "ko_lu": "모호하다.a.Suspicion",
-    "lu_id": 2518,
-    "en_lus": [
-        "dubious"
     ]
 }

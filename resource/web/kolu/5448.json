@@ -1,44 +1,123 @@
 {
-    "frameName": "Creating",
+    "ko_pos": "v",
+    "ko_lu": "나다.v.Departing",
+    "frameID": 57,
+    "frameName": "Departing",
+    "en_lus": [
+        "deru .出る "
+    ],
+    "lu_id": 5448,
     "patterns": [
         {
-            "valenceText": "annotation id: 19288",
+            "valenceText": "annotation id: 11923",
             "examples": [
                 {
-                    "frameName": "Creating",
+                    "origin_lus": [
+                        "deru .出る "
+                    ],
+                    "ko_annotation_id": 11923,
+                    "annotation_id": 0,
+                    "frameName": "Departing",
                     "denotations": [
                         {
-                            "obj": "Created_entity",
+                            "id": 1,
+                            "obj": "Departing",
                             "span": {
-                                "begin": 85,
-                                "end": 90
-                            }
+                                "begin": 34,
+                                "end": 38
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "나섰다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 92,
-                                "end": 100
-                            }
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 18
+                            },
+                            "text": "오늘 아침 8시 조금 넘어,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 30
+                            },
+                            "text": "실직한 마부로 둔갑해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Source",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "text": "집을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kumeru .組める "
+                    "sent_id": 4717,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19288,
-                    "text": "가령 마이크로소프트와 오라클은 모두 애플리케이션 기업으로, 경쟁 관계에 있으나, 우리 시스코와는 부딪히는 분야가 없으므로, 시스코 쪽에서 보면, 둘 다 에코시스템을 구축할 수 있는 파트너이다.",
-                    "sent_id": 4455,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "나다.v.Departing",
+                    "text": "나는 오늘 아침 8시 조금 넘어, 실직한 마부로 둔갑해 집을 나섰다."
                 }
             ]
         }
-    ],
-    "frameID": 319,
-    "ko_pos": "VV",
-    "ko_lu": "구축하다.v.Creating",
-    "lu_id": 5448,
-    "en_lus": [
-        "kumeru .組める "
     ]
 }

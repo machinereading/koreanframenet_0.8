@@ -1,51 +1,84 @@
 {
-    "frameName": "Commerce_sell",
+    "ko_pos": "v",
+    "ko_lu": "찾아가다.v.Traversing",
+    "frameID": 1310,
+    "frameName": "Traversing",
+    "en_lus": [
+        "tadoru .たどる"
+    ],
+    "lu_id": 3967,
     "patterns": [
         {
-            "valenceText": "annotation id: 13528",
+            "valenceText": "annotation id: 10648",
             "examples": [
                 {
-                    "frameName": "Commerce_sell",
+                    "origin_lus": [
+                        "tadoru .たどる"
+                    ],
+                    "ko_annotation_id": 10648,
+                    "annotation_id": 0,
+                    "frameName": "Traversing",
                     "denotations": [
                         {
-                            "obj": "Goods",
+                            "id": 1,
+                            "obj": "Traversing",
                             "span": {
-                                "begin": 59,
-                                "end": 75
-                            }
+                                "begin": 32,
+                                "end": 37
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "찾아갔다고"
                         },
                         {
-                            "obj": "Seller",
+                            "id": 2,
+                            "obj": "Depictive",
+                            "token_span": [
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 78,
-                                "end": 84
-                            }
+                                "begin": 11,
+                                "end": 18
+                            },
+                            "text": "귀로를 향해서",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 85,
-                                "end": 88
-                            }
+                                "begin": 19,
+                                "end": 31
+                            },
+                            "text": "도망치는 가엾은 소녀가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hanbai .販売 "
+                    "sent_id": 3909,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13528,
-                    "text": "자기 회사가 어떤 산업 분야에서 세계를 상대로 이길 수 있을지를 정확히 꿰뚫어보고, 모든 자원을 동원하여 제대로 된 산업 기술을 창출하여, 전 세계적인 판매・관리망을 구축하도록 손을 쓴 곳만이 살아남을 수 있다는 것이다.",
-                    "sent_id": 4607,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "찾아가다.v.Traversing",
+                    "text": "교교한 달빛 아래, 귀로를 향해서 도망치는 가엾은 소녀가 찾아갔다고 생각되는 방향을 향해 오로지 달렸다."
                 }
             ]
         }
-    ],
-    "frameID": 172,
-    "ko_pos": "NNG",
-    "ko_lu": "판매・.n.Commerce_sell",
-    "lu_id": 3967,
-    "en_lus": [
-        "hanbai .販売 "
     ]
 }

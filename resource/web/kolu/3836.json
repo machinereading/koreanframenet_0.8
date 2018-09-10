@@ -1,91 +1,81 @@
 {
-    "frameName": "Attention",
+    "ko_pos": "v",
+    "ko_lu": "읽다.v.Being_named",
+    "frameID": 228,
+    "frameName": "Being_named",
+    "en_lus": [
+        "yobu .呼ぶ"
+    ],
+    "lu_id": 3836,
     "patterns": [
         {
-            "valenceText": "annotation id: 13142",
+            "valenceText": "annotation id: 16446",
             "examples": [
                 {
-                    "frameName": "Attention",
+                    "origin_lus": [
+                        "yobu .呼ぶ"
+                    ],
+                    "ko_annotation_id": 16446,
+                    "annotation_id": 0,
+                    "frameName": "Being_named",
                     "denotations": [
                         {
-                            "obj": "degree",
+                            "id": 1,
+                            "obj": "Being_named",
                             "span": {
-                                "begin": 10,
-                                "end": 23
+                                "begin": 57,
+                                "end": 63
                             },
-                            "id": "5"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "읽었습니다."
                         },
                         {
-                            "obj": "figure",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 31
+                                "begin": 32,
+                                "end": 36
                             },
-                            "id": "4"
+                            "text": "이것들은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "degree",
-                            "span": {
-                                "begin": 33,
-                                "end": 38
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 39,
-                                "end": 47
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "perceiver",
+                            "id": 3,
+                            "obj": "Name",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
                                 "begin": 48,
-                                "end": 52
+                                "end": 56
                             },
-                            "id": "2"
+                            "text": "「우치쓰고쿠」라",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "attention"
-                    ],
-                    "ko_annotation_id": 13142,
-                    "text": "셋째, 이 이론은 지역의 혜택 추구에 비해 국가정책 결정에 너무 많은 관심을 기울이는 입법자들이 재임에 덜 안전한가에 대한 이유를 제시해 준다.",
-                    "sent_id": 278,
+                    "sent_id": 4284,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "5",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1532
+                    "lu": "읽다.v.Being_named",
+                    "text": "야마토・야마시로・셋쓰・가와치・이즈미가 이에 해당합니다만, 이것들은 기나이고쿠라고 쓰고 「우치쓰고쿠」라 읽었습니다."
                 }
             ]
         }
-    ],
-    "frameID": 791,
-    "ko_pos": "VV",
-    "ko_lu": "기울이다.v.Attention",
-    "lu_id": 3836,
-    "en_lus": [
-        "attention"
     ]
 }

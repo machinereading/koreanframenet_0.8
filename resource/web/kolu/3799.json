@@ -1,109 +1,63 @@
 {
-    "frameName": "Presence",
+    "ko_pos": "n",
+    "ko_lu": "루프.n.Architectural_part",
+    "frameID": 971,
+    "frameName": "Architectural_part",
+    "en_lus": [
+        "ruuhu .ルーフ"
+    ],
+    "lu_id": 3799,
     "patterns": [
         {
-            "valenceText": "annotation id: 13018",
+            "valenceText": "annotation id: 10518",
             "examples": [
                 {
-                    "frameName": "Presence",
+                    "origin_lus": [
+                        "ruuhu .ルーフ"
+                    ],
+                    "ko_annotation_id": 10518,
+                    "annotation_id": 0,
+                    "frameName": "Architectural_part",
                     "denotations": [
                         {
-                            "obj": "location",
+                            "id": 1,
+                            "obj": "Architectural_part",
                             "span": {
-                                "begin": 14,
-                                "end": 21
+                                "begin": 9,
+                                "end": 19
                             },
-                            "id": "2"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "<루프roof>라고"
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Part",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 34,
-                                "end": 39
+                                "begin": 9,
+                                "end": 19
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 41,
-                                "end": 44
-                            },
-                            "id": "1"
+                            "text": "<루프roof>라고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "presence"
-                    ],
-                    "ko_annotation_id": 13018,
-                    "text": "사실, Flamingo는 라스 베이거스에 이십년에 걸쳐 힘센 폭력 무리가 출현하는 가운데 시작되었다.",
-                    "sent_id": 809,
+                    "sent_id": 3811,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4222
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.52900",
-            "examples": [
-                {
-                    "frameName": "Presence",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 11,
-                                "end": 15
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "서해 상공에 적기가 출현했다.",
-                    "target": "출현했다",
-                    "ko_annotation_id": "sejong.52900",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.52901",
-            "examples": [
-                {
-                    "frameName": "Presence",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 17,
-                                "end": 21
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "알프스 지역은 유에프오가 자주 출현하는 곳이다.",
-                    "target": "출현하는",
-                    "ko_annotation_id": "sejong.52901",
-                    "relations": []
+                    "lu": "루프.n.Architectural_part",
+                    "text": "이런 <단위>를 <루프roof>라고 부른다."
                 }
             ]
         }
-    ],
-    "frameID": 1922,
-    "ko_pos": "VV",
-    "ko_lu": "출현하다.v.Presence",
-    "lu_id": 3799,
-    "en_lus": [
-        "presence"
     ]
 }

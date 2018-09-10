@@ -1,100 +1,82 @@
 {
-    "frameName": "Perception_experience",
+    "ko_pos": "a",
+    "ko_lu": "재빠르다.a.Speed_description",
+    "frameID": 966,
+    "frameName": "Speed_description",
+    "en_lus": [
+        "subayai .素早い"
+    ],
+    "lu_id": 3414,
     "patterns": [
         {
-            "valenceText": "annotation id: 11617",
+            "valenceText": "annotation id: 10361",
             "examples": [
                 {
-                    "frameName": "Perception_experience",
-                    "denotations": [
-                        {
-                            "obj": "Perceiver_passive",
-                            "span": {
-                                "begin": 0,
-                                "end": 4
-                            }
-                        },
-                        {
-                            "obj": "Phenomenon",
-                            "span": {
-                                "begin": 12,
-                                "end": 19
-                            }
-                        },
-                        {
-                            "obj": "Body_part",
-                            "span": {
-                                "begin": 21,
-                                "end": 23
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 25,
-                                "end": 26
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "hureru .ふれる ",
-                        "hureru .触れる "
+                        "subayai .素早い"
                     ],
-                    "ko_annotation_id": 11617,
-                    "text": "한 소녀가 낙마하여, 말의 한쪽 발이 얼굴에 닿았다.",
-                    "sent_id": 3935,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 11618",
-            "examples": [
-                {
-                    "frameName": "Perception_experience",
+                    "ko_annotation_id": 10361,
+                    "annotation_id": 0,
+                    "frameName": "Speed_description",
                     "denotations": [
                         {
-                            "obj": "Body_part",
-                            "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
-                        },
-                        {
-                            "obj": "Phenomenon",
-                            "span": {
-                                "begin": 5,
-                                "end": 8
-                            }
-                        },
-                        {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Speed_description",
                             "span": {
                                 "begin": 11,
-                                "end": 12
-                            }
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "재빠르다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "이 타이밍이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "정말로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hureru .ふれる ",
-                        "hureru .触れる "
+                    "sent_id": 3701,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 11618,
-                    "text": "손가락에 무엇인가가 닿았다.",
-                    "sent_id": 4183,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "재빠르다.a.Speed_description",
+                    "text": "이 타이밍이 정말로 재빠르다."
                 }
             ]
         }
-    ],
-    "frameID": 70,
-    "ko_pos": "VV",
-    "ko_lu": "닿다.v.Perception_experience",
-    "lu_id": 3414,
-    "en_lus": [
-        "hureru .触れる ",
-        "hureru .ふれる "
     ]
 }

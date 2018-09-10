@@ -1,51 +1,86 @@
 {
-    "frameName": "Facial_expression",
+    "ko_pos": "n",
+    "ko_lu": "위기.n.State_of_entity",
+    "frameID": 1600,
+    "frameName": "State_of_entity",
+    "en_lus": [
+        "zyootai .状態 "
+    ],
+    "lu_id": 4593,
     "patterns": [
         {
-            "valenceText": "annotation id: 15909",
+            "valenceText": "annotation id: 16102",
             "examples": [
                 {
-                    "frameName": "Facial_expression",
+                    "origin_lus": [
+                        "zyootai .状態 "
+                    ],
+                    "ko_annotation_id": 16102,
+                    "annotation_id": 0,
+                    "frameName": "State_of_entity",
                     "denotations": [
                         {
-                            "obj": "Possessor",
+                            "id": 1,
+                            "obj": "State_of_entity",
                             "span": {
-                                "begin": 0,
-                                "end": 7
-                            }
+                                "begin": 62,
+                                "end": 65
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "위기에"
                         },
                         {
-                            "obj": "Conveyed_emotion",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 11
-                            }
+                                "begin": 26,
+                                "end": 44
+                            },
+                            "text": "각 대학 산악부나 반더포겔부 등은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "State",
+                            "token_span": [
+                                13,
+                                14
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 14
-                            }
+                                "begin": 56,
+                                "end": 61
+                            },
+                            "text": "대가 끊길",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "omomoti .面持ち "
+                    "sent_id": 3565,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15909,
-                    "text": "두 사람 모두 긴장한 얼굴로, 가만히 생각에 잠겨 있다.",
-                    "sent_id": 4383,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "위기.n.State_of_entity",
+                    "text": "하지만, 이것은 와세다대학만의 문제가 아니며, 각 대학 산악부나 반더포겔부 등은 신입 부원이 없어, 대가 끊길 위기에 처해있다고 한다."
                 }
             ]
         }
-    ],
-    "frameID": 161,
-    "ko_pos": "NNG",
-    "ko_lu": "얼굴.n.Facial_expression",
-    "lu_id": 4593,
-    "en_lus": [
-        "omomoti .面持ち "
     ]
 }

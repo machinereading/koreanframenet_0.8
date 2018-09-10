@@ -1,44 +1,81 @@
 {
-    "frameName": "Store",
+    "ko_pos": "a",
+    "ko_lu": "유익하다.a.Desirability",
+    "frameID": 354,
+    "frameName": "Desirability",
+    "en_lus": [
+        "yoi .良い"
+    ],
+    "lu_id": 3782,
     "patterns": [
         {
-            "valenceText": "annotation id: 12958",
+            "valenceText": "annotation id: 11817",
             "examples": [
                 {
-                    "frameName": "Store",
+                    "origin_lus": [
+                        "yoi .良い"
+                    ],
+                    "ko_annotation_id": 11817,
+                    "annotation_id": 0,
+                    "frameName": "Desirability",
                     "denotations": [
                         {
-                            "obj": "Supply",
+                            "id": 1,
+                            "obj": "Desirability",
                             "span": {
-                                "begin": 26,
-                                "end": 29
-                            }
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "유익한"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Affected_Party",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 26,
-                                "end": 29
-                            }
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "아이들에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "text": "곳이며,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hozyuu .補充 "
+                    "sent_id": 4649,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12958,
-                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다.",
-                    "sent_id": 4550,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "유익하다.a.Desirability",
+                    "text": "「학교는 아이들에게 유익한 곳이며, 또한 필요한 공간이다."
                 }
             ]
         }
-    ],
-    "frameID": 1511,
-    "ko_pos": "NNG",
-    "ko_lu": "보충수.n.Store",
-    "lu_id": 3782,
-    "en_lus": [
-        "hozyuu .補充 "
     ]
 }

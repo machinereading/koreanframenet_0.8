@@ -1,79 +1,83 @@
 {
-    "frameName": "Education_teaching",
+    "ko_pos": "n",
+    "ko_lu": "급.n.Type",
+    "frameID": 128,
+    "frameName": "Type",
+    "en_lus": [
+        "class"
+    ],
+    "lu_id": 2404,
     "patterns": [
         {
-            "valenceText": "annotation id: 7883",
+            "valenceText": "annotation id: 8472",
             "examples": [
                 {
-                    "frameName": "Education_teaching",
+                    "origin_lus": [
+                        "class"
+                    ],
+                    "ko_annotation_id": 8472,
+                    "annotation_id": 15502,
+                    "frameName": "Type",
                     "denotations": [
                         {
-                            "obj": "teacher",
+                            "id": 1,
+                            "obj": "Type",
                             "span": {
-                                "begin": 0,
-                                "end": 1
+                                "begin": 81,
+                                "end": 88
                             },
-                            "id": "2"
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "Typhoon"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Type_Property",
+                            "token_span": [
+                                15
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 11
+                                "begin": 56,
+                                "end": 58
                             },
-                            "id": "1"
+                            "text": "신형",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Category",
+                            "token_span": [
+                                29,
+                                30,
+                                31
+                            ],
+                            "span": {
+                                "begin": 114,
+                                "end": 125
+                            },
+                            "text": "신형급의 탄도 미사일",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "schoolteacher"
-                    ],
-                    "ko_annotation_id": 7883,
-                    "text": "나는 결국 학교 선생이 될지도 모른다는 생각을 하며, 나 자신은 대학에서 그와 같은 과목들을 수강했다.",
-                    "sent_id": 201,
+                    "sent_id": 3008,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 1105
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 17843",
-            "examples": [
-                {
-                    "frameName": "Education_teaching",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 6,
-                                "end": 12
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "origin_lus": [
-                        "schoolteachers"
-                    ],
-                    "ko_annotation_id": 17843,
-                    "text": "나는 많은 학교 선생들을 알고 그리고, 대체적으로, 그들은 양심적인 교육에 진지하게 전념하고 있다.",
-                    "sent_id": 204,
-                    "relations": [],
-                    "annotation_id": 1112
+                    "lu": "급.n.Type",
+                    "text": "해상 발사 탄도 미사일 ( SLBM ) 이 현재 생산되지 않는 반명, 러시아는 Bulava라 불리는 신형  SLBM을 개발중이며, 이것은 기존의 Typhoon 급 잠수함에 그리고 향후에는 현재 건조 중인 신형급의 탄도 미사일 잠수함에 장착할 예정이다."
                 }
             ]
         }
-    ],
-    "frameID": 111,
-    "ko_pos": "NNG",
-    "ko_lu": "학교.n.Education_teaching",
-    "lu_id": 2404,
-    "en_lus": [
-        "schoolteacher",
-        "schoolteacher"
     ]
 }

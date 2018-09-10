@@ -1,109 +1,161 @@
 {
-    "frameName": "Emotion_directed",
+    "ko_pos": "v",
+    "ko_lu": "입히다.v.Causation",
+    "frameID": 5,
+    "frameName": "Causation",
+    "en_lus": [
+        "cause",
+        "wreak"
+    ],
+    "lu_id": 2418,
     "patterns": [
         {
-            "valenceText": "annotation id: 7930",
+            "valenceText": "annotation id: 5306",
             "examples": [
                 {
-                    "frameName": "Emotion_directed",
+                    "origin_lus": [
+                        "causing"
+                    ],
+                    "ko_annotation_id": 5306,
+                    "annotation_id": 9576,
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "obj": "experiencer",
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 49,
+                                "end": 53
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "입혔다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 16
+                                "end": 23
                             },
-                            "id": "3"
+                            "text": "그들은 지난 달 보고타 사무실을 폭격하여,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "stimulus",
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 17,
-                                "end": 38
+                                "begin": 34,
+                                "end": 48
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 41,
-                                "end": 44
-                            },
-                            "id": "1"
+                            "text": "2.5 백만 달러의 피해를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "anxious"
-                    ],
-                    "ko_annotation_id": 7930,
-                    "text": "땅 투기꾼과 지역민들은 똑같이 최신의 철로 신흥 도시의 일부를 소유하려고 안달하였고 오후에 부지의 80 % 이상이 팔렸다.",
-                    "sent_id": 775,
+                    "sent_id": 1979,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4045
+                    "lu": "입히다.v.Causation",
+                    "text": "그들은 지난 달 보고타 사무실을 폭격하여, 컴퓨터를 파괴하고 2.5 백만 달러의 피해를 입혔다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.92390",
+            "valenceText": "annotation id: 13407",
             "examples": [
                 {
-                    "frameName": "Emotion_directed",
+                    "origin_lus": [
+                        "wreaked"
+                    ],
+                    "ko_annotation_id": 13407,
+                    "annotation_id": 5397,
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Causation",
                             "span": {
-                                "begin": 8,
-                                "end": 12
+                                "begin": 70,
+                                "end": 72
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "너 왜 그렇게 안달하는 거니?.",
-                    "target": "안달하는",
-                    "ko_annotation_id": "sejong.92390",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.92391",
-            "examples": [
-                {
-                    "frameName": "Emotion_directed",
-                    "denotations": [
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "입힌"
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Actor",
+                            "token_span": [
+                                13,
+                                14,
+                                15
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 25
+                                "begin": 50,
+                                "end": 69
                             },
-                            "obj": "target"
+                            "text": "상원의원 Joe MacCarthy가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 73,
+                                "end": 76
+                            },
+                            "text": "피해를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "하루 종일 굶은 자식들이 밥을 달라고 안달하는 광경은 애처롭기 그지 없다.",
-                    "target": "안달하는",
-                    "ko_annotation_id": "sejong.92391",
-                    "relations": []
+                    "sent_id": 1032,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "입히다.v.Causation",
+                    "text": "그것은 마치 50년대에 Roy Cohn이 자기 자신의 역할에 대해 한 마디 사과도 없이, 상원의원 Joe MacCarthy가 입힌 피해를 진지하게 후회하기 위해 TV에 출연한 것과 같다."
                 }
             ]
         }
-    ],
-    "frameID": 46,
-    "ko_pos": "VV",
-    "ko_lu": "안달하다.v.Emotion_directed",
-    "lu_id": 2418,
-    "en_lus": [
-        "anxious"
     ]
 }

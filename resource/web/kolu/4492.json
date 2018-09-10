@@ -1,82 +1,101 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "v",
+    "ko_lu": "고민하다.v.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "nayamu .悩む"
+    ],
+    "lu_id": 4492,
     "patterns": [
         {
-            "valenceText": "annotation id: 15584",
+            "valenceText": "annotation id: 11142",
             "examples": [
                 {
-                    "frameName": "Buildings",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 12,
-                                "end": 15
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "citadels"
+                        "nayamu .悩む"
                     ],
-                    "ko_annotation_id": 15584,
-                    "text": "그들은 그들의 강력한 성채들을 짓고, 섬에서 기독교 신앙을 강화하는 과정을 시작하였다.",
-                    "sent_id": 569,
-                    "relations": [],
-                    "annotation_id": 3009
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.15808",
-            "examples": [
-                {
-                    "frameName": "Buildings",
+                    "ko_annotation_id": 11142,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Experiencer_focus",
                             "span": {
-                                "begin": 9,
-                                "end": 11
+                                "begin": 30,
+                                "end": 34
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "그 곳에는 지금 성채만이 남아 있다.",
-                    "target": "성채",
-                    "ko_annotation_id": "sejong.15808",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.15809",
-            "examples": [
-                {
-                    "frameName": "Buildings",
-                    "denotations": [
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "고민하게"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
                                 "begin": 14,
-                                "end": 16
+                                "end": 17
                             },
-                            "id": "1"
+                            "text": "당신이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 29
+                            },
+                            "text": "생활 속에서 직면하여",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Content",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 48
+                            },
+                            "text": "「현실」은,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "외적의 침입을 막기 위해 성채를 쌓았다.",
-                    "target": "성채",
-                    "ko_annotation_id": "sejong.15809",
-                    "relations": []
+                    "sent_id": 4198,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고민하다.v.Experiencer_focus",
+                    "text": "자아, 여기까지 왔으면, 당신이 생활 속에서 직면하여 고민하게 되는 모순된 「현실」은, 당신의 사고방식을 전제로 하고 있어, 그것에 따라 현실을 변화시킬 수 있다는 것을 이해할 수 있는 단계가 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NN",
-    "ko_lu": "성채.n.Buildings",
-    "lu_id": 4492,
-    "en_lus": [
-        "citadel"
     ]
 }

@@ -1,74 +1,99 @@
 {
-    "frameName": "Natural_features",
+    "ko_pos": "v",
+    "ko_lu": "얻다.v.Arriving",
+    "frameID": 54,
+    "frameName": "Arriving",
+    "en_lus": [
+        "come"
+    ],
+    "lu_id": 5540,
     "patterns": [
         {
-            "valenceText": "annotation id: 19645",
+            "valenceText": "annotation id: 1539",
             "examples": [
                 {
-                    "frameName": "Natural_features",
+                    "origin_lus": [
+                        "came"
+                    ],
+                    "ko_annotation_id": 1539,
+                    "annotation_id": 3202,
+                    "frameName": "Arriving",
                     "denotations": [
                         {
-                            "obj": "descriptor",
+                            "id": 1,
+                            "obj": "Arriving",
                             "span": {
-                                "begin": 6,
-                                "end": 8
+                                "begin": 13,
+                                "end": 15
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "얻어"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 6,
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "후에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
                                 "end": 8
                             },
-                            "id": "1"
+                            "text": "독일인들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Depictive",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "세력을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "mountains"
-                    ],
-                    "ko_annotation_id": 19645,
-                    "text": "지리적으로 고산의 중심 척추와 열대 우림으로 뒤덮힌 언덕을 가져 이곳은 극히 다양하다.",
-                    "sent_id": 884,
+                    "sent_id": 601,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 4603
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.33303",
-            "examples": [
-                {
-                    "frameName": "Natural_features",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 11,
-                                "end": 13
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "몇 달이 지났는데도 고산에서의 생활에 적응이 되지 않는다.",
-                    "target": "고산",
-                    "ko_annotation_id": "sejong.33303",
-                    "relations": []
+                    "lu": "얻다.v.Arriving",
+                    "text": "후에 독일인들은 세력을 얻어 많은 섬을 점령하였다."
                 }
             ]
         }
-    ],
-    "frameID": 191,
-    "ko_pos": "NNG",
-    "ko_lu": "고산.n.Natural_features",
-    "lu_id": 5540,
-    "en_lus": [
-        "mountain"
     ]
 }

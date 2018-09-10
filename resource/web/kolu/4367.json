@@ -1,44 +1,88 @@
 {
-    "frameName": "Coming_to_be",
+    "ko_pos": "v",
+    "ko_lu": "달성하다.v.Accomplishment",
+    "frameID": 1519,
+    "frameName": "Accomplishment",
+    "en_lus": [
+        "achieve"
+    ],
+    "lu_id": 4367,
     "patterns": [
         {
-            "valenceText": "annotation id: 15157",
+            "valenceText": "annotation id: 8744",
             "examples": [
                 {
-                    "frameName": "Coming_to_be",
+                    "origin_lus": [
+                        "achieve"
+                    ],
+                    "ko_annotation_id": 8744,
+                    "annotation_id": 16026,
+                    "frameName": "Accomplishment",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Accomplishment",
                             "span": {
-                                "begin": 5,
-                                "end": 11
-                            }
+                                "begin": 106,
+                                "end": 110
+                            },
+                            "token_span": [
+                                23
+                            ],
+                            "role": "TARGET",
+                            "text": "달성하기"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                16
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 16
-                            }
+                                "begin": 74,
+                                "end": 78
+                            },
+                            "text": "시리아는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24
+                            ],
+                            "span": {
+                                "begin": 79,
+                                "end": 113
+                            },
+                            "text": "핵 균형을 포함하여 이스라엘과 전략적인 동등함을 달성하기 위해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hasiru .走る"
+                    "sent_id": 3078,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15157,
-                    "text": "움직이면 가벼운 통증이 밀려온다.",
-                    "sent_id": 4402,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "달성하다.v.Accomplishment",
+                    "text": "사실, 1986년, 이스라엘 핵무기에 대한 시리아의 견해에 관해 질문을 받았을 때, 시리아 총참모장 Hihmet Al-Siabi 는 시리아는 핵 균형을 포함하여 이스라엘과 전략적인 동등함을 달성하기 위해 노력할 것이라고 말하였다."
                 }
             ]
         }
-    ],
-    "frameID": 316,
-    "ko_pos": "VV",
-    "ko_lu": "밀려오다.v.Coming_to_be",
-    "lu_id": 4367,
-    "en_lus": [
-        "hasiru .走る"
     ]
 }

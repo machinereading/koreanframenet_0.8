@@ -1,52 +1,65 @@
 {
-    "frameName": "Hostile_encounter",
+    "ko_pos": "n",
+    "ko_lu": "취사.n.Cooking_creation",
+    "frameID": 268,
+    "frameName": "Cooking_creation",
+    "en_lus": [
+        "suizi .炊事 "
+    ],
+    "lu_id": 2133,
     "patterns": [
         {
-            "valenceText": "annotation id: 6881",
+            "valenceText": "annotation id: 11368",
             "examples": [
                 {
-                    "frameName": "Hostile_encounter",
+                    "origin_lus": [
+                        "suizi .炊事 "
+                    ],
+                    "ko_annotation_id": 11368,
+                    "annotation_id": 0,
+                    "frameName": "Cooking_creation",
                     "denotations": [
                         {
-                            "obj": "sides",
+                            "id": 1,
+                            "obj": "Cooking_creation",
                             "span": {
-                                "begin": 17,
-                                "end": 28
+                                "begin": 22,
+                                "end": 25
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "취사를"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Cook",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 31,
-                                "end": 33
+                                "begin": 0,
+                                "end": 11
                             },
-                            "id": "1"
+                            "text": "여자아이가 주로 하는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "struggle"
-                    ],
-                    "ko_annotation_id": 6881,
-                    "text": "Baby Jessica 처럼, 양부모와 친부모 사이에서 힘들게 살아가고 있는 어린 아이들",
-                    "sent_id": 438,
+                    "sent_id": 4328,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2296
+                    "lu": "취사.n.Cooking_creation",
+                    "text": "여자아이가 주로 하는 완구로 식사준비나 취사를 하는 주방놀이를, 소꿉놀이라고 합니다."
                 }
             ]
         }
-    ],
-    "frameID": 93,
-    "ko_pos": "VA",
-    "ko_lu": "힘들다.a.Hostile_encounter",
-    "lu_id": 2133,
-    "en_lus": [
-        "struggle"
     ]
 }

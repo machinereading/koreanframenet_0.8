@@ -1,44 +1,81 @@
 {
-    "frameName": "Reveal_secret",
+    "ko_pos": "v",
+    "ko_lu": "관련되다.v.Relation",
+    "frameID": 248,
+    "frameName": "Relation",
+    "en_lus": [
+        "kankee .関係 "
+    ],
+    "lu_id": 3315,
     "patterns": [
         {
-            "valenceText": "annotation id: 11262",
+            "valenceText": "annotation id: 12317",
             "examples": [
                 {
-                    "frameName": "Reveal_secret",
+                    "origin_lus": [
+                        "kankee .関係 "
+                    ],
+                    "ko_annotation_id": 12317,
+                    "annotation_id": 0,
+                    "frameName": "Relation",
                     "denotations": [
                         {
-                            "obj": "Information",
+                            "id": 1,
+                            "obj": "Relation",
                             "span": {
-                                "begin": 23,
-                                "end": 25
-                            }
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "관련되어"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Entity1",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 27,
-                                "end": 29
-                            }
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "술탄이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity2",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "해적행위에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "barasu .ばらす "
+                    "sent_id": 4946,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 11262,
-                    "text": "엄마가 그리워진 것은 아니다, 더더군다나 이곳을 부술 생각이 있었던 것은 아니었다.",
-                    "sent_id": 4484,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "관련되다.v.Relation",
+                    "text": "술탄이 해적행위에 얼마나 관련되어 있는지, 그것은 해적 소탕에 나선 영국, 스페인, 네덜란드에게 매우 중요한 수수께끼였다."
                 }
             ]
         }
-    ],
-    "frameID": 1146,
-    "ko_pos": "NNG",
-    "ko_lu": "부술.n.Reveal_secret",
-    "lu_id": 3315,
-    "en_lus": [
-        "barasu .ばらす "
     ]
 }

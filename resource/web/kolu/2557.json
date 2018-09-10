@@ -1,48 +1,114 @@
 {
-    "frameName": "People",
+    "ko_pos": "n",
+    "ko_lu": "연합.n.Organization",
+    "frameID": 1371,
+    "frameName": "Organization",
+    "en_lus": [
+        "Union"
+    ],
+    "lu_id": 2557,
     "patterns": [
         {
-            "valenceText": "annotation id: 8441",
+            "valenceText": "annotation id: 1568",
             "examples": [
                 {
-                    "frameName": "People",
+                    "origin_lus": [
+                        "Union"
+                    ],
+                    "ko_annotation_id": 1568,
+                    "annotation_id": 3270,
+                    "frameName": "Organization",
                     "denotations": [
                         {
-                            "obj": "Person",
+                            "id": 1,
+                            "obj": "Organization",
                             "span": {
-                                "begin": 37,
-                                "end": 38
-                            }
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "연합"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Container_Possessor",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 37,
-                                "end": 38
-                            }
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "text": "유럽",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hito .人",
-                        "nin .人 ",
-                        "zin .人"
+                    "sent_id": 611,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 8441,
-                    "text": "혼자서도 괜찮아, 협력자가 넘치는 「상생 상법」 관서지방 사람은 「남의 샅바 차고 씨름한다」는 말을 좋아한다.",
-                    "sent_id": 4725,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "연합.n.Organization",
+                    "text": "1982년에, 그리스는 유럽 공동 시장 (지금은 유럽 연합 ) 에 가입하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 2711",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Union"
+                    ],
+                    "ko_annotation_id": 2711,
+                    "annotation_id": 5290,
+                    "frameName": "Organization",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Organization",
+                            "span": {
+                                "begin": 40,
+                                "end": 42
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "연합"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Members",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 39
+                            },
+                            "text": "유럽",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1004,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연합.n.Organization",
+                    "text": "그리고 젊은 졸업생들은 이제 떠나지 않고 있다 -- 다국적 기업과 유럽 연합 투자는 본국에 그들을 위한 충분한 기회가 있음을 뜻한다."
                 }
             ]
         }
-    ],
-    "frameID": 304,
-    "ko_pos": "NNP",
-    "ko_lu": "남.n.People",
-    "lu_id": 2557,
-    "en_lus": [
-        "zin .人",
-        "hito .人",
-        "nin .人 "
     ]
 }

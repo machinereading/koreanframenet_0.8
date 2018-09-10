@@ -1,65 +1,83 @@
 {
-    "frameName": "Intentional_traversing",
+    "ko_pos": "v",
+    "ko_lu": "부상당하다.v.Cause_harm",
+    "frameID": 112,
+    "frameName": "Cause_harm",
+    "en_lus": [
+        "injured"
+    ],
+    "lu_id": 5480,
     "patterns": [
         {
-            "valenceText": "annotation id: 19400",
+            "valenceText": "annotation id: 17247",
             "examples": [
                 {
-                    "frameName": "Intentional_traversing",
+                    "origin_lus": [
+                        "injured"
+                    ],
+                    "ko_annotation_id": 17247,
+                    "annotation_id": 16577,
+                    "frameName": "Cause_harm",
                     "denotations": [
                         {
-                            "obj": "path",
+                            "id": 1,
+                            "obj": "Cause_harm",
                             "span": {
-                                "begin": 9,
-                                "end": 11
+                                "begin": 92,
+                                "end": 102
                             },
-                            "id": "2"
+                            "token_span": [
+                                24,
+                                25
+                            ],
+                            "role": "TARGET",
+                            "text": "부상당하지 않았다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Containing_Event",
+                            "token_span": [
+                                21
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 15
+                                "begin": 77,
+                                "end": 81
                             },
-                            "id": "1"
+                            "text": "사고에서",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "self_mover",
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                22,
+                                23
+                            ],
                             "span": {
-                                "begin": 37,
-                                "end": 39
+                                "begin": 82,
+                                "end": 91
                             },
-                            "id": "3"
+                            "text": "작업자들은 아무도",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ford"
-                    ],
-                    "ko_annotation_id": 19400,
-                    "text": "그들의 호기심은 공해를 건너고 이들 섬에 도착할만큼 충분히 튼튼한 선박을 건조하게 하였고, 지중해 항해의 오랜 유산을 시작하게 하였다.",
-                    "sent_id": 490,
+                    "sent_id": 3173,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2583
+                    "lu": "부상당하다.v.Cause_harm",
+                    "text": "화학 및 생물 방어를 위한 APG 내의 1.5 백만 제곱 피트의 연구 및 엔지니어링 시설인 Edgewood 화학 생물 센터에서의 두 번째 사고에서 작업자들은 아무도 부상당하지 않았다."
                 }
             ]
         }
-    ],
-    "frameID": 1642,
-    "ko_pos": "VV",
-    "ko_lu": "건너다.v.Intentional_traversing",
-    "lu_id": 5480,
-    "en_lus": [
-        "ford"
     ]
 }

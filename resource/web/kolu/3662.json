@@ -1,37 +1,63 @@
 {
-    "frameName": "Commerce_scenario",
+    "ko_pos": "n",
+    "ko_lu": "화물선.n.Vehicle",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "en_lus": [
+        "vessel"
+    ],
+    "lu_id": 3662,
     "patterns": [
         {
-            "valenceText": "annotation id: 12549",
+            "valenceText": "annotation id: 7737",
             "examples": [
                 {
-                    "frameName": "Commerce_scenario",
+                    "origin_lus": [
+                        "vessels"
+                    ],
+                    "ko_annotation_id": 7737,
+                    "annotation_id": 14081,
+                    "frameName": "Vehicle",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Vehicle",
                             "span": {
-                                "begin": 21,
-                                "end": 23
-                            }
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "화물선을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Use",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "text": "화물선을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "yosan .予算 "
+                    "sent_id": 2783,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12549,
-                    "text": "물건을 고르다가, 저도 모르는 사이에 예산을 초과해서 사버렸다면 누구라도 찜찜할 것입니다.",
-                    "sent_id": 4449,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "화물선.n.Vehicle",
+                    "text": "예를 들면, 1996년에 일본의 한 한국 교포가 북한에 식량을 지원하는 화물선을 이용하여 북한에 50 킬로그램의 플루오르화나트륨을 수출하려다 붙잡혔다."
                 }
             ]
         }
-    ],
-    "frameID": 82,
-    "ko_pos": "NNG",
-    "ko_lu": "예산.n.Commerce_scenario",
-    "lu_id": 3662,
-    "en_lus": [
-        "yosan .予算 "
     ]
 }

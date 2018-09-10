@@ -1,44 +1,82 @@
 {
-    "frameName": "Businesses",
+    "ko_pos": "n",
+    "ko_lu": "생각.n.Expectation",
+    "frameID": 26,
+    "frameName": "Expectation",
+    "en_lus": [
+        "angai .案外 "
+    ],
+    "lu_id": 4891,
     "patterns": [
         {
-            "valenceText": "annotation id: 17090",
+            "valenceText": "annotation id: 17400",
             "examples": [
                 {
-                    "frameName": "Businesses",
+                    "origin_lus": [
+                        "angai .案外 "
+                    ],
+                    "ko_annotation_id": 17400,
+                    "annotation_id": 0,
+                    "frameName": "Expectation",
                     "denotations": [
                         {
-                            "obj": "Business",
+                            "id": 1,
+                            "obj": "Expectation",
                             "span": {
-                                "begin": 17,
-                                "end": 20
-                            }
+                                "begin": 63,
+                                "end": 67
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "생각보다"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                14,
+                                15
+                            ],
                             "span": {
-                                "begin": 17,
-                                "end": 20
-                            }
+                                "begin": 54,
+                                "end": 62
+                            },
+                            "text": "돌아다닌 범위는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 68,
+                                "end": 71
+                            },
+                            "text": "좁다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "zigyoo .事業 "
+                    "sent_id": 4638,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 17090,
-                    "text": "그 후, 자가용 조종사 면허, 사업용 조종사 면허, 일절 바깥을 보지 않고 계기만 보고 비행하는 계기 비행증명, 쌍발 이상의 엔진을 지닌 비행기를 조종하는 육상다발기 등의 기본적인 면허를 약 4년간, 비행시간은 약 3백 수십 시간 훈련받고 취득한다.",
-                    "sent_id": 3994,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "생각.n.Expectation",
+                    "text": "바다를 돌아다니며 이제껏 살아온 것 같지만, 섬이 보이지 않을 만큼 멀리까지는 가본 적이 없어, 돌아다닌 범위는 생각보다 좁다."
                 }
             ]
         }
-    ],
-    "frameID": 365,
-    "ko_pos": "NN",
-    "ko_lu": "사업용.n.Businesses",
-    "lu_id": 4891,
-    "en_lus": [
-        "zigyoo .事業 "
     ]
 }

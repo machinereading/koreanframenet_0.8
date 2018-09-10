@@ -1,52 +1,83 @@
 {
-    "frameName": "Boundary",
+    "ko_pos": "n",
+    "ko_lu": "변형.n.Type",
+    "frameID": 128,
+    "frameName": "Type",
+    "en_lus": [
+        "type"
+    ],
+    "lu_id": 4974,
     "patterns": [
         {
-            "valenceText": "annotation id: 17518",
+            "valenceText": "annotation id: 8491",
             "examples": [
                 {
-                    "frameName": "Boundary",
+                    "origin_lus": [
+                        "type"
+                    ],
+                    "ko_annotation_id": 8491,
+                    "annotation_id": 15516,
+                    "frameName": "Type",
                     "denotations": [
                         {
-                            "obj": "entities",
+                            "id": 1,
+                            "obj": "Type",
                             "span": {
-                                "begin": 49,
-                                "end": 67
+                                "begin": 26,
+                                "end": 29
                             },
-                            "id": "2"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "변형을"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Type_Property",
+                            "token_span": [
+                                14
+                            ],
                             "span": {
-                                "begin": 68,
-                                "end": 70
+                                "begin": 66,
+                                "end": 68
                             },
-                            "id": "1"
+                            "text": "신형",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Category",
+                            "token_span": [
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 69,
+                                "end": 79
+                            },
+                            "text": "전략 순항 미사일을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "border"
-                    ],
-                    "ko_annotation_id": 17518,
-                    "text": "오전 12시 38분 DAYAC : 지진이 강타했을 때 나는 나의 트럭을 몰고 있었고,  Oakland - Berkeley 접경에 있는 Shattuck과 Alcatraz 모퉁이의 신호등 빨간불에 멈추어 있었다.",
-                    "sent_id": 124,
+                    "sent_id": 3010,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 749
+                    "lu": "변형.n.Type",
+                    "text": "Sineva라 명명된, 개량된 SS-N-23의 변형을 생산하기 시작할 계획이 또한 있고, 전해지는 바에 의하면 공군은 신형 전략 순항 미사일을 수령하기 시작하였다."
                 }
             ]
         }
-    ],
-    "frameID": 329,
-    "ko_pos": "NNG",
-    "ko_lu": "접경.n.Boundary",
-    "lu_id": 4974,
-    "en_lus": [
-        "border"
     ]
 }

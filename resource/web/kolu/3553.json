@@ -1,44 +1,162 @@
 {
-    "frameName": "Compliance",
+    "ko_pos": "n",
+    "ko_lu": "지리적.n.Domain",
+    "frameID": 430,
+    "frameName": "Domain",
+    "en_lus": [
+        "Geographically",
+        "tiri teki .地理 的 "
+    ],
+    "lu_id": 3553,
     "patterns": [
         {
-            "valenceText": "annotation id: 12076",
+            "valenceText": "annotation id: 2324",
             "examples": [
                 {
-                    "frameName": "Compliance",
+                    "origin_lus": [
+                        "tiri teki .地理 的 ",
+                        "Geographically"
+                    ],
+                    "ko_annotation_id": 2324,
+                    "annotation_id": 4601,
+                    "frameName": "Domain",
                     "denotations": [
                         {
-                            "obj": "Act",
+                            "id": 1,
+                            "obj": "Domain",
                             "span": {
-                                "begin": 2,
-                                "end": 6
-                            }
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "지리적으로"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Explanation",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 2,
-                                "end": 6
-                            }
+                                "begin": 6,
+                                "end": 35
+                            },
+                            "text": "고산의 중심 척추와 열대 우림으로 뒤덮힌 언덕을 가져",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Predicate",
+                            "token_span": [
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 48
+                            },
+                            "text": "이곳은 극히 다양하다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "mongon singai .文言 侵害 "
+                    "sent_id": 884,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12076,
-                    "text": "A 문언침해에는 해당하지 않는 특허발명이 어디까지 보호 범위에 속하는지는, 원서에 첨부한 특허청구 범위에 기재된 내용에 따라 정해집니다.",
-                    "sent_id": 4085,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "지리적.n.Domain",
+                    "text": "지리적으로 고산의 중심 척추와 열대 우림으로 뒤덮힌 언덕을 가져 이곳은 극히 다양하다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10358",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tiri teki .地理 的 ",
+                        "Geographically"
+                    ],
+                    "ko_annotation_id": 10358,
+                    "annotation_id": 0,
+                    "frameName": "Domain",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Domain",
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "지리적인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Domain",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "text": "지리적인",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Predicate",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "의미를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3696,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지리적.n.Domain",
+                    "text": "우선, 하리마는 무엇인가 하는, 하리마의 지리적인 의미를 가장 뚜렷하게 보여주는 것이 아카마쓰라고 생각합니다."
                 }
             ]
         }
-    ],
-    "frameID": 117,
-    "ko_pos": "NNG",
-    "ko_lu": "문언.n.Compliance",
-    "lu_id": 3553,
-    "en_lus": [
-        "mongon singai .文言 侵害 "
     ]
 }

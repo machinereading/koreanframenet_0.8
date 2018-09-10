@@ -1,78 +1,137 @@
 {
-    "frameName": "Activity_start",
+    "ko_pos": "a",
+    "ko_lu": "아프다.a.Perception_body",
+    "frameID": 68,
+    "frameName": "Perception_body",
+    "en_lus": [
+        "itai .痛い ",
+        "itamu .痛む "
+    ],
+    "lu_id": 1590,
     "patterns": [
         {
-            "valenceText": "annotation id: 5034",
+            "valenceText": "annotation id: 11851",
             "examples": [
                 {
-                    "frameName": "Activity_start",
+                    "origin_lus": [
+                        "itai .痛い ",
+                        "itamu .痛む "
+                    ],
+                    "ko_annotation_id": 11851,
+                    "annotation_id": 0,
+                    "frameName": "Perception_body",
                     "denotations": [
                         {
-                            "obj": "time",
-                            "span": {
-                                "begin": 0,
-                                "end": 19
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Perception_body",
                             "span": {
                                 "begin": 23,
-                                "end": 30
+                                "end": 27
                             },
-                            "id": "3"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "아파서,"
                         },
                         {
-                            "obj": "activity",
+                            "id": 2,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 32,
-                                "end": 116
+                                "begin": 8,
+                                "end": 18
                             },
-                            "id": "4"
+                            "text": "다리, 허리, 팔이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 118,
-                                "end": 121
+                                "begin": 19,
+                                "end": 22
                             },
-                            "id": "1"
+                            "text": "너무도",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "entered"
-                    ],
-                    "ko_annotation_id": 5034,
-                    "text": "1982년, 전쟁이 2년째로 접어들면서, 이라크의 작전은 FROG-7AS 타격의 사용을 확장하고 이란의 전략적 후방에 대한 공격에 스커드-B 단거리 탄도 미사일 ( SRBM ) 을 최초로 사용하는 새로운 단계로 진입하였다.",
-                    "sent_id": 2422,
+                    "sent_id": 4675,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 12196
+                    "lu": "아프다.a.Perception_body",
+                    "text": "하고 싶어도, 다리, 허리, 팔이 너무도 아파서, 도저히 무리라는 것을 깨달았기 때문이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16452",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "itai .痛い ",
+                        "itamu .痛む "
+                    ],
+                    "ko_annotation_id": 16452,
+                    "annotation_id": 0,
+                    "frameName": "Perception_body",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_body",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "아파서,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "다리가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4294,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "아프다.a.Perception_body",
+                    "text": "다리가 아파서, 내일 돌아갈 수 없게 된다」 턱 아저씨는, 도토리를 파묻으면서 쭉, 그렇게 말했다."
                 }
             ]
         }
-    ],
-    "frameID": 146,
-    "ko_pos": "VV",
-    "ko_lu": "진입하다.v.Activity_start",
-    "lu_id": 1590,
-    "en_lus": [
-        "enter"
     ]
 }

@@ -1,51 +1,105 @@
 {
-    "frameName": "Creating",
+    "ko_pos": "v",
+    "ko_lu": "전달되다.v.Communication",
+    "frameID": 6,
+    "frameName": "Communication",
+    "en_lus": [
+        "communicate"
+    ],
+    "lu_id": 1513,
     "patterns": [
         {
-            "valenceText": "annotation id: 4804",
+            "valenceText": "annotation id: 17113",
             "examples": [
                 {
-                    "frameName": "Creating",
+                    "origin_lus": [
+                        "communicated"
+                    ],
+                    "ko_annotation_id": 17113,
+                    "annotation_id": 11907,
+                    "frameName": "Communication",
                     "denotations": [
                         {
-                            "obj": "Cause",
+                            "id": 1,
+                            "obj": "Communication",
+                            "span": {
+                                "begin": 37,
+                                "end": 43
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "전달되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 28
-                            }
+                                "end": 23
+                            },
+                            "text": "관계를 정상화하기 위한 한 이란인의 계획이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Created_entity",
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 41
-                            }
+                                "begin": 24,
+                                "end": 32
+                            },
+                            "text": "2003년 5월",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 4,
+                            "obj": "Addressee",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 43,
-                                "end": 45
-                            }
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "text": "미국에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tukuru .つくる "
+                    "sent_id": 2363,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4804,
-                    "text": "질량이 느껴지는 강한 햇볕이 빌딩과 가로수에 쏟아져, 도로 위에 진한 음영을 그리고 있었다.",
-                    "sent_id": 3591,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "전달되다.v.Communication",
+                    "text": "관계를 정상화하기 위한 한 이란인의 계획이 2003년 5월 미국에 전달되었다."
                 }
             ]
         }
-    ],
-    "frameID": 319,
-    "ko_pos": "VV",
-    "ko_lu": "그리다.v.Creating",
-    "lu_id": 1513,
-    "en_lus": [
-        "tukuru .つくる "
     ]
 }

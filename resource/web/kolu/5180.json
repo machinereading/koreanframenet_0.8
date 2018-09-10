@@ -1,51 +1,82 @@
 {
-    "frameName": "Halt",
+    "ko_pos": "n",
+    "ko_lu": "허리.n.Body_parts",
+    "frameID": 119,
+    "frameName": "Body_parts",
+    "en_lus": [
+        "kosi .腰 "
+    ],
+    "lu_id": 5180,
     "patterns": [
         {
-            "valenceText": "annotation id: 18243",
+            "valenceText": "annotation id: 11857",
             "examples": [
                 {
-                    "frameName": "Halt",
+                    "origin_lus": [
+                        "kosi .腰 "
+                    ],
+                    "ko_annotation_id": 11857,
+                    "annotation_id": 0,
+                    "frameName": "Body_parts",
                     "denotations": [
                         {
-                            "obj": "Theme",
+                            "id": 1,
+                            "obj": "Body_parts",
                             "span": {
-                                "begin": 0,
-                                "end": 20
-                            }
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "허리,"
                         },
                         {
-                            "obj": "Place",
+                            "id": 2,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 22,
-                                "end": 26
-                            }
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "text": "허리,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 28,
-                                "end": 29
-                            }
+                                "begin": 19,
+                                "end": 27
+                            },
+                            "text": "너무도 아파서,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tomaru .止まる"
+                    "sent_id": 4675,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18243,
-                    "text": "지렁이를 입에 물은 한 마리의 때까치가 철책 위에 앉았다.",
-                    "sent_id": 4741,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "허리.n.Body_parts",
+                    "text": "하고 싶어도, 다리, 허리, 팔이 너무도 아파서, 도저히 무리라는 것을 깨달았기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 1024,
-    "ko_pos": "VV",
-    "ko_lu": "앉다.v.Halt",
-    "lu_id": 5180,
-    "en_lus": [
-        "tomaru .止まる"
     ]
 }

@@ -1,52 +1,84 @@
 {
-    "frameName": "Dimension",
+    "ko_pos": "v",
+    "ko_lu": "만지다.v.Perception_experience",
+    "frameID": 70,
+    "frameName": "Perception_experience",
+    "en_lus": [
+        "sawaru .触る"
+    ],
+    "lu_id": 5459,
     "patterns": [
         {
-            "valenceText": "annotation id: 19349",
+            "valenceText": "annotation id: 11411",
             "examples": [
                 {
-                    "frameName": "Dimension",
+                    "origin_lus": [
+                        "sawaru .触る"
+                    ],
+                    "ko_annotation_id": 11411,
+                    "annotation_id": 0,
+                    "frameName": "Perception_experience",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Perception_experience",
                             "span": {
-                                "begin": 53,
-                                "end": 58
+                                "begin": 19,
+                                "end": 24
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "만져졌다."
                         },
                         {
-                            "obj": "object",
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 59,
-                                "end": 61
+                                "begin": 0,
+                                "end": 10
                             },
-                            "id": "2"
+                            "text": "그 조금 아래에서,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 18
+                            },
+                            "text": "매끄러운 것이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "broader"
-                    ],
-                    "ko_annotation_id": 19349,
-                    "text": "6일 전쟁의 패배 여파로 시리아는 이스라엘의 공격 행위로부터 보호하기 위해 국제 공동체로부터의 더 폭넓은 지원이 필요하다고 느꼈다.",
-                    "sent_id": 3070,
+                    "sent_id": 4370,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 15980
+                    "lu": "만지다.v.Perception_experience",
+                    "text": "그 조금 아래에서, 매끄러운 것이 만져졌다."
                 }
             ]
         }
-    ],
-    "frameID": 108,
-    "ko_pos": "VA",
-    "ko_lu": "폭넓다.a.Dimension",
-    "lu_id": 5459,
-    "en_lus": [
-        "broader"
     ]
 }

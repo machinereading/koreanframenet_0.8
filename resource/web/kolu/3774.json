@@ -1,105 +1,103 @@
 {
-    "frameName": "Opinion",
+    "ko_pos": "v",
+    "ko_lu": "이루어지다.v.Infrastructure",
+    "frameID": 1481,
+    "frameName": "Infrastructure",
+    "en_lus": [
+        "naritatu .成り立つ "
+    ],
+    "lu_id": 3774,
     "patterns": [
         {
-            "valenceText": "annotation id: 12931",
+            "valenceText": "annotation id: 11054",
             "examples": [
                 {
-                    "frameName": "Opinion",
-                    "denotations": [
-                        {
-                            "obj": "Cognizer",
-                            "span": {
-                                "begin": 111,
-                                "end": 113
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 115,
-                                "end": 117
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "iken .意見 "
+                        "naritatu .成り立つ "
                     ],
-                    "ko_annotation_id": 12931,
-                    "text": "독서를 할 때, 그 저자인 나와 독자인 당신 사이에, 이처럼 바보스러운 「추리 게임」을 시작하게 한 것은 과연 무엇인가? 나는 당신과 대화하고 있는 것이 아니며, 당신의 눈앞에 있는 이러한 문장은, 당신의 의견에 따라서 바뀌는 것이 아니다.",
-                    "sent_id": 4099,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 12932",
-            "examples": [
-                {
-                    "frameName": "Opinion",
+                    "ko_annotation_id": 11054,
+                    "annotation_id": 0,
+                    "frameName": "Infrastructure",
                     "denotations": [
                         {
-                            "obj": "Opinion",
+                            "id": 1,
+                            "obj": "Infrastructure",
                             "span": {
-                                "begin": 53,
-                                "end": 65
-                            }
-                        },
-                        {
-                            "obj": "Cognizer",
-                            "span": {
-                                "begin": 66,
-                                "end": 68
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 70,
-                                "end": 72
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "iken .意見 "
-                    ],
-                    "ko_annotation_id": 12932,
-                    "text": "서점에 진열될지 모른다고 생각하면 조금 더 사람들의 이목을 끄는 제목으로 할까 생각도 했으나, 아름다운 제목이 낫다는 남편의 의견을 따랐다.",
-                    "sent_id": 3570,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.4998",
-            "examples": [
-                {
-                    "frameName": "Opinion",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 16,
-                                "end": 18
+                                "begin": 36,
+                                "end": 40
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "이루어져"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possessor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 20
+                            },
+                            "text": "경제발전과 고용에 힘쓰는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Resource",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 35
+                            },
+                            "text": "13개국의 민간부문 제휴로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "공보처 장관을 만나 이 같은 의견을 전달했다.",
-                    "target": "의견",
-                    "ko_annotation_id": "sejong.4998",
-                    "relations": []
+                    "sent_id": 4123,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이루어지다.v.Infrastructure",
+                    "text": "우리는 주로 경제발전과 고용에 힘쓰는 13개국의 민간부문 제휴로 이루어져 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 1412,
-    "ko_pos": "NNG",
-    "ko_lu": "의견.n.Opinion",
-    "lu_id": 3774,
-    "en_lus": [
-        "iken .意見 "
     ]
 }

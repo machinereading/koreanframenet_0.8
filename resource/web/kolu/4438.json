@@ -1,38 +1,82 @@
 {
-    "frameName": "Substance",
+    "ko_pos": "v",
+    "ko_lu": "불법화되다.v.Prohibiting_or_licensing",
+    "frameID": 521,
+    "frameName": "Prohibiting_or_licensing",
+    "en_lus": [
+        "outlaw"
+    ],
+    "lu_id": 4438,
     "patterns": [
         {
-            "valenceText": "annotation id: 15353",
+            "valenceText": "annotation id: 16919",
             "examples": [
                 {
-                    "frameName": "Substance",
+                    "origin_lus": [
+                        "outlawed"
+                    ],
+                    "ko_annotation_id": 16919,
+                    "annotation_id": 4170,
+                    "frameName": "Prohibiting_or_licensing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Prohibiting_or_licensing",
                             "span": {
-                                "begin": 48,
-                                "end": 52
+                                "begin": 8,
+                                "end": 14
                             },
-                            "id": "1"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "불법화되거나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "다른 곳에서는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "악덕이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "atropine"
+                    "sent_id": 797,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15353,
-                    "text": "이란이 구매한 다른 방어 자재는 스페인제 방독면, 한국제 보호장비, 그리고 네델란드제 아트로핀 주사를 포함한다.",
-                    "sent_id": 2253,
-                    "relations": [],
-                    "annotation_id": 11283
+                    "lu": "불법화되다.v.Prohibiting_or_licensing",
+                    "text": "다른 곳에서는 불법화되거나 심하게 통제되는 악덕이 여기서는 어느 날 ( 혹은 밤 ) 어느 시간에도 이용가능하며 합법적이었다."
                 }
             ]
         }
-    ],
-    "frameID": 1321,
-    "ko_pos": "NNG",
-    "ko_lu": "아트로핀.n.Substance",
-    "lu_id": 4438,
-    "en_lus": [
-        "atropine"
     ]
 }

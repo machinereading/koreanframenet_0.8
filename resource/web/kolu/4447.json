@@ -1,52 +1,82 @@
 {
-    "frameName": "Locale_by_ownership",
+    "ko_pos": "v",
+    "ko_lu": "참배하다.v.Visiting",
+    "frameID": 1911,
+    "frameName": "Visiting",
+    "en_lus": [
+        "mairu .まいる "
+    ],
+    "lu_id": 4447,
     "patterns": [
         {
-            "valenceText": "annotation id: 15376",
+            "valenceText": "annotation id: 11300",
             "examples": [
                 {
-                    "frameName": "Locale_by_ownership",
+                    "origin_lus": [
+                        "mairu .まいる "
+                    ],
+                    "ko_annotation_id": 11300,
+                    "annotation_id": 0,
+                    "frameName": "Visiting",
                     "denotations": [
                         {
-                            "obj": "descriptor",
+                            "id": 1,
+                            "obj": "Visiting",
                             "span": {
-                                "begin": 42,
-                                "end": 45
+                                "begin": 13,
+                                "end": 18
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "참배하며,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 42,
-                                "end": 45
+                                "begin": 0,
+                                "end": 8
                             },
-                            "id": "1"
+                            "text": "마을 사람들은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "신사를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "land"
-                    ],
-                    "ko_annotation_id": 15376,
-                    "text": "산책로 끝으로 계속 가면, 60 헥타르 ( 150 에이커 ) 보다 더 많은 매립지에 지은 분주한 상업지역인 Tsim Sha Tsui East에 이른다.",
-                    "sent_id": 1158,
+                    "sent_id": 4304,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6073
+                    "lu": "참배하다.v.Visiting",
+                    "text": "마을 사람들은, 신사를 참배하며, 「부디, 좋은 물을 주시옵소서」하고 소원을 빌었단다."
                 }
             ]
         }
-    ],
-    "frameID": 2171,
-    "ko_pos": "NNG",
-    "ko_lu": "매립지.n.Locale_by_ownership",
-    "lu_id": 4447,
-    "en_lus": [
-        "land"
     ]
 }

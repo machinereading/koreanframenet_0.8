@@ -1,179 +1,86 @@
 {
-    "frameName": "Activity_start",
+    "ko_pos": "n",
+    "ko_lu": "조사위원회.n.Scrutiny",
+    "frameID": 31,
+    "frameName": "Scrutiny",
+    "en_lus": [
+        "probe"
+    ],
+    "lu_id": 3224,
     "patterns": [
         {
-            "valenceText": "annotation id: 10944",
+            "valenceText": "annotation id: 14459",
             "examples": [
                 {
-                    "frameName": "Activity_start",
+                    "origin_lus": [
+                        "probe"
+                    ],
+                    "ko_annotation_id": 14459,
+                    "annotation_id": 11062,
+                    "frameName": "Scrutiny",
                     "denotations": [
                         {
-                            "obj": "time",
+                            "id": 1,
+                            "obj": "Scrutiny",
                             "span": {
-                                "begin": 0,
-                                "end": 7
+                                "begin": 104,
+                                "end": 110
                             },
-                            "id": "2"
+                            "token_span": [
+                                26,
+                                27
+                            ],
+                            "role": "TARGET",
+                            "text": "조사를 위한"
                         },
                         {
-                            "obj": "agent",
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                22,
+                                23,
+                                24,
+                                25
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 14
+                                "begin": 89,
+                                "end": 103
                             },
-                            "id": "3"
+                            "text": "시리아에 AKU 분교 설립",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "activity",
+                            "id": 3,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                28,
+                                29
+                            ],
                             "span": {
-                                "begin": 17,
-                                "end": 30
+                                "begin": 111,
+                                "end": 119
                             },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 32,
-                                "end": 35
-                            },
-                            "id": "1"
+                            "text": "공동 실무위원회",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "initiated",
-                        "tyakusyu .着手 "
-                    ],
-                    "ko_annotation_id": 10944,
-                    "text": "1950 년대에, Shah 는 이란의 핵 연구 프로그램을 착수하였고 세기 말 까지 원자력 발전으로부터 23,000 메가와트를 생산하기 위한 야심찬 계획을 발전시켰다.",
-                    "sent_id": 2550,
+                    "sent_id": 2216,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 12745
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 10945",
-            "examples": [
-                {
-                    "frameName": "Activity_start",
-                    "denotations": [
-                        {
-                            "obj": "Activity",
-                            "span": {
-                                "begin": 14,
-                                "end": 25
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 6,
-                                "end": 9
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "initiated",
-                        "tyakusyu .着手 "
-                    ],
-                    "ko_annotation_id": 10945,
-                    "text": "가장 먼저 착수한 것이, 새로운 회사의 설립이었다.",
-                    "sent_id": 3718,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.88965",
-            "examples": [
-                {
-                    "frameName": "Activity_start",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 27,
-                                "end": 32
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "아무런 소식이 없자 몇몇 사람들은 직접 그 일을 착수하기로 결정하였다.",
-                    "target": "착수하기로",
-                    "ko_annotation_id": "sejong.88965",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.88966",
-            "examples": [
-                {
-                    "frameName": "Activity_start",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 26,
-                                "end": 31
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그들이 드디어 그 사건을 분석하기 위한 연구에 착수하였다.",
-                    "target": "착수하였다",
-                    "ko_annotation_id": "sejong.88966",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.88967",
-            "examples": [
-                {
-                    "frameName": "Activity_start",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 21,
-                                "end": 26
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "정부는 홍수가 심각해지자 대책 마련에 착수하였다.",
-                    "target": "착수하였다",
-                    "ko_annotation_id": "sejong.88967",
-                    "relations": []
+                    "lu": "조사위원회.n.Scrutiny",
+                    "text": "2002년에 AKU와 다마스커스 대학은 대학 간 폭넓은 과학, 교육, 그리고 연구 협력, 교수들과 학생들의 교류, 과학적인 세미나 및 교육 과정 편성, 그리고 시리아에 AKU 분교 설립 조사를 위한 공동 실무위원회 형성이 요구되는 상호 과학 협력 협정에 서명하였다."
                 }
             ]
         }
-    ],
-    "frameID": 146,
-    "ko_pos": "VV",
-    "ko_lu": "착수하다.v.Activity_start",
-    "lu_id": 3224,
-    "en_lus": [
-        "initiate",
-        "tyakusyu .着手 "
     ]
 }

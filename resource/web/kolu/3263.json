@@ -1,52 +1,83 @@
 {
-    "frameName": "Text",
+    "ko_pos": "a",
+    "ko_lu": "상관없다.a.Cognitive_connection",
+    "frameID": 720,
+    "frameName": "Cognitive_connection",
+    "en_lus": [
+        "kankee .関係 "
+    ],
+    "lu_id": 3263,
     "patterns": [
         {
-            "valenceText": "annotation id: 11118",
+            "valenceText": "annotation id: 10703",
             "examples": [
                 {
-                    "frameName": "Text",
+                    "origin_lus": [
+                        "kankee .関係 "
+                    ],
+                    "ko_annotation_id": 10703,
+                    "annotation_id": 0,
+                    "frameName": "Cognitive_connection",
                     "denotations": [
                         {
-                            "obj": "use",
+                            "id": 1,
+                            "obj": "Cognitive_connection",
                             "span": {
-                                "begin": 63,
-                                "end": 65
+                                "begin": 56,
+                                "end": 60
                             },
-                            "id": "2"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "상관없는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Concept_1",
+                            "token_span": [
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 66,
-                                "end": 68
+                                "begin": 35,
+                                "end": 42
                             },
-                            "id": "1"
+                            "text": "애착의 정도는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Concept_2",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 55
+                            },
+                            "text": "신차인지, 중고인지와는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "manuals"
-                    ],
-                    "ko_annotation_id": 11118,
-                    "text": "1966년에, 불명확한 이유로, 북한은 화학무기를 위한 도움을 얻기 위해 나중에 소비에트로 돌아섰는데, 대부분이 훈련 교범과 소량의 신경 및 겨자 작용제의 형태였다.",
-                    "sent_id": 2747,
+                    "sent_id": 3960,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 13835
+                    "lu": "상관없다.a.Cognitive_connection",
+                    "text": "게다가, 중고이든 신차이든, 좋아하는 스타일의 자동차를 산다면 애착의 정도는 신차인지, 중고인지와는 상관없는 법이에요."
                 }
             ]
         }
-    ],
-    "frameID": 298,
-    "ko_pos": "NNG",
-    "ko_lu": "교범.n.Text",
-    "lu_id": 3263,
-    "en_lus": [
-        "manual"
     ]
 }

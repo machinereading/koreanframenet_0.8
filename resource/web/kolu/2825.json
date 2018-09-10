@@ -1,38 +1,63 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "n",
+    "ko_lu": "의미.n.Medical_professionals",
+    "frameID": 255,
+    "frameName": "Medical_professionals",
+    "en_lus": [
+        "doctor"
+    ],
+    "lu_id": 2825,
     "patterns": [
         {
-            "valenceText": "annotation id: 9214",
+            "valenceText": "annotation id: 529",
             "examples": [
                 {
-                    "frameName": "Leadership",
+                    "origin_lus": [
+                        "doctor"
+                    ],
+                    "ko_annotation_id": 529,
+                    "annotation_id": 1137,
+                    "frameName": "Medical_professionals",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Medical_professionals",
                             "span": {
-                                "begin": 12,
-                                "end": 15
+                                "begin": 3,
+                                "end": 8
                             },
-                            "id": "1"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "의미에서,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "text": "가정의에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "President"
+                    "sent_id": 209,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 9214,
-                    "text": "Harr_Reed : 의장님  이제 충분한 시간이 지났습니다.",
-                    "sent_id": 1723,
-                    "relations": [],
-                    "annotation_id": 8403
+                    "lu": "의미.n.Medical_professionals",
+                    "text": "이런 의미에서, 선생은 하나의 가정의에 비유될 수 있다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "NN",
-    "ko_lu": "의장님.n.Leadership",
-    "lu_id": 2825,
-    "en_lus": [
-        "President"
     ]
 }

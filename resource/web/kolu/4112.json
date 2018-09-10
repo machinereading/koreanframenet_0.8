@@ -1,52 +1,82 @@
 {
-    "frameName": "Traversing",
+    "ko_pos": "v",
+    "ko_lu": "감지하다.v.Perception_experience",
+    "frameID": 70,
+    "frameName": "Perception_experience",
+    "en_lus": [
+        "kanti .感知 "
+    ],
+    "lu_id": 4112,
     "patterns": [
         {
-            "valenceText": "annotation id: 14149",
+            "valenceText": "annotation id: 11541",
             "examples": [
                 {
-                    "frameName": "Traversing",
+                    "origin_lus": [
+                        "kanti .感知 "
+                    ],
+                    "ko_annotation_id": 11541,
+                    "annotation_id": 0,
+                    "frameName": "Perception_experience",
                     "denotations": [
                         {
-                            "obj": "manner",
+                            "id": 1,
+                            "obj": "Perception_experience",
                             "span": {
-                                "begin": 80,
-                                "end": 83
+                                "begin": 31,
+                                "end": 35
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "감지하면"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Perceiver_Passive",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 80,
-                                "end": 83
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "1"
+                            "text": "박쥐도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 30
+                            },
+                            "text": "날이 저물었음을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ascent"
-                    ],
-                    "ko_annotation_id": 14149,
-                    "text": "2007년 1월 11일에, 중국은 지구 표면 상공으로부터 약 500 마일 궤도에 있는 오래된 기상 위성을 파괴하는 탄도 미사일을 사용함으로써, 직상승 대 위성 ( ASAT ) 무기의 실험을 성공적으로 수행하였다.",
-                    "sent_id": 2131,
+                    "sent_id": 4465,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10622
+                    "lu": "감지하다.v.Perception_experience",
+                    "text": "박쥐도 훌륭한 생물시계를 지니고 있어, 날이 저물었음을 감지하면 동굴에서 나와 먹이를 찾기 시작합니다."
                 }
             ]
         }
-    ],
-    "frameID": 1310,
-    "ko_pos": "NNG",
-    "ko_lu": "직상승.n.Traversing",
-    "lu_id": 4112,
-    "en_lus": [
-        "ascent"
     ]
 }

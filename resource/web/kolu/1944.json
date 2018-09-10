@@ -1,109 +1,82 @@
 {
-    "frameName": "Change_position_on_a_scale",
+    "ko_pos": "v",
+    "ko_lu": "제거하다.v.Destroying",
+    "frameID": 417,
+    "frameName": "Destroying",
+    "en_lus": [
+        "dismantle"
+    ],
+    "lu_id": 1944,
     "patterns": [
         {
-            "valenceText": "annotation id: 6132",
+            "valenceText": "annotation id: 8654",
             "examples": [
                 {
-                    "frameName": "Change_position_on_a_scale",
-                    "denotations": [
-                        {
-                            "obj": "Place",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        },
-                        {
-                            "obj": "Time",
-                            "span": {
-                                "begin": 20,
-                                "end": 25
-                            }
-                        },
-                        {
-                            "obj": "Item",
-                            "span": {
-                                "begin": 27,
-                                "end": 37
-                            }
-                        },
-                        {
-                            "obj": "Final_value",
-                            "span": {
-                                "begin": 39,
-                                "end": 41
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 44,
-                                "end": 51
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "gekigen .激減 "
+                        "dismantled"
                     ],
-                    "ko_annotation_id": 6132,
-                    "text": "일본은 경제 선진국 중 하나이므로, 2020년에 제조업 노종자 인구가 2%까지 급격히 감소할 것으로 예상되고 있습니다.",
-                    "sent_id": 3981,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.101609",
-            "examples": [
-                {
-                    "frameName": "Change_position_on_a_scale",
+                    "ko_annotation_id": 8654,
+                    "annotation_id": 15911,
+                    "frameName": "Destroying",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Destroying",
                             "span": {
-                                "begin": 12,
-                                "end": 16
+                                "begin": 86,
+                                "end": 92
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "요새는 기후의 변화가 급격하다.",
-                    "target": "급격하다",
-                    "ko_annotation_id": "sejong.101609",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.101610",
-            "examples": [
-                {
-                    "frameName": "Change_position_on_a_scale",
-                    "denotations": [
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "제거하였다."
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Destroyer",
+                            "token_span": [
+                                9
+                            ],
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 35,
+                                "end": 39
                             },
-                            "obj": "target"
+                            "text": "남아공은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Undergoer",
+                            "token_span": [
+                                20,
+                                21
+                            ],
+                            "span": {
+                                "begin": 79,
+                                "end": 85
+                            },
+                            "text": "관련 시설을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "급격한 기후의 변화로 인해 마케팅에 차질이 생겨 버렸다.",
-                    "target": "급격한",
-                    "ko_annotation_id": "sejong.101610",
-                    "relations": []
+                    "sent_id": 3058,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "제거하다.v.Destroying",
+                    "text": "미국의 미사일 확산 반대와 인종 격리 정부의 종식에 직면하자, 남아공은 1991년에 미사일 및 우주 발사 프로그램을 포기하고 국제 감시 하에 관련 시설을 제거하였다."
                 }
             ]
         }
-    ],
-    "frameID": 91,
-    "ko_pos": "VA",
-    "ko_lu": "급격하다.a.Change_position_on_a_scale",
-    "lu_id": 1944,
-    "en_lus": [
-        "gekigen .激減 "
     ]
 }

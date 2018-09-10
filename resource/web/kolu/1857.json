@@ -1,74 +1,82 @@
 {
-    "frameName": "Version_sequence",
+    "ko_pos": "v",
+    "ko_lu": "겹치다.v.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "kasaneru .重ねる "
+    ],
+    "lu_id": 1857,
     "patterns": [
         {
-            "valenceText": "annotation id: 5864",
+            "valenceText": "annotation id: 10483",
             "examples": [
                 {
-                    "frameName": "Version_sequence",
+                    "origin_lus": [
+                        "kasaneru .重ねる "
+                    ],
+                    "ko_annotation_id": 10483,
+                    "annotation_id": 0,
+                    "frameName": "Placing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Placing",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 19,
+                                "end": 25
                             },
-                            "id": "1"
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "여러장 겹쳐"
                         },
                         {
-                            "obj": "item",
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 6
+                                "begin": 5,
+                                "end": 7
                             },
-                            "id": "2"
+                            "text": "톱도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "옥강을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "initial"
-                    ],
-                    "ko_annotation_id": 5864,
-                    "text": "초기의 실패에도 불구하고, Siegel의 Flamingo는 마피아의 카지노 침투를 견뎌내며 Siegel보다 오래 생존했다.",
-                    "sent_id": 808,
+                    "sent_id": 3777,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 4220
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.11804",
-            "examples": [
-                {
-                    "frameName": "Version_sequence",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 3,
-                                "end": 5
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "그의 초기의 작품 세계는 사실주의의 영향을 많이 받은 것 같다.",
-                    "target": "초기",
-                    "ko_annotation_id": "sejong.11804",
-                    "relations": []
+                    "lu": "겹치다.v.Placing",
+                    "text": "니시오카 톱도 옛날에는 다 옥강을 여러장 겹쳐 두들겨서 만들었죠."
                 }
             ]
         }
-    ],
-    "frameID": 1960,
-    "ko_pos": "NNG",
-    "ko_lu": "초기.n.Version_sequence",
-    "lu_id": 1857,
-    "en_lus": [
-        "initial"
     ]
 }

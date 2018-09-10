@@ -1,114 +1,115 @@
 {
-    "frameName": "Age",
+    "ko_pos": "v",
+    "ko_lu": "조사하다.v.Research",
+    "frameID": 1152,
+    "frameName": "Research",
+    "en_lus": [
+        "investigate"
+    ],
+    "lu_id": 1731,
     "patterns": [
         {
-            "valenceText": "annotation id: 5425",
+            "valenceText": "annotation id: 3817",
             "examples": [
                 {
-                    "frameName": "Age",
+                    "origin_lus": [
+                        "investigate"
+                    ],
+                    "ko_annotation_id": 3817,
+                    "annotation_id": 7116,
+                    "frameName": "Research",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Research",
+                            "span": {
+                                "begin": 75,
+                                "end": 79
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "조사하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "이라크에서의 4일 동안,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Researcher",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
                                 "begin": 14,
-                                "end": 16
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "entity",
-                            "span": {
-                                "begin": 17,
-                                "end": 24
-                            },
-                            "id": "2"
-                        }
-                    ],
-                    "origin_lus": [
-                        "newest"
-                    ],
-                    "ko_annotation_id": 5425,
-                    "text": "Fort Detrick의 최신 생체방어 센터의 생물학자들은 이미 있는 것보다 훨씬 더 위험한 세계에서 가장 치명적인 미생물의 일부를 만들도록 요청받을지도 모른다.",
-                    "sent_id": 3207,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 16802
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 5426",
-            "examples": [
-                {
-                    "frameName": "Age",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 17,
                                 "end": 19
                             },
-                            "id": "1"
+                            "text": "Hall은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "entity",
+                            "id": 4,
+                            "obj": "Topic",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 29
+                                "begin": 20,
+                                "end": 74
                             },
-                            "id": "2"
+                            "text": "이라크 어린이들의 1 / 4 이 만성 영양실조로 고통을 겪을지 모른다는 구호 단체로 부터의 보고를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "newest"
-                    ],
-                    "ko_annotation_id": 5426,
-                    "text": "땅 투기꾼과 지역민들은 똑같이 최신의 철로 신흥 도시의 일부를 소유하려고 안달하였고 오후에 부지의 80 % 이상이 팔렸다.",
-                    "sent_id": 775,
+                    "sent_id": 1497,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 4049
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41495",
-            "examples": [
-                {
-                    "frameName": "Age",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 16,
-                                "end": 18
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "이 사이트는 컴퓨터와 관련된 최신의 정보를 소개하는 사이트다.",
-                    "target": "최신",
-                    "ko_annotation_id": "sejong.41495",
-                    "relations": []
+                    "lu": "조사하다.v.Research",
+                    "text": "이라크에서의 4일 동안, Hall은 이라크 어린이들의 1 / 4 이 만성 영양실조로 고통을 겪을지 모른다는 구호 단체로 부터의 보고를 조사하기 원했다고 말하였다."
                 }
             ]
         }
-    ],
-    "frameID": 972,
-    "ko_pos": "NNG",
-    "ko_lu": "최신.n.Age",
-    "lu_id": 1731,
-    "en_lus": [
-        "newest"
     ]
 }

@@ -1,110 +1,96 @@
 {
-    "frameName": "Recovery",
+    "ko_pos": "v",
+    "ko_lu": "얻다.v.Conquering",
+    "frameID": 2021,
+    "frameName": "Conquering",
+    "en_lus": [
+        "capture"
+    ],
+    "lu_id": 2720,
     "patterns": [
         {
-            "valenceText": "annotation id: 8865",
+            "valenceText": "annotation id: 676",
             "examples": [
                 {
-                    "frameName": "Recovery",
+                    "origin_lus": [
+                        "captured"
+                    ],
+                    "ko_annotation_id": 676,
+                    "annotation_id": 1429,
+                    "frameName": "Conquering",
                     "denotations": [
                         {
-                            "obj": "affliction",
+                            "id": 1,
+                            "obj": "Conquering",
                             "span": {
-                                "begin": 32,
-                                "end": 41
+                                "begin": 115,
+                                "end": 119
                             },
-                            "id": "2"
+                            "token_span": [
+                                28
+                            ],
+                            "role": "TARGET",
+                            "text": "얻었다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Conqueror",
+                            "token_span": [
+                                11
+                            ],
                             "span": {
-                                "begin": 45,
-                                "end": 48
+                                "begin": 49,
+                                "end": 53
                             },
-                            "id": "1"
+                            "text": "공화당은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "patient",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24,
+                                25,
+                                26,
+                                27
+                            ],
                             "span": {
-                                "begin": 53,
-                                "end": 55
+                                "begin": 54,
+                                "end": 114
                             },
-                            "id": "3"
+                            "text": "의회 의석이나 국회의원에 대한 일반 투표에서 보다 대통령에 대한 다수당의 일반 투표에서 더 많은 비율의 표를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "recover"
-                    ],
-                    "ko_annotation_id": 8865,
-                    "text": "이라크는 전쟁 종료 이후 경제적 제재 하에 있었고, 이는 폭격 작전의 황폐로부터 회복하기 위한 나라의 능력을 좌절시켰다고 누군가가 말하고 있다.",
-                    "sent_id": 1486,
+                    "sent_id": 263,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 7047
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.80767",
-            "examples": [
-                {
-                    "frameName": "Recovery",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 4,
-                                "end": 8
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "피로를 회복하는 데는 충분한 수면이 최고다.",
-                    "target": "회복하는",
-                    "ko_annotation_id": "sejong.80767",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.80766",
-            "examples": [
-                {
-                    "frameName": "Recovery",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 11,
-                                "end": 16
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "한 번 잃은 건강을 회복하기란 쉽지 않다.",
-                    "target": "회복하기란",
-                    "ko_annotation_id": "sejong.80766",
-                    "relations": []
+                    "lu": "얻다.v.Conquering",
+                    "text": "지난 반 세기에 걸친 모든 대통령 선거에서, 대통령 후보 Goldwater를 제외하고, 공화당은 의회 의석이나 국회의원에 대한 일반 투표에서 보다 대통령에 대한 다수당의 일반 투표에서 더 많은 비율의 표를 얻었다."
                 }
             ]
         }
-    ],
-    "frameID": 51,
-    "ko_pos": "VV",
-    "ko_lu": "회복하다.v.Recovery",
-    "lu_id": 2720,
-    "en_lus": [
-        "recover",
-        "recover.v.910"
     ]
 }

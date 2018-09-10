@@ -1,52 +1,81 @@
 {
-    "frameName": "Color",
+    "ko_pos": "a",
+    "ko_lu": "관대하다.a.Strictness",
+    "frameID": 75,
+    "frameName": "Strictness",
+    "en_lus": [
+        "lenient"
+    ],
+    "lu_id": 3330,
     "patterns": [
         {
-            "valenceText": "annotation id: 11323",
+            "valenceText": "annotation id: 5179",
             "examples": [
                 {
-                    "frameName": "Color",
+                    "origin_lus": [
+                        "lenient"
+                    ],
+                    "ko_annotation_id": 5179,
+                    "annotation_id": 9332,
+                    "frameName": "Strictness",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Strictness",
                             "span": {
-                                "begin": 30,
-                                "end": 33
+                                "begin": 66,
+                                "end": 68
                             },
-                            "id": "1"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "가장"
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                17
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 33
+                                "begin": 61,
+                                "end": 65
                             },
-                            "id": "2"
+                            "text": "알다시피",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                21
+                            ],
+                            "span": {
+                                "begin": 78,
+                                "end": 82
+                            },
+                            "text": "생각하는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "White"
-                    ],
-                    "ko_annotation_id": 11323,
-                    "text": "Ed_Hnery : 민주당 대표 Harry Reed는 백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을 조사하지 못했다고 공화당원들을 비난하였다.",
-                    "sent_id": 1725,
+                    "sent_id": 1926,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8415
+                    "lu": "관대하다.a.Strictness",
+                    "text": "나는 배심원단 제도가 그것을 막을지 모르지만 그 제도는 유리한 점이 있는 것같고, 그러나 나는 또한 때때로  알다시피 가장 관대할 것이라고 생각하는 배심원들을 고르기 전에 삼백 명의 배심원을 인터뷰하는 재판에 관해 들었다."
                 }
             ]
         }
-    ],
-    "frameID": 423,
-    "ko_pos": "NN",
-    "ko_lu": "백악관.n.Color",
-    "lu_id": 3330,
-    "en_lus": [
-        "White"
     ]
 }

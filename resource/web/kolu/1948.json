@@ -1,66 +1,1772 @@
 {
-    "frameName": "Diversity",
+    "ko_pos": "v",
+    "ko_lu": "판매하다.v.Commerce_sell",
+    "frameID": 172,
+    "frameName": "Commerce_sell",
+    "en_lus": [
+        "sale",
+        "sell",
+        "hanbai .販売 "
+    ],
+    "lu_id": 1948,
     "patterns": [
         {
-            "valenceText": "annotation id: 6160",
+            "valenceText": "annotation id: 1977",
             "examples": [
                 {
-                    "frameName": "Diversity",
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 1977,
+                    "annotation_id": 4037,
+                    "frameName": "Commerce_sell",
                     "denotations": [
                         {
-                            "obj": "Group",
+                            "id": 1,
+                            "obj": "Commerce_sell",
                             "span": {
-                                "begin": 65,
-                                "end": 67
-                            }
+                                "begin": 25,
+                                "end": 30
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "판매하였다"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 61,
-                                "end": 63
-                            }
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "text": "부지를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "samazama .さまざま "
+                    "sent_id": 773,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6160,
-                    "text": "지리적인 면에서는 지구 전체에 걸쳐서, 분야적인 면에서는 산업 전반에 걸쳐서, 주제 면에서는 우리가 관여하는 수많은 분야에 걸쳐서, 이 문제를 생각하지 않으면 안됩니다.",
-                    "sent_id": 4533,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "1905년 5월 15일에 철로는 부지를 염가 판매하였다 -- 이는 라스 베이거스 역사에서 중대한 단계이다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.100530",
+            "valenceText": "annotation id: 3479",
             "examples": [
                 {
-                    "frameName": "Diversity",
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 3479,
+                    "annotation_id": 6563,
+                    "frameName": "Commerce_sell",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 22,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "판매하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "text": "러시아는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 21
+                            },
+                            "text": "핵.생물.화학 무기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1311,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "QN : 러시아는 핵.생물.화학 무기를 판매하고 있나 ?"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 3661",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sold"
+                    ],
+                    "ko_annotation_id": 3661,
+                    "annotation_id": 6851,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "판매한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "원심 분리기를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Buyer",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "text": "북한에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Seller",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 32
+                            },
+                            "text": "Khan이었다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1404,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "부시는 원심 분리기를 북한에 판매한 사람은 Khan이었다고 말하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 3665",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 3665,
+                    "annotation_id": 6854,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "판매했다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "Khan이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Buyer",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "text": "북한에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goods",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 21
+                            },
+                            "text": "원심 분리기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1406,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "부시는 Khan이 북한에 원심 분리기를 판매했다고 말하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6210",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 6210,
+                    "annotation_id": 11227,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 36,
+                                "end": 41
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "판매한다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "독일이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Buyer",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "text": "이란에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goods",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 35
+                            },
+                            "text": "이중용도 물질과 기술을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2243,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "미국은 1980 년대 내내 독일이 이란에 이중용도 물질과 기술을 판매한다고 비난하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6217",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 6217,
+                    "annotation_id": 11242,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 60,
+                                "end": 65
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "판매하였고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 23
+                            },
+                            "text": "인도의 국가무역회사는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 53
+                            },
+                            "text": "60 톤 이상의 염화오닐 ( 신경 작용제 전구물질 )",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Buyer",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 59
+                            },
+                            "text": "이란에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2246,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "또한 1989 년에, 인도의 국가무역회사는 60 톤 이상의 염화오닐 ( 신경 작용제 전구물질 ) 을 이란에 판매하였고 이것의 보급자는 이란에 추가적으로 257 톤의 화학물질을 선적할 계획이었다는 것을 시인하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6226",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 6226,
+                    "annotation_id": 11266,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 28,
+                                "end": 33
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "판매하기로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "중국은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 23
+                            },
+                            "text": "500톤의 5황화인을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Buyer",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "이란에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2250,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "소문에 의하면 중국은 500톤의 5황화인을 이란에 판매하기로 합의하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6244",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 6244,
+                    "annotation_id": 11289,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 91,
+                                "end": 97
+                            },
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "판매하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "text": "중국은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 86
+                            },
+                            "text": "거의 400 미터톤의 이황화탄소, 신경 및 폭동진압 전구물질을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Buyer",
+                            "token_span": [
+                                20
+                            ],
+                            "span": {
+                                "begin": 87,
+                                "end": 90
+                            },
+                            "text": "이란에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2255,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "1996년 10월 2일자 일급 비밀 중앙정보부 보고를 인용한 미국 신문기사에 의하면, 중국은 거의 400 미터톤의 이황화탄소, 신경 및 폭동진압 전구물질을 이란에 판매하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6248",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 6248,
+                    "annotation_id": 11292,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 44,
+                                "end": 48
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "판매하여"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 21
+                            },
+                            "text": "추가의 중국 회사 2개가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Buyer",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "text": "이란에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goods",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 43
+                            },
+                            "text": "화학무기 관련 전구물질과 장비를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2256,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "1997년에, 추가의 중국 회사 2개가 이란에 화학무기 관련 전구물질과 장비를 판매하여 미 국무성의 제재를 받았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6681",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sold"
+                    ],
+                    "ko_annotation_id": 6681,
+                    "annotation_id": 12218,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "판매한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 42
+                            },
+                            "text": "소비에트가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 46
+                            },
+                            "text": "종전에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goods",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 54
+                            },
+                            "text": "스커드-Bs를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Buyer",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 59,
+                                "end": 67
+                            },
+                            "text": "다른 국가들과는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2425,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "소비에트 연방은 당시 이라크에 스커드-B를 공급하고 있었고 그리고 소비에트가 종전에 스커드-Bs를 판매한 다른 국가들과는 이것들을 제3자에 이전하지 않도록 계약 중에 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6729",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 6729,
+                    "annotation_id": 12302,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 39,
+                                "end": 43
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "판매하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 38
+                            },
+                            "text": "이란제 미사일을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2447,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "두 나라에서, Hashemi - Rafsanjani는 이란제 미사일을 판매하고 쌍무적인 미사일 기술 교환을 하기 위한 증가된 군사 지원과 협정을 확보하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 8146",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sell"
+                    ],
+                    "ko_annotation_id": 8146,
+                    "annotation_id": 14884,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 58,
+                                "end": 61
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "판매할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "text": "북한이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 57
+                            },
+                            "text": "핵물질, 기술, 혹은 완성된 핵무기를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2906,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "많은 분석가들은 또한 평양의 탄도 미사일 수출 기록은 북한이 또한 핵물질, 기술, 혹은 완성된 핵무기를 판매할 의지가 있다는 것을 나타낸다고 주장한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9810",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sold"
+                    ],
+                    "ko_annotation_id": 9810,
+                    "annotation_id": 18211,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 24,
+                                "end": 30
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "판매하였다는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "obj": "target"
+                            "text": "중국은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Buyer",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "이란에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goods",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 23
+                            },
+                            "text": "전자 분리기와 소형 원자로를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "수많은 인파 속에서 그 사람을 찾기란 쉽지 않다.",
-                    "target": "수많은",
-                    "ko_annotation_id": "sejong.100530",
-                    "relations": []
+                    "sent_id": 3458,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "중국은 이란에 전자 분리기와 소형 원자로를 판매하였다는 것을 확인해 주었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9869",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sell"
+                    ],
+                    "ko_annotation_id": 9869,
+                    "annotation_id": 18294,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "판매할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 26
+                            },
+                            "text": "카자흐스탄이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Buyer",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "이란에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goods",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 40
+                            },
+                            "text": "핵 탄도 미사일을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3479,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "1월 29일, 카자흐스탄 외무장관은 카자흐스탄이 이란에 핵 탄도 미사일을 판매할 계획이었다는 보도들을 부인한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11782",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 11782,
+                    "annotation_id": 0,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "판매하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "text": "상대방은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 25
+                            },
+                            "text": "A+b+C로 이루어진 제품을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4626,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "그런데, 상대방은 A+b+C로 이루어진 제품을 제조 판매하고 있습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14510",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 14510,
+                    "annotation_id": 11255,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 52,
+                                "end": 57
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "5황화인을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "인도는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 50
+                            },
+                            "text": "신경 작용제 VX 뿐만 아니라 살충제 생산에 사용되는 군민 양용 화학물질인, ",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Buyer",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 51,
+                                "end": 51
+                            },
+                            "text": "",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2248,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "인도는 또한 신경 작용제 VX 뿐만 아니라 살충제 생산에 사용되는 군민 양용 화학물질인,   5황화인을 이란에 판매하기로 합의하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14545",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 14545,
+                    "annotation_id": 11452,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 83,
+                                "end": 88
+                            },
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "화학물질을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "text": "중국은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Buyer",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "text": "이란에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goods",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 82
+                            },
+                            "text": "신경 작용제와 폭동진압 가스를 만드는데 사용되는 거의 400  미터톤의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2284,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "일급 비밀 중앙정보부 보고를 인용한 미국 언론 보도에 의하면, 중국은 이란에 신경 작용제와 폭동진압 가스를 만드는데 사용되는 거의 400  미터톤의 화학물질을 판매하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15362",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hanbai .販売 ",
+                        "sale",
+                        "sell",
+                        "selling",
+                        "sold"
+                    ],
+                    "ko_annotation_id": 15362,
+                    "annotation_id": 14916,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 86,
+                                "end": 91
+                            },
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "판매하려고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "text": "북한은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 62,
+                                "end": 81
+                            },
+                            "text": "핵물질, 기술, 또는 완성된 핵무기",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2911,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "한국과 미국에 대한 북한의 동기에 관계없이, 평양의 탄도 미사일과 미사일 생산 기술의 수출 기록은 북한은 또한 핵물질, 기술, 또는 완성된 핵무기 까지도 판매하려고 할 수 있다는 것을 나타낸다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15919",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sold"
+                    ],
+                    "ko_annotation_id": 15919,
+                    "annotation_id": 17904,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "판매한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "미국이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "text": "같은 시기에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Buyer",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "text": "이란에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Goods",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 41
+                            },
+                            "text": "5 메가와트 연구용 원자로와",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3378,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "이들 핫셀은 미국이 같은 시기에 이란에 판매한 5 메가와트 연구용 원자로와 결합하여 들어왔다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15959",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sold"
+                    ],
+                    "ko_annotation_id": 15959,
+                    "annotation_id": 18093,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "판매하였을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Seller",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "미국 회사의 독일 자회사는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Buyer",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "이란에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goods",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 29
+                            },
+                            "text": "레이저 농축 장비를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3427,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판매하다.v.Commerce_sell",
+                    "text": "미국 회사의 독일 자회사는 이란에 레이저 농축 장비를 판매하였을 것이라고 보도되었다."
                 }
             ]
         }
-    ],
-    "frameID": 1893,
-    "ko_pos": "VA",
-    "ko_lu": "수많다.a.Diversity",
-    "lu_id": 1948,
-    "en_lus": [
-        "samazama .さまざま "
     ]
 }

@@ -1,52 +1,85 @@
 {
-    "frameName": "Capability",
+    "ko_pos": "n",
+    "ko_lu": "출신.n.Membership",
+    "frameID": 1026,
+    "frameName": "Membership",
+    "en_lus": [
+        "member"
+    ],
+    "lu_id": 5238,
     "patterns": [
         {
-            "valenceText": "annotation id: 18454",
+            "valenceText": "annotation id: 15121",
             "examples": [
                 {
-                    "frameName": "Capability",
+                    "origin_lus": [
+                        "members"
+                    ],
+                    "ko_annotation_id": 15121,
+                    "annotation_id": 13872,
+                    "frameName": "Membership",
                     "denotations": [
                         {
-                            "obj": "event",
+                            "id": 1,
+                            "obj": "Membership",
                             "span": {
-                                "begin": 49,
-                                "end": 77
+                                "begin": 88,
+                                "end": 91
                             },
-                            "id": "2"
+                            "token_span": [
+                                25
+                            ],
+                            "role": "TARGET",
+                            "text": "출신을"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Group",
+                            "token_span": [
+                                19,
+                                20,
+                                21,
+                                22,
+                                23
+                            ],
                             "span": {
-                                "begin": 75,
-                                "end": 77
+                                "begin": 65,
+                                "end": 84
                             },
-                            "id": "1"
+                            "text": "북한군 및 핵.생물.화학 방어 기구",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Standing",
+                            "token_span": [
+                                24
+                            ],
+                            "span": {
+                                "begin": 85,
+                                "end": 87
+                            },
+                            "text": "종전",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "able"
-                    ],
-                    "ko_annotation_id": 18454,
-                    "text": "Dr _Gupto : 다른 한편으로 공중 보건 시스템을 기본적으로 완전히 개혁하기 위해 지금 이야기 되고 있는 것을 초안하고 실행하기 위해서는 일련의 조류독감이 정확하게 언제 발생할 것인지를 정확히 알아낼 수 있도록 하기 위해 지역 공무원들이 주 공무원들에게 그리고 그들이 또 연방 공무원들에게 이야기 할 수 있어야 하는데 그것은 아마도 많은 돈이 들고 보건 위생 시스템을 완전히 개혁해야 할 지도 모른다.",
-                    "sent_id": 1761,
+                    "sent_id": 2752,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8558
+                    "lu": "출신.n.Membership",
+                    "text": "한국 국방부 ( MND ) 에 의한 북한의 화학 무기의 최근 예측량은 그 이후 수 천톤으로 증가하였고, 이는 아마도 북한군 및 핵.생물.화학 방어 기구 종전 출신을 포함한 탈북자들이 제공한 최근 정보에 기초를 둔 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 990,
-    "ko_pos": "VV",
-    "ko_lu": "위하다.v.Capability",
-    "lu_id": 5238,
-    "en_lus": [
-        "able"
     ]
 }

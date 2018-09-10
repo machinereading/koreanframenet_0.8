@@ -1,120 +1,82 @@
 {
-    "frameName": "Repel",
+    "ko_pos": "n",
+    "ko_lu": "스승.n.Education_teaching",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "en_lus": [
+        "si .師"
+    ],
+    "lu_id": 1482,
     "patterns": [
         {
-            "valenceText": "annotation id: 4732",
+            "valenceText": "annotation id: 11549",
             "examples": [
                 {
-                    "frameName": "Repel",
-                    "denotations": [
-                        {
-                            "obj": "Defender",
-                            "span": {
-                                "begin": 11,
-                                "end": 13
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 15,
-                                "end": 17
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "teekoo .抵抗 "
+                        "si .師"
                     ],
-                    "ko_annotation_id": 4732,
-                    "text": "결국, 남자의 힘이 여자의 저항을 이겼고, 나는 그녀를 성폭행했다.",
-                    "sent_id": 4205,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 4733",
-            "examples": [
-                {
-                    "frameName": "Repel",
+                    "ko_annotation_id": 11549,
+                    "annotation_id": 0,
+                    "frameName": "Education_teaching",
                     "denotations": [
                         {
-                            "obj": "Enemy",
+                            "id": 1,
+                            "obj": "Education_teaching",
                             "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "스승이"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Student",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "teekoo .抵抗 "
-                    ],
-                    "ko_annotation_id": 4733,
-                    "text": "저항이 나를 점점 더 부채질했다.",
-                    "sent_id": 4215,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.24608",
-            "examples": [
-                {
-                    "frameName": "Repel",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 7,
                                 "end": 9
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "적군의 거센 저항에 아군의 힘이 와해되었다.",
-                    "target": "저항",
-                    "ko_annotation_id": "sejong.24608",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.24609",
-            "examples": [
-                {
-                    "frameName": "Repel",
-                    "denotations": [
+                            "text": "동양의 제자들은,",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Teacher",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 10,
+                                "end": 13
                             },
-                            "id": "1"
+                            "text": "스승이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "우리의 끈질긴 저항이 오늘의 해방을 낳았다.",
-                    "target": "저항",
-                    "ko_annotation_id": "sejong.24609",
-                    "relations": []
+                    "sent_id": 4473,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "스승.n.Education_teaching",
+                    "text": "동양의 제자들은, 스승이 원하던 바를 알고 있었기에, 그 해 초겨울에 교토의 치안을 담당하던 쇼시다이에게 해부를 신청했다."
                 }
             ]
         }
-    ],
-    "frameID": 2026,
-    "ko_pos": "NNG",
-    "ko_lu": "저항.n.Repel",
-    "lu_id": 1482,
-    "en_lus": [
-        "teekoo .抵抗 "
     ]
 }

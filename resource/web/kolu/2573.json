@@ -1,147 +1,100 @@
 {
-    "frameName": "Vehicle",
+    "ko_pos": "v",
+    "ko_lu": "팽개치다.v.Cause_motion",
+    "frameID": 55,
+    "frameName": "Cause_motion",
+    "en_lus": [
+        "threw"
+    ],
+    "lu_id": 2573,
     "patterns": [
         {
-            "valenceText": "annotation id: 8485",
+            "valenceText": "annotation id: 448",
             "examples": [
                 {
-                    "frameName": "Vehicle",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 18,
-                                "end": 21
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "ferry",
-                        "Ferry",
-                        "ferries"
+                        "threw"
                     ],
-                    "ko_annotation_id": 8485,
-                    "text": "서쪽 멀리에는 외딴 섬으로 가는 연락선 터미널이 있다.",
-                    "sent_id": 1044,
-                    "relations": [],
-                    "annotation_id": 5465
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 8486",
-            "examples": [
-                {
-                    "frameName": "Vehicle",
+                    "ko_annotation_id": 448,
+                    "annotation_id": 959,
+                    "frameName": "Cause_motion",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Cause_motion",
                             "span": {
-                                "begin": 6,
-                                "end": 9
+                                "begin": 46,
+                                "end": 50
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "ferry",
-                        "Ferry",
-                        "ferries"
-                    ],
-                    "ko_annotation_id": 8486,
-                    "text": "Macau 연락선 터미널 반대편에서 당신은 서부 시장 ( 오전 10시 - 오후 7시 ) 을 발견할 것이다.",
-                    "sent_id": 1092,
-                    "relations": [],
-                    "annotation_id": 5705
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 8487",
-            "examples": [
-                {
-                    "frameName": "Vehicle",
-                    "denotations": [
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "팽개쳤고"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 19
+                                "begin": 30,
+                                "end": 37
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "ferry",
-                        "Ferry",
-                        "ferries"
-                    ],
-                    "ko_annotation_id": 8487,
-                    "text": "민간 투자는 점점 더 최신의 연락선이 지나가는 것을 가능케 하였다.",
-                    "sent_id": 615,
-                    "relations": [],
-                    "annotation_id": 3290
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 8488",
-            "examples": [
-                {
-                    "frameName": "Vehicle",
-                    "denotations": [
+                            "text": "다음의 진동이",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 59,
-                                "end": 62
+                                "begin": 38,
+                                "end": 40
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "ferry",
-                        "Ferry",
-                        "ferries"
-                    ],
-                    "ko_annotation_id": 8488,
-                    "text": "홍콩은 집중적인 장외 경마 도박 시스템 뿐만 아니라 두 개의 주요 경마장이 있고, 주말마다 마카오로 가는 연락선은 카지노로 가는 사람들로 붐빈다.",
-                    "sent_id": 878,
-                    "relations": [],
-                    "annotation_id": 4559
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.43894",
-            "examples": [
-                {
-                    "frameName": "Vehicle",
-                    "denotations": [
+                            "text": "나를",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 4,
+                            "obj": "Area",
+                            "token_span": [
+                                9
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 9
+                                "begin": 41,
+                                "end": 45
                             },
-                            "id": "1"
+                            "text": "공중으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그 섬에는 연락선이 하루에 두 번 운행된다.",
-                    "target": "연락선",
-                    "ko_annotation_id": "sejong.43894",
-                    "relations": []
+                    "sent_id": 169,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "팽개치다.v.Cause_motion",
+                    "text": "우리는 Mame을 잡으려고 집안으로 뛰어들었으나, 그 다음의 진동이 나를 공중으로 팽개쳤고 그리고 내가 일어서려고 하자 나를 튕겨버렸다."
                 }
             ]
         }
-    ],
-    "frameID": 429,
-    "ko_pos": "NN",
-    "ko_lu": "연락선.n.Vehicle",
-    "lu_id": 2573,
-    "en_lus": [
-        "Ferry",
-        "ferry"
     ]
 }

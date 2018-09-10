@@ -1,59 +1,132 @@
 {
-    "frameName": "Businesses",
+    "ko_pos": "v",
+    "ko_lu": "늙다.v.Age",
+    "frameID": 972,
+    "frameName": "Age",
+    "en_lus": [
+        "old"
+    ],
+    "lu_id": 5139,
     "patterns": [
         {
-            "valenceText": "annotation id: 18088",
+            "valenceText": "annotation id: 390",
             "examples": [
                 {
-                    "frameName": "Businesses",
+                    "origin_lus": [
+                        "old"
+                    ],
+                    "ko_annotation_id": 390,
+                    "annotation_id": 802,
+                    "frameName": "Age",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Age",
                             "span": {
-                                "begin": 6,
-                                "end": 9
-                            }
+                                "begin": 59,
+                                "end": 61
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "늙은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "text": "여자와",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "keeee .経営"
+                    "sent_id": 139,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18088,
-                    "text": "그것은 공동경영자로서의 지혜다.",
-                    "sent_id": 3604,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "늙다.v.Age",
+                    "text": "오전 1시 11분 RD : 모퉁이에 있는 건물은 심하게 파괴되었고, 그래서 한 나이든 여자와 그녀의 아주 늙은 어머니가 객실에 있다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.23625",
+            "valenceText": "annotation id: 391",
             "examples": [
                 {
-                    "frameName": "Businesses",
+                    "origin_lus": [
+                        "old"
+                    ],
+                    "ko_annotation_id": 391,
+                    "annotation_id": 802,
+                    "frameName": "Age",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Age",
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 59,
+                                "end": 61
                             },
-                            "id": "1"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "늙은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 58
+                            },
+                            "text": "아주",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 62,
+                                "end": 66
+                            },
+                            "text": "어머니가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 우수한 경영자로 알려져 있다.",
-                    "target": "경영자",
-                    "ko_annotation_id": "sejong.23625",
-                    "relations": []
+                    "sent_id": 139,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "늙다.v.Age",
+                    "text": "오전 1시 11분 RD : 모퉁이에 있는 건물은 심하게 파괴되었고, 그래서 한 나이든 여자와 그녀의 아주 늙은 어머니가 객실에 있다."
                 }
             ]
         }
-    ],
-    "frameID": 365,
-    "ko_pos": "NN",
-    "ko_lu": "경영자.n.Businesses",
-    "lu_id": 5139,
-    "en_lus": [
-        "keeee .経営"
     ]
 }

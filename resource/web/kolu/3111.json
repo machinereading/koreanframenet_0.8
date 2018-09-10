@@ -1,58 +1,82 @@
 {
-    "frameName": "Perception_active",
+    "ko_pos": "n",
+    "ko_lu": "시계.n.Accoutrements",
+    "frameID": 158,
+    "frameName": "Accoutrements",
+    "en_lus": [
+        "tokee .時計 "
+    ],
+    "lu_id": 3111,
     "patterns": [
         {
-            "valenceText": "annotation id: 10371",
+            "valenceText": "annotation id: 11538",
             "examples": [
                 {
-                    "frameName": "Perception_active",
+                    "origin_lus": [
+                        "tokee .時計 "
+                    ],
+                    "ko_annotation_id": 11538,
+                    "annotation_id": 0,
+                    "frameName": "Accoutrements",
                     "denotations": [
                         {
-                            "obj": "Perceiver_agentive",
+                            "id": 1,
+                            "obj": "Accoutrements",
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "생물시계를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Wearer",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 4
-                            }
+                                "end": 3
+                            },
+                            "text": "박쥐도",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Manner",
+                            "id": 3,
+                            "obj": "Accoutrement",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 23,
-                                "end": 25
-                            }
-                        },
-                        {
-                            "obj": "Phenomenon",
-                            "span": {
-                                "begin": 27,
-                                "end": 29
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 31,
-                                "end": 34
-                            }
+                                "begin": 4,
+                                "end": 13
+                            },
+                            "text": "훌륭한 생물시계를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "aziwau .味わう "
+                    "sent_id": 4465,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 10371,
-                    "text": "요시유키는, 거래도 일본도 잊어버린 채, 멍하니 커피를 음미하고 있었다.",
-                    "sent_id": 4631,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "시계.n.Accoutrements",
+                    "text": "박쥐도 훌륭한 생물시계를 지니고 있어, 날이 저물었음을 감지하면 동굴에서 나와 먹이를 찾기 시작합니다."
                 }
             ]
         }
-    ],
-    "frameID": 66,
-    "ko_pos": "VV",
-    "ko_lu": "음미하다.v.Perception_active",
-    "lu_id": 3111,
-    "en_lus": [
-        "aziwau .味わう "
     ]
 }

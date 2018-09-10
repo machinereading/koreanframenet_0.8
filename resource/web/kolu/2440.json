@@ -1,65 +1,63 @@
 {
-    "frameName": "Causation",
+    "ko_pos": "n",
+    "ko_lu": "농부.n.People_by_vocation",
+    "frameID": 1071,
+    "frameName": "People_by_vocation",
+    "en_lus": [
+        "farmer"
+    ],
+    "lu_id": 2440,
     "patterns": [
         {
-            "valenceText": "annotation id: 7996",
+            "valenceText": "annotation id: 13228",
             "examples": [
                 {
-                    "frameName": "Causation",
+                    "origin_lus": [
+                        "farmer"
+                    ],
+                    "ko_annotation_id": 13228,
+                    "annotation_id": 3981,
+                    "frameName": "People_by_vocation",
                     "denotations": [
                         {
-                            "obj": "cause",
+                            "id": 1,
+                            "obj": "People_by_vocation",
                             "span": {
-                                "begin": 12,
-                                "end": 15
+                                "begin": 31,
+                                "end": 34
                             },
-                            "id": "3"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "농부에"
                         },
                         {
-                            "obj": "effect",
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 17,
-                                "end": 22
+                                "begin": 28,
+                                "end": 30
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 26,
-                                "end": 27
-                            },
-                            "id": "1"
+                            "text": "이웃",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "lead"
-                    ],
-                    "ko_annotation_id": 7996,
-                    "text": "그것들이 사실이라면, 그것들은 탄핵 절차로까지 갈 수 있다는 것은 의문의 여지가 없다. \"",
-                    "sent_id": 1010,
+                    "sent_id": 760,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5309
+                    "lu": "농부.n.People_by_vocation",
+                    "text": "거친 서부의 고정관념에 부합해서, Stewart는 이웃 농부에 의해 살해되었고, 그의 강인한 의지를 가진 부인 Helen이 그 목장의 임무를 맡게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 5,
-    "ko_pos": "VV",
-    "ko_lu": "가다.v.Causation",
-    "lu_id": 2440,
-    "en_lus": [
-        "lead"
     ]
 }

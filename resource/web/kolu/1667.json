@@ -1,65 +1,87 @@
 {
-    "frameName": "Traversing",
+    "ko_pos": "n",
+    "ko_lu": "경매.n.Commerce_sell",
+    "frameID": 172,
+    "frameName": "Commerce_sell",
+    "en_lus": [
+        "auction"
+    ],
+    "lu_id": 1667,
     "patterns": [
         {
-            "valenceText": "annotation id: 5180",
+            "valenceText": "annotation id: 13505",
             "examples": [
                 {
-                    "frameName": "Traversing",
+                    "origin_lus": [
+                        "auction"
+                    ],
+                    "ko_annotation_id": 13505,
+                    "annotation_id": 5978,
+                    "frameName": "Commerce_sell",
                     "denotations": [
                         {
-                            "obj": "path",
+                            "id": 1,
+                            "obj": "Commerce_sell",
                             "span": {
-                                "begin": 0,
-                                "end": 22
+                                "begin": 48,
+                                "end": 51
                             },
-                            "id": "3"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "경매에"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 26
+                                "begin": 22,
+                                "end": 42
                             },
-                            "id": "1"
+                            "text": "넓은 지역 도매 생선 시장에서 열리는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "theme",
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 45,
+                                "begin": 43,
                                 "end": 47
                             },
-                            "id": "2"
+                            "text": "새벽 전",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "crossing"
-                    ],
-                    "ko_annotation_id": 5180,
-                    "text": "Richmond-San Rafael 다리를 건너기 전에 Chevron 정유공장을 내가 지날 때 지독한 가스 냄새가 있었다.",
-                    "sent_id": 133,
+                    "sent_id": 1137,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 781
+                    "lu": "경매.n.Commerce_sell",
+                    "text": "당신이 충분히 일찍 일어날 수 있다면, 넓은 지역 도매 생선 시장에서 열리는 새벽 전 경매에 참석할 수 있다 ; 그렇지 않으면, 나중에 낮에 여는 거리 시장을 보아라."
                 }
             ]
         }
-    ],
-    "frameID": 1310,
-    "ko_pos": "VV",
-    "ko_lu": "건너다.v.Traversing",
-    "lu_id": 1667,
-    "en_lus": [
-        "cross"
     ]
 }

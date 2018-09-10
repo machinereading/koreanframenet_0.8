@@ -1,60 +1,81 @@
 {
-    "frameName": "Locale_by_use",
+    "ko_pos": "v",
+    "ko_lu": "개방하다.v.Openness",
+    "frameID": 1872,
+    "frameName": "Openness",
+    "en_lus": [
+        "hiraku .開く"
+    ],
+    "lu_id": 3301,
     "patterns": [
         {
-            "valenceText": "annotation id: 11213",
+            "valenceText": "annotation id: 11112",
             "examples": [
                 {
-                    "frameName": "Locale_by_use",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 7,
-                                "end": 8
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "courtyard"
+                        "hiraku .開く"
                     ],
-                    "ko_annotation_id": 11213,
-                    "text": "성전 주변의 뜰은 수많은 순례자들을 위한 충분한 공간을 제공하기 위해 확장되었고, 성전산은 커다란 돌 블록들로 만들어진 벽을 유지함으로써 강화되었다.",
-                    "sent_id": 657,
-                    "relations": [],
-                    "annotation_id": 3520
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.27418",
-            "examples": [
-                {
-                    "frameName": "Locale_by_use",
+                    "ko_annotation_id": 11112,
+                    "annotation_id": 0,
+                    "frameName": "Openness",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Openness",
                             "span": {
-                                "begin": 0,
-                                "end": 1
+                                "begin": 32,
+                                "end": 36
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "개방하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Barrier",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "문호를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 45
+                            },
+                            "text": "조선에서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "뜰에는 감나무 한 그루가 심어져 있었다.",
-                    "target": "뜰",
-                    "ko_annotation_id": "sejong.27418",
-                    "relations": []
+                    "sent_id": 4188,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "개방하다.v.Openness",
+                    "text": "많은 배가 드나들었고, 일본처럼 일정 국가 이외에 문호를 개방하지 않았던 조선에서 수도 한성에 뒤지지 않는 중요한 곳이었다."
                 }
             ]
         }
-    ],
-    "frameID": 196,
-    "ko_pos": "NNG",
-    "ko_lu": "뜰.n.Locale_by_use",
-    "lu_id": 3301,
-    "en_lus": [
-        "courtyard"
     ]
 }

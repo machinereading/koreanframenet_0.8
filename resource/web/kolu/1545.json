@@ -1,109 +1,128 @@
 {
-    "frameName": "Scrutiny",
+    "ko_pos": "v",
+    "ko_lu": "압박하다.v.Attempt_suasion",
+    "frameID": 87,
+    "frameName": "Attempt_suasion",
+    "en_lus": [
+        "press"
+    ],
+    "lu_id": 1545,
     "patterns": [
         {
-            "valenceText": "annotation id: 4867",
+            "valenceText": "annotation id: 171",
             "examples": [
                 {
-                    "frameName": "Scrutiny",
+                    "origin_lus": [
+                        "pressing"
+                    ],
+                    "ko_annotation_id": 171,
+                    "annotation_id": 306,
+                    "frameName": "Attempt_suasion",
                     "denotations": [
                         {
-                            "obj": "cognizer",
+                            "id": 1,
+                            "obj": "Attempt_suasion",
                             "span": {
-                                "begin": 16,
-                                "end": 18
+                                "begin": 72,
+                                "end": 76
                             },
-                            "id": "3"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "압박하고"
                         },
                         {
-                            "obj": "ground",
+                            "id": 2,
+                            "obj": "Depictive",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 34
+                                "begin": 0,
+                                "end": 22
                             },
-                            "id": "2"
+                            "text": "영국 교회의 회원 수의 지속적인 감소로,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
                             "span": {
-                                "begin": 36,
-                                "end": 39
+                                "begin": 27,
+                                "end": 37
                             },
-                            "id": "1"
+                            "text": "강한 교구 목사들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Addressee",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 61
+                            },
+                            "text": "의지가 강하고 비종교적인 종지기들을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Content",
+                            "token_span": [
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 62,
+                                "end": 71
+                            },
+                            "text": "예배에 참석하도록",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "study"
-                    ],
-                    "ko_annotation_id": 4867,
-                    "text": "Paula_Zahn : 나는 당신이 대통령이 오늘 제시한 계획을 검토할 기회를 가졌다고 생각한다.",
-                    "sent_id": 1755,
+                    "sent_id": 46,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 8536
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.85915",
-            "examples": [
-                {
-                    "frameName": "Scrutiny",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 9,
-                                "end": 13
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "나는 그 문제를 검토했다.",
-                    "target": "검토했다",
-                    "ko_annotation_id": "sejong.85915",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.85916",
-            "examples": [
-                {
-                    "frameName": "Scrutiny",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 22,
-                                "end": 27
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "당국은 재야단체들의 황석영 석방 요구를 검토하기로 했다.",
-                    "target": "검토하기로",
-                    "ko_annotation_id": "sejong.85916",
-                    "relations": []
+                    "lu": "압박하다.v.Attempt_suasion",
+                    "text": "영국 교회의 회원 수의 지속적인 감소로, 의지가 강한 교구 목사들은 똑같이 의지가 강하고 비종교적인 종지기들을 예배에 참석하도록 압박하고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 31,
-    "ko_pos": "VV",
-    "ko_lu": "검토하다.v.Scrutiny",
-    "lu_id": 1545,
-    "en_lus": [
-        "study"
     ]
 }

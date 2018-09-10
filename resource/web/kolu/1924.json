@@ -1,38 +1,63 @@
 {
-    "frameName": "Text",
+    "ko_pos": "v",
+    "ko_lu": "정착하다.v.Locale_by_use",
+    "frameID": 196,
+    "frameName": "Locale_by_use",
+    "en_lus": [
+        "settlement"
+    ],
+    "lu_id": 1924,
     "patterns": [
         {
-            "valenceText": "annotation id: 6087",
+            "valenceText": "annotation id: 1588",
             "examples": [
                 {
-                    "frameName": "Text",
+                    "origin_lus": [
+                        "settlements"
+                    ],
+                    "ko_annotation_id": 1588,
+                    "annotation_id": 3323,
+                    "frameName": "Locale_by_use",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Locale_by_use",
                             "span": {
-                                "begin": 40,
-                                "end": 42
+                                "begin": 81,
+                                "end": 87
                             },
-                            "id": "1"
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "정착하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                19
+                            ],
+                            "span": {
+                                "begin": 73,
+                                "end": 76
+                            },
+                            "text": "인간이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "editorials"
+                    "sent_id": 619,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6087,
-                    "text": "몬테레이의 발행인들은 부대를 지휘하지는 않지만, 그들은 오늘 판 신문에 사설로 그들의 분노를 표현하기로 동의하였다.",
-                    "sent_id": 1984,
-                    "relations": [],
-                    "annotation_id": 9597
+                    "lu": "정착하다.v.Locale_by_use",
+                    "text": "예루살렘이 기록된 역사는 4,000년 전 이집트 법정 기록에 그것이 언급되기 시작하지만, 수 세기, 아마도 그 전의 수 천년 동안 인간이 여기에 정착하였다."
                 }
             ]
         }
-    ],
-    "frameID": 298,
-    "ko_pos": "NNG",
-    "ko_lu": "사설.n.Text",
-    "lu_id": 1924,
-    "en_lus": [
-        "editorial"
     ]
 }

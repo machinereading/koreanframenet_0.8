@@ -1,52 +1,100 @@
 {
-    "frameName": "Degree",
+    "ko_pos": "v",
+    "ko_lu": "믿다.v.Opinion",
+    "frameID": 1412,
+    "frameName": "Opinion",
+    "en_lus": [
+        "belief"
+    ],
+    "lu_id": 883,
     "patterns": [
         {
-            "valenceText": "annotation id: 2645",
+            "valenceText": "annotation id: 9319",
             "examples": [
                 {
-                    "frameName": "Degree",
+                    "origin_lus": [
+                        "belief"
+                    ],
+                    "ko_annotation_id": 9319,
+                    "annotation_id": 17312,
+                    "frameName": "Opinion",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Opinion",
                             "span": {
-                                "begin": 45,
-                                "end": 46
+                                "begin": 21,
+                                "end": 26
                             },
-                            "id": "1"
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "믿는 것은"
                         },
                         {
-                            "obj": "gradable_attribute",
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 47,
-                                "end": 49
+                                "begin": 8,
+                                "end": 20
                             },
-                            "id": "2"
+                            "text": "대부분의 정보 단체들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Opinion",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 87
+                            },
+                            "text": "소위 방사능 폭탄을 사용한 화학, 생물, 방사성 물질 혹은 핵 ( CBRN ) 공격은 현재 불가피하다는 것을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "far"
-                    ],
-                    "ko_annotation_id": 2645,
-                    "text": "1904년에, 좁은 이층 전차들이 해안가를 따라 달렸지만, 토지 간척으로 이들은 먼 내륙으로 위치하게 되었다.",
-                    "sent_id": 1058,
+                    "sent_id": 3267,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5533
+                    "lu": "믿다.v.Opinion",
+                    "text": "안보 출처들은 대부분의 정보 단체들이 믿는 것은 소위 방사능 폭탄을 사용한 화학, 생물, 방사성 물질 혹은 핵 ( CBRN ) 공격은 현재 불가피하다는 것을 폭로하였다."
                 }
             ]
         }
-    ],
-    "frameID": 2001,
-    "ko_pos": "VA",
-    "ko_lu": "멀다.a.Degree",
-    "lu_id": 883,
-    "en_lus": [
-        "far"
     ]
 }

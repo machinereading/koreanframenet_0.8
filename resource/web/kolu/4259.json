@@ -1,96 +1,104 @@
 {
-    "frameName": "Containers",
+    "ko_pos": "v",
+    "ko_lu": "안내하다.v.Aiming",
+    "frameID": 1901,
+    "frameName": "Aiming",
+    "en_lus": [
+        "Direct"
+    ],
+    "lu_id": 4259,
     "patterns": [
         {
-            "valenceText": "annotation id: 14702",
+            "valenceText": "annotation id: 13871",
             "examples": [
                 {
-                    "frameName": "Containers",
+                    "origin_lus": [
+                        "Direct"
+                    ],
+                    "ko_annotation_id": 13871,
+                    "annotation_id": 7804,
+                    "frameName": "Aiming",
                     "denotations": [
                         {
-                            "obj": "owner",
+                            "id": 1,
+                            "obj": "Aiming",
                             "span": {
-                                "begin": 43,
-                                "end": 44
+                                "begin": 36,
+                                "end": 41
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "안내하라."
                         },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 46,
-                                "end": 47
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "glass"
-                    ],
-                    "ko_annotation_id": 14702,
-                    "text": "내가 그들을 쳐다보자 스테이플톤은 일어나서 방을 떠났고, 한편 헨리경은 다시 그의 잔을 채우고 여송연을 피우며, 의자에 등을 기대었다.",
-                    "sent_id": 3299,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 17576
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.7709",
-            "examples": [
-                {
-                    "frameName": "Containers",
-                    "denotations": [
-                        {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Target_Location",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 4
+                                "end": 19
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "그는 잔에 물을 가득 따라 마셨다.",
-                    "target": "잔",
-                    "ko_annotation_id": "sejong.7709",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.7710",
-            "examples": [
-                {
-                    "frameName": "Containers",
-                    "denotations": [
+                            "text": "울타리와 통제 타워에서 떨어진",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Targeted",
+                            "token_span": [
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 5
+                                "begin": 20,
+                                "end": 28
                             },
-                            "id": "1"
+                            "text": "특별 주차장으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Instrument",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 35
+                            },
+                            "text": "방문자 차를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "실수로 잔을 깨뜨렸다.",
-                    "target": "잔",
-                    "ko_annotation_id": "sejong.7710",
-                    "relations": []
+                    "sent_id": 1601,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "안내하다.v.Aiming",
+                    "text": "5- 울타리와 통제 타워에서 떨어진 특별 주차장으로 방문자 차를 안내하라."
                 }
             ]
         }
-    ],
-    "frameID": 78,
-    "ko_pos": "NNG",
-    "ko_lu": "잔.n.Containers",
-    "lu_id": 4259,
-    "en_lus": [
-        "glass"
     ]
 }

@@ -1,51 +1,90 @@
 {
-    "frameName": "Becoming",
+    "ko_pos": "v",
+    "ko_lu": "재건되다.v.Building",
+    "frameID": 259,
+    "frameName": "Building",
+    "en_lus": [
+        "built"
+    ],
+    "lu_id": 470,
     "patterns": [
         {
-            "valenceText": "annotation id: 1311",
+            "valenceText": "annotation id: 1742",
             "examples": [
                 {
-                    "frameName": "Becoming",
+                    "origin_lus": [
+                        "built"
+                    ],
+                    "ko_annotation_id": 1742,
+                    "annotation_id": 3606,
+                    "frameName": "Building",
                     "denotations": [
                         {
-                            "obj": "Time",
+                            "id": 1,
+                            "obj": "Building",
                             "span": {
-                                "begin": 9,
-                                "end": 11
-                            }
+                                "begin": 50,
+                                "end": 56
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "재건되었고,"
                         },
                         {
-                            "obj": "Final_state",
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 17
-                            }
+                                "begin": 0,
+                                "end": 32
+                            },
+                            "text": "계획된 새로운 로마 도시인 Aelia Capitolina는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 19
-                            }
+                                "begin": 33,
+                                "end": 49
+                            },
+                            "text": "헤롯 왕의 예루살렘 폐허 위에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "naru .なる"
+                    "sent_id": 677,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 1311,
-                    "text": "다리가 아파서, 내일 돌아갈 수 없게 된다」 턱 아저씨는, 도토리를 파묻으면서 쭉, 그렇게 말했다.",
-                    "sent_id": 4294,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "재건되다.v.Building",
+                    "text": "계획된 새로운 로마 도시인 Aelia Capitolina는 헤롯 왕의 예루살렘 폐허 위에 재건되었고, 유대인들은 거기에 거주하는 것이 금지되었었다."
                 }
             ]
         }
-    ],
-    "frameID": 2971,
-    "ko_pos": "VA",
-    "ko_lu": "없다.a.Becoming",
-    "lu_id": 470,
-    "en_lus": [
-        "naru .なる"
     ]
 }

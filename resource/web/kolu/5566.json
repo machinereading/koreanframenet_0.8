@@ -1,80 +1,67 @@
 {
-    "frameName": "Earnings_and_losses",
+    "ko_pos": "n",
+    "ko_lu": "치료제.n.Cure",
+    "frameID": 50,
+    "frameName": "Cure",
+    "en_lus": [
+        "therapy"
+    ],
+    "lu_id": 5566,
     "patterns": [
         {
-            "valenceText": "annotation id: 19709",
+            "valenceText": "annotation id: 9126",
             "examples": [
                 {
-                    "frameName": "Earnings_and_losses",
+                    "origin_lus": [
+                        "therapies"
+                    ],
+                    "ko_annotation_id": 9126,
+                    "annotation_id": 16847,
+                    "frameName": "Cure",
                     "denotations": [
                         {
-                            "obj": "goods",
+                            "id": 1,
+                            "obj": "Cure",
                             "span": {
-                                "begin": 31,
-                                "end": 33
+                                "begin": 48,
+                                "end": 52
                             },
-                            "id": "2"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "치료제를"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Affliction",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 34,
-                                "end": 36
+                                "begin": 21,
+                                "end": 37
                             },
-                            "id": "1"
+                            "text": "희귀 질병과 장애 치료를 위한",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "revenues",
-                        "syuunyuu .収入 "
-                    ],
-                    "ko_annotation_id": 19709,
-                    "text": "라스 베이거스의 최근 사업 추정은 어려움들을 예상한다 ; 관광 수입은 이미 건축된 것을 유지하기 위해 상당히 증가해야 하는 반면에 실제 수치는 방문이 변함 없거나 감소하는 것으로 나타난다.",
-                    "sent_id": 847,
+                    "sent_id": 3212,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4397
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 19710",
-            "examples": [
-                {
-                    "frameName": "Earnings_and_losses",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 17,
-                                "end": 19
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "revenues",
-                        "syuunyuu .収入 "
-                    ],
-                    "ko_annotation_id": 19710,
-                    "text": "전술한 대로, 작가 에이전트의 수입은 작가에게 들어오는 인세에 많은 부분을 의지한다.",
-                    "sent_id": 4406,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "치료제.n.Cure",
+                    "text": "FDA의 미국 희귀의약품법은 회사들이 희귀 질병과 장애 치료를 위한 안전하고 효율적인 치료제를 개발하도록 지원하고 격려하는 것을 목적으로 한다."
                 }
             ]
         }
-    ],
-    "frameID": 1873,
-    "ko_pos": "NNG",
-    "ko_lu": "수입.n.Earnings_and_losses",
-    "lu_id": 5566,
-    "en_lus": [
-        "revenue",
-        "syuunyuu .収入 "
     ]
 }

@@ -1,38 +1,63 @@
 {
-    "frameName": "Foreign_or_domestic_country",
+    "ko_pos": "n",
+    "ko_lu": "왕진.n.Visiting",
+    "frameID": 1911,
+    "frameName": "Visiting",
+    "en_lus": [
+        "call"
+    ],
+    "lu_id": 4069,
     "patterns": [
         {
-            "valenceText": "annotation id: 13835",
+            "valenceText": "annotation id: 4729",
             "examples": [
                 {
-                    "frameName": "Foreign_or_domestic_country",
+                    "origin_lus": [
+                        "call"
+                    ],
+                    "ko_annotation_id": 4729,
+                    "annotation_id": 8619,
+                    "frameName": "Visiting",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Visiting",
                             "span": {
-                                "begin": 3,
-                                "end": 6
+                                "begin": 14,
+                                "end": 17
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "왕진을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Homeland"
+                    "sent_id": 1775,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13835,
-                    "text": "미국 국토안보부는 국가 생체방어 분석 및 대책 본부에서 월요일 착공 예정이었다.",
-                    "sent_id": 3200,
-                    "relations": [],
-                    "annotation_id": 16771
+                    "lu": "왕진.n.Visiting",
+                    "text": "나는 의사님을 위해 무료 왕진을 하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1483,
-    "ko_pos": "NN",
-    "ko_lu": "국토안.n.Foreign_or_domestic_country",
-    "lu_id": 4069,
-    "en_lus": [
-        "Homeland"
     ]
 }

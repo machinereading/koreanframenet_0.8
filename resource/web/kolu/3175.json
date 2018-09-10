@@ -1,95 +1,83 @@
 {
-    "frameName": "Accoutrements",
+    "ko_pos": "n",
+    "ko_lu": "사상.n.Cogitation",
+    "frameID": 22,
+    "frameName": "Cogitation",
+    "en_lus": [
+        "sisoo .思想 "
+    ],
+    "lu_id": 3175,
     "patterns": [
         {
-            "valenceText": "annotation id: 10685",
+            "valenceText": "annotation id: 16235",
             "examples": [
                 {
-                    "frameName": "Accoutrements",
+                    "origin_lus": [
+                        "sisoo .思想 "
+                    ],
+                    "ko_annotation_id": 16235,
+                    "annotation_id": 0,
+                    "frameName": "Cogitation",
                     "denotations": [
                         {
-                            "obj": "Wearer",
+                            "id": 1,
+                            "obj": "Cogitation",
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "사상이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
-                            }
+                                "end": 7
+                            },
+                            "text": "호메로스에게는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Accoutrement",
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 12
-                            }
+                                "begin": 13,
+                                "end": 27
+                            },
+                            "text": "죽으면 하늘로 올라간다」는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3820,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 10,
-                                "end": 12
-                            }
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "origin_lus": [
-                        "tokee .時計 "
-                    ],
-                    "ko_annotation_id": 10685,
-                    "text": "박쥐도 훌륭한 생물시계를 지니고 있어, 날이 저물었음을 감지하면 동굴에서 나와 먹이를 찾기 시작합니다.",
-                    "sent_id": 4465,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.1",
-            "examples": [
-                {
-                    "frameName": "Accoutrements",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 2,
-                                "end": 4
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "이 시계는 10분 빠르다.",
-                    "target": "시계",
-                    "ko_annotation_id": "sejong.1",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.2",
-            "examples": [
-                {
-                    "frameName": "Accoutrements",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 15,
-                                "end": 17
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "어머니게서는 졸업 기념으로 시계를 사 주셨다.",
-                    "target": "시계",
-                    "ko_annotation_id": "sejong.2",
-                    "relations": []
+                    "lu": "사상.n.Cogitation",
+                    "text": "호메로스에게는 「사람은 죽으면 하늘로 올라간다」는 사상이 전혀 없다."
                 }
             ]
         }
-    ],
-    "frameID": 158,
-    "ko_pos": "NNG",
-    "ko_lu": "시계.n.Accoutrements",
-    "lu_id": 3175,
-    "en_lus": [
-        "tokee .時計 "
     ]
 }

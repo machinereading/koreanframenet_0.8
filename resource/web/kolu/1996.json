@@ -1,65 +1,63 @@
 {
-    "frameName": "Evidence",
+    "ko_pos": "a",
+    "ko_lu": "오래다.a.Degree",
+    "frameID": 2001,
+    "frameName": "Degree",
+    "en_lus": [
+        "zutto .ずっと "
+    ],
+    "lu_id": 1996,
     "patterns": [
         {
-            "valenceText": "annotation id: 6303",
+            "valenceText": "annotation id: 10380",
             "examples": [
                 {
-                    "frameName": "Evidence",
+                    "origin_lus": [
+                        "zutto .ずっと "
+                    ],
+                    "ko_annotation_id": 10380,
+                    "annotation_id": 0,
+                    "frameName": "Degree",
                     "denotations": [
                         {
-                            "obj": "support",
+                            "id": 1,
+                            "obj": "Degree",
                             "span": {
-                                "begin": 5,
-                                "end": 11
+                                "begin": 20,
+                                "end": 22
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "오래"
                         },
                         {
-                            "obj": "proposition",
+                            "id": 2,
+                            "obj": "Gradable_Attribute",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 37
+                                "begin": 23,
+                                "end": 27
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 29,
-                                "end": 37
-                            },
-                            "id": "1"
+                            "text": "전부터,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "disprove"
-                    ],
-                    "ko_annotation_id": 6303,
-                    "text": "그러나, 가용한 정보는 다양한 소식통이 하는 주장이 틀렸음을 입증하지 못한다.",
-                    "sent_id": 2180,
+                    "sent_id": 3705,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10857
+                    "lu": "오래다.a.Degree",
+                    "text": "그런데, 이 신사의 숲에는 말이지, 오래 전부터, 여우 모자가 살고 있었대."
                 }
             ]
         }
-    ],
-    "frameID": 25,
-    "ko_pos": "VV",
-    "ko_lu": "틀리다.v.Evidence",
-    "lu_id": 1996,
-    "en_lus": [
-        "disprove"
     ]
 }

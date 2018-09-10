@@ -1,53 +1,172 @@
 {
-    "frameName": "Vehicle",
+    "ko_pos": "v",
+    "ko_lu": "겁먹다.v.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "obieru .怯える ",
+        "hirumu .ひるむ "
+    ],
+    "lu_id": 2697,
     "patterns": [
         {
-            "valenceText": "annotation id: 8812",
+            "valenceText": "annotation id: 10157",
             "examples": [
                 {
-                    "frameName": "Vehicle",
+                    "origin_lus": [
+                        "obieru .怯える ",
+                        "hirumu .ひるむ "
+                    ],
+                    "ko_annotation_id": 10157,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
                     "denotations": [
                         {
-                            "obj": "vehicle",
+                            "id": 1,
+                            "obj": "Experiencer_focus",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 22,
+                                "end": 25
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "겁먹은"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 12
+                            },
+                            "text": "세이지로가 묻자",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "text": "남자는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "text": "한순간,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3582,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "겁먹다.v.Experiencer_focus",
+                    "text": "라고, 세이지로가 묻자 남자는 한순간, 겁먹은 듯했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11542",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "obieru .怯える ",
+                        "hirumu .ひるむ "
+                    ],
+                    "ko_annotation_id": 11542,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "겁먹은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "id": "1"
+                            "text": "무엇을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "그렇게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "cars",
-                        "car"
-                    ],
-                    "ko_annotation_id": 8812,
-                    "text": "지하철과 다른 사방이 막힌 공간에서 치명적인 시아나이드 가스를 살포하기 위해 알카이다가 개발한 것으로 전해지는 이 장치는 테러리스트 공격에 결코 사용되지 않았고  아마도 별로 효과적이지 않은 것 같다고 전문가들은 말한다.",
-                    "sent_id": 3231,
+                    "sent_id": 4467,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 16982
+                    "lu": "겁먹다.v.Experiencer_focus",
+                    "text": "무엇을 그렇게 겁먹은 거야?"
                 }
             ]
         }
-    ],
-    "frameID": 429,
-    "ko_pos": "NNG",
-    "ko_lu": "지하철.n.Vehicle",
-    "lu_id": 2697,
-    "en_lus": [
-        "car"
     ]
 }

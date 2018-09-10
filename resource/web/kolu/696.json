@@ -1,59 +1,63 @@
 {
-    "frameName": "Rank",
+    "ko_pos": "n",
+    "ko_lu": "당사자.n.Aggregate",
+    "frameID": 103,
+    "frameName": "Aggregate",
+    "en_lus": [
+        "party"
+    ],
+    "lu_id": 696,
     "patterns": [
         {
-            "valenceText": "annotation id: 2132",
+            "valenceText": "annotation id: 9221",
             "examples": [
                 {
-                    "frameName": "Rank",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 98,
-                                "end": 100
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "reberu .レベル"
+                        "party"
                     ],
-                    "ko_annotation_id": 2132,
-                    "text": "자연계를 보면, 숲과 바다, 강, 대지, 어디를 가든 크고 작은 각양각색의 동식물이 공존관계를 이루며 존재하듯이, 인터넷상에서도, 고객, 제조회사, 서플라이어, 유통기업 등이 단계의 차이를 뛰어넘어 하나의 구성원으로서 공존하고, 진화해간다.",
-                    "sent_id": 3611,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.31797",
-            "examples": [
-                {
-                    "frameName": "Rank",
+                    "ko_annotation_id": 9221,
+                    "annotation_id": 17077,
+                    "frameName": "Aggregate",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Aggregate",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 43,
+                                "end": 48
                             },
-                            "id": "1"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "당사자에게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Aggregateproperty",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 42
+                            },
+                            "text": "무책임한",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "사건 조사는 아직 발표의 단계에 이르지 못하고 있다.일은 이제 마무리 단계에 접어들었다.",
-                    "target": "단계",
-                    "ko_annotation_id": "sejong.31797",
-                    "relations": []
+                    "sent_id": 3240,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "당사자.n.Aggregate",
+                    "text": "왜냐하면 거래가 확산 위협과 테러리스트들이 핵무기를 획득하거나 다른 무책임한 당사자에게 확산시키고 그래서 미국이나 다른 동맹국들을 위태롭게 할 수도 있는 가능성을 피하면서 평화로운 시민들이 원자력을 이용하도록 허용할 것이기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 1377,
-    "ko_pos": "NNG",
-    "ko_lu": "단계.n.Rank",
-    "lu_id": 696,
-    "en_lus": [
-        "reberu .レベル"
     ]
 }

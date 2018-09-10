@@ -1,87 +1,138 @@
 {
-    "frameName": "Request",
+    "ko_pos": "v",
+    "ko_lu": "훈련시키다.v.Education_teaching",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "en_lus": [
+        "train"
+    ],
+    "lu_id": 3222,
     "patterns": [
         {
-            "valenceText": "annotation id: 10930",
+            "valenceText": "annotation id: 8160",
             "examples": [
                 {
-                    "frameName": "Request",
+                    "origin_lus": [
+                        "train"
+                    ],
+                    "ko_annotation_id": 8160,
+                    "annotation_id": 14925,
+                    "frameName": "Education_teaching",
                     "denotations": [
                         {
-                            "obj": "addressee",
+                            "id": 1,
+                            "obj": "Education_teaching",
                             "span": {
-                                "begin": 45,
-                                "end": 49
+                                "begin": 35,
+                                "end": 39
                             },
-                            "id": "3"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "훈련시킬"
                         },
                         {
-                            "obj": "message",
+                            "id": 2,
+                            "obj": "Student",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 51,
-                                "end": 67
+                                "begin": 14,
+                                "end": 34
                             },
-                            "id": "2"
+                            "text": "핵 개발 프로그램을 위해 인적 자원을",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Institution",
+                            "token_span": [
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 70,
-                                "end": 77
+                                "begin": 40,
+                                "end": 48
                             },
-                            "id": "1"
+                            "text": "제도적인 기반을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "called"
-                    ],
-                    "ko_annotation_id": 10930,
-                    "text": "그 신전 자리는 결국 그 위에 그것이 서 있던 모리아산으로 확인되었는데, 이곳은 아브라함이 자기 아들 이삭을 제물로 바치도록 부름을 받았던 곳이다.",
-                    "sent_id": 634,
+                    "sent_id": 2912,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3425
+                    "lu": "훈련시키다.v.Education_teaching",
+                    "text": "1950년대 초, 북한은 핵 개발 프로그램을 위해 인적 자원을 훈련시킬 제도적인 기반을 확립하기 시작하였다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.13572",
+            "valenceText": "annotation id: 15372",
             "examples": [
                 {
-                    "frameName": "Request",
+                    "origin_lus": [
+                        "train"
+                    ],
+                    "ko_annotation_id": 15372,
+                    "annotation_id": 14960,
+                    "frameName": "Education_teaching",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Education_teaching",
                             "span": {
-                                "begin": 5,
-                                "end": 7
+                                "begin": 31,
+                                "end": 37
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "훈련시키는데"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Student",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "인원을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "아버님의 부름을 받고 막 달려오는 길입니다.",
-                    "target": "부름",
-                    "ko_annotation_id": "sejong.13572",
-                    "relations": []
+                    "sent_id": 2917,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "훈련시키다.v.Education_teaching",
+                    "text": "소형 연구 원자로는 방사성 동위 원소를 생산하고 인원을 훈련시키는데 사용되었다."
                 }
             ]
         }
-    ],
-    "frameID": 41,
-    "ko_pos": "NNG",
-    "ko_lu": "부름.n.Request",
-    "lu_id": 3222,
-    "en_lus": [
-        "call"
     ]
 }

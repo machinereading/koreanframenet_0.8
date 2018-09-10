@@ -1,73 +1,82 @@
 {
+    "ko_pos": "n",
+    "ko_lu": "집념.n.Emotion_active",
+    "frameID": 45,
     "frameName": "Emotion_active",
+    "en_lus": [
+        "syuunen .執念 "
+    ],
+    "lu_id": 7,
     "patterns": [
         {
-            "valenceText": "annotation id: 22",
+            "valenceText": "annotation id: 10606",
             "examples": [
                 {
-                    "frameName": "Emotion_active",
-                    "denotations": [
-                        {
-                            "obj": "Topic",
-                            "span": {
-                                "begin": 29,
-                                "end": 40
-                            }
-                        },
-                        {
-                            "obj": "Experiencer",
-                            "span": {
-                                "begin": 41,
-                                "end": 43
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 45,
-                                "end": 47
-                            }
-                        }
-                    ],
                     "origin_lus": [
                         "syuunen .執念 "
                     ],
-                    "ko_annotation_id": 22,
-                    "text": "제1 법정◆다카코 씨의 사례◆불륜 상대 용서 못 해…위자료까지 받아 챙긴 여자의 집념 다카코 씨는 당시 36세.",
-                    "sent_id": 3891,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.26861",
-            "examples": [
-                {
+                    "ko_annotation_id": 10606,
+                    "annotation_id": 0,
                     "frameName": "Emotion_active",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Emotion_active",
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 45,
+                                "end": 47
                             },
-                            "id": "1"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "집념"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 40
+                            },
+                            "text": "받아 챙긴",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "text": "여자의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 월드컵 4회 연속 출전에 강한 집념을 보였다.",
-                    "target": "집념",
-                    "ko_annotation_id": "sejong.26861",
-                    "relations": []
+                    "sent_id": 3891,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "집념.n.Emotion_active",
+                    "text": "제1 법정◆다카코 씨의 사례◆불륜 상대 용서 못 해…위자료까지 받아 챙긴 여자의 집념 다카코 씨는 당시 36세."
                 }
             ]
         }
-    ],
-    "frameID": 45,
-    "ko_pos": "NNG",
-    "ko_lu": "집념.n.Emotion_active",
-    "lu_id": 7,
-    "en_lus": [
-        "syuunen .執念 "
     ]
 }

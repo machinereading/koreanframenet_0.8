@@ -1,65 +1,98 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "n",
+    "ko_lu": "고속도.n.Roadways",
+    "frameID": 203,
+    "frameName": "Roadways",
+    "en_lus": [
+        "Highway",
+        "highway"
+    ],
+    "lu_id": 4847,
     "patterns": [
         {
-            "valenceText": "annotation id: 16958",
+            "valenceText": "annotation id: 2093",
             "examples": [
                 {
-                    "frameName": "Buildings",
+                    "origin_lus": [
+                        "Highway",
+                        "highways"
+                    ],
+                    "ko_annotation_id": 2093,
+                    "annotation_id": 4202,
+                    "frameName": "Roadways",
                     "denotations": [
                         {
-                            "obj": "relative_location",
+                            "id": 1,
+                            "obj": "Roadways",
                             "span": {
-                                "begin": 5,
-                                "end": 15
+                                "begin": 71,
+                                "end": 75
                             },
-                            "id": "2"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "고속도로"
                         },
                         {
-                            "obj": "function",
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                12
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 18
+                                "begin": 64,
+                                "end": 70
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 19,
-                                "end": 22
-                            },
-                            "id": "1"
+                            "text": "로스앤젤레스",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "shelter"
-                    ],
-                    "ko_annotation_id": 16958,
-                    "text": "바닷쪽에 Causeway 만 태풍 피난소가 있는데, 이곳은 비싼 요트가 뱃전마다 정박되어 있고, 홍콩 요트 클럽 본부가 있다.",
-                    "sent_id": 1123,
+                    "sent_id": 802,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5884
+                    "lu": "고속도.n.Roadways",
+                    "text": "1930년대와 1940년대 초에 많은 도박장들이 Downtown에 개점된데 반해, 궁극적으로 Strip이 된 옛날 로스앤젤레스 고속도로 지역에 단 두 곳이 건설되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12493",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Highway",
+                        "highways"
+                    ],
+                    "ko_annotation_id": 12493,
+                    "annotation_id": 548,
+                    "frameName": "Roadways",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Roadways",
+                            "span": {
+                                "begin": 51,
+                                "end": 55
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "고속도로"
+                        }
+                    ],
+                    "sent_id": 81,
+                    "relations": [],
+                    "lu": "고속도.n.Roadways",
+                    "text": "주택은 부족하고 공공 서비스는 -- 법정 시스템, 학교, 우편 서비스, 전화 연결망 그리고 고속도로 --  수치스러운 상태에 있다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NN",
-    "ko_lu": "피난소.n.Buildings",
-    "lu_id": 4847,
-    "en_lus": [
-        "shelter"
     ]
 }

@@ -1,87 +1,82 @@
 {
-    "frameName": "Attending",
+    "ko_pos": "n",
+    "ko_lu": "아내.n.Personal_relationship",
+    "frameID": 102,
+    "frameName": "Personal_relationship",
+    "en_lus": [
+        "tuma .妻 "
+    ],
+    "lu_id": 2918,
     "patterns": [
         {
-            "valenceText": "annotation id: 9594",
+            "valenceText": "annotation id: 12004",
             "examples": [
                 {
-                    "frameName": "Attending",
+                    "origin_lus": [
+                        "tuma .妻 "
+                    ],
+                    "ko_annotation_id": 12004,
+                    "annotation_id": 0,
+                    "frameName": "Personal_relationship",
                     "denotations": [
                         {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Personal_relationship",
                             "span": {
-                                "begin": 9,
-                                "end": 12
+                                "begin": 45,
+                                "end": 48
                             },
-                            "id": "3"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "아내가"
                         },
                         {
-                            "obj": "event",
+                            "id": 2,
+                            "obj": "Partner_2",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 17
+                                "begin": 0,
+                                "end": 4
                             },
-                            "id": "2"
+                            "text": "미무라가",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Partner_1",
+                            "token_span": [
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 21
+                                "begin": 36,
+                                "end": 41
                             },
-                            "id": "1"
+                            "text": "키다 씨는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "attendance"
-                    ],
-                    "ko_annotation_id": 9594,
-                    "text": "1959년 이후 민주당 하원의원 출석률은 공화당 하원의원 출석률을 넘지 않았다.",
-                    "sent_id": 294,
+                    "sent_id": 4772,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1628
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.32874",
-            "examples": [
-                {
-                    "frameName": "Attending",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 8,
-                                "end": 11
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "요즘 학생들의 출석률이 너무 저조해서 수업을 못할 지경입니다.",
-                    "target": "출석률",
-                    "ko_annotation_id": "sejong.32874",
-                    "relations": []
+                    "lu": "아내.n.Personal_relationship",
+                    "text": "미무라가 신뢰받는 기업의 직원이라는 점은 유리하게 작용하겠지만, 키다 씨는 아직 아내가 아닌, 약혼자라 부를 수 밖에 없다."
                 }
             ]
         }
-    ],
-    "frameID": 2030,
-    "ko_pos": "NN",
-    "ko_lu": "출석률.n.Attending",
-    "lu_id": 2918,
-    "en_lus": [
-        "attendance"
     ]
 }

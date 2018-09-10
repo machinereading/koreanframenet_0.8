@@ -1,52 +1,63 @@
 {
-    "frameName": "Morality_evaluation",
+    "ko_pos": "n",
+    "ko_lu": "보유국들.n.Political_locales",
+    "frameID": 195,
+    "frameName": "Political_locales",
+    "en_lus": [
+        "state"
+    ],
+    "lu_id": 3429,
     "patterns": [
         {
-            "valenceText": "annotation id: 11667",
+            "valenceText": "annotation id: 6457",
             "examples": [
                 {
-                    "frameName": "Morality_evaluation",
+                    "origin_lus": [
+                        "states"
+                    ],
+                    "ko_annotation_id": 6457,
+                    "annotation_id": 11790,
+                    "frameName": "Political_locales",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Political_locales",
                             "span": {
-                                "begin": 75,
-                                "end": 77
+                                "begin": 20,
+                                "end": 28
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "핵비보유국들에게"
                         },
                         {
-                            "obj": "evaluee",
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 75,
-                                "end": 77
+                                "begin": 20,
+                                "end": 28
                             },
-                            "id": "2"
+                            "text": "핵비보유국들에게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "good"
-                    ],
-                    "ko_annotation_id": 11667,
-                    "text": "뉴스의 입증과 확인을 통해, 이슬람 도덕 유지 및 부패와 나쁜 동반자의 수단 회피. ( T.C : 코란 구절 ) 그들이 불신자일지라도 선행과 효도 지키기.",
-                    "sent_id": 1641,
+                    "sent_id": 2344,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8046
+                    "lu": "보유국들.n.Political_locales",
+                    "text": "핵확산 방지 조약 ( NPT ) 이 핵비보유국들에게 평화적 목적을 위한 핵기술의 이전을 허용함에도 불구하고, 미국은 러시아 - 이란의 거래를 맹렬히 반대하였다."
                 }
             ]
         }
-    ],
-    "frameID": 370,
-    "ko_pos": "NNG",
-    "ko_lu": "선행.n.Morality_evaluation",
-    "lu_id": 3429,
-    "en_lus": [
-        "good"
     ]
 }

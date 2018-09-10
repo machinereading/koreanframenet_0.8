@@ -1,52 +1,97 @@
 {
-    "frameName": "Progression",
+    "ko_pos": "v",
+    "ko_lu": "위협하다.v.Omen",
+    "frameID": 412,
+    "frameName": "Omen",
+    "en_lus": [
+        "threaten"
+    ],
+    "lu_id": 674,
     "patterns": [
         {
-            "valenceText": "annotation id: 2088",
+            "valenceText": "annotation id: 2036",
             "examples": [
                 {
-                    "frameName": "Progress",
+                    "origin_lus": [
+                        "threatened"
+                    ],
+                    "ko_annotation_id": 2036,
+                    "annotation_id": 4121,
+                    "frameName": "Omen",
                     "denotations": [
                         {
-                            "obj": "entity",
+                            "id": 1,
+                            "obj": "Omen",
                             "span": {
-                                "begin": 28,
-                                "end": 31
+                                "begin": 76,
+                                "end": 82
                             },
-                            "id": "2"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "위협하였다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Phenomenon_2",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 32,
-                                "end": 34
+                                "begin": 0,
+                                "end": 14
                             },
-                            "id": "1"
+                            "text": "이러한 유감스러운 상황들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Outcome",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 75
+                            },
+                            "text": "라스 베이거스를 더 이상 그곳의 3000명의 거주민을 지원할 수 없는 작은 사막 공동체의 상태로 격하시키려고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "development"
-                    ],
-                    "ko_annotation_id": 2088,
-                    "text": "로마는 이교도 제국을 다스렸지만, 에게 해는 초기 기독교 발달에 중요한 영향을 미쳤다.",
-                    "sent_id": 548,
+                    "sent_id": 787,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2881
+                    "lu": "위협하다.v.Omen",
+                    "text": "이러한 유감스러운 상황들은 라스 베이거스를 더 이상 그곳의 3000명의 거주민을 지원할 수 없는 작은 사막 공동체의 상태로 격하시키려고 위협하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1340,
-    "ko_pos": "NNG",
-    "ko_lu": "발달.n.Progression",
-    "lu_id": 674,
-    "en_lus": [
-        "development"
     ]
 }

@@ -1,87 +1,81 @@
 {
-    "frameName": "Possession",
+    "ko_pos": "n",
+    "ko_lu": "협정.n.Collaboration",
+    "frameID": 418,
+    "frameName": "Collaboration",
+    "en_lus": [
+        "cooperation"
+    ],
+    "lu_id": 513,
     "patterns": [
         {
-            "valenceText": "annotation id: 1455",
+            "valenceText": "annotation id: 6875",
             "examples": [
                 {
-                    "frameName": "Possession",
+                    "origin_lus": [
+                        "cooperation"
+                    ],
+                    "ko_annotation_id": 6875,
+                    "annotation_id": 12532,
+                    "frameName": "Collaboration",
                     "denotations": [
                         {
-                            "obj": "owner",
+                            "id": 1,
+                            "obj": "Collaboration",
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 32,
+                                "end": 35
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "협정과"
                         },
                         {
-                            "obj": "possession",
+                            "id": 2,
+                            "obj": "Partner_2",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
-                                "begin": 28,
-                                "end": 38
+                                "begin": 22,
+                                "end": 28
                             },
-                            "id": "3"
+                            "text": "파키스탄과의",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 40,
-                                "end": 43
+                                "begin": 29,
+                                "end": 31
                             },
-                            "id": "1"
+                            "text": "양자",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ownership"
-                    ],
-                    "ko_annotation_id": 1455,
-                    "text": "소송은 1991년 말 해결되었지만, 이란은 아직도 Eurodif 주식의 소유권을 유지하고 있다.",
-                    "sent_id": 3383,
+                    "sent_id": 2507,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17918
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.36153",
-            "examples": [
-                {
-                    "frameName": "Possession",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 16,
-                                "end": 19
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "이번 판결로 그는 집에 대한 소유권을 보장받게 되었다.",
-                    "target": "소유권",
-                    "ko_annotation_id": "sejong.36153",
-                    "relations": []
+                    "lu": "협정.n.Collaboration",
+                    "text": "이란의 전쟁 후 미사일 프로그램은 또한 파키스탄과의 양자 협정과 종전 소비에트 연방 ( 예, 벨라루스, 우크라이나,카자흐스탄, 그리고 우즈베키스탄 ) 과 동유럽으로부터의 생산 장비, 제한되지 않은 부품들, 그리고 제한된 부품들의 획득으로 때때로 이득을 얻었다."
                 }
             ]
         }
-    ],
-    "frameID": 118,
-    "ko_pos": "NN",
-    "ko_lu": "소유권.n.Possession",
-    "lu_id": 513,
-    "en_lus": [
-        "ownership"
     ]
 }

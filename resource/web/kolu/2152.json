@@ -1,74 +1,63 @@
 {
-    "frameName": "Expertise",
+    "ko_pos": "n",
+    "ko_lu": "자국.n.Political_locales",
+    "frameID": 195,
+    "frameName": "Political_locales",
+    "en_lus": [
+        "national"
+    ],
+    "lu_id": 2152,
     "patterns": [
         {
-            "valenceText": "annotation id: 6944",
+            "valenceText": "annotation id: 14497",
             "examples": [
                 {
-                    "frameName": "Expertise",
+                    "origin_lus": [
+                        "national"
+                    ],
+                    "ko_annotation_id": 14497,
+                    "annotation_id": 11213,
+                    "frameName": "Political_locales",
                     "denotations": [
                         {
-                            "obj": "knowledge",
+                            "id": 1,
+                            "obj": "Political_locales",
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 33,
+                                "end": 36
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "자국의"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Locale",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 11,
-                                "end": 14
+                                "begin": 29,
+                                "end": 32
                             },
-                            "id": "1"
+                            "text": "이란이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "incompetence"
-                    ],
-                    "ko_annotation_id": 6944,
-                    "text": "결과는 무지와 지적 무능력이 그들 자신의 좋은 생각과 일치되는 젊은 세대이다.",
-                    "sent_id": 190,
+                    "sent_id": 2241,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1049
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.102259",
-            "examples": [
-                {
-                    "frameName": "Expertise",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 10,
-                                "end": 15
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "철수 아빠는 너무 무능력해서 큰일이예요.",
-                    "target": "무능력해서",
-                    "ko_annotation_id": "sejong.102259",
-                    "relations": []
+                    "lu": "자국.n.Political_locales",
+                    "text": "이란의 공격 능력에 대한 현황이 다소 모호할지라도, 이란이 자국의 안보가 위협받는다면, 공격적인 생산으로 재설계될 수 있는 방어 프로그램을 갖고 있다고 분명하게 결론내릴 수 있을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 136,
-    "ko_pos": "VA",
-    "ko_lu": "무능력하다.a.Expertise",
-    "lu_id": 2152,
-    "en_lus": [
-        "incompetence"
     ]
 }

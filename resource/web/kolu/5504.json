@@ -1,100 +1,82 @@
 {
-    "frameName": "Cause_change",
+    "ko_pos": "n",
+    "ko_lu": "지역.n.Entity",
+    "frameID": 251,
+    "frameName": "Entity",
+    "en_lus": [
+        "mono .もの "
+    ],
+    "lu_id": 5504,
     "patterns": [
         {
-            "valenceText": "annotation id: 19540",
+            "valenceText": "annotation id: 11451",
             "examples": [
                 {
-                    "frameName": "Cause_change",
+                    "origin_lus": [
+                        "mono .もの "
+                    ],
+                    "ko_annotation_id": 11451,
+                    "annotation_id": 0,
+                    "frameName": "Entity",
                     "denotations": [
                         {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Entity",
                             "span": {
-                                "begin": 0,
-                                "end": 5
+                                "begin": 101,
+                                "end": 104
                             },
-                            "id": "2"
+                            "token_span": [
+                                23
+                            ],
+                            "role": "TARGET",
+                            "text": "지역이"
                         },
                         {
-                            "obj": "purpose",
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                21,
+                                22
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 25
+                                "begin": 92,
+                                "end": 100
                             },
-                            "id": "4"
+                            "text": "기나이라 불리는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "attribute",
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                23
+                            ],
                             "span": {
-                                "begin": 31,
-                                "end": 65
+                                "begin": 101,
+                                "end": 104
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 67,
-                                "end": 70
-                            },
-                            "id": "1"
+                            "text": "지역이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "modifying"
-                    ],
-                    "ko_annotation_id": 19540,
-                    "text": "이 실험실은 특히 생체에 적합하게 만들기 위한 목적으로 고분자 재료의 물리적, 화학적, 생물학적, 그리고 역학적 성질을 변형하는 고분자 재료 분야에서 활발한 활동을 하고 있다.",
-                    "sent_id": 2211,
+                    "sent_id": 4398,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 11029
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.67319",
-            "examples": [
-                {
-                    "frameName": "Cause_change",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 7,
-                                "end": 11
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그는 의자를 변형해서 이 도구를 만들었다.",
-                    "target": "변형해서",
-                    "ko_annotation_id": "sejong.67319",
-                    "relations": []
+                    "lu": "지역.n.Entity",
+                    "text": "저는 잠시 「풍토기」를 연구한 적인 있는데, 이야기가 자꾸 오래전으로 거슬러 올라가서 죄송합니다만, 다이카 개신의 칙령에 따라, 궁정을 중심으로 하는 고대 수도권, 기나이라 불리는 지역이 생겼습니다."
                 }
             ]
         }
-    ],
-    "frameID": 683,
-    "ko_pos": "VV",
-    "ko_lu": "변형하다.v.Cause_change",
-    "lu_id": 5504,
-    "en_lus": [
-        "modify"
     ]
 }

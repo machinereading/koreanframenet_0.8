@@ -1,52 +1,81 @@
 {
-    "frameName": "Gizmo",
+    "ko_pos": "v",
+    "ko_lu": "들다.v.Arriving",
+    "frameID": 54,
+    "frameName": "Arriving",
+    "en_lus": [
+        "hairu .入る "
+    ],
+    "lu_id": 2821,
     "patterns": [
         {
-            "valenceText": "annotation id: 9202",
+            "valenceText": "annotation id: 16419",
             "examples": [
                 {
-                    "frameName": "Gizmo",
+                    "origin_lus": [
+                        "hairu .入る "
+                    ],
+                    "ko_annotation_id": 16419,
+                    "annotation_id": 0,
+                    "frameName": "Arriving",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Arriving",
                             "span": {
-                                "begin": 14,
-                                "end": 15
+                                "begin": 23,
+                                "end": 28
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "들어섰다."
                         },
                         {
-                            "obj": "use",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 65,
-                                "end": 71
+                                "begin": 9,
+                                "end": 12
                             },
-                            "id": "2"
+                            "text": "택시는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 22
+                            },
+                            "text": "이츠카이치카이도에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "systems"
-                    ],
-                    "ko_annotation_id": 9202,
-                    "text": "화학무기는 더 큰 구경의 포로 투하하기에 가장 적합하기 때문에, 과거 20년에 걸쳐서 북한은 장거리 240 밀리미터 다연장로켓포와 179 밀리미터 곡사포 수를 더 증가시켰고 모두 비무장 지대 인근의 갱도방어진지에 위치시켰다.",
-                    "sent_id": 2769,
+                    "sent_id": 4258,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 13998
+                    "lu": "들다.v.Arriving",
+                    "text": "말과는 정반대로 택시는 이츠카이치카이도에 들어섰다."
                 }
             ]
         }
-    ],
-    "frameID": 106,
-    "ko_pos": "NNG",
-    "ko_lu": "포.n.Gizmo",
-    "lu_id": 2821,
-    "en_lus": [
-        "system"
     ]
 }

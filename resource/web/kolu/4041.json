@@ -1,65 +1,63 @@
 {
-    "frameName": "Protecting",
+    "ko_pos": "n",
+    "ko_lu": "항로.n.Roadways",
+    "frameID": 203,
+    "frameName": "Roadways",
+    "en_lus": [
+        "lane"
+    ],
+    "lu_id": 4041,
     "patterns": [
         {
-            "valenceText": "annotation id: 13732",
+            "valenceText": "annotation id: 13023",
             "examples": [
                 {
-                    "frameName": "Protecting",
+                    "origin_lus": [
+                        "lanes"
+                    ],
+                    "ko_annotation_id": 13023,
+                    "annotation_id": 3089,
+                    "frameName": "Roadways",
                     "denotations": [
                         {
-                            "obj": "protection",
+                            "id": 1,
+                            "obj": "Roadways",
                             "span": {
-                                "begin": 4,
-                                "end": 10
+                                "begin": 33,
+                                "end": 36
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "항로에"
                         },
                         {
-                            "obj": "asset",
+                            "id": 2,
+                            "obj": "Use",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 19
+                                "begin": 30,
+                                "end": 32
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 21,
-                                "end": 24
-                            },
-                            "id": "1"
+                            "text": "선박",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Secure"
-                    ],
-                    "ko_annotation_id": 13732,
-                    "text": "미국은 우즈베키스탄이 위험 핵 물질을 확보하도록 도운다 : 에너지 단체는 러시아로의 비밀의 우라늄 이전의 완료를 선언한다",
-                    "sent_id": 3176,
+                    "sent_id": 583,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 16606
+                    "lu": "항로.n.Roadways",
+                    "text": "Lesvos, Chios, 그리고 Samos는 중요한 선박 항로에 놓여 있고 애국적인 사람들이 Ottoman 화물 항로를 방해하기 시작하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1631,
-    "ko_pos": "VV",
-    "ko_lu": "확보하다.v.Protecting",
-    "lu_id": 4041,
-    "en_lus": [
-        "Secure"
     ]
 }

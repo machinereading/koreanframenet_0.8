@@ -1,74 +1,63 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "v",
+    "ko_lu": "모르다.v.Possession",
+    "frameID": 118,
+    "frameName": "Possession",
+    "en_lus": [
+        "have"
+    ],
+    "lu_id": 2889,
     "patterns": [
         {
-            "valenceText": "annotation id: 9525",
+            "valenceText": "annotation id: 14065",
             "examples": [
                 {
-                    "frameName": "Buildings",
+                    "origin_lus": [
+                        "have"
+                    ],
+                    "ko_annotation_id": 14065,
+                    "annotation_id": 8806,
+                    "frameName": "Possession",
                     "denotations": [
                         {
-                            "obj": "type",
+                            "id": 1,
+                            "obj": "Possession",
                             "span": {
-                                "begin": 19,
-                                "end": 22
+                                "begin": 14,
+                                "end": 18
                             },
-                            "id": "2"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "모른다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Owner",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 23,
-                                "end": 27
+                                "begin": 0,
+                                "end": 2
                             },
-                            "id": "1"
+                            "text": "나는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "houses"
-                    ],
-                    "ko_annotation_id": 9525,
-                    "text": "많은 상점들, 그리고 또한 호텔과 게스트 하우스들은 수 년 동안 같은 가족들에 의해 소유되고 관리되어 왔으며, 전통적인 더블린 환대로 환영하는 것이 그들의 특징이다.",
-                    "sent_id": 985,
+                    "sent_id": 1825,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5161
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.14289",
-            "examples": [
-                {
-                    "frameName": "Buildings",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 6,
-                                "end": 9
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "이 야채는 하우스에서 재배한 것이다.",
-                    "target": "하우스",
-                    "ko_annotation_id": "sejong.14289",
-                    "relations": []
+                    "lu": "모르다.v.Possession",
+                    "text": "나는 무엇이 흐르는 지를 모른다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NN",
-    "ko_lu": "하우스.n.Buildings",
-    "lu_id": 2889,
-    "en_lus": [
-        "house"
     ]
 }

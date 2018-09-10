@@ -1,52 +1,81 @@
 {
-    "frameName": "Process_end",
+    "ko_pos": "v",
+    "ko_lu": "의하다.v.Origin",
+    "frameID": 1103,
+    "frameName": "Origin",
+    "en_lus": [
+        "of"
+    ],
+    "lu_id": 1153,
     "patterns": [
         {
-            "valenceText": "annotation id: 3576",
+            "valenceText": "annotation id: 2867",
             "examples": [
                 {
-                    "frameName": "Process_end",
+                    "origin_lus": [
+                        "of"
+                    ],
+                    "ko_annotation_id": 2867,
+                    "annotation_id": 5507,
+                    "frameName": "Origin",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Origin",
                             "span": {
-                                "begin": 32,
-                                "end": 35
+                                "begin": 18,
+                                "end": 20
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "의해"
                         },
                         {
-                            "obj": "process",
+                            "id": 2,
+                            "obj": "Origin",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 36,
-                                "end": 38
+                                "begin": 10,
+                                "end": 12
                             },
-                            "id": "2"
+                            "text": "홍콩",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "text": "사람들에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "final"
-                    ],
-                    "ko_annotation_id": 3576,
-                    "text": "이제 나는 너무 철학적으로 생각하고 있지만, 이것이 나의 마지막 편지이다, 그러니 그러면 어떤가 ?",
-                    "sent_id": 486,
+                    "sent_id": 1053,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2569
+                    "lu": "의하다.v.Origin",
+                    "text": "가장 유명한 것은 홍콩 사람들에 의해 사랑받지 못하는 눈에 띄는 74층의 I.M. Pei 중국 은행 - 그것의 삼각형 프리즘과 날카로운 각들은 feng shui ( 페이지 68의 박스 참조 ) 의 원리를 위반하고 라디오 마스트는 곤충의 안테나 처럼 튀어나왔다."
                 }
             ]
         }
-    ],
-    "frameID": 232,
-    "ko_pos": "NNG",
-    "ko_lu": "마지막.n.Process_end",
-    "lu_id": 1153,
-    "en_lus": [
-        "final"
     ]
 }

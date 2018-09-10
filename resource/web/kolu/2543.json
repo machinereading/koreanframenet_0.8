@@ -1,54 +1,82 @@
 {
-    "frameName": "Theft",
+    "ko_pos": "v",
+    "ko_lu": "따라가다.v.Cotheme",
+    "frameID": 56,
+    "frameName": "Cotheme",
+    "en_lus": [
+        "follow"
+    ],
+    "lu_id": 2543,
     "patterns": [
         {
-            "valenceText": "annotation id: 8416",
+            "valenceText": "annotation id: 1899",
             "examples": [
                 {
-                    "frameName": "Theft",
+                    "origin_lus": [
+                        "follow"
+                    ],
+                    "ko_annotation_id": 1899,
+                    "annotation_id": 3908,
+                    "frameName": "Cotheme",
                     "denotations": [
                         {
-                            "obj": "source",
+                            "id": 1,
+                            "obj": "Cotheme",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 35,
+                                "end": 38
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "따라갈"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 3,
-                                "end": 5
+                                "begin": 4,
+                                "end": 12
                             },
-                            "id": "1"
+                            "text": "Anasazi가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cotheme",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "text": "야생 동물을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "thief",
-                        "nusubito .盗人 "
-                    ],
-                    "ko_annotation_id": 8416,
-                    "text": "전자 도둑을 잡는 유일한 방법은 그에게 틀린 정보를 제공하는 것이라고 그는 말하였다.",
-                    "sent_id": 1956,
+                    "sent_id": 743,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9446
+                    "lu": "따라가다.v.Cotheme",
+                    "text": "이것은 Anasazi가 진보된 사회의 수준점 -- 야생 동물을 따라갈 필요 없이 일년 내내 영구적인 거처에서 살 수 있는 능력에 도달하도록 허용하였다."
                 }
             ]
         }
-    ],
-    "frameID": 94,
-    "ko_pos": "NNG",
-    "ko_lu": "도둑.n.Theft",
-    "lu_id": 2543,
-    "en_lus": [
-        "nusubito .盗人 ",
-        "thief"
     ]
 }

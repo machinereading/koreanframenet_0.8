@@ -1,44 +1,83 @@
 {
-    "frameName": "Size",
+    "ko_pos": "v",
+    "ko_lu": "지내다.v.Desirability",
+    "frameID": 354,
+    "frameName": "Desirability",
+    "en_lus": [
+        "okay"
+    ],
+    "lu_id": 4184,
     "patterns": [
         {
-            "valenceText": "annotation id: 14410",
+            "valenceText": "annotation id: 4815",
             "examples": [
                 {
-                    "frameName": "Size",
+                    "origin_lus": [
+                        "okay"
+                    ],
+                    "ko_annotation_id": 4815,
+                    "annotation_id": 0,
+                    "frameName": "Desirability",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Desirability",
                             "span": {
-                                "begin": 35,
-                                "end": 37
-                            }
+                                "begin": 11,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "잘 지내고 있는지"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 29,
-                                "end": 31
-                            }
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "그들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Affected_Party",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "그녀와",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "atamadekkati .頭でっかち "
+                    "sent_id": 1818,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14410,
-                    "text": "얼굴은, 사과처럼 붉고, 눈은, 커다랗고, 동그란, 머리가 큰 아이입니다.",
-                    "sent_id": 3787,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "지내다.v.Desirability",
+                    "text": "나는 그들이 그녀와 잘 지내고 있는지 확인 하기 위해 5월과 6월에 Patti로부터 회신을 기다리고 있는 중이다."
                 }
             ]
         }
-    ],
-    "frameID": 2282,
-    "ko_pos": "NNG",
-    "ko_lu": "머리.n.Size",
-    "lu_id": 4184,
-    "en_lus": [
-        "atamadekkati .頭でっかち "
     ]
 }

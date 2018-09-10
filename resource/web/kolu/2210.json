@@ -1,44 +1,104 @@
 {
-    "frameName": "Agree_or_refuse_to_act",
+    "ko_pos": "n",
+    "ko_lu": "의심.n.Certainty",
+    "frameID": 141,
+    "frameName": "Certainty",
+    "en_lus": [
+        "doubt"
+    ],
+    "lu_id": 2210,
     "patterns": [
         {
-            "valenceText": "annotation id: 7170",
+            "valenceText": "annotation id: 5109",
             "examples": [
                 {
-                    "frameName": "Agree_or_refuse_to_act",
+                    "origin_lus": [
+                        "doubt"
+                    ],
+                    "ko_annotation_id": 5109,
+                    "annotation_id": 9217,
+                    "frameName": "Certainty",
                     "denotations": [
                         {
-                            "obj": "Proposed_action",
+                            "id": 1,
+                            "obj": "Certainty",
                             "span": {
-                                "begin": 11,
-                                "end": 43
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 45,
-                                "end": 48
-                            }
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "의심의"
                         }
                     ],
-                    "origin_lus": [
-                        "nattoku .納得"
-                    ],
-                    "ko_annotation_id": 7170,
-                    "text": "이에 비추어볼 때, 나에게 현실인 것이 타인에게는 그렇지 않을 수 있다는 사실을 이해할 수 있을 것이다.",
-                    "sent_id": 4676,
+                    "sent_id": 1911,
                     "relations": [],
-                    "annotation_id": 0
+                    "lu": "의심.n.Certainty",
+                    "text": "그래서 나로서는 누군가가, 저어, 타당한 의심의 여지없이 종신형이면, 그들은 그렇게 되어야 하고, 어, 특히 이들의 일부는 정말로 그렇다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13734",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "doubt"
+                    ],
+                    "ko_annotation_id": 13734,
+                    "annotation_id": 0,
+                    "frameName": "Certainty",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Certainty",
+                            "span": {
+                                "begin": 73,
+                                "end": 76
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "의심의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 72
+                            },
+                            "text": "결국 활기를 찾기 시작한 경제에서 인플레이션과의 싸움에 전념하는 것에 대해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1460,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의심.n.Certainty",
+                    "text": "5 년간의 완화된 신용 이후, Fed는 코스를 뒤바꾸어 결국 활기를 찾기 시작한 경제에서 인플레이션과의 싸움에 전념하는 것에 대해 의심의 여지를 남기지 않았다."
                 }
             ]
         }
-    ],
-    "frameID": 1625,
-    "ko_pos": "VV",
-    "ko_lu": "이해하다.v.Agree_or_refuse_to_act",
-    "lu_id": 2210,
-    "en_lus": [
-        "nattoku .納得"
     ]
 }

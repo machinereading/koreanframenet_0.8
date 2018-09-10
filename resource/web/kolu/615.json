@@ -1,44 +1,82 @@
 {
-    "frameName": "Education_teaching",
+    "ko_pos": "n",
+    "ko_lu": "개.n.Obviousness",
+    "frameID": 1360,
+    "frameName": "Obviousness",
+    "en_lus": [
+        "hareagaru .晴れ上がる "
+    ],
+    "lu_id": 615,
     "patterns": [
         {
-            "valenceText": "annotation id: 1867",
+            "valenceText": "annotation id: 10541",
             "examples": [
                 {
-                    "frameName": "Education_teaching",
+                    "origin_lus": [
+                        "hareagaru .晴れ上がる "
+                    ],
+                    "ko_annotation_id": 10541,
+                    "annotation_id": 0,
+                    "frameName": "Obviousness",
                     "denotations": [
                         {
-                            "obj": "Subject",
+                            "id": 1,
+                            "obj": "Obviousness",
                             "span": {
-                                "begin": 8,
-                                "end": 17
-                            }
+                                "begin": 49,
+                                "end": 51
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "개는"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 20
-                            }
+                                "begin": 26,
+                                "end": 32
+                            },
+                            "text": "마음 속에는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 48
+                            },
+                            "text": "맑게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "manabi .学び "
+                    "sent_id": 3832,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 1867,
-                    "text": "중요한 것은, 「내일로 이어지는 배움과 대화」를 하는 것입니다.",
-                    "sent_id": 3692,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "개.n.Obviousness",
+                    "text": "테러의 기억이 사람들의 뇌리에서 떠나지 않고, 마음 속에는 늘 안개가 낀 것처럼, 맑게 개는 날이 없어져 버린 것입니다."
                 }
             ]
         }
-    ],
-    "frameID": 111,
-    "ko_pos": "NNG",
-    "ko_lu": "배움.n.Education_teaching",
-    "lu_id": 615,
-    "en_lus": [
-        "manabi .学び "
     ]
 }

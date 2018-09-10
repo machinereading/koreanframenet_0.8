@@ -1,52 +1,81 @@
 {
-    "frameName": "Change_of_phase",
+    "ko_pos": "n",
+    "ko_lu": "동년배.n.Personal_relationship",
+    "frameID": 102,
+    "frameName": "Personal_relationship",
+    "en_lus": [
+        "nakama .仲間 "
+    ],
+    "lu_id": 1610,
     "patterns": [
         {
-            "valenceText": "annotation id: 5082",
+            "valenceText": "annotation id: 16291",
             "examples": [
                 {
-                    "frameName": "Change_of_phase",
+                    "origin_lus": [
+                        "nakama .仲間 "
+                    ],
+                    "ko_annotation_id": 16291,
+                    "annotation_id": 0,
+                    "frameName": "Personal_relationship",
                     "denotations": [
                         {
-                            "obj": "undergoer",
+                            "id": 1,
+                            "obj": "Personal_relationship",
                             "span": {
-                                "begin": 0,
-                                "end": 12
+                                "begin": 14,
+                                "end": 19
                             },
-                            "id": "2"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "동년배들이"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Depictive",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 14
+                                "begin": 14,
+                                "end": 19
                             },
-                            "id": "1"
+                            "text": "동년배들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Partners",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "text": "하나둘,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "melted"
-                    ],
-                    "ko_annotation_id": 5082,
-                    "text": "호수에 공급되는 빙하는 녹았고 호수는 증발하였다.",
-                    "sent_id": 733,
+                    "sent_id": 3913,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3856
+                    "lu": "동년배.n.Personal_relationship",
+                    "text": "(오십견인가?) 병원에서 동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이 생각났다."
                 }
             ]
         }
-    ],
-    "frameID": 336,
-    "ko_pos": "VV",
-    "ko_lu": "녹다.v.Change_of_phase",
-    "lu_id": 1610,
-    "en_lus": [
-        "melt"
     ]
 }

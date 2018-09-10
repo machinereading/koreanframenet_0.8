@@ -1,87 +1,83 @@
 {
-    "frameName": "Aggregate",
+    "ko_pos": "a",
+    "ko_lu": "안되다.a.Quantity",
+    "frameID": 2604,
+    "frameName": "Quantity",
+    "en_lus": [
+        "few"
+    ],
+    "lu_id": 2222,
     "patterns": [
         {
-            "valenceText": "annotation id: 7236",
+            "valenceText": "annotation id: 3808",
             "examples": [
                 {
-                    "frameName": "Aggregate",
+                    "origin_lus": [
+                        "few"
+                    ],
+                    "ko_annotation_id": 3808,
+                    "annotation_id": 7093,
+                    "frameName": "Quantity",
                     "denotations": [
                         {
-                            "obj": "individuals",
+                            "id": 1,
+                            "obj": "Quantity",
                             "span": {
-                                "begin": 125,
-                                "end": 127
+                                "begin": 50,
+                                "end": 55
                             },
-                            "id": "2"
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "몇 안되는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 128,
-                                "end": 130
+                                "begin": 47,
+                                "end": 49
                             },
-                            "id": "1"
+                            "text": "아주",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Individuals",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 63
+                            },
+                            "text": "미국 국회의원",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "community",
-                        "syakai .社会"
-                    ],
-                    "ko_annotation_id": 7236,
-                    "text": "부분적으로 1970년대에 이라크의 핵 프로그램의 신속한 발전과 1990년대에 북한의 발전이 대체로 들키지 않게 허용한 핵확산 방지 조약 (NPT ) 감시 체제의 단점의 결과로, 그리고 부분적으로 이란의 의도를 평가함으로써, 국제 사회와 국제 원자력 기구 ( IAEA ) 는 과거 수 년간에 걸친 이란의 활동에 대한 면밀 조사를 증가시켰다.",
-                    "sent_id": 2554,
+                    "sent_id": 1495,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 12769
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 7237",
-            "examples": [
-                {
-                    "frameName": "Aggregate",
-                    "denotations": [
-                        {
-                            "obj": "Aggregate",
-                            "span": {
-                                "begin": 0,
-                                "end": 11
-                            }
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 9,
-                                "end": 11
-                            }
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "origin_lus": [
-                        "community",
-                        "syakai .社会"
-                    ],
-                    "ko_annotation_id": 7237,
-                    "text": "포스트 산업주의 사회에서는, 지식이 고도화, 복합화, 유동화하여, 지식이 자본으로서 기능하기 때문입니다.",
-                    "sent_id": 4182,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "안되다.a.Quantity",
+                    "text": "쿠웨이트에 대한 1991년 걸프 전쟁 이후 이라크를 방문하는 오하이오주 민주당원이고 아주 몇 안되는 미국 국회의원 중 하나인 Hall은 이라크 수도 바그다드로의 12 시간의 육로 여행을 일요일에 착수할 예정이다."
                 }
             ]
         }
-    ],
-    "frameID": 103,
-    "ko_pos": "NNG",
-    "ko_lu": "사회.n.Aggregate",
-    "lu_id": 2222,
-    "en_lus": [
-        "syakai .社会",
-        "community"
     ]
 }

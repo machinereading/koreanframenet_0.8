@@ -1,51 +1,85 @@
 {
-    "frameName": "Contingency",
+    "ko_pos": "v",
+    "ko_lu": "가져가다.v.Bringing",
+    "frameID": 240,
+    "frameName": "Bringing",
+    "en_lus": [
+        "bring"
+    ],
+    "lu_id": 3086,
     "patterns": [
         {
-            "valenceText": "annotation id: 10255",
+            "valenceText": "annotation id: 12672",
             "examples": [
                 {
-                    "frameName": "Contingency",
+                    "origin_lus": [
+                        "bringing"
+                    ],
+                    "ko_annotation_id": 12672,
+                    "annotation_id": 1500,
+                    "frameName": "Bringing",
                     "denotations": [
                         {
-                            "obj": "Determinant",
+                            "id": 1,
+                            "obj": "Bringing",
                             "span": {
-                                "begin": 70,
+                                "begin": 80,
+                                "end": 84
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "가져가지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 56,
                                 "end": 72
-                            }
+                            },
+                            "text": "다른 지역/주와 그들 의원들이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Outcome",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                17,
+                                18
+                            ],
                             "span": {
-                                "begin": 77,
-                                "end": 91
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 72,
-                                "end": 73
-                            }
+                                "begin": 73,
+                                "end": 79
+                            },
+                            "text": "지역 혜택을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sidai .次第 "
+                    "sent_id": 274,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 10255,
-                    "text": "자아, 여기까지 왔으면, 당신이 생활 속에서 직면하여 고민하게 되는 모순된 「현실」은, 당신의 사고방식을 전제로 하고 있어, 그것에 따라 현실을 변화시킬 수 있다는 것을 이해할 수 있는 단계가 되었다.",
-                    "sent_id": 4198,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "가져가다.v.Bringing",
+                    "text": "공화당 대통령이 투표자의 해당 지역/주에 지역에 대한 혜택을 제한할지라도, 그와 같은 대통령은 또한 다른 지역/주와 그들 의원들이 지역 혜택을 가져가지 못하게 하는데 더 효과적일 수도 있다."
                 }
             ]
         }
-    ],
-    "frameID": 900,
-    "ko_pos": "VV",
-    "ko_lu": "에다.v.Contingency",
-    "lu_id": 3086,
-    "en_lus": [
-        "sidai .次第 "
     ]
 }

@@ -1,95 +1,106 @@
 {
-    "frameName": "Idiosyncrasy",
+    "ko_pos": "v",
+    "ko_lu": "떨다.v.Body_movement",
+    "frameID": 16,
+    "frameName": "Body_movement",
+    "en_lus": [
+        "shiver"
+    ],
+    "lu_id": 5249,
     "patterns": [
         {
-            "valenceText": "annotation id: 18518",
+            "valenceText": "annotation id: 12591",
             "examples": [
                 {
-                    "frameName": "Idiosyncrasy",
-                    "denotations": [
-                        {
-                            "obj": "Entity",
-                            "span": {
-                                "begin": 0,
-                                "end": 4
-                            }
-                        },
-                        {
-                            "obj": "Idiosyncrasy",
-                            "span": {
-                                "begin": 6,
-                                "end": 22
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 26,
-                                "end": 29
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "tokusyu .特殊 "
+                        "shivering"
                     ],
-                    "ko_annotation_id": 18518,
-                    "text": "기기선정은 커넥터부터 제어판 선정에 이르기까지 특수하다.",
-                    "sent_id": 4313,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.100233",
-            "examples": [
-                {
-                    "frameName": "Idiosyncrasy",
+                    "ko_annotation_id": 12591,
+                    "annotation_id": 911,
+                    "frameName": "Body_movement",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Body_movement",
                             "span": {
-                                "begin": 16,
-                                "end": 20
+                                "begin": 96,
+                                "end": 103
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그가 처해 있는 상황은 아주 특수하다.",
-                    "target": "특수하다",
-                    "ko_annotation_id": "sejong.100233",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.100234",
-            "examples": [
-                {
-                    "frameName": "Idiosyncrasy",
-                    "denotations": [
+                            "token_span": [
+                                24,
+                                25
+                            ],
+                            "role": "TARGET",
+                            "text": "떨고 있었다."
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 14
+                                "begin": 19,
+                                "end": 21
                             },
-                            "obj": "target"
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duration",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 63,
+                                "end": 77
+                            },
+                            "text": "그가 그곳에 도착할 때까지",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                19,
+                                20,
+                                21,
+                                22
+                            ],
+                            "span": {
+                                "begin": 78,
+                                "end": 92
+                            },
+                            "text": "영하 20도나 되는 것처럼",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "이 도구들은 모두 특수하다.",
-                    "target": "특수하다",
-                    "ko_annotation_id": "sejong.100234",
-                    "relations": []
+                    "sent_id": 159,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "떨다.v.Body_movement",
+                    "text": "지진이 끝났다는 것을 알았을 때, 나는 집 앞으로 걸어가 서서, Merrill이 집에 오기를 기다리며 기도하고, 그가 그곳에 도착할 때까지 영하 20도나 되는 것처럼 몸을 떨고 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 982,
-    "ko_pos": "VA",
-    "ko_lu": "특수하다.a.Idiosyncrasy",
-    "lu_id": 5249,
-    "en_lus": [
-        "tokusyu .特殊 "
     ]
 }

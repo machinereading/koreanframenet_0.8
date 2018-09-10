@@ -1,80 +1,81 @@
 {
-    "frameName": "Institutions",
+    "ko_pos": "v",
+    "ko_lu": "감동하다.v.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "kandoo .感動 "
+    ],
+    "lu_id": 4809,
     "patterns": [
         {
-            "valenceText": "annotation id: 16870",
+            "valenceText": "annotation id: 10501",
             "examples": [
                 {
-                    "frameName": "Institutions",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 45,
-                                "end": 48
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "institution",
-                        "institutions"
+                        "kandoo .感動 "
                     ],
-                    "ko_annotation_id": 16870,
-                    "text": "경사진 차도의 맨 위에는, 원래 대학 건물이었던 위풍당당한 Edward 건축물은 연구원의 더 새로운 빌딩들을 주도하고 있다.",
-                    "sent_id": 1098,
-                    "relations": [],
-                    "annotation_id": 5743
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 16871",
-            "examples": [
-                {
-                    "frameName": "Institutions",
+                    "ko_annotation_id": 10501,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
                     "denotations": [
                         {
-                            "obj": "domain",
+                            "id": 1,
+                            "obj": "Experiencer_focus",
                             "span": {
-                                "begin": 88,
-                                "end": 95
+                                "begin": 16,
+                                "end": 20
                             },
-                            "id": "2"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "감동하고"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 96,
-                                "end": 99
+                                "begin": 4,
+                                "end": 6
                             },
-                            "id": "1"
+                            "text": "이왕",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "집을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "institution",
-                        "institutions"
-                    ],
-                    "ko_annotation_id": 16871,
-                    "text": "1980년대 초는 중요한 고유 기술의 확장기였는데, 이 시기에 우라늄 가공 시설, 연료봉 제조 단지, 그리고 5 메가와트 ( e ) 핵 원자로, 이에 더하여 연구 및 개발 연구원이 포함되었다.",
-                    "sent_id": 2929,
+                    "sent_id": 3788,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 15030
+                    "lu": "감동하다.v.Experiencer_focus",
+                    "text": "역시, 이왕 집을 짓는다면, 감동하고 싶고, 자랑도 하고 싶지요."
                 }
             ]
         }
-    ],
-    "frameID": 1604,
-    "ko_pos": "NN",
-    "ko_lu": "연구원.n.Institutions",
-    "lu_id": 4809,
-    "en_lus": [
-        "institution"
     ]
 }

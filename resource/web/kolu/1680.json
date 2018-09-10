@@ -1,74 +1,99 @@
 {
-    "frameName": "Being_necessary",
+    "ko_pos": "v",
+    "ko_lu": "되돌리다.v.Giving",
+    "frameID": 139,
+    "frameName": "Giving",
+    "en_lus": [
+        "tukkaesu .突っ返す "
+    ],
+    "lu_id": 1680,
     "patterns": [
         {
-            "valenceText": "annotation id: 5237",
+            "valenceText": "annotation id: 11106",
             "examples": [
                 {
-                    "frameName": "Being_necessary",
+                    "origin_lus": [
+                        "tukkaesu .突っ返す "
+                    ],
+                    "ko_annotation_id": 11106,
+                    "annotation_id": 0,
+                    "frameName": "Giving",
                     "denotations": [
                         {
-                            "obj": "dependent",
+                            "id": 1,
+                            "obj": "Giving",
                             "span": {
-                                "begin": 28,
-                                "end": 30
+                                "begin": 27,
+                                "end": 31
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "되돌려준"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Donor",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 31,
-                                "end": 34
+                                "begin": 13,
+                                "end": 15
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "Necessities"
-                    ],
-                    "ko_annotation_id": 5237,
-                    "text": "이들은 다음을 포함하나 다음에 국한되지는 않는 : 전쟁 필수품과 이라크의 전략적 표적까지의 짧은 거리.",
-                    "sent_id": 2405,
-                    "relations": [
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 12128
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.28153",
-            "examples": [
-                {
-                    "frameName": "Being_necessary",
-                    "denotations": [
+                            "id": 3,
+                            "obj": "Recipient",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 21
+                            },
+                            "text": "히데토에게",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
                                 "begin": 22,
-                                "end": 25
+                                "end": 26
                             },
-                            "id": "1"
+                            "text": "곰인형을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "여름 휴가 때에 여행을 떠나는 사람들의 필수품은 모기향이다.",
-                    "target": "필수품",
-                    "ko_annotation_id": "sejong.28153",
-                    "relations": []
+                    "sent_id": 4184,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "되돌리다.v.Giving",
+                    "text": "「응」「무슨 일이야?」 나는 히데토에게 곰인형을 되돌려준 사실을 이야기했다."
                 }
             ]
         }
-    ],
-    "frameID": 1157,
-    "ko_pos": "NN",
-    "ko_lu": "필수품.n.Being_necessary",
-    "lu_id": 1680,
-    "en_lus": [
-        "Necessities"
     ]
 }

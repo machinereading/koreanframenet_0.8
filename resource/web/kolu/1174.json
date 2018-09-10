@@ -1,78 +1,171 @@
 {
-    "frameName": "Capability",
+    "ko_pos": "v",
+    "ko_lu": "예측하다.v.Predicting",
+    "frameID": 425,
+    "frameName": "Predicting",
+    "en_lus": [
+        "forecast"
+    ],
+    "lu_id": 1174,
     "patterns": [
         {
-            "valenceText": "annotation id: 3645",
+            "valenceText": "annotation id: 4859",
             "examples": [
                 {
-                    "frameName": "Capability",
+                    "origin_lus": [
+                        "forecast"
+                    ],
+                    "ko_annotation_id": 4859,
+                    "annotation_id": 8829,
+                    "frameName": "Predicting",
                     "denotations": [
                         {
-                            "obj": "entity",
+                            "id": 1,
+                            "obj": "Predicting",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 23,
+                                "end": 27
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "예측해야"
                         },
                         {
-                            "obj": "cause",
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 59
+                                "begin": 9,
+                                "end": 12
                             },
-                            "id": "4"
+                            "text": "우리는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Time_Of_Eventuality",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 40,
-                                "end": 42
+                                "begin": 16,
+                                "end": 22
                             },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "event",
-                            "span": {
-                                "begin": 62,
-                                "end": 65
-                            },
-                            "id": "3"
+                            "text": "5 일 전에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "can"
-                    ],
-                    "ko_annotation_id": 3645,
-                    "text": "제재는 유엔 검사관들이 이라크가 대량 살상 무기와 그들을 생산하기 위한 수단을 제거하였다는 것을 확인할 때까지 해제될 수 없다.",
-                    "sent_id": 1501,
+                    "sent_id": 1836,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 7153
+                    "lu": "예측하다.v.Predicting",
+                    "text": "지불에 관해 … 우리는 지금 5 일 전에 예측해야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14067",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "forecast"
+                    ],
+                    "ko_annotation_id": 14067,
+                    "annotation_id": 8821,
+                    "frameName": "Predicting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Predicting",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "예측해야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time_Of_Eventuality",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "text": "이틀 전에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Eventuality",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "text": "돈을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1833,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예측하다.v.Predicting",
+                    "text": "지불을 위해 우리는 이틀 전에 돈을 예측해야 한다."
                 }
             ]
         }
-    ],
-    "frameID": 990,
-    "ko_pos": "NNG",
-    "ko_lu": "수단.n.Capability",
-    "lu_id": 1174,
-    "en_lus": [
-        "can"
     ]
 }

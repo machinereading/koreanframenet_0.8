@@ -1,52 +1,63 @@
 {
-    "frameName": "Political_locales",
+    "ko_pos": "n",
+    "ko_lu": "장.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "director"
+    ],
+    "lu_id": 410,
     "patterns": [
         {
-            "valenceText": "annotation id: 1025",
+            "valenceText": "annotation id: 17248",
             "examples": [
                 {
-                    "frameName": "Political_locales",
+                    "origin_lus": [
+                        "director"
+                    ],
+                    "ko_annotation_id": 17248,
+                    "annotation_id": 16592,
+                    "frameName": "Leadership",
                     "denotations": [
                         {
-                            "obj": "descriptor",
+                            "id": 1,
+                            "obj": "Leadership",
                             "span": {
-                                "begin": 23,
-                                "end": 33
+                                "begin": 3,
+                                "end": 5
                             },
-                            "id": "2"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "장은"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Governed",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 34,
-                                "end": 36
+                                "begin": 0,
+                                "end": 2
                             },
-                            "id": "1"
+                            "text": "센터",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "towns"
-                    ],
-                    "ko_annotation_id": 1025,
-                    "text": "우리는 Goodwill의 입증된 방법들을 그들이 가장 필요한 시내와 이웃으로 넓혔습니다.",
-                    "sent_id": 401,
+                    "sent_id": 3174,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2117
+                    "lu": "장.n.Leadership",
+                    "text": "센터 장은 안전 절차의 철저한 검토를 약속하였다."
                 }
             ]
         }
-    ],
-    "frameID": 195,
-    "ko_pos": "NNG",
-    "ko_lu": "시내.n.Political_locales",
-    "lu_id": 410,
-    "en_lus": [
-        "town"
     ]
 }

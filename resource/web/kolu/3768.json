@@ -1,51 +1,84 @@
 {
-    "frameName": "Change_position_on_a_scale",
+    "ko_pos": "v",
+    "ko_lu": "경영하다.v.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "keeee .経営"
+    ],
+    "lu_id": 3768,
     "patterns": [
         {
-            "valenceText": "annotation id: 12919",
+            "valenceText": "annotation id: 12034",
             "examples": [
                 {
-                    "frameName": "Change_position_on_a_scale",
+                    "origin_lus": [
+                        "keeee .経営"
+                    ],
+                    "ko_annotation_id": 12034,
+                    "annotation_id": 0,
+                    "frameName": "Leadership",
                     "denotations": [
                         {
-                            "obj": "Place",
+                            "id": 1,
+                            "obj": "Leadership",
                             "span": {
-                                "begin": 0,
-                                "end": 11
-                            }
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "경영하던"
                         },
                         {
-                            "obj": "Item",
+                            "id": 2,
+                            "obj": "Leader",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "주인이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Governed",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 23
-                            }
+                                "begin": 15,
+                                "end": 31
+                            },
+                            "text": "문화주택 「다마노 우미 장」도",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "koodo ka .高度 化 "
+                    "sent_id": 4789,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12919,
-                    "text": "포스트 산업주의 사회에서는, 지식이 고도화, 복합화, 유동화하여, 지식이 자본으로서 기능하기 때문입니다.",
-                    "sent_id": 4182,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "경영하다.v.Leadership",
+                    "text": "집 옆에는 주인이 경영하던 문화주택 「다마노 우미 장」도 있다고 한다."
                 }
             ]
         }
-    ],
-    "frameID": 91,
-    "ko_pos": "NN",
-    "ko_lu": "고도화.n.Change_position_on_a_scale",
-    "lu_id": 3768,
-    "en_lus": [
-        "koodo ka .高度 化 "
     ]
 }

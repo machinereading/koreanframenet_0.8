@@ -1,122 +1,155 @@
 {
-    "frameName": "Cause_motion",
+    "ko_pos": "v",
+    "ko_lu": "선고하다.v.Sentencing",
+    "frameID": 297,
+    "frameName": "Sentencing",
+    "en_lus": [
+        "sentence"
+    ],
+    "lu_id": 3866,
     "patterns": [
         {
-            "valenceText": "annotation id: 13219",
+            "valenceText": "annotation id: 5091",
             "examples": [
                 {
-                    "frameName": "Cause_motion",
+                    "origin_lus": [
+                        "sentence",
+                        "sentences"
+                    ],
+                    "ko_annotation_id": 5091,
+                    "annotation_id": 9184,
+                    "frameName": "Sentencing",
                     "denotations": [
                         {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Sentencing",
                             "span": {
-                                "begin": 4,
-                                "end": 10
+                                "begin": 56,
+                                "end": 61
                             },
-                            "id": "3"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "선고하는데"
                         },
                         {
-                            "obj": "instrument",
+                            "id": 2,
+                            "obj": "Depictive",
+                            "token_span": [
+                                27
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 13
+                                "begin": 108,
+                                "end": 112
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 16,
-                                "end": 20
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "theme",
-                            "span": {
-                                "begin": 21,
-                                "end": 31
-                            },
-                            "id": "4"
+                            "text": "자동적인",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "propelled"
-                    ],
-                    "ko_annotation_id": 13219,
-                    "text": "당신은 여성 운전자의 손에서 추진되는 작은 배들 중 하나로 항구 여행을 할 수 있다.",
-                    "sent_id": 1133,
+                    "sent_id": 1904,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5956
+                    "lu": "선고하다.v.Sentencing",
+                    "text": "시스템에, 감옥에 그들을 위한 방이 없거나, 혹은, 저어, 판사가 누군가를 2 개월에서 50년 사이 선고하는데 있어서 재량을 가지고 판사의 그 결정에 대한 일시적 생각이 2 개월이라면, 그것은 자동적인 선고처럼 보인다고 그들이 말하기 때문이다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.61245",
+            "valenceText": "annotation id: 5092",
             "examples": [
                 {
-                    "frameName": "Cause_motion",
+                    "origin_lus": [
+                        "sentence",
+                        "sentences"
+                    ],
+                    "ko_annotation_id": 5092,
+                    "annotation_id": 9184,
+                    "frameName": "Sentencing",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Sentencing",
                             "span": {
-                                "begin": 28,
-                                "end": 33
+                                "begin": 56,
+                                "end": 61
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그가 죽은 이후에도 그가 세웠던 연구 계획은 계속 추진되었다.",
-                    "target": "추진되었다",
-                    "ko_annotation_id": "sejong.61245",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.61246",
-            "examples": [
-                {
-                    "frameName": "Cause_motion",
-                    "denotations": [
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "선고하는데"
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Court",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 14
+                                "begin": 33,
+                                "end": 36
                             },
-                            "obj": "target"
+                            "text": "판사가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Convict",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 41
+                            },
+                            "text": "누군가를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Term_Of_Sentence",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 55
+                            },
+                            "text": "2 개월에서 50년 사이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "경기가 바닥이어도 추진되던 사업을 멈출 수는 없다.",
-                    "target": "추진되던",
-                    "ko_annotation_id": "sejong.61246",
-                    "relations": []
+                    "sent_id": 1904,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "선고하다.v.Sentencing",
+                    "text": "시스템에, 감옥에 그들을 위한 방이 없거나, 혹은, 저어, 판사가 누군가를 2 개월에서 50년 사이 선고하는데 있어서 재량을 가지고 판사의 그 결정에 대한 일시적 생각이 2 개월이라면, 그것은 자동적인 선고처럼 보인다고 그들이 말하기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 55,
-    "ko_pos": "VV",
-    "ko_lu": "추진되다.v.Cause_motion",
-    "lu_id": 3866,
-    "en_lus": [
-        "propel"
     ]
 }

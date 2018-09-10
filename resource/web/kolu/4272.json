@@ -1,52 +1,119 @@
 {
-    "frameName": "Temporal_subregion",
+    "ko_pos": "n",
+    "ko_lu": "연애.n.Personal_relationship",
+    "frameID": 102,
+    "frameName": "Personal_relationship",
+    "en_lus": [
+        "ren'ai .恋愛 "
+    ],
+    "lu_id": 4272,
     "patterns": [
         {
-            "valenceText": "annotation id: 14746",
+            "valenceText": "annotation id: 10376",
             "examples": [
                 {
-                    "frameName": "Temporal_subregion",
+                    "origin_lus": [
+                        "ren'ai .恋愛 "
+                    ],
+                    "ko_annotation_id": 10376,
+                    "annotation_id": 0,
+                    "frameName": "Personal_relationship",
                     "denotations": [
                         {
-                            "obj": "time_period",
+                            "id": 1,
+                            "obj": "Personal_relationship",
                             "span": {
-                                "begin": 17,
-                                "end": 19
+                                "begin": 50,
+                                "end": 54
                             },
-                            "id": "2"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "자유연애"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Partner_1",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 23
+                                "begin": 3,
+                                "end": 31
                             },
-                            "id": "1"
+                            "text": "이치코의 목숨을 건 사랑에 싫증을 느끼던 오스기는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Partner_2",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 44,
+                                "end": 49
+                            },
+                            "text": "노에에게도",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Early"
-                    ],
-                    "ko_annotation_id": 14746,
-                    "text": "Flowers의 위기가 한창인 필름의 초반에, Sam Donaldson은 \" 그것 모두를 공화당 공격 기계. \" 로 탓하는 Stephanopoulos와 인터뷰한다.",
-                    "sent_id": 1019,
+                    "sent_id": 3704,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5341
+                    "lu": "연애.n.Personal_relationship",
+                    "text": "기만 이치코의 목숨을 건 사랑에 싫증을 느끼던 오스기는, 새로운 자신의 애인, 노에에게도 자유연애 게임에 가담할 것을 권한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16717",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ren'ai .恋愛 "
+                    ],
+                    "ko_annotation_id": 16717,
+                    "annotation_id": 0,
+                    "frameName": "Personal_relationship",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Personal_relationship",
+                            "span": {
+                                "begin": 67,
+                                "end": 70
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "연애의"
+                        }
+                    ],
+                    "sent_id": 4822,
+                    "relations": [],
+                    "lu": "연애.n.Personal_relationship",
+                    "text": "그렇다면 「처녀성을 버리기에 가장 적절한 때」는 언제인가 하면 「각자의 내적 생활의 경험으로 미루어 보았을 때, 그것은 연애의 경험 중에, 연인을 향한 영적 동경 (애정.)을 지닌 가운데 관능적 요구를 발하여, 자신의 인격 안에서 양자의 일치 결합을 진실로 느꼈을 경우가 아닌가 」「그렇게 생각한다면 처녀성의 가치는 실로 크다."
                 }
             ]
         }
-    ],
-    "frameID": 1470,
-    "ko_pos": "NNG",
-    "ko_lu": "초반.n.Temporal_subregion",
-    "lu_id": 4272,
-    "en_lus": [
-        "Early"
     ]
 }

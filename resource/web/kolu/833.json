@@ -1,65 +1,82 @@
 {
-    "frameName": "Likelihood",
+    "ko_pos": "v",
+    "ko_lu": "만지다.v.Impact",
+    "frameID": 311,
+    "frameName": "Impact",
+    "en_lus": [
+        "hureru .触れる "
+    ],
+    "lu_id": 833,
     "patterns": [
         {
-            "valenceText": "annotation id: 2498",
+            "valenceText": "annotation id: 11240",
             "examples": [
                 {
-                    "frameName": "Likelihood",
+                    "origin_lus": [
+                        "hureru .触れる "
+                    ],
+                    "ko_annotation_id": 11240,
+                    "annotation_id": 0,
+                    "frameName": "Impact",
                     "denotations": [
                         {
-                            "obj": "hypothetical_event",
+                            "id": 1,
+                            "obj": "Impact",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "만지는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Impactor",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
+                                "end": 3
                             },
-                            "id": "2"
+                            "text": "「저는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "hypothetical_event",
+                            "id": 3,
+                            "obj": "Impactee",
+                            "token_span": [
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 53
+                                "begin": 15,
+                                "end": 23
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 55,
-                                "end": 56
-                            },
-                            "id": "1"
+                            "text": "끔찍한 것이라도",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "may"
-                    ],
-                    "ko_annotation_id": 2498,
-                    "text": "유력한 후보자들은 민주당 반대파에 의해 예상되는 패배보다 의원 급여 때문에 덜 출마의 용기를 잃게 된다.",
-                    "sent_id": 283,
+                    "sent_id": 4253,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1563
+                    "lu": "만지다.v.Impact",
+                    "text": "「저는 저도 모르게 무언가 끔찍한 것이라도 만지는 것 같은 태도를 보였습니다」라고 솔직하게 그때의 기분을 토로하고 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 114,
-    "ko_pos": "VA",
-    "ko_lu": "되다.a.Likelihood",
-    "lu_id": 833,
-    "en_lus": [
-        "may"
     ]
 }

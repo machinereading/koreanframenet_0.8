@@ -1,95 +1,84 @@
 {
-    "frameName": "Substance",
+    "ko_pos": "v",
+    "ko_lu": "갖다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "suru .する "
+    ],
+    "lu_id": 3641,
     "patterns": [
         {
-            "valenceText": "annotation id: 12503",
+            "valenceText": "annotation id: 12055",
             "examples": [
                 {
-                    "frameName": "Substance",
-                    "denotations": [
-                        {
-                            "obj": "Substance",
-                            "span": {
-                                "begin": "97",
-                                "end": "99"
-                            }
-                        },
-                        {
-                            "obj": "Use",
-                            "span": {
-                                "begin": "100",
-                                "end": "113"
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": "97",
-                                "end": "99"
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "kami .紙 "
+                        "suru .する "
                     ],
-                    "ko_annotation_id": 12503,
-                    "text": "1. house와 home -무엇을 위해 집을 짓는가- 이곳은, 다른 그 무엇과도 바꿀 수 없는 나만의 장소다! 전부터 궁금했는데, 지하도나 공원에서 『노숙자』들이 생활하는 종이 상자(골판지로 만든 집)은, 과연 『집』이라고 할 수 있을까.",
-                    "sent_id": 4210,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.22912",
-            "examples": [
-                {
-                    "frameName": "Substance",
+                    "ko_annotation_id": 12055,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 54,
+                                "end": 56
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "나는 오늘 해야할 일들을 종이에 적어 보았다.",
-                    "target": "종이",
-                    "ko_annotation_id": "sejong.22912",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.22913",
-            "examples": [
-                {
-                    "frameName": "Substance",
-                    "denotations": [
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "갖고"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 11
+                                "begin": 19,
+                                "end": 23
                             },
-                            "id": "1"
+                            "text": "도즈카는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 44
+                            },
+                            "text": "자신의 손으로 초등학교를 운영하겠다는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "책상 위에 있는 종이와 연필을 가져오너라!",
-                    "target": "종이",
-                    "ko_annotation_id": "sejong.22913",
-                    "relations": []
+                    "sent_id": 4801,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "갖다.v.Intentionally_act",
+                    "text": "그런 미래를 실현하는 첫걸음으로, 도즈카는 자신의 손으로 초등학교를 운영하겠다는 것을 큰 목표로 갖고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1321,
-    "ko_pos": "NNG",
-    "ko_lu": "종이.n.Substance",
-    "lu_id": 3641,
-    "en_lus": [
-        "kami .紙 "
     ]
 }

@@ -1,52 +1,102 @@
 {
-    "frameName": "Kinship",
+    "ko_pos": "a",
+    "ko_lu": "되다.a.Change_position_on_a_scale",
+    "frameID": 91,
+    "frameName": "Change_position_on_a_scale",
+    "en_lus": [
+        "naru .なる"
+    ],
+    "lu_id": 3775,
     "patterns": [
         {
-            "valenceText": "annotation id: 12933",
+            "valenceText": "annotation id: 11321",
             "examples": [
                 {
-                    "frameName": "Kinship",
+                    "origin_lus": [
+                        "naru .なる"
+                    ],
+                    "ko_annotation_id": 11321,
+                    "annotation_id": 0,
+                    "frameName": "Change_position_on_a_scale",
                     "denotations": [
                         {
-                            "obj": "alter",
+                            "id": 1,
+                            "obj": "Change_position_on_a_scale",
                             "span": {
-                                "begin": 0,
-                                "end": 4
+                                "begin": 68,
+                                "end": 72
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "되었다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 5,
-                                "end": 8
+                                "begin": 16,
+                                "end": 26
                             },
-                            "id": "1"
+                            "text": "나라의 총 인구는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 55
+                            },
+                            "text": "58년에는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Final_Value",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 67
+                            },
+                            "text": "1억 1,948만명이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Brother"
-                    ],
-                    "ko_annotation_id": 12933,
-                    "text": "Rida 형제여, 나는 이 기사를 통해 우리가 잘못하고 있는 자들의 견해를 이해하려고 하는 것처럼, 다른 사람들의 견해를 이해하도록 당신에게 호소합니다.",
-                    "sent_id": 1696,
+                    "sent_id": 4311,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8283
+                    "lu": "되다.a.Change_position_on_a_scale",
+                    "text": "(인구연령 구조의 추이)우리 나라의 총 인구는, 쇼와 40년대 전반에 1억명을 넘어서고, 58년에는 1억 1,948만명이 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 104,
-    "ko_pos": "NN",
-    "ko_lu": "형제여.n.Kinship",
-    "lu_id": 3775,
-    "en_lus": [
-        "Brother"
     ]
 }

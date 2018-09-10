@@ -1,38 +1,562 @@
 {
-    "frameName": "Vehicle",
+    "ko_pos": "v",
+    "ko_lu": "수령하다.v.Receiving",
+    "frameID": 411,
+    "frameName": "Receiving",
+    "en_lus": [
+        "receive"
+    ],
+    "lu_id": 709,
     "patterns": [
         {
-            "valenceText": "annotation id: 2166",
+            "valenceText": "annotation id: 7808",
             "examples": [
                 {
-                    "frameName": "Vehicle",
+                    "origin_lus": [
+                        "receive",
+                        "receiving",
+                        "received"
+                    ],
+                    "ko_annotation_id": 7808,
+                    "annotation_id": 14171,
+                    "frameName": "Receiving",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Receiving",
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 53,
+                                "end": 59
                             },
-                            "id": "1"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "수령하였음을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "text": "북한이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose_Of_Theme",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 39
+                            },
+                            "text": "고농축 우라늄 생산 시설을 위해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Donor",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 48
+                            },
+                            "text": "파키스탄으로부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Theme",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 52
+                            },
+                            "text": "재료를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tanks"
+                    "sent_id": 2801,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2166,
-                    "text": "Humvee와 탱크를 운전하는 보병 간의 틈을 메꾸기 위해 개발된, 여덟 개의 바퀴가 달린 차량은 미래의 전투력이 될 육군의 다음 단계이다.",
-                    "sent_id": 3184,
-                    "relations": [],
-                    "annotation_id": 16675
+                    "lu": "수령하다.v.Receiving",
+                    "text": "2002년 중반에, 미국 정보는 북한이 고농축 우라늄 생산 시설을 위해 파키스탄으로부터 재료를 수령하였음을 발견하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 8488",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "receive",
+                        "receiving",
+                        "received"
+                    ],
+                    "ko_annotation_id": 8488,
+                    "annotation_id": 15515,
+                    "frameName": "Receiving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Receiving",
+                            "span": {
+                                "begin": 80,
+                                "end": 84
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "수령하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 62,
+                                "end": 65
+                            },
+                            "text": "공군은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 66,
+                                "end": 79
+                            },
+                            "text": "신형 전략 순항 미사일을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3010,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수령하다.v.Receiving",
+                    "text": "Sineva라 명명된, 개량된 SS-N-23의 변형을 생산하기 시작할 계획이 또한 있고, 전해지는 바에 의하면 공군은 신형 전략 순항 미사일을 수령하기 시작하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9018",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "receive",
+                        "receiving",
+                        "received"
+                    ],
+                    "ko_annotation_id": 9018,
+                    "annotation_id": 16653,
+                    "frameName": "Receiving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Receiving",
+                            "span": {
+                                "begin": 92,
+                                "end": 98
+                            },
+                            "token_span": [
+                                26
+                            ],
+                            "role": "TARGET",
+                            "text": "수령하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 28
+                            },
+                            "text": "제 2 기병 연대 ( Fort Lewis 의 ) 는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 87
+                            },
+                            "text": "군인들을 내부에서 안전하게 지키면서 방사선이나 생물 및 화학물질의 위험을 탐지할 수 있는 3 대의 차량을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                25
+                            ],
+                            "span": {
+                                "begin": 88,
+                                "end": 91
+                            },
+                            "text": "최근에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3181,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수령하다.v.Receiving",
+                    "text": "제 2 기병 연대 ( Fort Lewis 의 ) 는 군인들을 내부에서 안전하게 지키면서 방사선이나 생물 및 화학물질의 위험을 탐지할 수 있는 3 대의 차량을 최근에 수령하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9672",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "received"
+                    ],
+                    "ko_annotation_id": 9672,
+                    "annotation_id": 17971,
+                    "frameName": "Receiving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Receiving",
+                            "span": {
+                                "begin": 65,
+                                "end": 71
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "수령하였다는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 64
+                            },
+                            "text": "이와 같은 재료를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3395,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수령하다.v.Receiving",
+                    "text": "이란이 안전 장치되지 않은 농축 우라늄을 획득하였다는 보도가 있었으나, 미국 정보는 이란이 실제로 이와 같은 재료를 수령하였다는 증거는 없다고 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9863",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "received"
+                    ],
+                    "ko_annotation_id": 9863,
+                    "annotation_id": 18280,
+                    "frameName": "Receiving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Receiving",
+                            "span": {
+                                "begin": 29,
+                                "end": 34
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "수령하였을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Donor",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 12
+                            },
+                            "text": "아르헨티나로부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 28
+                            },
+                            "text": "다른 핵 관련 지원과 재료를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3476,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수령하다.v.Receiving",
+                    "text": "이란은 아르헨티나로부터 다른 핵 관련 지원과 재료를 수령하였을 것이다 ( 6883, 6897 )."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9864",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "received"
+                    ],
+                    "ko_annotation_id": 9864,
+                    "annotation_id": 18280,
+                    "frameName": "Receiving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Receiving",
+                            "span": {
+                                "begin": 29,
+                                "end": 34
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "수령하였을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Donor",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 12
+                            },
+                            "text": "아르헨티나로부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 28
+                            },
+                            "text": "다른 핵 관련 지원과 재료를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3476,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수령하다.v.Receiving",
+                    "text": "이란은 아르헨티나로부터 다른 핵 관련 지원과 재료를 수령하였을 것이다 ( 6883, 6897 )."
                 }
             ]
         }
-    ],
-    "frameID": 429,
-    "ko_pos": "NNG",
-    "ko_lu": "탱크.n.Vehicle",
-    "lu_id": 709,
-    "en_lus": [
-        "tank"
     ]
 }

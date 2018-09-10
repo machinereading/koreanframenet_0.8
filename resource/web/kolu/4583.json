@@ -1,80 +1,83 @@
 {
-    "frameName": "Experiencer_focus",
+    "ko_pos": "n",
+    "ko_lu": "관여.n.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "engage"
+    ],
+    "lu_id": 4583,
     "patterns": [
         {
-            "valenceText": "annotation id: 15887",
+            "valenceText": "annotation id: 4300",
             "examples": [
                 {
-                    "frameName": "Experiencer_focus",
-                    "denotations": [
-                        {
-                            "obj": "Experiencer",
-                            "span": {
-                                "begin": 14,
-                                "end": 16
-                            }
-                        },
-                        {
-                            "obj": "Circumstances",
-                            "span": {
-                                "begin": 18,
-                                "end": 28
-                            }
-                        },
-                        {
-                            "obj": "Content",
-                            "span": {
-                                "begin": 43,
-                                "end": 45
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 30,
-                                "end": 33
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "nayamu .悩む"
+                        "engaged"
                     ],
-                    "ko_annotation_id": 15887,
-                    "text": "자아, 여기까지 왔으면, 당신이 생활 속에서 직면하여 고민하게 되는 모순된 「현실」은, 당신의 사고방식을 전제로 하고 있어, 그것에 따라 현실을 변화시킬 수 있다는 것을 이해할 수 있는 단계가 되었다.",
-                    "sent_id": 4198,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.62724",
-            "examples": [
-                {
-                    "frameName": "Experiencer_focus",
+                    "ko_annotation_id": 4300,
+                    "annotation_id": 7854,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 17,
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "관여"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 12,
                                 "end": 21
                             },
-                            "obj": "target"
+                            "text": "다른 경비 순찰이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 26
+                            },
+                            "text": "총격전에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "철수는 그 일에 대해 밤새도록 고민했다.",
-                    "target": "고민했다",
-                    "ko_annotation_id": "sejong.62724",
-                    "relations": []
+                    "sent_id": 1611,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "관여.n.Intentionally_act",
+                    "text": "그들은 또한 감시자나 다른 경비 순찰이 총격전에 관여 시에 여분의 화력을 제공한다."
                 }
             ]
         }
-    ],
-    "frameID": 48,
-    "ko_pos": "VV",
-    "ko_lu": "고민하다.v.Experiencer_focus",
-    "lu_id": 4583,
-    "en_lus": [
-        "nayamu .悩む"
     ]
 }

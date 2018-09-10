@@ -1,82 +1,101 @@
 {
-    "frameName": "Organization",
+    "ko_pos": "n",
+    "ko_lu": "대결.n.Hostile_encounter",
+    "frameID": 93,
+    "frameName": "Hostile_encounter",
+    "en_lus": [
+        "showdown"
+    ],
+    "lu_id": 3875,
     "patterns": [
         {
-            "valenceText": "annotation id: 13242",
+            "valenceText": "annotation id: 5635",
             "examples": [
                 {
-                    "frameName": "Organization",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 24,
-                                "end": 26
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "league"
+                        "showdown"
                     ],
-                    "ko_annotation_id": 13242,
-                    "text": "기원 전 431년에, 아테네는 그의 이웃한 동맹 멤버인 Sparta와 전쟁을 시작하였다.",
-                    "sent_id": 536,
-                    "relations": [],
-                    "annotation_id": 2823
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.21113",
-            "examples": [
-                {
-                    "frameName": "Organization",
+                    "ko_annotation_id": 5635,
+                    "annotation_id": 10192,
+                    "frameName": "Hostile_encounter",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Hostile_encounter",
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 51,
+                                "end": 54
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "미국과 영국은 동맹을 맺고 이라크를 침략했다.",
-                    "target": "동맹",
-                    "ko_annotation_id": "sejong.21113",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.21114",
-            "examples": [
-                {
-                    "frameName": "Organization",
-                    "denotations": [
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "대결을"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Side_2",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 12
+                                "begin": 28,
+                                "end": 40
                             },
-                            "id": "1"
+                            "text": "연방 정부나 유엔군과의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 45
+                            },
+                            "text": "예상되는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 50
+                            },
+                            "text": "폭력적인",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "사회주의 국가들의 동맹은 한 세기 내내 굳건했다.",
-                    "target": "동맹",
-                    "ko_annotation_id": "sejong.21114",
-                    "relations": []
+                    "sent_id": 2077,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "대결.n.Hostile_encounter",
+                    "text": "농촌지역에서 애국자 단체들은 흔히 무기를 저장하고 연방 정부나 유엔군과의 예상되는 폭력적인 대결을 준비하기 위해 훈련하는 군 민병대를 조직한다."
                 }
             ]
         }
-    ],
-    "frameID": 1371,
-    "ko_pos": "NNG",
-    "ko_lu": "동맹.n.Organization",
-    "lu_id": 3875,
-    "en_lus": [
-        "league"
     ]
 }

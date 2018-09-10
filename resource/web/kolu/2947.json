@@ -1,60 +1,82 @@
 {
-    "frameName": "Precipitation",
+    "ko_pos": "n",
+    "ko_lu": "입장.n.Posture",
+    "frameID": 18,
+    "frameName": "Posture",
+    "en_lus": [
+        "tatiba .立場 "
+    ],
+    "lu_id": 2947,
     "patterns": [
         {
-            "valenceText": "annotation id: 9679",
+            "valenceText": "annotation id: 12089",
             "examples": [
                 {
-                    "frameName": "Precipitation",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 56,
-                                "end": 59
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "shower"
+                        "tatiba .立場 "
                     ],
-                    "ko_annotation_id": 9679,
-                    "text": "이곳 기후는 \" 변덕스러운 \" 으로 가장 잘 묘사될 수 있고 그러나 밝음에서 어두움으로, 맑은 날씨에서 소나기로의 갑작스런 변화는 이 도시 매력의 한 부분이다.",
-                    "sent_id": 973,
-                    "relations": [],
-                    "annotation_id": 5061
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.18378",
-            "examples": [
-                {
-                    "frameName": "Precipitation",
+                    "ko_annotation_id": 12089,
+                    "annotation_id": 0,
+                    "frameName": "Posture",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Posture",
                             "span": {
-                                "begin": 11,
-                                "end": 14
+                                "begin": 27,
+                                "end": 30
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "입장인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Location",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 30
+                            },
+                            "text": "리더의 입장인",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 38
+                            },
+                            "text": "사람으로부터,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "이렇게 더운 날에는 소나기라도 내려야 살 것 같다.",
-                    "target": "소나기",
-                    "ko_annotation_id": "sejong.18378",
-                    "relations": []
+                    "sent_id": 4824,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "입장.n.Posture",
+                    "text": "아이들을 가르치는 “가정교사”와 같아서, 리더의 입장인 사람으로부터, 귀가 따갑도록 잔소리를 듣지 않으면 사람은 웬만해서 생활을 바꿀 수 없습니다."
                 }
             ]
         }
-    ],
-    "frameID": 314,
-    "ko_pos": "NNG",
-    "ko_lu": "소나기.n.Precipitation",
-    "lu_id": 2947,
-    "en_lus": [
-        "shower"
     ]
 }

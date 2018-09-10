@@ -1,60 +1,67 @@
 {
-    "frameName": "Operating_a_system",
+    "ko_pos": "n",
+    "ko_lu": "성명.n.Scrutiny",
+    "frameID": 31,
+    "frameName": "Scrutiny",
+    "en_lus": [
+        "examine"
+    ],
+    "lu_id": 5194,
     "patterns": [
         {
-            "valenceText": "annotation id: 18317",
+            "valenceText": "annotation id: 7951",
             "examples": [
                 {
-                    "frameName": "Operating_a_system",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 42,
-                                "end": 45
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "operating"
+                        "examining"
                     ],
-                    "ko_annotation_id": 18317,
-                    "text": "1990년대 초에, 중국의 관리들은 새로운 병원을 위해 가용한 땅과 건설과 운영비를 위한 자금을 만들었다.",
-                    "sent_id": 1252,
-                    "relations": [],
-                    "annotation_id": 6323
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.9423",
-            "examples": [
-                {
-                    "frameName": "Operating_a_system",
+                    "ko_annotation_id": 7951,
+                    "annotation_id": 14455,
+                    "frameName": "Scrutiny",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Scrutiny",
+                            "span": {
+                                "begin": 15,
+                                "end": 17
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "성명"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 11
+                                "end": 22
                             },
-                            "id": "1"
+                            "text": "뉴스 매체의 성명 및 기사",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "올 해는 학교 운영비에서 도서구입비용의 비율을 높이기로 결정했다.",
-                    "target": "운영비",
-                    "ko_annotation_id": "sejong.9423",
-                    "relations": []
+                    "sent_id": 2845,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "성명.n.Scrutiny",
+                    "text": "분석 도구로는 뉴스 매체의 성명 및 기사 검사, 비밀이 아닌 정보 추측을 포함한 정부 보고서, 비밀 프로그램에 관한 정보에 접근한 내부자 인터뷰, 분석가들의 보고와 같은 제2 출처 검토, 그리고 국가 핵 기반 시설에 관한 가장 가용한 정보에 바탕을 둔 과학적인 계산을 하는 것을 포함한다."
                 }
             ]
         }
-    ],
-    "frameID": 1495,
-    "ko_pos": "NN",
-    "ko_lu": "운영비.n.Operating_a_system",
-    "lu_id": 5194,
-    "en_lus": [
-        "operating"
     ]
 }

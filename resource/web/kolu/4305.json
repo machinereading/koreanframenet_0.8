@@ -1,52 +1,81 @@
 {
-    "frameName": "Natural_features",
+    "ko_pos": "a",
+    "ko_lu": "따뜻하다.a.Desirability",
+    "frameID": 354,
+    "frameName": "Desirability",
+    "en_lus": [
+        "yoi .よい "
+    ],
+    "lu_id": 4305,
     "patterns": [
         {
-            "valenceText": "annotation id: 14847",
+            "valenceText": "annotation id: 16354",
             "examples": [
                 {
-                    "frameName": "Natural_features",
+                    "origin_lus": [
+                        "yoi .よい "
+                    ],
+                    "ko_annotation_id": 16354,
+                    "annotation_id": 0,
+                    "frameName": "Desirability",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Desirability",
                             "span": {
-                                "begin": 39,
-                                "end": 41
+                                "begin": 37,
+                                "end": 42
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "따뜻해져,"
                         },
                         {
-                            "obj": "locale",
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
-                                "begin": 42,
-                                "end": 46
+                                "begin": 31,
+                                "end": 32
                             },
-                            "id": "2"
+                            "text": "꽤",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "text": "날씨도",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "rugged"
-                    ],
-                    "ko_annotation_id": 14847,
-                    "text": "아름다운 Wicklow 산, 그리고 Wicklow 산 국립공원은 보다 거친 시골전경을 보여주고, 그리고 그 지역은 Castletown, Mount Usher 및 Powerscourt와 같은 깜짝 놀랄만한 주택과 정원들을 가지고 있다.",
-                    "sent_id": 994,
+                    "sent_id": 4107,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5221
+                    "lu": "따뜻하다.a.Desirability",
+                    "text": "음력시대의 히나마쓰리는 지금의 4월 상순에 해당하므로, 꽤 날씨도 따뜻해져, 완연한 봄기운이 느껴졌을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 191,
-    "ko_pos": "VA",
-    "ko_lu": "거칠다.a.Natural_features",
-    "lu_id": 4305,
-    "en_lus": [
-        "rugged"
     ]
 }

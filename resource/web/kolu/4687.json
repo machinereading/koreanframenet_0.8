@@ -1,95 +1,63 @@
 {
-    "frameName": "State_of_entity",
+    "ko_pos": "n",
+    "ko_lu": "신뢰.n.Certainty",
+    "frameID": 141,
+    "frameName": "Certainty",
+    "en_lus": [
+        "confidence"
+    ],
+    "lu_id": 4687,
     "patterns": [
         {
-            "valenceText": "annotation id: 16379",
+            "valenceText": "annotation id: 2374",
             "examples": [
                 {
-                    "frameName": "State_of_entity",
-                    "denotations": [
-                        {
-                            "obj": "Entity",
-                            "span": {
-                                "begin": 26,
-                                "end": 43
-                            }
-                        },
-                        {
-                            "obj": "State",
-                            "span": {
-                                "begin": 56,
-                                "end": 61
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 62,
-                                "end": 64
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "zyootai .状態 "
+                        "confidence"
                     ],
-                    "ko_annotation_id": 16379,
-                    "text": "하지만, 이것은 와세다대학만의 문제가 아니며, 각 대학 산악부나 반더포겔부 등은 신입 부원이 없어, 대가 끊길 위기에 처해있다고 한다.",
-                    "sent_id": 3565,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.14131",
-            "examples": [
-                {
-                    "frameName": "State_of_entity",
+                    "ko_annotation_id": 2374,
+                    "annotation_id": 4668,
+                    "frameName": "Certainty",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Certainty",
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 59,
+                                "end": 62
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "아내의 도움으로 겨우 위기를 모면한 적이 있다.",
-                    "target": "위기",
-                    "ko_annotation_id": "sejong.14131",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.14132",
-            "examples": [
-                {
-                    "frameName": "State_of_entity",
-                    "denotations": [
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "신뢰에"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                13
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 55,
+                                "end": 58
                             },
-                            "id": "1"
+                            "text": "내적인",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "정신만 차리면 위기가 호기로 바뀔 수 있다.",
-                    "target": "위기",
-                    "ko_annotation_id": "sejong.14132",
-                    "relations": []
+                    "sent_id": 897,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "신뢰.n.Certainty",
+                    "text": "1962년에 독립 이후, 흑인 다수민족은 자신과 자신의 뿌리에 대한 자신감의 원리에 공을 들이면서 내적인 신뢰에 기초한 나라를 만들기 위해 일해왔다."
                 }
             ]
         }
-    ],
-    "frameID": 1600,
-    "ko_pos": "NNG",
-    "ko_lu": "위기.n.State_of_entity",
-    "lu_id": 4687,
-    "en_lus": [
-        "zyootai .状態 "
     ]
 }

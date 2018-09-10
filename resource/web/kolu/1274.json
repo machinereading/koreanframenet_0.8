@@ -1,65 +1,81 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "v",
+    "ko_lu": "실패하다.v.Success_or_failure",
+    "frameID": 1388,
+    "frameName": "Success_or_failure",
+    "en_lus": [
+        "fails"
+    ],
+    "lu_id": 1274,
     "patterns": [
         {
-            "valenceText": "annotation id: 3957",
+            "valenceText": "annotation id: 14035",
             "examples": [
                 {
-                    "frameName": "Leadership",
+                    "origin_lus": [
+                        "fails"
+                    ],
+                    "ko_annotation_id": 14035,
+                    "annotation_id": 8648,
+                    "frameName": "Success_or_failure",
                     "denotations": [
                         {
-                            "obj": "leader",
+                            "id": 1,
+                            "obj": "Success_or_failure",
                             "span": {
-                                "begin": 51,
-                                "end": 54
+                                "begin": 25,
+                                "end": 28
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "실패한"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 56,
-                                "end": 59
+                                "begin": 15,
+                                "end": 18
                             },
-                            "id": "1"
+                            "text": "그들이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "governed",
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 61,
-                                "end": 67
+                                "begin": 19,
+                                "end": 24
                             },
-                            "id": "3"
+                            "text": "전달하는데",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "led"
-                    ],
-                    "ko_annotation_id": 3957,
-                    "text": "Ed_Henry : Reed는 부시 행정부가 정보를 왜곡하였는지에 대한 오래 끌어온 보고를 공화당이 주도하는 정보 위원회가 마치도록 요구하는 것을 철회하기를 거부하였다.",
-                    "sent_id": 1731,
+                    "sent_id": 1784,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8437
+                    "lu": "실패하다.v.Success_or_failure",
+                    "text": "Hamas의 기본 메시지는 그들이 전달하는데 실패한 팔레스타인 당국은 부패하고 Hamas는 부패하지 않다는 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "VV",
-    "ko_lu": "주도하다.v.Leadership",
-    "lu_id": 1274,
-    "en_lus": [
-        "lead"
     ]
 }

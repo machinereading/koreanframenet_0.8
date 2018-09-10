@@ -1,44 +1,65 @@
 {
-    "frameName": "Certainty",
+    "ko_pos": "n",
+    "ko_lu": "구별.n.Similarity",
+    "frameID": 481,
+    "frameName": "Similarity",
+    "en_lus": [
+        "distinction"
+    ],
+    "lu_id": 480,
     "patterns": [
         {
-            "valenceText": "annotation id: 1362",
+            "valenceText": "annotation id: 2539",
             "examples": [
                 {
-                    "frameName": "Certainty",
+                    "origin_lus": [
+                        "distinction"
+                    ],
+                    "ko_annotation_id": 2539,
+                    "annotation_id": 5008,
+                    "frameName": "Similarity",
                     "denotations": [
                         {
-                            "obj": "Content",
+                            "id": 1,
+                            "obj": "Similarity",
                             "span": {
-                                "begin": 9,
-                                "end": 53
-                            }
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "구별은"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Entities",
+                            "token_span": [
+                                11,
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 54,
-                                "end": 55
-                            }
+                                "begin": 37,
+                                "end": 45
+                            },
+                            "text": "북쪽 - 남쪽의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hazu .はず "
+                    "sent_id": 962,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 1362,
-                    "text": "그렇게 된다면, 문제를 일으키는 많은 젊은이를 상대로, 도쓰카 요트 스쿨이 고전할 필요는 없어질 것이다.",
-                    "sent_id": 4279,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "구별.n.Similarity",
+                    "text": "역사적 및 문화적으로 두 지역 간의 약간의 기분 좋은 경쟁과 함께 북쪽 - 남쪽의 구별은 항상 중요했고 지금도 여전히 그렇다."
                 }
             ]
         }
-    ],
-    "frameID": 141,
-    "ko_pos": "NNB",
-    "ko_lu": "것.n.Certainty",
-    "lu_id": 480,
-    "en_lus": [
-        "hazu .はず "
     ]
 }

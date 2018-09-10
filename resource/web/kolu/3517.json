@@ -1,51 +1,82 @@
 {
-    "frameName": "Choosing",
+    "ko_pos": "n",
+    "ko_lu": "공급국.n.Supply",
+    "frameID": 1346,
+    "frameName": "Supply",
+    "en_lus": [
+        "supplier"
+    ],
+    "lu_id": 3517,
     "patterns": [
         {
-            "valenceText": "annotation id: 12000",
+            "valenceText": "annotation id: 9530",
             "examples": [
                 {
-                    "frameName": "Choosing",
+                    "origin_lus": [
+                        "supplier"
+                    ],
+                    "ko_annotation_id": 9530,
+                    "annotation_id": 17764,
+                    "frameName": "Supply",
                     "denotations": [
                         {
-                            "obj": "Reason",
+                            "id": 1,
+                            "obj": "Supply",
+                            "span": {
+                                "begin": 33,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "공급국이다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Supplier",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 8
-                            }
+                                "end": 3
+                            },
+                            "text": "중국은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Cognizer",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 14
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 21,
+                                "end": 28
+                            },
+                            "text": "기술과 장비의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "toriageru .とりあげる "
+                    "sent_id": 3346,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12000,
-                    "text": "이것이 유명해지면서, 잡지에 실리게 되고, 프랑스 레스토랑 관계자들에 의해 추켜세워 지거나 깍아내려 지기도 하면서 프랑스 내에서도 상당히 주목받게 되었고, 이후에 그들 스스로 잡지를 만드는 데 성공했다.",
-                    "sent_id": 4936,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "공급국.n.Supply",
+                    "text": "중국은 이란의 화학전 프로그램을 위한 기술과 장비의 중요한 공급국이다."
                 }
             ]
         }
-    ],
-    "frameID": 352,
-    "ko_pos": "VV",
-    "ko_lu": "실리다.v.Choosing",
-    "lu_id": 3517,
-    "en_lus": [
-        "toriageru .とりあげる "
     ]
 }

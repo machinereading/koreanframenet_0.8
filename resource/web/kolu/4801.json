@@ -1,107 +1,81 @@
 {
-    "frameName": "Placing",
+    "ko_pos": "n",
+    "ko_lu": "지원책.n.Supporting",
+    "frameID": 2000,
+    "frameName": "Supporting",
+    "en_lus": [
+        "sien .支援 "
+    ],
+    "lu_id": 4801,
     "patterns": [
         {
-            "valenceText": "annotation id: 16842",
+            "valenceText": "annotation id: 11962",
             "examples": [
                 {
-                    "frameName": "Placing",
+                    "origin_lus": [
+                        "sien .支援 "
+                    ],
+                    "ko_annotation_id": 11962,
+                    "annotation_id": 0,
+                    "frameName": "Supporting",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Supporting",
                             "span": {
-                                "begin": 28,
-                                "end": 32
+                                "begin": 37,
+                                "end": 41
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "지원책이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "text": "당시에는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 41
+                            },
+                            "text": "지원책이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "position",
-                        "placed"
-                    ],
-                    "ko_annotation_id": 16842,
-                    "text": "그들은 어떤 회사의 인공위성 접시 인근에 자신들을 위치시키고 기다리기만 하면 된다.",
-                    "sent_id": 1954,
-                    "relations": [],
-                    "annotation_id": 9435
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 16843",
-            "examples": [
-                {
-                    "frameName": "Placing",
-                    "denotations": [
-                        {
-                            "obj": "theme",
-                            "span": {
-                                "begin": 52,
-                                "end": 85
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "theme",
-                            "span": {
-                                "begin": 97,
-                                "end": 99
-                            },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "goal",
-                            "span": {
-                                "begin": 100,
-                                "end": 117
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 119,
-                                "end": 123
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "position",
-                        "placed"
-                    ],
-                    "ko_annotation_id": 16843,
-                    "text": "화학무기는 더 큰 구경의 포로 투하하기에 가장 적합하기 때문에, 과거 20년에 걸쳐서 북한은 장거리 240 밀리미터 다연장로켓포와 179 밀리미터 곡사포 수를 더 증가시켰고 모두 비무장 지대 인근의 갱도방어진지에 위치시켰다.",
-                    "sent_id": 2769,
+                    "sent_id": 4746,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 13999
+                    "lu": "지원책.n.Supporting",
+                    "text": "당회는 2000년 4월에, 전국 연합체로서 설립되었으나, 당시에는 지원책이 전무했고, 사회적 인지도도 낮아, 회원의 장애인 수첩 취득률도 50%에 못 미쳤다."
                 }
             ]
         }
-    ],
-    "frameID": 62,
-    "ko_pos": "VV",
-    "ko_lu": "위치시키다.v.Placing",
-    "lu_id": 4801,
-    "en_lus": [
-        "position",
-        "place"
     ]
 }

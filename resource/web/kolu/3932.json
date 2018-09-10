@@ -1,44 +1,63 @@
 {
-    "frameName": "Name_conferral",
+    "ko_pos": "n",
+    "ko_lu": "내.n.Process_end",
+    "frameID": 232,
+    "frameName": "Process_end",
+    "en_lus": [
+        "end"
+    ],
+    "lu_id": 3932,
     "patterns": [
         {
-            "valenceText": "annotation id: 13438",
+            "valenceText": "annotation id: 7837",
             "examples": [
                 {
-                    "frameName": "Name_conferral",
+                    "origin_lus": [
+                        "end"
+                    ],
+                    "ko_annotation_id": 7837,
+                    "annotation_id": 14260,
+                    "frameName": "Process_end",
                     "denotations": [
                         {
-                            "obj": "Speaker",
+                            "id": 1,
+                            "obj": "Process_end",
                             "span": {
-                                "begin": 18,
-                                "end": 20
-                            }
+                                "begin": 64,
+                                "end": 67
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "내에는"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                15
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 17
-                            }
+                                "begin": 60,
+                                "end": 63
+                            },
+                            "text": "10년",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "nadukeru .名づける "
+                    "sent_id": 2813,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13438,
-                    "text": "서명은 『보석함』 이름을 지어준 사람은 남편이다.",
-                    "sent_id": 4013,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "내.n.Process_end",
+                    "text": "얼마나 빨리 북한은 우라늄 농축 공장을 가동하기 시작할 것인가에 대한 예측은 서로 다르지만, 북한은 아마도 10년 내에는 상당량의 무기급 고농축 우라늄을 생산할 수 없을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 221,
-    "ko_pos": "NNG",
-    "ko_lu": "이름.n.Name_conferral",
-    "lu_id": 3932,
-    "en_lus": [
-        "nadukeru .名づける "
     ]
 }

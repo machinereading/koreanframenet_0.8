@@ -1,66 +1,108 @@
 {
-    "frameName": "Weather",
+    "ko_pos": "v",
+    "ko_lu": "되짚다.v.Traversing",
+    "frameID": 1310,
+    "frameName": "Traversing",
+    "en_lus": [
+        "tadoru .たどる"
+    ],
+    "lu_id": 5045,
     "patterns": [
         {
-            "valenceText": "annotation id: 17713",
+            "valenceText": "annotation id: 16566",
             "examples": [
                 {
-                    "frameName": "Weather",
+                    "origin_lus": [
+                        "tadoru .たどる"
+                    ],
+                    "ko_annotation_id": 16566,
+                    "annotation_id": 0,
+                    "frameName": "Traversing",
                     "denotations": [
                         {
-                            "obj": "Time",
+                            "id": 1,
+                            "obj": "Traversing",
                             "span": {
-                                "begin": 0,
-                                "end": 27
-                            }
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "되짚어"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Area",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 33,
-                                "end": 35
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "yooki .陽気"
-                    ],
-                    "ko_annotation_id": 17713,
-                    "text": "음력시대의 히나마쓰리는 지금의 4월 상순에 해당하므로, 꽤 날씨도 따뜻해져, 완연한 봄기운이 느껴졌을 것이다.",
-                    "sent_id": 4107,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.22291",
-            "examples": [
-                {
-                    "frameName": "Weather",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 18,
-                                "end": 20
+                                "begin": 0,
+                                "end": 12
                             },
-                            "id": "1"
+                            "text": "우리 주위를 둘러싸고,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 42
+                            },
+                            "text": "실제로 끊임없이 여러 기분 나쁜 일들만 초래한 사건을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 47
+                            },
+                            "text": "하나하나",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "금방이라도 비가 쏟아질 것 같은 날씨이다.",
-                    "target": "날씨",
-                    "ko_annotation_id": "sejong.22291",
-                    "relations": []
+                    "sent_id": 4568,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "되짚다.v.Traversing",
+                    "text": "우리 주위를 둘러싸고, 실제로 끊임없이 여러 기분 나쁜 일들만 초래한 사건을 하나하나 되짚어 보면, 가장 먼저 이 저택에 살았던 선대의 이상한 죽음은, 이 집에 얽힌 이야기와 딱 부합되고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 303,
-    "ko_pos": "NNG",
-    "ko_lu": "날씨.n.Weather",
-    "lu_id": 5045,
-    "en_lus": [
-        "yooki .陽気"
     ]
 }

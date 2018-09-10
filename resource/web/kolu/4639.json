@@ -1,87 +1,235 @@
 {
-    "frameName": "Commerce_sell",
+    "ko_pos": "n",
+    "ko_lu": "배럴.n.Measure_volume",
+    "frameID": 155,
+    "frameName": "Measure_volume",
+    "en_lus": [
+        "barrel"
+    ],
+    "lu_id": 4639,
     "patterns": [
         {
-            "valenceText": "annotation id: 16090",
+            "valenceText": "annotation id: 3349",
             "examples": [
                 {
-                    "frameName": "Commerce_sell",
+                    "origin_lus": [
+                        "barrels"
+                    ],
+                    "ko_annotation_id": 3349,
+                    "annotation_id": 6356,
+                    "frameName": "Measure_volume",
                     "denotations": [
                         {
-                            "obj": "goods",
+                            "id": 1,
+                            "obj": "Measure_volume",
                             "span": {
-                                "begin": 5,
-                                "end": 11
+                                "begin": 55,
+                                "end": 58
                             },
-                            "id": "2"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "배럴을"
                         },
                         {
-                            "obj": "buyer",
+                            "id": 2,
+                            "obj": "Stuff",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 15
+                                "begin": 24,
+                                "end": 47
                             },
-                            "id": "3"
+                            "text": "화학-생물학-방사성 정화제인 칼슘 염소산염",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Count",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 17,
-                                "end": 20
+                                "begin": 48,
+                                "end": 54
                             },
-                            "id": "1"
+                            "text": "40,000",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sold"
-                    ],
-                    "ko_annotation_id": 16090,
-                    "text": "QN : 원심 분리기는 북한에 판매되었나 ?",
-                    "sent_id": 1405,
+                    "sent_id": 1260,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6852
+                    "lu": "배럴.n.Measure_volume",
+                    "text": "1997년 1월 - 2월에, 중국은 이란에 화학-생물학-방사성 정화제인 칼슘 염소산염 40,000 배럴을 제공하였다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.54512",
+            "valenceText": "annotation id: 14513",
             "examples": [
                 {
-                    "frameName": "Commerce_sell",
+                    "origin_lus": [
+                        "barrels"
+                    ],
+                    "ko_annotation_id": 14513,
+                    "annotation_id": 11277,
+                    "frameName": "Measure_volume",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Measure_volume",
                             "span": {
-                                "begin": 28,
+                                "begin": 29,
                                 "end": 32
                             },
-                            "obj": "target"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "배럴의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Count",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 28
+                            },
+                            "text": "40,000",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Stuff",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 58
+                            },
+                            "text": "화학 및 생물 제염 작용제인 치아염소산 칼슘의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "예년에 비해 고가의 화장품이 젊은 주부들에게 많이 판매된다.",
-                    "target": "판매된다",
-                    "ko_annotation_id": "sejong.54512",
-                    "relations": []
+                    "sent_id": 2252,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "배럴.n.Measure_volume",
+                    "text": "한 예는 1997년 중국의 이란에 대한 40,000 배럴의 화학 및 생물 제염 작용제인 치아염소산 칼슘의 판매였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 17091",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "barrels"
+                    ],
+                    "ko_annotation_id": 17091,
+                    "annotation_id": 11524,
+                    "frameName": "Measure_volume",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Measure_volume",
+                            "span": {
+                                "begin": 59,
+                                "end": 62
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "배럴을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Stuff",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 51
+                            },
+                            "text": "화학 - 생물 - 방사능 제염제인 치아염소산 칼슘",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Count",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 58
+                            },
+                            "text": "40,000",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2295,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "배럴.n.Measure_volume",
+                    "text": "1997년 1월 - 2월에, 중국은 이란에 화학 - 생물 - 방사능 제염제인 치아염소산 칼슘 40,000 배럴을 공급하였다."
                 }
             ]
         }
-    ],
-    "frameID": 172,
-    "ko_pos": "VV",
-    "ko_lu": "판매되다.v.Commerce_sell",
-    "lu_id": 4639,
-    "en_lus": [
-        "sell"
     ]
 }

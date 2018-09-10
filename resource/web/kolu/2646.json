@@ -1,65 +1,93 @@
 {
-    "frameName": "Path_shape",
+    "ko_pos": "v",
+    "ko_lu": "의심하다.v.Certainty",
+    "frameID": 141,
+    "frameName": "Certainty",
+    "en_lus": [
+        "doubtful"
+    ],
+    "lu_id": 2646,
     "patterns": [
         {
-            "valenceText": "annotation id: 8657",
+            "valenceText": "annotation id: 5951",
             "examples": [
                 {
-                    "frameName": "Path_shape",
+                    "origin_lus": [
+                        "doubtful"
+                    ],
+                    "ko_annotation_id": 5951,
+                    "annotation_id": 10724,
+                    "frameName": "Certainty",
                     "denotations": [
                         {
-                            "obj": "road",
+                            "id": 1,
+                            "obj": "Certainty",
                             "span": {
-                                "begin": 41,
-                                "end": 43
+                                "begin": 59,
+                                "end": 62
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "의심한"
                         },
                         {
-                            "obj": "direction",
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 45,
-                                "end": 71
+                                "begin": 0,
+                                "end": 26
                             },
-                            "id": "3"
+                            "text": "이란이 접근한 캐나다 독물학자 Bruno 박사는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 73,
-                                "end": 75
+                                "begin": 27,
+                                "end": 58
                             },
-                            "id": "1"
+                            "text": "이란이 이 변종을 불법 생물무기 목적으로 사용할 것이라고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "bore"
-                    ],
-                    "ko_annotation_id": 8657,
-                    "text": "1905년 초에, 로스앤젤레스와 솔트레이크시티 사이의 길은 완성되었졌고, 철로는 Las Vegas Valley 센터의 바로 아래로 뚫렸다.",
-                    "sent_id": 772,
+                    "sent_id": 2151,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4033
+                    "lu": "의심하다.v.Certainty",
+                    "text": "이란이 접근한 캐나다 독물학자 Bruno 박사는 이란이 이 변종을 불법 생물무기 목적으로 사용할 것이라고 의심한 것을 주목해야 한다."
                 }
             ]
         }
-    ],
-    "frameID": 61,
-    "ko_pos": "VV",
-    "ko_lu": "뚫리다.v.Path_shape",
-    "lu_id": 2646,
-    "en_lus": [
-        "bore"
     ]
 }

@@ -1,38 +1,207 @@
 {
-    "frameName": "Earnings_and_losses",
+    "ko_pos": "v",
+    "ko_lu": "설계되다.v.Ingestion",
+    "frameID": 263,
+    "frameName": "Ingestion",
+    "en_lus": [
+        "sekkee .設計"
+    ],
+    "lu_id": 1899,
     "patterns": [
         {
-            "valenceText": "annotation id: 6010",
+            "valenceText": "annotation id: 16385",
             "examples": [
                 {
-                    "frameName": "Earnings_and_losses",
+                    "origin_lus": [
+                        "sekkee .設計"
+                    ],
+                    "ko_annotation_id": 16385,
+                    "annotation_id": 0,
+                    "frameName": "Ingestion",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Ingestion",
                             "span": {
-                                "begin": 4,
-                                "end": 6
+                                "begin": 75,
+                                "end": 80
                             },
-                            "id": "1"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "설계된다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Invention",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 57
+                            },
+                            "text": "설계되는 제품은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 62,
+                                "end": 74
+                            },
+                            "text": "이론 한계치에 근사하게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "results"
+                    "sent_id": 4174,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6010,
-                    "text": "3분기 결과는 연합 투자자들의 8월 판매액 27 백만 달러와 15 백만 달러의 세금 공제를 포함한 48 백만 달러의 순실현자본이득을 포함하였다.",
-                    "sent_id": 10,
-                    "relations": [],
-                    "annotation_id": 64
+                    "lu": "설계되다.v.Ingestion",
+                    "text": "실제로, 예를 들어 우리가 개발하고 있는 반도체분야는, 연속적인 성능향상이 요구되므로, 설계되는 제품은 대부분 이론 한계치에 근사하게 설계된다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16386",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sekkee .設計"
+                    ],
+                    "ko_annotation_id": 16386,
+                    "annotation_id": 0,
+                    "frameName": "Ingestion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ingestion",
+                            "span": {
+                                "begin": 49,
+                                "end": 53
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "설계되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Invention",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 57
+                            },
+                            "text": "제품은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4174,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "설계되다.v.Ingestion",
+                    "text": "실제로, 예를 들어 우리가 개발하고 있는 반도체분야는, 연속적인 성능향상이 요구되므로, 설계되는 제품은 대부분 이론 한계치에 근사하게 설계된다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16808",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sekkee .設計"
+                    ],
+                    "ko_annotation_id": 16808,
+                    "annotation_id": 0,
+                    "frameName": "Ingestion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Ingestion",
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "설계되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 16
+                            },
+                            "text": "이론 한계치에 근접한 수준으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Invention",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "text": "제품을,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 5023,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "설계되다.v.Ingestion",
+                    "text": "이론 한계치에 근접한 수준으로 설계되는 모든 제품을, 다른 어떤 기업보다도 신속하게 수율 100%로 만들어내지 못하는 한 사업은 성공하지 못한다."
                 }
             ]
         }
-    ],
-    "frameID": 1873,
-    "ko_pos": "NNG",
-    "ko_lu": "결과.n.Earnings_and_losses",
-    "lu_id": 1899,
-    "en_lus": [
-        "result"
     ]
 }

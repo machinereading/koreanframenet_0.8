@@ -1,38 +1,89 @@
 {
-    "frameName": "Project",
+    "ko_pos": "v",
+    "ko_lu": "질문하다.v.Questioning",
+    "frameID": 40,
+    "frameName": "Questioning",
+    "en_lus": [
+        "ask"
+    ],
+    "lu_id": 1382,
     "patterns": [
         {
-            "valenceText": "annotation id: 4389",
+            "valenceText": "annotation id: 4644",
             "examples": [
                 {
-                    "frameName": "Project",
+                    "origin_lus": [
+                        "ask"
+                    ],
+                    "ko_annotation_id": 4644,
+                    "annotation_id": 8468,
+                    "frameName": "Questioning",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 35,
+                                "end": 41
+                            },
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "질문을 하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 23
+                            },
+                            "text": "공화당이 이끄는 상원 정보 위원회는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
                             "span": {
                                 "begin": 24,
-                                "end": 27
+                                "end": 38
                             },
-                            "id": "1"
+                            "text": "오보에 대한 어려운 질문을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "program"
+                    "sent_id": 1738,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4389,
-                    "text": "리비아는 카다피가 집권하는 한 거의 확실히 화학전을 유지할 것이다.",
-                    "sent_id": 1345,
-                    "relations": [],
-                    "annotation_id": 6680
+                    "lu": "질문하다.v.Questioning",
+                    "text": "그리고 공화당이 이끄는 상원 정보 위원회는 오보에 대한 어려운 질문을 하는 것까지 거부하고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1158,
-    "ko_pos": "NN",
-    "ko_lu": "화학전.n.Project",
-    "lu_id": 1382,
-    "en_lus": [
-        "program"
     ]
 }

@@ -1,59 +1,82 @@
 {
-    "frameName": "Evidence",
+    "ko_pos": "a",
+    "ko_lu": "않다.a.Becoming",
+    "frameID": 2971,
+    "frameName": "Becoming",
+    "en_lus": [
+        "naru .なる"
+    ],
+    "lu_id": 4127,
     "patterns": [
         {
-            "valenceText": "annotation id: 14187",
+            "valenceText": "annotation id: 16626",
             "examples": [
                 {
-                    "frameName": "Evidence",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 22,
-                                "end": 24
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "anzi .暗示 "
+                        "naru .なる"
                     ],
-                    "ko_annotation_id": 14187,
-                    "text": "그저 단순히 몇 가지 우연과, 몇 가지 암시가 일치했을 뿐이다.",
-                    "sent_id": 4280,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.1982",
-            "examples": [
-                {
-                    "frameName": "Evidence",
+                    "ko_annotation_id": 16626,
+                    "annotation_id": 0,
+                    "frameName": "Becoming",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Becoming",
                             "span": {
-                                "begin": 19,
-                                "end": 21
+                                "begin": 67,
+                                "end": 69
                             },
-                            "id": "1"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "않게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 45
+                            },
+                            "text": "그 특허가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Final_State",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 62,
+                                "end": 66
+                            },
+                            "text": "분명하지",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "나는 그에게 그 계획의 불가능성을 암시를 했다.",
-                    "target": "암시",
-                    "ko_annotation_id": "sejong.1982",
-                    "relations": []
+                    "sent_id": 4652,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "않다.a.Becoming",
+                    "text": "하지만, 일정한 법칙이 없으면, 애써 발명에 대한 특허를 취득하더라도, 그 특허가 어디까지 보호받을 수 있는지 분명하지 않게 됩니다."
                 }
             ]
         }
-    ],
-    "frameID": 25,
-    "ko_pos": "NNG",
-    "ko_lu": "암시.n.Evidence",
-    "lu_id": 4127,
-    "en_lus": [
-        "anzi .暗示 "
     ]
 }

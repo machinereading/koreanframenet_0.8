@@ -1,73 +1,299 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "v",
+    "ko_lu": "도난당하다.v.Theft",
+    "frameID": 94,
+    "frameName": "Theft",
+    "en_lus": [
+        "nusumu .盗む "
+    ],
+    "lu_id": 5545,
     "patterns": [
         {
-            "valenceText": "annotation id: 19653",
+            "valenceText": "annotation id: 11822",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "nusumu .盗む "
+                    ],
+                    "ko_annotation_id": 11822,
+                    "annotation_id": 0,
+                    "frameName": "Theft",
                     "denotations": [
                         {
-                            "obj": "Ground",
+                            "id": 1,
+                            "obj": "Theft",
                             "span": {
-                                "begin": 2,
-                                "end": 11
-                            }
+                                "begin": 102,
+                                "end": 109
+                            },
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "도난당했다」는"
                         },
                         {
-                            "obj": "Figure",
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                11
+                            ],
                             "span": {
-                                "begin": 19,
-                                "end": 35
-                            }
+                                "begin": 55,
+                                "end": 59
+                            },
+                            "text": "차에서,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 11
-                            }
+                                "begin": 60,
+                                "end": 101
+                            },
+                            "text": "작년 4월 입학한 1학급의 입학원서 등이 들어있는 가미나가씨 소유의 가방을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "mukoo .向こう"
+                    "sent_id": 4653,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19653,
-                    "text": "1 신칸센 창문 너머로 펼쳐지는, 수확이 끝난 밭의 끝없는 풍경을 바라보면서, 어느새 그곳에 있었을 천년 전의 숲을 상상하고 있다.",
-                    "sent_id": 4760,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "도난당하다.v.Theft",
+                    "text": "6일 오후 7시 경, 미토시 가와와다1, 이바라기대학 부속유치원 교사, 가미나가씨로부터 「주차중인 차에서, 작년 4월 입학한 1학급의 입학원서 등이 들어있는 가미나가씨 소유의 가방을 도난당했다」는 신고가 미토경찰서에 있었다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.5549",
+            "valenceText": "annotation id: 16630",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "nusumu .盗む "
+                    ],
+                    "ko_annotation_id": 16630,
+                    "annotation_id": 0,
+                    "frameName": "Theft",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Theft",
                             "span": {
-                                "begin": 3,
-                                "end": 5
+                                "begin": 52,
+                                "end": 56
                             },
-                            "id": "1"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "도난당한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "미토시 니이하라의 주차장에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 21
+                            },
+                            "text": "6일 밤,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Victim",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 51
+                            },
+                            "text": "이바라키대학 부속 유치원 교사, 가미나가 나오미 씨가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Goods",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 57,
+                                "end": 82
+                            },
+                            "text": "34명분의 유치원 입학원서가 들어 있던 가방은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "창문 너머 아이들이 노는 모습이 보였다.",
-                    "target": "너머",
-                    "ko_annotation_id": "sejong.5549",
-                    "relations": []
+                    "sent_id": 4666,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도난당하다.v.Theft",
+                    "text": "미토시 니이하라의 주차장에서 6일 밤, 이바라키대학 부속 유치원 교사, 가미나가 나오미 씨가 도난당한 34명분의 유치원 입학원서가 들어 있던 가방은 7일 아침, 근처 아파트 화단에 버려진 채 발견되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16684",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "nusumu .盗む "
+                    ],
+                    "ko_annotation_id": 16684,
+                    "annotation_id": 0,
+                    "frameName": "Theft",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Theft",
+                            "span": {
+                                "begin": 50,
+                                "end": 57
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "도난당했다」고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "「작년",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 39
+                            },
+                            "text": "32대의 차가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Perpetrator",
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 49
+                            },
+                            "text": "분쟁 각파에 의해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4763,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도난당하다.v.Theft",
+                    "text": "국제연합 난민 고등 판무관 사무소 보도관은 7일, 「작년 32대의 차가 분쟁 각파에 의해 도난당했다」고 발표하며, 사태 개선을 요구했다."
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "NNG",
-    "ko_lu": "너머.n.Locative_relation",
-    "lu_id": 5545,
-    "en_lus": [
-        "mukoo .向こう"
     ]
 }

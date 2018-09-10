@@ -1,87 +1,325 @@
 {
-    "frameName": "Accomplishment",
+    "ko_pos": "a",
+    "ko_lu": "연구하다.a.Research",
+    "frameID": 1152,
+    "frameName": "Research",
+    "en_lus": [
+        "research",
+        "siraberu .調べる"
+    ],
+    "lu_id": 3336,
     "patterns": [
         {
-            "valenceText": "annotation id: 11340",
+            "valenceText": "annotation id: 3471",
             "examples": [
                 {
-                    "frameName": "Accomplishment",
+                    "origin_lus": [
+                        "researches",
+                        "research",
+                        "siraberu .調べる",
+                        "researching"
+                    ],
+                    "ko_annotation_id": 3471,
+                    "annotation_id": 6555,
+                    "frameName": "Research",
                     "denotations": [
                         {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Research",
                             "span": {
-                                "begin": 24,
-                                "end": 25
+                                "begin": 20,
+                                "end": 24
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "연구하고"
                         },
                         {
-                            "obj": "domain",
+                            "id": 2,
+                            "obj": "Researcher",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 27,
-                                "end": 32
+                                "begin": 5,
+                                "end": 9
                             },
-                            "id": "3"
+                            "text": "러시아는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 33,
-                                "end": 35
+                                "begin": 10,
+                                "end": 13
                             },
-                            "id": "1"
+                            "text": "아직도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Topic",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 19
+                            },
+                            "text": "화학무기를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "accomplishments"
-                    ],
-                    "ko_annotation_id": 11340,
-                    "text": "이에 대응하여, 사회주의자인 수상은 단순히 그의 자유 시장 업적을 인용하였다.",
-                    "sent_id": 85,
+                    "sent_id": 1309,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 575
+                    "lu": "연구하다.a.Research",
+                    "text": "QN : 러시아는 아직도 화학무기를 연구하고 있나 ?"
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.31401",
+            "valenceText": "annotation id: 6002",
             "examples": [
                 {
-                    "frameName": "Accomplishment",
+                    "origin_lus": [
+                        "researches",
+                        "research",
+                        "siraberu .調べる",
+                        "researching"
+                    ],
+                    "ko_annotation_id": 6002,
+                    "annotation_id": 10843,
+                    "frameName": "Research",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Research",
                             "span": {
-                                "begin": 3,
-                                "end": 5
+                                "begin": 64,
+                                "end": 69
                             },
-                            "id": "1"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "연구한다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Researcher",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 20
+                            },
+                            "text": "이란 과학기술 연구기구는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 57,
+                                "end": 63
+                            },
+                            "text": "푸사륨 종을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그의 업적을 높이 평가한다.",
-                    "target": "업적",
-                    "ko_annotation_id": "sejong.31401",
-                    "relations": []
+                    "sent_id": 2176,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연구하다.a.Research",
+                    "text": "예를 들면, 이란 과학기술 연구기구는 해바라기, 토마토, 그리고 담배밭에서의 농사 질병과 싸우기 위해 푸사륨 종을 연구한다고 주장한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7351",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "researches",
+                        "research",
+                        "siraberu .調べる",
+                        "researching"
+                    ],
+                    "ko_annotation_id": 7351,
+                    "annotation_id": 13343,
+                    "frameName": "Research",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Research",
+                            "span": {
+                                "begin": 44,
+                                "end": 48
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "연구하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 43
+                            },
+                            "text": "우라늄의 채광, 제분을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Researcher",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 60
+                            },
+                            "text": "AEOI 직원과",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2667,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연구하다.a.Research",
+                    "text": "게다가, Saghand 대학 인원은 BHRC 실험소에서 우라늄의 채광, 제분을 연구하기 위해 AEOI 직원과 협력한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11446",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "researches",
+                        "research",
+                        "siraberu .調べる",
+                        "researching"
+                    ],
+                    "ko_annotation_id": 11446,
+                    "annotation_id": 0,
+                    "frameName": "Research",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Research",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "연구한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Researcher",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "저는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "text": "「풍토기」를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4398,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연구하다.a.Research",
+                    "text": "저는 잠시 「풍토기」를 연구한 적인 있는데, 이야기가 자꾸 오래전으로 거슬러 올라가서 죄송합니다만, 다이카 개신의 칙령에 따라, 궁정을 중심으로 하는 고대 수도권, 기나이라 불리는 지역이 생겼습니다."
                 }
             ]
         }
-    ],
-    "frameID": 1519,
-    "ko_pos": "NNG",
-    "ko_lu": "업적.n.Accomplishment",
-    "lu_id": 3336,
-    "en_lus": [
-        "accomplishment"
     ]
 }

@@ -1,60 +1,82 @@
 {
-    "frameName": "Political_locales",
+    "ko_pos": "v",
+    "ko_lu": "사라지다.v.Removing",
+    "frameID": 63,
+    "frameName": "Removing",
+    "en_lus": [
+        "wash"
+    ],
+    "lu_id": 5042,
     "patterns": [
         {
-            "valenceText": "annotation id: 17706",
+            "valenceText": "annotation id: 591",
             "examples": [
                 {
-                    "frameName": "Political_locales",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 0,
-                                "end": 5
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "locality"
+                        "washed"
                     ],
-                    "ko_annotation_id": 17706,
-                    "text": "인근 지역은 울타리 외곽 지역을 배회하는 순찰을 하지 않으면 완전히 보호될 수 없다.",
-                    "sent_id": 1608,
-                    "relations": [],
-                    "annotation_id": 7833
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.25675",
-            "examples": [
-                {
-                    "frameName": "Political_locales",
+                    "ko_annotation_id": 591,
+                    "annotation_id": 1232,
+                    "frameName": "Removing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Removing",
                             "span": {
-                                "begin": 0,
-                                "end": 4
+                                "begin": 57,
+                                "end": 62
                             },
-                            "id": "1"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "사라진다는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 52
+                            },
+                            "text": "그 차이는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 56
+                            },
+                            "text": "급속히",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "인근지역에 태풍이 불어닥쳐 막대한 피해가 예상된다.",
-                    "target": "인근지역",
-                    "ko_annotation_id": "sejong.25675",
-                    "relations": []
+                    "sent_id": 229,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사라지다.v.Removing",
+                    "text": "우리는 학교 교육에 매우 일찍 노출되는 것은 1학년에서의 성취도는 향상되지만, 이후 그 차이는 급속히 사라진다는 것을 알고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 195,
-    "ko_pos": "NNG",
-    "ko_lu": "인근지역.n.Political_locales",
-    "lu_id": 5042,
-    "en_lus": [
-        "locality"
     ]
 }

@@ -1,95 +1,119 @@
 {
-    "frameName": "Prevarication",
+    "ko_pos": "v",
+    "ko_lu": "기다리다.v.Expectation",
+    "frameID": 26,
+    "frameName": "Expectation",
+    "en_lus": [
+        "matu .待つ ",
+        "expect"
+    ],
+    "lu_id": 5030,
     "patterns": [
         {
-            "valenceText": "annotation id: 17689",
+            "valenceText": "annotation id: 10691",
             "examples": [
                 {
-                    "frameName": "Prevarication",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 40,
-                                "end": 42
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "lies",
-                        "uso .嘘"
+                        "matu .待つ ",
+                        "expected"
                     ],
-                    "ko_annotation_id": 17689,
-                    "text": "Lewinsky 혐의에 신빙성을 제공하고, 클린턴의 친숙한 방어를 마치 거짓과 반 거짓이 존재하는 것 같이 다룸으로써, Stephanopoulos는 자가가 바보가 아니라는 것을 보여준다.",
-                    "sent_id": 1014,
-                    "relations": [],
-                    "annotation_id": 5322
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 17690",
-            "examples": [
-                {
-                    "frameName": "Prevarication",
+                    "ko_annotation_id": 10691,
+                    "annotation_id": 0,
+                    "frameName": "Expectation",
                     "denotations": [
                         {
-                            "obj": "Topic",
+                            "id": 1,
+                            "obj": "Expectation",
                             "span": {
-                                "begin": 0,
-                                "end": 18
-                            }
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "기다리던"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 19,
-                                "end": 21
-                            }
+                                "begin": 15,
+                                "end": 22
+                            },
+                            "text": "나의 첫 책이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "lies",
-                        "uso .嘘"
+                    "sent_id": 3946,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 17690,
-                    "text": "일본 고유의 신령에 대한 상식도, 거짓은 아닙니다만, 그런 것에 매달리기보다는, 더 큰, 전세계적인 신을 제대로 알아가는 방법을 취하는 것이 좋습니다.",
-                    "sent_id": 3575,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "기다리다.v.Expectation",
+                    "text": "『보석함』기다리고 기다리던 나의 첫 책이 완성되었다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.34905",
+            "valenceText": "annotation id: 12609",
             "examples": [
                 {
-                    "frameName": "Prevarication",
+                    "origin_lus": [
+                        "matu .待つ ",
+                        "expected"
+                    ],
+                    "ko_annotation_id": 12609,
+                    "annotation_id": 984,
+                    "frameName": "Expectation",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Expectation",
                             "span": {
-                                "begin": 5,
-                                "end": 7
+                                "begin": 33,
+                                "end": 38
                             },
-                            "id": "1"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "기다리며,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "text": "여진을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "법정에서 거짓을 진술하면 위증죄의 처벌을 받는다.",
-                    "target": "거짓",
-                    "ko_annotation_id": "sejong.34905",
-                    "relations": []
+                    "sent_id": 176,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기다리다.v.Expectation",
+                    "text": "오전 9시 38분 FIG : 예상되지만 무섭기만 한 여진을 기다리며, 우리는 모두 이곳에서 아주 임시로 생활하고 있다고 나는 생각한다."
                 }
             ]
         }
-    ],
-    "frameID": 287,
-    "ko_pos": "NNG",
-    "ko_lu": "거짓.n.Prevarication",
-    "lu_id": 5030,
-    "en_lus": [
-        "lie",
-        "uso .嘘"
     ]
 }

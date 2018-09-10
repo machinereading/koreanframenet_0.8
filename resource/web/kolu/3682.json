@@ -1,60 +1,81 @@
 {
-    "frameName": "People",
+    "ko_pos": "v",
+    "ko_lu": "유지하다.v.Defending",
+    "frameID": 1330,
+    "frameName": "Defending",
+    "en_lus": [
+        "hold"
+    ],
+    "lu_id": 3682,
     "patterns": [
         {
-            "valenceText": "annotation id: 12583",
+            "valenceText": "annotation id: 1784",
             "examples": [
                 {
-                    "frameName": "People",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 6,
-                                "end": 8
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "human"
+                        "hold"
                     ],
-                    "ko_annotation_id": 12583,
-                    "text": "이와 같은 인적 비율의 도시에서 공원과 정원들이 오락과 휴식을 위해 많다는 것은 놀랍지 않다.",
-                    "sent_id": 991,
-                    "relations": [],
-                    "annotation_id": 5193
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.10882",
-            "examples": [
-                {
-                    "frameName": "People",
+                    "ko_annotation_id": 1784,
+                    "annotation_id": 3688,
+                    "frameName": "Defending",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Defending",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 15,
+                                "end": 18
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "유지할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Defender",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "기독교도들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "도시를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "인적이 드문 산길을 거니며 생각에 잠겼다.",
-                    "target": "인적",
-                    "ko_annotation_id": "sejong.10882",
-                    "relations": []
+                    "sent_id": 697,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "유지하다.v.Defending",
+                    "text": "그러나 기독교도들은 도시를 유지할 수 없었다."
                 }
             ]
         }
-    ],
-    "frameID": 304,
-    "ko_pos": "NN",
-    "ko_lu": "인적.n.People",
-    "lu_id": 3682,
-    "en_lus": [
-        "human"
     ]
 }

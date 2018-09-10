@@ -1,37 +1,92 @@
 {
-    "frameName": "Commerce_scenario",
+    "ko_pos": "v",
+    "ko_lu": "확인하다.v.Evidence",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "en_lus": [
+        "confirms"
+    ],
+    "lu_id": 4594,
     "patterns": [
         {
-            "valenceText": "annotation id: 15913",
+            "valenceText": "annotation id: 14989",
             "examples": [
                 {
-                    "frameName": "Commerce_scenario",
+                    "origin_lus": [
+                        "confirms"
+                    ],
+                    "ko_annotation_id": 14989,
+                    "annotation_id": 13360,
+                    "frameName": "Evidence",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Evidence",
                             "span": {
-                                "begin": 90,
-                                "end": 92
-                            }
+                                "begin": 44,
+                                "end": 51
+                            },
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "확인해 준다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Support",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "이 시설들의 존재는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Proposition",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 43
+                            },
+                            "text": "완전 핵 연료 주기를 달성하기 위한 이란의 증가하는 투지를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ryuutuu .流通 "
+                    "sent_id": 2670,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15913,
-                    "text": "자연계를 보면, 숲과 바다, 강, 대지, 어디를 가든 크고 작은 각양각색의 동식물이 공존관계를 이루며 존재하듯이, 인터넷상에서도, 고객, 제조회사, 서플라이어, 유통기업 등이 단계의 차이를 뛰어넘어 하나의 구성원으로서 공존하고, 진화해간다.",
-                    "sent_id": 3611,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "확인하다.v.Evidence",
+                    "text": "이 시설들의 존재는 완전 핵 연료 주기를 달성하기 위한 이란의 증가하는 투지를 확인해 준다."
                 }
             ]
         }
-    ],
-    "frameID": 82,
-    "ko_pos": "NNG",
-    "ko_lu": "유통.n.Commerce_scenario",
-    "lu_id": 4594,
-    "en_lus": [
-        "ryuutuu .流通 "
     ]
 }

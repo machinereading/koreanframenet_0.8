@@ -1,52 +1,81 @@
 {
-    "frameName": "Lively_place",
+    "ko_pos": "n",
+    "ko_lu": "통들.n.Containers",
+    "frameID": 78,
+    "frameName": "Containers",
+    "en_lus": [
+        "can"
+    ],
+    "lu_id": 5634,
     "patterns": [
         {
-            "valenceText": "annotation id: 19898",
+            "valenceText": "annotation id: 431",
             "examples": [
                 {
-                    "frameName": "Lively_place",
+                    "origin_lus": [
+                        "cans"
+                    ],
+                    "ko_annotation_id": 431,
+                    "annotation_id": 898,
+                    "frameName": "Containers",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Containers",
                             "span": {
-                                "begin": 2,
-                                "end": 4
+                                "begin": 79,
+                                "end": 85
                             },
-                            "id": "1"
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "쓰레기통들이"
                         },
                         {
-                            "obj": "location",
+                            "id": 2,
+                            "obj": "Use",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 16,
+                                "end": 21
                             },
-                            "id": "2"
+                            "text": "쓰레기통이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Type",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 73,
+                                "end": 78
+                            },
+                            "text": "서서,밖의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "busy"
-                    ],
-                    "ko_annotation_id": 19898,
-                    "text": "이 바쁘고 현대적인 유럽 도시는 천년의 역사 위에 자리잡고 있다 -- 우아한 Merrion 광장에서 중앙 우체국의 총탄 구멍까지 역사는 도처에 존재한다.",
-                    "sent_id": 951,
+                    "sent_id": 158,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4937
+                    "lu": "통들.n.Containers",
+                    "text": "찬장 문이 날아가고, 부엌의 쓰레기통이 몇 피트 움직였고, 개들이 달려왔으며, 나는 서둘러 개들을 개집에 넣고 나 자신이 출입구에 서서,밖의 쓰레기통들이 콘크리트를 가로질러 춤추는 것을 보았다."
                 }
             ]
         }
-    ],
-    "frameID": 1904,
-    "ko_pos": "VA",
-    "ko_lu": "바쁘다.a.Lively_place",
-    "lu_id": 5634,
-    "en_lus": [
-        "busy"
     ]
 }

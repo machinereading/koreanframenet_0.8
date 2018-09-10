@@ -1,60 +1,88 @@
 {
-    "frameName": "Weapon",
+    "ko_pos": "n",
+    "ko_lu": "정밀조사.n.Scrutiny",
+    "frameID": 31,
+    "frameName": "Scrutiny",
+    "en_lus": [
+        "scrutiny"
+    ],
+    "lu_id": 5567,
     "patterns": [
         {
-            "valenceText": "annotation id: 19714",
+            "valenceText": "annotation id: 7371",
             "examples": [
                 {
-                    "frameName": "Weapon",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 44,
-                                "end": 51
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "weapons of mass destruction"
+                        "scrutiny"
                     ],
-                    "ko_annotation_id": 19714,
-                    "text": "1991년 12월 소비에트 연방의 붕궤는 러시아 연방에 많은 대규모 소비에트의 대량파괴 무기 단지를 남겼다.",
-                    "sent_id": 2977,
-                    "relations": [],
-                    "annotation_id": 15345
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.28812",
-            "examples": [
-                {
-                    "frameName": "Weapon",
+                    "ko_annotation_id": 7371,
+                    "annotation_id": 13375,
+                    "frameName": "Scrutiny",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Scrutiny",
                             "span": {
-                                "begin": 15,
-                                "end": 17
+                                "begin": 35,
+                                "end": 41
                             },
-                            "id": "1"
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "정밀 조사를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "이 시설들과 이란의 총체적 프로그램은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 34
+                            },
+                            "text": "국제 공동체에 의해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "국내로 밀수입되던 약제들이 대량으로 적발되었다.업체가 재료를 대량으로 구입하였다.",
-                    "target": "대량",
-                    "ko_annotation_id": "sejong.28812",
-                    "relations": []
+                    "sent_id": 2673,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "정밀조사.n.Scrutiny",
+                    "text": "이 시설들과 이란의 총체적 프로그램은 현재 국제 공동체에 의해 정밀 조사를 받고 있고 시설의 목적과 능력에 대한 논쟁이 해결될 때까지 그럴 것 같다."
                 }
             ]
         }
-    ],
-    "frameID": 426,
-    "ko_pos": "NNG",
-    "ko_lu": "대량.n.Weapon",
-    "lu_id": 5567,
-    "en_lus": [
-        "weapons of mass destruction"
     ]
 }

@@ -1,37 +1,107 @@
 {
-    "frameName": "Commerce_scenario",
+    "ko_pos": "v",
+    "ko_lu": "수출되다.v.Import_export_scenario",
+    "frameID": 422,
+    "frameName": "Import_export_scenario",
+    "en_lus": [
+        "export"
+    ],
+    "lu_id": 4246,
     "patterns": [
         {
-            "valenceText": "annotation id: 14655",
+            "valenceText": "annotation id: 2413",
             "examples": [
                 {
-                    "frameName": "Commerce_scenario",
+                    "origin_lus": [
+                        "exported"
+                    ],
+                    "ko_annotation_id": 2413,
+                    "annotation_id": 4734,
+                    "frameName": "Import_export_scenario",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Import_export_scenario",
                             "span": {
-                                "begin": 6,
-                                "end": 8
-                            }
+                                "begin": 39,
+                                "end": 44
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "수출되었고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 29
+                            },
+                            "text": "자마이카 음악 ska -- 그리고 특히 레게 -- 는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 38
+                            },
+                            "text": "1970년대부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Importing_Area",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 45,
+                                "end": 51
+                            },
+                            "text": "전세계적으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "rezi .レジ "
+                    "sent_id": 916,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14655,
-                    "text": "긴장한 채 차례를 기다리는 고객에게는, 인사와 미소가 특효약입니다.",
-                    "sent_id": 4887,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "수출되다.v.Import_export_scenario",
+                    "text": "자마이카 음악 ska -- 그리고 특히 레게 -- 는 1970년대부터 수출되었고 전세계적으로 즐겨졌다."
                 }
             ]
         }
-    ],
-    "frameID": 82,
-    "ko_pos": "NNG",
-    "ko_lu": "차례.n.Commerce_scenario",
-    "lu_id": 4246,
-    "en_lus": [
-        "rezi .レジ "
     ]
 }

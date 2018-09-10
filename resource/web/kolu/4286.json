@@ -1,67 +1,137 @@
 {
-    "frameName": "Evidence",
+    "ko_pos": "v",
+    "ko_lu": "선호하다.v.Partiality",
+    "frameID": 349,
+    "frameName": "Partiality",
+    "en_lus": [
+        "favor"
+    ],
+    "lu_id": 4286,
     "patterns": [
         {
-            "valenceText": "annotation id: 14777",
+            "valenceText": "annotation id: 673",
             "examples": [
                 {
-                    "frameName": "Evidence",
+                    "origin_lus": [
+                        "favor"
+                    ],
+                    "ko_annotation_id": 673,
+                    "annotation_id": 1423,
+                    "frameName": "Partiality",
                     "denotations": [
                         {
-                            "obj": "support",
+                            "id": 1,
+                            "obj": "Partiality",
                             "span": {
-                                "begin": 22,
+                                "begin": 45,
+                                "end": 49
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "선호하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Decision_Maker",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "text": "투표자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
                                 "end": 28
                             },
-                            "id": "2"
+                            "text": "국회의원 선거보다",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "proposition",
+                            "id": 4,
+                            "obj": "Dispute",
+                            "token_span": [
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 79
+                                "begin": 29,
+                                "end": 37
                             },
-                            "id": "3"
+                            "text": "대통령 선거에서",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 5,
+                            "obj": "Side_1",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 81,
-                                "end": 84
+                                "begin": 38,
+                                "end": 42
                             },
-                            "id": "1"
+                            "text": "공화당을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 6,
+                            "obj": "Degree",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 44
+                            },
+                            "text": "더",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "indicated",
-                        "suggests"
-                    ],
-                    "ko_annotation_id": 14777,
-                    "text": "그리고 전 연방 폭탄 조사자에 의하면, 그러한 설명은 다른 모양으로 절단되거나 만들어질 수 있는 강력한 군사형 플라스틱 폭발물 C-4 라는 것을 시사한다.",
-                    "sent_id": 3292,
+                    "sent_id": 262,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 6,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17542
+                    "lu": "선호하다.v.Partiality",
+                    "text": "우리가 주지하다 싶이, 투표자들은 국회의원 선거보다 대통령 선거에서 공화당을 더 선호하는 경향이 있다."
                 }
             ]
         }
-    ],
-    "frameID": 25,
-    "ko_pos": "VV",
-    "ko_lu": "시사하다.v.Evidence",
-    "lu_id": 4286,
-    "en_lus": [
-        "indicated",
-        "suggests"
     ]
 }

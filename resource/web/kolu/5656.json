@@ -1,82 +1,102 @@
 {
-    "frameName": "Type",
+    "ko_pos": "v",
+    "ko_lu": "뜯다.v.Cause_to_fragment",
+    "frameID": 414,
+    "frameName": "Cause_to_fragment",
+    "en_lus": [
+        "broke"
+    ],
+    "lu_id": 5656,
     "patterns": [
         {
-            "valenceText": "annotation id: 19962",
+            "valenceText": "annotation id: 15174",
             "examples": [
                 {
-                    "frameName": "Type",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 33,
-                                "end": 35
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "strains"
+                        "broke"
                     ],
-                    "ko_annotation_id": 19962,
-                    "text": "이란이 접근한 캐나다 독물학자 Bruno 박사는 이란이 이 변종을 불법 생물무기 목적으로 사용할 것이라고 의심한 것을 주목해야 한다.",
-                    "sent_id": 2151,
-                    "relations": [],
-                    "annotation_id": 10730
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.3988",
-            "examples": [
-                {
-                    "frameName": "Type",
+                    "ko_annotation_id": 15174,
+                    "annotation_id": 14202,
+                    "frameName": "Cause_to_fragment",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Cause_to_fragment",
                             "span": {
-                                "begin": 10,
+                                "begin": 52,
+                                "end": 54
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "뜯고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
                                 "end": 12
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "나는 우리 집에서 변종으로 취급받는다.",
-                    "target": "변종",
-                    "ko_annotation_id": "sejong.3988",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.3989",
-            "examples": [
-                {
-                    "frameName": "Type",
-                    "denotations": [
+                            "text": "2002년 12월 말,",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 20
+                                "begin": 13,
+                                "end": 21
                             },
-                            "id": "1"
+                            "text": "북한 기술자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Whole_Patient",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "text": "봉함을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "생태계 파괴 현상으로 곤충계에서 변종이 많이 생성되고 있다.",
-                    "target": "변종",
-                    "ko_annotation_id": "sejong.3989",
-                    "relations": []
+                    "sent_id": 2806,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "뜯다.v.Cause_to_fragment",
+                    "text": "2002년 12월 말, 북한 기술자들은 동결을 감시하기 위해 IAEA가 설치한 카메라 봉함을 뜯고 그것을 망가뜨렸다."
                 }
             ]
         }
-    ],
-    "frameID": 128,
-    "ko_pos": "NNG",
-    "ko_lu": "변종.n.Type",
-    "lu_id": 5656,
-    "en_lus": [
-        "strain"
     ]
 }

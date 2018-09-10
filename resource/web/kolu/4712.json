@@ -1,44 +1,95 @@
 {
-    "frameName": "Commerce_sell",
+    "ko_pos": "n",
+    "ko_lu": "고용.n.Being_employed",
+    "frameID": 282,
+    "frameName": "Being_employed",
+    "en_lus": [
+        "employment"
+    ],
+    "lu_id": 4712,
     "patterns": [
         {
-            "valenceText": "annotation id: 16521",
+            "valenceText": "annotation id: 898",
             "examples": [
                 {
-                    "frameName": "Commerce_sell",
+                    "origin_lus": [
+                        "employment"
+                    ],
+                    "ko_annotation_id": 898,
+                    "annotation_id": 1883,
+                    "frameName": "Being_employed",
                     "denotations": [
                         {
-                            "obj": "Goods",
+                            "id": 1,
+                            "obj": "Being_employed",
                             "span": {
-                                "begin": 19,
-                                "end": 21
-                            }
+                                "begin": 67,
+                                "end": 69
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "고용"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Employee",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 18
-                            }
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "Cornell은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ureru .売れる"
+                    "sent_id": 348,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16521,
-                    "text": "따라서, 계약한 작가가 잘 나가는 작품을 만들어내지 못하면, 작가 에이전트도 운영이 곧바로 어려워진다.",
-                    "sent_id": 4892,
+                    "lu": "고용.n.Being_employed",
+                    "text": "Cornell은 작업장 상해가 주조 공장에서의 그의 일자리에서 그가 나가도록 하게 한 후 그가 결코 꿈꾸지 않았던 많은 고용 방안이 존재한다는 것을 알았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 951",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "employment"
+                    ],
+                    "ko_annotation_id": 951,
+                    "annotation_id": 1993,
+                    "frameName": "Being_employed",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_employed",
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "고용"
+                        }
+                    ],
+                    "sent_id": 371,
                     "relations": [],
-                    "annotation_id": 0
+                    "lu": "고용.n.Being_employed",
+                    "text": "우리는 누군가가 그들의 고용 장벽에 대한 해결책을 발견하도록 도울 때마다, 긍정적인 효과가 우리들의 지역사회 전반에 발산된다 : 기업 공동체는 단지 또 다른 한 명의 근로자뿐만 아니라 증가된 구매력을 가진 한 명의 소비자를 맞이하는 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 172,
-    "ko_pos": "VV",
-    "ko_lu": "나가다.v.Commerce_sell",
-    "lu_id": 4712,
-    "en_lus": [
-        "ureru .売れる"
     ]
 }

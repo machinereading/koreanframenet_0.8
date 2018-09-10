@@ -1,80 +1,84 @@
 {
-    "frameName": "Vehicle",
+    "ko_pos": "n",
+    "ko_lu": "박스테이프.n.Connectors",
+    "frameID": 419,
+    "frameName": "Connectors",
+    "en_lus": [
+        "gamu teepu .ガム テープ "
+    ],
+    "lu_id": 3938,
     "patterns": [
         {
-            "valenceText": "annotation id: 13447",
+            "valenceText": "annotation id: 16319",
             "examples": [
                 {
-                    "frameName": "Vehicle",
+                    "origin_lus": [
+                        "gamu teepu .ガム テープ "
+                    ],
+                    "ko_annotation_id": 16319,
+                    "annotation_id": 0,
+                    "frameName": "Connectors",
                     "denotations": [
                         {
-                            "obj": "Itinerary",
+                            "id": 1,
+                            "obj": "Connectors",
+                            "span": {
+                                "begin": 16,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "박스테이프"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Connected_Item",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 7
-                            }
-                        },
-                        {
-                            "obj": "Itinerary",
-                            "span": {
-                                "begin": 9,
-                                "end": 18
-                            }
-                        },
-                        {
-                            "obj": "Vehicle",
-                            "span": {
-                                "begin": 19,
-                                "end": 21
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 19,
-                                "end": 21
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "takase bune .高瀬 船"
-                    ],
-                    "ko_annotation_id": 13447,
-                    "text": "낮 열두 시경에 가와고에로 향하는 나룻배가 뜨는데, 거기에 시즈가 타고 있다는 기별이 왔기 때문이다.",
-                    "sent_id": 4376,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41645",
-            "examples": [
-                {
-                    "frameName": "Vehicle",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 3,
-                                "end": 5
+                                "end": 15
                             },
-                            "id": "1"
+                            "text": "주워모은 종이 상자나 담요를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Connector",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 21
+                            },
+                            "text": "박스테이프",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그의 나룻은 얼굴의 반을 덮었다.",
-                    "target": "나룻",
-                    "ko_annotation_id": "sejong.41645",
-                    "relations": []
+                    "sent_id": 3991,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "박스테이프.n.Connectors",
+                    "text": "주워모은 종이 상자나 담요를 박스테이프 등으로 이어붙인 단순한 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 429,
-    "ko_pos": "NNG",
-    "ko_lu": "나룻.n.Vehicle",
-    "lu_id": 3938,
-    "en_lus": [
-        "takase bune .高瀬 船"
     ]
 }

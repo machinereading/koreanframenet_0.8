@@ -1,52 +1,115 @@
 {
-    "frameName": "Part_whole",
+    "ko_pos": "n",
+    "ko_lu": "연인.n.Personal_relationship",
+    "frameID": 102,
+    "frameName": "Personal_relationship",
+    "en_lus": [
+        "koibito .恋人 ",
+        "paramour"
+    ],
+    "lu_id": 474,
     "patterns": [
         {
-            "valenceText": "annotation id: 1330",
+            "valenceText": "annotation id: 2767",
             "examples": [
                 {
-                    "frameName": "Part_whole",
+                    "origin_lus": [
+                        "paramours"
+                    ],
+                    "ko_annotation_id": 2767,
+                    "annotation_id": 5361,
+                    "frameName": "Personal_relationship",
                     "denotations": [
                         {
-                            "obj": "whole",
+                            "id": 1,
+                            "obj": "Personal_relationship",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 40,
+                                "end": 44
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "연인들의"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Partner_1",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 15
+                                "begin": 35,
+                                "end": 39
                             },
-                            "id": "1"
+                            "text": "클린턴의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sections"
-                    ],
-                    "ko_annotation_id": 1330,
-                    "text": "공원의 저지대와 고지대 구간을 연결하는 케이블 카 시스템은 남중국해의 섬들을 가로지르는 장관을 이루는 경관을 제공한다.",
-                    "sent_id": 1140,
+                    "sent_id": 1023,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6001
+                    "lu": "연인.n.Personal_relationship",
+                    "text": "War Room의 끝 가까이에서, Stephanopoulos는 클린턴의 연인들의 목록을 가지고 있고, 지금 막 공개하려고 한다고 분명히 주장하는 누군가로부터 전화를 받는다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16701",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "koibito .恋人 "
+                    ],
+                    "ko_annotation_id": 16701,
+                    "annotation_id": 0,
+                    "frameName": "Personal_relationship",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Personal_relationship",
+                            "span": {
+                                "begin": 78,
+                                "end": 81
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "연인을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Partner_1",
+                            "token_span": [
+                                19
+                            ],
+                            "span": {
+                                "begin": 78,
+                                "end": 81
+                            },
+                            "text": "연인을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4822,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연인.n.Personal_relationship",
+                    "text": "그렇다면 「처녀성을 버리기에 가장 적절한 때」는 언제인가 하면 「각자의 내적 생활의 경험으로 미루어 보았을 때, 그것은 연애의 경험 중에, 연인을 향한 영적 동경 (애정.)을 지닌 가운데 관능적 요구를 발하여, 자신의 인격 안에서 양자의 일치 결합을 진실로 느꼈을 경우가 아닌가 」「그렇게 생각한다면 처녀성의 가치는 실로 크다."
                 }
             ]
         }
-    ],
-    "frameID": 140,
-    "ko_pos": "NNG",
-    "ko_lu": "구간.n.Part_whole",
-    "lu_id": 474,
-    "en_lus": [
-        "section"
     ]
 }

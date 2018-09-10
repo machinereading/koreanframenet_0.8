@@ -1,95 +1,83 @@
 {
-    "frameName": "Becoming",
+    "ko_pos": "n",
+    "ko_lu": "중시.n.Emphasizing",
+    "frameID": 1542,
+    "frameName": "Emphasizing",
+    "en_lus": [
+        "zyuusi .重視 "
+    ],
+    "lu_id": 3934,
     "patterns": [
         {
-            "valenceText": "annotation id: 13441",
+            "valenceText": "annotation id: 10225",
             "examples": [
                 {
-                    "frameName": "Becoming",
-                    "denotations": [
-                        {
-                            "obj": "Entity",
-                            "span": {
-                                "begin": 46,
-                                "end": 50
-                            }
-                        },
-                        {
-                            "obj": "Final_state",
-                            "span": {
-                                "begin": 52,
-                                "end": 55
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 52,
-                                "end": 55
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "naru .なる"
+                        "zyuusi .重視 "
                     ],
-                    "ko_annotation_id": 13441,
-                    "text": "어의없는 얼굴로 「북조선은 그 일에는 반대하겠지요」라고 말한 오카모토씨의 발언에서 방송시간이 종료되었다.",
-                    "sent_id": 4365,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.78505",
-            "examples": [
-                {
-                    "frameName": "Becoming",
+                    "ko_annotation_id": 10225,
+                    "annotation_id": 0,
+                    "frameName": "Emphasizing",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Emphasizing",
                             "span": {
-                                "begin": 7,
-                                "end": 12
+                                "begin": 36,
+                                "end": 39
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "모든 사건이 종료되려면 시간이 필요하다.",
-                    "target": "종료되려면",
-                    "ko_annotation_id": "sejong.78505",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.78506",
-            "examples": [
-                {
-                    "frameName": "Becoming",
-                    "denotations": [
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "중시,"
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Competing_Consideration",
+                            "token_span": [
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 9
+                                "begin": 20,
+                                "end": 27
                             },
-                            "obj": "target"
+                            "text": "기억력이 아닌",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Consideration",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 35
+                            },
+                            "text": "생각하는 힘의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "경기가 종료되려면 5분이 남아 있다.",
-                    "target": "종료되려면",
-                    "ko_annotation_id": "sejong.78506",
-                    "relations": []
+                    "sent_id": 3619,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "중시.n.Emphasizing",
+                    "text": "국어・수학・체육에 중점을 둔 수업, 기억력이 아닌 생각하는 힘의 중시, 합숙 등의 과외활동 활용-문부과학성과는 학교 운영의 사상・방법론이 전혀 다르나, 도쓰카가 추구하는 초등학교상은 결코 엉뚱한 것이 아니다."
                 }
             ]
         }
-    ],
-    "frameID": 2971,
-    "ko_pos": "VV",
-    "ko_lu": "종료되다.v.Becoming",
-    "lu_id": 3934,
-    "en_lus": [
-        "naru .なる"
     ]
 }

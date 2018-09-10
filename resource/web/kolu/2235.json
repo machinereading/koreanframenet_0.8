@@ -1,52 +1,64 @@
 {
-    "frameName": "Hit_or_miss",
+    "ko_pos": "n",
+    "ko_lu": "죄.n.Misdeed",
+    "frameID": 1100,
+    "frameName": "Misdeed",
+    "en_lus": [
+        "sin"
+    ],
+    "lu_id": 2235,
     "patterns": [
         {
-            "valenceText": "annotation id: 7273",
+            "valenceText": "annotation id: 4523",
             "examples": [
                 {
-                    "frameName": "Hit_or_miss",
+                    "origin_lus": [
+                        "sin"
+                    ],
+                    "ko_annotation_id": 4523,
+                    "annotation_id": 8215,
+                    "frameName": "Misdeed",
                     "denotations": [
                         {
-                            "obj": "instrument",
+                            "id": 1,
+                            "obj": "Misdeed",
                             "span": {
-                                "begin": 0,
-                                "end": 4
+                                "begin": 7,
+                                "end": 8
                             },
-                            "id": "2"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "죄"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Wrongdoer",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 39,
-                                "end": 41
+                                "begin": 0,
+                                "end": 6
                             },
-                            "id": "1"
+                            "text": "서약 파기의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "missed"
-                    ],
-                    "ko_annotation_id": 7273,
-                    "text": "이스라엘은 Hamas, 즉 Al-rantissi를 보복하였으나, 그를 놓쳤고 민간인을 죽였다.",
-                    "sent_id": 1796,
+                    "sent_id": 1676,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8688
+                    "lu": "죄.n.Misdeed",
+                    "text": "서약 파기의 죄 ( Suraat Alraa 'd ) ( Albukhari ) ( Fath Albari 418/4 )"
                 }
             ]
         }
-    ],
-    "frameID": 1902,
-    "ko_pos": "VV",
-    "ko_lu": "놓치다.v.Hit_or_miss",
-    "lu_id": 2235,
-    "en_lus": [
-        "miss"
     ]
 }

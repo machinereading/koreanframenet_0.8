@@ -1,87 +1,240 @@
 {
-    "frameName": "Position_on_a_scale",
+    "ko_pos": "n",
+    "ko_lu": "말.n.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "kotoba .言葉 ",
+        "statement",
+        "iu .言う "
+    ],
+    "lu_id": 5663,
     "patterns": [
         {
-            "valenceText": "annotation id: 19979",
+            "valenceText": "annotation id: 8026",
             "examples": [
                 {
-                    "frameName": "Position_on_a_scale",
+                    "origin_lus": [
+                        "kotoba .言葉 ",
+                        "statement",
+                        "iu .言う "
+                    ],
+                    "ko_annotation_id": 8026,
+                    "annotation_id": 14646,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 16,
-                                "end": 22
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "item",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
                                 "begin": 32,
-                                "end": 53
+                                "end": 34
                             },
-                            "id": "2"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "동안"
                         },
                         {
-                            "obj": "item",
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 37,
-                                "end": 49
+                                "begin": 0,
+                                "end": 2
                             },
-                            "id": "3"
+                            "text": "리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 28
+                            },
+                            "text": " 미국, 중국, 및 북한  대표들 사이의 삼자",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "deficient"
-                    ],
-                    "ko_annotation_id": 19979,
-                    "text": "1984년에, 한국은 이란에 결함이 있는 것으로 입증된, 핀란드의 Kemira 사 방독면 복제품을 이란에 공급하였다.",
-                    "sent_id": 2321,
+                    "sent_id": 2868,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 11670
+                    "lu": "말.n.Statement",
+                    "text": "리는  미국, 중국, 및 북한  대표들 사이의 삼자 회담 동안 그 말을 하였다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.39003",
+            "valenceText": "annotation id: 11630",
             "examples": [
                 {
-                    "frameName": "Position_on_a_scale",
+                    "origin_lus": [
+                        "kotoba .言葉 ",
+                        "statement",
+                        "iu .言う "
+                    ],
+                    "ko_annotation_id": 11630,
+                    "annotation_id": 0,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 18,
-                                "end": 20
+                                "begin": 43,
+                                "end": 45
                             },
-                            "id": "1"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "말도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "그녀는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 39
+                            },
+                            "text": "눈을 감은 채",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Message",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 42
+                            },
+                            "text": "아무",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "경우에 따라서는 측정도구 자체의 결함으로 인해 실험결과가 잘못 나오는 수도 있다.",
-                    "target": "결함",
-                    "ko_annotation_id": "sejong.39003",
-                    "relations": []
+                    "sent_id": 4518,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "말.n.Statement",
+                    "text": "병원을 찾는 척하면서 차를 한적한 쪽으로 몰아도, 그녀는 눈을 감은 채 아무 말도 하지 않았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11937",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kotoba .言葉 ",
+                        "statement",
+                        "iu .言う "
+                    ],
+                    "ko_annotation_id": 11937,
+                    "annotation_id": 0,
+                    "frameName": "Statement",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 53,
+                                "end": 55
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "말을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 52
+                            },
+                            "text": "「남의 샅바 차고 씨름한다」는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4725,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "말.n.Statement",
+                    "text": "혼자서도 괜찮아, 협력자가 넘치는 「상생 상법」 관서지방 사람은 「남의 샅바 차고 씨름한다」는 말을 좋아한다."
                 }
             ]
         }
-    ],
-    "frameID": 95,
-    "ko_pos": "NNG",
-    "ko_lu": "결함.n.Position_on_a_scale",
-    "lu_id": 5663,
-    "en_lus": [
-        "deficient"
     ]
 }

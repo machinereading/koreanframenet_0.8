@@ -1,44 +1,154 @@
 {
-    "frameName": "Food_gathering",
+    "ko_pos": "n",
+    "ko_lu": "국경.n.Boundary",
+    "frameID": 329,
+    "frameName": "Boundary",
+    "en_lus": [
+        "kokkyoo .国境 "
+    ],
+    "lu_id": 1663,
     "patterns": [
         {
-            "valenceText": "annotation id: 5174",
+            "valenceText": "annotation id: 10346",
             "examples": [
                 {
-                    "frameName": "Food_gathering",
+                    "origin_lus": [
+                        "kokkyoo .国境 "
+                    ],
+                    "ko_annotation_id": 10346,
+                    "annotation_id": 0,
+                    "frameName": "Boundary",
                     "denotations": [
                         {
-                            "obj": "Crop",
+                            "id": 1,
+                            "obj": "Boundary",
                             "span": {
-                                "begin": 26,
-                                "end": 27
-                            }
+                                "begin": 64,
+                                "end": 67
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "국경에"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
                             "span": {
-                                "begin": 19,
-                                "end": 21
-                            }
+                                "begin": 37,
+                                "end": 51
+                            },
+                            "text": "왕성 부근에 있는 나라들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Boundary",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 64,
+                                "end": 67
+                            },
+                            "text": "국경에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "karitoru .刈り取る "
+                    "sent_id": 3686,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5174,
-                    "text": "1 신칸센 창문 너머로 펼쳐지는, 수확이 끝난 밭의 끝없는 풍경을 바라보면서, 어느새 그곳에 있었을 천년 전의 숲을 상상하고 있다.",
-                    "sent_id": 4760,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "국경.n.Boundary",
+                    "text": "그 밖에는, 아직 야마토를 거스르는 세력이 적잖이 있다는 뜻으로, 왕성 부근에 있는 나라들이 무엇을 했는가 하면, 국경에 우선 방위선을 설정하는 겁니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 17429",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kokkyoo .国境 "
+                    ],
+                    "ko_annotation_id": 17429,
+                    "annotation_id": 0,
+                    "frameName": "Boundary",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Boundary",
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "국경선에는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entities",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 20
+                            },
+                            "text": "하리마노구니와 셋쓰노구니의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Boundary",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "text": "국경선에는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4955,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "국경.n.Boundary",
+                    "text": "예를 들어 하리마노구니와 셋쓰노구니의 국경선에는 스마우라 공원 가장 서쪽에 사카이가와라는 것이 있는데, 그것이 말 그대로 양국의 경계였습니다."
                 }
             ]
         }
-    ],
-    "frameID": 2008,
-    "ko_pos": "NNG",
-    "ko_lu": "수확.n.Food_gathering",
-    "lu_id": 1663,
-    "en_lus": [
-        "karitoru .刈り取る "
     ]
 }

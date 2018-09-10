@@ -1,38 +1,68 @@
 {
-    "frameName": "Vehicle",
+    "ko_pos": "a",
+    "ko_lu": "주의깊다.a.Becoming_aware",
+    "frameID": 20,
+    "frameName": "Becoming_aware",
+    "en_lus": [
+        "Note"
+    ],
+    "lu_id": 2941,
     "patterns": [
         {
-            "valenceText": "annotation id: 9667",
+            "valenceText": "annotation id: 2888",
             "examples": [
                 {
-                    "frameName": "Vehicle",
+                    "origin_lus": [
+                        "Note"
+                    ],
+                    "ko_annotation_id": 2888,
+                    "annotation_id": 5556,
+                    "frameName": "Becoming_aware",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Becoming_aware",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 63,
+                                "end": 72
                             },
-                            "id": "1"
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "주의 깊게 보라."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 62
+                            },
+                            "text": "Quiet Chapel의 스테인드 글라스를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "boats"
+                    "sent_id": 1062,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 9667,
-                    "text": "배들은 프로젝트 SHAD의 일부였고 -- Shipboard Hazard and Defense -- 생물 및 화학 무기를 테스트하기 위한 실험이었다.",
-                    "sent_id": 3249,
-                    "relations": [],
-                    "annotation_id": 17178
+                    "lu": "주의깊다.a.Becoming_aware",
+                    "text": "1950년대 후반에 Joseph Edward Nuttgens가 설계한 Quiet Chapel의 스테인드 글라스를 주의 깊게 보라."
                 }
             ]
         }
-    ],
-    "frameID": 429,
-    "ko_pos": "NN",
-    "ko_lu": "배들.n.Vehicle",
-    "lu_id": 2941,
-    "en_lus": [
-        "boat"
     ]
 }

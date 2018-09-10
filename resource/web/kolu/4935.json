@@ -1,88 +1,85 @@
 {
-    "frameName": "Body_parts",
+    "ko_pos": "v",
+    "ko_lu": "규정되다.v.Control",
+    "frameID": 1799,
+    "frameName": "Control",
+    "en_lus": [
+        "sadamaru .定まる"
+    ],
+    "lu_id": 4935,
     "patterns": [
         {
-            "valenceText": "annotation id: 17393",
+            "valenceText": "annotation id: 10829",
             "examples": [
                 {
-                    "frameName": "Observable_bodyparts",
+                    "origin_lus": [
+                        "sadamaru .定まる"
+                    ],
+                    "ko_annotation_id": 10829,
+                    "annotation_id": 0,
+                    "frameName": "Control",
                     "denotations": [
                         {
-                            "obj": "Body_part",
+                            "id": 1,
+                            "obj": "Control",
                             "span": {
-                                "begin": 0,
-                                "end": 6
-                            }
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "규정되는"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Dependent_Entity",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 6
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "migikata .右肩 "
-                    ],
-                    "ko_annotation_id": 17393,
-                    "text": "오른쪽 어깨에 통증이 있다.",
-                    "sent_id": 4496,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.8698",
-            "examples": [
-                {
-                    "frameName": "Body_parts",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 3,
-                                "end": 6
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "차는 오른쪽으로 다닌다.",
-                    "target": "오른쪽",
-                    "ko_annotation_id": "sejong.8698",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.8699",
-            "examples": [
-                {
-                    "frameName": "Body_parts",
-                    "denotations": [
+                            "text": "직접침해는,",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Controlling_Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 7,
+                                "end": 23
                             },
-                            "id": "1"
+                            "text": "특허 청구 범위의 문언에 의해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "오른쪽에 네가 보고 싶어 하던 사람이 있잖아.",
-                    "target": "오른쪽",
-                    "ko_annotation_id": "sejong.8699",
-                    "relations": []
+                    "sent_id": 4011,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "규정되다.v.Control",
+                    "text": "직접침해는, 특허 청구 범위의 문언에 의해 규정되는 경우(문언침해.)와 문언의 범위에는 포함되지 않으나, 그 문언에 기재된 것과 가치적으로 같다고 보여(균등침해.), 그 침해의 범위에 포함되는 경우가 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 119,
-    "ko_pos": "NNG",
-    "ko_lu": "오른쪽.n.Body_parts",
-    "lu_id": 4935,
-    "en_lus": [
-        "migikata .右肩 "
     ]
 }

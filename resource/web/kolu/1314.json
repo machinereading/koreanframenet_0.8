@@ -1,65 +1,85 @@
 {
-    "frameName": "Possession",
+    "ko_pos": "v",
+    "ko_lu": "심기일전하다.v.Sending",
+    "frameID": 243,
+    "frameName": "Sending",
+    "en_lus": [
+        "Send"
+    ],
+    "lu_id": 1314,
     "patterns": [
         {
-            "valenceText": "annotation id: 4043",
+            "valenceText": "annotation id: 4562",
             "examples": [
                 {
-                    "frameName": "Possession",
+                    "origin_lus": [
+                        "Send"
+                    ],
+                    "ko_annotation_id": 4562,
+                    "annotation_id": 8294,
+                    "frameName": "Sending",
                     "denotations": [
                         {
-                            "obj": "owner",
+                            "id": 1,
+                            "obj": "Sending",
                             "span": {
-                                "begin": 23,
-                                "end": 24
+                                "begin": 24,
+                                "end": 30
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "전해주세요."
                         },
                         {
-                            "obj": "possession",
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 43,
-                                "end": 56
+                                "begin": 0,
+                                "end": 19
                             },
-                            "id": "3"
+                            "text": "나의 고모, 삼촌 그리고 할머니에게",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 53,
-                                "end": 56
+                                "begin": 20,
+                                "end": 23
                             },
-                            "id": "1"
+                            "text": "안부를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "have"
-                    ],
-                    "ko_annotation_id": 4043,
-                    "text": "Patti가 세부 내용을 가진 사람이고, 나는 단지 거래를 처리하는 사람이고 시스템의 어디에도 접속할 수 없다.",
-                    "sent_id": 1823,
+                    "sent_id": 1704,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8801
+                    "lu": "심기일전하다.v.Sending",
+                    "text": "나의 고모, 삼촌 그리고 할머니에게 안부를 전해주세요."
                 }
             ]
         }
-    ],
-    "frameID": 118,
-    "ko_pos": "VV",
-    "ko_lu": "접속하다.v.Possession",
-    "lu_id": 1314,
-    "en_lus": [
-        "have"
     ]
 }

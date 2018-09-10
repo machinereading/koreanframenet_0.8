@@ -1,44 +1,71 @@
 {
-    "frameName": "Degree",
+    "ko_pos": "n",
+    "ko_lu": "리더.n.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "say"
+    ],
+    "lu_id": 2297,
     "patterns": [
         {
-            "valenceText": "annotation id: 7434",
+            "valenceText": "annotation id: 10033",
             "examples": [
                 {
-                    "frameName": "Degree",
+                    "origin_lus": [
+                        "said"
+                    ],
+                    "ko_annotation_id": 10033,
+                    "annotation_id": 18539,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "Gradable_attribute",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 16,
-                                "end": 19
-                            }
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "리더인,"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 11,
-                                "end": 14
-                            }
+                                "begin": 9,
+                                "end": 47
+                            },
+                            "text": "네 번째 순위의 기업 연합 리더인, Jose Abello Silva를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kyooretu .強烈 "
+                    "sent_id": 3537,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7434,
-                    "text": "그 정도로, 강하고 강렬한 「체험」이었다.",
-                    "sent_id": 4314,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "리더.n.Statement",
+                    "text": "이번주, 정부는 네 번째 순위의 기업 연합 리더인, Jose Abello Silva를 체포하였다"
                 }
             ]
         }
-    ],
-    "frameID": 2001,
-    "ko_pos": "VA",
-    "ko_lu": "강렬하다.a.Degree",
-    "lu_id": 2297,
-    "en_lus": [
-        "kyooretu .強烈 "
     ]
 }

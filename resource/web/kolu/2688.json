@@ -1,100 +1,86 @@
 {
-    "frameName": "Touring",
+    "ko_pos": "v",
+    "ko_lu": "들리다.v.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "kiku .聴く"
+    ],
+    "lu_id": 2688,
     "patterns": [
         {
-            "valenceText": "annotation id: 8783",
+            "valenceText": "annotation id: 16158",
             "examples": [
                 {
-                    "frameName": "Touring",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 77,
-                                "end": 80
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "tourist"
+                        "kiku .聴く"
                     ],
-                    "ko_annotation_id": 8783,
-                    "text": "또한 기념품 가판대, 휴식을 위한 벤치, 그리고 아마도 홍콩의 마지막 살아남은 인력거들이 있다 - 그러나 이들은 타기 위한 것이 아니고, 여행자가 사진 찍을 기회를 위한 것이다.",
-                    "sent_id": 1083,
-                    "relations": [],
-                    "annotation_id": 5653
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 8784",
-            "examples": [
-                {
-                    "frameName": "Touring",
+                    "ko_annotation_id": 16158,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Perception_active",
                             "span": {
-                                "begin": 4,
-                                "end": 7
+                                "begin": 30,
+                                "end": 38
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "들려주었습니다."
                         },
                         {
-                            "obj": "attraction",
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 11
+                                "begin": 0,
+                                "end": 26
                             },
-                            "id": "2"
+                            "text": "당시, 유행하던 뮤지컬 영화음악이 담긴 레코드를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "text": "틀고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tourist"
-                    ],
-                    "ko_annotation_id": 8784,
-                    "text": "번창한 여행자 지역인 이곳은 많은 좋은 식당과 함께, 쇼핑 센터와 백화점으로 가득 차있다.",
-                    "sent_id": 1121,
+                    "sent_id": 3636,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 5868
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.42024",
-            "examples": [
-                {
-                    "frameName": "Touring",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 10,
-                                "end": 13
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "월드컵 기간 동안 여행자의 수가 급격히 줄었다.",
-                    "target": "여행자",
-                    "ko_annotation_id": "sejong.42024",
-                    "relations": []
+                    "lu": "들리다.v.Perception_active",
+                    "text": "당시, 유행하던 뮤지컬 영화음악이 담긴 레코드를 틀고 들려주었습니다."
                 }
             ]
         }
-    ],
-    "frameID": 1907,
-    "ko_pos": "NN",
-    "ko_lu": "여행자.n.Touring",
-    "lu_id": 2688,
-    "en_lus": [
-        "tourist"
     ]
 }

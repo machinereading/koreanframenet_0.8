@@ -1,82 +1,104 @@
 {
-    "frameName": "Request",
+    "ko_pos": "v",
+    "ko_lu": "비행하다.v.Travel",
+    "frameID": 343,
+    "frameName": "Travel",
+    "en_lus": [
+        "travel"
+    ],
+    "lu_id": 54,
     "patterns": [
         {
-            "valenceText": "annotation id: 181",
+            "valenceText": "annotation id: 7558",
             "examples": [
                 {
-                    "frameName": "Request",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 209,
-                                "end": 215
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "orders"
+                        "traveling"
                     ],
-                    "ko_annotation_id": 181,
-                    "text": "1995년에, 테헤란의 Razak Laboratories 그리고 Tabriz의 Chemical and Pharmaceutical Industries이 지불하고 이란의 International Movalled Industries Corporation ( Imaco ) 이 the North Chemical Industries Corp. ( Nocinco ) 와 함께 중개하여 주문한 것들은 인도되지 않았다.",
-                    "sent_id": 2293,
-                    "relations": [],
-                    "annotation_id": 11514
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.89548",
-            "examples": [
-                {
-                    "frameName": "Request",
+                    "ko_annotation_id": 7558,
+                    "annotation_id": 13743,
+                    "frameName": "Travel",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Travel",
                             "span": {
-                                "begin": 14,
-                                "end": 18
+                                "begin": 42,
+                                "end": 45
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "철수는 중국집에 짜짱면을 주문했다.",
-                    "target": "주문했다",
-                    "ko_annotation_id": "sejong.89548",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.89549",
-            "examples": [
-                {
-                    "frameName": "Request",
-                    "denotations": [
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "비행할"
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Baggage",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 19,
-                                "end": 25
+                                "begin": 16,
+                                "end": 28
                             },
-                            "obj": "target"
+                            "text": "500 킬로그램 적재로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Distance",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 41
+                            },
+                            "text": "300 킬로미터 이상을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Traveler",
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 62
+                            },
+                            "text": "탄도 미사일을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "서점에 동양철학에 관한 인문서적을 주문해야겠다.",
-                    "target": "주문해야겠다",
-                    "ko_annotation_id": "sejong.89549",
-                    "relations": []
+                    "sent_id": 2729,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비행하다.v.Travel",
+                    "text": "2003년 12월, 리비아는 500 킬로그램 적재로 300 킬로미터 이상을 비행할 수 있는 능력의 탄도 미사일을 제거하기로 약속하였다."
                 }
             ]
         }
-    ],
-    "frameID": 41,
-    "ko_pos": "VV",
-    "ko_lu": "주문하다.v.Request",
-    "lu_id": 54,
-    "en_lus": [
-        "order"
     ]
 }

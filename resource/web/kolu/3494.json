@@ -1,88 +1,90 @@
 {
-    "frameName": "Natural_features",
+    "ko_pos": "a",
+    "ko_lu": "되다.a.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "state"
+    ],
+    "lu_id": 3494,
     "patterns": [
         {
-            "valenceText": "annotation id: 11908",
+            "valenceText": "annotation id: 122",
             "examples": [
                 {
-                    "frameName": "Natural_features",
+                    "origin_lus": [
+                        "state"
+                    ],
+                    "ko_annotation_id": 122,
+                    "annotation_id": 209,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "Locale",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 32,
+                                "end": 38
+                            },
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "되어 있다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "kawa .川 "
-                    ],
-                    "ko_annotation_id": 11908,
-                    "text": "강물은 졸졸 흐르니 도움이 안되고, 마을 사람들이, 여기저기 우물을 파봐도 시원스레 깨끗한 물이 나오지 않았지.",
-                    "sent_id": 4699,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41135",
-            "examples": [
-                {
-                    "frameName": "Natural_features",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 8,
-                                "end": 10
+                                "end": 27
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "그녀는 흐르는 강물을 말없이 바라보고 있었다.",
-                    "target": "강물",
-                    "ko_annotation_id": "sejong.41135",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41136",
-            "examples": [
-                {
-                    "frameName": "Natural_features",
-                    "denotations": [
+                            "text": "각 변동이나 변화는 단 한 번만 발생할 수 있다고",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Medium",
+                            "token_span": [
+                                9
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 8
+                                "begin": 28,
+                                "end": 31
                             },
-                            "id": "1"
+                            "text": "규칙에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "우리 집은 강물에 배를 띄워야 갈 수 있는 곳이다.",
-                    "target": "강물",
-                    "ko_annotation_id": "sejong.41136",
-                    "relations": []
+                    "sent_id": 31,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "되다.a.Statement",
+                    "text": "각 변동이나 변화는 단 한 번만 발생할 수 있다고 규칙에 되어 있다."
                 }
             ]
         }
-    ],
-    "frameID": 191,
-    "ko_pos": "NNG",
-    "ko_lu": "강물.n.Natural_features",
-    "lu_id": 3494,
-    "en_lus": [
-        "kawa .川 "
     ]
 }

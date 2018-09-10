@@ -1,96 +1,64 @@
 {
-    "frameName": "Sentencing",
+    "ko_pos": "v",
+    "ko_lu": "동감하다.v.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "dookan .同感 "
+    ],
+    "lu_id": 2070,
     "patterns": [
         {
-            "valenceText": "annotation id: 6584",
+            "valenceText": "annotation id: 16736",
             "examples": [
                 {
-                    "frameName": "Sentencing",
+                    "origin_lus": [
+                        "dookan .同感 "
+                    ],
+                    "ko_annotation_id": 16736,
+                    "annotation_id": 0,
+                    "frameName": "Emotion_directed",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Emotion_directed",
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 37,
+                                "end": 42
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "동감한다는"
                         },
                         {
-                            "obj": "convict",
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 11,
-                                "end": 14
+                                "begin": 0,
+                                "end": 8
                             },
-                            "id": "2"
+                            "text": "이런 사람들은,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sentenced"
-                    ],
-                    "ko_annotation_id": 6584,
-                    "text": "나는 그들이 선고된 살인자의 감옥에 있는 평균 시간은, 저, 그가 가석방 되기 전에 이년이고 강간자는 육개월이고 도둑은 이개월이라고 그들이 말한 것을 어제밤 뉴스에서 보았다.",
-                    "sent_id": 1903,
+                    "sent_id": 4846,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9164
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.90218",
-            "examples": [
-                {
-                    "frameName": "Sentencing",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 32,
-                                "end": 37
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "수십 명이나 되는 사람을 잔인하게 살해한 범인에게 사형이 선고되었다.",
-                    "target": "선고되었다",
-                    "ko_annotation_id": "sejong.90218",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.90219",
-            "examples": [
-                {
-                    "frameName": "Sentencing",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 33,
-                                "end": 38
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "죄목이 어떤 것이든 잡혀들어온 사람들에게는 무조건 25년이 선고되었다.",
-                    "target": "선고되었다",
-                    "ko_annotation_id": "sejong.90219",
-                    "relations": []
+                    "lu": "동감하다.v.Emotion_directed",
+                    "text": "이런 사람들은, 일반적으로, 실행에 옮길지는 차치하고라도, 적어도 동감한다는 점에서는, 정치적으로 토리당와 한편이다."
                 }
             ]
         }
-    ],
-    "frameID": 297,
-    "ko_pos": "VV",
-    "ko_lu": "선고되다.v.Sentencing",
-    "lu_id": 2070,
-    "en_lus": [
-        "sentence"
     ]
 }

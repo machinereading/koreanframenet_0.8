@@ -1,52 +1,104 @@
 {
-    "frameName": "Locale_by_use",
+    "ko_pos": "v",
+    "ko_lu": "죽는소리하다.v.Killing",
+    "frameID": 590,
+    "frameName": "Killing",
+    "en_lus": [
+        "kill"
+    ],
+    "lu_id": 942,
     "patterns": [
         {
-            "valenceText": "annotation id: 2779",
+            "valenceText": "annotation id: 17018",
             "examples": [
                 {
-                    "frameName": "Locale_by_use",
+                    "origin_lus": [
+                        "killed"
+                    ],
+                    "ko_annotation_id": 17018,
+                    "annotation_id": 8526,
+                    "frameName": "Killing",
                     "denotations": [
                         {
-                            "obj": "use",
+                            "id": 1,
+                            "obj": "Killing",
                             "span": {
-                                "begin": 57,
-                                "end": 62
+                                "begin": 47,
+                                "end": 51
                             },
-                            "id": "2"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "죽었다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Period_Of_Iterations",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 59,
-                                "end": 62
+                                "begin": 22,
+                                "end": 28
                             },
-                            "id": "1"
+                            "text": "2 년 동안",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 36
+                            },
+                            "text": "조류 독감으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Victim",
+                            "token_span": [
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 46
+                            },
+                            "text": "최소한 62 명이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Institute"
-                    ],
-                    "ko_annotation_id": 2779,
-                    "text": "그러나, 다마스커스 인근의 Der Al-Hadjar 핵 연구 센터, 핵 분석 실험소, 및 다마스커스의 과학연구원 ( SRI ) 을 포함하여, 시리아에는 많은 가동 연구 시설이 있다.",
-                    "sent_id": 3097,
+                    "sent_id": 1750,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 16148
+                    "lu": "죽는소리하다.v.Killing",
+                    "text": "Paula_Zahn : 그 곳에서는과거 2 년 동안 조류 독감으로 최소한 62 명이 죽었다."
                 }
             ]
         }
-    ],
-    "frameID": 196,
-    "ko_pos": "NNG",
-    "ko_lu": "연구원.n.Locale_by_use",
-    "lu_id": 942,
-    "en_lus": [
-        "Institute"
     ]
 }

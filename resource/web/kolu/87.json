@@ -1,52 +1,90 @@
 {
-    "frameName": "Biological_area",
+    "ko_pos": "v",
+    "ko_lu": "조처하다.v.Speak_on_topic",
+    "frameID": 523,
+    "frameName": "Speak_on_topic",
+    "en_lus": [
+        "address"
+    ],
+    "lu_id": 87,
     "patterns": [
         {
-            "valenceText": "annotation id: 245",
+            "valenceText": "annotation id: 17115",
             "examples": [
                 {
-                    "frameName": "Biological_area",
+                    "origin_lus": [
+                        "address"
+                    ],
+                    "ko_annotation_id": 17115,
+                    "annotation_id": 11911,
+                    "frameName": "Speak_on_topic",
                     "denotations": [
                         {
-                            "obj": "container_possessor",
+                            "id": 1,
+                            "obj": "Speak_on_topic",
                             "span": {
-                                "begin": 75,
-                                "end": 80
+                                "begin": 47,
+                                "end": 56
                             },
-                            "id": "2"
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "조처를 취하겠다는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Occasion",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 85,
-                                "end": 89
+                                "begin": 4,
+                                "end": 27
                             },
-                            "id": "1"
+                            "text": "제재 해제와 궁극적인 관계 정상화의 대가로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 43
+                            },
+                            "text": "핵무기에 대한 미국의 우려에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "oasis"
-                    ],
-                    "ko_annotation_id": 245,
-                    "text": "대저택 건너에 있는 동식물원 ( 매일 오전 6시 - 오후 10시 ; 동물원은 오전 6시 - 오후 7시 까지 열고 ; 입장료는 무료 ) 은 대도시 간의 환영 오아시스를 제공한다.",
-                    "sent_id": 1087,
+                    "sent_id": 2364,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5675
+                    "lu": "조처하다.v.Speak_on_topic",
+                    "text": "그것은 제재 해제와 궁극적인 관계 정상화의 대가로 핵무기에 대한 미국의 우려에 대해 조처를 취하겠다는 약속을 포함한다."
                 }
             ]
         }
-    ],
-    "frameID": 193,
-    "ko_pos": "NNG",
-    "ko_lu": "오아시스.n.Biological_area",
-    "lu_id": 87,
-    "en_lus": [
-        "oasis"
     ]
 }

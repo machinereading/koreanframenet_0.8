@@ -1,60 +1,85 @@
 {
-    "frameName": "Foreign_or_domestic_country",
+    "ko_pos": "n",
+    "ko_lu": "나룻.n.Vehicle",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "en_lus": [
+        "takase bune .高瀬 船"
+    ],
+    "lu_id": 3858,
     "patterns": [
         {
-            "valenceText": "annotation id: 13188",
+            "valenceText": "annotation id: 11423",
             "examples": [
                 {
-                    "frameName": "Foreign_or_domestic_country",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 32,
-                                "end": 35
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "international"
+                        "takase bune .高瀬 船"
                     ],
-                    "ko_annotation_id": 13188,
-                    "text": "전자 상거래 자유 지역은 컨테이너 수송에서 지역 최고이고 국제적으로 열 번째의 선도 지역인 Jebel Ali에 있는 산업 자유 지역 인근의 북 두바이에 위치한다 .",
-                    "sent_id": 1711,
-                    "relations": [],
-                    "annotation_id": 8338
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.43023",
-            "examples": [
-                {
-                    "frameName": "Foreign_or_domestic_country",
+                    "ko_annotation_id": 11423,
+                    "annotation_id": 0,
+                    "frameName": "Vehicle",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Vehicle",
                             "span": {
-                                "begin": 23,
-                                "end": 26
+                                "begin": 19,
+                                "end": 23
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "나룻배가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Itinerary",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 18
+                            },
+                            "text": "낮 열두 시경에 가와고에로 향하는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "text": "나룻배가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "이번 회의는 세계 각국의 정상들이 모이는 국제적인 회의이다.",
-                    "target": "국제적",
-                    "ko_annotation_id": "sejong.43023",
-                    "relations": []
+                    "sent_id": 4376,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "나룻.n.Vehicle",
+                    "text": "낮 열두 시경에 가와고에로 향하는 나룻배가 뜨는데, 거기에 시즈가 타고 있다는 기별이 왔기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 1483,
-    "ko_pos": "NN",
-    "ko_lu": "국제적.n.Foreign_or_domestic_country",
-    "lu_id": 3858,
-    "en_lus": [
-        "international"
     ]
 }

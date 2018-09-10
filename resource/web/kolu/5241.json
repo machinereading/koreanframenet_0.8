@@ -1,74 +1,109 @@
 {
-    "frameName": "Expansion",
+    "ko_pos": "v",
+    "ko_lu": "관리되다.v.Operating_a_system",
+    "frameID": 1495,
+    "frameName": "Operating_a_system",
+    "en_lus": [
+        "manage"
+    ],
+    "lu_id": 5241,
     "patterns": [
         {
-            "valenceText": "annotation id: 18457",
+            "valenceText": "annotation id: 2649",
             "examples": [
                 {
-                    "frameName": "Expansion",
+                    "origin_lus": [
+                        "managed"
+                    ],
+                    "ko_annotation_id": 2649,
+                    "annotation_id": 5168,
+                    "frameName": "Operating_a_system",
                     "denotations": [
                         {
-                            "obj": "item",
+                            "id": 1,
+                            "obj": "Operating_a_system",
                             "span": {
-                                "begin": 0,
-                                "end": 5
+                                "begin": 52,
+                                "end": 56
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "관리되어"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "System",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 7,
-                                "end": 13
+                                "begin": 0,
+                                "end": 28
                             },
-                            "id": "1"
+                            "text": "많은 상점들, 그리고 또한 호텔과 게스트 하우스들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duration",
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 35
+                            },
+                            "text": "수 년 동안",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Operator",
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 46
+                            },
+                            "text": "같은 가족들에 의해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "shrinking"
-                    ],
-                    "ko_annotation_id": 18457,
-                    "text": "자금 출처는 줄어들고 있지만, 필요는 폭발적으로 증가하고 있다.",
-                    "sent_id": 458,
+                    "sent_id": 985,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 2397
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.64208",
-            "examples": [
-                {
-                    "frameName": "Expansion",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 21,
-                                "end": 25
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "군대에 지원하는 장정들의 수는 해마다 줄어들고 있다.",
-                    "target": "줄어들고",
-                    "ko_annotation_id": "sejong.64208",
-                    "relations": []
+                    "lu": "관리되다.v.Operating_a_system",
+                    "text": "많은 상점들, 그리고 또한 호텔과 게스트 하우스들은 수 년 동안 같은 가족들에 의해 소유되고 관리되어 왔으며, 전통적인 더블린 환대로 환영하는 것이 그들의 특징이다."
                 }
             ]
         }
-    ],
-    "frameID": 725,
-    "ko_pos": "VV",
-    "ko_lu": "줄어들다.v.Expansion",
-    "lu_id": 5241,
-    "en_lus": [
-        "shrink"
     ]
 }

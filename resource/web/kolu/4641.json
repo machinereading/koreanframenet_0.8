@@ -1,38 +1,63 @@
 {
-    "frameName": "Residence",
+    "ko_pos": "n",
+    "ko_lu": "여행자.n.Travel",
+    "frameID": 343,
+    "frameName": "Travel",
+    "en_lus": [
+        "traveler"
+    ],
+    "lu_id": 4641,
     "patterns": [
         {
-            "valenceText": "annotation id: 16092",
+            "valenceText": "annotation id: 1218",
             "examples": [
                 {
-                    "frameName": "Residence",
+                    "origin_lus": [
+                        "travelers"
+                    ],
+                    "ko_annotation_id": 1218,
+                    "annotation_id": 2608,
+                    "frameName": "Travel",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Travel",
                             "span": {
-                                "begin": 143,
-                                "end": 147
+                                "begin": 30,
+                                "end": 36
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "여행자들에게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "text": "초기",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "residents"
+                    "sent_id": 495,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16092,
-                    "text": "늘 그렇듯, 오늘날 예루살렘은 논란의 도시이다 : 세속적인 유대인과 충돌하는 종교적인 유대인 ; 독립을 주장하는 팔레스타인인 ; 많은 사람이 Holy City를 성스러운 거대 도시로 바꿀 것이라 많이 주장하며 일고 있는 고층 건물 개발의 물결에 반대하는 많은 거주민들.",
-                    "sent_id": 727,
-                    "relations": [],
-                    "annotation_id": 3823
+                    "lu": "여행자.n.Travel",
+                    "text": "Milo 암반층의 높은 품질은 확실히 그 지역이 초기 여행자들에게 계속 인기가 있게 하였다."
                 }
             ]
         }
-    ],
-    "frameID": 110,
-    "ko_pos": "NN",
-    "ko_lu": "거주민들.n.Residence",
-    "lu_id": 4641,
-    "en_lus": [
-        "resident"
     ]
 }

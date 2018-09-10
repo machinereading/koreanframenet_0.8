@@ -1,95 +1,63 @@
 {
-    "frameName": "Intentionally_act",
+    "ko_pos": "n",
+    "ko_lu": "동료.n.Aggregate",
+    "frameID": 103,
+    "frameName": "Aggregate",
+    "en_lus": [
+        "nakama .仲間 "
+    ],
+    "lu_id": 3520,
     "patterns": [
         {
-            "valenceText": "annotation id: 12005",
+            "valenceText": "annotation id: 10521",
             "examples": [
                 {
-                    "frameName": "Intentionally_act",
-                    "denotations": [
-                        {
-                            "obj": "Act",
-                            "span": {
-                                "begin": 33,
-                                "end": 35
-                            }
-                        },
-                        {
-                            "obj": "Agent",
-                            "span": {
-                                "begin": 41,
-                                "end": 42
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 37,
-                                "end": 40
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "tuku .就く"
+                        "nakama .仲間 "
                     ],
-                    "ko_annotation_id": 12005,
-                    "text": "이것을 못하는, 또는 하려고 하지 않는 교사는, 유약하고, 교직에 몸담은 자로서, 받아들여질 수 없으며, 용서받을 수 없다.",
-                    "sent_id": 4713,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.62219",
-            "examples": [
-                {
-                    "frameName": "Intentionally_act",
+                    "ko_annotation_id": 10521,
+                    "annotation_id": 0,
+                    "frameName": "Aggregate",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Aggregate",
                             "span": {
-                                "begin": 14,
-                                "end": 17
+                                "begin": 9,
+                                "end": 12
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그는 아직까지 그 조직에 몸담고 있었다.",
-                    "target": "몸담고",
-                    "ko_annotation_id": "sejong.62219",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.62220",
-            "examples": [
-                {
-                    "frameName": "Intentionally_act",
-                    "denotations": [
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "동료들"
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Individuals",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 11,
-                                "end": 14
+                                "begin": 5,
+                                "end": 8
                             },
-                            "obj": "target"
+                            "text": "일본인",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "저는 화장품 회사에 몸담고 있습니다.",
-                    "target": "몸담고",
-                    "ko_annotation_id": "sejong.62220",
-                    "relations": []
+                    "sent_id": 3813,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "동료.n.Aggregate",
+                    "text": "그것은, 일본인 동료들 밖에는 통용되지 않습니다."
                 }
             ]
         }
-    ],
-    "frameID": 198,
-    "ko_pos": "VV",
-    "ko_lu": "몸담다.v.Intentionally_act",
-    "lu_id": 3520,
-    "en_lus": [
-        "tuku .就く"
     ]
 }

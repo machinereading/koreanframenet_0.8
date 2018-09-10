@@ -1,86 +1,88 @@
 {
-    "frameName": "Weapon",
+    "ko_pos": "v",
+    "ko_lu": "묻다.v.Questioning",
+    "frameID": 40,
+    "frameName": "Questioning",
+    "en_lus": [
+        "ask"
+    ],
+    "lu_id": 816,
     "patterns": [
         {
-            "valenceText": "annotation id: 2469",
+            "valenceText": "annotation id: 3890",
             "examples": [
                 {
-                    "frameName": "Weapon",
+                    "origin_lus": [
+                        "asked"
+                    ],
+                    "ko_annotation_id": 3890,
+                    "annotation_id": 7225,
+                    "frameName": "Questioning",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Questioning",
+                            "span": {
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "물었을 때,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 25
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "biological weapons"
-                    ],
-                    "ko_annotation_id": 2469,
-                    "text": "생화학 무기는, 핵 또는 화학무기와는 달리, 쉽게 입수할 수 있는 물질이나 장비로 만들어질 수 있다.",
-                    "sent_id": 1364,
-                    "relations": [],
-                    "annotation_id": 6741
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 2470",
-            "examples": [
-                {
-                    "frameName": "Weapon",
-                    "denotations": [
+                            "text": "그가 이라크 관리들을 만날 어떤 계획이 있는지",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 5,
-                                "end": 11
+                                "begin": 26,
+                                "end": 33
                             },
-                            "id": "1"
+                            "text": "Xinhua가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "biological weapons"
-                    ],
-                    "ko_annotation_id": 2470,
-                    "text": "이집트는 생화학 무기를 획득한 증거가 존재하지 않는다.",
-                    "sent_id": 1468,
-                    "relations": [],
-                    "annotation_id": 6984
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.43222",
-            "examples": [
-                {
-                    "frameName": "Weapon",
-                    "denotations": [
+                    "sent_id": 1511,
+                    "relations": [
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 8,
-                                "end": 11
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "나는 평생동안 생화학을 연구해 왔다.",
-                    "target": "생화학",
-                    "ko_annotation_id": "sejong.43222",
-                    "relations": []
+                    "lu": "묻다.v.Questioning",
+                    "text": "그가 이라크 관리들을 만날 어떤 계획이 있는지 Xinhua가 물었을 때, \" 나는 어떤 수뇌부 이라크 관료들을 만나도록 요청받지 않았다. \" 고 그는 말하였다."
                 }
             ]
         }
-    ],
-    "frameID": 426,
-    "ko_pos": "NNG",
-    "ko_lu": "생화학.n.Weapon",
-    "lu_id": 816,
-    "en_lus": [
-        "biological weapons"
     ]
 }

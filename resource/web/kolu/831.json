@@ -1,58 +1,143 @@
 {
-    "frameName": "Arriving",
+    "ko_pos": "v",
+    "ko_lu": "듣다.v.Perception_experience",
+    "frameID": 70,
+    "frameName": "Perception_experience",
+    "en_lus": [
+        "heard",
+        "toraeru .とらえる "
+    ],
+    "lu_id": 831,
     "patterns": [
         {
-            "valenceText": "annotation id: 2496",
+            "valenceText": "annotation id: 12263",
             "examples": [
                 {
-                    "frameName": "Arriving",
+                    "origin_lus": [
+                        "heard",
+                        "toraeru .とらえる "
+                    ],
+                    "ko_annotation_id": 12263,
+                    "annotation_id": 0,
+                    "frameName": "Perception_experience",
                     "denotations": [
                         {
-                            "obj": "Manner",
+                            "id": 1,
+                            "obj": "Perception_experience",
+                            "span": {
+                                "begin": 62,
+                                "end": 64
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "들을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Passive",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 13
-                            }
+                                "end": 3
+                            },
+                            "text": "박쥐는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Theme",
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                14
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 18
-                            }
-                        },
-                        {
-                            "obj": "Goal",
-                            "span": {
-                                "begin": 22,
-                                "end": 25
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 26,
-                                "end": 30
-                            }
+                                "begin": 56,
+                                "end": 61
+                            },
+                            "text": "모깃소리를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tikaduku .近づく"
+                    "sent_id": 4928,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2496,
-                    "text": "생각하고 바라는 것 만큼 자연현상은 더 저절로 가까워진다는 사실을, 아이들에게 직접 알수 있게 해주고 싶다고 생각했다.",
-                    "sent_id": 4683,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "듣다.v.Perception_experience",
+                    "text": "박쥐는 거의 눈이 보이지 않으나, 초음파를 감지하는 레이더가 있어, 4백 미터 정도 떨어진 곳에서도 모깃소리를 들을 수 있습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12435",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "heard",
+                        "toraeru .とらえる "
+                    ],
+                    "ko_annotation_id": 12435,
+                    "annotation_id": 115,
+                    "frameName": "Perception_experience",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_experience",
+                            "span": {
+                                "begin": 42,
+                                "end": 44
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "들을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Passive",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 41
+                            },
+                            "text": "이 시원한 가을 저녁에 종소리를 즐기는 교회를 다니는 사람들이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 16,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "듣다.v.Perception_experience",
+                    "text": "그러나 또한 이 시원한 가을 저녁에 종소리를 즐기는 교회를 다니는 사람들이 들을 수 없을지라도, Aslacton에는 귀에 거슬리는 현대적인 음이 있다."
                 }
             ]
         }
-    ],
-    "frameID": 54,
-    "ko_pos": "VV",
-    "ko_lu": "가까워지다.v.Arriving",
-    "lu_id": 831,
-    "en_lus": [
-        "tikaduku .近づく"
     ]
 }

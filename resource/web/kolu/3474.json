@@ -1,38 +1,99 @@
 {
-    "frameName": "People_by_origin",
+    "ko_pos": "n",
+    "ko_lu": "법원.n.Judicial_body",
+    "frameID": 1607,
+    "frameName": "Judicial_body",
+    "en_lus": [
+        "Court",
+        "court"
+    ],
+    "lu_id": 3474,
     "patterns": [
         {
-            "valenceText": "annotation id: 11844",
+            "valenceText": "annotation id: 2890",
             "examples": [
                 {
-                    "frameName": "People_by_origin",
+                    "origin_lus": [
+                        "court",
+                        "Court"
+                    ],
+                    "ko_annotation_id": 2890,
+                    "annotation_id": 5561,
+                    "frameName": "Judicial_body",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Judicial_body",
                             "span": {
-                                "begin": 56,
-                                "end": 64
+                                "begin": 17,
+                                "end": 21
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "법원으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Task",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "text": "최종 항소",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Irish"
+                    "sent_id": 1063,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 11844,
-                    "text": "그리고 또한, 옛 더블린은 우리와 함께 있다 -- 재치와 매력의 예의가 없는 도시 그리고 아일랜드와 아일랜드 사람들이 소유한 그 독특한 마술.",
-                    "sent_id": 953,
+                    "lu": "법원.n.Judicial_body",
+                    "text": "교회 뒤에는 지금은 최종 항소 법원으로 사용되는, 1917년의 프랑스 선교 빌딩이 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16853",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "court",
+                        "Court"
+                    ],
+                    "ko_annotation_id": 16853,
+                    "annotation_id": 2323,
+                    "frameName": "Judicial_body",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Judicial_body",
+                            "span": {
+                                "begin": 45,
+                                "end": 48
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "법원의"
+                        }
+                    ],
+                    "sent_id": 444,
                     "relations": [],
-                    "annotation_id": 4953
+                    "lu": "법원.n.Judicial_body",
+                    "text": "Tommie J.와 같은 아이들은 알코올 중독자인 아버지의 반복적인 구타 때문에 법원의 피보호자가 되었고 ; Alice는 심한 행동 장애 때문에 도움을 받기 위해 공동 가정에 보내졌고 ; 그리고 회복중인 알코올 중독자인 John H. 는 다시 함께 살 수 있도록 그의 가족과의 관계를 구축 중이다."
                 }
             ]
         }
-    ],
-    "frameID": 974,
-    "ko_pos": "NNP",
-    "ko_lu": "사람.n.People_by_origin",
-    "lu_id": 3474,
-    "en_lus": [
-        "Irish"
     ]
 }

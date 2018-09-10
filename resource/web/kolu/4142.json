@@ -1,66 +1,63 @@
 {
-    "frameName": "Vehicle",
+    "ko_pos": "n",
+    "ko_lu": "환경.n.Aggregate",
+    "frameID": 103,
+    "frameName": "Aggregate",
+    "en_lus": [
+        "set"
+    ],
+    "lu_id": 4142,
     "patterns": [
         {
-            "valenceText": "annotation id: 14278",
+            "valenceText": "annotation id: 6634",
             "examples": [
                 {
-                    "frameName": "Vehicle",
+                    "origin_lus": [
+                        "set"
+                    ],
+                    "ko_annotation_id": 6634,
+                    "annotation_id": 12121,
+                    "frameName": "Aggregate",
                     "denotations": [
                         {
-                            "obj": "Vehicle",
+                            "id": 1,
+                            "obj": "Aggregate",
                             "span": {
-                                "begin": 36,
-                                "end": 38
-                            }
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "환경을"
                         },
                         {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 36,
-                                "end": 38
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "oogata sen .大型 船 "
-                    ],
-                    "ko_annotation_id": 14278,
-                    "text": "마을이 전전의 작은 어촌에서, 양항을 끼고 있다는 점을 살려서, 대형 선박이 정박할 수 있는 원양어업의 기지로 탈바꿈하는 급격한 발전을 겪고 있을 무렵이었다.",
-                    "sent_id": 4775,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.43651",
-            "examples": [
-                {
-                    "frameName": "Vehicle",
-                    "denotations": [
-                        {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Aggregateproperty",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
+                                "end": 3
                             },
-                            "id": "1"
+                            "text": "유리한",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "대형 버스를 대절하여 경주에 다녀왔다.그는 집이든 자동차든 대형을 좋아한다.",
-                    "target": "대형",
-                    "ko_annotation_id": "sejong.43651",
-                    "relations": []
+                    "sent_id": 2402,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "환경.n.Aggregate",
+                    "text": "유리한 환경을 고려하면, 이란은 향후 5년 내에 사실적인 핵무기 투하 능력을 달성할 수 있을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 429,
-    "ko_pos": "NN",
-    "ko_lu": "대형.n.Vehicle",
-    "lu_id": 4142,
-    "en_lus": [
-        "oogata sen .大型 船 "
     ]
 }

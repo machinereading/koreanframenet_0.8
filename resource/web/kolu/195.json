@@ -1,44 +1,101 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "n",
+    "ko_lu": "회신.n.Hearsay",
+    "frameID": 37,
+    "frameName": "Hearsay",
+    "en_lus": [
+        "hear"
+    ],
+    "lu_id": 195,
     "patterns": [
         {
-            "valenceText": "annotation id: 631",
+            "valenceText": "annotation id: 4813",
             "examples": [
                 {
-                    "frameName": "Leadership",
+                    "origin_lus": [
+                        "hear"
+                    ],
+                    "ko_annotation_id": 4813,
+                    "annotation_id": 8778,
+                    "frameName": "Hearsay",
                     "denotations": [
                         {
-                            "obj": "Leader",
+                            "id": 1,
+                            "obj": "Hearsay",
                             "span": {
-                                "begin": 27,
-                                "end": 30
-                            }
+                                "begin": 47,
+                                "end": 50
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "회신을"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Hearer",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 27,
-                                "end": 30
-                            }
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 37
+                            },
+                            "text": "5월과 6월에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Speaker",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 50
+                            },
+                            "text": "Patti로부터 회신을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "busyoo .武将 "
+                    "sent_id": 1818,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 631,
-                    "text": "그때, 트로이아 한쪽을 다나오이 군이 쳐부수어, 장수들은 모두 무사의 목을 베었다.",
-                    "sent_id": 3776,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "회신.n.Hearsay",
+                    "text": "나는 그들이 그녀와 잘 지내고 있는지 확인 하기 위해 5월과 6월에 Patti로부터 회신을 기다리고 있는 중이다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "NN",
-    "ko_lu": "장수.n.Leadership",
-    "lu_id": 195,
-    "en_lus": [
-        "busyoo .武将 "
     ]
 }

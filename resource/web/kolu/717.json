@@ -1,52 +1,65 @@
 {
-    "frameName": "Position_on_a_scale",
+    "ko_pos": "n",
+    "ko_lu": "공급.n.Store",
+    "frameID": 1511,
+    "frameName": "Store",
+    "en_lus": [
+        "supply"
+    ],
+    "lu_id": 717,
     "patterns": [
         {
-            "valenceText": "annotation id: 2189",
+            "valenceText": "annotation id: 4365",
             "examples": [
                 {
-                    "frameName": "Position_on_a_scale",
+                    "origin_lus": [
+                        "supply"
+                    ],
+                    "ko_annotation_id": 4365,
+                    "annotation_id": 7978,
+                    "frameName": "Store",
                     "denotations": [
                         {
-                            "obj": "item",
+                            "id": 1,
+                            "obj": "Store",
                             "span": {
-                                "begin": 3,
-                                "end": 9
+                                "begin": 13,
+                                "end": 15
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "공급"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Resource",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 7,
-                                "end": 9
+                                "begin": 6,
+                                "end": 12
                             },
-                            "id": "1"
+                            "text": "식량 및 물",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "lower"
-                    ],
-                    "ko_annotation_id": 2189,
-                    "text": "1- 타워의 하부는 필요시, 감시자를 위한 대피처 역할을 해야 한다.",
-                    "sent_id": 1602,
+                    "sent_id": 1628,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 7809
+                    "lu": "공급.n.Store",
+                    "text": "다섯째 : 식량 및 물 공급 확보."
                 }
             ]
         }
-    ],
-    "frameID": 95,
-    "ko_pos": "NNG",
-    "ko_lu": "하부.n.Position_on_a_scale",
-    "lu_id": 717,
-    "en_lus": [
-        "lower"
     ]
 }

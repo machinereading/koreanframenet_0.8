@@ -1,65 +1,81 @@
 {
-    "frameName": "Type",
+    "ko_pos": "n",
+    "ko_lu": "대표자.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "representative"
+    ],
+    "lu_id": 5074,
     "patterns": [
         {
-            "valenceText": "annotation id: 17853",
+            "valenceText": "annotation id: 12685",
             "examples": [
                 {
-                    "frameName": "Type",
+                    "origin_lus": [
+                        "representatives"
+                    ],
+                    "ko_annotation_id": 12685,
+                    "annotation_id": 1527,
+                    "frameName": "Leadership",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Leadership",
                             "span": {
-                                "begin": 26,
-                                "end": 28
+                                "begin": 42,
+                                "end": 47
                             },
-                            "id": "1"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "대표자들을"
                         },
                         {
-                            "obj": "type_property",
+                            "id": 2,
+                            "obj": "Domain",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 66,
-                                "end": 68
+                                "begin": 16,
+                                "end": 19
                             },
-                            "id": "2"
+                            "text": "의회를",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "category",
+                            "id": 3,
+                            "obj": "Governed",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 69,
-                                "end": 78
+                                "begin": 32,
+                                "end": 34
                             },
-                            "id": "3"
+                            "text": "그들",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "type"
-                    ],
-                    "ko_annotation_id": 17853,
-                    "text": "Sineva라 명명된, 개량된 SS-N-23의 변형을 생산하기 시작할 계획이 또한 있고, 전해지는 바에 의하면 공군은 신형 전략 순항 미사일을 수령하기 시작하였다.",
-                    "sent_id": 3010,
+                    "sent_id": 277,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 15516
+                    "lu": "대표자.n.Leadership",
+                    "text": "둘째, 그것은 왜 투표자들은 의회를 경멸하지만 일반적으로 그들 자신의 의회 대표자들을 좋아하는가를 설명해준다 : 어떤 개별 국회의원의 지역구민들은 그 국회의원이 그들을 위해 쟁취한 특정 혜택에 대해서는 감사하지만 그러나 똑같이 자기 지역구민들을 위해 똑같이 하는 모든 다른 의원과 관련된 총체적인 비용에 대해서는 감사하지 않는다."
                 }
             ]
         }
-    ],
-    "frameID": 128,
-    "ko_pos": "NNG",
-    "ko_lu": "변형.n.Type",
-    "lu_id": 5074,
-    "en_lus": [
-        "type"
     ]
 }

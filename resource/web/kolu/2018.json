@@ -1,82 +1,96 @@
 {
-    "frameName": "People_by_vocation",
+    "ko_pos": "v",
+    "ko_lu": "자극하다.v.Cause_to_start",
+    "frameID": 381,
+    "frameName": "Cause_to_start",
+    "en_lus": [
+        "provoke"
+    ],
+    "lu_id": 2018,
     "patterns": [
         {
-            "valenceText": "annotation id: 6412",
+            "valenceText": "annotation id: 5570",
             "examples": [
                 {
-                    "frameName": "People_by_vocation",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 26,
-                                "end": 30
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "lawyers"
+                        "provoke"
                     ],
-                    "ko_annotation_id": 6412,
-                    "text": "그래 대신 전체를 재심하고 사람들 그리고 모든 변호사들을 법정에 다시 가게하기 위해 모든 돈을 쓰고 그리고 내가 말하는 것은 계속 그렇게 하기 위해서 그것은 납세자들에게 결국 비용을 부담하는 결과가 된다는 것이다.",
-                    "sent_id": 1919,
-                    "relations": [],
-                    "annotation_id": 9255
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.39121",
-            "examples": [
-                {
-                    "frameName": "People_by_vocation",
+                    "ko_annotation_id": 5570,
+                    "annotation_id": 10093,
+                    "frameName": "Cause_to_start",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Cause_to_start",
                             "span": {
-                                "begin": 6,
+                                "begin": 42,
+                                "end": 46
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "자극하여"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
                                 "end": 9
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "그의 꿈은 변호사가 되는 것이다.",
-                    "target": "변호사",
-                    "ko_annotation_id": "sejong.39121",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.39122",
-            "examples": [
-                {
-                    "frameName": "People_by_vocation",
-                    "denotations": [
+                            "text": "대량 살상 공격은",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 23
+                                "begin": 10,
+                                "end": 74
                             },
-                            "id": "1"
+                            "text": "정부 당국으로 하여금 매우 공격적으로 테러리스트를 찾도록 자극하여 그들은 결국 살아있는 조직으로서는 파멸될 것이다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "우리 회사에서는 각종 소송을 전담할 변호사를 새로 고용하기로 했다.",
-                    "target": "변호사",
-                    "ko_annotation_id": "sejong.39122",
-                    "relations": []
+                    "sent_id": 2059,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "자극하다.v.Cause_to_start",
+                    "text": "대량 살상 공격은 정부 당국으로 하여금 매우 공격적으로 테러리스트를 찾도록 자극하여 그들은 결국 살아있는 조직으로서는 파멸될 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 1071,
-    "ko_pos": "NN",
-    "ko_lu": "변호사.n.People_by_vocation",
-    "lu_id": 2018,
-    "en_lus": [
-        "lawyer"
     ]
 }

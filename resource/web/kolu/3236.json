@@ -1,52 +1,102 @@
 {
-    "frameName": "Locale_by_use",
+    "ko_pos": "v",
+    "ko_lu": "향하다.v.Self_motion",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "en_lus": [
+        "head"
+    ],
+    "lu_id": 3236,
     "patterns": [
         {
-            "valenceText": "annotation id: 11001",
+            "valenceText": "annotation id: 1934",
             "examples": [
                 {
-                    "frameName": "Locale_by_use",
+                    "origin_lus": [
+                        "headed"
+                    ],
+                    "ko_annotation_id": 1934,
+                    "annotation_id": 3968,
+                    "frameName": "Self_motion",
                     "denotations": [
                         {
-                            "obj": "use",
+                            "id": 1,
+                            "obj": "Self_motion",
                             "span": {
-                                "begin": 11,
-                                "end": 14
+                                "begin": 84,
+                                "end": 87
                             },
-                            "id": "2"
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "향하는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Purpose",
+                            "token_span": [
+                                14,
+                                15
+                            ],
                             "span": {
-                                "begin": 15,
-                                "end": 18
+                                "begin": 63,
+                                "end": 68
                             },
-                            "id": "1"
+                            "text": "금을 찾아",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 69,
+                                "end": 83
+                            },
+                            "text": "캘리포니아나 북부 네바다로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                20
+                            ],
+                            "span": {
+                                "begin": 88,
+                                "end": 96
+                            },
+                            "text": "탐사자들이었다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "reactor"
-                    ],
-                    "ko_annotation_id": 11001,
-                    "text": "이 공장은 시리아가 원자력 반응로와 필요한 신선한 연료를 정기적으로 확보한다면 민영 공장의 선구자가 될 것이다.",
-                    "sent_id": 3082,
+                    "sent_id": 755,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 16049
+                    "lu": "향하다.v.Self_motion",
+                    "text": "지역 토지가 은이 풍부하였다는 사실에도 불구하고, 1865년 까지 라스 베이거스를 왕래하는 대부분의 채굴 교통은 금을 찾아 캘리포니아나 북부 네바다로 향하는 탐사자들이었다."
                 }
             ]
         }
-    ],
-    "frameID": 196,
-    "ko_pos": "NNG",
-    "ko_lu": "반응.n.Locale_by_use",
-    "lu_id": 3236,
-    "en_lus": [
-        "reactor"
     ]
 }

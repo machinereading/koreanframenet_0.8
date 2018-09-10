@@ -1,52 +1,83 @@
 {
-    "frameName": "Supply",
+    "ko_pos": "v",
+    "ko_lu": "어려워지다.v.Becoming_dry",
+    "frameID": 2029,
+    "frameName": "Becoming_dry",
+    "en_lus": [
+        "hiagaru .干上がる"
+    ],
+    "lu_id": 4560,
     "patterns": [
         {
-            "valenceText": "annotation id: 15808",
+            "valenceText": "annotation id: 12204",
             "examples": [
                 {
-                    "frameName": "Supply",
+                    "origin_lus": [
+                        "hiagaru .干上がる"
+                    ],
+                    "ko_annotation_id": 12204,
+                    "annotation_id": 0,
+                    "frameName": "Becoming_dry",
                     "denotations": [
                         {
-                            "obj": "theme",
+                            "id": 1,
+                            "obj": "Becoming_dry",
                             "span": {
-                                "begin": 29,
-                                "end": 38
+                                "begin": 51,
+                                "end": 57
                             },
-                            "id": "2"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "어려워진다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 40,
-                                "end": 43
+                                "begin": 34,
+                                "end": 46
                             },
-                            "id": "1"
+                            "text": "작가 에이전트도 운영이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 50
+                            },
+                            "text": "곧바로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "provide"
-                    ],
-                    "ko_annotation_id": 15808,
-                    "text": "3- 키오스크는 전천후에 견디도록 설계되고, 그것이 위치한 지역 전체를 커버해야 한다.",
-                    "sent_id": 1599,
+                    "sent_id": 4892,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 7796
+                    "lu": "어려워지다.v.Becoming_dry",
+                    "text": "따라서, 계약한 작가가 잘 나가는 작품을 만들어내지 못하면, 작가 에이전트도 운영이 곧바로 어려워진다."
                 }
             ]
         }
-    ],
-    "frameID": 1346,
-    "ko_pos": "VV",
-    "ko_lu": "커버하다.v.Supply",
-    "lu_id": 4560,
-    "en_lus": [
-        "provide"
     ]
 }

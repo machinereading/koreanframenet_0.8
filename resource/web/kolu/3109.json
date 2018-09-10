@@ -1,51 +1,82 @@
 {
-    "frameName": "Motion_directional",
+    "ko_pos": "v",
+    "ko_lu": "빨리다.v.Speed_description",
+    "frameID": 966,
+    "frameName": "Speed_description",
+    "en_lus": [
+        "fast"
+    ],
+    "lu_id": 3109,
     "patterns": [
         {
-            "valenceText": "annotation id: 10345",
+            "valenceText": "annotation id: 4128",
             "examples": [
                 {
-                    "frameName": "Motion_directional",
+                    "origin_lus": [
+                        "fast"
+                    ],
+                    "ko_annotation_id": 4128,
+                    "annotation_id": 7619,
+                    "frameName": "Speed_description",
                     "denotations": [
                         {
-                            "obj": "Theme",
+                            "id": 1,
+                            "obj": "Speed_description",
                             "span": {
-                                "begin": 51,
-                                "end": 55
-                            }
+                                "begin": 83,
+                                "end": 85
+                            },
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "빨리"
                         },
                         {
-                            "obj": "Path",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                19
+                            ],
                             "span": {
-                                "begin": 57,
-                                "end": 65
-                            }
+                                "begin": 71,
+                                "end": 74
+                            },
+                            "text": "차들이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                20,
+                                21
+                            ],
                             "span": {
-                                "begin": 67,
-                                "end": 69
-                            }
+                                "begin": 75,
+                                "end": 82
+                            },
+                            "text": "건물 방향으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sizumu .沈む "
+                    "sent_id": 1565,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 10345,
-                    "text": "그 눈은 점차 멀어져 가는 하늘의 여행대의 뒤를 쫒아갔습니다만, 날개를 크게 펼치고, 마치 비눗방울이 조용한 공기 중을 잠겨 가듯이, 사라져 갔습니다.",
-                    "sent_id": 3899,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "빨리다.v.Speed_description",
+                    "text": "첫 번째와 네 번째 돌출부는 100 미터이어야 하며, 그리고 네 번째와 여섯 번째 사이의 거리는 50 미터이어야 한다, 그러면 차들이 건물 방향으로 빨리 지나갈 수 없다 5- 철조망 : 그것들은 건물 주변, 벽 주변, 또는 벽 상부에 놓여야 한다 6- 못 장애물 : 이들은 어떤 차가 충돌하여 타이어가 펑크 나도록 정문에 놓는다"
                 }
             ]
         }
-    ],
-    "frameID": 362,
-    "ko_pos": "VV",
-    "ko_lu": "잠기다.v.Motion_directional",
-    "lu_id": 3109,
-    "en_lus": [
-        "sizumu .沈む "
     ]
 }

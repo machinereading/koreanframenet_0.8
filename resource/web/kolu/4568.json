@@ -1,87 +1,102 @@
 {
-    "frameName": "Cause_change_of_strength",
+    "ko_pos": "v",
+    "ko_lu": "에다.v.Time_vector",
+    "frameID": 379,
+    "frameName": "Time_vector",
+    "en_lus": [
+        "from"
+    ],
+    "lu_id": 4568,
     "patterns": [
         {
-            "valenceText": "annotation id: 15821",
+            "valenceText": "annotation id: 15069",
             "examples": [
                 {
-                    "frameName": "Cause_change_of_strength",
+                    "origin_lus": [
+                        "from"
+                    ],
+                    "ko_annotation_id": 15069,
+                    "annotation_id": 13550,
+                    "frameName": "Time_vector",
                     "denotations": [
                         {
-                            "obj": "patient",
+                            "id": 1,
+                            "obj": "Time_vector",
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 4
                             },
-                            "id": "2"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "리비아에"
                         },
                         {
-                            "obj": "time",
+                            "id": 2,
+                            "obj": "Landmark_Event",
+                            "token_span": [
+                                17,
+                                18
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 16
+                                "begin": 79,
+                                "end": 86
                             },
-                            "id": "3"
+                            "text": "핵무기 생산에",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Distance",
+                            "token_span": [
+                                20,
+                                21,
+                                22
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 21
+                                "begin": 89,
+                                "end": 96
                             },
-                            "id": "1"
+                            "text": "3 내지 7년",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Direction",
+                            "token_span": [
+                                23
+                            ],
+                            "span": {
+                                "begin": 97,
+                                "end": 100
+                            },
+                            "text": "떨어진",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "weakened"
-                    ],
-                    "ko_annotation_id": 15821,
-                    "text": "비잔틴 제국이 처음 천년 말기에 약화됨에 따라, 십자군은 무슬림 세력에 대응하고 기독교 신앙을 위한 예루살렘 탈환을 위해 서유럽으로부터 보내졌다.",
-                    "sent_id": 556,
+                    "sent_id": 2702,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 2925
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.72574",
-            "examples": [
-                {
-                    "frameName": "Cause_change_of_strength",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 12,
-                                "end": 16
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "우리 상품의 경쟁력이 약화되어 가고 있습니다.",
-                    "target": "약화되어",
-                    "ko_annotation_id": "sejong.72574",
-                    "relations": []
+                    "lu": "에다.v.Time_vector",
+                    "text": "리비아에 대한 2003년 12월 조사 팀을 이끈 국제 원자력 기구 총재 Mohamed ElBaradei에 의하면, 리비아의 핵무기 프로그램은 핵무기 생산에 약 3 내지 7년 떨어진 매우 초기 단계에 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1781,
-    "ko_pos": "VV",
-    "ko_lu": "약화되다.v.Cause_change_of_strength",
-    "lu_id": 4568,
-    "en_lus": [
-        "weaken"
     ]
 }

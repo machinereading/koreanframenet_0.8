@@ -1,91 +1,82 @@
 {
-    "frameName": "Response",
+    "ko_pos": "v",
+    "ko_lu": "마다하다.v.Temporal_collocation",
+    "frameID": 1895,
+    "frameName": "Temporal_collocation",
+    "en_lus": [
+        "do .度 "
+    ],
+    "lu_id": 1828,
     "patterns": [
         {
-            "valenceText": "annotation id: 5765",
+            "valenceText": "annotation id: 11040",
             "examples": [
                 {
-                    "frameName": "Response",
+                    "origin_lus": [
+                        "do .度 "
+                    ],
+                    "ko_annotation_id": 11040,
+                    "annotation_id": 0,
+                    "frameName": "Temporal_collocation",
                     "denotations": [
                         {
-                            "obj": "time",
+                            "id": 1,
+                            "obj": "Temporal_collocation",
                             "span": {
-                                "begin": 0,
-                                "end": 5
+                                "begin": 23,
+                                "end": 26
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "때마다"
                         },
                         {
-                            "obj": "responding_entity",
+                            "id": 2,
+                            "obj": "Landmark_Event",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 23,
+                                "end": 26
                             },
-                            "id": "3"
+                            "text": "때마다",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "response",
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 54
+                                "begin": 31,
+                                "end": 40
                             },
-                            "id": "5"
-                        },
-                        {
-                            "obj": "trigger",
-                            "span": {
-                                "begin": 58,
-                                "end": 86
-                            },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 88,
-                                "end": 91
-                            },
-                            "id": "1"
+                            "text": "기억이 되살아나,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "responded"
-                    ],
-                    "ko_annotation_id": 5765,
-                    "text": "2004년, 시리아는 이스라엘이 우리와 같이 할 때 시리아도 그렇게 할 준비가 되어 있다고 선언함으로써 대량 파괴 무기를 포기하게 하는 미국과 영국의 압력에 응수하였다.",
-                    "sent_id": 3105,
+                    "sent_id": 4117,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "5",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 16198
+                    "lu": "마다하다.v.Temporal_collocation",
+                    "text": "한 장을 적어도 3번 이상 읽는데, 읽을 때마다 그때의 기억이 되살아나, 그때의 감상에 젖어들었다."
                 }
             ]
         }
-    ],
-    "frameID": 1302,
-    "ko_pos": "VV",
-    "ko_lu": "응수하다.v.Response",
-    "lu_id": 1828,
-    "en_lus": [
-        "respond"
     ]
 }

@@ -1,65 +1,83 @@
 {
-    "frameName": "Commitment",
+    "ko_pos": "n",
+    "ko_lu": "미소.n.Facial_expression",
+    "frameID": 161,
+    "frameName": "Facial_expression",
+    "en_lus": [
+        "egao .笑顔 ",
+        "smile"
+    ],
+    "lu_id": 4617,
     "patterns": [
         {
-            "valenceText": "annotation id: 16036",
+            "valenceText": "annotation id: 12195",
             "examples": [
                 {
-                    "frameName": "Commitment",
+                    "origin_lus": [
+                        "smile",
+                        "egao .笑顔 "
+                    ],
+                    "ko_annotation_id": 12195,
+                    "annotation_id": 0,
+                    "frameName": "Facial_expression",
                     "denotations": [
                         {
-                            "obj": "message",
+                            "id": 1,
+                            "obj": "Facial_expression",
                             "span": {
-                                "begin": 95,
-                                "end": 105
+                                "begin": 26,
+                                "end": 29
                             },
-                            "id": "3"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "미소가"
                         },
                         {
-                            "obj": "speaker",
+                            "id": 2,
+                            "obj": "Location",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 107,
-                                "end": 109
+                                "begin": 6,
+                                "end": 9
                             },
-                            "id": "2"
+                            "text": "차례를",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Expression",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
-                                "begin": 111,
-                                "end": 113
+                                "begin": 26,
+                                "end": 29
                             },
-                            "id": "1"
+                            "text": "미소가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "consent"
-                    ],
-                    "ko_annotation_id": 16036,
-                    "text": "이란과 IAEA 간의 긴장 관계를 분산시키려는 노력으로 그리고 비확산 제도의 존엄성을 유지하기 위하여 영국, 프랑스 및 독일의 외무장관들은 10월 31일 마감 기한 전에 IAEA 와의 협력에 이란의 동의를 확보하였다.",
-                    "sent_id": 2615,
+                    "sent_id": 4887,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 13121
+                    "lu": "미소.n.Facial_expression",
+                    "text": "긴장한 채 차례를 기다리는 고객에게는, 인사와 미소가 특효약입니다."
                 }
             ]
         }
-    ],
-    "frameID": 33,
-    "ko_pos": "NNG",
-    "ko_lu": "동의.n.Commitment",
-    "lu_id": 4617,
-    "en_lus": [
-        "consent"
     ]
 }

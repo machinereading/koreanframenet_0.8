@@ -1,38 +1,102 @@
 {
-    "frameName": "Hunting",
+    "ko_pos": "n",
+    "ko_lu": "점검.n.Inspecting",
+    "frameID": 1262,
+    "frameName": "Inspecting",
+    "en_lus": [
+        "inspection"
+    ],
+    "lu_id": 790,
     "patterns": [
         {
-            "valenceText": "annotation id: 2401",
+            "valenceText": "annotation id: 17159",
             "examples": [
                 {
-                    "frameName": "Hunting",
+                    "origin_lus": [
+                        "inspections"
+                    ],
+                    "ko_annotation_id": 17159,
+                    "annotation_id": 13136,
+                    "frameName": "Inspecting",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Inspecting",
                             "span": {
-                                "begin": 5,
-                                "end": 7
+                                "begin": 80,
+                                "end": 83
                             },
-                            "id": "1"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "점검을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Inspector",
+                            "token_span": [
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 57,
+                                "end": 70
+                            },
+                            "text": "IAEA 전문가들에 의한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ground",
+                            "token_span": [
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 71,
+                                "end": 76
+                            },
+                            "text": "핵 시설의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 77,
+                                "end": 79
+                            },
+                            "text": "불시",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "fish"
+                    "sent_id": 2617,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2401,
-                    "text": "사람에게 고기를 잡도록 교육시키는 것은 전 생애 동안 그를 계속해서 먹일 것이기 때문이다.",
-                    "sent_id": 321,
-                    "relations": [],
-                    "annotation_id": 1761
+                    "lu": "점검.n.Inspecting",
+                    "text": "그리고 마침내, 2003년 12월 18일에 이란은 핵확산 방지 조약의 추가의정서에 서명하였고, 그래서 IAEA 전문가들에 의한 핵 시설의 불시 점검을 허용하였다."
                 }
             ]
         }
-    ],
-    "frameID": 2006,
-    "ko_pos": "NNG",
-    "ko_lu": "고기.n.Hunting",
-    "lu_id": 790,
-    "en_lus": [
-        "fish"
     ]
 }

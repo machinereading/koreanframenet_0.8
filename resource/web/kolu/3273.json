@@ -1,96 +1,1327 @@
 {
-    "frameName": "Process_stop",
+    "ko_pos": "v",
+    "ko_lu": "바라보다.v.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "miru .見る",
+        "look",
+        "nozomu .のぞむ ",
+        "kaerimiru .かえりみる",
+        "mitumeru .見つめる",
+        "mitumeru .見詰める",
+        "aogu .仰ぐ "
+    ],
+    "lu_id": 3273,
     "patterns": [
         {
-            "valenceText": "annotation id: 11138",
+            "valenceText": "annotation id: 3989",
             "examples": [
                 {
-                    "frameName": "Process_stop",
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 3989,
+                    "annotation_id": 7393,
+                    "frameName": "Perception_active",
                     "denotations": [
                         {
-                            "obj": "process",
+                            "id": 1,
+                            "obj": "Perception_active",
                             "span": {
-                                "begin": 7,
-                                "end": 18
+                                "begin": 3,
+                                "end": 5
                             },
-                            "id": "2"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "내가"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 23
+                                "begin": 1,
+                                "end": 2
                             },
-                            "id": "1"
+                            "text": "\"",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "text": "원하는 많은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "quit"
-                    ],
-                    "ko_annotation_id": 11138,
-                    "text": "그래서 어, 그 제도로 BSing을 방면하자.",
-                    "sent_id": 1908,
+                    "sent_id": 1533,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9198
+                    "lu": "바라보다.v.Perception_active",
+                    "text": " \" 내가 바라보기 원하는 많은 문제가 있지만, 인도주의적 관심의 문제가 첫번째 이다, \" 고 그는 말하였다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.59208",
+            "valenceText": "annotation id: 10386",
             "examples": [
                 {
-                    "frameName": "Process_stop",
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 10386,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Perception_active",
                             "span": {
                                 "begin": 20,
-                                "end": 25
+                                "end": 26
                             },
-                            "obj": "target"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "미스・마플은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 14
+                            },
+                            "text": "상대의 얼굴을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Direction",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "text": "정면으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "정부는 인권 문제로 구속된 사람들을 방면하기로 결정했다.",
-                    "target": "방면하기로",
-                    "ko_annotation_id": "sejong.59208",
-                    "relations": []
+                    "sent_id": 3710,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "미스・마플은 상대의 얼굴을 정면으로 바라보았다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.59209",
+            "valenceText": "annotation id: 10505",
             "examples": [
                 {
-                    "frameName": "Process_stop",
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 10505,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Perception_active",
                             "span": {
                                 "begin": 24,
-                                "end": 29
+                                "end": 30
                             },
-                            "obj": "target"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "가네무라는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 18
+                            },
+                            "text": "기가 막힌다는 표정으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "text": "이사무를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "법원은 증거가 없어 무죄로 결정된 대학생을 방면하라고 명했다.",
-                    "target": "방면하라고",
-                    "ko_annotation_id": "sejong.59209",
-                    "relations": []
+                    "sent_id": 3797,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "가네무라는 기가 막힌다는 표정으로 이사무를 바라보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11209",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 11209,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 30,
+                                "end": 36
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "노부키는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 19
+                            },
+                            "text": "의심스러운 눈초리로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 29
+                            },
+                            "text": "두 사람의 얼굴을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4243,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "라며, 노부키는 의심스러운 눈초리로 두 사람의 얼굴을 바라보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11524",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 11524,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 49,
+                                "end": 53
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "사야카는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 38
+                            },
+                            "text": "머리 위를 사라져가는 시간을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 48
+                            },
+                            "text": "꼼짝도 하지 않고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4453,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "사야카는 도장의 한가운데 정좌를 한 채, 머리 위를 사라져가는 시간을 꼼짝도 하지 않고 바라보고 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11650",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 11650,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "사람들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 23
+                            },
+                            "text": "맥없이 떠나가다가, 다시 멈춰서서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4538,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "사람들은 맥없이 떠나가다가, 다시 멈춰서서 바라보고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11967",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 11967,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 23,
+                                "end": 29
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "그 날,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "text": "야마현은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Location_Of_Perceiver",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 16
+                            },
+                            "text": "다가야마에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 22
+                            },
+                            "text": "시로야마를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4749,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "그 날, 야마현은 다가야마에서 시로야마를 바라보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16177",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 16177,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 35,
+                                "end": 41
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 26
+                            },
+                            "text": "가지가와는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "text": "물끄러미",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Direction",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "text": "앞을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3737,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "라고, 나는 웃는 얼굴로 물었지만, 가지가와는, 물끄러미 앞을 바라보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16313",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 16313,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 56,
+                                "end": 60
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 26
+                            },
+                            "text": "높은 천정의 가선을 두르고 있던 붉은 빛의 띠가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 52
+                            },
+                            "text": "점차 가늘어 지며, 이윽고 사라져 가는 것을,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 55
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3972,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "높은 천정의 가선을 두르고 있던 붉은 빛의 띠가 점차 가늘어 지며, 이윽고 사라져 가는 것을, 나는 바라보고 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16358",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 16358,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 18,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "멍하니",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "text": "커피 컵을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4125,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "소파에 기대어 멍하니 커피 컵을 바라보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16374",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 16374,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 32,
+                                "end": 38
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "두 사람은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 19
+                            },
+                            "text": "큰 강의 아름다운 흐름을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Duration",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 31
+                            },
+                            "text": "언제까지고(오래오래)",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4141,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "두 사람은 큰 강의 아름다운 흐름을 언제까지고(오래오래) 바라보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16480",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 16480,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "소스케는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "그 모습을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 20
+                            },
+                            "text": "막연한 표정으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4374,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "소스케는, 그 모습을 막연한 표정으로 바라보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16732",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 16732,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 30,
+                                "end": 36
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "야요이는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 22
+                            },
+                            "text": "소파 등받이에 몸을 기댄 채,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 29
+                            },
+                            "text": "높은 천장을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4841,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "야요이는, 소파 등받이에 몸을 기댄 채, 높은 천장을 바라보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16764",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "kaerimiru .かえりみる",
+                        "look",
+                        "nozomu .のぞむ ",
+                        "mitumeru .見詰める",
+                        "aogu .仰ぐ ",
+                        "miru .見る"
+                    ],
+                    "ko_annotation_id": 16764,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "바라보고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "카림은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 14
+                            },
+                            "text": "경찰 총경의 모습을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4902,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "바라보다.v.Perception_active",
+                    "text": "카림은 경찰 총경의 모습을 바라보고 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 144,
-    "ko_pos": "VV",
-    "ko_lu": "방면하다.v.Process_stop",
-    "lu_id": 3273,
-    "en_lus": [
-        "quit"
     ]
 }

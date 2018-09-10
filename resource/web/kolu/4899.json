@@ -1,59 +1,83 @@
 {
-    "frameName": "Gizmo",
+    "ko_pos": "v",
+    "ko_lu": "같이하다.v.Appeal",
+    "frameID": 504,
+    "frameName": "Appeal",
+    "en_lus": [
+        "seem"
+    ],
+    "lu_id": 4899,
     "patterns": [
         {
-            "valenceText": "annotation id: 17124",
+            "valenceText": "annotation id: 2745",
             "examples": [
                 {
-                    "frameName": "Gizmo",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "kiki .機器 "
+                        "seem"
                     ],
-                    "ko_annotation_id": 17124,
-                    "text": "기기선정은 커넥터부터 제어판 선정에 이르기까지 특수하다.",
-                    "sent_id": 4313,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.37692",
-            "examples": [
-                {
-                    "frameName": "Gizmo",
+                    "ko_annotation_id": 2745,
+                    "annotation_id": 5323,
+                    "frameName": "Appeal",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Appeal",
                             "span": {
-                                "begin": 4,
-                                "end": 6
+                                "begin": 57,
+                                "end": 59
                             },
-                            "id": "1"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "같이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 49
+                            },
+                            "text": "거짓과 반 거짓이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Inference",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "text": "존재하는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "다양한 기기의 발달로 일상 생활이 많이 편리해 졌다",
-                    "target": "기기",
-                    "ko_annotation_id": "sejong.37692",
-                    "relations": []
+                    "sent_id": 1014,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "같이하다.v.Appeal",
+                    "text": "Lewinsky 혐의에 신빙성을 제공하고, 클린턴의 친숙한 방어를 마치 거짓과 반 거짓이 존재하는 것 같이 다룸으로써, Stephanopoulos는 자가가 바보가 아니라는 것을 보여준다."
                 }
             ]
         }
-    ],
-    "frameID": 106,
-    "ko_pos": "NNG",
-    "ko_lu": "기기.n.Gizmo",
-    "lu_id": 4899,
-    "en_lus": [
-        "kiki .機器 "
     ]
 }

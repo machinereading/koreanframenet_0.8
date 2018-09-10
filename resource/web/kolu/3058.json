@@ -1,73 +1,81 @@
 {
-    "frameName": "Substance",
+    "ko_pos": "n",
+    "ko_lu": "방식.n.System",
+    "frameID": 1610,
+    "frameName": "System",
+    "en_lus": [
+        "hoosiki .方式 "
+    ],
+    "lu_id": 3058,
     "patterns": [
         {
-            "valenceText": "annotation id: 10191",
+            "valenceText": "annotation id: 16790",
             "examples": [
                 {
-                    "frameName": "Substance",
-                    "denotations": [
-                        {
-                            "obj": "Use",
-                            "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
-                        },
-                        {
-                            "obj": "Substance",
-                            "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "kami .紙 "
+                        "hoosiki .方式 "
                     ],
-                    "ko_annotation_id": 10191,
-                    "text": "창호지 담당이 아닌 분들은 재미가 없을지 모르나, 어떻게 애초의 상품구성 목표를 검증하고, 어떻게 진열을 바꾸어 재고 상태를 개선했는지, 실례를 보며 자신의 사업에 대입시켜 보면서 참고하기 바란다.",
-                    "sent_id": 4613,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.36977",
-            "examples": [
-                {
-                    "frameName": "Substance",
+                    "ko_annotation_id": 16790,
+                    "annotation_id": 0,
+                    "frameName": "System",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "System",
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "방식인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Salient_Entity",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 6
+                                "end": 5
                             },
-                            "id": "1"
+                            "text": "셀프",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Complex",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "방식인",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "문에 창호지를 바르면 여름에 통풍이 잘 되어 시원하다.",
-                    "target": "창호지",
-                    "ko_annotation_id": "sejong.36977",
-                    "relations": []
+                    "sent_id": 4993,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "방식.n.System",
+                    "text": "특히 셀프 방식인 식료품 가게의 경우가 그렇습니다."
                 }
             ]
         }
-    ],
-    "frameID": 1321,
-    "ko_pos": "NNG",
-    "ko_lu": "창호지.n.Substance",
-    "lu_id": 3058,
-    "en_lus": [
-        "kami .紙 "
     ]
 }

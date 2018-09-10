@@ -1,52 +1,66 @@
 {
-    "frameName": "Education_teaching",
+    "ko_pos": "a",
+    "ko_lu": "되다.a.Process_start",
+    "frameID": 133,
+    "frameName": "Process_start",
+    "en_lus": [
+        "hazimeru .始める"
+    ],
+    "lu_id": 2955,
     "patterns": [
         {
-            "valenceText": "annotation id: 9694",
+            "valenceText": "annotation id: 11233",
             "examples": [
                 {
-                    "frameName": "Education_teaching",
+                    "origin_lus": [
+                        "hazimeru .始める"
+                    ],
+                    "ko_annotation_id": 11233,
+                    "annotation_id": 0,
+                    "frameName": "Process_start",
                     "denotations": [
                         {
-                            "obj": "level",
+                            "id": 1,
+                            "obj": "Process_start",
                             "span": {
-                                "begin": 11,
-                                "end": 12
+                                "begin": 19,
+                                "end": 20
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "된"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 16
+                                "begin": 5,
+                                "end": 18
                             },
-                            "id": "1"
+                            "text": "이 말이 새로이 사용되게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "education"
-                    ],
-                    "ko_annotation_id": 9694,
-                    "text": "많은 자마이카인들은 더 공부하기 위해 미국으로 가고 있고, 기업 투자 및 계획과 같은 분야에서 미국의 경제적 영향은 증가하고 있다.",
-                    "sent_id": 911,
+                    "sent_id": 4250,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4715
+                    "lu": "되다.a.Process_start",
+                    "text": "하지만, 이 말이 새로이 사용되게 된 것은, 앙리 고와 크리스티앙 미요(고에미요로 알려진 음식평론가.)가 라디오에서 유럽 레스토랑 평가를 하면서 우물가의 쑥덕공론을 하게 된 것에서 출발했다고 한다."
                 }
             ]
         }
-    ],
-    "frameID": 111,
-    "ko_pos": "VV",
-    "ko_lu": "공부하다.v.Education_teaching",
-    "lu_id": 2955,
-    "en_lus": [
-        "education"
     ]
 }

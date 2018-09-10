@@ -1,60 +1,87 @@
 {
-    "frameName": "Kinship",
+    "ko_pos": "n",
+    "ko_lu": "고통.n.Catastrophe",
+    "frameID": 115,
+    "frameName": "Catastrophe",
+    "en_lus": [
+        "suffer"
+    ],
+    "lu_id": 2256,
     "patterns": [
         {
-            "valenceText": "annotation id: 7317",
+            "valenceText": "annotation id: 3819",
             "examples": [
                 {
-                    "frameName": "Kinship",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "Dad"
+                        "suffering"
                     ],
-                    "ko_annotation_id": 7317,
-                    "text": "엄마와 아빠의 목숨을 앗아 간 인디애나폴리의 최근의 살해 - 자살 후 집을 잃은, Tracy와 Kerry 같은 더 나이 든 아이들.",
-                    "sent_id": 439,
-                    "relations": [],
-                    "annotation_id": 2304
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.38050",
-            "examples": [
-                {
-                    "frameName": "Kinship",
+                    "ko_annotation_id": 3819,
+                    "annotation_id": 7121,
+                    "frameName": "Catastrophe",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Catastrophe",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 47,
+                                "end": 50
                             },
-                            "id": "1"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "고통을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Undergoer",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 37
+                            },
+                            "text": "이라크 어린이들의 1 / 4 이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Undesirable_Event",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 46
+                            },
+                            "text": "만성 영양실조로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 아이를 위해 훌륭한 아빠가 되고 싶었다.",
-                    "target": "아빠",
-                    "ko_annotation_id": "sejong.38050",
-                    "relations": []
+                    "sent_id": 1497,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고통.n.Catastrophe",
+                    "text": "이라크에서의 4일 동안, Hall은 이라크 어린이들의 1 / 4 이 만성 영양실조로 고통을 겪을지 모른다는 구호 단체로 부터의 보고를 조사하기 원했다고 말하였다."
                 }
             ]
         }
-    ],
-    "frameID": 104,
-    "ko_pos": "NNG",
-    "ko_lu": "아빠.n.Kinship",
-    "lu_id": 2256,
-    "en_lus": [
-        "Dad"
     ]
 }

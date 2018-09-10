@@ -1,82 +1,104 @@
 {
-    "frameName": "Hostile_encounter",
+    "ko_pos": "n",
+    "ko_lu": "상해율.n.Frequency",
+    "frameID": 80,
+    "frameName": "Frequency",
+    "en_lus": [
+        "rate"
+    ],
+    "lu_id": 541,
     "patterns": [
         {
-            "valenceText": "annotation id: 1659",
+            "valenceText": "annotation id: 9155",
             "examples": [
                 {
-                    "frameName": "Hostile_encounter",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 47,
-                                "end": 49
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "strife"
+                        "rate"
                     ],
-                    "ko_annotation_id": 1659,
-                    "text": "그러나 새로운 유대인들의 이민과 팔레스타인 안의 건설에 대한 아랍의 반대가 점증하는 불화로 이어졌다 ; 1946년에는 예루살렘은 무장된 군 야영지였다.",
-                    "sent_id": 714,
-                    "relations": [],
-                    "annotation_id": 3742
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41703",
-            "examples": [
-                {
-                    "frameName": "Hostile_encounter",
+                    "ko_annotation_id": 9155,
+                    "annotation_id": 16913,
+                    "frameName": "Frequency",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Frequency",
                             "span": {
-                                "begin": 7,
-                                "end": 9
+                                "begin": 123,
+                                "end": 127
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "철수는 가정 불화로 학교를 제대로 다니지 못했다.",
-                    "target": "불화",
-                    "ko_annotation_id": "sejong.41703",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41704",
-            "examples": [
-                {
-                    "frameName": "Hostile_encounter",
-                    "denotations": [
+                            "token_span": [
+                                27
+                            ],
+                            "role": "TARGET",
+                            "text": "상해율을"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time_Span",
+                            "token_span": [
+                                18,
+                                19,
+                                20
+                            ],
                             "span": {
-                                "begin": 22,
-                                "end": 24
+                                "begin": 86,
+                                "end": 95
                             },
-                            "id": "1"
+                            "text": "5월 말 현재까지",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Rate",
+                            "token_span": [
+                                21,
+                                22,
+                                23,
+                                24
+                            ],
+                            "span": {
+                                "begin": 96,
+                                "end": 115
+                            },
+                            "text": "일한 200,000 시간당 0.49",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Event",
+                            "token_span": [
+                                27
+                            ],
+                            "span": {
+                                "begin": 123,
+                                "end": 127
+                            },
+                            "text": "상해율을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "예산안 문제로 정부와 국회 간에 심각한 불화가 빚어졌다.",
-                    "target": "불화",
-                    "ko_annotation_id": "sejong.41704",
-                    "relations": []
+                    "sent_id": 3223,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "상해율.n.Frequency",
+                    "text": "웨스팅하우스 Anniston, 그의 하도급 업체들과 Anniston 화학 작용제 처분 시설은 8.7 백만 이상의 안전 작업시간, 2,214 안전 작업일과 5월 말 현재까지 일한 200,000 시간당 0.49 의 기록적인 상해율을 가지고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 93,
-    "ko_pos": "NNG",
-    "ko_lu": "불화.n.Hostile_encounter",
-    "lu_id": 541,
-    "en_lus": [
-        "strife"
     ]
 }

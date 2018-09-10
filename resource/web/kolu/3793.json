@@ -1,81 +1,65 @@
 {
-    "frameName": "Organization",
+    "ko_pos": "v",
+    "ko_lu": "탐지하다.v.Perception_experience",
+    "frameID": 70,
+    "frameName": "Perception_experience",
+    "en_lus": [
+        "detect"
+    ],
+    "lu_id": 3793,
     "patterns": [
         {
-            "valenceText": "annotation id: 12996",
+            "valenceText": "annotation id: 3402",
             "examples": [
                 {
-                    "frameName": "Organization",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 17,
-                                "end": 19
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "league",
-                        "League"
+                        "detect"
                     ],
-                    "ko_annotation_id": 12996,
-                    "text": "작은 내부 다툼들이 있었지만, 연맹은 대부분의 기원전 5세기 동안 에게 해와 더 큰 아테네 제국을 지배하였다.",
-                    "sent_id": 534,
-                    "relations": [],
-                    "annotation_id": 2809
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 12997",
-            "examples": [
-                {
-                    "frameName": "Organization",
+                    "ko_annotation_id": 3402,
+                    "annotation_id": 6446,
+                    "frameName": "Perception_experience",
                     "denotations": [
                         {
-                            "obj": "name",
+                            "id": 1,
+                            "obj": "Perception_experience",
                             "span": {
-                                "begin": 9,
-                                "end": 11
+                                "begin": 32,
+                                "end": 36
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "탐지하기"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 19,
+                                "end": 31
                             },
-                            "id": "1"
+                            "text": "우연한 화학무기 방출을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "league",
-                        "League"
-                    ],
-                    "ko_annotation_id": 12997,
-                    "text": "이에 반응하여, 아랍 연맹 멤버 국가들은 팔레스타인 아랍을 돕기 위해 병력을 보냈다.",
-                    "sent_id": 717,
+                    "sent_id": 1284,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3760
+                    "lu": "탐지하다.v.Perception_experience",
+                    "text": "QN : 러시아의 화학무기 시설은 우연한 화학무기 방출을 탐지하기 위한 시스템을 가지고 있나 ?"
                 }
             ]
         }
-    ],
-    "frameID": 1371,
-    "ko_pos": "NNG",
-    "ko_lu": "연맹.n.Organization",
-    "lu_id": 3793,
-    "en_lus": [
-        "League",
-        "league"
     ]
 }

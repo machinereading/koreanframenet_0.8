@@ -1,44 +1,65 @@
 {
-    "frameName": "Rite",
+    "ko_pos": "v",
+    "ko_lu": "검토하다.v.Topic",
+    "frameID": 373,
+    "frameName": "Topic",
+    "en_lus": [
+        "kentoo .検討 "
+    ],
+    "lu_id": 2747,
     "patterns": [
         {
-            "valenceText": "annotation id: 8991",
+            "valenceText": "annotation id: 11198",
             "examples": [
                 {
-                    "frameName": "Rite",
+                    "origin_lus": [
+                        "kentoo .検討 "
+                    ],
+                    "ko_annotation_id": 11198,
+                    "annotation_id": 0,
+                    "frameName": "Topic",
                     "denotations": [
                         {
-                            "obj": "Member",
+                            "id": 1,
+                            "obj": "Topic",
                             "span": {
-                                "begin": 7,
-                                "end": 10
-                            }
+                                "begin": 28,
+                                "end": 36
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "검토하겠습니다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 14
-                            }
+                                "begin": 5,
+                                "end": 20
+                            },
+                            "text": "사업소 독립회계제도에 대해서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "senree .洗礼 "
+                    "sent_id": 4236,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 8991,
-                    "text": "나는 결혼도 아이들의 세례도 거부할 용기가 있었으므로, 지금, 사랑하는 자식의 죽음에 직면하여, 그리스도교의 장례라 불리는 허례허식은 하지 않겠다고 주장했다.",
-                    "sent_id": 5015,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "검토하다.v.Topic",
+                    "text": "여기서, 사업소 독립회계제도에 대해서 다시 한 번 검토하겠습니다."
                 }
             ]
         }
-    ],
-    "frameID": 301,
-    "ko_pos": "NNG",
-    "ko_lu": "세례.n.Rite",
-    "lu_id": 2747,
-    "en_lus": [
-        "senree .洗礼 "
     ]
 }

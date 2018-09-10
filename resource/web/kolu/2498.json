@@ -1,44 +1,95 @@
 {
-    "frameName": "Discussion",
+    "ko_pos": "n",
+    "ko_lu": "정치인.n.People_by_vocation",
+    "frameID": 1071,
+    "frameName": "People_by_vocation",
+    "en_lus": [
+        "politician"
+    ],
+    "lu_id": 2498,
     "patterns": [
         {
-            "valenceText": "annotation id: 8265",
+            "valenceText": "annotation id: 491",
             "examples": [
                 {
-                    "frameName": "Discussion",
+                    "origin_lus": [
+                        "politicians"
+                    ],
+                    "ko_annotation_id": 491,
+                    "annotation_id": 1031,
+                    "frameName": "People_by_vocation",
                     "denotations": [
                         {
-                            "obj": "Manner",
+                            "id": 1,
+                            "obj": "People_by_vocation",
                             "span": {
-                                "begin": 13,
-                                "end": 18
-                            }
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "정치인,"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Employer",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 5,
-                                "end": 11
-                            }
+                                "begin": 8,
+                                "end": 10
+                            },
+                            "text": "우리",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "miitingu .ミーティング "
+                    "sent_id": 186,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 8265,
-                    "text": "학습회를 열거나 미팅을 하는 방법은 다양합니다.",
-                    "sent_id": 4077,
+                    "lu": "정치인.n.People_by_vocation",
+                    "text": "이러한 믿음이 우리 교육기관, 우리 미디어, 우리 정치인, 심지어 우리 부모들까지 너무나 지배하고 있어 이들에 대해 도전하는 것은 거의 모독적인 것처럼 보인다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 552",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "politicians"
+                    ],
+                    "ko_annotation_id": 552,
+                    "annotation_id": 1160,
+                    "frameName": "People_by_vocation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "People_by_vocation",
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "정치인들이"
+                        }
+                    ],
+                    "sent_id": 216,
                     "relations": [],
-                    "annotation_id": 0
+                    "lu": "정치인.n.People_by_vocation",
+                    "text": "그것은 또한 정치인들이 유용하다고 여기는 일종의 모욕인데, 그 이유는 그것이 중요한 지지층을 위하여 친근한 태도를 보일 수 있도록 정치인들을 도와주기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 34,
-    "ko_pos": "VV",
-    "ko_lu": "열다.v.Discussion",
-    "lu_id": 2498,
-    "en_lus": [
-        "miitingu .ミーティング "
     ]
 }

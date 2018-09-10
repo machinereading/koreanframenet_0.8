@@ -1,51 +1,158 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "n",
+    "ko_lu": "부원.n.Membership",
+    "frameID": 1026,
+    "frameName": "Membership",
+    "en_lus": [
+        "buin .部員 "
+    ],
+    "lu_id": 4536,
     "patterns": [
         {
-            "valenceText": "annotation id: 15725",
+            "valenceText": "annotation id: 16101",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "buin .部員 "
+                    ],
+                    "ko_annotation_id": 16101,
+                    "annotation_id": 0,
+                    "frameName": "Membership",
                     "denotations": [
                         {
-                            "obj": "Ground",
+                            "id": 1,
+                            "obj": "Membership",
                             "span": {
-                                "begin": 91,
-                                "end": 97
-                            }
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "부원이"
                         },
                         {
-                            "obj": "Figure",
+                            "id": 2,
+                            "obj": "Group",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
                             "span": {
-                                "begin": 102,
-                                "end": 108
-                            }
+                                "begin": 26,
+                                "end": 44
+                            },
+                            "text": "각 대학 산악부나 반더포겔부 등은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Member",
+                            "token_span": [
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 95,
-                                "end": 97
-                            }
+                                "begin": 45,
+                                "end": 51
+                            },
+                            "text": "신입 부원이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "mae .前 "
+                    "sent_id": 3565,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15725,
-                    "text": "독서를 할 때, 그 저자인 나와 독자인 당신 사이에, 이처럼 바보스러운 「추리 게임」을 시작하게 한 것은 과연 무엇인가? 나는 당신과 대화하고 있는 것이 아니며, 당신의 눈앞에 있는 이러한 문장은, 당신의 의견에 따라서 바뀌는 것이 아니다.",
-                    "sent_id": 4099,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "부원.n.Membership",
+                    "text": "하지만, 이것은 와세다대학만의 문제가 아니며, 각 대학 산악부나 반더포겔부 등은 신입 부원이 없어, 대가 끊길 위기에 처해있다고 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16537",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "buin .部員 "
+                    ],
+                    "ko_annotation_id": 16537,
+                    "annotation_id": 0,
+                    "frameName": "Membership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Membership",
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "부원이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Group",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 25
+                            },
+                            "text": "동 대학 산악부의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Member",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 32
+                            },
+                            "text": "현역 부원이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4501,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부원.n.Membership",
+                    "text": "창립 80주년의 역사를 지닌 동 대학 산악부의 현역 부원이 고작 5명이라는 사실에 놀랐다."
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "NNG",
-    "ko_lu": "눈앞.n.Locative_relation",
-    "lu_id": 4536,
-    "en_lus": [
-        "mae .前 "
     ]
 }

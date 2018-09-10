@@ -1,96 +1,83 @@
 {
-    "frameName": "Importance",
+    "ko_pos": "n",
+    "ko_lu": "나머지.n.Left_to_do",
+    "frameID": 1041,
+    "frameName": "Left_to_do",
+    "en_lus": [
+        "ato .あと"
+    ],
+    "lu_id": 5189,
     "patterns": [
         {
-            "valenceText": "annotation id: 18283",
+            "valenceText": "annotation id: 10091",
             "examples": [
                 {
-                    "frameName": "Importance",
+                    "origin_lus": [
+                        "ato .あと"
+                    ],
+                    "ko_annotation_id": 10091,
+                    "annotation_id": 0,
+                    "frameName": "Left_to_do",
                     "denotations": [
                         {
-                            "obj": "factor",
+                            "id": 1,
+                            "obj": "Left_to_do",
                             "span": {
-                                "begin": 0,
-                                "end": 34
+                                "begin": 23,
+                                "end": 27
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "나머지는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Remainder",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 36,
-                                "end": 39
+                                "begin": 12,
+                                "end": 22
                             },
-                            "id": "1"
+                            "text": "돈 문제를 해결하면",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Process",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "쉽다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "significant"
-                    ],
-                    "ko_annotation_id": 18283,
-                    "text": "1990년대 초 이후, 러시아 독립체에 의해 제공된 도움 수준이 상당하지만, 이란 내의 러시아, 중국, 그리고 북한의 여러 독립체 사이의 협력과 협동 수준은 현재 불분명하다.",
-                    "sent_id": 2506,
+                    "sent_id": 3566,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 12527
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.103559",
-            "examples": [
-                {
-                    "frameName": "Importance",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 13,
-                                "end": 17
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "노벨상은 상금의 액수가 상당하다.",
-                    "target": "상당하다",
-                    "ko_annotation_id": "sejong.103559",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.103560",
-            "examples": [
-                {
-                    "frameName": "Importance",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 11,
-                                "end": 15
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "전쟁의 피해 규모가 상당하다.",
-                    "target": "상당하다",
-                    "ko_annotation_id": "sejong.103560",
-                    "relations": []
+                    "lu": "나머지.n.Left_to_do",
+                    "text": "분명 귀찮기는 하나, 돈 문제를 해결하면 나머지는 쉽다."
                 }
             ]
         }
-    ],
-    "frameID": 407,
-    "ko_pos": "VA",
-    "ko_lu": "상당하다.a.Importance",
-    "lu_id": 5189,
-    "en_lus": [
-        "significant"
     ]
 }

@@ -1,44 +1,98 @@
 {
-    "frameName": "Process_end",
+    "ko_pos": "n",
+    "ko_lu": "요새.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "fortress",
+        "fort"
+    ],
+    "lu_id": 3526,
     "patterns": [
         {
-            "valenceText": "annotation id: 12021",
+            "valenceText": "annotation id: 1938",
             "examples": [
                 {
-                    "frameName": "Process_end",
+                    "origin_lus": [
+                        "fort",
+                        "fortress"
+                    ],
+                    "ko_annotation_id": 1938,
+                    "annotation_id": 3973,
+                    "frameName": "Buildings",
                     "denotations": [
                         {
-                            "obj": "Process",
+                            "id": 1,
+                            "obj": "Buildings",
                             "span": {
-                                "begin": 22,
-                                "end": 23
-                            }
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "요새와"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Builder",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 27
-                            }
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "text": "몰몬",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kureru .暮れる "
+                    "sent_id": 757,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12021,
-                    "text": "박쥐도 훌륭한 생물시계를 지니고 있어, 날이 저물었음을 감지하면 동굴에서 나와 먹이를 찾기 시작합니다.",
-                    "sent_id": 4465,
+                    "lu": "요새.n.Buildings",
+                    "text": "Gass는 떠난 몰몬 요새와 이를 에워싼 640 에이커 ( 260 헥타르) 를 인수하고, 그곳을 Las Vegas Ranch라고 불렀다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 3170",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "fort",
+                        "fortress"
+                    ],
+                    "ko_annotation_id": 3170,
+                    "annotation_id": 6079,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 27,
+                                "end": 29
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "요새"
+                        }
+                    ],
+                    "sent_id": 1159,
                     "relations": [],
-                    "annotation_id": 0
+                    "lu": "요새.n.Buildings",
+                    "text": "공연 예술을 위한 홍콩의 주된 장소인 이 건물은 요새 같은 구조와 창문이 없는 외관 때문에 비난을 받아 왔다."
                 }
             ]
         }
-    ],
-    "frameID": 232,
-    "ko_pos": "VV",
-    "ko_lu": "저물다.v.Process_end",
-    "lu_id": 3526,
-    "en_lus": [
-        "kureru .暮れる "
     ]
 }

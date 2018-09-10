@@ -1,44 +1,65 @@
 {
-    "frameName": "Instance",
+    "ko_pos": "v",
+    "ko_lu": "사냥하다.v.Hunting",
+    "frameID": 2006,
+    "frameName": "Hunting",
+    "en_lus": [
+        "hunt"
+    ],
+    "lu_id": 5248,
     "patterns": [
         {
-            "valenceText": "annotation id: 18517",
+            "valenceText": "annotation id: 1867",
             "examples": [
                 {
-                    "frameName": "Instance",
+                    "origin_lus": [
+                        "hunting"
+                    ],
+                    "ko_annotation_id": 1867,
+                    "annotation_id": 3851,
+                    "frameName": "Hunting",
                     "denotations": [
                         {
-                            "obj": "Instance",
+                            "id": 1,
+                            "obj": "Hunting",
                             "span": {
-                                "begin": 77,
-                                "end": 79
-                            }
+                                "begin": 23,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "사냥하며,"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Food",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 77,
-                                "end": 79
-                            }
+                                "begin": 9,
+                                "end": 22
+                            },
+                            "text": "해안가에 모인 포유동물을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "zituree .実例 "
+                    "sent_id": 731,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18517,
-                    "text": "창호지 담당이 아닌 분들은 재미가 없을지 모르나, 어떻게 애초의 상품구성 목표를 검증하고, 어떻게 진열을 바꾸어 재고 상태를 개선했는지, 실례를 보며 자신의 사업에 대입시켜 보면서 참고하기 바란다.",
-                    "sent_id": 4613,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "사냥하다.v.Hunting",
+                    "text": "이 기간 동안, 해안가에 모인 포유동물을 사냥하며, 동굴에서 토착민들이 살았다."
                 }
             ]
         }
-    ],
-    "frameID": 132,
-    "ko_pos": "NNG",
-    "ko_lu": "실례.n.Instance",
-    "lu_id": 5248,
-    "en_lus": [
-        "zituree .実例 "
     ]
 }

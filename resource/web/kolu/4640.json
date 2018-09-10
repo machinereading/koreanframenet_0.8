@@ -1,65 +1,63 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "a",
+    "ko_lu": "길다.a.Duplication",
+    "frameID": 11,
+    "frameName": "Duplication",
+    "en_lus": [
+        "nagai .長い"
+    ],
+    "lu_id": 4640,
     "patterns": [
         {
-            "valenceText": "annotation id: 16091",
+            "valenceText": "annotation id: 12129",
             "examples": [
                 {
-                    "frameName": "Leadership",
+                    "origin_lus": [
+                        "nagai .長い"
+                    ],
+                    "ko_annotation_id": 12129,
+                    "annotation_id": 0,
+                    "frameName": "Duplication",
                     "denotations": [
                         {
-                            "obj": "leader",
+                            "id": 1,
+                            "obj": "Duplication",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 14,
+                                "end": 15
                             },
-                            "id": "3"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "긴"
                         },
                         {
-                            "obj": "governed",
+                            "id": 2,
+                            "obj": "Eventuality",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 5,
-                                "end": 7
+                                "begin": 16,
+                                "end": 18
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 9,
-                                "end": 12
-                            },
-                            "id": "1"
+                            "text": "전쟁",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "administer"
-                    ],
-                    "ko_annotation_id": 16091,
-                    "text": "그리스는 영토를 관리하기 위해 이동하였으나 새로운 영향이 이 지역을 더 큰 그리스 의 일부로 만들려는 위대한 꿈을 좌절시켰다.",
-                    "sent_id": 593,
+                    "sent_id": 4843,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3142
+                    "lu": "길다.a.Duplication",
+                    "text": "나는 도시 출생인데다가, 긴 전쟁 때문에 수영을 배울 기회도 없었다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "VV",
-    "ko_lu": "관리하다.v.Leadership",
-    "lu_id": 4640,
-    "en_lus": [
-        "administer"
     ]
 }

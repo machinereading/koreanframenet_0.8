@@ -1,44 +1,162 @@
 {
-    "frameName": "Collaboration",
+    "ko_pos": "v",
+    "ko_lu": "협상하다.v.Discussion",
+    "frameID": 34,
+    "frameName": "Discussion",
+    "en_lus": [
+        "negotiate",
+        "negotiation"
+    ],
+    "lu_id": 234,
     "patterns": [
         {
-            "valenceText": "annotation id: 706",
+            "valenceText": "annotation id: 6368",
             "examples": [
                 {
-                    "frameName": "Collaboration",
+                    "origin_lus": [
+                        "negotiated",
+                        "negotiations"
+                    ],
+                    "ko_annotation_id": 6368,
+                    "annotation_id": 11632,
+                    "frameName": "Discussion",
                     "denotations": [
                         {
-                            "obj": "Partners",
+                            "id": 1,
+                            "obj": "Discussion",
                             "span": {
-                                "begin": 10,
-                                "end": 13
-                            }
+                                "begin": 59,
+                                "end": 65
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "협상하였다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Interlocutor_1",
+                            "token_span": [
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 13
-                            }
+                                "begin": 23,
+                                "end": 42
+                            },
+                            "text": "Melli Agrochmicals는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "text": "거래를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kyooryoku .協力 "
+                    "sent_id": 2311,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 706,
-                    "text": "혼자서도 괜찮아, 협력자가 넘치는 「상생 상법」 관서지방 사람은 「남의 샅바 차고 씨름한다」는 말을 좋아한다.",
-                    "sent_id": 4725,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "협상하다.v.Discussion",
+                    "text": "Sunday Telegraph에 따르면, Melli Agrochmicals는 이란 정권을 대신하여 거래를 협상하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9483",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "negotiating"
+                    ],
+                    "ko_annotation_id": 9483,
+                    "annotation_id": 17692,
+                    "frameName": "Discussion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Discussion",
+                            "span": {
+                                "begin": 40,
+                                "end": 46
+                            },
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "협상을 하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Interlocutor_1",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 35
+                            },
+                            "text": "상기한 모든 전략을 지원할 기술과 전체 시설 구매를 위한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3333,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "협상하다.v.Discussion",
+                    "text": "이란은 상기한 모든 전략을 지원할 기술과 전체 시설 구매를 위한 활발한 협상을 하고 있을지라도, 핵무기 프로그램을 지원하는데 필요한 기반 시설을 아직 갖추고 있지 않다."
                 }
             ]
         }
-    ],
-    "frameID": 418,
-    "ko_pos": "NN",
-    "ko_lu": "협력자.n.Collaboration",
-    "lu_id": 234,
-    "en_lus": [
-        "kyooryoku .協力 "
     ]
 }

@@ -1,51 +1,84 @@
 {
-    "frameName": "Dispersal",
+    "ko_pos": "v",
+    "ko_lu": "장악하다.v.Taking",
+    "frameID": 410,
+    "frameName": "Taking",
+    "en_lus": [
+        "seize"
+    ],
+    "lu_id": 726,
     "patterns": [
         {
-            "valenceText": "annotation id: 2205",
+            "valenceText": "annotation id: 17032",
             "examples": [
                 {
-                    "frameName": "Dispersal",
+                    "origin_lus": [
+                        "seize"
+                    ],
+                    "ko_annotation_id": 17032,
+                    "annotation_id": 9644,
+                    "frameName": "Taking",
                     "denotations": [
                         {
-                            "obj": "Place",
+                            "id": 1,
+                            "obj": "Taking",
                             "span": {
-                                "begin": 36,
-                                "end": 38
-                            }
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "장악하고"
                         },
                         {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "국가를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
                             "obj": "Agent",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 41,
-                                "end": 44
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 46,
-                                "end": 48
-                            }
+                                "begin": 29,
+                                "end": 46
+                            },
+                            "text": "마약 재정지원을 받는 게릴라들은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hirogaru .広がる "
+                    "sent_id": 1994,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2205,
-                    "text": "악성 검은 반점은, 발바닥뿐만 아니라 다른 부위에도, 커지거나, 주변으로 검은색이 퍼지거나, 출혈이 종종 생기기도 하므로, 이러한 증상이 있을 때는, 병원에서 조직검사를 받는 편이 좋겠지요.",
-                    "sent_id": 5024,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "장악하다.v.Taking",
+                    "text": "콜롬비아에서는 국가를 장악하고 민주주의를 파괴하려는 마약 재정지원을 받는 게릴라들은 M-19 이 포함되고, 이는 카스트로가 분명히 지원하였다."
                 }
             ]
         }
-    ],
-    "frameID": 267,
-    "ko_pos": "VV",
-    "ko_lu": "퍼지다.v.Dispersal",
-    "lu_id": 726,
-    "en_lus": [
-        "hirogaru .広がる "
     ]
 }

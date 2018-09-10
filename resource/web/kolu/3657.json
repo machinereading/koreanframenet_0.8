@@ -1,44 +1,81 @@
 {
-    "frameName": "Fluidic_motion",
+    "ko_pos": "n",
+    "ko_lu": "걸프전.n.Hostile_encounter",
+    "frameID": 93,
+    "frameName": "Hostile_encounter",
+    "en_lus": [
+        "War"
+    ],
+    "lu_id": 3657,
     "patterns": [
         {
-            "valenceText": "annotation id: 12538",
+            "valenceText": "annotation id: 3776",
             "examples": [
                 {
-                    "frameName": "Fluidic_motion",
+                    "origin_lus": [
+                        "War"
+                    ],
+                    "ko_annotation_id": 3776,
+                    "annotation_id": 7020,
+                    "frameName": "Hostile_encounter",
                     "denotations": [
                         {
-                            "obj": "Fluid",
+                            "id": 1,
+                            "obj": "Hostile_encounter",
                             "span": {
-                                "begin": 11,
-                                "end": 13
-                            }
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "걸프전"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 25,
+                                "end": 30
+                            },
+                            "text": "1990년",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "text": "걸프전",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "deru .出る "
+                    "sent_id": 1484,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12538,
-                    "text": "불행이 너무도 커서 눈물조차 나오지 않았다.",
-                    "sent_id": 3657,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "걸프전.n.Hostile_encounter",
+                    "text": "이라크 정부는 미국 대표 Tony Hall이 1990년 걸프전 이후 심해진 인도주의적인 위기를 평가하기 위해 다음 주 그 나라를 방문하도록 합의하였다고, 월요일 Hall의 사무실이 언급하였다."
                 }
             ]
         }
-    ],
-    "frameID": 345,
-    "ko_pos": "VV",
-    "ko_lu": "나오다.v.Fluidic_motion",
-    "lu_id": 3657,
-    "en_lus": [
-        "deru .出る "
     ]
 }

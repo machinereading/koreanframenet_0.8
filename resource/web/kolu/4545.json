@@ -1,52 +1,85 @@
 {
-    "frameName": "Relative_time",
+    "ko_pos": "v",
+    "ko_lu": "옮기다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "move"
+    ],
+    "lu_id": 4545,
     "patterns": [
         {
-            "valenceText": "annotation id: 15755",
+            "valenceText": "annotation id: 5210",
             "examples": [
                 {
-                    "frameName": "Relative_time",
+                    "origin_lus": [
+                        "moving"
+                    ],
+                    "ko_annotation_id": 5210,
+                    "annotation_id": 9357,
+                    "frameName": "Motion",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Motion",
                             "span": {
-                                "begin": 84,
-                                "end": 86
+                                "begin": 25,
+                                "end": 31
                             },
-                            "id": "1"
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "옮기는 것은"
                         },
                         {
-                            "obj": "focal_occasion",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 86,
-                                "end": 87
+                                "begin": 4,
+                                "end": 7
                             },
-                            "id": "2"
+                            "text": "그것을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 24
+                            },
+                            "text": "Lubbock 이나 어떤 곳에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "last"
-                    ],
-                    "ko_annotation_id": 15755,
-                    "text": "나는 그들이 선고된 살인자의 감옥에 있는 평균 시간은, 저, 그가 가석방 되기 전에 이년이고 강간자는 육개월이고 도둑은 이개월이라고 그들이 말한 것을 어제밤 뉴스에서 보았다.",
-                    "sent_id": 1903,
+                    "sent_id": 1935,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9160
+                    "lu": "옮기다.v.Motion",
+                    "text": "아니면 그것을 Lubbock 이나 어떤 곳에 옮기는 것은 아마도 답변이 아닌 것 같다."
                 }
             ]
         }
-    ],
-    "frameID": 81,
-    "ko_pos": "NNG",
-    "ko_lu": "어제.n.Relative_time",
-    "lu_id": 4545,
-    "en_lus": [
-        "last"
     ]
 }

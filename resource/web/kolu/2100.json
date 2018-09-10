@@ -1,38 +1,86 @@
 {
-    "frameName": "Stimulus_focus",
+    "ko_pos": "n",
+    "ko_lu": "직후.n.Relative_time",
+    "frameID": 81,
+    "frameName": "Relative_time",
+    "en_lus": [
+        "after"
+    ],
+    "lu_id": 2100,
     "patterns": [
         {
-            "valenceText": "annotation id: 6768",
+            "valenceText": "annotation id: 4529",
             "examples": [
                 {
-                    "frameName": "Stimulus_focus",
+                    "origin_lus": [
+                        "after"
+                    ],
+                    "ko_annotation_id": 4529,
+                    "annotation_id": 8226,
+                    "frameName": "Relative_time",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Relative_time",
                             "span": {
-                                "begin": 255,
-                                "end": 260
+                                "begin": 3,
+                                "end": 6
                             },
-                            "id": "1"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "직후,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark_Occasion",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "회견",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Focal_Occasion",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 30
+                            },
+                            "text": "그는 요르단 당국에 의해 다시 체포되었다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Sickening"
+                    "sent_id": 1681,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6768,
-                    "text": "위의 단체들은 다음과 같은 위험을 제기한다 : 1- 다음의 목적을 위해 공격함 : A : 암살 B : 납치 C : 공중 공격 및 포 공격 2- 방해 행위 A : 방화 B : 폭파 C : 기술적 방해 행위 D : 화학적 방해 행위 3- 스파이 활동 A : 사회 구성원 모집 B : 사회 내에 스파이 심기 C : 감시 작전에 대한 스파이 활동 4- 절도 5- 해충 : A : 뱀과 전갈 같은 독성이 있는 B : 쥐와 바퀴벌레와 같은 해로운 C : 모기와 같이 아프게 하는",
-                    "sent_id": 1549,
-                    "relations": [],
-                    "annotation_id": 7519
+                    "lu": "직후.n.Relative_time",
+                    "text": "회견 직후, 그는 요르단 당국에 의해 다시 체포되었다. ]"
                 }
             ]
         }
-    ],
-    "frameID": 364,
-    "ko_pos": "VA",
-    "ko_lu": "아프다.a.Stimulus_focus",
-    "lu_id": 2100,
-    "en_lus": [
-        "Sickening"
     ]
 }

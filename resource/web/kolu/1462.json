@@ -1,102 +1,81 @@
 {
-    "frameName": "Request",
+    "ko_pos": "n",
+    "ko_lu": "사업.n.Work",
+    "frameID": 1892,
+    "frameName": "Work",
+    "en_lus": [
+        "work"
+    ],
+    "lu_id": 1462,
     "patterns": [
         {
-            "valenceText": "annotation id: 4656",
+            "valenceText": "annotation id: 4746",
             "examples": [
                 {
-                    "frameName": "Request",
-                    "denotations": [
-                        {
-                            "obj": "Speaker",
-                            "span": {
-                                "begin": 0,
-                                "end": 7
-                            }
-                        },
-                        {
-                            "obj": "Addressee",
-                            "span": {
-                                "begin": 39,
-                                "end": 56
-                            }
-                        },
-                        {
-                            "obj": "Message",
-                            "span": {
-                                "begin": 59,
-                                "end": 61
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 63,
-                                "end": 66
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "moosideru .申し出"
+                        "work"
                     ],
-                    "ko_annotation_id": 4656,
-                    "text": "동양의 제자들은, 스승이 원하던 바를 알고 있었기에, 그 해 초겨울에 교토의 치안을 담당하던 쇼시다이에게 해부를 신청했다.",
-                    "sent_id": 4473,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.75098",
-            "examples": [
-                {
-                    "frameName": "Request",
+                    "ko_annotation_id": 4746,
+                    "annotation_id": 8638,
+                    "frameName": "Work",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Work",
                             "span": {
-                                "begin": 20,
-                                "end": 24
+                                "begin": 17,
+                                "end": 20
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "많은 기업가들이 정부에 북한 방문을 신청하고 있다.",
-                    "target": "신청하고",
-                    "ko_annotation_id": "sejong.75098",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.75099",
-            "examples": [
-                {
-                    "frameName": "Request",
-                    "denotations": [
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "사업을"
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "Hamas는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
                                 "begin": 14,
-                                "end": 18
+                                "end": 16
                             },
-                            "obj": "target"
+                            "text": "자선",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "김의원은 의장에게 발언을 신청했다.",
-                    "target": "신청했다",
-                    "ko_annotation_id": "sejong.75099",
-                    "relations": []
+                    "sent_id": 1783,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사업.n.Work",
+                    "text": "그러나 Hamas는 이미 자선 사업을 통해 팔레스타인 사회의 중요한 한 부분이 되었고 팔레스타인 당국이 하지 않았을 때 지역사회 봉사를 제공함으로써 시간이 지나면서 그 영향은 증가하였다."
                 }
             ]
         }
-    ],
-    "frameID": 41,
-    "ko_pos": "VV",
-    "ko_lu": "신청하다.v.Request",
-    "lu_id": 1462,
-    "en_lus": [
-        "moosideru .申し出"
     ]
 }

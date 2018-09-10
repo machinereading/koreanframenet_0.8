@@ -1,64 +1,82 @@
 {
-    "frameName": "Telling",
+    "ko_pos": "v",
+    "ko_lu": "나다.v.State_continue",
+    "frameID": 1155,
+    "frameName": "State_continue",
+    "en_lus": [
+        "stay"
+    ],
+    "lu_id": 5371,
     "patterns": [
         {
-            "valenceText": "annotation id: 18985",
+            "valenceText": "annotation id: 13571",
             "examples": [
                 {
-                    "frameName": "Telling",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 92,
-                                "end": 97
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "tells"
+                        "stay"
                     ],
-                    "ko_annotation_id": 18985,
-                    "text": "주민 센터에서의 한 집회에서 연설하면서, Goodwill 직원 멤버는 청중들에게 어떻게 Goodwill이 그들이 일자리를 찾고 유지하도록 도울 수 있는 지에 대해  이야기 한다.",
-                    "sent_id": 378,
-                    "relations": [],
-                    "annotation_id": 2047
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 18986",
-            "examples": [
-                {
-                    "frameName": "Telling",
+                    "ko_annotation_id": 13571,
+                    "annotation_id": 6199,
+                    "frameName": "State_continue",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "State_continue",
                             "span": {
-                                "begin": 21,
+                                "begin": 27,
+                                "end": 28
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "날"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 17
+                            },
+                            "text": "나노튜브 수요가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 23,
                                 "end": 26
                             },
-                            "id": "1"
+                            "text": "이익이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tells"
+                    "sent_id": 1211,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18986,
-                    "text": "다음 모퉁이에서 그는 다섯 사람과 더 이야기 한다.",
-                    "sent_id": 380,
-                    "relations": [],
-                    "annotation_id": 2057
+                    "lu": "나다.v.State_continue",
+                    "text": "Nanolab은 나노튜브 수요가 감소하면 이익이 날 수 없다고 말한다."
                 }
             ]
         }
-    ],
-    "frameID": 750,
-    "ko_pos": "NNG",
-    "ko_lu": "이야기.n.Telling",
-    "lu_id": 5371,
-    "en_lus": [
-        "tell"
     ]
 }

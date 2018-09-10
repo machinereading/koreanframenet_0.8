@@ -1,137 +1,86 @@
 {
-    "frameName": "Perception_active",
+    "ko_pos": "v",
+    "ko_lu": "의심받다.v.Awareness",
+    "frameID": 19,
+    "frameName": "Awareness",
+    "en_lus": [
+        "suspect"
+    ],
+    "lu_id": 5384,
     "patterns": [
         {
-            "valenceText": "annotation id: 19013",
+            "valenceText": "annotation id: 7928",
             "examples": [
                 {
-                    "frameName": "Perception_active",
-                    "denotations": [
-                        {
-                            "obj": "Phenomenon",
-                            "span": {
-                                "begin": 0,
-                                "end": 19
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 21,
-                                "end": 23
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "miru .見る",
-                        "ukagau .窺う"
+                        "suspected"
                     ],
-                    "ko_annotation_id": 19013,
-                    "text": "・숙소의 동쪽 신사에 있는 돌 비석을 살펴 보자.",
-                    "sent_id": 4175,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 19014",
-            "examples": [
-                {
-                    "frameName": "Perception_active",
+                    "ko_annotation_id": 7928,
+                    "annotation_id": 14438,
+                    "frameName": "Awareness",
                     "denotations": [
                         {
-                            "obj": "Perceiver_agentive",
+                            "id": 1,
+                            "obj": "Awareness",
                             "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
-                        },
-                        {
-                            "obj": "Manner",
-                            "span": {
-                                "begin": 5,
-                                "end": 8
-                            }
-                        },
-                        {
-                            "obj": "Phenomenon",
-                            "span": {
-                                "begin": 9,
-                                "end": 15
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 17,
-                                "end": 19
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "miru .見る",
-                        "ukagau .窺う"
-                    ],
-                    "ko_annotation_id": 19014,
-                    "text": "후미코는 가만히 사토시의 눈을 살폈다.",
-                    "sent_id": 4837,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.96473",
-            "examples": [
-                {
-                    "frameName": "Perception_active",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": -1,
-                                "end": -1
+                                "begin": 33,
+                                "end": 39
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그 목도리는 얇고 살펴서 따뜻하지 않다.",
-                    "target": "",
-                    "ko_annotation_id": "sejong.96473",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.96474",
-            "examples": [
-                {
-                    "frameName": "Perception_active",
-                    "denotations": [
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "의심을 받는"
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": -1,
-                                "end": -1
+                                "begin": 11,
+                                "end": 32
                             },
-                            "obj": "target"
+                            "text": "비밀의 핵무기 프로그램을 가지고 있다는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 44
+                            },
+                            "text": "국가들은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "돗자리가 살핀 걸 보니 꼼꼼하지 않은 사람이 짠 것 같다.",
-                    "target": "",
-                    "ko_annotation_id": "sejong.96474",
-                    "relations": []
+                    "sent_id": 2842,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의심받다.v.Awareness",
+                    "text": "그럼에도 불구하고, 비밀의 핵무기 프로그램을 가지고 있다는 의심을 받는 국가들은 비확산 전문가, 정보 요원, 그리고 다른 관찰자들에 의한 철저한 조사 대상이다."
                 }
             ]
         }
-    ],
-    "frameID": 66,
-    "ko_pos": "VA",
-    "ko_lu": "살피다.a.Perception_active",
-    "lu_id": 5384,
-    "en_lus": [
-        "miru .見る",
-        "ukagau .窺う"
     ]
 }

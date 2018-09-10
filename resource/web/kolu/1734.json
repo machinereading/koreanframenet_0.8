@@ -1,65 +1,112 @@
 {
-    "frameName": "Supply",
+    "ko_pos": "v",
+    "ko_lu": "향상시키다.v.Cause_to_make_progress",
+    "frameID": 1349,
+    "frameName": "Cause_to_make_progress",
+    "en_lus": [
+        "improve"
+    ],
+    "lu_id": 1734,
     "patterns": [
         {
-            "valenceText": "annotation id: 5429",
+            "valenceText": "annotation id: 5792",
             "examples": [
                 {
-                    "frameName": "Supply",
+                    "origin_lus": [
+                        "improved"
+                    ],
+                    "ko_annotation_id": 5792,
+                    "annotation_id": 10400,
+                    "frameName": "Cause_to_make_progress",
                     "denotations": [
                         {
-                            "obj": "supplier",
+                            "id": 1,
+                            "obj": "Cause_to_make_progress",
+                            "span": {
+                                "begin": 56,
+                                "end": 61
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "향상시켰고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Duration",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 6
+                                "end": 12
                             },
-                            "id": "2"
+                            "text": "1990년대 초 이후,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "purpose_of_recipient",
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 25
+                                "begin": 13,
+                                "end": 16
                             },
-                            "id": "3"
+                            "text": "중국은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 4,
+                            "obj": "Project",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
                             "span": {
-                                "begin": 29,
-                                "end": 33
+                                "begin": 17,
+                                "end": 55
                             },
-                            "id": "1"
+                            "text": "핵 및 핵 민군 양용 사용에 관한 규제 선언을 포함하여, 수출 통제를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "suppliers"
-                    ],
-                    "ko_annotation_id": 5429,
-                    "text": "중국 회사들은 이란의 화학무기 프로그램을 위한 핵심 보급자들이었다.",
-                    "sent_id": 2282,
+                    "sent_id": 2108,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 11440
+                    "lu": "향상시키다.v.Cause_to_make_progress",
+                    "text": "1990년대 초 이후, 중국은 핵 및 핵 민군 양용 사용에 관한 규제 선언을 포함하여, 수출 통제를 향상시켰고 비보호 시설에 대한 핵 기술 수출을 중단하기로 서약하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1346,
-    "ko_pos": "NN",
-    "ko_lu": "보급자들.n.Supply",
-    "lu_id": 1734,
-    "en_lus": [
-        "supplier"
     ]
 }

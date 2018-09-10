@@ -1,44 +1,81 @@
 {
-    "frameName": "Natural_features",
+    "ko_pos": "v",
+    "ko_lu": "연장하다.v.Change_event_duration",
+    "frameID": 1770,
+    "frameName": "Change_event_duration",
+    "en_lus": [
+        "prolongs"
+    ],
+    "lu_id": 493,
     "patterns": [
         {
-            "valenceText": "annotation id: 1381",
+            "valenceText": "annotation id: 5133",
             "examples": [
                 {
-                    "frameName": "Natural_features",
+                    "origin_lus": [
+                        "prolongs"
+                    ],
+                    "ko_annotation_id": 5133,
+                    "annotation_id": 9274,
+                    "frameName": "Change_event_duration",
                     "denotations": [
                         {
-                            "obj": "Name",
+                            "id": 1,
+                            "obj": "Change_event_duration",
                             "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
+                                "begin": 67,
+                                "end": 71
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "연장하기"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "text": "재판을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 51,
+                                "end": 54
+                            },
+                            "text": "상황을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "wan .湾"
+                    "sent_id": 1922,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 1381,
-                    "text": "부산만은, 앞바다에 위치한 영도가 보호하는 안쪽으로 길게 펼쳐진 주머니같은 모양새를 띈 항구를 산이 둘러싸고 있는 천혜의 양항이다.",
-                    "sent_id": 3569,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "연장하다.v.Change_event_duration",
+                    "text": "정확히 맞다 왜냐하면 그것은 그들이 수 개월이 걸리는 재판을 다음 날 시작하는 것이 아니고 상황을 그렇게 훨씬 더 많이 연장하기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 191,
-    "ko_pos": "NNP",
-    "ko_lu": "부산만.n.Natural_features",
-    "lu_id": 493,
-    "en_lus": [
-        "wan .湾"
     ]
 }

@@ -1,65 +1,81 @@
 {
-    "frameName": "Separating",
+    "ko_pos": "a",
+    "ko_lu": "아프다.a.Medical_conditions",
+    "frameID": 239,
+    "frameName": "Medical_conditions",
+    "en_lus": [
+        "ill"
+    ],
+    "lu_id": 4938,
     "patterns": [
         {
-            "valenceText": "annotation id: 17408",
+            "valenceText": "annotation id: 14016",
             "examples": [
                 {
-                    "frameName": "Separating",
+                    "origin_lus": [
+                        "ill"
+                    ],
+                    "ko_annotation_id": 14016,
+                    "annotation_id": 8581,
+                    "frameName": "Medical_conditions",
                     "denotations": [
                         {
-                            "obj": "cause",
+                            "id": 1,
+                            "obj": "Medical_conditions",
                             "span": {
-                                "begin": 0,
-                                "end": 13
+                                "begin": 112,
+                                "end": 114
                             },
-                            "id": "3"
+                            "token_span": [
+                                30
+                            ],
+                            "role": "TARGET",
+                            "text": "아픈"
                         },
                         {
-                            "obj": "whole",
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                29
+                            ],
                             "span": {
-                                "begin": 15,
-                                "end": 19
+                                "begin": 107,
+                                "end": 111
                             },
-                            "id": "2"
+                            "text": "위태롭게",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                31
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 25
+                                "begin": 115,
+                                "end": 119
                             },
-                            "id": "1"
+                            "text": "환자들을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "divided"
-                    ],
-                    "ko_annotation_id": 17408,
-                    "text": "1949의 휴전협정 결과로 예루살렘은 나누어졌다 : 서 예루살렘은 이스라엘 통제 하에, 그리고 동 예루살렘은 ( 그곳의 유대인, 무슬림, 크리스천, 그리고 아르메니아인 구역과 함께 Old City를 포함하는 ) 요르단 권한 아래로 들어왔다.",
-                    "sent_id": 720,
+                    "sent_id": 1762,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3782
+                    "lu": "아프다.a.Medical_conditions",
+                    "text": "Dr _Gupto : Paula 가 정말 중요한 다른 한 가지는 우리가 1918 년에 있던 것 보다 지금은 우리가 환자를 돌보는 것이 훨씬 좋다는 사실에 대하 많이 이야기하는 것이고, 우리는 위태롭게 아픈 환자들을 돌볼 수 있는 나의 뒤에 있는 병원에 많은 ICU를 가지고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 15,
-    "ko_pos": "VV",
-    "ko_lu": "나누다.v.Separating",
-    "lu_id": 4938,
-    "en_lus": [
-        "divide"
     ]
 }

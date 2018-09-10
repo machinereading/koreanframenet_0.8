@@ -1,52 +1,64 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "v",
+    "ko_lu": "존경받다.v.Judgment",
+    "frameID": 28,
+    "frameName": "Judgment",
+    "en_lus": [
+        "admire"
+    ],
+    "lu_id": 4428,
     "patterns": [
         {
-            "valenceText": "annotation id: 15324",
+            "valenceText": "annotation id: 1306",
             "examples": [
                 {
-                    "frameName": "Buildings",
+                    "origin_lus": [
+                        "admired"
+                    ],
+                    "ko_annotation_id": 1306,
+                    "annotation_id": 2739,
+                    "frameName": "Judgment",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "gov",
+                            "id": 1,
+                            "obj": "Judgment",
                             "span": {
                                 "begin": 11,
-                                "end": 14
+                                "end": 16
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "존경받았고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "운동 기량이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "houses"
-                    ],
-                    "ko_annotation_id": 15324,
-                    "text": "집들 중 한 곳에서 발견된 여권들은 남자들이  법을 무시하는 부족으로 알려진 특권이 용이한 지방 출신으로 확인되었다.",
-                    "sent_id": 3288,
+                    "sent_id": 520,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17522
+                    "lu": "존경받다.v.Judgment",
+                    "text": "탁월한 운동 기량이 존경받았고 우호적인 경쟁을 증진시키기 위해 기원 전 776년에 올림픽 경기가 구성되었다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NN",
-    "ko_lu": "집들.n.Buildings",
-    "lu_id": 4428,
-    "en_lus": [
-        "house"
     ]
 }

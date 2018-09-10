@@ -1,74 +1,63 @@
 {
-    "frameName": "Part_whole",
+    "ko_pos": "n",
+    "ko_lu": "방해.n.Hindering",
+    "frameID": 480,
+    "frameName": "Hindering",
+    "en_lus": [
+        "obstruction"
+    ],
+    "lu_id": 3597,
     "patterns": [
         {
-            "valenceText": "annotation id: 12292",
+            "valenceText": "annotation id: 4632",
             "examples": [
                 {
-                    "frameName": "Part_whole",
+                    "origin_lus": [
+                        "obstructions"
+                    ],
+                    "ko_annotation_id": 4632,
+                    "annotation_id": 8446,
+                    "frameName": "Hindering",
                     "denotations": [
                         {
-                            "obj": "whole",
+                            "id": 1,
+                            "obj": "Hindering",
                             "span": {
-                                "begin": 18,
-                                "end": 19
+                                "begin": 36,
+                                "end": 38
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "방해"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Ctrlr",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 23
+                                "begin": 26,
+                                "end": 30
                             },
-                            "id": "1"
+                            "text": "위로부터",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "part"
-                    ],
-                    "ko_annotation_id": 12292,
-                    "text": "그들은 결국 섬에 도착하여 에게 해의 최단 북쪽 부분의 섬들에 식민지를 건설하였다.",
-                    "sent_id": 492,
+                    "sent_id": 1732,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2598
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.12043",
-            "examples": [
-                {
-                    "frameName": "Part_whole",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 6,
-                                "end": 8
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "이번 일은 최단의 기간 내에 끝마쳐야 한다.",
-                    "target": "최단",
-                    "ko_annotation_id": "sejong.12043",
-                    "relations": []
+                    "lu": "방해.n.Hindering",
+                    "text": "Harry_Reed : 이 조사는 매 단계마다 위로부터 중단되고 방해 받았다."
                 }
             ]
         }
-    ],
-    "frameID": 140,
-    "ko_pos": "NNG",
-    "ko_lu": "최단.n.Part_whole",
-    "lu_id": 3597,
-    "en_lus": [
-        "part"
     ]
 }

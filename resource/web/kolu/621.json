@@ -1,95 +1,232 @@
 {
-    "frameName": "Direction",
+    "ko_pos": "n",
+    "ko_lu": "장비.n.Supply",
+    "frameID": 1346,
+    "frameName": "Supply",
+    "en_lus": [
+        "equip",
+        "equipment"
+    ],
+    "lu_id": 621,
     "patterns": [
         {
-            "valenceText": "annotation id: 1896",
+            "valenceText": "annotation id: 4348",
             "examples": [
                 {
-                    "frameName": "Direction",
-                    "denotations": [
-                        {
-                            "obj": "Base_position",
-                            "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
-                        },
-                        {
-                            "obj": "Path",
-                            "span": {
-                                "begin": 14,
-                                "end": 19
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 5,
-                                "end": 13
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "naname .斜め "
+                        "equipment"
                     ],
-                    "ko_annotation_id": 1896,
-                    "text": "도지마를 비스듬히 흐르는 강 건너편에 오사카병원이 있는 큰 빌딩은 1층이 아케이드로 되어있는데, 미무라는 그곳에 있는 약국에서 키다 씨를 위한 히루도이드 크림을 손에 넣을 수 있었다.",
-                    "sent_id": 4724,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.105047",
-            "examples": [
-                {
-                    "frameName": "Direction",
+                    "ko_annotation_id": 4348,
+                    "annotation_id": 7944,
+                    "frameName": "Supply",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Supply",
                             "span": {
                                 "begin": 18,
-                                "end": 22
+                                "end": 20
                             },
-                            "obj": "target"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "장비"
                         }
                     ],
-                    "text": "벽에 걸린 그림이 한 쪽으로 좀 비스듬한 듯하다.",
-                    "target": "비스듬한",
-                    "ko_annotation_id": "sejong.105047",
-                    "relations": []
+                    "sent_id": 1624,
+                    "relations": [],
+                    "lu": "장비.n.Supply",
+                    "text": "행정참모 책임 : 1- 최단시간 장비 및 기계류 구입 2- 레버와 수도꼭지 설치"
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.105048",
+            "valenceText": "annotation id: 6249",
             "examples": [
                 {
-                    "frameName": "Direction",
+                    "origin_lus": [
+                        "equipment"
+                    ],
+                    "ko_annotation_id": 6249,
+                    "annotation_id": 11294,
+                    "frameName": "Supply",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Supply",
                             "span": {
-                                "begin": 12,
-                                "end": 17
+                                "begin": 40,
+                                "end": 43
                             },
-                            "obj": "target"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "장비를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Purpose",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 33
+                            },
+                            "text": "화학무기 관련",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 늘 왼쪽 어깨를 비스듬하게 내리고 걷는 버릇이 있었다.",
-                    "target": "비스듬하게",
-                    "ko_annotation_id": "sejong.105048",
-                    "relations": []
+                    "sent_id": 2256,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "장비.n.Supply",
+                    "text": "1997년에, 추가의 중국 회사 2개가 이란에 화학무기 관련 전구물질과 장비를 판매하여 미 국무성의 제재를 받았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7069",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "equipped"
+                    ],
+                    "ko_annotation_id": 7069,
+                    "annotation_id": 12858,
+                    "frameName": "Supply",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Supply",
+                            "span": {
+                                "begin": 56,
+                                "end": 62
+                            },
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "장비를 갖춘"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 55
+                            },
+                            "text": "새롭게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Recipient",
+                            "token_span": [
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 63,
+                                "end": 73
+                            },
+                            "text": "테헤란 핵연구센터의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2569,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "장비.n.Supply",
+                    "text": "Shah는 우라늄 재 가공이나 농축 연구에 관여할 특정 계획이 없었지만, 이란 원자력 기구의 새롭게 장비를 갖춘 테헤란 핵연구센터의 과학자들은 전해지는 바에 의하면 행한 실험의 본질 및 방향과 관련하여 대단한 재량권이 부여되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13917",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "equipment"
+                    ],
+                    "ko_annotation_id": 13917,
+                    "annotation_id": 7949,
+                    "frameName": "Supply",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Supply",
+                            "span": {
+                                "begin": 43,
+                                "end": 45
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "장비"
+                        }
+                    ],
+                    "sent_id": 1625,
+                    "relations": [],
+                    "lu": "장비.n.Supply",
+                    "text": "소방관 책임 : 1- 소방 훈련 2- 훈련 철수 3- 확실히 하기 위해 소방 장비 감시 : A : 제자리에 위치한다 B : 파손시키지 않는다 4- 부정적인 것을 확인하기 위해 일부 테스트를 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14550",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "equipment"
+                    ],
+                    "ko_annotation_id": 14550,
+                    "annotation_id": 11460,
+                    "frameName": "Supply",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Supply",
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "장비와"
+                        }
+                    ],
+                    "sent_id": 2285,
+                    "relations": [],
+                    "lu": "장비.n.Supply",
+                    "text": "중국은 미국 국방부에 의하면 이란에 화학무기 장비와 기술의 주요 공급자이다."
                 }
             ]
         }
-    ],
-    "frameID": 215,
-    "ko_pos": "VA",
-    "ko_lu": "비스듬하다.a.Direction",
-    "lu_id": 621,
-    "en_lus": [
-        "naname .斜め "
     ]
 }

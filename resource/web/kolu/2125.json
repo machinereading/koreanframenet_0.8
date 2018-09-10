@@ -1,52 +1,102 @@
 {
-    "frameName": "Sharpness",
+    "ko_pos": "a",
+    "ko_lu": "뜨다.a.Departing",
+    "frameID": 57,
+    "frameName": "Departing",
+    "en_lus": [
+        "deru .出る "
+    ],
+    "lu_id": 2125,
     "patterns": [
         {
-            "valenceText": "annotation id: 6853",
+            "valenceText": "annotation id: 11422",
             "examples": [
                 {
-                    "frameName": "Sharpness",
+                    "origin_lus": [
+                        "deru .出る "
+                    ],
+                    "ko_annotation_id": 11422,
+                    "annotation_id": 0,
+                    "frameName": "Departing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Departing",
                             "span": {
-                                "begin": 71,
-                                "end": 74
+                                "begin": 24,
+                                "end": 28
                             },
-                            "id": "1"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "뜨는데,"
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 76,
-                                "end": 78
+                                "begin": 0,
+                                "end": 8
                             },
-                            "id": "2"
+                            "text": "낮 열두 시경에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 18
+                            },
+                            "text": "가와고에로 향하는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "text": "나룻배가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sharp"
-                    ],
-                    "ko_annotation_id": 6853,
-                    "text": "가장 유명한 것은 홍콩 사람들에 의해 사랑받지 못하는 눈에 띄는 74층의 I.M. Pei 중국 은행 - 그것의 삼각형 프리즘과 날카로운 각들은 feng shui ( 페이지 68의 박스 참조 ) 의 원리를 위반하고 라디오 마스트는 곤충의 안테나 처럼 튀어나왔다.",
-                    "sent_id": 1053,
+                    "sent_id": 4376,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5508
+                    "lu": "뜨다.a.Departing",
+                    "text": "낮 열두 시경에 가와고에로 향하는 나룻배가 뜨는데, 거기에 시즈가 타고 있다는 기별이 왔기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 1271,
-    "ko_pos": "VA",
-    "ko_lu": "날카롭다.a.Sharpness",
-    "lu_id": 2125,
-    "en_lus": [
-        "sharp"
     ]
 }

@@ -1,115 +1,102 @@
 {
-    "frameName": "Origin",
+    "ko_pos": "n",
+    "ko_lu": "시간.n.Communication",
+    "frameID": 6,
+    "frameName": "Communication",
+    "en_lus": [
+        "signal"
+    ],
+    "lu_id": 2037,
     "patterns": [
         {
-            "valenceText": "annotation id: 8404",
+            "valenceText": "annotation id: 3079",
             "examples": [
                 {
-                    "frameName": "Origin",
+                    "origin_lus": [
+                        "signaled"
+                    ],
+                    "ko_annotation_id": 3079,
+                    "annotation_id": 5908,
+                    "frameName": "Communication",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Communication",
                             "span": {
-                                "begin": 27,
-                                "end": 30
+                                "begin": 60,
+                                "end": 68
                             },
-                            "id": "1"
+                            "token_span": [
+                                16,
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "시간을 알렸다."
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                11
+                            ],
                             "span": {
-                                "begin": 41,
-                                "end": 47
+                                "begin": 42,
+                                "end": 45
                             },
-                            "id": "2"
-                        }
-                    ],
-                    "origin_lus": [
-                        "American"
-                    ],
-                    "ko_annotation_id": 8404,
-                    "text": "영국의 인구는 감소하였고 ; 오늘날은 영국인 만큼 미국인과 오스트랄리아인의 국외 거주자가 많이 있다.",
-                    "sent_id": 868,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 4498
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 6462",
-            "examples": [
-                {
-                    "frameName": "Origin",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 7,
-                                "end": 11
-                            },
-                            "id": "1"
+                            "text": "그들은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "entity",
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 7,
-                                "end": 11
+                                "begin": 46,
+                                "end": 53
                             },
-                            "id": "2"
+                            "text": "모두가 듣도록",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Message",
+                            "token_span": [
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 57,
+                                "end": 63
+                            },
+                            "text": "정오 시간을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "American"
-                    ],
-                    "ko_annotation_id": 6462,
-                    "text": "그리고 오늘 미국인들은 약간의 빛을 보게될 것이다.",
-                    "sent_id": 1733,
+                    "sent_id": 1128,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 8448
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.30852",
-            "examples": [
-                {
-                    "frameName": "Origin",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 3,
-                                "end": 6
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "그는 미국인을 한 명 알고 있다.",
-                    "target": "미국인",
-                    "ko_annotation_id": "sejong.30852",
-                    "relations": []
+                    "lu": "시간.n.Communication",
+                    "text": "그 결과, 상인들은 하루에 한 발의 발포로 제한되었고 - 그리고 그때부터, 그들은 모두가 듣도록 매일 정오 시간을 알렸다."
                 }
             ]
         }
-    ],
-    "frameID": 1103,
-    "ko_pos": "NN",
-    "ko_lu": "미국인.n.Origin",
-    "lu_id": 2037,
-    "en_lus": [
-        "American",
-        "American"
     ]
 }

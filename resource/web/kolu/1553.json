@@ -1,59 +1,86 @@
 {
-    "frameName": "Temporal_subregion",
+    "ko_pos": "v",
+    "ko_lu": "치루다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "okonau .行う "
+    ],
+    "lu_id": 1553,
     "patterns": [
         {
-            "valenceText": "annotation id: 4891",
+            "valenceText": "annotation id: 11306",
             "examples": [
                 {
-                    "frameName": "Temporal_subregion",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "toosyo .当初 "
+                        "okonau .行う "
                     ],
-                    "ko_annotation_id": 4891,
-                    "text": "애초 나는, 이 안건은 조사만 하고, 기업 회생의 실행은 맡을 생각이 없었다.",
-                    "sent_id": 3995,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.44924",
-            "examples": [
-                {
-                    "frameName": "Temporal_subregion",
+                    "ko_annotation_id": 11306,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 30,
+                                "end": 33
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "치뤄,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 25
+                            },
+                            "text": "주황 띠 이상의 여성 유도인을 대상으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "text": "예선을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "나는 그 순간 애초의 계획을 포기했다.",
-                    "target": "애초",
-                    "ko_annotation_id": "sejong.44924",
-                    "relations": []
+                    "sent_id": 4305,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "치루다.v.Intentionally_act",
+                    "text": "시합은 주황 띠 이상의 여성 유도인을 대상으로 예선을 치뤄, 출장 선수를 16명으로 추린 후, 제1회전, 2회전, 준결승전이 열렸으며, 결국 애디슨 부인(파랑 띠)과 루바니에 부인(갈색 띠)이 결승전에서 대결하게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 1470,
-    "ko_pos": "NNG",
-    "ko_lu": "애초.n.Temporal_subregion",
-    "lu_id": 1553,
-    "en_lus": [
-        "toosyo .当初 "
     ]
 }

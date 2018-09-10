@@ -1,44 +1,86 @@
 {
-    "frameName": "Cooking_creation",
+    "ko_pos": "v",
+    "ko_lu": "획득되다.v.Getting",
+    "frameID": 179,
+    "frameName": "Getting",
+    "en_lus": [
+        "obtain"
+    ],
+    "lu_id": 2177,
     "patterns": [
         {
-            "valenceText": "annotation id: 7089",
+            "valenceText": "annotation id: 14829",
             "examples": [
                 {
-                    "frameName": "Cooking_creation",
+                    "origin_lus": [
+                        "obtained"
+                    ],
+                    "ko_annotation_id": 14829,
+                    "annotation_id": 12616,
+                    "frameName": "Getting",
                     "denotations": [
                         {
-                            "obj": "Cook",
+                            "id": 1,
+                            "obj": "Getting",
                             "span": {
-                                "begin": 0,
-                                "end": 11
-                            }
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "획득될"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 22,
-                                "end": 24
-                            }
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "정확한 핵무기 투하 능력은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 23
+                            },
+                            "text": "향후 5년 내에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "suizi .炊事 "
+                    "sent_id": 2523,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7089,
-                    "text": "여자아이가 주로 하는 완구로 식사준비나 취사를 하는 주방놀이를, 소꿉놀이라고 합니다.",
-                    "sent_id": 4328,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "획득되다.v.Getting",
+                    "text": "정확한 핵무기 투하 능력은 향후 5년 내에 획득될 수 있을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 268,
-    "ko_pos": "NNG",
-    "ko_lu": "취사.n.Cooking_creation",
-    "lu_id": 2177,
-    "en_lus": [
-        "suizi .炊事 "
     ]
 }

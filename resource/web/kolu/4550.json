@@ -1,92 +1,65 @@
 {
-    "frameName": "Electricity",
+    "ko_pos": "v",
+    "ko_lu": "발주하다.v.Request",
+    "frameID": 41,
+    "frameName": "Request",
+    "en_lus": [
+        "hattyuu .発注"
+    ],
+    "lu_id": 4550,
     "patterns": [
         {
-            "valenceText": "annotation id: 15783",
+            "valenceText": "annotation id: 16681",
             "examples": [
                 {
-                    "frameName": "Electricity",
+                    "origin_lus": [
+                        "hattyuu .発注"
+                    ],
+                    "ko_annotation_id": 16681,
+                    "annotation_id": 0,
+                    "frameName": "Request",
                     "denotations": [
                         {
-                            "obj": "source",
+                            "id": 1,
+                            "obj": "Request",
                             "span": {
-                                "begin": 16,
-                                "end": 19
+                                "begin": 14,
+                                "end": 21
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "발주하더라도,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 19
+                                "begin": 0,
+                                "end": 13
                             },
-                            "id": "1"
+                            "text": "늘 거래해온 납입업자에게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "power"
-                    ],
-                    "ko_annotation_id": 15783,
-                    "text": "QN : 이란은 전기를 위한 핵전력 공장을 지으려는 계획의 위장하에 비밀 무기 프로그램을 운영하고 있나 ?",
-                    "sent_id": 1427,
+                    "sent_id": 4758,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6891
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 15784",
-            "examples": [
-                {
-                    "frameName": "Electricity",
-                    "denotations": [
-                        {
-                            "obj": "source",
-                            "span": {
-                                "begin": 35,
-                                "end": 38
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 35,
-                                "end": 38
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "power"
-                    ],
-                    "ko_annotation_id": 15784,
-                    "text": "2004년에는, 또한 남아공의 감소하는 석탄 보유량과 추가적인 핵전력 생산의 필요성에 대한 충분한 논의가 있었다.",
-                    "sent_id": 3027,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 15633
+                    "lu": "발주하다.v.Request",
+                    "text": "늘 거래해온 납입업자에게 발주하더라도, 안전기준과 관련된 기기선정 등의 책임은 질 수 없다고 한다."
                 }
             ]
         }
-    ],
-    "frameID": 1535,
-    "ko_pos": "NNG",
-    "ko_lu": "핵전력.n.Electricity",
-    "lu_id": 4550,
-    "en_lus": [
-        "power"
     ]
 }

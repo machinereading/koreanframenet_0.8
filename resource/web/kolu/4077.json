@@ -1,38 +1,83 @@
 {
-    "frameName": "Building",
+    "ko_pos": "n",
+    "ko_lu": "이야기.n.Topic",
+    "frameID": 373,
+    "frameName": "Topic",
+    "en_lus": [
+        "hanasi .話"
+    ],
+    "lu_id": 4077,
     "patterns": [
         {
-            "valenceText": "annotation id: 13886",
+            "valenceText": "annotation id: 11449",
             "examples": [
                 {
-                    "frameName": "Building",
+                    "origin_lus": [
+                        "hanasi .話"
+                    ],
+                    "ko_annotation_id": 11449,
+                    "annotation_id": 0,
+                    "frameName": "Topic",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Topic",
                             "span": {
-                                "begin": 56,
-                                "end": 59
+                                "begin": 25,
+                                "end": 29
                             },
-                            "id": "1"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "이야기가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "저는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 47
+                            },
+                            "text": "오래전으로 거슬러 올라가서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "built"
+                    "sent_id": 4398,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13886,
-                    "text": "이 기간은 북한이 고유 설계한 원자로 프로그램의 확장과 일치하는데, 이는 1950년대 영국에서 처음 건조된 Calder Hall 원자로의 디자인과 유사한 가스 흑연 감속 원자로에 바탕을 두었다.",
-                    "sent_id": 2934,
-                    "relations": [],
-                    "annotation_id": 15075
+                    "lu": "이야기.n.Topic",
+                    "text": "저는 잠시 「풍토기」를 연구한 적인 있는데, 이야기가 자꾸 오래전으로 거슬러 올라가서 죄송합니다만, 다이카 개신의 칙령에 따라, 궁정을 중심으로 하는 고대 수도권, 기나이라 불리는 지역이 생겼습니다."
                 }
             ]
         }
-    ],
-    "frameID": 259,
-    "ko_pos": "VV",
-    "ko_lu": "건조되다.v.Building",
-    "lu_id": 4077,
-    "en_lus": [
-        "built"
     ]
 }

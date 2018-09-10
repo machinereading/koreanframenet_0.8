@@ -1,65 +1,83 @@
 {
-    "frameName": "Cause_harm",
+    "ko_pos": "v",
+    "ko_lu": "참견하다.v.Assistance",
+    "frameID": 391,
+    "frameName": "Assistance",
+    "en_lus": [
+        "sewa .世話 "
+    ],
+    "lu_id": 3622,
     "patterns": [
         {
-            "valenceText": "annotation id: 12463",
+            "valenceText": "annotation id: 16146",
             "examples": [
                 {
-                    "frameName": "Cause_harm",
+                    "origin_lus": [
+                        "sewa .世話 "
+                    ],
+                    "ko_annotation_id": 16146,
+                    "annotation_id": 0,
+                    "frameName": "Assistance",
                     "denotations": [
                         {
-                            "obj": "time",
+                            "id": 1,
+                            "obj": "Assistance",
                             "span": {
-                                "begin": 24,
-                                "end": 55
+                                "begin": 29,
+                                "end": 33
                             },
-                            "id": "3"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "참견하는"
                         },
                         {
-                            "obj": "victim",
+                            "id": 2,
+                            "obj": "Co_Agent",
+                            "token_span": [
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 75,
-                                "end": 78
+                                "begin": 23,
+                                "end": 28
                             },
-                            "id": "2"
+                            "text": "다른 사람",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Focal_Entity",
+                            "token_span": [
+                                8,
+                                9
+                            ],
                             "span": {
-                                "begin": 80,
-                                "end": 85
+                                "begin": 29,
+                                "end": 36
                             },
-                            "id": "1"
+                            "text": "참견하는 것도",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "wounded"
-                    ],
-                    "ko_annotation_id": 12463,
-                    "text": "북부 이라크 도시인 Kirkuk의 외곽에서 그들이 폭탄을 제거하는 중 기름 파이프관에서 폭탄이 터져 최소한 아홉 명의 경찰이 사망했고 세 명이 중상을 입었다.",
-                    "sent_id": 1431,
+                    "sent_id": 3620,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6902
+                    "lu": "참견하다.v.Assistance",
+                    "text": "하지만, 그저 뻔뻔하기만 할 뿐 아니라, 다른 사람 참견하는 것도 매우 좋아한다."
                 }
             ]
         }
-    ],
-    "frameID": 112,
-    "ko_pos": "NNG",
-    "ko_lu": "중상.n.Cause_harm",
-    "lu_id": 3622,
-    "en_lus": [
-        "wound"
     ]
 }

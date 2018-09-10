@@ -1,51 +1,84 @@
 {
-    "frameName": "Deny_or_grant_permission",
+    "ko_pos": "a",
+    "ko_lu": "적다.a.Text_creation",
+    "frameID": 278,
+    "frameName": "Text_creation",
+    "en_lus": [
+        "jot down"
+    ],
+    "lu_id": 3141,
     "patterns": [
         {
-            "valenceText": "annotation id: 10570",
+            "valenceText": "annotation id: 4225",
             "examples": [
                 {
-                    "frameName": "Grant_permission",
+                    "origin_lus": [
+                        "jot down"
+                    ],
+                    "ko_annotation_id": 4225,
+                    "annotation_id": 7753,
+                    "frameName": "Text_creation",
                     "denotations": [
                         {
-                            "obj": "Time",
+                            "id": 1,
+                            "obj": "Text_creation",
                             "span": {
-                                "begin": 7,
-                                "end": 9
-                            }
+                                "begin": 83,
+                                "end": 85
+                            },
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "적기"
                         },
                         {
-                            "obj": "Action",
+                            "id": 2,
+                            "obj": "Text",
+                            "token_span": [
+                                18,
+                                19,
+                                20,
+                                21
+                            ],
                             "span": {
-                                "begin": 11,
-                                "end": 21
-                            }
+                                "begin": 64,
+                                "end": 82
+                            },
+                            "text": "의심스러운 활동이나 면허판 번호를",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Instrument",
+                            "token_span": [
+                                24
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 26
-                            }
+                                "begin": 89,
+                                "end": 92
+                            },
+                            "text": "필기물",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ii .いい "
+                    "sent_id": 1593,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 10570,
-                    "text": "어디까지나, 지금은 파티시에가 제1후보 정도 되겠지요.",
-                    "sent_id": 3743,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "적다.a.Text_creation",
+                    "text": "버스들은 다음 사항을 구비해야 한다 : 1- 가벼운 갑옷과 로켓탄 발사기 2- 위험 활동을 보고할 무선 장비 3- 의심스러운 활동이나 면허판 번호를 적기 위한 필기물 4- 기총 발사로부터 보호하기 위한 버스 둘레의 샌드백"
                 }
             ]
         }
-    ],
-    "frameID": 520,
-    "ko_pos": "VA",
-    "ko_lu": "되다.a.Deny_or_grant_permission",
-    "lu_id": 3141,
-    "en_lus": [
-        "ii .いい "
     ]
 }

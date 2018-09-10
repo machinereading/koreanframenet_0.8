@@ -1,96 +1,110 @@
 {
-    "frameName": "Substance",
+    "ko_pos": "a",
+    "ko_lu": "같다.a.State_continue",
+    "frameID": 1155,
+    "frameName": "State_continue",
+    "en_lus": [
+        "remain"
+    ],
+    "lu_id": 3683,
     "patterns": [
         {
-            "valenceText": "annotation id: 12584",
+            "valenceText": "annotation id: 7368",
             "examples": [
                 {
-                    "frameName": "Substance",
+                    "origin_lus": [
+                        "remain"
+                    ],
+                    "ko_annotation_id": 7368,
+                    "annotation_id": 13377,
+                    "frameName": "State_continue",
                     "denotations": [
                         {
-                            "obj": "use",
+                            "id": 1,
+                            "obj": "State_continue",
                             "span": {
-                                "begin": 11,
-                                "end": 13
+                                "begin": 80,
+                                "end": 83
                             },
-                            "id": "2"
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "같다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 0,
+                                "end": 20
                             },
-                            "id": "1"
+                            "text": "이 시설들과 이란의 총체적 프로그램은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 74
+                            },
+                            "text": "시설의 목적과 능력에 대한 논쟁이 해결될 때까지",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "State",
+                            "token_span": [
+                                20,
+                                21
+                            ],
+                            "span": {
+                                "begin": 75,
+                                "end": 79
+                            },
+                            "text": "그럴 것",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "material"
-                    ],
-                    "ko_annotation_id": 12584,
-                    "text": "이란이 구매한 다른 방어 자재는 스페인제 방독면, 한국제 보호장비, 그리고 네델란드제 아트로핀 주사를 포함한다.",
-                    "sent_id": 2253,
+                    "sent_id": 2673,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 11279
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.45440",
-            "examples": [
-                {
-                    "frameName": "Substance",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 20,
-                                "end": 22
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "견고한 건축물을 짓기 위해서는 좋은 자재를 써야 한다.",
-                    "target": "자재",
-                    "ko_annotation_id": "sejong.45440",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.45441",
-            "examples": [
-                {
-                    "frameName": "Substance",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 12,
-                                "end": 14
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "공사장에는 여러 가지 자재가 아무렇게나 쌓여 있었다.",
-                    "target": "자재",
-                    "ko_annotation_id": "sejong.45441",
-                    "relations": []
+                    "lu": "같다.a.State_continue",
+                    "text": "이 시설들과 이란의 총체적 프로그램은 현재 국제 공동체에 의해 정밀 조사를 받고 있고 시설의 목적과 능력에 대한 논쟁이 해결될 때까지 그럴 것 같다."
                 }
             ]
         }
-    ],
-    "frameID": 1321,
-    "ko_pos": "NNG",
-    "ko_lu": "자재.n.Substance",
-    "lu_id": 3683,
-    "en_lus": [
-        "material"
     ]
 }

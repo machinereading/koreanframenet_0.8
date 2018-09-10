@@ -1,96 +1,84 @@
 {
-    "frameName": "Besieging",
+    "ko_pos": "n",
+    "ko_lu": "요강.n.Summarizing",
+    "frameID": 1722,
+    "frameName": "Summarizing",
+    "en_lus": [
+        "yookoo .要綱 "
+    ],
+    "lu_id": 3635,
     "patterns": [
         {
-            "valenceText": "annotation id: 12494",
+            "valenceText": "annotation id: 10411",
             "examples": [
                 {
-                    "frameName": "Besieging",
+                    "origin_lus": [
+                        "yookoo .要綱 "
+                    ],
+                    "ko_annotation_id": 10411,
+                    "annotation_id": 0,
+                    "frameName": "Summarizing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Summarizing",
                             "span": {
-                                "begin": 76,
-                                "end": 80
+                                "begin": 23,
+                                "end": 30
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "관리요강안에도"
                         },
                         {
-                            "obj": "supp",
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 76,
-                                "end": 82
+                                "begin": 0,
+                                "end": 7
                             },
-                            "id": "2"
+                            "text": "전일본민의련의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 30
+                            },
+                            "text": "부문별 손익계산 및 관리요강안에도",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "siege"
-                    ],
-                    "ko_annotation_id": 12494,
-                    "text": "나머지 새로운 유대 국가로부터 분리된 서 예루살렘은 이스라엘 병력이 해안 지역까지 도시를 연결하는 회랑 지대를 확보할 때까지 수개월 간 포위당한 채로 지속되었다.",
-                    "sent_id": 718,
+                    "sent_id": 3720,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 3764
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.61860",
-            "examples": [
-                {
-                    "frameName": "Besieging",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 24,
-                                "end": 28
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "정신없이 숲 속으로 달려갔으나 이미 적에게 포위당한 상태였다.",
-                    "target": "포위당한",
-                    "ko_annotation_id": "sejong.61860",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.61861",
-            "examples": [
-                {
-                    "frameName": "Besieging",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 28,
-                                "end": 32
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "경찰이 도착했을 때는 이미 회사 사장이 사원들에게 포위당한 상황이었다.",
-                    "target": "포위당한",
-                    "ko_annotation_id": "sejong.61861",
-                    "relations": []
+                    "lu": "요강.n.Summarizing",
+                    "text": "전일본민의련의 새로운 부문별 손익계산 및 관리요강안에도 「부문 손익계산서 등의 정확성 확보 및 현장 직원이 스스로 관리하는 것을 권장하기 위하여, 부문에서 발생한 경비 등은 가능한 한 부문(현장)에서, 전표 기표하여, 실비로 계상하는 것이 적절합니다」라고 되어 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 1817,
-    "ko_pos": "VV",
-    "ko_lu": "포위당하다.v.Besieging",
-    "lu_id": 3635,
-    "en_lus": [
-        "siege"
     ]
 }

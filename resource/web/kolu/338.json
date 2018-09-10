@@ -1,51 +1,432 @@
 {
-    "frameName": "Placing",
+    "ko_pos": "v",
+    "ko_lu": "따르다.v.Compliance",
+    "frameID": 117,
+    "frameName": "Compliance",
+    "en_lus": [
+        "follow",
+        "submit",
+        "obey",
+        "sitagau .従う ",
+        "conforms"
+    ],
+    "lu_id": 338,
     "patterns": [
         {
-            "valenceText": "annotation id: 881",
+            "valenceText": "annotation id: 4204",
             "examples": [
                 {
-                    "frameName": "Placing",
+                    "origin_lus": [
+                        "obey",
+                        "followed",
+                        "conforms",
+                        "submit"
+                    ],
+                    "ko_annotation_id": 4204,
+                    "annotation_id": 7730,
+                    "frameName": "Compliance",
                     "denotations": [
                         {
-                            "obj": "Reason",
+                            "id": 1,
+                            "obj": "Compliance",
                             "span": {
-                                "begin": 0,
-                                "end": 11
-                            }
-                        },
-                        {
-                            "obj": "Theme",
-                            "span": {
-                                "begin": 12,
-                                "end": 16
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 18,
+                                "begin": 21,
                                 "end": 24
-                            }
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "따라야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Norm",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 16
+                            },
+                            "text": "위치의 모든 주차 규정을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ateru .当てる "
+                    "sent_id": 1588,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 881,
-                    "text": "빈집은 너무 지저분해 차마 눈을 뜨고 볼 수 없었습니다.",
-                    "sent_id": 3928,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "따르다.v.Compliance",
+                    "text": "6- 위치의 모든 주차 규정을 엄격히 따라야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4205",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "obey",
+                        "followed",
+                        "conforms",
+                        "submit"
+                    ],
+                    "ko_annotation_id": 4205,
+                    "annotation_id": 7730,
+                    "frameName": "Compliance",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compliance",
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "따라야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Norm",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 16
+                            },
+                            "text": "위치의 모든 주차 규정을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "엄격히",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1588,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "따르다.v.Compliance",
+                    "text": "6- 위치의 모든 주차 규정을 엄격히 따라야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4490",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "obey",
+                        "followed",
+                        "conforms",
+                        "submit"
+                    ],
+                    "ko_annotation_id": 4490,
+                    "annotation_id": 8174,
+                    "frameName": "Compliance",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compliance",
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "따라야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 21
+                            },
+                            "text": "부하는 물론이고 모든 멤버의 지휘관들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Norm",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 28
+                            },
+                            "text": "이 규칙들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1666,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "따르다.v.Compliance",
+                    "text": "부하는 물론이고 모든 멤버의 지휘관들은 이 규칙들을 따라야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4500",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "obey",
+                        "followed",
+                        "conforms",
+                        "submit"
+                    ],
+                    "ko_annotation_id": 4500,
+                    "annotation_id": 8188,
+                    "frameName": "Compliance",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compliance",
+                            "span": {
+                                "begin": 34,
+                                "end": 38
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "따르고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "무슬림에 대한 합법적인 임무와 서약은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Norm",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 33
+                            },
+                            "text": "법에 의한 임무인 것을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1668,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "따르다.v.Compliance",
+                    "text": "무슬림에 대한 합법적인 임무와 서약은 법에 의한 임무인 것을 따르고, 그것은 서약의 대상이 아닐지라도 하나의 임무이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10107",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sitagau .従う "
+                    ],
+                    "ko_annotation_id": 10107,
+                    "annotation_id": 0,
+                    "frameName": "Compliance",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compliance",
+                            "span": {
+                                "begin": 74,
+                                "end": 78
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "따랐다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Norm",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 73
+                            },
+                            "text": "아름다운 제목이 낫다는 남편의 의견을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3570,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "따르다.v.Compliance",
+                    "text": "서점에 진열될지 모른다고 생각하면 조금 더 사람들의 이목을 끄는 제목으로 할까 생각도 했으나, 아름다운 제목이 낫다는 남편의 의견을 따랐다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13296",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "obey",
+                        "followed",
+                        "conforms",
+                        "submit"
+                    ],
+                    "ko_annotation_id": 13296,
+                    "annotation_id": 4540,
+                    "frameName": "Compliance",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compliance",
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "따른다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Norm",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "옛날 관습을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "여전히",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 876,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "따르다.v.Compliance",
+                    "text": "옛날 관습을 여전히 따른다 : 운명과 행운은 매우 심각하게 다루고, 그리고 점성가와 점쟁이들은 지속적으로 사업을 한다."
                 }
             ]
         }
-    ],
-    "frameID": 62,
-    "ko_pos": "VA",
-    "ko_lu": "뜨다.a.Placing",
-    "lu_id": 338,
-    "en_lus": [
-        "ateru .当てる "
     ]
 }

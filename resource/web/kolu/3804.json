@@ -1,44 +1,171 @@
 {
-    "frameName": "Perception_experience",
+    "ko_pos": "a",
+    "ko_lu": "즐겁다.a.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "uresii .嬉しい "
+    ],
+    "lu_id": 3804,
     "patterns": [
         {
-            "valenceText": "annotation id: 13031",
+            "valenceText": "annotation id: 12235",
             "examples": [
                 {
-                    "frameName": "Perception_experience",
+                    "origin_lus": [
+                        "uresii .嬉しい "
+                    ],
+                    "ko_annotation_id": 12235,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
                     "denotations": [
                         {
-                            "obj": "Phenomenon",
+                            "id": 1,
+                            "obj": "Experiencer_focus",
                             "span": {
-                                "begin": 42,
-                                "end": 46
-                            }
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "즐겁겠지요."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 34,
-                                "end": 38
-                            }
+                                "begin": 7,
+                                "end": 23
+                            },
+                            "text": "아이가 공부하는 모습을 본다면",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "엄마는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "keeken .経験 "
+                    "sent_id": 4917,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13031,
-                    "text": "고객 안전기준이 엄격해 지킬 수 있을 것 같지 않다. 지금껏 해본 적 없는 안전기준을 충족시키라고 하면서, 안내서만 건네주었다.",
-                    "sent_id": 4086,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "즐겁다.a.Experiencer_focus",
+                    "text": "예를 들어, 아이가 공부하는 모습을 본다면 엄마는 즐겁겠지요."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12386",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "uresii .嬉しい "
+                    ],
+                    "ko_annotation_id": 12386,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "즐겁다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "계절은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "text": "지금이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Degree",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "text": "가장",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 5008,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "즐겁다.a.Experiencer_focus",
+                    "text": "뭐라해도, 계절은 지금이 가장 즐겁다."
                 }
             ]
         }
-    ],
-    "frameID": 70,
-    "ko_pos": "VA",
-    "ko_lu": "하다.a.Perception_experience",
-    "lu_id": 3804,
-    "en_lus": [
-        "keeken .経験 "
     ]
 }

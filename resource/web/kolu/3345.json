@@ -1,52 +1,88 @@
 {
-    "frameName": "Notification_of_charges",
+    "ko_pos": "v",
+    "ko_lu": "공급하다.v.Ingestion",
+    "frameID": 263,
+    "frameName": "Ingestion",
+    "en_lus": [
+        "feed"
+    ],
+    "lu_id": 3345,
     "patterns": [
         {
-            "valenceText": "annotation id: 11394",
+            "valenceText": "annotation id: 15196",
             "examples": [
                 {
-                    "frameName": "Notification_of_charges",
+                    "origin_lus": [
+                        "feed"
+                    ],
+                    "ko_annotation_id": 15196,
+                    "annotation_id": 14287,
+                    "frameName": "Ingestion",
                     "denotations": [
                         {
-                            "obj": "charges",
+                            "id": 1,
+                            "obj": "Ingestion",
                             "span": {
-                                "begin": 3,
-                                "end": 20
+                                "begin": 73,
+                                "end": 80
                             },
-                            "id": "2"
+                            "token_span": [
+                                15,
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "공급하기 위한"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Ingestor",
+                            "token_span": [
+                                13,
+                                14
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 23
+                                "begin": 59,
+                                "end": 72
                             },
-                            "id": "1"
+                            "text": "원심분리기의 캐스케이드에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ingestibles",
+                            "token_span": [
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22
+                            ],
+                            "span": {
+                                "begin": 81,
+                                "end": 102
+                            },
+                            "text": "우라늄 육플루오르 ( UF6 ) 가스의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "charges"
-                    ],
-                    "ko_annotation_id": 11394,
-                    "text": "그는 알 카이다와 유대관계를 가졌다는 고소가 요르단에서 취하되었다.",
-                    "sent_id": 1679,
+                    "sent_id": 2815,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8222
+                    "lu": "공급하다.v.Ingestion",
+                    "text": "북한은 영변 핵 단지에서 우라늄 육플루오르를 생산할 시설을 설립하였다고 전해지는데, 이는 대규모 공장에서 원심분리기의 캐스케이드에 공급하기 위한 우라늄 육플루오르 ( UF6 ) 가스의 비축량을 생산할 능력을 평양에 주는 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 129,
-    "ko_pos": "NNG",
-    "ko_lu": "고소.n.Notification_of_charges",
-    "lu_id": 3345,
-    "en_lus": [
-        "charge"
     ]
 }

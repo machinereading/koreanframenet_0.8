@@ -1,38 +1,82 @@
 {
-    "frameName": "Body_parts",
+    "ko_pos": "a",
+    "ko_lu": "재미있다.a.Mental_stimulus_stimulus_focus",
+    "frameID": 2046,
+    "frameName": "Mental_stimulus_stimulus_focus",
+    "en_lus": [
+        "omosiroi .おもしろい "
+    ],
+    "lu_id": 3055,
     "patterns": [
         {
-            "valenceText": "annotation id: 10183",
+            "valenceText": "annotation id: 12380",
             "examples": [
                 {
-                    "frameName": "Observable_body_parts",
+                    "origin_lus": [
+                        "omosiroi .おもしろい "
+                    ],
+                    "ko_annotation_id": 12380,
+                    "annotation_id": 0,
+                    "frameName": "Mental_stimulus_stimulus_focus",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Mental_stimulus_stimulus_focus",
                             "span": {
-                                "begin": 58,
-                                "end": 61
+                                "begin": 11,
+                                "end": 18
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "재미있었어요."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "그 부분이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "text": "저한테는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "feet"
+                    "sent_id": 5002,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 10183,
-                    "text": "우리는 Mame을 잡으려고 집안으로 뛰어들었으나, 그 다음의 진동이 나를 공중으로 팽개쳤고 그리고 내가 일어서려고 하자 나를 튕겨버렸다.",
-                    "sent_id": 169,
-                    "relations": [],
-                    "annotation_id": 961
+                    "lu": "재미있다.a.Mental_stimulus_stimulus_focus",
+                    "text": "그 부분이 저한테는 재미있었어요."
                 }
             ]
         }
-    ],
-    "frameID": 119,
-    "ko_pos": "VV",
-    "ko_lu": "일어서다.v.Body_parts",
-    "lu_id": 3055,
-    "en_lus": [
-        "foot"
     ]
 }

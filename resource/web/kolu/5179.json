@@ -1,51 +1,91 @@
 {
-    "frameName": "Perception_experience",
+    "ko_pos": "v",
+    "ko_lu": "강조하다.v.Convey_importance",
+    "frameID": 1543,
+    "frameName": "Convey_importance",
+    "en_lus": [
+        "emphasizes"
+    ],
+    "lu_id": 5179,
     "patterns": [
         {
-            "valenceText": "annotation id: 18239",
+            "valenceText": "annotation id: 17011",
             "examples": [
                 {
-                    "frameName": "Perception_experience",
+                    "origin_lus": [
+                        "emphasizes"
+                    ],
+                    "ko_annotation_id": 17011,
+                    "annotation_id": 8235,
+                    "frameName": "Convey_importance",
                     "denotations": [
                         {
-                            "obj": "Phenomenon",
+                            "id": 1,
+                            "obj": "Convey_importance",
                             "span": {
-                                "begin": 56,
-                                "end": 68
-                            }
+                                "begin": 55,
+                                "end": 59
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "강조하는"
                         },
                         {
-                            "obj": "Perceiver_passive",
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 71,
-                                "end": 76
-                            }
+                                "begin": 15,
+                                "end": 54
+                            },
+                            "text": "정권이 이슬람 법을 고수하지 않았다면 정권을 변절자로 여기지 않을 것을",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Medium",
+                            "token_span": [
+                                13,
+                                14
+                            ],
                             "span": {
-                                "begin": 81,
-                                "end": 84
-                            }
+                                "begin": 60,
+                                "end": 66
+                            },
+                            "text": "그의 칙령에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hairu .はいる"
+                    "sent_id": 1684,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18239,
-                    "text": "사루 쵸에 불 속에 손을 집어넣고, 빨갛게 달궈진 철을 끄집어내도, 조금도 화상을 입지 않는 (1) 대장장이가 산다는 소문이, 한 신앙가의 귀에 들어갔다.",
-                    "sent_id": 4991,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "강조하다.v.Convey_importance",
+                    "text": "Sheik Maqdasi는 정권이 이슬람 법을 고수하지 않았다면 정권을 변절자로 여기지 않을 것을 강조하는 그의 칙령에 대해서만 Sheik Bin Baz를 비난하지 않았다."
                 }
             ]
         }
-    ],
-    "frameID": 70,
-    "ko_pos": "VV",
-    "ko_lu": "들어가다.v.Perception_experience",
-    "lu_id": 5179,
-    "en_lus": [
-        "hairu .はいる"
     ]
 }

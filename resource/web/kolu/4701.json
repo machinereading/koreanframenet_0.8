@@ -1,51 +1,214 @@
 {
-    "frameName": "People_by_vocation",
+    "ko_pos": "a",
+    "ko_lu": "있다.a.Presence",
+    "frameID": 1922,
+    "frameName": "Presence",
+    "en_lus": [
+        "iru .いる ",
+        "presence",
+        "aru .ある "
+    ],
+    "lu_id": 4701,
     "patterns": [
         {
-            "valenceText": "annotation id: 16475",
+            "valenceText": "annotation id: 10948",
             "examples": [
                 {
-                    "frameName": "People_by_vocation",
+                    "origin_lus": [
+                        "iru .いる "
+                    ],
+                    "ko_annotation_id": 10948,
+                    "annotation_id": 0,
+                    "frameName": "Presence",
                     "denotations": [
                         {
-                            "obj": "Person",
+                            "id": 1,
+                            "obj": "Presence",
+                            "span": {
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "있을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Location",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 3
-                            }
+                                "end": 13
+                            },
+                            "text": "주요한 호텔이나 여관에는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Rank",
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 7
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 4,
-                                "end": 7
-                            }
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "text": "감시자가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kyoozyu .教授 "
+                    "sent_id": 4082,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16475,
-                    "text": "하라노 교수님께 상담받은 것을 후회하지는 않는다.",
-                    "sent_id": 4109,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "있다.a.Presence",
+                    "text": "주요한 호텔이나 여관에는 감시자가 있을 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12346",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "aru .ある ",
+                        "presence"
+                    ],
+                    "ko_annotation_id": 12346,
+                    "annotation_id": 0,
+                    "frameName": "Presence",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Presence",
+                            "span": {
+                                "begin": 17,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "있습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 11
+                            },
+                            "text": "이 같은 역사는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "text": "어디라도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4980,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "있다.a.Presence",
+                    "text": "뭐, 이 같은 역사는 어디라도 있습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13216",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "aru .ある ",
+                        "presence"
+                    ],
+                    "ko_annotation_id": 13216,
+                    "annotation_id": 3869,
+                    "frameName": "Presence",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Presence",
+                            "span": {
+                                "begin": 81,
+                                "end": 85
+                            },
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "있었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 57,
+                                "end": 80
+                            },
+                            "text": "몇몇 지역의 표면으로 거품이 이는 자분천이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 736,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "있다.a.Presence",
+                    "text": "이때에 계곡은 그것이 오늘날 존재하는 것과 많이 동일한 지리적인 상태에 있었는데 한 가지 예외는 -- 몇몇 지역의 표면으로 거품이 이는 자분천이 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 1071,
-    "ko_pos": "NN",
-    "ko_lu": "교수님.n.People_by_vocation",
-    "lu_id": 4701,
-    "en_lus": [
-        "kyoozyu .教授 "
     ]
 }

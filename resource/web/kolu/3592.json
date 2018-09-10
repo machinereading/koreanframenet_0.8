@@ -1,38 +1,63 @@
 {
-    "frameName": "Finish_competition",
+    "ko_pos": "n",
+    "ko_lu": "재판.n.Judicial_body",
+    "frameID": 1607,
+    "frameName": "Judicial_body",
+    "en_lus": [
+        "judicial"
+    ],
+    "lu_id": 3592,
     "patterns": [
         {
-            "valenceText": "annotation id: 12278",
+            "valenceText": "annotation id: 5053",
             "examples": [
                 {
-                    "frameName": "Finish_competition",
+                    "origin_lus": [
+                        "judicial"
+                    ],
+                    "ko_annotation_id": 5053,
+                    "annotation_id": 9132,
+                    "frameName": "Judicial_body",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Judicial_body",
                             "span": {
-                                "begin": 56,
-                                "end": 60
+                                "begin": 6,
+                                "end": 11
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "개인적으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Judicial_Body",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "개인적으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "victors"
+                    "sent_id": 1895,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12278,
-                    "text": "기원 전 401년에 전쟁이 끝나기 전, 많은 섬들이 이미 Macedon의 Philip II가 이끄는 승리자들에게로 그들의 충성의 대상을 옮겼다.",
-                    "sent_id": 538,
-                    "relations": [],
-                    "annotation_id": 2839
+                    "lu": "재판.n.Judicial_body",
+                    "text": "음  나는 개인적으로 재판제도에 eogo 검토할 생각하며 우리는 그들이 가져올 형사 - 형사 사건에 대해 얘기하는 중이다."
                 }
             ]
         }
-    ],
-    "frameID": 798,
-    "ko_pos": "NN",
-    "ko_lu": "승리자들.n.Finish_competition",
-    "lu_id": 3592,
-    "en_lus": [
-        "victor"
     ]
 }

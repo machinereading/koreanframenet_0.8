@@ -1,74 +1,81 @@
 {
-    "frameName": "Prohibiting_or_licensing",
+    "ko_pos": "v",
+    "ko_lu": "집권하다.v.State_continue",
+    "frameID": 1155,
+    "frameName": "State_continue",
+    "en_lus": [
+        "remains"
+    ],
+    "lu_id": 4792,
     "patterns": [
         {
-            "valenceText": "annotation id: 16794",
+            "valenceText": "annotation id: 3555",
             "examples": [
                 {
-                    "frameName": "Prohibiting",
+                    "origin_lus": [
+                        "remains"
+                    ],
+                    "ko_annotation_id": 3555,
+                    "annotation_id": 6681,
+                    "frameName": "State_continue",
                     "denotations": [
                         {
-                            "obj": "state_of_affairs",
+                            "id": 1,
+                            "obj": "State_continue",
                             "span": {
-                                "begin": 141,
-                                "end": 143
+                                "begin": 10,
+                                "end": 14
                             },
-                            "id": "2"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "집권하는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 141,
-                                "end": 143
+                                "begin": 5,
+                                "end": 9
                             },
-                            "id": "1"
+                            "text": "카다피가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "text": "집권하는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "control"
-                    ],
-                    "ko_annotation_id": 16794,
-                    "text": "그러나 국립 생체방어 분석 및 대응책 센터 -- Fredercik 기지와 다른 곳에서 실험실 공간을 빌려 현재 운영중인 -- 가 유사한 균을 퍼뜨리려는 테러리스트의 음모에 대한 확실한 증거 없이 신형 백신 저항 혹은 치명적인 미생물을 개발할 것을 일부 군축 전문가들은 우려하고 있다.",
-                    "sent_id": 3209,
+                    "sent_id": 1345,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 16824
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.18413",
-            "examples": [
-                {
-                    "frameName": "Prohibiting_or_licensing",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 14,
-                                "end": 16
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "패전국들은 강압에 의해서 군축을 해야만 했다.",
-                    "target": "군축",
-                    "ko_annotation_id": "sejong.18413",
-                    "relations": []
+                    "lu": "집권하다.v.State_continue",
+                    "text": "리비아는 카다피가 집권하는 한 거의 확실히 화학전을 유지할 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 521,
-    "ko_pos": "NNG",
-    "ko_lu": "군축.n.Prohibiting_or_licensing",
-    "lu_id": 4792,
-    "en_lus": [
-        "control"
     ]
 }

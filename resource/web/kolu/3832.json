@@ -1,52 +1,86 @@
 {
-    "frameName": "People_by_vocation",
+    "ko_pos": "v",
+    "ko_lu": "진술하다.v.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "state"
+    ],
+    "lu_id": 3832,
     "patterns": [
         {
-            "valenceText": "annotation id: 13130",
+            "valenceText": "annotation id: 8035",
             "examples": [
                 {
-                    "frameName": "People_by_vocation",
+                    "origin_lus": [
+                        "stated"
+                    ],
+                    "ko_annotation_id": 8035,
+                    "annotation_id": 14666,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "employer",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 61,
+                                "end": 67
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "진술하였다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 19
+                                "begin": 28,
+                                "end": 36
                             },
-                            "id": "1"
+                            "text": "모든 당사국들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 60
+                            },
+                            "text": "한반도 비핵화라는 궁극적인 목표를 가졌다고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "soldiers"
-                    ],
-                    "ko_annotation_id": 13130,
-                    "text": "성경은 어떻게 불시에 다윗의 군사들이 벽 아래에 있는 수로를 발견하고 그 수로를 사용하여 도시를  예루살렘을 정복하였는가를 묘사한다.",
-                    "sent_id": 626,
+                    "sent_id": 2872,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3361
+                    "lu": "진술하다.v.Statement",
+                    "text": "6 자 당사국은 실무자급 회담 개최에 합의하였고, 모든 당사국들은 한반도 비핵화라는 궁극적인 목표를 가졌다고 진술하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1071,
-    "ko_pos": "NN",
-    "ko_lu": "군사.n.People_by_vocation",
-    "lu_id": 3832,
-    "en_lus": [
-        "soldier"
     ]
 }

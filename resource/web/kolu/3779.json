@@ -1,44 +1,63 @@
 {
-    "frameName": "Exemplar",
+    "ko_pos": "n",
+    "ko_lu": "방어자들.n.Defending",
+    "frameID": 1330,
+    "frameName": "Defending",
+    "en_lus": [
+        "defender"
+    ],
+    "lu_id": 3779,
     "patterns": [
         {
-            "valenceText": "annotation id: 12949",
+            "valenceText": "annotation id: 13145",
             "examples": [
                 {
-                    "frameName": "Exemplar",
+                    "origin_lus": [
+                        "defenders"
+                    ],
+                    "ko_annotation_id": 13145,
+                    "annotation_id": 3580,
+                    "frameName": "Defending",
                     "denotations": [
                         {
-                            "obj": "Instance",
+                            "id": 1,
+                            "obj": "Defending",
                             "span": {
-                                "begin": 12,
-                                "end": 33
-                            }
+                                "begin": 58,
+                                "end": 63
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "방어자들을"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Victim",
+                            "token_span": [
+                                9
+                            ],
                             "span": {
                                 "begin": 42,
-                                "end": 44
-                            }
+                                "end": 47
+                            },
+                            "text": "예루살렘의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "moderu .モデル"
+                    "sent_id": 670,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12949,
-                    "text": "저희의 경험으로부터, 어떻게 기업이 개입할 수 있을지에 대한 세가지 특정의 모델을 인식하고 있습니다.",
-                    "sent_id": 4008,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "방어자들.n.Defending",
+                    "text": "결국, 로마 장군 Titus는 서기 70년에 예루살렘을 포위하였고, 마침내 예루살렘의 굶주리고 허약해진 방어자들을 공격하였다."
                 }
             ]
         }
-    ],
-    "frameID": 2252,
-    "ko_pos": "NNG",
-    "ko_lu": "모델.n.Exemplar",
-    "lu_id": 3779,
-    "en_lus": [
-        "moderu .モデル"
     ]
 }

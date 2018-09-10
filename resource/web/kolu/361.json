@@ -1,52 +1,85 @@
 {
-    "frameName": "Public_services",
+    "ko_pos": "n",
+    "ko_lu": "화가.n.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "iradatu .苛立つ "
+    ],
+    "lu_id": 361,
     "patterns": [
         {
-            "valenceText": "annotation id: 922",
+            "valenceText": "annotation id: 10485",
             "examples": [
                 {
-                    "frameName": "Public_services",
+                    "origin_lus": [
+                        "iradatu .苛立つ "
+                    ],
+                    "ko_annotation_id": 10485,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
                     "denotations": [
                         {
-                            "obj": "domain",
+                            "id": 1,
+                            "obj": "Experiencer_focus",
                             "span": {
-                                "begin": 106,
-                                "end": 110
+                                "begin": 17,
+                                "end": 23
                             },
-                            "id": "2"
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "화가 났다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 106,
-                                "end": 110
+                                "begin": 0,
+                                "end": 13
                             },
-                            "id": "1"
+                            "text": "경찰의 의욕 없는 태도에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "services"
-                    ],
-                    "ko_annotation_id": 922,
-                    "text": "국제 원자력 기구가 현장을 감시하기 원하는 대로 접근이 혀용되는지에 대한 논쟁이 소용돌이 치면서 이란은 우라늄 농축 시설에 수천 개의 원심 분리기를 설치하기 위한 예비 작업을 시작하였다고, 통신사들이 오늘 보도하였다 ( GSN, 2월 1일 참조 )",
-                    "sent_id": 3271,
+                    "sent_id": 3781,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17367
+                    "lu": "화가.n.Experiencer_focus",
+                    "text": "경찰의 의욕 없는 태도에 나는 화가 났다."
                 }
             ]
         }
-    ],
-    "frameID": 1605,
-    "ko_pos": "NN",
-    "ko_lu": "통신사.n.Public_services",
-    "lu_id": 361,
-    "en_lus": [
-        "service"
     ]
 }

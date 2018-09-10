@@ -1,60 +1,82 @@
 {
-    "frameName": "Social_event",
+    "ko_pos": "v",
+    "ko_lu": "참여하다.v.Gathering_up",
+    "frameID": 260,
+    "frameName": "Gathering_up",
+    "en_lus": [
+        "atumeru .集める "
+    ],
+    "lu_id": 5133,
     "patterns": [
         {
-            "valenceText": "annotation id: 18057",
+            "valenceText": "annotation id: 16277",
             "examples": [
                 {
-                    "frameName": "Social_event",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 28,
-                                "end": 31
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "meeting"
+                        "atumeru .集める "
                     ],
-                    "ko_annotation_id": 18057,
-                    "text": "시험은 치명적인 사린 가스가 수십 명을 감염시키는 회의실에 방출될 때 어떻게 할 것인가였다.",
-                    "sent_id": 3169,
-                    "relations": [],
-                    "annotation_id": 16549
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.21775",
-            "examples": [
-                {
-                    "frameName": "Social_event",
+                    "ko_annotation_id": 16277,
+                    "annotation_id": 0,
+                    "frameName": "Gathering_up",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Gathering_up",
                             "span": {
-                                "begin": 9,
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "참여하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "강연회 후에,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Individuals",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
                                 "end": 12
                             },
-                            "id": "1"
+                            "text": "관계자가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "오늘은 간부들만 회의실에 모여서 대책회의를 했다.",
-                    "target": "회의실",
-                    "ko_annotation_id": "sejong.21775",
-                    "relations": []
+                    "sent_id": 3884,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "참여하다.v.Gathering_up",
+                    "text": "강연회 후에, 관계자가 참여하는 실제 사례 검토회 등을 열면, 관계자의 역량과 현장 실정도 파악할 수 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 125,
-    "ko_pos": "NN",
-    "ko_lu": "회의실.n.Social_event",
-    "lu_id": 5133,
-    "en_lus": [
-        "meeting"
     ]
 }

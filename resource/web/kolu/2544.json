@@ -1,65 +1,66 @@
 {
-    "frameName": "Commitment",
+    "ko_pos": "n",
+    "ko_lu": "사안.n.Trial",
+    "frameID": 201,
+    "frameName": "Trial",
+    "en_lus": [
+        "zian .事案"
+    ],
+    "lu_id": 2544,
     "patterns": [
         {
-            "valenceText": "annotation id: 8418",
+            "valenceText": "annotation id: 11489",
             "examples": [
                 {
-                    "frameName": "Commitment",
+                    "origin_lus": [
+                        "zian .事案"
+                    ],
+                    "ko_annotation_id": 11489,
+                    "annotation_id": 0,
+                    "frameName": "Trial",
                     "denotations": [
                         {
-                            "obj": "speaker",
+                            "id": 1,
+                            "obj": "Trial",
                             "span": {
-                                "begin": 0,
-                                "end": 1
+                                "begin": 7,
+                                "end": 9
                             },
-                            "id": "2"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "사안"
                         },
                         {
-                            "obj": "message",
+                            "id": 2,
+                            "obj": "Case",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 3,
-                                "end": 49
+                                "begin": 10,
+                                "end": 24
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 15,
-                                "end": 17
-                            },
-                            "id": "1"
+                            "text": "아들의 잘못은 부모 책임?",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "pledge"
-                    ],
-                    "ko_annotation_id": 8418,
-                    "text": "나는 성경과 Assuna를 지키고 이러한 사명에서 우리와 함께 헌신하는 형제들에게 헌신한다, 그래서 신이 나의 증인이다.",
-                    "sent_id": 1671,
+                    "sent_id": 4440,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8205
+                    "lu": "사안.n.Trial",
+                    "text": "이번에 다룰 사안 아들의 잘못은 부모 책임? 나카지마 씨의 아들 아케토 군 (차남・22세 학생・현재 하숙 중.)이, X사의 영업사원 되어 「영업실적을 올리기 위한 거니까 진짜로 사지 않더라도 사인만 해주면 돼요."
                 }
             ]
         }
-    ],
-    "frameID": 33,
-    "ko_pos": "VV",
-    "ko_lu": "지키다.v.Commitment",
-    "lu_id": 2544,
-    "en_lus": [
-        "pledge"
     ]
 }

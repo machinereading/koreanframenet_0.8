@@ -1,52 +1,104 @@
 {
-    "frameName": "Supply",
+    "ko_pos": "v",
+    "ko_lu": "받아들이다.v.Receiving",
+    "frameID": 411,
+    "frameName": "Receiving",
+    "en_lus": [
+        "accepted"
+    ],
+    "lu_id": 4684,
     "patterns": [
         {
-            "valenceText": "annotation id: 16364",
+            "valenceText": "annotation id: 16934",
             "examples": [
                 {
-                    "frameName": "Supply",
+                    "origin_lus": [
+                        "accepted"
+                    ],
+                    "ko_annotation_id": 16934,
+                    "annotation_id": 4721,
+                    "frameName": "Receiving",
                     "denotations": [
                         {
-                            "obj": "theme",
+                            "id": 1,
+                            "obj": "Receiving",
                             "span": {
                                 "begin": 32,
-                                "end": 33
+                                "end": 41
                             },
-                            "id": "2"
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "받아들여지고 있는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Purpose_Of_Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 34,
-                                "end": 36
+                                "begin": 0,
+                                "end": 11
                             },
-                            "id": "1"
+                            "text": "상품 값을 지불하는데",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 18
+                            },
+                            "text": "미국 달러가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 28
+                            },
+                            "text": "자마이카 달러처럼",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Suppliers"
-                    ],
-                    "ko_annotation_id": 16364,
-                    "text": "남아공은 1994년에 Zangger 위원회와 1995년에 핵 보급 그룹에 가입하였다.",
-                    "sent_id": 3024,
+                    "sent_id": 912,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 15613
+                    "lu": "받아들이다.v.Receiving",
+                    "text": "상품 값을 지불하는데 미국 달러가 자마이카 달러처럼 쉽게 받아들여지고 있는 것은 놀라운 일이 아니다."
                 }
             ]
         }
-    ],
-    "frameID": 1346,
-    "ko_pos": "NNG",
-    "ko_lu": "보급.n.Supply",
-    "lu_id": 4684,
-    "en_lus": [
-        "Suppliers"
     ]
 }

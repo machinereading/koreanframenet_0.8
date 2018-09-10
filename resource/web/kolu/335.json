@@ -1,65 +1,423 @@
 {
-    "frameName": "Claim_ownership",
+    "ko_pos": "v",
+    "ko_lu": "확신하다.v.Certainty",
+    "frameID": 141,
+    "frameName": "Certainty",
+    "en_lus": [
+        "sure"
+    ],
+    "lu_id": 335,
     "patterns": [
         {
-            "valenceText": "annotation id: 878",
+            "valenceText": "annotation id: 554",
             "examples": [
                 {
-                    "frameName": "Claim_ownership",
+                    "origin_lus": [
+                        "sure"
+                    ],
+                    "ko_annotation_id": 554,
+                    "annotation_id": 1172,
+                    "frameName": "Certainty",
                     "denotations": [
                         {
-                            "obj": "property",
-                            "span": {
-                                "begin": 4,
-                                "end": 7
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "claimant",
-                            "span": {
-                                "begin": 9,
-                                "end": 35
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Certainty",
                             "span": {
                                 "begin": 38,
-                                "end": 44
+                                "end": 41
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "claimed"
-                    ],
-                    "ko_annotation_id": 878,
-                    "text": "주 : 타이완은 중국 정부와 타이완 자치정부 모두가 자기의 소유라고 주장되고 있다.",
-                    "sent_id": 3111,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "확신할"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "당신은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 37
+                            },
+                            "text": "그것에 대해 들어보았을 것이라고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "annotation_id": 16239
+                    "sent_id": 218,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "확신하다.v.Certainty",
+                    "text": "만약 그러한 증거가 있다면, 당신은 그것에 대해 들어보았을 것이라고 확신할 수 있다"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 1161",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sure"
+                    ],
+                    "ko_annotation_id": 1161,
+                    "annotation_id": 2507,
+                    "frameName": "Certainty",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Certainty",
+                            "span": {
+                                "begin": 40,
+                                "end": 46
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "확신하는데,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 36
+                            },
+                            "text": "AOL은 그것이 여기에 설립되었다면 결코 존재하지 않았을 것이라고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 39
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Explanation",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 95
+                            },
+                            "text": "그 이유는 그곳의 종업원들이 디지털 지식층에 의해 애매하게 조롱당했을 것이기 때문이다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 477,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "확신하다.v.Certainty",
+                    "text": "AOL은 그것이 여기에 설립되었다면 결코 존재하지 않았을 것이라고 나는 확신하는데, 그 이유는 그곳의 종업원들이 디지털 지식층에 의해 애매하게 조롱당했을 것이기 때문이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4548",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sure"
+                    ],
+                    "ko_annotation_id": 4548,
+                    "annotation_id": 8272,
+                    "frameName": "Certainty",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Certainty",
+                            "span": {
+                                "begin": 44,
+                                "end": 49
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "확신한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 43
+                            },
+                            "text": "정권의 [ 종교 ] 학자들을 둘러싼 모든 이런 의심을 당신이 알고 있다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1694,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "확신하다.v.Certainty",
+                    "text": "나는 정권의 [ 종교 ] 학자들을 둘러싼 모든 이런 의심을 당신이 알고 있다고 확신한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 5048",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sure"
+                    ],
+                    "ko_annotation_id": 5048,
+                    "annotation_id": 9127,
+                    "frameName": "Certainty",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Certainty",
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "확신한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 12
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 29
+                            },
+                            "text": "네가 좋은 시간을 가질 것으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1892,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "확신하다.v.Certainty",
+                    "text": "27 RICH : 나는 네가 좋은 시간을 가질 것으로 확신한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 17313",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sure"
+                    ],
+                    "ko_annotation_id": 17313,
+                    "annotation_id": 18493,
+                    "frameName": "Certainty",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Certainty",
+                            "span": {
+                                "begin": 115,
+                                "end": 119
+                            },
+                            "token_span": [
+                                29
+                            ],
+                            "role": "TARGET",
+                            "text": "확신하기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "text": "우리가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24,
+                                25,
+                                26,
+                                27,
+                                28
+                            ],
+                            "span": {
+                                "begin": 64,
+                                "end": 114
+                            },
+                            "text": "이 주제에 관해 중국으로부터 최대 수준의 협력을 얻도록 우리가 할 수 있는 것은 다하였다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3529,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "확신하다.v.Certainty",
+                    "text": "우리는 중국의 주장들과 조치들이 우리가 그와 같은 자격을 옹호하기에 충분하다는 추가적인 확신이 필요하다 … 우리는 이 주제에 관해 중국으로부터 최대 수준의 협력을 얻도록 우리가 할 수 있는 것은 다하였다고 확신하기 원한다. [ 미 국무성, 일일 기자단 브리핑, 1997년 10월 14일. ]"
                 }
             ]
         }
-    ],
-    "frameID": 550,
-    "ko_pos": "VV",
-    "ko_lu": "주장되다.v.Claim_ownership",
-    "lu_id": 335,
-    "en_lus": [
-        "claimed"
     ]
 }

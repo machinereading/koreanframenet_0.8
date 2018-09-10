@@ -1,51 +1,64 @@
 {
-    "frameName": "Rashness",
+    "ko_pos": "v",
+    "ko_lu": "개선하다.v.Cause_change",
+    "frameID": 683,
+    "frameName": "Cause_change",
+    "en_lus": [
+        "kaeru .変える "
+    ],
+    "lu_id": 324,
     "patterns": [
         {
-            "valenceText": "annotation id: 865",
+            "valenceText": "annotation id: 16588",
             "examples": [
                 {
-                    "frameName": "Rashness",
+                    "origin_lus": [
+                        "kaeru .変える "
+                    ],
+                    "ko_annotation_id": 16588,
+                    "annotation_id": 0,
+                    "frameName": "Cause_change",
                     "denotations": [
                         {
-                            "obj": "Action",
+                            "id": 1,
+                            "obj": "Cause_change",
                             "span": {
-                                "begin": 18,
-                                "end": 26
-                            }
+                                "begin": 70,
+                                "end": 76
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "개선했는지,"
                         },
                         {
-                            "obj": "Protagonist",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                15,
+                                16
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 41
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 14,
-                                "end": 17
-                            }
+                                "begin": 63,
+                                "end": 69
+                            },
+                            "text": "재고 상태를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hitasura .ひたすら "
+                    "sent_id": 4613,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 865,
-                    "text": "작가가 작품을 완성하기를 잠자코 기다리기만 하는 것이 작가 에이전트는 아니다.",
-                    "sent_id": 3723,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "개선하다.v.Cause_change",
+                    "text": "창호지 담당이 아닌 분들은 재미가 없을지 모르나, 어떻게 애초의 상품구성 목표를 검증하고, 어떻게 진열을 바꾸어 재고 상태를 개선했는지, 실례를 보며 자신의 사업에 대입시켜 보면서 참고하기 바란다."
                 }
             ]
         }
-    ],
-    "frameID": 1581,
-    "ko_pos": "VV",
-    "ko_lu": "잠자다.v.Rashness",
-    "lu_id": 324,
-    "en_lus": [
-        "hitasura .ひたすら "
     ]
 }

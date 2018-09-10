@@ -1,52 +1,63 @@
 {
-    "frameName": "People_by_vocation",
+    "ko_pos": "n",
+    "ko_lu": "비행.n.Operational_testing",
+    "frameID": 1301,
+    "frameName": "Operational_testing",
+    "en_lus": [
+        "flight"
+    ],
+    "lu_id": 2313,
     "patterns": [
         {
-            "valenceText": "annotation id: 7500",
+            "valenceText": "annotation id: 7904",
             "examples": [
                 {
-                    "frameName": "People_by_vocation",
+                    "origin_lus": [
+                        "flight"
+                    ],
+                    "ko_annotation_id": 7904,
+                    "annotation_id": 14416,
+                    "frameName": "Operational_testing",
                     "denotations": [
                         {
-                            "obj": "employer",
+                            "id": 1,
+                            "obj": "Operational_testing",
                             "span": {
-                                "begin": 39,
-                                "end": 47
+                                "begin": 18,
+                                "end": 20
                             },
-                            "id": "2"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "비행"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 46,
-                                "end": 47
+                                "begin": 14,
+                                "end": 17
                             },
-                            "id": "1"
+                            "text": "미사일",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "soldiers"
-                    ],
-                    "ko_annotation_id": 7500,
-                    "text": "단체는 또한 이스라엘이 가자 지구 침입에 대한 위협을 실행에 옮긴다면 이스라엘 방위군에 대해 무기를 사용하겠다고 위협하였다. ( Jerusalem Post지, 06년 6월 25일, Khaled Abu Toameh ) ( Link )",
-                    "sent_id": 3263,
+                    "sent_id": 2838,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17294
+                    "lu": "비행.n.Operational_testing",
+                    "text": "1999년 9월, 평양은 미사일 비행 시험의 일시적 중단에 동의하였고 이후 평양은 적어도 2003년 까지 일시적 중단을 계속 유지할 것이라고 발표하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1071,
-    "ko_pos": "NNG",
-    "ko_lu": "군.n.People_by_vocation",
-    "lu_id": 2313,
-    "en_lus": [
-        "soldier"
     ]
 }

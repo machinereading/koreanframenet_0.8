@@ -1,65 +1,178 @@
 {
-    "frameName": "Supply",
+    "ko_pos": "n",
+    "ko_lu": "재고.n.Store",
+    "frameID": 1511,
+    "frameName": "Store",
+    "en_lus": [
+        "zaiko .在庫 ",
+        "inventory"
+    ],
+    "lu_id": 3447,
     "patterns": [
         {
-            "valenceText": "annotation id: 11775",
+            "valenceText": "annotation id: 6943",
             "examples": [
                 {
-                    "frameName": "Supply",
+                    "origin_lus": [
+                        "zaiko .在庫 ",
+                        "inventories"
+                    ],
+                    "ko_annotation_id": 6943,
+                    "annotation_id": 12641,
+                    "frameName": "Store",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Store",
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 46,
+                                "end": 49
                             },
-                            "id": "1"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "재고의"
                         },
                         {
-                            "obj": "theme",
+                            "id": 2,
+                            "obj": "Resource",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 71,
-                                "end": 73
+                                "begin": 6,
+                                "end": 45
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "recipient",
-                            "span": {
-                                "begin": 77,
-                                "end": 83
-                            },
-                            "id": "3"
+                            "text": "장거리 로케트 포 ( 예, Fair, Naeat 그리고 Zelzal )",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "fueled"
-                    ],
-                    "ko_annotation_id": 11775,
-                    "text": "비교적 부정확한 액체 추진 사일로 / cave 바탕의 미사일 ( DF -3, DF - 4, DF -5 ) 로부터 더 정확하고, 고체 추진 이동 미사일 ( DF -11, DF - 15, 그리고 DF -21, 그리고 현재 개발 중인 신형 대륙간 탄도 미사일 [ DF-31 ] 과 단거리 탄도 미사일 [ JL-2 ] 으로의 변천이 현재 진행 중이다.",
-                    "sent_id": 2120,
+                    "sent_id": 2529,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10525
+                    "lu": "재고.n.Store",
+                    "text": "신뢰할만한 장거리 로케트 포 ( 예, Fair, Naeat 그리고 Zelzal ) 재고의 추정치는 가용하지 않다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11679",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "zaiko .在庫 ",
+                        "inventories"
+                    ],
+                    "ko_annotation_id": 11679,
+                    "annotation_id": 0,
+                    "frameName": "Store",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Store",
+                            "span": {
+                                "begin": 83,
+                                "end": 86
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "재고를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Supply",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 83,
+                                "end": 86
+                            },
+                            "text": "재고를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4550,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "재고.n.Store",
+                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16599",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "zaiko .在庫 ",
+                        "inventories"
+                    ],
+                    "ko_annotation_id": 16599,
+                    "annotation_id": 0,
+                    "frameName": "Store",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Store",
+                            "span": {
+                                "begin": 63,
+                                "end": 65
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "재고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Supply",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 63,
+                                "end": 65
+                            },
+                            "text": "재고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4613,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "재고.n.Store",
+                    "text": "창호지 담당이 아닌 분들은 재미가 없을지 모르나, 어떻게 애초의 상품구성 목표를 검증하고, 어떻게 진열을 바꾸어 재고 상태를 개선했는지, 실례를 보며 자신의 사업에 대입시켜 보면서 참고하기 바란다."
                 }
             ]
         }
-    ],
-    "frameID": 1346,
-    "ko_pos": "NNG",
-    "ko_lu": "추진.n.Supply",
-    "lu_id": 3447,
-    "en_lus": [
-        "fuel"
     ]
 }

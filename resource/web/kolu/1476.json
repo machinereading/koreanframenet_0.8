@@ -1,74 +1,81 @@
 {
-    "frameName": "Judgment_communication",
+    "ko_pos": "v",
+    "ko_lu": "열리다.v.Becoming",
+    "frameID": 2971,
+    "frameName": "Becoming",
+    "en_lus": [
+        "naru .なる"
+    ],
+    "lu_id": 1476,
     "patterns": [
         {
-            "valenceText": "annotation id: 4717",
+            "valenceText": "annotation id: 12117",
             "examples": [
                 {
-                    "frameName": "Judgment_communication",
+                    "origin_lus": [
+                        "naru .なる"
+                    ],
+                    "ko_annotation_id": 12117,
+                    "annotation_id": 0,
+                    "frameName": "Becoming",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Becoming",
                             "span": {
-                                "begin": 4,
-                                "end": 13
+                                "begin": 12,
+                                "end": 16
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "열리고,"
                         },
                         {
-                            "obj": "evaluee",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 19
+                                "begin": 3,
+                                "end": 7
                             },
-                            "id": "2"
+                            "text": "개인전은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Final_Category",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "6월에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "acclaimed"
-                    ],
-                    "ko_annotation_id": 4717,
-                    "text": "중앙은 갈채를 받고 있는 음향 기기, 극장, 도서관, 전시 갤러리, 가게, 식당, 그리고 바를 갖춘 콘서트 홀을 포함하고 있다.",
-                    "sent_id": 1161,
+                    "sent_id": 4838,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 6084
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.6688",
-            "examples": [
-                {
-                    "frameName": "Judgment_communication",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 18,
-                                "end": 20
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "우리의 발표는 청중들로부터 많은 갈채를 받았다.",
-                    "target": "갈채",
-                    "ko_annotation_id": "sejong.6688",
-                    "relations": []
+                    "lu": "열리다.v.Becoming",
+                    "text": "이번 개인전은 6월에 열리고, 5월에는 단체전과, 첫 시도로써 여자유도 개인전이 열렸다."
                 }
             ]
         }
-    ],
-    "frameID": 219,
-    "ko_pos": "NNG",
-    "ko_lu": "갈채.n.Judgment_communication",
-    "lu_id": 1476,
-    "en_lus": [
-        "acclaim"
     ]
 }

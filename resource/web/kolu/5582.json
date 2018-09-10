@@ -1,44 +1,63 @@
 {
-    "frameName": "Political_locales",
+    "ko_pos": "a",
+    "ko_lu": "끔찍하다.a.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "osorosii .恐ろしい "
+    ],
+    "lu_id": 5582,
     "patterns": [
         {
-            "valenceText": "annotation id: 19759",
+            "valenceText": "annotation id: 10973",
             "examples": [
                 {
-                    "frameName": "Political_locales",
+                    "origin_lus": [
+                        "osorosii .恐ろしい "
+                    ],
+                    "ko_annotation_id": 10973,
+                    "annotation_id": 0,
+                    "frameName": "Emotion_directed",
                     "denotations": [
                         {
-                            "obj": "Name",
+                            "id": 1,
+                            "obj": "Emotion_directed",
                             "span": {
-                                "begin": 20,
-                                "end": 27
-                            }
+                                "begin": 2,
+                                "end": 5
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "끔찍한"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 27
-                            }
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "사고를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ken .県 "
+                    "sent_id": 4093,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19759,
-                    "text": "당신도 개와 대화할 수 있다!-우선 가나가와 현・가와사키 시에 있는「다카에스 동물 애호 병원」에서는, 매우 독특한 치료 광경을 볼 수 있습니다.",
-                    "sent_id": 4203,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "끔찍하다.a.Emotion_directed",
+                    "text": "이 끔찍한 사고를 아름다운 것으로 바꾸고 싶었던 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 195,
-    "ko_pos": "NNG",
-    "ko_lu": "현・.n.Political_locales",
-    "lu_id": 5582,
-    "en_lus": [
-        "ken .県 "
     ]
 }

@@ -1,74 +1,83 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "a",
+    "ko_lu": "부정하다.a.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "deny"
+    ],
+    "lu_id": 4301,
     "patterns": [
         {
-            "valenceText": "annotation id: 14830",
+            "valenceText": "annotation id: 3464",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "deny"
+                    ],
+                    "ko_annotation_id": 3464,
+                    "annotation_id": 6539,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "ground",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 32,
-                                "end": 36
+                                "begin": 23,
+                                "end": 27
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "부정하지"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 37,
-                                "end": 39
+                                "begin": 0,
+                                "end": 8
                             },
-                            "id": "1"
+                            "text": "러시아 관리들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 19
+                            },
+                            "text": "연구는 계속되었다는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "near"
-                    ],
-                    "ko_annotation_id": 14830,
-                    "text": "한 시간 후, 신문 유통 매니저인 Migel Soler가 그의 집 근처에서 총살되었다.",
-                    "sent_id": 1977,
+                    "sent_id": 1307,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 9562
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.25699",
-            "examples": [
-                {
-                    "frameName": "Locative_relation",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 8,
-                                "end": 10
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "짐작컨대 그  근처에 있는 다른 봉분에 관한 내용인 듯하였다.",
-                    "target": "근처",
-                    "ko_annotation_id": "sejong.25699",
-                    "relations": []
+                    "lu": "부정하다.a.Statement",
+                    "text": "러시아 관리들은 연구는 계속되었다는 것을 부정하지 않지만 그것은 화학무기금지협약에 의해 금지되지 않은 목적인, 화학무기에 맞서는 방어용 개발을 목적으로 한다고 주장한다."
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "NNG",
-    "ko_lu": "근처.n.Locative_relation",
-    "lu_id": 4301,
-    "en_lus": [
-        "near"
     ]
 }

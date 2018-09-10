@@ -1,38 +1,63 @@
 {
-    "frameName": "Manufacturing",
+    "ko_pos": "n",
+    "ko_lu": "해상.n.Relational_natural_features",
+    "frameID": 1490,
+    "frameName": "Relational_natural_features",
+    "en_lus": [
+        "kaizyoo .海上 "
+    ],
+    "lu_id": 2073,
     "patterns": [
         {
-            "valenceText": "annotation id: 6588",
+            "valenceText": "annotation id: 11806",
             "examples": [
                 {
-                    "frameName": "Manufacturing",
+                    "origin_lus": [
+                        "kaizyoo .海上 "
+                    ],
+                    "ko_annotation_id": 11806,
+                    "annotation_id": 0,
+                    "frameName": "Relational_natural_features",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Relational_natural_features",
                             "span": {
-                                "begin": 47,
-                                "end": 50
+                                "begin": 19,
+                                "end": 23
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "해상이나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Focal_Feature",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "text": "해상이나",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "industrial"
+                    "sent_id": 4646,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6588,
-                    "text": "이란의 광범위한 화학무기 프로그램은 주장에 의하면 그럴듯한 위장으로 정교한 약학 및 농공용 회사를 이용하여 감추어진다.",
-                    "sent_id": 2224,
-                    "relations": [],
-                    "annotation_id": 11110
+                    "lu": "해상.n.Relational_natural_features",
+                    "text": "여기서 말하는 「육상 다발기」란, 해상이나 호면에서 이착륙할 수 있는 수상기와 달리, 통상적인 활주로를 사용해 이착륙하는 비행기를 가리키는 용어로 이해해주시기 바란다."
                 }
             ]
         }
-    ],
-    "frameID": 408,
-    "ko_pos": "NN",
-    "ko_lu": "농공용.n.Manufacturing",
-    "lu_id": 2073,
-    "en_lus": [
-        "industrial"
     ]
 }

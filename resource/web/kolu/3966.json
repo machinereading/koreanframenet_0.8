@@ -1,96 +1,100 @@
 {
-    "frameName": "Desiring",
+    "ko_pos": "v",
+    "ko_lu": "분류하다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "do"
+    ],
+    "lu_id": 3966,
     "patterns": [
         {
-            "valenceText": "annotation id: 13527",
+            "valenceText": "annotation id: 12559",
             "examples": [
                 {
-                    "frameName": "Desiring",
+                    "origin_lus": [
+                        "doing"
+                    ],
+                    "ko_annotation_id": 12559,
+                    "annotation_id": 859,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "event",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 41,
-                                "end": 44
+                                "begin": 97,
+                                "end": 101
                             },
-                            "id": "2"
+                            "token_span": [
+                                25
+                            ],
+                            "role": "TARGET",
+                            "text": "분류하고"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                18
+                            ],
                             "span": {
-                                "begin": 45,
-                                "end": 48
+                                "begin": 65,
+                                "end": 68
                             },
-                            "id": "1"
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                23
+                            ],
+                            "span": {
+                                "begin": 85,
+                                "end": 90
+                            },
+                            "text": "주차장에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Act",
+                            "token_span": [
+                                24,
+                                25
+                            ],
+                            "span": {
+                                "begin": 91,
+                                "end": 101
+                            },
+                            "text": "부상자들을 분류하고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "desired"
-                    ],
-                    "ko_annotation_id": 13527,
-                    "text": "그러나,관련  전문가, 장비, 그리고 방법론은 본질적으로 군민 양용이고, 그래서 필요하면 생각컨데 불법 목적에 적용될 수 있다.",
-                    "sent_id": 2191,
+                    "sent_id": 151,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 10933
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.103755",
-            "examples": [
-                {
-                    "frameName": "Desiring",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 20,
-                                "end": 24
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그런 일을 하는 사람에게는 이 책이 필요하다.",
-                    "target": "필요하다",
-                    "ko_annotation_id": "sejong.103755",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.103756",
-            "examples": [
-                {
-                    "frameName": "Desiring",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 18,
-                                "end": 22
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "철수같은 사람은 우리 사회에 꼭 필요하다.",
-                    "target": "필요하다",
-                    "ko_annotation_id": "sejong.103756",
-                    "relations": []
+                    "lu": "분류하다.v.Intentionally_act",
+                    "text": "오전 4시 2분 SHIBUMI : 다시 전기가 공급되고 UCSF { 메디칼 센터 }는 밤에는 조용해지는 것 같다 ( 그들은 그 소리와 주차장의 불빛으로 주차장에서 부상자들을 분류하고 응급처치를 하였다 )."
                 }
             ]
         }
-    ],
-    "frameID": 366,
-    "ko_pos": "VA",
-    "ko_lu": "필요하다.a.Desiring",
-    "lu_id": 3966,
-    "en_lus": [
-        "desire"
     ]
 }

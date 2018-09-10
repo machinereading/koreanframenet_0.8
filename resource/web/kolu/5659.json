@@ -1,44 +1,85 @@
 {
-    "frameName": "Kinship",
+    "ko_pos": "n",
+    "ko_lu": "감정.n.Feeling",
+    "frameID": 396,
+    "frameName": "Feeling",
+    "en_lus": [
+        "feeling",
+        "kanzyoo .感情"
+    ],
+    "lu_id": 5659,
     "patterns": [
         {
-            "valenceText": "annotation id: 19969",
+            "valenceText": "annotation id: 192",
             "examples": [
                 {
-                    "frameName": "Kinship",
+                    "origin_lus": [
+                        "feelings",
+                        "kanzyoo .感情"
+                    ],
+                    "ko_annotation_id": 192,
+                    "annotation_id": 357,
+                    "frameName": "Feeling",
                     "denotations": [
                         {
-                            "obj": "Ego",
+                            "id": 1,
+                            "obj": "Feeling",
                             "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
+                                "begin": 56,
+                                "end": 59
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "감정을"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "교구 목사 Marshall은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Evaluation",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 55
+                            },
+                            "text": "착잡한",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kakee .家系"
+                    "sent_id": 55,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19969,
-                    "text": "나카타 가문은, 현재 동경 내리마 구 일대 대부분의 땅을, 대대로 소유해온 대지주였다.",
-                    "sent_id": 4778,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "감정.n.Feeling",
+                    "text": "교구 목사 Marshall은 자신이 교구 목사이고 현역 종지기이기 때문에 이러한 문제에 관해 착잡한 감정을 시인한다."
                 }
             ]
         }
-    ],
-    "frameID": 104,
-    "ko_pos": "NNG",
-    "ko_lu": "가문.n.Kinship",
-    "lu_id": 5659,
-    "en_lus": [
-        "kakee .家系"
     ]
 }

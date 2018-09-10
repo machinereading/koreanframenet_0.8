@@ -1,38 +1,104 @@
 {
-    "frameName": "Cause_to_amalgamate",
+    "ko_pos": "v",
+    "ko_lu": "이주하다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "move"
+    ],
+    "lu_id": 2871,
     "patterns": [
         {
-            "valenceText": "annotation id: 9485",
+            "valenceText": "annotation id: 16881",
             "examples": [
                 {
-                    "frameName": "Cause_to_amalgamate",
+                    "origin_lus": [
+                        "moved"
+                    ],
+                    "ko_annotation_id": 16881,
+                    "annotation_id": 2959,
+                    "frameName": "Motion",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Motion",
                             "span": {
-                                "begin": 92,
-                                "end": 96
+                                "begin": 32,
+                                "end": 37
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "이주하였고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Purpose",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "이에 대응하기 위해,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "text": "주민들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Source",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 31
+                            },
+                            "text": "해안에 있는 그들의 집에서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "bring"
+                    "sent_id": 561,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 9485,
-                    "text": "1997년 1월에, 이란은 이란 생명 공학 협회 ( IBS ) 라 불리는 조직을 만들었는데, 이것은 생명 공학 관련 연구에 중점을 두는 여러 연구소와 개인들을 함께 가져오는 통솔 기구로서의 역할을 한다.",
-                    "sent_id": 2170,
-                    "relations": [],
-                    "annotation_id": 10817
+                    "lu": "이주하다.v.Motion",
+                    "text": "이에 대응하기 위해, 주민들이 해안에 있는 그들의 집에서 이주하였고 습격하는 일당들의 눈에 띄지 않는 내륙에 정착지를 건설하였다."
                 }
             ]
         }
-    ],
-    "frameID": 13,
-    "ko_pos": "VV",
-    "ko_lu": "가져오다.v.Cause_to_amalgamate",
-    "lu_id": 2871,
-    "en_lus": [
-        "bring"
     ]
 }

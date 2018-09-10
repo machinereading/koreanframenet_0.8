@@ -1,60 +1,84 @@
 {
-    "frameName": "Statement",
+    "ko_pos": "v",
+    "ko_lu": "함께하다.v.Evaluative_comparison",
+    "frameID": 353,
+    "frameName": "Evaluative_comparison",
+    "en_lus": [
+        "narabu .並ぶ "
+    ],
+    "lu_id": 4525,
     "patterns": [
         {
-            "valenceText": "annotation id: 15690",
+            "valenceText": "annotation id: 11286",
             "examples": [
                 {
-                    "frameName": "Statement",
+                    "origin_lus": [
+                        "narabu .並ぶ "
+                    ],
+                    "ko_annotation_id": 11286,
+                    "annotation_id": 0,
+                    "frameName": "Evaluative_comparison",
                     "denotations": [
                         {
-                            "obj": "Message",
+                            "id": 1,
+                            "obj": "Evaluative_comparison",
                             "span": {
-                                "begin": 0,
-                                "end": 4
-                            }
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "함께"
                         },
                         {
-                            "obj": "Speaker",
+                            "id": 2,
+                            "obj": "Profiled_Item",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 5,
-                                "end": 8
-                            }
+                                "begin": 3,
+                                "end": 12
+                            },
+                            "text": "이 주변 일대는,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Message",
+                            "id": 3,
+                            "obj": "Comparison_Set",
+                            "token_span": [
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 59,
-                                "end": 61
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 63,
-                                "end": 65
-                            }
+                                "begin": 13,
+                                "end": 25
+                            },
+                            "text": "시나가와의 스즈가모리와",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "noberu .述べる ",
-                        "iu .言う "
+                    "sent_id": 4300,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15690,
-                    "text": "저기요, 선생님, 좋은 점인가요? 나쁜 점이라면 얼마든지 있거든요…라고 말씀하시는 어머님들이 많으십니다…」이렇게 말씀드리면, 대개는 관중석에서 왁자한 웃음소리가 터집니다.",
-                    "sent_id": 3589,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "함께하다.v.Evaluative_comparison",
+                    "text": "원래 이 주변 일대는, 시나가와의 스즈가모리와 함께 에도막부의 처형장(사형장.)으로, 고즈캇파라라 불렸습니다."
                 }
             ]
         }
-    ],
-    "frameID": 43,
-    "ko_pos": "NNG",
-    "ko_lu": "말씀.n.Statement",
-    "lu_id": 4525,
-    "en_lus": [
-        "iu .言う ",
-        "noberu .述べる "
     ]
 }

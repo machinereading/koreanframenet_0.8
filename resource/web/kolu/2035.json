@@ -1,88 +1,98 @@
 {
-    "frameName": "Degree",
+    "ko_pos": "n",
+    "ko_lu": "엄마.n.Kinship",
+    "frameID": 104,
+    "frameName": "Kinship",
+    "en_lus": [
+        "Mom",
+        "mother"
+    ],
+    "lu_id": 2035,
     "patterns": [
         {
-            "valenceText": "annotation id: 6460",
+            "valenceText": "annotation id: 3318",
             "examples": [
                 {
-                    "frameName": "Degree",
+                    "origin_lus": [
+                        "mother",
+                        "Mom"
+                    ],
+                    "ko_annotation_id": 3318,
+                    "annotation_id": 6308,
+                    "frameName": "Kinship",
                     "denotations": [
                         {
-                            "obj": "Gradable_attribute",
+                            "id": 1,
+                            "obj": "Kinship",
                             "span": {
-                                "begin": 23,
-                                "end": 24
-                            }
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "엄마가"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Ego",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 22
-                            }
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "그들의",
+                            "role": "ARGUMENT"
                         }
                     ],
+                    "sent_id": 1248,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "엄마.n.Kinship",
+                    "text": "그녀가 난소암으로 죽기 전에 그들의 엄마가 유전자 테스트를 가졌다는 것을 아는 두 자매는 그녀의 테스트 결과를 알기 원한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12845",
+            "examples": [
+                {
                     "origin_lus": [
-                        "zutto .ずっと "
+                        "mother",
+                        "Mom"
                     ],
-                    "ko_annotation_id": 6460,
-                    "text": "그런데, 이 신사의 숲에는 말이지, 오래 전부터, 여우 모자가 살고 있었대.",
-                    "sent_id": 3705,
+                    "ko_annotation_id": 12845,
+                    "annotation_id": 2303,
+                    "frameName": "Kinship",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Kinship",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "엄마와"
+                        }
+                    ],
+                    "sent_id": 439,
                     "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.104575",
-            "examples": [
-                {
-                    "frameName": "Degree",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 20,
-                                "end": 23
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그 일이 있고난 뒤로 흘러간 세월이 오래다.",
-                    "target": "오래다",
-                    "ko_annotation_id": "sejong.104575",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.104576",
-            "examples": [
-                {
-                    "frameName": "Degree",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 20,
-                                "end": 23
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "추억 속에 그를 묻고 살아온 시간도 오래다.",
-                    "target": "오래다",
-                    "ko_annotation_id": "sejong.104576",
-                    "relations": []
+                    "lu": "엄마.n.Kinship",
+                    "text": "엄마와 아빠의 목숨을 앗아 간 인디애나폴리의 최근의 살해 - 자살 후 집을 잃은, Tracy와 Kerry 같은 더 나이 든 아이들."
                 }
             ]
         }
-    ],
-    "frameID": 2001,
-    "ko_pos": "VA",
-    "ko_lu": "오래다.a.Degree",
-    "lu_id": 2035,
-    "en_lus": [
-        "zutto .ずっと "
     ]
 }

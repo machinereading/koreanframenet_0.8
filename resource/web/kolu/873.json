@@ -1,78 +1,154 @@
 {
-    "frameName": "Commercial_transaction",
+    "ko_pos": "v",
+    "ko_lu": "부활시키다.v.Cause_to_resume",
+    "frameID": 1372,
+    "frameName": "Cause_to_resume",
+    "en_lus": [
+        "revive"
+    ],
+    "lu_id": 873,
     "patterns": [
         {
-            "valenceText": "annotation id: 2614",
+            "valenceText": "annotation id: 6445",
             "examples": [
                 {
-                    "frameName": "Commercial_transaction",
+                    "origin_lus": [
+                        "revived"
+                    ],
+                    "ko_annotation_id": 6445,
+                    "annotation_id": 11771,
+                    "frameName": "Cause_to_resume",
                     "denotations": [
                         {
-                            "obj": "goods",
+                            "id": 1,
+                            "obj": "Cause_to_resume",
                             "span": {
-                                "begin": 5,
-                                "end": 18
+                                "begin": 24,
+                                "end": 29
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "부활시키고"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 10,
+                                "end": 13
                             },
-                            "id": "1"
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Process",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 23
+                            },
+                            "text": "원자력 프로그램을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "transactions"
-                    ],
-                    "ko_annotation_id": 2614,
-                    "text": "그러나, 여러가지 민군 겸용 물질의 거래 보고는 공개적으로 알려졌다.",
-                    "sent_id": 2332,
+                    "sent_id": 2341,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 11719
+                    "lu": "부활시키다.v.Cause_to_resume",
+                    "text": "1979년 혁명은 이란이 원자력 프로그램을 부활시키고 전해지는 바에 의하면 핵무기 프로그램을 위한 은밀한 조달을 시작했던, 1984년 까지 모든 핵을 위한 노력을 끝냈다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 2615",
+            "valenceText": "annotation id: 10037",
             "examples": [
                 {
-                    "frameName": "Commercial_transaction",
+                    "origin_lus": [
+                        "revived"
+                    ],
+                    "ko_annotation_id": 10037,
+                    "annotation_id": 18549,
+                    "frameName": "Cause_to_resume",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Cause_to_resume",
                             "span": {
-                                "begin": 54,
-                                "end": 56
+                                "begin": 23,
+                                "end": 27
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "부활시킨"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 22
+                            },
+                            "text": "대통령 Virgilla Barco가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Process",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "text": "인도 협정에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "transactions"
+                    "sent_id": 3538,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2615,
-                    "text": "북한으로부터 탄도 미사일을 구매하기 위한 2003년의 미얀마 계회에 대한 소문이 있었으나, 어떤 거래가 완료되었는지는 불명확하다.",
-                    "sent_id": 2835,
-                    "relations": [],
-                    "annotation_id": 14397
+                    "lu": "부활시키다.v.Cause_to_resume",
+                    "text": "그는 대통령 Virgilla Barco가 부활시킨 인도 협정에 따라 재판을 위해 아마도 미국으로 인도될 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 177,
-    "ko_pos": "NNG",
-    "ko_lu": "거래.n.Commercial_transaction",
-    "lu_id": 873,
-    "en_lus": [
-        "transaction"
     ]
 }

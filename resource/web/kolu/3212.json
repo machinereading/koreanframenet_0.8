@@ -1,52 +1,123 @@
 {
-    "frameName": "Part_inner_outer",
+    "ko_pos": "v",
+    "ko_lu": "강화하다.v.Cause_to_amalgamate",
+    "frameID": 13,
+    "frameName": "Cause_to_amalgamate",
+    "en_lus": [
+        "consolidated"
+    ],
+    "lu_id": 3212,
     "patterns": [
         {
-            "valenceText": "annotation id: 10887",
+            "valenceText": "annotation id: 2027",
             "examples": [
                 {
-                    "frameName": "Part_inner_outer",
+                    "origin_lus": [
+                        "consolidated"
+                    ],
+                    "ko_annotation_id": 2027,
+                    "annotation_id": 4105,
+                    "frameName": "Cause_to_amalgamate",
                     "denotations": [
                         {
-                            "obj": "whole",
+                            "id": 1,
+                            "obj": "Cause_to_amalgamate",
                             "span": {
-                                "begin": 45,
-                                "end": 64
+                                "begin": 46,
+                                "end": 52
                             },
-                            "id": "2"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "강화하였다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 62,
-                                "end": 64
+                                "begin": 0,
+                                "end": 6
                             },
-                            "id": "1"
+                            "text": "그리고 나서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 21
+                            },
+                            "text": "Union Pacific은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Means",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 41
+                            },
+                            "text": "라스 베이거스 수리 시설을 제거하여",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Parts",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "text": "운영을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "center"
-                    ],
-                    "ko_annotation_id": 10887,
-                    "text": "1905년 초에, 로스앤젤레스와 솔트레이크시티 사이의 길은 완성되었졌고, 철로는 Las Vegas Valley 센터의 바로 아래로 뚫렸다.",
-                    "sent_id": 772,
+                    "sent_id": 785,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4035
+                    "lu": "강화하다.v.Cause_to_amalgamate",
+                    "text": "그리고 나서 Union Pacific은 라스 베이거스 수리 시설을 제거하여 운영을 강화하였다."
                 }
             ]
         }
-    ],
-    "frameID": 327,
-    "ko_pos": "NNG",
-    "ko_lu": "센터.n.Part_inner_outer",
-    "lu_id": 3212,
-    "en_lus": [
-        "center"
     ]
 }

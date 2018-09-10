@@ -1,109 +1,975 @@
 {
-    "frameName": "Likelihood",
+    "ko_pos": "n",
+    "ko_lu": "때문.n.Causation",
+    "frameID": 5,
+    "frameName": "Causation",
+    "en_lus": [
+        "since",
+        "Because of",
+        "because",
+        "Since",
+        "Because"
+    ],
+    "lu_id": 3502,
     "patterns": [
         {
-            "valenceText": "annotation id: 11928",
+            "valenceText": "annotation id: 26",
             "examples": [
                 {
-                    "frameName": "Likelihood",
+                    "origin_lus": [
+                        "Because",
+                        "Because of",
+                        "since",
+                        "because",
+                        "Since"
+                    ],
+                    "ko_annotation_id": 26,
+                    "annotation_id": 36,
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "obj": "hypothetical_event",
+                            "id": 1,
+                            "obj": "Causation",
                             "span": {
-                                "begin": 0,
-                                "end": 15
+                                "begin": 29,
+                                "end": 33
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "때문에,"
                         },
                         {
-                            "obj": "hypothetical_event",
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 17,
-                                "end": 48
+                                "begin": 4,
+                                "end": 28
                             },
-                            "id": "3"
+                            "text": "이들 청구는 평가하기가 더 어렵고 더 느리기",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
                             "span": {
-                                "begin": 44,
-                                "end": 47
+                                "begin": 34,
+                                "end": 69
                             },
-                            "id": "1"
+                            "text": "회사는 4분기 실적에 대한 지진의 영향을 예측하지 못하고 있다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "might"
-                    ],
-                    "ko_annotation_id": 11928,
-                    "text": "특정 테러리스트 단체나 개인이 다른 종류의 무기에 비해 화학 생물무기의 사용을 선호하는 몇 가지 이유들이 있다.",
-                    "sent_id": 2035,
+                    "sent_id": 6,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9920
+                    "lu": "때문.n.Causation",
+                    "text": "그러나 이들 청구는 평가하기가 더 어렵고 더 느리기 때문에, 회사는 4분기 실적에 대한 지진의 영향을 예측하지 못하고 있다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.67436",
+            "valenceText": "annotation id: 851",
             "examples": [
                 {
-                    "frameName": "Likelihood",
+                    "origin_lus": [
+                        "Because",
+                        "Because of",
+                        "since",
+                        "because",
+                        "Since"
+                    ],
+                    "ko_annotation_id": 851,
+                    "annotation_id": 1736,
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Causation",
                             "span": {
-                                "begin": 10,
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "때문에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "사람들이 일하기를 원하기",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 317,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "때문.n.Causation",
+                    "text": "사람들이 일하기를 원하기 때문에"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 1179",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Because",
+                        "Because of",
+                        "since",
+                        "because",
+                        "Since"
+                    ],
+                    "ko_annotation_id": 1179,
+                    "annotation_id": 2528,
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 49,
+                                "end": 52
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "때문에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 48
+                            },
+                            "text": "힘의 균형이 다시 이동한다는 것은 분명하기",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 86
+                            },
+                            "text": "판사가 무엇을 하는가는 거의 중요하지 않다고 나는 생각한다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 481,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "때문.n.Causation",
+                    "text": "그것이 어디에 이를 것인지 분명하지 않지만, 힘의 균형이 다시 이동한다는 것은 분명하기 때문에 판사가 무엇을 하는가는 거의 중요하지 않다고 나는 생각한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 2122",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Because",
+                        "Because of",
+                        "since",
+                        "because",
+                        "Since"
+                    ],
+                    "ko_annotation_id": 2122,
+                    "annotation_id": 4252,
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "때문에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Effect",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
                                 "end": 14
                             },
-                            "obj": "target"
+                            "text": "다른 할리우드 스타들 또한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 40
+                            },
+                            "text": "라스 베이거스가 그저 꼭 가봐야 하는 곳이였기",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "나는 식사로 빵을 선호한다.",
-                    "target": "선호한다",
-                    "ko_annotation_id": "sejong.67436",
-                    "relations": []
+                    "sent_id": 817,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "때문.n.Causation",
+                    "text": "다른 할리우드 스타들 또한 라스 베이거스가 그저 꼭 가봐야 하는 곳이였기 때문에 왔다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.67437",
+            "valenceText": "annotation id: 2154",
             "examples": [
                 {
-                    "frameName": "Likelihood",
+                    "origin_lus": [
+                        "Because",
+                        "Because of",
+                        "since",
+                        "because",
+                        "Since"
+                    ],
+                    "ko_annotation_id": 2154,
+                    "annotation_id": 4296,
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Causation",
                             "span": {
-                                "begin": 16,
-                                "end": 20
+                                "begin": 34,
+                                "end": 38
                             },
-                            "obj": "target"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "때문에,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 33
+                            },
+                            "text": "라스 베이거스가 Hughes의 투자로부터 얻은 새로운 적법성",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 82
+                            },
+                            "text": "Hilton 호텔과 같이 확실히 자리를 잡은 회사들은 도박 사업체를 사들였고,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "중국 사람들도 유달리 아들을 선호하는 경향이 있다.",
-                    "target": "선호하는",
-                    "ko_annotation_id": "sejong.67437",
-                    "relations": []
+                    "sent_id": 829,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "때문.n.Causation",
+                    "text": "라스 베이거스가 Hughes의 투자로부터 얻은 새로운 적법성 때문에, Hilton 호텔과 같이 확실히 자리를 잡은 회사들은 도박 사업체를 사들였고, 그리고 그들의 영향은 합법적인 사업체들과 불법적으로 이익을 훔치는 것이 만연하던 마피아 카지노들 사이에 사막 모래에서 선을 긋도록 도왔다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12697",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Because",
+                        "Because of",
+                        "since",
+                        "because",
+                        "Since"
+                    ],
+                    "ko_annotation_id": 12697,
+                    "annotation_id": 1593,
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 62,
+                                "end": 66
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "때문에,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 61
+                            },
+                            "text": "국회의 하원에서는 지역의 이익 추구와 관련된 문제들은 더 중요하고 국가정책 결정과 관련된 문제들은 덜 중요하기",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24,
+                                25,
+                                26,
+                                27
+                            ],
+                            "span": {
+                                "begin": 67,
+                                "end": 122
+                            },
+                            "text": "공화당원들이 민주당원들보다 지역의 이익 추구에 덜 개입한다면 이는 우리가 정확히 예상하는 패턴이다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 287,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "때문.n.Causation",
+                    "text": "국회의 하원에서는 지역의 이익 추구와 관련된 문제들은 더 중요하고 국가정책 결정과 관련된 문제들은 덜 중요하기 때문에, 공화당원들이 민주당원들보다 지역의 이익 추구에 덜 개입한다면 이는 우리가 정확히 예상하는 패턴이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12809",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Because",
+                        "Because of",
+                        "since",
+                        "because",
+                        "Since"
+                    ],
+                    "ko_annotation_id": 12809,
+                    "annotation_id": 2165,
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "때문에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 47
+                            },
+                            "text": "많은 초보적인 일자리가 포함되지 않는 혜택을 실업으로부터 얻을 수 있기",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                14,
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 74
+                            },
+                            "text": "제도는 일할 의욕을 꺾는다는 것이다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 413,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "때문.n.Causation",
+                    "text": "그들의 불평은 많은 초보적인 일자리가 포함되지 않는 혜택을 실업으로부터 얻을 수 있기 때문에 이 제도는 일할 의욕을 꺾는다는 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12882",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Because",
+                        "Because of",
+                        "since",
+                        "because",
+                        "Since"
+                    ],
+                    "ko_annotation_id": 12882,
+                    "annotation_id": 2445,
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 89,
+                                "end": 92
+                            },
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "때문에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 21
+                            },
+                            "text": "일류 신문을 표준으로 사용하여,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 30
+                            },
+                            "text": "이것의 대부분은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Cause",
+                            "token_span": [
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 65,
+                                "end": 83
+                            },
+                            "text": "그것은 주로 우리가 반복하고 있는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Effect",
+                            "token_span": [
+                                23,
+                                24,
+                                25
+                            ],
+                            "span": {
+                                "begin": 93,
+                                "end": 102
+                            },
+                            "text": "사용될 수 없다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 466,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "때문.n.Causation",
+                    "text": "물론, 일류 신문을 표준으로 사용하여, 이것의 대부분은 그것이 분명히 일부 아주 좋은 이야기를 만들 수 있을지라도, 그것은 주로 우리가 반복하고 있는 소문이기 때문에 사용될 수 없다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12895",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Because",
+                        "Because of",
+                        "since",
+                        "because",
+                        "Since"
+                    ],
+                    "ko_annotation_id": 12895,
+                    "annotation_id": 2537,
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 69,
+                                "end": 72
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "때문에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 95
+                            },
+                            "text": "인터넷은 어떤 기업도 지배하기를 허용되지 않는 강한 회사들의 과잉 및 기업들의 복잡한 상호 연결을 허용하고 격려하기 때문에 이들 중 어떤 회사도 강자가 되지 않을까",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 483,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "때문.n.Causation",
+                    "text": "아니면 인터넷은 어떤 기업도 지배하기를 허용되지 않는 강한 회사들의 과잉 및 기업들의 복잡한 상호 연결을 허용하고 격려하기 때문에 이들 중 어떤 회사도 강자가 되지 않을까 ?"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13785",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Because",
+                        "Because of",
+                        "since",
+                        "because",
+                        "Since"
+                    ],
+                    "ko_annotation_id": 13785,
+                    "annotation_id": 7190,
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 105,
+                                "end": 108
+                            },
+                            "token_span": [
+                                23
+                            ],
+                            "role": "TARGET",
+                            "text": "때문에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 104
+                            },
+                            "text": "이락에 대한 인도주의적인 상황에 대해 오랫동안 들었고, 특히 이라크 어린이들 사이의 영양 실조와 어린이와 노인층의 증가하는 사망률에 대해 들었기",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                24,
+                                25
+                            ],
+                            "span": {
+                                "begin": 109,
+                                "end": 117
+                            },
+                            "text": "이라크에 왔다고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1507,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "때문.n.Causation",
+                    "text": "Mansour 호텔의 입구에서, Hall은 이락에 대한 인도주의적인 상황에 대해 오랫동안 들었고, 특히 이라크 어린이들 사이의 영양 실조와 어린이와 노인층의 증가하는 사망률에 대해 들었기 때문에 이라크에 왔다고 간결하게 말하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15657",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Because",
+                        "Because of",
+                        "since",
+                        "because",
+                        "Since"
+                    ],
+                    "ko_annotation_id": 15657,
+                    "annotation_id": 16488,
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 54,
+                                "end": 56
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "했기"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 53
+                            },
+                            "text": " 많은 참가자들이 매 시간 변화하는 증상으로 여러 번 거쳐야",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21
+                            ],
+                            "span": {
+                                "begin": 57,
+                                "end": 78
+                            },
+                            "text": "때문에 약 500 명의 환자들이 실제로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3157,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "때문.n.Causation",
+                    "text": "약 350 명이 훈련에 참여했지만,  많은 참가자들이 매 시간 변화하는 증상으로 여러 번 거쳐야 했기 때문에 약 500 명의 환자들이 실제로 처리되었다."
                 }
             ]
         }
-    ],
-    "frameID": 114,
-    "ko_pos": "VV",
-    "ko_lu": "선호하다.v.Likelihood",
-    "lu_id": 3502,
-    "en_lus": [
-        "might"
     ]
 }

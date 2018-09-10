@@ -1,52 +1,98 @@
 {
-    "frameName": "Volubility",
+    "ko_pos": "n",
+    "ko_lu": "거처.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "housing",
+        "shelter"
+    ],
+    "lu_id": 1534,
     "patterns": [
         {
-            "valenceText": "annotation id: 4853",
+            "valenceText": "annotation id: 1898",
             "examples": [
                 {
-                    "frameName": "Volubility",
+                    "origin_lus": [
+                        "shelters",
+                        "housing"
+                    ],
+                    "ko_annotation_id": 1898,
+                    "annotation_id": 3906,
+                    "frameName": "Buildings",
                     "denotations": [
                         {
-                            "obj": "speaker",
+                            "id": 1,
+                            "obj": "Buildings",
                             "span": {
-                                "begin": 57,
-                                "end": 59
+                                "begin": 56,
+                                "end": 60
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "거처에서"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                13
+                            ],
                             "span": {
-                                "begin": 61,
-                                "end": 64
+                                "begin": 51,
+                                "end": 55
                             },
-                            "id": "1"
+                            "text": "영구적인",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "silent"
-                    ],
-                    "ko_annotation_id": 4853,
-                    "text": "Somerset, Ilminster의 St. Mary's 교회에서는 교회 참석에 대한 논쟁이 있은 후 종들이 조용해졌다.",
-                    "sent_id": 51,
+                    "sent_id": 743,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 335
+                    "lu": "거처.n.Buildings",
+                    "text": "이것은 Anasazi가 진보된 사회의 수준점 -- 야생 동물을 따라갈 필요 없이 일년 내내 영구적인 거처에서 살 수 있는 능력에 도달하도록 허용하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12833",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "shelters",
+                        "housing"
+                    ],
+                    "ko_annotation_id": 12833,
+                    "annotation_id": 2245,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 69,
+                                "end": 72
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "거처를"
+                        }
+                    ],
+                    "sent_id": 428,
+                    "relations": [],
+                    "lu": "거처.n.Buildings",
+                    "text": "약간의 시간이 걸리고 어려운 일이었지만 Goodwill의 도움으로, Jerry는 검찰과 함께 지불 계획을 성공적으로 세우고 거처를 찾고 더 철저한 일자리 찾기를 할 수 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 44,
-    "ko_pos": "VA",
-    "ko_lu": "조용하다.a.Volubility",
-    "lu_id": 1534,
-    "en_lus": [
-        "silent"
     ]
 }

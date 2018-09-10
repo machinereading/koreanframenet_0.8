@@ -1,51 +1,114 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "n",
+    "ko_lu": "의원.n.Membership",
+    "frameID": 1026,
+    "frameName": "Membership",
+    "en_lus": [
+        "member"
+    ],
+    "lu_id": 5059,
     "patterns": [
         {
-            "valenceText": "annotation id: 17771",
+            "valenceText": "annotation id: 701",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "members"
+                    ],
+                    "ko_annotation_id": 701,
+                    "annotation_id": 1468,
+                    "frameName": "Membership",
                     "denotations": [
                         {
-                            "obj": "Figure",
+                            "id": 1,
+                            "obj": "Membership",
                             "span": {
-                                "begin": 0,
-                                "end": 4
-                            }
+                                "begin": 47,
+                                "end": 52
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "의원들보다"
                         },
                         {
-                            "obj": "Ground",
+                            "id": 2,
+                            "obj": "Group",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 11
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 15,
-                                "end": 17
-                            }
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "text": "의회의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tikai .近い"
+                    "sent_id": 270,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 17771,
-                    "text": "다이비루는 그의 회사에서는 가깝다.",
-                    "sent_id": 3716,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "의원.n.Membership",
+                    "text": "3 ) 그들의 최소주의 국가 신봉 때문에, 공화당 의회 대표들은 의회의 민주당 출신 의원들보다 지역의 이익을 추구하는데 덜 개입하려고 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10004",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "members"
+                    ],
+                    "ko_annotation_id": 10004,
+                    "annotation_id": 18501,
+                    "frameName": "Membership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Membership",
+                            "span": {
+                                "begin": 26,
+                                "end": 33
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "국회의원들에게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Group",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 33
+                            },
+                            "text": "국회의원들에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3530,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "의원.n.Membership",
+                    "text": "워싱턴 포스트지는 Robert Einhorn이 국회의원들에게 중국은 이란에 우라늄 전환 시설에 대해 제시된 판매를 취소하였음을 말했다고 전하였다."
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "VA",
-    "ko_lu": "가깝다.a.Locative_relation",
-    "lu_id": 5059,
-    "en_lus": [
-        "tikai .近い"
     ]
 }

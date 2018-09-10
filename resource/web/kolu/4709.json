@@ -1,65 +1,216 @@
 {
-    "frameName": "Political_locales",
+    "ko_pos": "v",
+    "ko_lu": "팔리다.v.Commerce_sell",
+    "frameID": 172,
+    "frameName": "Commerce_sell",
+    "en_lus": [
+        "ureru .売れる"
+    ],
+    "lu_id": 4709,
     "patterns": [
         {
-            "valenceText": "annotation id: 16515",
+            "valenceText": "annotation id: 11607",
             "examples": [
                 {
-                    "frameName": "Political_locales",
+                    "origin_lus": [
+                        "ureru .売れる"
+                    ],
+                    "ko_annotation_id": 11607,
+                    "annotation_id": 0,
+                    "frameName": "Commerce_sell",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Commerce_sell",
                             "span": {
-                                "begin": 13,
-                                "end": 15
+                                "begin": 15,
+                                "end": 18
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "팔리는"
                         },
                         {
-                            "obj": "null",
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 17
+                                "begin": 19,
+                                "end": 22
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "cop",
-                            "span": {
-                                "begin": 16,
-                                "end": 17
-                            },
-                            "id": "3"
+                            "text": "상품을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "state"
-                    ],
-                    "ko_annotation_id": 16515,
-                    "text": "아무튼 그것을 하는 한 주가 있다.",
-                    "sent_id": 1898,
+                    "sent_id": 4502,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9142
+                    "lu": "팔리다.v.Commerce_sell",
+                    "text": "그렇다면, 영업력이 없어도 팔리는 상품을 만들면 된다는 말이 된다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11685",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ureru .売れる"
+                    ],
+                    "ko_annotation_id": 11685,
+                    "annotation_id": 0,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 73,
+                                "end": 75
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "팔릴"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 73,
+                                "end": 75
+                            },
+                            "text": "팔릴",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 83,
+                                "end": 86
+                            },
+                            "text": "재고를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4550,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "팔리다.v.Commerce_sell",
+                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11687",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ureru .売れる"
+                    ],
+                    "ko_annotation_id": 11687,
+                    "annotation_id": 0,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 78,
+                                "end": 82
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "팔릴만한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 83,
+                                "end": 86
+                            },
+                            "text": "재고를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4550,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "팔리다.v.Commerce_sell",
+                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12231",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "ureru .売れる"
+                    ],
+                    "ko_annotation_id": 12231,
+                    "annotation_id": 0,
+                    "frameName": "Commerce_sell",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Commerce_sell",
+                            "span": {
+                                "begin": 3,
+                                "end": 11
+                            },
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "팔릴 것이라고는"
+                        }
+                    ],
+                    "sent_id": 4910,
+                    "relations": [],
+                    "lu": "팔리다.v.Commerce_sell",
+                    "text": "물론 팔릴 것이라고는 생각하지 않지만…."
                 }
             ]
         }
-    ],
-    "frameID": 195,
-    "ko_pos": "NNG",
-    "ko_lu": "주가.n.Political_locales",
-    "lu_id": 4709,
-    "en_lus": [
-        "state"
     ]
 }

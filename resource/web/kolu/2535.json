@@ -1,74 +1,85 @@
 {
-    "frameName": "Gizmo",
+    "ko_pos": "v",
+    "ko_lu": "열다.v.Body_movement",
+    "frameID": 16,
+    "frameName": "Body_movement",
+    "en_lus": [
+        "open"
+    ],
+    "lu_id": 2535,
     "patterns": [
         {
-            "valenceText": "annotation id: 8395",
+            "valenceText": "annotation id: 5010",
             "examples": [
                 {
-                    "frameName": "Gizmo",
+                    "origin_lus": [
+                        "opened"
+                    ],
+                    "ko_annotation_id": 5010,
+                    "annotation_id": 9063,
+                    "frameName": "Body_movement",
                     "denotations": [
                         {
-                            "obj": "use",
+                            "id": 1,
+                            "obj": "Body_movement",
                             "span": {
-                                "begin": 6,
-                                "end": 8
+                                "begin": 19,
+                                "end": 21
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "열지"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 9,
+                                "begin": 0,
                                 "end": 11
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "systems"
-                    ],
-                    "ko_annotation_id": 8395,
-                    "text": "이들 각종 무기 체계의 획득과 제조는 또한 이란 - 이라크 전쟁 동안 화학 및 미사일 공격의 희생자로서 이란 자신의 경험에 반응한 것으로 보여질 수 있다.",
-                    "sent_id": 2338,
-                    "relations": [
+                            "text": "그의 부족 중 아무도",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 11742
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.30926",
-            "examples": [
-                {
-                    "frameName": "Gizmo",
-                    "denotations": [
-                        {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 16,
+                                "begin": 12,
                                 "end": 18
                             },
-                            "id": "1"
+                            "text": "자기의 입을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 과학적 언어연구를 위한 체계를 수립하였다.",
-                    "target": "체계",
-                    "ko_annotation_id": "sejong.30926",
-                    "relations": []
+                    "sent_id": 1871,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "열다.v.Body_movement",
+                    "text": "그의 부족 중 아무도 자기의 입을 열지 않았고, 대신에 그들은 더 두렵고 더 약해졌다."
                 }
             ]
         }
-    ],
-    "frameID": 106,
-    "ko_pos": "NNG",
-    "ko_lu": "체계.n.Gizmo",
-    "lu_id": 2535,
-    "en_lus": [
-        "system"
     ]
 }

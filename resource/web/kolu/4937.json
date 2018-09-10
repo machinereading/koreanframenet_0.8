@@ -1,96 +1,100 @@
 {
-    "frameName": "Possession",
+    "ko_pos": "n",
+    "ko_lu": "실존.n.Existence",
+    "frameID": 660,
+    "frameName": "Existence",
+    "en_lus": [
+        "existence"
+    ],
+    "lu_id": 4937,
     "patterns": [
         {
-            "valenceText": "annotation id: 17407",
+            "valenceText": "annotation id: 13159",
             "examples": [
                 {
-                    "frameName": "Possession",
+                    "origin_lus": [
+                        "existence"
+                    ],
+                    "ko_annotation_id": 13159,
+                    "annotation_id": 3608,
+                    "frameName": "Existence",
                     "denotations": [
                         {
-                            "obj": "possession",
+                            "id": 1,
+                            "obj": "Existence",
                             "span": {
-                                "begin": 0,
-                                "end": 21
+                                "begin": 15,
+                                "end": 18
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "실존은"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "State",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 23,
-                                "end": 26
+                                "begin": 0,
+                                "end": 8
                             },
-                            "id": "1"
+                            "text": "영적인 도시로서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "text": "예루살렘의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "State",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "실존은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "lack"
-                    ],
-                    "ko_annotation_id": 17407,
-                    "text": "일반적으로 받아들여지는 테러리즘의 정의가 결여되어 있기 때문에 정치 지도자들은 선전 목적으로 그 용어를  조작할 수 있다.",
-                    "sent_id": 2020,
+                    "sent_id": 678,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 9823
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.90061",
-            "examples": [
-                {
-                    "frameName": "Possession",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 5,
-                                "end": 9
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "자신감이 결여되다 보니 계획대로 일이 될 리가 없다.",
-                    "target": "결여되다",
-                    "ko_annotation_id": "sejong.90061",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.90062",
-            "examples": [
-                {
-                    "frameName": "Possession",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 17,
-                                "end": 23
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "아무리 좋은 얘기라도 객관성이 결여되어서는 남을 설득할 수가 없다.",
-                    "target": "결여되어서는",
-                    "ko_annotation_id": "sejong.90062",
-                    "relations": []
+                    "lu": "실존.n.Existence",
+                    "text": "영적인 도시로서 예루살렘의 실존은 끝난 것처럼 보였으나, 유대인과 분투하는 새로운 기독교 신앙을 위한 그곳의 영적인 힘은 남아있었다."
                 }
             ]
         }
-    ],
-    "frameID": 118,
-    "ko_pos": "VV",
-    "ko_lu": "결여되다.v.Possession",
-    "lu_id": 4937,
-    "en_lus": [
-        "lack"
     ]
 }

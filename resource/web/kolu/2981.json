@@ -1,76 +1,140 @@
 {
-    "frameName": "Medical_conditions",
+    "ko_pos": "a",
+    "ko_lu": "못하다.a.Capability",
+    "frameID": 990,
+    "frameName": "Capability",
+    "en_lus": [
+        "dekiru .できる "
+    ],
+    "lu_id": 2981,
     "patterns": [
         {
-            "valenceText": "annotation id: 9767",
+            "valenceText": "annotation id: 11518",
             "examples": [
                 {
-                    "frameName": "Medical_conditions",
+                    "origin_lus": [
+                        "dekiru .できる "
+                    ],
+                    "ko_annotation_id": 11518,
+                    "annotation_id": 0,
+                    "frameName": "Capability",
                     "denotations": [
                         {
-                            "obj": "Body_Part",
+                            "id": 1,
+                            "obj": "Capability",
                             "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "못한다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 7,
-                                "end": 9
-                            }
+                                "begin": 0,
+                                "end": 19
+                            },
+                            "text": "화장실에서 만족스럽게 용무를 보지도",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "gaisyoo .外傷"
+                    "sent_id": 4450,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 9767,
-                    "text": "각지에 「뇌 외상 친우회」 및 관련 단체가 결성되어 가는 가운데, 가족 단체의 권고로 장애 연금, 장애인 수첩의 취득률도 오르고 있어, 작년의 해당 단체의 조사에 따르면, 장애인 수첩을 가지고 있지 않은 사람은 약 20%로 나타났다.",
-                    "sent_id": 4112,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "못하다.a.Capability",
+                    "text": "화장실에서 만족스럽게 용무를 보지도 못한다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 9768",
+            "valenceText": "annotation id: 16328",
             "examples": [
                 {
-                    "frameName": "Medical_conditions",
+                    "origin_lus": [
+                        "dekiru .できる "
+                    ],
+                    "ko_annotation_id": 16328,
+                    "annotation_id": 0,
+                    "frameName": "Capability",
                     "denotations": [
                         {
-                            "obj": "Body_Part",
+                            "id": 1,
+                            "obj": "Capability",
                             "span": {
-                                "begin": 18,
-                                "end": 19
-                            }
+                                "begin": 49,
+                                "end": 53
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "못한다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 22
-                            }
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "사과라는 단어를 줘도,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 48
+                            },
+                            "text": "사과의 붉은 색을 떠올리지는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "gaisyoo .外傷"
+                    "sent_id": 4044,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 9768,
-                    "text": "하지만, 전국에는 아직도 많은, 뇌 외상 당사자들이 있고, 아무런 지원도 받지 못한 채, 수많은 가족이, 곤경에 처해있는 것으로 보인다.",
-                    "sent_id": 4220,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "못하다.a.Capability",
+                    "text": "사과라는 단어를 줘도, 떠올릴 수 있는 것은 사과의 모양뿐 사과의 붉은 색을 떠올리지는 못한다."
                 }
             ]
         }
-    ],
-    "frameID": 239,
-    "ko_pos": "NNG",
-    "ko_lu": "외상.n.Medical_conditions",
-    "lu_id": 2981,
-    "en_lus": [
-        "gaisyoo .外傷"
     ]
 }

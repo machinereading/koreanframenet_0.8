@@ -1,65 +1,63 @@
 {
-    "frameName": "Possession",
+    "ko_pos": "n",
+    "ko_lu": "판결.n.Verdict",
+    "frameID": 318,
+    "frameName": "Verdict",
+    "en_lus": [
+        "verdict"
+    ],
+    "lu_id": 1625,
     "patterns": [
         {
-            "valenceText": "annotation id: 5109",
+            "valenceText": "annotation id: 5119",
             "examples": [
                 {
-                    "frameName": "Possession",
+                    "origin_lus": [
+                        "verdict"
+                    ],
+                    "ko_annotation_id": 5119,
+                    "annotation_id": 9238,
+                    "frameName": "Verdict",
                     "denotations": [
                         {
-                            "obj": "owner",
+                            "id": 1,
+                            "obj": "Verdict",
                             "span": {
-                                "begin": 0,
-                                "end": 10
+                                "begin": 13,
+                                "end": 16
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "판결이"
                         },
                         {
-                            "obj": "possession",
+                            "id": 2,
+                            "obj": "Null",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 70
+                                "begin": 17,
+                                "end": 19
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 72,
-                                "end": 73
-                            },
-                            "id": "1"
+                            "text": "있을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "have"
-                    ],
-                    "ko_annotation_id": 5109,
-                    "text": "이 모든 연구 분야는 작물 수확량 향상과 해충과 질병으로 제기되는 이란의 농업 산업에 대한 위협 감소에 합법적이고 중요한 이용이 된다.",
-                    "sent_id": 2190,
+                    "sent_id": 1916,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10927
+                    "lu": "판결.n.Verdict",
+                    "text": "어, 내가 이해하기로는 판결이 있을 때, 그리고 예를 들어, 여기 Fort Worth 에서는 오전 8시부터 오후 4시까지 이틀간 지루한 배심이 있었고 그리고 그 사람은 마침내 석방 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 118,
-    "ko_pos": "VA",
-    "ko_lu": "되다.a.Possession",
-    "lu_id": 1625,
-    "en_lus": [
-        "have"
     ]
 }

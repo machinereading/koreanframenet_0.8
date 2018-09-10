@@ -1,52 +1,85 @@
 {
-    "frameName": "Age",
+    "ko_pos": "n",
+    "ko_lu": "운.n.Luck",
+    "frameID": 1811,
+    "frameName": "Luck",
+    "en_lus": [
+        "fortuitous"
+    ],
+    "lu_id": 5132,
     "patterns": [
         {
-            "valenceText": "annotation id: 18056",
+            "valenceText": "annotation id: 2047",
             "examples": [
                 {
-                    "frameName": "Age",
+                    "origin_lus": [
+                        "fortuitous"
+                    ],
+                    "ko_annotation_id": 2047,
+                    "annotation_id": 4125,
+                    "frameName": "Luck",
                     "denotations": [
                         {
-                            "obj": "age",
+                            "id": 1,
+                            "obj": "Luck",
                             "span": {
-                                "begin": 18,
-                                "end": 21
+                                "begin": 32,
+                                "end": 36
                             },
-                            "id": "2"
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "운 좋게"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 26
+                                "begin": 23,
+                                "end": 31
                             },
-                            "id": "1"
+                            "text": "라스 베이거스가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 48
+                            },
+                            "text": "콜로라도 강과 근접해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "old"
-                    ],
-                    "ko_annotation_id": 18056,
-                    "text": "Lewinsky 이야기가 나온지 얼마되지 않았던 지난 주에, Stephanopoulos는 갑자기 Good Morning America에 나타나 우려를 나타냈다.",
-                    "sent_id": 1008,
+                    "sent_id": 788,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5303
+                    "lu": "운.n.Luck",
+                    "text": "그러나 남서부의 증가하는 물 수요와 함께 라스 베이거스가 운 좋게 콜로라도 강과 근접해 있음이 라스 베이거스에 두번 째 번영을 성취할 기회를 주었다."
                 }
             ]
         }
-    ],
-    "frameID": 972,
-    "ko_pos": "VA",
-    "ko_lu": "되다.a.Age",
-    "lu_id": 5132,
-    "en_lus": [
-        "old"
     ]
 }

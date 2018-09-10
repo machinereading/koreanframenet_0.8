@@ -1,60 +1,81 @@
 {
-    "frameName": "Education_teaching",
+    "ko_pos": "v",
+    "ko_lu": "밟다.v.Self_motion",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "en_lus": [
+        "tread"
+    ],
+    "lu_id": 4518,
     "patterns": [
         {
-            "valenceText": "annotation id: 15681",
+            "valenceText": "annotation id: 3738",
             "examples": [
                 {
-                    "frameName": "Education_teaching",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 7,
-                                "end": 11
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "graduates"
+                        "treading"
                     ],
-                    "ko_annotation_id": 15681,
-                    "text": "그리고 젊은 졸업생들은 이제 떠나지 않고 있다 -- 다국적 기업과 유럽 연합 투자는 본국에 그들을 위한 충분한 기회가 있음을 뜻한다.",
-                    "sent_id": 1004,
-                    "relations": [],
-                    "annotation_id": 5292
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41954",
-            "examples": [
-                {
-                    "frameName": "Education_teaching",
+                    "ko_annotation_id": 3738,
+                    "annotation_id": 6967,
+                    "frameName": "Self_motion",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Self_motion",
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 66,
+                                "end": 68
                             },
-                            "id": "1"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "밟고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 41
+                            },
+                            "text": "오스트리아는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Area",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 61,
+                                "end": 65
+                            },
+                            "text": "발가락을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "올해는 많은 졸업생이 대기업에 취업했다.",
-                    "target": "졸업생",
-                    "ko_annotation_id": "sejong.41954",
-                    "relations": []
+                    "sent_id": 1461,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "밟다.v.Self_motion",
+                    "text": "한때 유럽 연합으로 순조롭게 왈츠 추듯 들어갈 것으로 기대했던 오스트리아는 그의 파트너들을 팔꿈치로 밀치고, 발가락을 밟고 그리고 전혀 비엔나풍이 아닌 스타일로 포고 댄싱을 하고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 111,
-    "ko_pos": "NN",
-    "ko_lu": "졸업생.n.Education_teaching",
-    "lu_id": 4518,
-    "en_lus": [
-        "graduate"
     ]
 }

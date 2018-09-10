@@ -1,38 +1,101 @@
 {
-    "frameName": "Text",
+    "ko_pos": "v",
+    "ko_lu": "강탈되다.v.Conquering",
+    "frameID": 2021,
+    "frameName": "Conquering",
+    "en_lus": [
+        "take"
+    ],
+    "lu_id": 2117,
     "patterns": [
         {
-            "valenceText": "annotation id: 6824",
+            "valenceText": "annotation id: 12983",
             "examples": [
                 {
-                    "frameName": "Text",
+                    "origin_lus": [
+                        "taken"
+                    ],
+                    "ko_annotation_id": 12983,
+                    "annotation_id": 2944,
+                    "frameName": "Conquering",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Conquering",
                             "span": {
-                                "begin": 43,
-                                "end": 44
+                                "begin": 26,
+                                "end": 32
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "강탈되었고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "콘스탄티노플은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 14
+                            },
+                            "text": "1204년에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Conqueror",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 25
+                            },
+                            "text": "십자군 세력에 의해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "poetry"
+                    "sent_id": 559,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6824,
-                    "text": "전통적인 아일랜드 음악은 특히 술집에서 또한 살아있고 잘 되며 이야기 하기, 시 낭독, 그리고 전통 춤의 부활도 있었다.",
-                    "sent_id": 981,
-                    "relations": [],
-                    "annotation_id": 5118
+                    "lu": "강탈되다.v.Conquering",
+                    "text": "콘스탄티노플은 1204년에 십자군 세력에 의해 강탈되었고, 많은 서적과 필사본들이 도시가 함락하기 전에 Patmos의 수도원으로 옮겨졌지만, 십자군 세력은 지금은 베니스의 공공 건물을 장식하는 이 도시의 많은 가장 우수한 보물들을 약탈하였다."
                 }
             ]
         }
-    ],
-    "frameID": 298,
-    "ko_pos": "NNG",
-    "ko_lu": "시.n.Text",
-    "lu_id": 2117,
-    "en_lus": [
-        "poetry"
     ]
 }

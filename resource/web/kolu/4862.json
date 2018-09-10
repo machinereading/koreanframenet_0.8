@@ -1,52 +1,104 @@
 {
-    "frameName": "Aggregate",
+    "ko_pos": "v",
+    "ko_lu": "울리다.v.Perception_experience",
+    "frameID": 70,
+    "frameName": "Perception_experience",
+    "en_lus": [
+        "kikoeru .聴こえる "
+    ],
+    "lu_id": 4862,
     "patterns": [
         {
-            "valenceText": "annotation id: 17006",
+            "valenceText": "annotation id: 11257",
             "examples": [
                 {
-                    "frameName": "Aggregate",
+                    "origin_lus": [
+                        "kikoeru .聴こえる "
+                    ],
+                    "ko_annotation_id": 11257,
+                    "annotation_id": 0,
+                    "frameName": "Perception_experience",
                     "denotations": [
                         {
-                            "obj": "aggregateproperty",
+                            "id": 1,
+                            "obj": "Perception_experience",
                             "span": {
-                                "begin": 42,
-                                "end": 45
+                                "begin": 35,
+                                "end": 39
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "울렸다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 46,
-                                "end": 48
+                                "begin": 0,
+                                "end": 9
                             },
-                            "id": "1"
+                            "text": "류이치의 목소리가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Direction",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 19
+                            },
+                            "text": "목욕탕 속에서부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 34
+                            },
+                            "text": "소리치고 있는 것처럼 웅웅",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "assemblies"
-                    ],
-                    "ko_annotation_id": 17006,
-                    "text": "ENTC는 소형 중성자 원자로 ( MNSR ), 다른 연구 원자로, 그리고 미임계 장치의 본거지이다.",
-                    "sent_id": 2659,
+                    "sent_id": 4266,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 13316
+                    "lu": "울리다.v.Perception_experience",
+                    "text": "류이치의 목소리가 목욕탕 속에서부터 소리치고 있는 것처럼 웅웅 울렸다."
                 }
             ]
         }
-    ],
-    "frameID": 103,
-    "ko_pos": "NNG",
-    "ko_lu": "장치.n.Aggregate",
-    "lu_id": 4862,
-    "en_lus": [
-        "assembly"
     ]
 }

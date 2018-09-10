@@ -1,78 +1,163 @@
 {
-    "frameName": "Arriving",
+    "ko_pos": "v",
+    "ko_lu": "기억하다.v.Memory",
+    "frameID": 135,
+    "frameName": "Memory",
+    "en_lus": [
+        "remember",
+        "Remember"
+    ],
+    "lu_id": 3674,
     "patterns": [
         {
-            "valenceText": "annotation id: 12569",
+            "valenceText": "annotation id: 889",
             "examples": [
                 {
-                    "frameName": "Arriving",
+                    "origin_lus": [
+                        "Remember"
+                    ],
+                    "ko_annotation_id": 889,
+                    "annotation_id": 1856,
+                    "frameName": "Memory",
                     "denotations": [
                         {
-                            "obj": "place",
+                            "id": 1,
+                            "obj": "Memory",
+                            "span": {
+                                "begin": 26,
+                                "end": 31
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "기억하나?"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 21
+                                "end": 25
                             },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "theme",
-                            "span": {
-                                "begin": 24,
-                                "end": 26
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "goal",
-                            "span": {
-                                "begin": 28,
-                                "end": 30
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 32,
-                                "end": 35
-                            },
-                            "id": "1"
+                            "text": "그녀가 나의 마지막 편지에 무엇을 말하였는가를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "come"
-                    ],
-                    "ko_annotation_id": 12569,
-                    "text": "Star Ferry 터미널의 바로 동쪽에서 당신은 시청에 다다를 것이다.",
-                    "sent_id": 1048,
+                    "sent_id": 340,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5481
+                    "lu": "기억하다.v.Memory",
+                    "text": "그녀가 나의 마지막 편지에 무엇을 말하였는가를 기억하나?"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12632",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "remember"
+                    ],
+                    "ko_annotation_id": 12632,
+                    "annotation_id": 1125,
+                    "frameName": "Memory",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Memory",
+                            "span": {
+                                "begin": 45,
+                                "end": 48
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "기억할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "text": "우리 모두는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experience",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 21
+                            },
+                            "text": "학창 시절의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Content",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 44
+                            },
+                            "text": "한두 분의 참으로 영감을 주는 선생님들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 207,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기억하다.v.Memory",
+                    "text": "그렇다, 우리 모두는 우리 학창 시절의 한두 분의 참으로 영감을 주는 선생님들을 기억할 수 있다."
                 }
             ]
         }
-    ],
-    "frameID": 54,
-    "ko_pos": "VV",
-    "ko_lu": "다다르다.v.Arriving",
-    "lu_id": 3674,
-    "en_lus": [
-        "come"
     ]
 }

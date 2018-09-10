@@ -1,52 +1,121 @@
 {
-    "frameName": "Political_locales",
+    "ko_pos": "v",
+    "ko_lu": "당선되다.v.Bringing",
+    "frameID": 240,
+    "frameName": "Bringing",
+    "en_lus": [
+        "brought"
+    ],
+    "lu_id": 4382,
     "patterns": [
         {
-            "valenceText": "annotation id: 15199",
+            "valenceText": "annotation id: 729",
             "examples": [
                 {
-                    "frameName": "Political_locales",
+                    "origin_lus": [
+                        "brought"
+                    ],
+                    "ko_annotation_id": 729,
+                    "annotation_id": 1549,
+                    "frameName": "Bringing",
                     "denotations": [
                         {
-                            "obj": "name",
+                            "id": 1,
+                            "obj": "Bringing",
                             "span": {
-                                "begin": 0,
-                                "end": 7
+                                "begin": 39,
+                                "end": 43
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "당선되고"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 7
+                                "begin": 23,
+                                "end": 31
                             },
-                            "id": "1"
+                            "text": "레이건 혁명으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 38
+                            },
+                            "text": "1980년에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 43
+                            },
+                            "text": "당선되고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Theme",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 59,
+                                "end": 73
+                            },
+                            "text": "52명의 신참 공화당 의원",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "cities"
-                    ],
-                    "ko_annotation_id": 15199,
-                    "text": "강계와 삭주시에 위치한 두 개의 주요 공장은 전해지는 바에 의하면 80 밀리미터와 그 이상은 물론, 240 밀리미터 구경의 포병 로케트 포탄에 화학무기 작용제의 최종 준비, 채우기, 그리고 배분 임무를 맡고 있다.",
-                    "sent_id": 2772,
+                    "sent_id": 280,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 14015
+                    "lu": "당선되다.v.Bringing",
+                    "text": "이러한 최근의 추세에 대한 하나의 예외는 레이건 혁명으로 1980년에 당선되고 1982년에 재선에 출마한 52명의 신참 공화당 의원 중 13명이  패배한 것이었다."
                 }
             ]
         }
-    ],
-    "frameID": 195,
-    "ko_pos": "NNP",
-    "ko_lu": "삭주시.n.Political_locales",
-    "lu_id": 4382,
-    "en_lus": [
-        "city"
     ]
 }

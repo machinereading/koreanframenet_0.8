@@ -1,73 +1,101 @@
 {
-    "frameName": "Rank",
+    "ko_pos": "v",
+    "ko_lu": "듣다.v.Hearsay",
+    "frameID": 37,
+    "frameName": "Hearsay",
+    "en_lus": [
+        "hears"
+    ],
+    "lu_id": 2925,
     "patterns": [
         {
-            "valenceText": "annotation id: 9620",
+            "valenceText": "annotation id: 663",
             "examples": [
                 {
-                    "frameName": "Rank",
-                    "denotations": [
-                        {
-                            "obj": "Rank",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
-                        },
-                        {
-                            "obj": "Item",
-                            "span": {
-                                "begin": 13,
-                                "end": 19
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "orenzi obi .オレンジ 帯 "
+                        "hears"
                     ],
-                    "ko_annotation_id": 9620,
-                    "text": "시합은 주황 띠 이상의 여성 유도인을 대상으로 예선을 치뤄, 출장 선수를 16명으로 추린 후, 제1회전, 2회전, 준결승전이 열렸으며, 결국 애디슨 부인(파랑 띠)과 루바니에 부인(갈색 띠)이 결승전에서 대결하게 되었다.",
-                    "sent_id": 4305,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.42346",
-            "examples": [
-                {
-                    "frameName": "Rank",
+                    "ko_annotation_id": 663,
+                    "annotation_id": 1393,
+                    "frameName": "Hearsay",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Hearsay",
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 49,
+                                "end": 56
                             },
-                            "id": "1"
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "듣지 않는다는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hearer",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "text": "사람이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 45
+                            },
+                            "text": "그것에 관해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Message",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 48
+                            },
+                            "text": "거의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "빨강에 노랑을 더하면 주황이 된다.",
-                    "target": "주황",
-                    "ko_annotation_id": "sejong.42346",
-                    "relations": []
+                    "sent_id": 257,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "듣다.v.Hearsay",
+                    "text": "비록 이 사실에 의해 어지럽혀지는 모든 하찮은 것들의 관점에서 사람이 그것에 관해 거의 듣지 않는다는 것은 놀랍지 않지만 이것은 하나의 사실이다."
                 }
             ]
         }
-    ],
-    "frameID": 1377,
-    "ko_pos": "NNG",
-    "ko_lu": "주황.n.Rank",
-    "lu_id": 2925,
-    "en_lus": [
-        "orenzi obi .オレンジ 帯 "
     ]
 }

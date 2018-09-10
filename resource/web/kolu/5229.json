@@ -1,52 +1,87 @@
 {
-    "frameName": "Adducing",
+    "ko_pos": "v",
+    "ko_lu": "감소하다.v.Cause_change_of_position_on_a_scale",
+    "frameID": 96,
+    "frameName": "Cause_change_of_position_on_a_scale",
+    "en_lus": [
+        "reduce"
+    ],
+    "lu_id": 5229,
     "patterns": [
         {
-            "valenceText": "annotation id: 18438",
+            "valenceText": "annotation id: 8395",
             "examples": [
                 {
-                    "frameName": "Adducing",
+                    "origin_lus": [
+                        "reduced"
+                    ],
+                    "ko_annotation_id": 8395,
+                    "annotation_id": 15378,
+                    "frameName": "Cause_change_of_position_on_a_scale",
                     "denotations": [
                         {
-                            "obj": "specified_entity",
+                            "id": 1,
+                            "obj": "Cause_change_of_position_on_a_scale",
                             "span": {
-                                "begin": 0,
-                                "end": 35
+                                "begin": 53,
+                                "end": 59
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "감소하였다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 37,
-                                "end": 40
+                                "begin": 21,
+                                "end": 34
                             },
-                            "id": "1"
+                            "text": "러시아의 핵무기 저장량은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Value_2",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 52
+                            },
+                            "text": "약 7,000 개의 전략 탄두로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "point"
-                    ],
-                    "ko_annotation_id": 18438,
-                    "text": "스페인의 경제 회복이 지금까지 치료에 실패한 원인으로 많은 병들을 지적할 수 있다",
-                    "sent_id": 79,
+                    "sent_id": 2985,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 537
+                    "lu": "감소하다.v.Cause_change_of_position_on_a_scale",
+                    "text": "전략무기 감축 회담 I 협정에 의거, 러시아의 핵무기 저장량은 약 7,000 개의 전략 탄두로 감소하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1601,
-    "ko_pos": "VV",
-    "ko_lu": "지적하다.v.Adducing",
-    "lu_id": 5229,
-    "en_lus": [
-        "point"
     ]
 }

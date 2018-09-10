@@ -1,44 +1,92 @@
 {
-    "frameName": "Motion",
+    "ko_pos": "a",
+    "ko_lu": "독하다.a.Toxic_substance",
+    "frameID": 1163,
+    "frameName": "Toxic_substance",
+    "en_lus": [
+        "toxic"
+    ],
+    "lu_id": 518,
     "patterns": [
         {
-            "valenceText": "annotation id: 1463",
+            "valenceText": "annotation id: 15459",
             "examples": [
                 {
-                    "frameName": "Motion",
+                    "origin_lus": [
+                        "toxic"
+                    ],
+                    "ko_annotation_id": 15459,
+                    "annotation_id": 15464,
+                    "frameName": "Toxic_substance",
                     "denotations": [
                         {
-                            "obj": "Distance",
+                            "id": 1,
+                            "obj": "Toxic_substance",
                             "span": {
                                 "begin": 25,
-                                "end": 40
-                            }
+                                "end": 29
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "독하다고"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 44,
-                                "end": 46
-                            }
+                                "begin": 9,
+                                "end": 24
+                            },
+                            "text": "VX보다 5 - 10 배 더",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Toxic_Substance",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 63
+                            },
+                            "text": "새로운 형태의 신경 작용제 ( Novichok )",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "iku .いく"
+                    "sent_id": 3000,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 1463,
-                    "text": "바다를 돌아다니며 이제껏 살아온 것 같지만, 섬이 보이지 않을 만큼 멀리까지는 가본 적이 없어, 돌아다닌 범위는 생각보다 좁다.",
-                    "sent_id": 4638,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "독하다.a.Toxic_substance",
+                    "text": "소비에트 연방은 VX보다 5 - 10 배 더 독하다고 추정되는, 새로운 형태의 신경 작용제 ( Novichok ) 를 개발하였다는 주장이 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 7,
-    "ko_pos": "NNG",
-    "ko_lu": "가본.n.Motion",
-    "lu_id": 518,
-    "en_lus": [
-        "iku .いく"
     ]
 }

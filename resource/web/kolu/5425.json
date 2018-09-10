@@ -1,109 +1,63 @@
 {
-    "frameName": "Intentionally_act",
+    "ko_pos": "v",
+    "ko_lu": "입증되다.v.Evidence",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "en_lus": [
+        "proven"
+    ],
+    "lu_id": 5425,
     "patterns": [
         {
-            "valenceText": "annotation id: 19202",
+            "valenceText": "annotation id: 1000",
             "examples": [
                 {
-                    "frameName": "Intentionally_act",
-                    "denotations": [
-                        {
-                            "obj": "act",
-                            "span": {
-                                "begin": 4,
-                                "end": 7
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "time",
-                            "span": {
-                                "begin": 51,
-                                "end": 53
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 55,
-                                "end": 58
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "conducted"
+                        "proven"
                     ],
-                    "ko_annotation_id": 19202,
-                    "text": "북한은 핵실험을 하지 않았지만, 2005년 5월 초에 미국 인공위성이 보내온 사진이 북한이 6월에 실시될 핵실험을 위한 준비가 될 수 있는 신호를 탐지하였다고 언론 보도는 지적하였다.",
-                    "sent_id": 2870,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 14657
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.48087",
-            "examples": [
-                {
-                    "frameName": "Intentionally_act",
+                    "ko_annotation_id": 1000,
+                    "annotation_id": 2115,
+                    "frameName": "Evidence",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Evidence",
                             "span": {
-                                "begin": 12,
+                                "begin": 14,
                                 "end": 17
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "오늘부터 유격 훈련이 실시됩니다.",
-                    "target": "실시됩니다",
-                    "ko_annotation_id": "sejong.48087",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.48088",
-            "examples": [
-                {
-                    "frameName": "Intentionally_act",
-                    "denotations": [
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "입증된"
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Proposition",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 13
+                                "begin": 18,
+                                "end": 22
                             },
-                            "obj": "target"
+                            "text": "방법들을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "다음주에는 행군이 실시될 예정입니다.",
-                    "target": "실시될",
-                    "ko_annotation_id": "sejong.48088",
-                    "relations": []
+                    "sent_id": 401,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "입증되다.v.Evidence",
+                    "text": "우리는 Goodwill의 입증된 방법들을 그들이 가장 필요한 시내와 이웃으로 넓혔습니다."
                 }
             ]
         }
-    ],
-    "frameID": 198,
-    "ko_pos": "VV",
-    "ko_lu": "실시되다.v.Intentionally_act",
-    "lu_id": 5425,
-    "en_lus": [
-        "conduct"
     ]
 }

@@ -1,65 +1,67 @@
 {
-    "frameName": "Appointing",
+    "ko_pos": "n",
+    "ko_lu": "약간.n.Quantity",
+    "frameID": 2604,
+    "frameName": "Quantity",
+    "en_lus": [
+        "dose",
+        "a little"
+    ],
+    "lu_id": 2387,
     "patterns": [
         {
-            "valenceText": "annotation id: 7717",
+            "valenceText": "annotation id: 2544",
             "examples": [
                 {
-                    "frameName": "Appointing",
+                    "origin_lus": [
+                        "a little",
+                        "dose"
+                    ],
+                    "ko_annotation_id": 2544,
+                    "annotation_id": 5011,
+                    "frameName": "Quantity",
                     "denotations": [
                         {
-                            "obj": "official",
+                            "id": 1,
+                            "obj": "Quantity",
                             "span": {
-                                "begin": 4,
-                                "end": 22
+                                "begin": 20,
+                                "end": 23
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "약간의"
                         },
                         {
-                            "obj": "role",
+                            "id": 2,
+                            "obj": "Mass",
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
                             "span": {
                                 "begin": 24,
-                                "end": 34
+                                "end": 33
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 36,
-                                "end": 39
-                            },
-                            "id": "1"
+                            "text": "기분 좋은 경쟁과",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "designated"
-                    ],
-                    "ko_annotation_id": 7717,
-                    "text": "또한, 고도의 보안 허가가 있는 방문자들은 위치 내부의 주차장을 지정해야 한다.",
-                    "sent_id": 1586,
+                    "sent_id": 962,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 7713
+                    "lu": "약간.n.Quantity",
+                    "text": "역사적 및 문화적으로 두 지역 간의 약간의 기분 좋은 경쟁과 함께 북쪽 - 남쪽의 구별은 항상 중요했고 지금도 여전히 그렇다."
                 }
             ]
         }
-    ],
-    "frameID": 1925,
-    "ko_pos": "VV",
-    "ko_lu": "지정하다.v.Appointing",
-    "lu_id": 2387,
-    "en_lus": [
-        "designate"
     ]
 }

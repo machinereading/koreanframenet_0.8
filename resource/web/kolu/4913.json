@@ -1,52 +1,98 @@
 {
-    "frameName": "Typicality",
+    "ko_pos": "n",
+    "ko_lu": "기차.n.Vehicle",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "en_lus": [
+        "train",
+        "kisya .汽車 "
+    ],
+    "lu_id": 4913,
     "patterns": [
         {
-            "valenceText": "annotation id: 17254",
+            "valenceText": "annotation id: 12069",
             "examples": [
                 {
-                    "frameName": "Typicality",
+                    "origin_lus": [
+                        "kisya .汽車 ",
+                        "train"
+                    ],
+                    "ko_annotation_id": 12069,
+                    "annotation_id": 0,
+                    "frameName": "Vehicle",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Vehicle",
                             "span": {
-                                "begin": 24,
-                                "end": 26
+                                "begin": 46,
+                                "end": 50
                             },
-                            "id": "1"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "기차표를"
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                12
+                            ],
                             "span": {
-                                "begin": 27,
-                                "end": 29
+                                "begin": 46,
+                                "end": 50
                             },
-                            "id": "2"
+                            "text": "기차표를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "normal"
-                    ],
-                    "ko_annotation_id": 17254,
-                    "text": "18 BILL : 음, 오늘밤, 아, 네가 정상 QF를 마칠 때는, 하나를 마치는데 한 시간 -",
-                    "sent_id": 1881,
+                    "sent_id": 4804,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9103
+                    "lu": "기차.n.Vehicle",
+                    "text": "이거 참 어쩌지, 하면서도 묵기에 마음이 편한 바라나시를 떠날 생각도 들지 않고, 기차표를 끊는 수고로움을 생각하니 더욱 엉덩이가 떨어지지 않아, 딱 2, 3일만 더 있자 하며 어물어물 주저앉아 버린 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13565",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kisya .汽車 ",
+                        "train"
+                    ],
+                    "ko_annotation_id": 13565,
+                    "annotation_id": 6187,
+                    "frameName": "Vehicle",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Vehicle",
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "기차는"
+                        }
+                    ],
+                    "sent_id": 1201,
+                    "relations": [],
+                    "lu": "기차.n.Vehicle",
+                    "text": "그의 뉴욕행 기차는 10 : 30에 역을 출발하기로 예정되어 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 1134,
-    "ko_pos": "NNG",
-    "ko_lu": "정상.n.Typicality",
-    "lu_id": 4913,
-    "en_lus": [
-        "normal"
     ]
 }

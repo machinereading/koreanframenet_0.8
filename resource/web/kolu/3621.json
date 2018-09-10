@@ -1,44 +1,82 @@
 {
-    "frameName": "Cogitation",
+    "ko_pos": "v",
+    "ko_lu": "성취하다.v.Accomplishment",
+    "frameID": 1519,
+    "frameName": "Accomplishment",
+    "en_lus": [
+        "achieve"
+    ],
+    "lu_id": 3621,
     "patterns": [
         {
-            "valenceText": "annotation id: 12462",
+            "valenceText": "annotation id: 2044",
             "examples": [
                 {
-                    "frameName": "Cogitation",
+                    "origin_lus": [
+                        "achieve"
+                    ],
+                    "ko_annotation_id": 2044,
+                    "annotation_id": 4129,
+                    "frameName": "Accomplishment",
                     "denotations": [
                         {
-                            "obj": "Topic",
+                            "id": 1,
+                            "obj": "Accomplishment",
                             "span": {
-                                "begin": 33,
-                                "end": 32
-                            }
+                                "begin": 71,
+                                "end": 74
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "성취할"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                14,
+                                15
+                            ],
                             "span": {
-                                "begin": 33,
-                                "end": 44
-                            }
+                                "begin": 53,
+                                "end": 61
+                            },
+                            "text": "라스 베이거스에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 67,
+                                "end": 70
+                            },
+                            "text": "번영을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kangaeru .考える "
+                    "sent_id": 788,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12462,
-                    "text": "살기 위해서는 식사를 하지 않으면 안되는 것과 마찬가지로, 어떤 무엇인가에 대해 생각하기 위해서는, 「전제」가 필요한데, 오히려 어떠한 전제를 까는지가 어쩌면 「당신 자신」인지 모른다.",
-                    "sent_id": 4030,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "성취하다.v.Accomplishment",
+                    "text": "그러나 남서부의 증가하는 물 수요와 함께 라스 베이거스가 운 좋게 콜로라도 강과 근접해 있음이 라스 베이거스에 두번 째 번영을 성취할 기회를 주었다."
                 }
             ]
         }
-    ],
-    "frameID": 22,
-    "ko_pos": "VA",
-    "ko_lu": "무엇하다.a.Cogitation",
-    "lu_id": 3621,
-    "en_lus": [
-        "kangaeru .考える "
     ]
 }

@@ -1,74 +1,63 @@
 {
-    "frameName": "Being_named",
+    "ko_pos": "n",
+    "ko_lu": "궁내성.n.Organization",
+    "frameID": 1371,
+    "frameName": "Organization",
+    "en_lus": [
+        "kunai .宮内 "
+    ],
+    "lu_id": 529,
     "patterns": [
         {
-            "valenceText": "annotation id: 1474",
+            "valenceText": "annotation id: 10281",
             "examples": [
                 {
-                    "frameName": "Being_named",
+                    "origin_lus": [
+                        "kunai .宮内 "
+                    ],
+                    "ko_annotation_id": 10281,
+                    "annotation_id": 0,
+                    "frameName": "Organization",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Organization",
                             "span": {
-                                "begin": 27,
-                                "end": 30
+                                "begin": 14,
+                                "end": 18
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "궁내성,"
                         },
                         {
-                            "obj": "name",
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 32,
-                                "end": 49
+                                "begin": 14,
+                                "end": 18
                             },
-                            "id": "2"
+                            "text": "궁내성,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "nicknames"
-                    ],
-                    "ko_annotation_id": 1474,
-                    "text": "시간은 태평양 여름 시간이고, 성명의 머리글자나 별명들은 자신들을 식별하기 위해 구독자들이 사용한 것이다.",
-                    "sent_id": 105,
+                    "sent_id": 3649,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 671
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.98",
-            "examples": [
-                {
-                    "frameName": "Being_named",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 25,
-                                "end": 27
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "그는 얼굴이 길다는 이유로 학교에서 오이라는 별명으로 불린다.",
-                    "target": "별명",
-                    "ko_annotation_id": "sejong.98",
-                    "relations": []
+                    "lu": "궁내성.n.Organization",
+                    "text": "연회는 육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의 연회가 중심을 이뤘다."
                 }
             ]
         }
-    ],
-    "frameID": 228,
-    "ko_pos": "NN",
-    "ko_lu": "별명.n.Being_named",
-    "lu_id": 529,
-    "en_lus": [
-        "nickname"
     ]
 }

@@ -1,65 +1,84 @@
 {
-    "frameName": "Explaining_the_facts",
+    "ko_pos": "v",
+    "ko_lu": "종료되다.v.Process_stop",
+    "frameID": 144,
+    "frameName": "Process_stop",
+    "en_lus": [
+        "stop"
+    ],
+    "lu_id": 1669,
     "patterns": [
         {
-            "valenceText": "annotation id: 5182",
+            "valenceText": "annotation id: 1545",
             "examples": [
                 {
-                    "frameName": "Explaining_the_facts",
+                    "origin_lus": [
+                        "stopped"
+                    ],
+                    "ko_annotation_id": 1545,
+                    "annotation_id": 3221,
+                    "frameName": "Process_stop",
                     "denotations": [
                         {
-                            "obj": "state_of_affairs",
+                            "id": 1,
+                            "obj": "Process_stop",
                             "span": {
-                                "begin": 21,
-                                "end": 62
+                                "begin": 17,
+                                "end": 23
                             },
-                            "id": "3"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "종료되었어도"
                         },
                         {
-                            "obj": "manner",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 69,
-                                "end": 73
+                                "begin": 0,
+                                "end": 12
                             },
-                            "id": "2"
+                            "text": "10년 이상이 된 후에",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Process",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 74,
-                                "end": 76
+                                "begin": 13,
+                                "end": 16
                             },
-                            "id": "1"
+                            "text": "전투가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "explanation"
-                    ],
-                    "ko_annotation_id": 5182,
-                    "text": "요약하면, 연방 및 주 정부 차원에서 투표소에서 투표자들이 나타내는 외견상 비합리적인 행동의 적어도 일부에 대해서는 대단히 이성적인 설명이 가능할 수 있다.",
-                    "sent_id": 302,
+                    "sent_id": 605,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1688
+                    "lu": "종료되다.v.Process_stop",
+                    "text": "10년 이상이 된 후에 전투가 종료되었어도 국가는 안정되지 않았다."
                 }
             ]
         }
-    ],
-    "frameID": 1462,
-    "ko_pos": "NNG",
-    "ko_lu": "설명.n.Explaining_the_facts",
-    "lu_id": 1669,
-    "en_lus": [
-        "explanation"
     ]
 }

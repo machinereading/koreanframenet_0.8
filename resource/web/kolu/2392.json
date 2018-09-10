@@ -1,65 +1,82 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "v",
+    "ko_lu": "가다.v.Causation",
+    "frameID": 5,
+    "frameName": "Causation",
+    "en_lus": [
+        "lead"
+    ],
+    "lu_id": 2392,
     "patterns": [
         {
-            "valenceText": "annotation id: 7731",
+            "valenceText": "annotation id: 2731",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "lead"
+                    ],
+                    "ko_annotation_id": 2731,
+                    "annotation_id": 5309,
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "obj": "ground",
-                            "span": {
-                                "begin": 11,
-                                "end": 15
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 16,
-                                "end": 18
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "figure",
+                            "id": 1,
+                            "obj": "Causation",
                             "span": {
                                 "begin": 26,
-                                "end": 40
+                                "end": 27
                             },
-                            "id": "3"
-                        }
-                    ],
-                    "origin_lus": [
-                        "in"
-                    ],
-                    "ko_annotation_id": 7731,
-                    "text": "IAEA 조사관들도 트리폴리 내와 주변에 있는 여러 종전의 비밀 핵 시설에서 수입한 장비와 기술을 발견하였지만, 농축 우라늄을 발견하지 못하였다.",
-                    "sent_id": 2704,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "갈"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "text": "그것들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 25
+                            },
+                            "text": "탄핵 절차로까지",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "annotation_id": 13583
+                    "sent_id": 1010,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "가다.v.Causation",
+                    "text": "그것들이 사실이라면, 그것들은 탄핵 절차로까지 갈 수 있다는 것은 의문의 여지가 없다. \""
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "VV",
-    "ko_lu": "내오다.v.Locative_relation",
-    "lu_id": 2392,
-    "en_lus": [
-        "in"
     ]
 }

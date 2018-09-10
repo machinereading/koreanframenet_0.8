@@ -1,76 +1,85 @@
 {
-    "frameName": "Quantity",
+    "ko_pos": "v",
+    "ko_lu": "일관되다.v.Compatibility",
+    "frameID": 360,
+    "frameName": "Compatibility",
+    "en_lus": [
+        "ikkan .一貫 "
+    ],
+    "lu_id": 2435,
     "patterns": [
         {
-            "valenceText": "annotation id: 7976",
+            "valenceText": "annotation id: 10799",
             "examples": [
                 {
-                    "frameName": "Quantity",
+                    "origin_lus": [
+                        "ikkan .一貫 "
+                    ],
+                    "ko_annotation_id": 10799,
+                    "annotation_id": 0,
+                    "frameName": "Compatibility",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Compatibility",
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 42,
+                                "end": 46
                             },
-                            "id": "1"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "일관되게"
                         },
                         {
-                            "obj": "mass",
+                            "id": 2,
+                            "obj": "Items",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 32
+                                "begin": 8,
+                                "end": 15
                             },
-                            "id": "2"
+                            "text": "모형 만들기는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Parameter",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 41
+                            },
+                            "text": "중학교 이과 과목 안에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "dose",
-                        "a little"
-                    ],
-                    "ko_annotation_id": 7976,
-                    "text": "역사적 및 문화적으로 두 지역 간의 약간의 기분 좋은 경쟁과 함께 북쪽 - 남쪽의 구별은 항상 중요했고 지금도 여전히 그렇다.",
-                    "sent_id": 962,
+                    "sent_id": 4005,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 5011
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.38358",
-            "examples": [
-                {
-                    "frameName": "Quantity",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 3,
-                                "end": 5
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "그는 약간의 돈을 요구했다.",
-                    "target": "약간",
-                    "ko_annotation_id": "sejong.38358",
-                    "relations": []
+                    "lu": "일관되다.v.Compatibility",
+                    "text": "그런 뜻에서, 모형 만들기는 교재 내용과 상관없이, 중학교 이과 과목 안에 일관되게 넣을 가치가 있는 내용이다."
                 }
             ]
         }
-    ],
-    "frameID": 2604,
-    "ko_pos": "NNG",
-    "ko_lu": "약간.n.Quantity",
-    "lu_id": 2435,
-    "en_lus": [
-        "dose",
-        "a little"
     ]
 }

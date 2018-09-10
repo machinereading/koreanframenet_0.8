@@ -1,51 +1,64 @@
 {
-    "frameName": "Timespan",
+    "ko_pos": "a",
+    "ko_lu": "곧바르다.a.Speed_description",
+    "frameID": 966,
+    "frameName": "Speed_description",
+    "en_lus": [
+        "sassoku .早速 "
+    ],
+    "lu_id": 247,
     "patterns": [
         {
-            "valenceText": "annotation id: 727",
+            "valenceText": "annotation id: 10146",
             "examples": [
                 {
-                    "frameName": "Timespan",
+                    "origin_lus": [
+                        "sassoku .早速 "
+                    ],
+                    "ko_annotation_id": 10146,
+                    "annotation_id": 0,
+                    "frameName": "Speed_description",
                     "denotations": [
                         {
-                            "obj": "State",
+                            "id": 1,
+                            "obj": "Speed_description",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "곧바로"
                         },
                         {
-                            "obj": "Duration",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 2,
-                                "end": 3
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 2,
-                                "end": 3
-                            }
+                                "begin": 7,
+                                "end": 16
+                            },
+                            "text": "행동을 개시했다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ki .期 "
+                    "sent_id": 3578,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 727,
-                    "text": "이제와서 문부과학성의 교육개혁에 기대를 거는 식이라면, 일본의 미래는 언제까지나 어두울 것이라는 사실은 자명하다.",
-                    "sent_id": 4884,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "곧바르다.a.Speed_description",
+                    "text": "나는 곧바로 행동을 개시했다."
                 }
             ]
         }
-    ],
-    "frameID": 2142,
-    "ko_pos": "VV",
-    "ko_lu": "오다.v.Timespan",
-    "lu_id": 247,
-    "en_lus": [
-        "ki .期 "
     ]
 }

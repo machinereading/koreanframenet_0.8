@@ -1,86 +1,114 @@
 {
-    "frameName": "Weapon",
+    "ko_pos": "v",
+    "ko_lu": "재개되다.v.Process_resume",
+    "frameID": 148,
+    "frameName": "Process_resume",
+    "en_lus": [
+        "resume"
+    ],
+    "lu_id": 3721,
     "patterns": [
         {
-            "valenceText": "annotation id: 12683",
+            "valenceText": "annotation id: 8334",
             "examples": [
                 {
-                    "frameName": "Weapon",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 7,
-                                "end": 10
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "nuclear"
+                        "resumed"
                     ],
-                    "ko_annotation_id": 12683,
-                    "text": "결과적으로, 원자력 발전소 확보를 위한 시리아의 요청은 응답받지 못한 질문으로 남아 있다.",
-                    "sent_id": 3104,
-                    "relations": [],
-                    "annotation_id": 16194
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 12684",
-            "examples": [
-                {
-                    "frameName": "Weapon",
+                    "ko_annotation_id": 8334,
+                    "annotation_id": 15289,
+                    "frameName": "Process_resume",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Process_resume",
                             "span": {
-                                "begin": 106,
-                                "end": 109
+                                "begin": 77,
+                                "end": 83
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "nuclear"
-                    ],
-                    "ko_annotation_id": 12684,
-                    "text": "왜냐하면 거래가 확산 위협과 테러리스트들이 핵무기를 획득하거나 다른 무책임한 당사자에게 확산시키고 그래서 미국이나 다른 동맹국들을 위태롭게 할 수도 있는 가능성을 피하면서 평화로운 시민들이 원자력을 이용하도록 허용할 것이기 때문이다.",
-                    "sent_id": 3240,
-                    "relations": [],
-                    "annotation_id": 17070
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.32451",
-            "examples": [
-                {
-                    "frameName": "Weapon",
-                    "denotations": [
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "재개되었다."
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 21
+                                "begin": 0,
+                                "end": 11
                             },
-                            "id": "1"
+                            "text": "2002년 10월에,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Process",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 28
+                            },
+                            "text": "미국과 북한 간의 양자 회담이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 76
+                            },
+                            "text": "미국의 동아시아 태평양 담당 차관보 James Kelly가 평양을 방문했을 때 마침내",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "전력난을 해결하기 위해 더 많은 원자력 발전소가 세워질 것이다.",
-                    "target": "원자력",
-                    "ko_annotation_id": "sejong.32451",
-                    "relations": []
+                    "sent_id": 2970,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "재개되다.v.Process_resume",
+                    "text": "2002년 10월에, 미국과 북한 간의 양자 회담이 미국의 동아시아 태평양 담당 차관보 James Kelly가 평양을 방문했을 때 마침내 재개되었다."
                 }
             ]
         }
-    ],
-    "frameID": 426,
-    "ko_pos": "NN",
-    "ko_lu": "원자력.n.Weapon",
-    "lu_id": 3721,
-    "en_lus": [
-        "nuclear"
     ]
 }

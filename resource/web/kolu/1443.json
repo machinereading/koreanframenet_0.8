@@ -1,65 +1,102 @@
 {
-    "frameName": "Quantity",
+    "ko_pos": "v",
+    "ko_lu": "달리다.v.Self_motion",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "en_lus": [
+        "ran"
+    ],
+    "lu_id": 1443,
     "patterns": [
         {
-            "valenceText": "annotation id: 4620",
+            "valenceText": "annotation id: 2878",
             "examples": [
                 {
-                    "frameName": "Quantity",
+                    "origin_lus": [
+                        "ran"
+                    ],
+                    "ko_annotation_id": 2878,
+                    "annotation_id": 5532,
+                    "frameName": "Self_motion",
                     "denotations": [
                         {
-                            "obj": "quantity",
+                            "id": 1,
+                            "obj": "Self_motion",
                             "span": {
-                                "begin": 14,
-                                "end": 15
+                                "begin": 27,
+                                "end": 32
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "달렸지만,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 15,
-                                "end": 17
+                                "begin": 0,
+                                "end": 7
                             },
-                            "id": "1"
+                            "text": "1904년에,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "individuals",
+                            "id": 3,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 18
+                            },
+                            "text": "좁은 이층 전차들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Path",
+                            "token_span": [
+                                4,
+                                5
+                            ],
                             "span": {
                                 "begin": 19,
-                                "end": 66
+                                "end": 26
                             },
-                            "id": "3"
+                            "text": "해안가를 따라",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "number"
-                    ],
-                    "ko_annotation_id": 4620,
-                    "text": "1984년 중에, 이란은 소규모의 이동식 트럭형 발사대인 MAZ -543P TEL ( TELs ) 과 스커드-B 미사일의 구매를 위해 리비아와 비밀 협정을 성공적으로 끝냈다.",
-                    "sent_id": 2428,
+                    "sent_id": 1058,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 12228
+                    "lu": "달리다.v.Self_motion",
+                    "text": "1904년에, 좁은 이층 전차들이 해안가를 따라 달렸지만, 토지 간척으로 이들은 먼 내륙으로 위치하게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 2604,
-    "ko_pos": "NNG",
-    "ko_lu": "규모.n.Quantity",
-    "lu_id": 1443,
-    "en_lus": [
-        "number"
     ]
 }

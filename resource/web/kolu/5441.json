@@ -1,52 +1,81 @@
 {
-    "frameName": "Omen",
+    "ko_pos": "n",
+    "ko_lu": "변신.n.Cause_change",
+    "frameID": 683,
+    "frameName": "Cause_change",
+    "en_lus": [
+        "transformation"
+    ],
+    "lu_id": 5441,
     "patterns": [
         {
-            "valenceText": "annotation id: 19267",
+            "valenceText": "annotation id: 8614",
             "examples": [
                 {
-                    "frameName": "Omen",
+                    "origin_lus": [
+                        "transformation"
+                    ],
+                    "ko_annotation_id": 8614,
+                    "annotation_id": 15851,
+                    "frameName": "Cause_change",
                     "denotations": [
                         {
-                            "obj": "phenomenon_1",
+                            "id": 1,
+                            "obj": "Cause_change",
                             "span": {
-                                "begin": 58,
-                                "end": 76
+                                "begin": 25,
+                                "end": 27
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "변신"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 70,
-                                "end": 72
+                                "begin": 17,
+                                "end": 20
                             },
-                            "id": "1"
+                            "text": "정권의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Final_Category",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "자유화",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "promising"
-                    ],
-                    "ko_annotation_id": 19267,
-                    "text": "1855년에 Mormon 지도자 Brigham Young은 30명의 선교사 정착자들을 계곡에 보냄으로써 라스 베이거스에 관한 좋은 보고들에 반응을 보였는데 ; 그들은 결국 오늘날 Downtown에서 멀지 않은 곳에 요새를 구축했다.",
-                    "sent_id": 751,
+                    "sent_id": 3051,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3951
+                    "lu": "변신.n.Cause_change",
+                    "text": "화학 및 생물 무기 프로그램은 정권의 자유화 변신 와중에 1993년에 공식적으로 해체되었다."
                 }
             ]
         }
-    ],
-    "frameID": 412,
-    "ko_pos": "VA",
-    "ko_lu": "좋다.a.Omen",
-    "lu_id": 5441,
-    "en_lus": [
-        "promising"
     ]
 }

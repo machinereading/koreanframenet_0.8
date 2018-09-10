@@ -1,65 +1,83 @@
 {
-    "frameName": "Protecting",
+    "ko_pos": "v",
+    "ko_lu": "격리되다.v.Separating",
+    "frameID": 15,
+    "frameName": "Separating",
+    "en_lus": [
+        "partition"
+    ],
+    "lu_id": 211,
     "patterns": [
         {
-            "valenceText": "annotation id: 655",
+            "valenceText": "annotation id: 13193",
             "examples": [
                 {
-                    "frameName": "Protecting",
+                    "origin_lus": [
+                        "partitioned"
+                    ],
+                    "ko_annotation_id": 13193,
+                    "annotation_id": 3793,
+                    "frameName": "Separating",
                     "denotations": [
                         {
-                            "obj": "protection",
+                            "id": 1,
+                            "obj": "Separating",
                             "span": {
-                                "begin": 0,
-                                "end": 30
+                                "begin": 18,
+                                "end": 21
                             },
-                            "id": "3"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "격리된"
                         },
                         {
-                            "obj": "asset",
+                            "id": 2,
+                            "obj": "Instrument",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 32,
-                                "end": 33
+                                "begin": 5,
+                                "end": 17
                             },
-                            "id": "2"
+                            "text": "요새화와 철조망에 의해",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Whole",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 35,
-                                "end": 37
+                                "begin": 22,
+                                "end": 25
                             },
-                            "id": "1"
+                            "text": "도시로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "guard"
-                    ],
-                    "ko_annotation_id": 655,
-                    "text": "feng shui 원리를 이행하는,두 마리의 구리 사자가 문을 지킨다.",
-                    "sent_id": 1056,
+                    "sent_id": 722,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5520
+                    "lu": "격리되다.v.Separating",
+                    "text": "그러나, 요새화와 철조망에 의해 격리된 도시로 이스라엘이나 유대인 순례자들은 Western Wall 이나 동예루살렘의 다른 유대인 지역으로의 방문이 허용되지 않았다."
                 }
             ]
         }
-    ],
-    "frameID": 1631,
-    "ko_pos": "VV",
-    "ko_lu": "지키다.v.Protecting",
-    "lu_id": 211,
-    "en_lus": [
-        "guard"
     ]
 }

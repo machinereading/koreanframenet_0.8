@@ -1,65 +1,105 @@
 {
-    "frameName": "Dispersal",
+    "ko_pos": "n",
+    "ko_lu": "시합.n.Competition",
+    "frameID": 241,
+    "frameName": "Competition",
+    "en_lus": [
+        "siai .試合 "
+    ],
+    "lu_id": 4179,
     "patterns": [
         {
-            "valenceText": "annotation id: 14400",
+            "valenceText": "annotation id: 11312",
             "examples": [
                 {
-                    "frameName": "Dispersal",
+                    "origin_lus": [
+                        "siai .試合 "
+                    ],
+                    "ko_annotation_id": 11312,
+                    "annotation_id": 0,
+                    "frameName": "Competition",
                     "denotations": [
                         {
-                            "obj": "individuals",
+                            "id": 1,
+                            "obj": "Competition",
                             "span": {
                                 "begin": 0,
-                                "end": 9
+                                "end": 3
                             },
-                            "id": "2"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "시합은"
                         },
                         {
-                            "obj": "goal_area",
+                            "id": 2,
+                            "obj": "Competition",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 11,
-                                "end": 26
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "3"
+                            "text": "시합은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Participants",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 27,
-                                "end": 32
+                                "begin": 4,
+                                "end": 25
                             },
-                            "id": "1"
+                            "text": "주황 띠 이상의 여성 유도인을 대상으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 33
+                            },
+                            "text": "예선을 치뤄,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "spread"
-                    ],
-                    "ko_annotation_id": 14400,
-                    "text": "홍콩대학의 캠퍼스는 Bonham Road를 따라 펼쳐저 있다.",
-                    "sent_id": 1096,
+                    "sent_id": 4305,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5732
+                    "lu": "시합.n.Competition",
+                    "text": "시합은 주황 띠 이상의 여성 유도인을 대상으로 예선을 치뤄, 출장 선수를 16명으로 추린 후, 제1회전, 2회전, 준결승전이 열렸으며, 결국 애디슨 부인(파랑 띠)과 루바니에 부인(갈색 띠)이 결승전에서 대결하게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 267,
-    "ko_pos": "VV",
-    "ko_lu": "펼쳐지다.v.Dispersal",
-    "lu_id": 4179,
-    "en_lus": [
-        "spread"
     ]
 }

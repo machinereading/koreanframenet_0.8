@@ -1,84 +1,102 @@
 {
-    "frameName": "Perception_experience",
+    "ko_pos": "v",
+    "ko_lu": "생활하다.v.Residence",
+    "frameID": 110,
+    "frameName": "Residence",
+    "en_lus": [
+        "neoki .寝起き ",
+        "living"
+    ],
+    "lu_id": 1336,
     "patterns": [
         {
-            "valenceText": "annotation id: 19241",
+            "valenceText": "annotation id: 12606",
             "examples": [
                 {
-                    "frameName": "Perception_experience",
-                    "denotations": [
-                        {
-                            "obj": "Direction",
-                            "span": {
-                                "begin": 1,
-                                "end": 3
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 6,
-                                "end": 8
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "niou .匂う"
+                        "living",
+                        "neoki .寝起き "
                     ],
-                    "ko_annotation_id": 19241,
-                    "text": "「어디에서 냄새가 나는 걸까? 」",
-                    "sent_id": 4595,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 4149",
-            "examples": [
-                {
-                    "frameName": "Perception_experience",
+                    "ko_annotation_id": 12606,
+                    "annotation_id": 983,
+                    "frameName": "Residence",
                     "denotations": [
                         {
-                            "obj": "Phenomenon",
+                            "id": 1,
+                            "obj": "Residence",
                             "span": {
-                                "begin": 0,
-                                "end": 7
-                            }
+                                "begin": 58,
+                                "end": 62
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "생활하고"
                         },
                         {
+                            "id": 2,
+                            "obj": "Resident",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 50
+                            },
+                            "text": "이곳에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
                             "obj": "Manner",
+                            "token_span": [
+                                13,
+                                14
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 12
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 13,
-                                "end": 19
-                            }
+                                "begin": 51,
+                                "end": 57
+                            },
+                            "text": "아주 임시로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "niou .におう"
+                    "sent_id": 176,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4149,
-                    "text": "숏펭슈테햐 씨도, 물씬 냄새를 풍겼다.",
-                    "sent_id": 4611,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "생활하다.v.Residence",
+                    "text": "오전 9시 38분 FIG : 예상되지만 무섭기만 한 여진을 기다리며, 우리는 모두 이곳에서 아주 임시로 생활하고 있다고 나는 생각한다."
                 }
             ]
         }
-    ],
-    "frameID": 70,
-    "ko_pos": "NNG",
-    "ko_lu": "냄새.n.Perception_experience",
-    "lu_id": 1336,
-    "en_lus": [
-        "niou .匂う",
-        "niou .におう"
     ]
 }

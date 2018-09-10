@@ -1,87 +1,158 @@
 {
-    "frameName": "Contingency",
+    "ko_pos": "n",
+    "ko_lu": "성분.n.Ingredients",
+    "frameID": 1348,
+    "frameName": "Ingredients",
+    "en_lus": [
+        "ingredient",
+        "component"
+    ],
+    "lu_id": 276,
     "patterns": [
         {
-            "valenceText": "annotation id: 778",
+            "valenceText": "annotation id: 3466",
             "examples": [
                 {
-                    "frameName": "Contingency",
+                    "origin_lus": [
+                        "components"
+                    ],
+                    "ko_annotation_id": 3466,
+                    "annotation_id": 6547,
+                    "frameName": "Ingredients",
                     "denotations": [
                         {
-                            "obj": "outcome",
+                            "id": 1,
+                            "obj": "Ingredients",
+                            "span": {
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "성분들은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 19
+                                "end": 28
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 22,
-                                "end": 25
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "determinant",
-                            "span": {
-                                "begin": 36,
-                                "end": 38
-                            },
-                            "id": "2"
+                            "text": "과거 소비에트 연방이 개발한 새로운 이성분 작용제의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "determine"
-                    ],
-                    "ko_annotation_id": 778,
-                    "text": "이란이 생물무기 프로그램을 추구하는지를 결정할 공개적으로 가용한 정보는 아주 거의 없다.",
-                    "sent_id": 2372,
+                    "sent_id": 1308,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 11964
+                    "lu": "성분.n.Ingredients",
+                    "text": "과거 소비에트 연방이 개발한 새로운 이성분 작용제의 많은 성분들은 화학물질에 대한 화학무기금지협약의 목록에 들어있지 않고 화학무기 사용과의 연관을 애매하게 하면서, 합법적으로 민간에서 사용되고 있다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.97828",
+            "valenceText": "annotation id: 15699",
             "examples": [
                 {
-                    "frameName": "Contingency",
+                    "origin_lus": [
+                        "component",
+                        "ingredient"
+                    ],
+                    "ko_annotation_id": 15699,
+                    "annotation_id": 16862,
+                    "frameName": "Ingredients",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Ingredients",
                             "span": {
-                                "begin": 3,
-                                "end": 7
+                                "begin": 43,
+                                "end": 48
                             },
-                            "obj": "target"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "항원성분을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 39
+                            },
+                            "text": "탄저병의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 42
+                            },
+                            "text": "보호",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Material",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 48
+                            },
+                            "text": "항원성분을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "방을 결정하게 치워 놓아라.",
-                    "target": "결정하게",
-                    "ko_annotation_id": "sejong.97828",
-                    "relations": []
+                    "sent_id": 3215,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "성분.n.Ingredients",
+                    "text": "Anthim은 치명적인 독소를 만드는 박테리아의 능력을 막는, 탄저병의 보호 항원성분을 목표로 하는 고친화성 단일 클론 항체이다."
                 }
             ]
         }
-    ],
-    "frameID": 900,
-    "ko_pos": "VA",
-    "ko_lu": "결정하다.a.Contingency",
-    "lu_id": 276,
-    "en_lus": [
-        "determine"
     ]
 }

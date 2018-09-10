@@ -1,92 +1,83 @@
 {
-    "frameName": "Part_orientational",
+    "ko_pos": "n",
+    "ko_lu": "손해.n.Damaging",
+    "frameID": 415,
+    "frameName": "Damaging",
+    "en_lus": [
+        "songai .損害 "
+    ],
+    "lu_id": 680,
     "patterns": [
         {
-            "valenceText": "annotation id: 2095",
+            "valenceText": "annotation id: 11216",
             "examples": [
                 {
-                    "frameName": "Part_orientational",
+                    "origin_lus": [
+                        "songai .損害 "
+                    ],
+                    "ko_annotation_id": 11216,
+                    "annotation_id": 0,
+                    "frameName": "Damaging",
                     "denotations": [
                         {
-                            "obj": "whole",
+                            "id": 1,
+                            "obj": "Damaging",
                             "span": {
-                                "begin": 22,
-                                "end": 24
+                                "begin": 62,
+                                "end": 72
                             },
-                            "id": "2"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "손해배상청구(이른바"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 29,
-                                "end": 30
+                                "begin": 27,
+                                "end": 35
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "side"
-                    ],
-                    "ko_annotation_id": 2095,
-                    "text": "지형의 형태가 그것을 허용하지 않으면, 도로의 다른 쪽에 있어야 한다.",
-                    "sent_id": 1581,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 7693
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 2096",
-            "examples": [
-                {
-                    "frameName": "Part_orientational",
-                    "denotations": [
-                        {
-                            "obj": "whole",
-                            "span": {
-                                "begin": 14,
-                                "end": 22
-                            },
-                            "id": "2"
+                            "text": "마사오를 상대로",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 26,
-                                "end": 27
+                                "begin": 50,
+                                "end": 61
                             },
-                            "id": "1"
+                            "text": "「다카코와 마이카라의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "side"
-                    ],
-                    "ko_annotation_id": 2096,
-                    "text": "2- 거의 같은 기간에, Uphrte 강 다른 쪽의 우리 형제들은 al-Malahima와 AlbuHazim에 있는 Jasim al-Awwad를 죽였다.",
-                    "sent_id": 1861,
+                    "sent_id": 4249,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8973
+                    "lu": "손해.n.Damaging",
+                    "text": "출산 후, 다카코는 마사오와의 이별을 결심하고, 마사오를 상대로 「마이카라의 인지청구」와 「다카코와 마이카라의 손해배상청구(이른바 위자료.)」의 두 가지 소송을 제기했다."
                 }
             ]
         }
-    ],
-    "frameID": 143,
-    "ko_pos": "NNB",
-    "ko_lu": "쪽.n.Part_orientational",
-    "lu_id": 680,
-    "en_lus": [
-        "side"
     ]
 }

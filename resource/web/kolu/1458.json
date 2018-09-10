@@ -1,38 +1,100 @@
 {
-    "frameName": "Residence",
+    "ko_pos": "v",
+    "ko_lu": "허덕이다.v.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "kurusimu .苦しむ "
+    ],
+    "lu_id": 1458,
     "patterns": [
         {
-            "valenceText": "annotation id: 4649",
+            "valenceText": "annotation id: 16189",
             "examples": [
                 {
-                    "frameName": "Residence",
+                    "origin_lus": [
+                        "kurusimu .苦しむ "
+                    ],
+                    "ko_annotation_id": 16189,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Experiencer_focus",
                             "span": {
-                                "begin": 59,
-                                "end": 60
+                                "begin": 58,
+                                "end": 65
                             },
-                            "id": "1"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "허덕였습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "text": "거기서는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "text": "모두",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Content",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 57
+                            },
+                            "text": "갈증과 식량난에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "live"
+                    "sent_id": 3764,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4649,
-                    "text": "플라스틱 사출 성형 제조업체에서 유망한 새로운 일자리를 갖게 되고, 그의 법적 문제들을 관리하고, 안전한 살 곳을 가지게 되어, Jerry는 자신을 위한 삶을 세우고 그의 지역사회에 기여하는 일을 할 수 있게 되었다.",
-                    "sent_id": 434,
-                    "relations": [],
-                    "annotation_id": 2277
+                    "lu": "허덕이다.v.Experiencer_focus",
+                    "text": "나는 트리폴리 근처의 수용소에 수용되었습니다만, 거기서는 모두 잔혹한 취급 그 이상으로 갈증과 식량난에 허덕였습니다."
                 }
             ]
         }
-    ],
-    "frameID": 110,
-    "ko_pos": "NNB",
-    "ko_lu": "살.n.Residence",
-    "lu_id": 1458,
-    "en_lus": [
-        "live"
     ]
 }

@@ -1,58 +1,65 @@
 {
-    "frameName": "Motion",
+    "ko_pos": "n",
+    "ko_lu": "때.n.Timespan",
+    "frameID": 2142,
+    "frameName": "Timespan",
+    "en_lus": [
+        "zidai .時代 ",
+        "goro .頃 "
+    ],
+    "lu_id": 4240,
     "patterns": [
         {
-            "valenceText": "annotation id: 14586",
+            "valenceText": "annotation id: 16304",
             "examples": [
                 {
-                    "frameName": "Motion",
+                    "origin_lus": [
+                        "zidai .時代 ",
+                        "goro .頃 "
+                    ],
+                    "ko_annotation_id": 16304,
+                    "annotation_id": 0,
+                    "frameName": "Timespan",
                     "denotations": [
                         {
-                            "obj": "Theme",
+                            "id": 1,
+                            "obj": "Timespan",
+                            "span": {
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "때부터,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Duration",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 1
-                            }
-                        },
-                        {
-                            "obj": "Explanation",
-                            "span": {
-                                "begin": 3,
-                                "end": 18
-                            }
-                        },
-                        {
-                            "obj": "Goal",
-                            "span": {
-                                "begin": 21,
-                                "end": 25
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 27,
-                                "end": 30
-                            }
+                                "end": 3
+                            },
+                            "text": "어렸을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "uturu .移る"
+                    "sent_id": 3950,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14586,
-                    "text": "나는 경찰서장이었던 아버지의 전근으로 이 마을로 이사오게 되었다.",
-                    "sent_id": 3655,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "때.n.Timespan",
+                    "text": "어렸을 때부터, 나는 교회나 교회의 가르침과 관계된 것에, 강한 반감을 느꼈다."
                 }
             ]
         }
-    ],
-    "frameID": 7,
-    "ko_pos": "NNP",
-    "ko_lu": "이사오.n.Motion",
-    "lu_id": 4240,
-    "en_lus": [
-        "uturu .移る"
     ]
 }

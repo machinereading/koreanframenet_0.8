@@ -1,52 +1,84 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "v",
+    "ko_lu": "중지하다.v.Activity_stop",
+    "frameID": 166,
+    "frameName": "Activity_stop",
+    "en_lus": [
+        "tyuusi .中止 "
+    ],
+    "lu_id": 417,
     "patterns": [
         {
-            "valenceText": "annotation id: 1091",
+            "valenceText": "annotation id: 11894",
             "examples": [
                 {
-                    "frameName": "Leadership",
+                    "origin_lus": [
+                        "tyuusi .中止 "
+                    ],
+                    "ko_annotation_id": 11894,
+                    "annotation_id": 0,
+                    "frameName": "Activity_stop",
                     "denotations": [
                         {
-                            "obj": "governed",
+                            "id": 1,
+                            "obj": "Activity_stop",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 28,
+                                "end": 32
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "중지하게"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 3,
-                                "end": 4
+                                "begin": 9,
+                                "end": 23
                             },
-                            "id": "1"
+                            "text": "수백 명에 달하는 사람들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "흡연을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "director"
-                    ],
-                    "ko_annotation_id": 1091,
-                    "text": "센터 장은 안전 절차의 철저한 검토를 약속하였다.",
-                    "sent_id": 3174,
+                    "sent_id": 4692,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 16592
+                    "lu": "중지하다.v.Activity_stop",
+                    "text": "저는, 지금까지 수백 명에 달하는 사람들이 흡연을 중지하게 하는 데 성공했습니다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "NNG",
-    "ko_lu": "장.n.Leadership",
-    "lu_id": 417,
-    "en_lus": [
-        "director"
     ]
 }

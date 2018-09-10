@@ -1,52 +1,84 @@
 {
-    "frameName": "Aggregate",
+    "ko_pos": "v",
+    "ko_lu": "만나다.v.Meet_with",
+    "frameID": 2238,
+    "frameName": "Meet_with",
+    "en_lus": [
+        "meet with"
+    ],
+    "lu_id": 1879,
     "patterns": [
         {
-            "valenceText": "annotation id: 5914",
+            "valenceText": "annotation id: 16825",
             "examples": [
                 {
-                    "frameName": "Aggregate",
+                    "origin_lus": [
+                        "meet with"
+                    ],
+                    "ko_annotation_id": 16825,
+                    "annotation_id": 937,
+                    "frameName": "Meet_with",
                     "denotations": [
                         {
-                            "obj": "aggregateproperty",
+                            "id": 1,
+                            "obj": "Meet_with",
                             "span": {
-                                "begin": 33,
-                                "end": 37
+                                "begin": 46,
+                                "end": 50
                             },
-                            "id": "2"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "만나려고"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Party_1",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 33,
-                                "end": 37
+                                "begin": 19,
+                                "end": 21
                             },
-                            "id": "1"
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Party_2",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 45
+                            },
+                            "text": "새로운 고객인 한 커플을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "population"
-                    ],
-                    "ko_annotation_id": 5914,
-                    "text": "그것이 이루어졌을 때, 라스 베이거스 계곡( 30명 미만의 비토착민이 있었던 때) 도 변하였다.",
-                    "sent_id": 766,
+                    "sent_id": 163,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4018
+                    "lu": "만나다.v.Meet_with",
+                    "text": "오전 6시 50분 CAROLG : 나는 치료를 위한 일부 새로운 고객인 한 커플을 만나려고 앉아 있었는데 건물이 미친듯이 흔들리기 시작하였다."
                 }
             ]
         }
-    ],
-    "frameID": 103,
-    "ko_pos": "NNG",
-    "ko_lu": "비토착민.n.Aggregate",
-    "lu_id": 1879,
-    "en_lus": [
-        "population"
     ]
 }

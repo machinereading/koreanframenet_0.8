@@ -1,96 +1,66 @@
 {
-    "frameName": "Statement",
+    "ko_pos": "n",
+    "ko_lu": "행사.n.Social_event",
+    "frameID": 125,
+    "frameName": "Social_event",
+    "en_lus": [
+        "celebration"
+    ],
+    "lu_id": 1920,
     "patterns": [
         {
-            "valenceText": "annotation id: 6081",
+            "valenceText": "annotation id: 4041",
             "examples": [
                 {
-                    "frameName": "Statement",
+                    "origin_lus": [
+                        "celebration"
+                    ],
+                    "ko_annotation_id": 4041,
+                    "annotation_id": 7486,
+                    "frameName": "Social_event",
                     "denotations": [
                         {
-                            "obj": "message",
+                            "id": 1,
+                            "obj": "Social_event",
                             "span": {
-                                "begin": 0,
-                                "end": 10
+                                "begin": 68,
+                                "end": 70
                             },
-                            "id": "2"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "행사"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Occasion",
+                            "token_span": [
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 15
+                                "begin": 55,
+                                "end": 67
                             },
-                            "id": "1"
+                            "text": "연례 SCS 창립 기념",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "denied"
-                    ],
-                    "ko_annotation_id": 6081,
-                    "text": "계약에 대한 보도들은 부인되었으나 ( 576 ), KWU사는 이란의 요청으로 아르헨티나 및 스페인과 협상 중이라고 한다 ( 2219 ).",
-                    "sent_id": 3406,
+                    "sent_id": 1545,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 18017
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.52738",
-            "examples": [
-                {
-                    "frameName": "Statement",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 19,
-                                "end": 24
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "미군이 이라크를 공격했다는 보도가 부인되었다.",
-                    "target": "부인되었다",
-                    "ko_annotation_id": "sejong.52738",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.52739",
-            "examples": [
-                {
-                    "frameName": "Statement",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 25,
-                                "end": 29
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "박 의원은 ?노 대통령의 오늘 발언은 그동안 부인되어 왔던 신당 개입 사실을 시인한 것과 마찬가지?라며 비난했다.",
-                    "target": "부인되어",
-                    "ko_annotation_id": "sejong.52739",
-                    "relations": []
+                    "lu": "행사.n.Social_event",
+                    "text": "추신 우리들의 Barefoot in the Grass 가족 소풍 ( 2000년 7월 23일 ) 과 연례 SCS 창립 기념 행사 ( 2000년 10월 11일 ) 는 Georgia O ' Keefee 멤버에게 무료입니다."
                 }
             ]
         }
-    ],
-    "frameID": 43,
-    "ko_pos": "VV",
-    "ko_lu": "부인되다.v.Statement",
-    "lu_id": 1920,
-    "en_lus": [
-        "deny"
     ]
 }

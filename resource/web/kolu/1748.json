@@ -1,38 +1,72 @@
 {
-    "frameName": "Expectation",
+    "ko_pos": "v",
+    "ko_lu": "받아들다.v.Grasp",
+    "frameID": 979,
+    "frameName": "Grasp",
+    "en_lus": [
+        "syooti .承知 "
+    ],
+    "lu_id": 1748,
     "patterns": [
         {
-            "valenceText": "annotation id: 5499",
+            "valenceText": "annotation id: 16201",
             "examples": [
                 {
-                    "frameName": "Expectation",
+                    "origin_lus": [
+                        "syooti .承知 "
+                    ],
+                    "ko_annotation_id": 16201,
+                    "annotation_id": 0,
+                    "frameName": "Grasp",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Grasp",
                             "span": {
-                                "begin": 30,
-                                "end": 33
+                                "begin": 38,
+                                "end": 45
                             },
-                            "id": "1"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "받아들여진다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 37
+                            },
+                            "text": "대체로 일반 주택 또는, 그보다 큰 규모의 건조물을 가리키는 단어로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "expectations"
+                    "sent_id": 3786,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5499,
-                    "text": "아마도 더 중요한 것은 이와 같은 고급 편의 시설들은 기대치의 기준을 Rat Pack 시대 신화의 수준으로 높인다는 것이다.",
-                    "sent_id": 844,
-                    "relations": [],
-                    "annotation_id": 4385
+                    "lu": "받아들다.v.Grasp",
+                    "text": "대체로 일반 주택 또는, 그보다 큰 규모의 건조물을 가리키는 단어로 받아들여진다."
                 }
             ]
         }
-    ],
-    "frameID": 26,
-    "ko_pos": "NN",
-    "ko_lu": "기대치.n.Expectation",
-    "lu_id": 1748,
-    "en_lus": [
-        "expectation"
     ]
 }

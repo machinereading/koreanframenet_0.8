@@ -1,38 +1,137 @@
 {
-    "frameName": "People_by_origin",
+    "ko_pos": "v",
+    "ko_lu": "일으키다.v.Causation",
+    "frameID": 5,
+    "frameName": "Causation",
+    "en_lus": [
+        "cause",
+        "okosu .起こす "
+    ],
+    "lu_id": 5157,
     "patterns": [
         {
-            "valenceText": "annotation id: 18153",
+            "valenceText": "annotation id: 1713",
             "examples": [
                 {
-                    "frameName": "People_by_origin",
+                    "origin_lus": [
+                        "caused",
+                        "okosu .起こす "
+                    ],
+                    "ko_annotation_id": 1713,
+                    "annotation_id": 3556,
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Causation",
                             "span": {
-                                "begin": 63,
-                                "end": 67
+                                "begin": 18,
+                                "end": 22
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "일으켰다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "예수의 성전으로의 입장은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "text": "소란을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Greek"
+                    "sent_id": 665,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18153,
-                    "text": "그는 자기 국민을 위한 현대 국가를 약속하였으나, 상황이 불안하게 되어 터키의 도시들에서 시민 분쟁이 발생하였고 그리스인으로 간주된 자들은 위협과 폭력의 희생자들이었다.",
-                    "sent_id": 595,
-                    "relations": [],
-                    "annotation_id": 3158
+                    "lu": "일으키다.v.Causation",
+                    "text": "예수의 성전으로의 입장은 소란을 일으켰다 ; 유월절 만찬 후 그는 로마의 직접 통치하에 있었던 성전 제사장들에 의해 체포되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11281",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "caused",
+                        "okosu .起こす "
+                    ],
+                    "ko_annotation_id": 11281,
+                    "annotation_id": 0,
+                    "frameName": "Causation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Causation",
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "일으킨"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Effect",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "테러를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4295,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "일으키다.v.Causation",
+                    "text": "종종 뉴스에서는, 이슬람교 그 자체와 테러를 일으킨 그룹의 가르침은, 전혀 다르다고 보도됩니다."
                 }
             ]
         }
-    ],
-    "frameID": 974,
-    "ko_pos": "NNG",
-    "ko_lu": "그리스인.n.People_by_origin",
-    "lu_id": 5157,
-    "en_lus": [
-        "Greek"
     ]
 }

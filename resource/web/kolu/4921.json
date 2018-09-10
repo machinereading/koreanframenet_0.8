@@ -1,52 +1,168 @@
 {
-    "frameName": "Documents",
+    "ko_pos": "a",
+    "ko_lu": "언짢다.a.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "higamu .ひがむ ",
+        "upset"
+    ],
+    "lu_id": 4921,
     "patterns": [
         {
-            "valenceText": "annotation id: 17286",
+            "valenceText": "annotation id: 12146",
             "examples": [
                 {
-                    "frameName": "Documents",
+                    "origin_lus": [
+                        "higamu .ひがむ "
+                    ],
+                    "ko_annotation_id": 12146,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_focus",
                     "denotations": [
                         {
-                            "obj": "gov",
+                            "id": 1,
+                            "obj": "Experiencer_focus",
                             "span": {
-                                "begin": 11,
-                                "end": 14
+                                "begin": 54,
+                                "end": 60
                             },
-                            "id": "2"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "언짢아졌다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 15,
-                                "end": 18
+                                "begin": 0,
+                                "end": 13
                             },
-                            "id": "1"
+                            "text": "그때 옆에 있던 그녀는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 53
+                            },
+                            "text": "그 말이 다른 여성을 겨냥함과 동시에, 자신을 향해 한 말이라는 생각에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Passports"
-                    ],
-                    "ko_annotation_id": 17286,
-                    "text": "집들 중 한 곳에서 발견된 여권들은 남자들이  법을 무시하는 부족으로 알려진 특권이 용이한 지방 출신으로 확인되었다.",
-                    "sent_id": 3288,
+                    "sent_id": 4858,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17520
+                    "lu": "언짢다.a.Experiencer_focus",
+                    "text": "그때 옆에 있던 그녀는, 그 말이 다른 여성을 겨냥함과 동시에, 자신을 향해 한 말이라는 생각에 언짢아졌다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15654",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "upset"
+                    ],
+                    "ko_annotation_id": 15654,
+                    "annotation_id": 16467,
+                    "frameName": "Experiencer_focus",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_focus",
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "언짢은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 22
+                            },
+                            "text": "마을에 들어서는 새로운 산업에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 40
+                            },
+                            "text": "환경 테러리스트들이었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3153,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "언짢다.a.Experiencer_focus",
+                    "text": "공격자들은 마을에 들어서는 새로운 산업에 언짢은 환경 테러리스트들이었다."
                 }
             ]
         }
-    ],
-    "frameID": 560,
-    "ko_pos": "NN",
-    "ko_lu": "여권.n.Documents",
-    "lu_id": 4921,
-    "en_lus": [
-        "Passports"
     ]
 }

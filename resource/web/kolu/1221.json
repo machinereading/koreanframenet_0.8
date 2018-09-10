@@ -1,51 +1,63 @@
 {
-    "frameName": "Perception_active",
+    "ko_pos": "a",
+    "ko_lu": "부족하다.a.Scarcity",
+    "frameID": 1603,
+    "frameName": "Scarcity",
+    "en_lus": [
+        "scarce"
+    ],
+    "lu_id": 1221,
     "patterns": [
         {
-            "valenceText": "annotation id: 3777",
+            "valenceText": "annotation id: 12484",
             "examples": [
                 {
-                    "frameName": "Perception_active",
+                    "origin_lus": [
+                        "scarce"
+                    ],
+                    "ko_annotation_id": 12484,
+                    "annotation_id": 551,
+                    "frameName": "Scarcity",
                     "denotations": [
                         {
-                            "obj": "Perceiver_agentive",
+                            "id": 1,
+                            "obj": "Scarcity",
                             "span": {
-                                "begin": 9,
-                                "end": 12
-                            }
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "부족하고"
                         },
                         {
-                            "obj": "Phenomenon",
+                            "id": 2,
+                            "obj": "Collection",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 17,
-                                "end": 19
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 21,
-                                "end": 25
-                            }
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "주택은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "aogu .仰ぐ "
+                    "sent_id": 81,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 3777,
-                    "text": "그렇게 말하고, 야마다는 다시 하늘을 올려다보았다.",
-                    "sent_id": 4223,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "부족하다.a.Scarcity",
+                    "text": "주택은 부족하고 공공 서비스는 -- 법정 시스템, 학교, 우편 서비스, 전화 연결망 그리고 고속도로 --  수치스러운 상태에 있다."
                 }
             ]
         }
-    ],
-    "frameID": 66,
-    "ko_pos": "VV",
-    "ko_lu": "올려다보다.v.Perception_active",
-    "lu_id": 1221,
-    "en_lus": [
-        "aogu .仰ぐ "
     ]
 }

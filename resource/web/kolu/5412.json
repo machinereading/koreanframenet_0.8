@@ -1,60 +1,82 @@
 {
-    "frameName": "Participation",
+    "ko_pos": "n",
+    "ko_lu": "부대.n.Military",
+    "frameID": 1514,
+    "frameName": "Military",
+    "en_lus": [
+        "force"
+    ],
+    "lu_id": 5412,
     "patterns": [
         {
-            "valenceText": "annotation id: 19111",
+            "valenceText": "annotation id: 3495",
             "examples": [
                 {
-                    "frameName": "Participation",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 24,
-                                "end": 28
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "participants"
+                        "force"
                     ],
-                    "ko_annotation_id": 19111,
-                    "text": "약 350 명이 훈련에 참여했지만,  많은 참가자들이 매 시간 변화하는 증상으로 여러 번 거쳐야 했기 때문에 약 500 명의 환자들이 실제로 처리되었다.",
-                    "sent_id": 3157,
-                    "relations": [],
-                    "annotation_id": 16482
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.41356",
-            "examples": [
-                {
-                    "frameName": "Participation",
+                    "ko_annotation_id": 3495,
+                    "annotation_id": 6596,
+                    "frameName": "Military",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Military",
                             "span": {
-                                "begin": 8,
-                                "end": 11
+                                "begin": 73,
+                                "end": 76
                             },
-                            "id": "1"
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "부대의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 61,
+                                "end": 68
+                            },
+                            "text": "노화되어 가는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Members",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 69,
+                                "end": 72
+                            },
+                            "text": "스커드",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "이번 대회에는 참가자의 수가 대폭 줄었다.",
-                    "target": "참가자",
-                    "ko_annotation_id": "sejong.41356",
-                    "relations": []
+                    "sent_id": 1322,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부대.n.Military",
+                    "text": "리비아는 AI Fatah 및 다른 미사일 프로그램 하에서 여러 해 동안 자기 자신의 순수한 미사일을 개발하고 노화되어 가는 스커드 부대의 사거리를 확대하려고 하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1144,
-    "ko_pos": "NN",
-    "ko_lu": "참가자.n.Participation",
-    "lu_id": 5412,
-    "en_lus": [
-        "participant"
     ]
 }

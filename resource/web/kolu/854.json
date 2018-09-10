@@ -1,52 +1,82 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "v",
+    "ko_lu": "부탁하다.v.Request",
+    "frameID": 41,
+    "frameName": "Request",
+    "en_lus": [
+        "negau .願う"
+    ],
+    "lu_id": 854,
     "patterns": [
         {
-            "valenceText": "annotation id: 2546",
+            "valenceText": "annotation id: 10312",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "negau .願う"
+                    ],
+                    "ko_annotation_id": 10312,
+                    "annotation_id": 0,
+                    "frameName": "Request",
                     "denotations": [
                         {
-                            "obj": "figure",
+                            "id": 1,
+                            "obj": "Request",
                             "span": {
-                                "begin": 23,
-                                "end": 33
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 34,
+                                "begin": 33,
                                 "end": 40
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "부탁해봅시다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 28
+                            },
+                            "text": "그에 대해서도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "text": "해설을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "where"
-                    ],
-                    "ko_annotation_id": 2546,
-                    "text": "우리는 Goodwill의 입증된 방법들을 그들이 가장 필요한 시내와 이웃으로 넓혔습니다.",
-                    "sent_id": 401,
+                    "sent_id": 3660,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2118
+                    "lu": "부탁하다.v.Request",
+                    "text": "마침 안토니우스라는 이름이 나왔으니, 그에 대해서도 해설을 부탁해봅시다."
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "NNG",
-    "ko_lu": "시내.n.Locative_relation",
-    "lu_id": 854,
-    "en_lus": [
-        "where"
     ]
 }

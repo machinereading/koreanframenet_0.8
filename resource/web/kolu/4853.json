@@ -1,51 +1,70 @@
 {
-    "frameName": "Being_obligated",
+    "ko_pos": "n",
+    "ko_lu": "신경.n.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "ki ni naru .気 に なる "
+    ],
+    "lu_id": 4853,
     "patterns": [
         {
-            "valenceText": "annotation id: 16977",
+            "valenceText": "annotation id: 10438",
             "examples": [
                 {
-                    "frameName": "Being_obligated",
+                    "origin_lus": [
+                        "ki ni naru .気 に なる "
+                    ],
+                    "ko_annotation_id": 10438,
+                    "annotation_id": 0,
+                    "frameName": "Emotion_directed",
                     "denotations": [
                         {
-                            "obj": "Responsible_party",
+                            "id": 1,
+                            "obj": "Emotion_directed",
                             "span": {
-                                "begin": 84,
-                                "end": 86
-                            }
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "신경이"
                         },
                         {
-                            "obj": "Duty",
+                            "id": 2,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 88,
-                                "end": 90
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 88,
-                                "end": 90
-                            }
+                                "begin": 5,
+                                "end": 34
+                            },
+                            "text": "계산이 잘못된 것은 아닌지, 과연 얼마나 산 것인지,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sigoto .仕事 "
+                    "sent_id": 3739,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16977,
-                    "text": "창호지 담당이 아닌 분들은 재미가 없을지 모르나, 어떻게 애초의 상품구성 목표를 검증하고, 어떻게 진열을 바꾸어 재고 상태를 개선했는지, 실례를 보며 자신의 사업에 대입시켜 보면서 참고하기 바란다.",
-                    "sent_id": 4613,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "신경.n.Emotion_directed",
+                    "text": "그것은, 계산이 잘못된 것은 아닌지, 과연 얼마나 산 것인지, 신경이 쓰이기 때문입니다."
                 }
             ]
         }
-    ],
-    "frameID": 392,
-    "ko_pos": "NNG",
-    "ko_lu": "사업.n.Being_obligated",
-    "lu_id": 4853,
-    "en_lus": [
-        "sigoto .仕事 "
     ]
 }

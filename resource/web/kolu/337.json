@@ -1,58 +1,166 @@
 {
-    "frameName": "Perception_active",
+    "ko_pos": "v",
+    "ko_lu": "따르다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "iku .行く "
+    ],
+    "lu_id": 337,
     "patterns": [
         {
-            "valenceText": "annotation id: 880",
+            "valenceText": "annotation id: 10450",
             "examples": [
                 {
-                    "frameName": "Perception_active",
+                    "origin_lus": [
+                        "iku .行く "
+                    ],
+                    "ko_annotation_id": 10450,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
                     "denotations": [
                         {
-                            "obj": "Location_of_perceiver",
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 59,
+                                "end": 67
+                            },
+                            "token_span": [
+                                15,
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "따라 행진하고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 5
-                            }
+                                "end": 35
+                            },
+                            "text": "큼직한 인형을 실은 수레, 음악대, 가장행렬 등 수많은 공연가가",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Perceiver_agentive",
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 14
-                            }
-                        },
-                        {
-                            "obj": "Phenomenon",
-                            "span": {
-                                "begin": 16,
-                                "end": 17
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 19,
-                                "end": 22
-                            }
+                                "begin": 36,
+                                "end": 58
+                            },
+                            "text": "프로므나드 데 장글레라 불리는 해안 길을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "nozoku .のぞく "
+                    "sent_id": 3749,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 880,
-                    "text": "교실 창문으로 다케시 일행도 밖을 내다보았다.",
-                    "sent_id": 3769,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "따르다.v.Motion",
+                    "text": "큼직한 인형을 실은 수레, 음악대, 가장행렬 등 수많은 공연가가 프로므나드 데 장글레라 불리는 해안 길을 따라 행진하고, 세계 곳곳에서 모여든 사람들은 죽 가로와 세로로 구획된 관객석에서 성대한 박수를 보낼 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12309",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "iku .行く "
+                    ],
+                    "ko_annotation_id": 12309,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "따라 간다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "몬베쓰 시까지는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 13
+                            },
+                            "text": "해안길을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4941,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "따르다.v.Motion",
+                    "text": "몬베쓰 시까지는 해안길을 따라 간다."
                 }
             ]
         }
-    ],
-    "frameID": 66,
-    "ko_pos": "VV",
-    "ko_lu": "내다보다.v.Perception_active",
-    "lu_id": 337,
-    "en_lus": [
-        "nozoku .のぞく "
     ]
 }

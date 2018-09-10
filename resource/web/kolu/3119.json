@@ -1,51 +1,81 @@
 {
-    "frameName": "Mental_stimulus_stimulus_focus",
+    "ko_pos": "n",
+    "ko_lu": "자극.n.Sensation",
+    "frameID": 71,
+    "frameName": "Sensation",
+    "en_lus": [
+        "sigeki .刺激"
+    ],
+    "lu_id": 3119,
     "patterns": [
         {
-            "valenceText": "annotation id: 10415",
+            "valenceText": "annotation id: 10668",
             "examples": [
                 {
-                    "frameName": "Mental_stimulus_stimulus_focus",
+                    "origin_lus": [
+                        "sigeki .刺激"
+                    ],
+                    "ko_annotation_id": 10668,
+                    "annotation_id": 0,
+                    "frameName": "Sensation",
                     "denotations": [
                         {
-                            "obj": "Stimulus",
+                            "id": 1,
+                            "obj": "Sensation",
                             "span": {
-                                "begin": 0,
-                                "end": 4
-                            }
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "자극에"
                         },
                         {
-                            "obj": "Experiencer",
+                            "id": 2,
+                            "obj": "Perceiver_Passive",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 7
-                            }
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "시즈는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Percept",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 11,
-                                "end": 14
-                            }
+                                "begin": 19,
+                                "end": 21
+                            },
+                            "text": "어떤",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "omosiroi .おもしろい "
+                    "sent_id": 3925,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 10415,
-                    "text": "그 부분이 저한테는 재미있었어요.",
-                    "sent_id": 5002,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "자극.n.Sensation",
+                    "text": "제39장 위화감 해결방법, 시즈는 어떤 자극에 눈이 떠졌다."
                 }
             ]
         }
-    ],
-    "frameID": 2046,
-    "ko_pos": "VA",
-    "ko_lu": "재미있다.a.Mental_stimulus_stimulus_focus",
-    "lu_id": 3119,
-    "en_lus": [
-        "omosiroi .おもしろい "
     ]
 }

@@ -1,122 +1,124 @@
 {
-    "frameName": "Reasoning",
+    "ko_pos": "v",
+    "ko_lu": "가입하다.v.Sign_agreement",
+    "frameID": 1151,
+    "frameName": "Sign_agreement",
+    "en_lus": [
+        "accede"
+    ],
+    "lu_id": 3031,
     "patterns": [
         {
-            "valenceText": "annotation id: 9902",
+            "valenceText": "annotation id: 8558",
             "examples": [
                 {
-                    "frameName": "Reasoning",
+                    "origin_lus": [
+                        "acceded"
+                    ],
+                    "ko_annotation_id": 8558,
+                    "annotation_id": 15605,
+                    "frameName": "Sign_agreement",
                     "denotations": [
                         {
-                            "obj": "content",
+                            "id": 1,
+                            "obj": "Sign_agreement",
                             "span": {
-                                "begin": 10,
-                                "end": 14
+                                "begin": 45,
+                                "end": 51
                             },
-                            "id": "2"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "가입하였고,"
                         },
                         {
-                            "obj": "content",
+                            "id": 2,
+                            "obj": "Signatory",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 19
+                                "begin": 0,
+                                "end": 4
                             },
-                            "id": "3"
+                            "text": "남아공은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "time",
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 22,
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "text": "1991년에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
                                 "end": 24
                             },
-                            "id": "4"
+                            "text": "핵무기 미보유 국가로서",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 5,
+                            "obj": "Agreement",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
                                 "begin": 25,
-                                "end": 28
+                                "end": 42
                             },
-                            "id": "1"
+                            "text": "핵확산 방지 조약 ( NPT )",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "proved"
-                    ],
-                    "ko_annotation_id": 9902,
-                    "text": "미국 식품의약국은 크레아틴이 위험하다고 우선 입증되지 않으면 그것을 규제할 권한이 없다.",
-                    "sent_id": 1229,
+                    "sent_id": 3023,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 6235
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.90030",
-            "examples": [
-                {
-                    "frameName": "Reasoning",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 8,
-                                "end": 13
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "그것이 사실로 입증되었다.",
-                    "target": "입증되었다",
-                    "ko_annotation_id": "sejong.90030",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.90031",
-            "examples": [
-                {
-                    "frameName": "Reasoning",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 9,
-                                "end": 14
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그 약의 약효가 입증되었다.",
-                    "target": "입증되었다",
-                    "ko_annotation_id": "sejong.90031",
-                    "relations": []
+                    "lu": "가입하다.v.Sign_agreement",
+                    "text": "남아공은 1991년에 핵무기 미보유 국가로서 핵확산 방지 조약 ( NPT ) 에 가입하였고, 국제 원자력 기구 ( IAEA ) 조사관들은 뒤이어 남아공의 핵 폐기 완료를 입증하였다."
                 }
             ]
         }
-    ],
-    "frameID": 308,
-    "ko_pos": "VV",
-    "ko_lu": "입증되다.v.Reasoning",
-    "lu_id": 3031,
-    "en_lus": [
-        "prove"
     ]
 }

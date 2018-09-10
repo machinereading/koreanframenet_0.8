@@ -1,82 +1,82 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "n",
+    "ko_lu": "세.n.Age",
+    "frameID": 972,
+    "frameName": "Age",
+    "en_lus": [
+        "tosi .歳 "
+    ],
+    "lu_id": 4867,
     "patterns": [
         {
-            "valenceText": "annotation id: 17022",
+            "valenceText": "annotation id: 10614",
             "examples": [
                 {
-                    "frameName": "Buildings",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 24,
-                                "end": 27
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "shelter"
+                        "tosi .歳 "
                     ],
-                    "ko_annotation_id": 17022,
-                    "text": "1- 타워의 하부는 필요시, 감시자를 위한 대피처 역할을 해야 한다.",
-                    "sent_id": 1602,
-                    "relations": [],
-                    "annotation_id": 7814
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.16394",
-            "examples": [
-                {
-                    "frameName": "Buildings",
+                    "ko_annotation_id": 10614,
+                    "annotation_id": 0,
+                    "frameName": "Age",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Age",
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 58,
+                                "end": 62
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "시민들은 각종 재해나 사고를 대비한 대피 훈련이 잘 되어 있었다.",
-                    "target": "대피",
-                    "ko_annotation_id": "sejong.16394",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.16395",
-            "examples": [
-                {
-                    "frameName": "Buildings",
-                    "denotations": [
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "36세."
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 6
+                                "begin": 48,
+                                "end": 54
                             },
-                            "id": "1"
+                            "text": "다카코 씨는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Age",
+                            "token_span": [
+                                15
+                            ],
+                            "span": {
+                                "begin": 58,
+                                "end": 62
+                            },
+                            "text": "36세.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "조금만 대피가 늦었어도 큰 피해가 났을 것이다.",
-                    "target": "대피",
-                    "ko_annotation_id": "sejong.16395",
-                    "relations": []
+                    "sent_id": 3891,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "세.n.Age",
+                    "text": "제1 법정◆다카코 씨의 사례◆불륜 상대 용서 못 해…위자료까지 받아 챙긴 여자의 집념 다카코 씨는 당시 36세."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NNG",
-    "ko_lu": "대피.n.Buildings",
-    "lu_id": 4867,
-    "en_lus": [
-        "shelter"
     ]
 }

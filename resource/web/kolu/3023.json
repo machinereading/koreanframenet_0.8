@@ -1,52 +1,84 @@
 {
-    "frameName": "Frequency",
+    "ko_pos": "v",
+    "ko_lu": "에다.v.Contingency",
+    "frameID": 900,
+    "frameName": "Contingency",
+    "en_lus": [
+        "sidai .次第 "
+    ],
+    "lu_id": 3023,
     "patterns": [
         {
-            "valenceText": "annotation id: 9862",
+            "valenceText": "annotation id: 11136",
             "examples": [
                 {
-                    "frameName": "Frequency",
+                    "origin_lus": [
+                        "sidai .次第 "
+                    ],
+                    "ko_annotation_id": 11136,
+                    "annotation_id": 0,
+                    "frameName": "Contingency",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Contingency",
                             "span": {
-                                "begin": 16,
-                                "end": 19
+                                "begin": 70,
+                                "end": 73
                             },
-                            "id": "1"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "그것에"
                         },
                         {
-                            "obj": "event",
+                            "id": 2,
+                            "obj": "Determinant",
+                            "token_span": [
+                                16
+                            ],
                             "span": {
-                                "begin": 22,
-                                "end": 26
+                                "begin": 70,
+                                "end": 73
                             },
-                            "id": "2"
+                            "text": "그것에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Outcome",
+                            "token_span": [
+                                18,
+                                19,
+                                20,
+                                21
+                            ],
+                            "span": {
+                                "begin": 77,
+                                "end": 91
+                            },
+                            "text": "현실을 변화시킬 수 있다는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sporadic"
-                    ],
-                    "ko_annotation_id": 9862,
-                    "text": "화석은 인간이 서서히 그리고 산발적으로 발전하는 불분명한 이야기를 말해준다.",
-                    "sent_id": 734,
+                    "sent_id": 4198,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3860
+                    "lu": "에다.v.Contingency",
+                    "text": "자아, 여기까지 왔으면, 당신이 생활 속에서 직면하여 고민하게 되는 모순된 「현실」은, 당신의 사고방식을 전제로 하고 있어, 그것에 따라 현실을 변화시킬 수 있다는 것을 이해할 수 있는 단계가 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 80,
-    "ko_pos": "NN",
-    "ko_lu": "산발적.n.Frequency",
-    "lu_id": 3023,
-    "en_lus": [
-        "sporadic"
     ]
 }

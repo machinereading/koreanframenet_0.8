@@ -1,66 +1,108 @@
 {
-    "frameName": "Intentionally_create",
+    "ko_pos": "n",
+    "ko_lu": "사살.n.Killing",
+    "frameID": 590,
+    "frameName": "Killing",
+    "en_lus": [
+        "kill"
+    ],
+    "lu_id": 5475,
     "patterns": [
         {
-            "valenceText": "annotation id: 19380",
+            "valenceText": "annotation id: 5668",
             "examples": [
                 {
-                    "frameName": "Intentionally_create",
+                    "origin_lus": [
+                        "kill"
+                    ],
+                    "ko_annotation_id": 5668,
+                    "annotation_id": 10240,
+                    "frameName": "Killing",
                     "denotations": [
                         {
-                            "obj": "Created_entity",
+                            "id": 1,
+                            "obj": "Killing",
                             "span": {
-                                "begin": 16,
-                                "end": 24
-                            }
+                                "begin": 67,
+                                "end": 70
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "사살을"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Killer",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "soobu .創部 "
-                    ],
-                    "ko_annotation_id": 19380,
-                    "text": "창립 80주년의 역사를 지닌 동 대학 산악부의 현역 부원이 고작 5명이라는 사실에 놀랐다.",
-                    "sent_id": 4501,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.7193",
-            "examples": [
-                {
-                    "frameName": "Intentionally_create",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 13,
-                                "end": 15
+                                "begin": 16,
+                                "end": 23
                             },
-                            "id": "1"
+                            "text": "테러리스트들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 51
+                            },
+                            "text": "미국의 경제 및 군사력의 상징적 표적을 공격하면서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Victim",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 66
+                            },
+                            "text": "가능한 한 많은 미국인들의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "이 회사는 1800년에 창립이 되었다.",
-                    "target": "창립",
-                    "ko_annotation_id": "sejong.7193",
-                    "relations": []
+                    "sent_id": 2089,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사살.n.Killing",
+                    "text": "광신적인 세계관으로 이루어진 테러리스트들은 미국의 경제 및 군사력의 상징적 표적을 공격하면서 가능한 한 많은 미국인들의 사살을 추구하였다."
                 }
             ]
         }
-    ],
-    "frameID": 280,
-    "ko_pos": "NNG",
-    "ko_lu": "창립.n.Intentionally_create",
-    "lu_id": 5475,
-    "en_lus": [
-        "soobu .創部 "
     ]
 }

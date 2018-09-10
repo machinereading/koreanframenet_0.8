@@ -1,110 +1,102 @@
 {
-    "frameName": "Chemical-sense_description",
+    "ko_pos": "n",
+    "ko_lu": "판매액.n.Commerce_sell",
+    "frameID": 172,
+    "frameName": "Commerce_sell",
+    "en_lus": [
+        "sale"
+    ],
+    "lu_id": 4765,
     "patterns": [
         {
-            "valenceText": "annotation id: 16716",
+            "valenceText": "annotation id: 50",
             "examples": [
                 {
-                    "frameName": "Chemical-sense_description",
+                    "origin_lus": [
+                        "sale"
+                    ],
+                    "ko_annotation_id": 50,
+                    "annotation_id": 63,
+                    "frameName": "Commerce_sell",
                     "denotations": [
                         {
-                            "obj": "Degree",
+                            "id": 1,
+                            "obj": "Commerce_sell",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "판매액"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 3,
-                                "end": 5
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "oisii .おいしい "
-                    ],
-                    "ko_annotation_id": 16716,
-                    "text": "너무 맛있어서 밥이 부족해, 얻으러 갔다는 것입니다.",
-                    "sent_id": 4080,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.99374",
-            "examples": [
-                {
-                    "frameName": "Chemical-sense_description",
-                    "denotations": [
+                                "begin": 8,
+                                "end": 16
+                            },
+                            "text": "연합 투자자들의",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "id": "1",
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 19
+                            },
+                            "text": "8월",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Money",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
                                 "begin": 24,
-                                "end": 27
+                                "end": 33
                             },
-                            "obj": "target"
+                            "text": "27 백만 달러와",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "우리 어머니께서 해 주시는 된장찌개는 정말 맛있다.",
-                    "target": "맛있다",
-                    "ko_annotation_id": "sejong.99374",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.99375",
-            "examples": [
-                {
-                    "frameName": "Chemical-sense_description",
-                    "denotations": [
+                    "sent_id": 10,
+                    "relations": [
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 11,
-                                "end": 15
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "한국음식은 정갈하고 맛있어서 누구나 좋아한다.",
-                    "target": "맛있어서",
-                    "ko_annotation_id": "sejong.99375",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.99376",
-            "examples": [
-                {
-                    "frameName": "Chemical-sense_description",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 0,
-                                "end": 3
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "맛있는 참외를 사가세요.",
-                    "target": "맛있는",
-                    "ko_annotation_id": "sejong.99376",
-                    "relations": []
+                    "lu": "판매액.n.Commerce_sell",
+                    "text": "3분기 결과는 연합 투자자들의 8월 판매액 27 백만 달러와 15 백만 달러의 세금 공제를 포함한 48 백만 달러의 순실현자본이득을 포함하였다."
                 }
             ]
         }
-    ],
-    "frameID": 271,
-    "ko_pos": "VA",
-    "ko_lu": "맛있다.a.Chemical-sense_description",
-    "lu_id": 4765,
-    "en_lus": [
-        "oisii .おいしい "
     ]
 }

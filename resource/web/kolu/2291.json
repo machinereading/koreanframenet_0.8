@@ -1,65 +1,63 @@
 {
-    "frameName": "Giving",
+    "ko_pos": "n",
+    "ko_lu": "항공.n.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "kookuu .航空 "
+    ],
+    "lu_id": 2291,
     "patterns": [
         {
-            "valenceText": "annotation id: 7419",
+            "valenceText": "annotation id: 16214",
             "examples": [
                 {
-                    "frameName": "Giving",
+                    "origin_lus": [
+                        "kookuu .航空 "
+                    ],
+                    "ko_annotation_id": 16214,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
                     "denotations": [
                         {
-                            "obj": "recipient",
+                            "id": 1,
+                            "obj": "Motion",
                             "span": {
-                                "begin": 0,
-                                "end": 24
+                                "begin": 4,
+                                "end": 10
                             },
-                            "id": "2"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "정기항공에서"
                         },
                         {
-                            "obj": "theme",
+                            "id": 2,
+                            "obj": "Carrier",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 26,
-                                "end": 60
+                                "begin": 16,
+                                "end": 20
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 62,
-                                "end": 66
-                            },
-                            "id": "1"
+                            "text": "기재는,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "given"
-                    ],
-                    "ko_annotation_id": 7419,
-                    "text": "Pleasant Run에 오는 아이들과 가족은 행복하고, 사랑하고, 생산적인 우리 사회의 구성원들이 될 기회를 얻게 된다.",
-                    "sent_id": 454,
+                    "sent_id": 3808,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2377
+                    "lu": "항공.n.Motion",
+                    "text": "한편, 정기항공에서 사용되는 기재는, 수십 명이 타는 비행기부터 최대 568명이 타는 점보제트 (최대이륙중량은 38만 킬로그램/380톤 전후.)까지로, 최대이륙중량이 5.7톤을 넘는 크기의 비행기를 조종하기 위해서는, 이런 라이선스로는 아직 부족해, 비행기마다 독자적인 라이선스를 취득하지 않으면 안된다."
                 }
             ]
         }
-    ],
-    "frameID": 139,
-    "ko_pos": "VV",
-    "ko_lu": "얻다.v.Giving",
-    "lu_id": 2291,
-    "en_lus": [
-        "give"
     ]
 }

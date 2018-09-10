@@ -1,52 +1,72 @@
 {
-    "frameName": "Temperature",
+    "ko_pos": "v",
+    "ko_lu": "대하다.v.Expensiveness",
+    "frameID": 83,
+    "frameName": "Expensiveness",
+    "en_lus": [
+        "cost"
+    ],
+    "lu_id": 3100,
     "patterns": [
         {
-            "valenceText": "annotation id: 10299",
+            "valenceText": "annotation id: 12683",
             "examples": [
                 {
-                    "frameName": "Temperature",
+                    "origin_lus": [
+                        "cost"
+                    ],
+                    "ko_annotation_id": 12683,
+                    "annotation_id": 1523,
+                    "frameName": "Expensiveness",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Expensiveness",
                             "span": {
-                                "begin": 50,
-                                "end": 53
+                                "begin": 166,
+                                "end": 174
                             },
-                            "id": "1"
+                            "token_span": [
+                                39,
+                                40
+                            ],
+                            "role": "TARGET",
+                            "text": "비용에 대해서는"
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Intended_Event",
+                            "token_span": [
+                                29,
+                                30,
+                                31,
+                                32,
+                                33,
+                                34,
+                                35,
+                                36,
+                                37
+                            ],
                             "span": {
-                                "begin": 54,
-                                "end": 56
+                                "begin": 127,
+                                "end": 160
                             },
-                            "id": "2"
+                            "text": "자기 지역구민들을 위해 똑같이 하는 모든 다른 의원과 관련된",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "cool"
-                    ],
-                    "ko_annotation_id": 10299,
-                    "text": "비행기 여행의 확대는 대중관광 시대를 시작하였고, 그리스는 에게 해 제도와 함께 축축하고 시원한 여름을 벗어나려는 북부 유럽인들을 위한 흥미진진한 목적지가 되었다.",
-                    "sent_id": 610,
+                    "sent_id": 277,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3265
+                    "lu": "대하다.v.Expensiveness",
+                    "text": "둘째, 그것은 왜 투표자들은 의회를 경멸하지만 일반적으로 그들 자신의 의회 대표자들을 좋아하는가를 설명해준다 : 어떤 개별 국회의원의 지역구민들은 그 국회의원이 그들을 위해 쟁취한 특정 혜택에 대해서는 감사하지만 그러나 똑같이 자기 지역구민들을 위해 똑같이 하는 모든 다른 의원과 관련된 총체적인 비용에 대해서는 감사하지 않는다."
                 }
             ]
         }
-    ],
-    "frameID": 1050,
-    "ko_pos": "VA",
-    "ko_lu": "시원하다.a.Temperature",
-    "lu_id": 3100,
-    "en_lus": [
-        "cool"
     ]
 }

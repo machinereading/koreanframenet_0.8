@@ -1,52 +1,100 @@
 {
-    "frameName": "System",
+    "ko_pos": "n",
+    "ko_lu": "파봐.n.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "horu .ほる "
+    ],
+    "lu_id": 1335,
     "patterns": [
         {
-            "valenceText": "annotation id: 4144",
+            "valenceText": "annotation id: 16649",
             "examples": [
                 {
-                    "frameName": "System",
+                    "origin_lus": [
+                        "horu .ほる "
+                    ],
+                    "ko_annotation_id": 16649,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "function",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 14,
-                                "end": 18
+                                "begin": 38,
+                                "end": 41
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "파봐도"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 19
+                                "begin": 20,
+                                "end": 28
                             },
-                            "id": "1"
+                            "text": "마을 사람들이,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "text": "여기저기",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Act",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "text": "우물을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "systems"
-                    ],
-                    "ko_annotation_id": 4144,
-                    "text": "320 밀리미터 까지의 다연장로켓포를 포함한 많은 이들 포대는 비무장 지대 인근에 전진 배치되었다.",
-                    "sent_id": 2740,
+                    "sent_id": 4699,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 13800
+                    "lu": "파봐.n.Intentionally_act",
+                    "text": "강물은 졸졸 흐르니 도움이 안되고, 마을 사람들이, 여기저기 우물을 파봐도 시원스레 깨끗한 물이 나오지 않았지."
                 }
             ]
         }
-    ],
-    "frameID": 1610,
-    "ko_pos": "NNG",
-    "ko_lu": "포.n.System",
-    "lu_id": 1335,
-    "en_lus": [
-        "system"
     ]
 }

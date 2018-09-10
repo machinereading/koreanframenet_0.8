@@ -1,51 +1,86 @@
 {
-    "frameName": "Information",
+    "ko_pos": "n",
+    "ko_lu": "배려.n.Cogitation",
+    "frameID": 22,
+    "frameName": "Cogitation",
+    "en_lus": [
+        "consideration"
+    ],
+    "lu_id": 4515,
     "patterns": [
         {
-            "valenceText": "annotation id: 15666",
+            "valenceText": "annotation id: 4623",
             "examples": [
                 {
-                    "frameName": "Information",
+                    "origin_lus": [
+                        "consideration"
+                    ],
+                    "ko_annotation_id": 4623,
+                    "annotation_id": 8434,
+                    "frameName": "Cogitation",
                     "denotations": [
                         {
-                            "obj": "Source",
+                            "id": 1,
+                            "obj": "Cogitation",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 40,
+                                "end": 43
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "배려가"
                         },
                         {
-                            "obj": "Information",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
+                                "begin": 13,
+                                "end": 22
+                            },
+                            "text": "묘안을 내기 전에",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
+                                "begin": 23,
+                                "end": 34
+                            },
+                            "text": "통로 다른 편을 위한",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hookoku .報告 "
+                    "sent_id": 1730,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15666,
-                    "text": "간지의 보고에 따르면, 시즈는 틀림없이 그 배에 타고 있을 것이었다.",
-                    "sent_id": 4100,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "배려.n.Cogitation",
+                    "text": "Bill_First : 묘안을 내기 전에 통로 다른 편을 위한 최소한의 배려가 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 1591,
-    "ko_pos": "NNG",
-    "ko_lu": "보고.n.Information",
-    "lu_id": 4515,
-    "en_lus": [
-        "hookoku .報告 "
     ]
 }

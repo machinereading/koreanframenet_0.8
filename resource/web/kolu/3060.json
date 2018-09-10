@@ -1,100 +1,98 @@
 {
-    "frameName": "Referring_by_name",
+    "ko_pos": "n",
+    "ko_lu": "근로자.n.Employing",
+    "frameID": 323,
+    "frameName": "Employing",
+    "en_lus": [
+        "worker",
+        "kinroo sya .勤労 者 "
+    ],
+    "lu_id": 3060,
     "patterns": [
         {
-            "valenceText": "annotation id: 10197",
+            "valenceText": "annotation id: 948",
             "examples": [
                 {
-                    "frameName": "Referring_by_name",
+                    "origin_lus": [
+                        "kinroo sya .勤労 者 ",
+                        "worker"
+                    ],
+                    "ko_annotation_id": 948,
+                    "annotation_id": 2001,
+                    "frameName": "Employing",
                     "denotations": [
                         {
-                            "obj": "entity",
+                            "id": 1,
+                            "obj": "Employing",
                             "span": {
-                                "begin": 0,
-                                "end": 15
+                                "begin": 93,
+                                "end": 98
                             },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "speaker",
-                            "span": {
-                                "begin": 18,
-                                "end": 20
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 21,
-                                "end": 23
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "name",
-                            "span": {
-                                "begin": 24,
-                                "end": 29
-                            },
-                            "id": "3"
+                            "token_span": [
+                                24
+                            ],
+                            "role": "TARGET",
+                            "text": "근로자뿐만"
                         }
                     ],
-                    "origin_lus": [
-                        "designation"
-                    ],
-                    "ko_annotation_id": 10197,
-                    "text": "RS -1M2 Topol-M ( 나토 명칭 SS-27 ) 대륙간 탄도 미사일 ( ICBM ) 은 사일로 기반으로는 개발 되었고 이동 기반 모델은 개발 중이다.",
-                    "sent_id": 3005,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 15488
+                    "sent_id": 371,
+                    "relations": [],
+                    "lu": "근로자.n.Employing",
+                    "text": "우리는 누군가가 그들의 고용 장벽에 대한 해결책을 발견하도록 도울 때마다, 긍정적인 효과가 우리들의 지역사회 전반에 발산된다 : 기업 공동체는 단지 또 다른 한 명의 근로자뿐만 아니라 증가된 구매력을 가진 한 명의 소비자를 맞이하는 것이다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.45133",
+            "valenceText": "annotation id: 10321",
             "examples": [
                 {
-                    "frameName": "Referring_by_name",
+                    "origin_lus": [
+                        "kinroo sya .勤労 者 ",
+                        "worker"
+                    ],
+                    "ko_annotation_id": 10321,
+                    "annotation_id": 0,
+                    "frameName": "Employing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Employing",
                             "span": {
-                                "begin": 11,
-                                "end": 13
+                                "begin": 0,
+                                "end": 4
                             },
-                            "id": "1"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "근로자의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Employee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "근로자의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "금강산은 여러 개의 명칭을 가지고 있다.",
-                    "target": "명칭",
-                    "ko_annotation_id": "sejong.45133",
-                    "relations": []
+                    "sent_id": 3661,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "근로자.n.Employing",
+                    "text": "근로자의 70% 가까이가 제조업 노동자에 해당했던 시대로, 젊은 노동자는 그 중심부를 담당하고 있었습니다."
                 }
             ]
         }
-    ],
-    "frameID": 1253,
-    "ko_pos": "NNG",
-    "ko_lu": "명칭.n.Referring_by_name",
-    "lu_id": 3060,
-    "en_lus": [
-        "designation"
     ]
 }

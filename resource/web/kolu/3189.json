@@ -1,65 +1,114 @@
 {
-    "frameName": "Deserving",
+    "ko_pos": "n",
+    "ko_lu": "청구.n.Claim_ownership",
+    "frameID": 550,
+    "frameName": "Claim_ownership",
+    "en_lus": [
+        "seekyuu .請求"
+    ],
+    "lu_id": 3189,
     "patterns": [
         {
-            "valenceText": "annotation id: 10711",
+            "valenceText": "annotation id: 10823",
             "examples": [
                 {
-                    "frameName": "Deserving",
+                    "origin_lus": [
+                        "seekyuu .請求"
+                    ],
+                    "ko_annotation_id": 10823,
+                    "annotation_id": 0,
+                    "frameName": "Claim_ownership",
                     "denotations": [
                         {
-                            "obj": "state_of_affairs",
+                            "id": 1,
+                            "obj": "Claim_ownership",
                             "span": {
-                                "begin": 13,
-                                "end": 23
+                                "begin": 10,
+                                "end": 12
                             },
-                            "id": "2"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "청구"
                         },
                         {
-                            "obj": "action",
+                            "id": 2,
+                            "obj": "Property",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 29
+                                "begin": 7,
+                                "end": 9
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 30,
-                                "end": 35
-                            },
-                            "id": "1"
+                            "text": "특허",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "deserves"
-                    ],
-                    "ko_annotation_id": 10711,
-                    "text": "QN : Walden은 Grand Slam이 존경받을 가치가 있다고 생각하는가 ?",
-                    "sent_id": 1220,
+                    "sent_id": 4011,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6216
+                    "lu": "청구.n.Claim_ownership",
+                    "text": "직접침해는, 특허 청구 범위의 문언에 의해 규정되는 경우(문언침해.)와 문언의 범위에는 포함되지 않으나, 그 문언에 기재된 것과 가치적으로 같다고 보여(균등침해.), 그 침해의 범위에 포함되는 경우가 있습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10959",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "seekyuu .請求"
+                    ],
+                    "ko_annotation_id": 10959,
+                    "annotation_id": 0,
+                    "frameName": "Claim_ownership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Claim_ownership",
+                            "span": {
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "특허청구"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Property",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "text": "특허청구",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4085,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "청구.n.Claim_ownership",
+                    "text": "A 문언침해에는 해당하지 않는 특허발명이 어디까지 보호 범위에 속하는지는, 원서에 첨부한 특허청구 범위에 기재된 내용에 따라 정해집니다."
                 }
             ]
         }
-    ],
-    "frameID": 541,
-    "ko_pos": "VA",
-    "ko_lu": "가치있다.a.Deserving",
-    "lu_id": 3189,
-    "en_lus": [
-        "deserves"
     ]
 }

@@ -1,78 +1,66 @@
 {
-    "frameName": "Communication",
+    "ko_pos": "n",
+    "ko_lu": "기별.n.Information",
+    "frameID": 1591,
+    "frameName": "Information",
+    "en_lus": [
+        "sirase .知らせ"
+    ],
+    "lu_id": 2076,
     "patterns": [
         {
-            "valenceText": "annotation id: 6592",
+            "valenceText": "annotation id: 11420",
             "examples": [
                 {
-                    "frameName": "Communication",
+                    "origin_lus": [
+                        "sirase .知らせ"
+                    ],
+                    "ko_annotation_id": 11420,
+                    "annotation_id": 0,
+                    "frameName": "Information",
                     "denotations": [
                         {
-                            "obj": "communicator",
+                            "id": 1,
+                            "obj": "Information",
                             "span": {
-                                "begin": 42,
-                                "end": 44
+                                "begin": 44,
+                                "end": 47
                             },
-                            "id": "3"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "기별이"
                         },
                         {
-                            "obj": "addressee",
+                            "id": 2,
+                            "obj": "Information",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 46,
-                                "end": 51
+                                "begin": 29,
+                                "end": 43
                             },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "message",
-                            "span": {
-                                "begin": 57,
-                                "end": 62
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 60,
-                                "end": 66
-                            },
-                            "id": "1"
+                            "text": "거기에 시즈가 타고 있다는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "signaled"
-                    ],
-                    "ko_annotation_id": 6592,
-                    "text": "그 결과, 상인들은 하루에 한 발의 발포로 제한되었고 - 그리고 그때부터, 그들은 모두가 듣도록 매일 정오 시간을 알렸다.",
-                    "sent_id": 1128,
+                    "sent_id": 4376,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5908
+                    "lu": "기별.n.Information",
+                    "text": "낮 열두 시경에 가와고에로 향하는 나룻배가 뜨는데, 거기에 시즈가 타고 있다는 기별이 왔기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 6,
-    "ko_pos": "NNG",
-    "ko_lu": "시간.n.Communication",
-    "lu_id": 2076,
-    "en_lus": [
-        "signal"
     ]
 }

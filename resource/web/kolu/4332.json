@@ -1,39 +1,83 @@
 {
-    "frameName": "Medical_conditions",
+    "ko_pos": "v",
+    "ko_lu": "맡다.v.Commitment",
+    "frameID": 33,
+    "frameName": "Commitment",
+    "en_lus": [
+        "hikiukeru .引き受ける "
+    ],
+    "lu_id": 4332,
     "patterns": [
         {
-            "valenceText": "annotation id: 14925",
+            "valenceText": "annotation id: 10787",
             "examples": [
                 {
-                    "frameName": "Medical_conditions",
+                    "origin_lus": [
+                        "hikiukeru .引き受ける "
+                    ],
+                    "ko_annotation_id": 10787,
+                    "annotation_id": 0,
+                    "frameName": "Commitment",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Commitment",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "맡을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "나는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 31
+                            },
+                            "text": "기업 회생의 실행은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "wound",
-                        "kizu .傷 "
+                    "sent_id": 3995,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14925,
-                    "text": "상처가 나았으니 의사가 허락해 준 것이겠지.",
-                    "sent_id": 4451,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "맡다.v.Commitment",
+                    "text": "애초 나는, 이 안건은 조사만 하고, 기업 회생의 실행은 맡을 생각이 없었다."
                 }
             ]
         }
-    ],
-    "frameID": 239,
-    "ko_pos": "NNG",
-    "ko_lu": "상처.n.Medical_conditions",
-    "lu_id": 4332,
-    "en_lus": [
-        "kizu .傷 ",
-        "wound"
     ]
 }

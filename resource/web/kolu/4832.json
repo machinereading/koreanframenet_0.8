@@ -1,51 +1,63 @@
 {
-    "frameName": "Precipitation",
+    "ko_pos": "v",
+    "ko_lu": "교류하다.v.Relation",
+    "frameID": 248,
+    "frameName": "Relation",
+    "en_lus": [
+        "tukiau .つきあう"
+    ],
+    "lu_id": 4832,
     "patterns": [
         {
-            "valenceText": "annotation id: 16929",
+            "valenceText": "annotation id: 10707",
             "examples": [
                 {
-                    "frameName": "Precipitation",
+                    "origin_lus": [
+                        "tukiau .つきあう"
+                    ],
+                    "ko_annotation_id": 10707,
+                    "annotation_id": 0,
+                    "frameName": "Relation",
                     "denotations": [
                         {
-                            "obj": "Precipitation",
+                            "id": 1,
+                            "obj": "Relation",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 12,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "교류해야"
                         },
                         {
-                            "obj": "Manner",
+                            "id": 2,
+                            "obj": "Entity1",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 10
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "end": 7
+                            },
+                            "text": "「신과",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ame .雨 "
+                    "sent_id": 3965,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16929,
-                    "text": "빗발은 거세지고 있었다.",
-                    "sent_id": 4867,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "교류하다.v.Relation",
+                    "text": "Q42 「신과 어떻게 교류해야 할까요」 A「일본의 신은 진정한 신이 아닙니다."
                 }
             ]
         }
-    ],
-    "frameID": 314,
-    "ko_pos": "NNG",
-    "ko_lu": "빗발.n.Precipitation",
-    "lu_id": 4832,
-    "en_lus": [
-        "ame .雨 "
     ]
 }

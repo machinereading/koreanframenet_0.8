@@ -1,102 +1,87 @@
 {
-    "frameName": "Aiming",
+    "ko_pos": "a",
+    "ko_lu": "하고많다.a.Attempt",
+    "frameID": 116,
+    "frameName": "Attempt",
+    "en_lus": [
+        "try"
+    ],
+    "lu_id": 2880,
     "patterns": [
         {
-            "valenceText": "annotation id: 9510",
+            "valenceText": "annotation id: 3237",
             "examples": [
                 {
-                    "frameName": "Aiming",
-                    "denotations": [
-                        {
-                            "obj": "Agent",
-                            "span": {
-                                "begin": 0,
-                                "end": 9
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 33,
-                                "end": 46
-                            }
-                        },
-                        {
-                            "obj": "Instrument",
-                            "span": {
-                                "begin": 49,
-                                "end": 55
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 53,
-                                "end": 55
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "hokosaki .矛先 "
+                        "trying"
                     ],
-                    "ko_annotation_id": 9510,
-                    "text": "낭만주의자는 모두, 영국 산업화의 결과에 거세게 반대하며, 고전경제학파나 벤담 학파에게 공세의 화살을 겨누었다.",
-                    "sent_id": 4233,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.16460",
-            "examples": [
-                {
-                    "frameName": "Aiming",
+                    "ko_annotation_id": 3237,
+                    "annotation_id": 6196,
+                    "frameName": "Attempt",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Attempt",
+                            "span": {
+                                "begin": 32,
+                                "end": 38
+                            },
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "하고 있다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
+                                "end": 6
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "화살은 과녁 한복판을 맞혔다.",
-                    "target": "화살",
-                    "ko_annotation_id": "sejong.16460",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.16461",
-            "examples": [
-                {
-                    "frameName": "Aiming",
-                    "denotations": [
+                            "text": "헬리콥터들은",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 3,
-                                "end": 5
+                                "begin": 7,
+                                "end": 27
                             },
-                            "id": "1"
+                            "text": "식량 없이 발이 묶인 사람들의 위치를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 화살을 매우 잘 쏜다.",
-                    "target": "화살",
-                    "ko_annotation_id": "sejong.16461",
-                    "relations": []
+                    "sent_id": 1209,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "하고많다.a.Attempt",
+                    "text": "헬리콥터들은 식량 없이 발이 묶인 사람들의 위치를 찾으려 하고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1901,
-    "ko_pos": "NNG",
-    "ko_lu": "화살.n.Aiming",
-    "lu_id": 2880,
-    "en_lus": [
-        "hokosaki .矛先 "
     ]
 }

@@ -1,74 +1,114 @@
 {
-    "frameName": "Vehicle",
+    "ko_pos": "n",
+    "ko_lu": "정기적.n.Frequency",
+    "frameID": 80,
+    "frameName": "Frequency",
+    "en_lus": [
+        "teeki teki .定期 的 "
+    ],
+    "lu_id": 3737,
     "patterns": [
         {
-            "valenceText": "annotation id: 12774",
+            "valenceText": "annotation id: 10073",
             "examples": [
                 {
-                    "frameName": "Vehicle",
+                    "origin_lus": [
+                        "teeki teki .定期 的 "
+                    ],
+                    "ko_annotation_id": 10073,
+                    "annotation_id": 0,
+                    "frameName": "Frequency",
                     "denotations": [
                         {
-                            "obj": "use",
+                            "id": 1,
+                            "obj": "Frequency",
                             "span": {
-                                "begin": 40,
-                                "end": 43
+                                "begin": 25,
+                                "end": 30
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "정기적으로"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 40,
-                                "end": 43
+                                "begin": 31,
+                                "end": 34
                             },
-                            "id": "1"
+                            "text": "회의할",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "vessels"
-                    ],
-                    "ko_annotation_id": 12774,
-                    "text": "예를 들면, 1996년에 일본의 한 한국 교포가 북한에 식량을 지원하는 화물선을 이용하여 북한에 50 킬로그램의 플루오르화나트륨을 수출하려다 붙잡혔다.",
-                    "sent_id": 2783,
+                    "sent_id": 3557,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 14081
+                    "lu": "정기적.n.Frequency",
+                    "text": "그래서, 아무리 경비가 든다 하더라도 매주, 정기적으로 회의할 필요가 있다는 것이다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.25946",
+            "valenceText": "annotation id: 16526",
             "examples": [
                 {
-                    "frameName": "Vehicle",
+                    "origin_lus": [
+                        "teeki teki .定期 的 "
+                    ],
+                    "ko_annotation_id": 16526,
+                    "annotation_id": 0,
+                    "frameName": "Frequency",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Frequency",
                             "span": {
-                                "begin": 10,
-                                "end": 13
+                                "begin": 25,
+                                "end": 29
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "정기적인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "text": "미팅을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "동해 앞 바다에서 화물선이 납치되었다.",
-                    "target": "화물선",
-                    "ko_annotation_id": "sejong.25946",
-                    "relations": []
+                    "sent_id": 4485,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "정기적.n.Frequency",
+                    "text": "또한 학습회에서 끝나는 것이 아니라, 그 후 정기적인 미팅을 하거나, 한층 더 깊이 학습하기  위한 연구회를 만드는 것도 좋겠습니다."
                 }
             ]
         }
-    ],
-    "frameID": 429,
-    "ko_pos": "NN",
-    "ko_lu": "화물선.n.Vehicle",
-    "lu_id": 3737,
-    "en_lus": [
-        "vessel"
     ]
 }

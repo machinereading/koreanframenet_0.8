@@ -1,82 +1,103 @@
 {
-    "frameName": "Age",
+    "ko_pos": "v",
+    "ko_lu": "넣다.v.Work",
+    "frameID": 1892,
+    "frameName": "Work",
+    "en_lus": [
+        "torikumu .取り組む "
+    ],
+    "lu_id": 5514,
     "patterns": [
         {
-            "valenceText": "annotation id: 19566",
+            "valenceText": "annotation id: 10803",
             "examples": [
                 {
-                    "frameName": "Age",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 5,
-                                "end": 7
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "old"
+                        "torikumu .取り組む "
                     ],
-                    "ko_annotation_id": 19566,
-                    "text": "젊은이와 노인은 마음과 몸을 단련하기 위해 느린 동작의 발레와 같은 운동을 해나간다.",
-                    "sent_id": 1089,
-                    "relations": [],
-                    "annotation_id": 5685
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.5092",
-            "examples": [
-                {
-                    "frameName": "Age",
+                    "ko_annotation_id": 10803,
+                    "annotation_id": 0,
+                    "frameName": "Work",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Work",
                             "span": {
-                                "begin": 3,
-                                "end": 5
+                                "begin": 47,
+                                "end": 49
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "점점 노인의 인구가 많아지고 있다.",
-                    "target": "노인",
-                    "ko_annotation_id": "sejong.5092",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.5093",
-            "examples": [
-                {
-                    "frameName": "Age",
-                    "denotations": [
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "넣을"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Salient_Entity",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 26,
-                                "end": 28
+                                "begin": 8,
+                                "end": 15
                             },
-                            "id": "1"
+                            "text": "모형 만들기는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Domain",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 41
+                            },
+                            "text": "중학교 이과 과목 안에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 46
+                            },
+                            "text": "일관되게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "인구의 고령화에도 불구하고 우리 사회에는 아직 노인들을 위한 문화시설이 턱없이 부족하다.",
-                    "target": "노인",
-                    "ko_annotation_id": "sejong.5093",
-                    "relations": []
+                    "sent_id": 4005,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "넣다.v.Work",
+                    "text": "그런 뜻에서, 모형 만들기는 교재 내용과 상관없이, 중학교 이과 과목 안에 일관되게 넣을 가치가 있는 내용이다."
                 }
             ]
         }
-    ],
-    "frameID": 972,
-    "ko_pos": "NNG",
-    "ko_lu": "노인.n.Age",
-    "lu_id": 5514,
-    "en_lus": [
-        "old"
     ]
 }

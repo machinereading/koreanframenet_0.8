@@ -1,44 +1,151 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "n",
+    "ko_lu": "신호.n.Sign",
+    "frameID": 428,
+    "frameName": "Sign",
+    "en_lus": [
+        "sign"
+    ],
+    "lu_id": 4480,
     "patterns": [
         {
-            "valenceText": "annotation id: 15530",
+            "valenceText": "annotation id: 219",
             "examples": [
                 {
-                    "frameName": "Leadership",
+                    "origin_lus": [
+                        "sign",
+                        "signs"
+                    ],
+                    "ko_annotation_id": 219,
+                    "annotation_id": 419,
+                    "frameName": "Sign",
                     "denotations": [
                         {
-                            "obj": "Leader",
+                            "id": 1,
+                            "obj": "Sign",
                             "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "신호는"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "text": "밝은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Indicator",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 56
+                            },
+                            "text": "늘어나는 숫자의 여성들이 한때 남성이 지배적이었던 분야에 들어오고 있다는 점이다",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "bakuhu .幕府 "
+                    "sent_id": 66,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15530,
-                    "text": "1660년경(만치 연간.), 막부는, 옥사자와 형사자의 명복을 빌기 위해, 이곳에 회향원을 세우도록 했다.",
-                    "sent_id": 4420,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "신호.n.Sign",
+                    "text": "한 가지 밝은 신호는 늘어나는 숫자의 여성들이 한때 남성이 지배적이었던 분야에 들어오고 있다는 점이다 ; 오늘날 종지기의 삼분의 일 이상이 여성이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15305",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "sign",
+                        "signs"
+                    ],
+                    "ko_annotation_id": 15305,
+                    "annotation_id": 14655,
+                    "frameName": "Sign",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Sign",
+                            "span": {
+                                "begin": 78,
+                                "end": 81
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "신호를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Indicated",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 77
+                            },
+                            "text": "북한이 6월에 실시될 핵실험을 위한 준비가 될 수 있는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2870,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "신호.n.Sign",
+                    "text": "북한은 핵실험을 하지 않았지만, 2005년 5월 초에 미국 인공위성이 보내온 사진이 북한이 6월에 실시될 핵실험을 위한 준비가 될 수 있는 신호를 탐지하였다고 언론 보도는 지적하였다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "NNG",
-    "ko_lu": "막부.n.Leadership",
-    "lu_id": 4480,
-    "en_lus": [
-        "bakuhu .幕府 "
     ]
 }

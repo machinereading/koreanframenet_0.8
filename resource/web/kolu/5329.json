@@ -1,95 +1,81 @@
 {
-    "frameName": "Part_ordered_segments",
+    "ko_pos": "n",
+    "ko_lu": "경찰.n.People_by_vocation",
+    "frameID": 1071,
+    "frameName": "People_by_vocation",
+    "en_lus": [
+        "keesi .警視 "
+    ],
+    "lu_id": 5329,
     "patterns": [
         {
-            "valenceText": "annotation id: 20328",
+            "valenceText": "annotation id: 16765",
             "examples": [
                 {
-                    "frameName": "Part_ordered_segments",
-                    "denotations": [
-                        {
-                            "obj": "ordinality",
-                            "span": {
-                                "begin": 0,
-                                "end": 5
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 6,
-                                "end": 7
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "Chapters",
-                        "chapter"
+                        "keesi .警視 "
                     ],
-                    "ko_annotation_id": 20328,
-                    "text": "2 - 6 장은 더 상세하게 생물 테러리즘의 기술적인 문제를 다룬다.",
-                    "sent_id": 2033,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 9911
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 18810",
-            "examples": [
-                {
-                    "frameName": "Part_ordered_segments",
+                    "ko_annotation_id": 16765,
+                    "annotation_id": 0,
+                    "frameName": "People_by_vocation",
                     "denotations": [
                         {
-                            "obj": "ordinality",
+                            "id": 1,
+                            "obj": "People_by_vocation",
                             "span": {
-                                "begin": 2,
-                                "end": 4
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 5,
+                                "begin": 4,
                                 "end": 6
                             },
-                            "id": "1"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "경찰"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "경찰",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Rank",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "총경의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "chapter"
-                    ],
-                    "ko_annotation_id": 18810,
-                    "text": "이 소개 장에서는 화학 생물전을 정의하고, 어떤 유형의 테러리스트 단체가 이와 같은 공격을 수행할 것인가를 탐색하고,D4518 요약한다.",
-                    "sent_id": 2011,
+                    "sent_id": 4902,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9741
+                    "lu": "경찰.n.People_by_vocation",
+                    "text": "카림은 경찰 총경의 모습을 바라보고 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 331,
-    "ko_pos": "NNG",
-    "ko_lu": "장.n.Part_ordered_segments",
-    "lu_id": 5329,
-    "en_lus": [
-        "chapter",
-        "Chapters",
-        "chapter"
     ]
 }

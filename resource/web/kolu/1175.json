@@ -1,74 +1,81 @@
 {
-    "frameName": "Activity_finish",
+    "ko_pos": "v",
+    "ko_lu": "팔다.v.Carry_goods",
+    "frameID": 1850,
+    "frameName": "Carry_goods",
+    "en_lus": [
+        "akinau .商う "
+    ],
+    "lu_id": 1175,
     "patterns": [
         {
-            "valenceText": "annotation id: 3646",
+            "valenceText": "annotation id: 12181",
             "examples": [
                 {
-                    "frameName": "Activity_finish",
+                    "origin_lus": [
+                        "akinau .商う "
+                    ],
+                    "ko_annotation_id": 12181,
+                    "annotation_id": 0,
+                    "frameName": "Carry_goods",
                     "denotations": [
                         {
-                            "obj": "activity",
+                            "id": 1,
+                            "obj": "Carry_goods",
                             "span": {
-                                "begin": 47,
-                                "end": 57
+                                "begin": 32,
+                                "end": 34
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "파는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
-                                "begin": 59,
-                                "end": 61
+                                "begin": 26,
+                                "end": 31
                             },
-                            "id": "1"
+                            "text": "히나인형을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 40
+                            },
+                            "text": "히나이치가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "completion"
-                    ],
-                    "ko_annotation_id": 3646,
-                    "text": "미국은 우즈베키스탄이 위험 핵 물질을 확보하도록 도운다 : 에너지 단체는 러시아로의 비밀의 우라늄 이전의 완료를 선언한다",
-                    "sent_id": 3176,
+                    "sent_id": 4883,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 16609
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.775",
-            "examples": [
-                {
-                    "frameName": "Activity_finish",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 31,
-                                "end": 33
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "여러분들의 피땀어린 노력 덕분에 이번 사업을 성공적으로 완료를 할 수 있었습니다.",
-                    "target": "완료",
-                    "ko_annotation_id": "sejong.775",
-                    "relations": []
+                    "lu": "팔다.v.Carry_goods",
+                    "text": "명절을 앞둔 2월 25일부터 3월 3일까지는, 히나인형을 파는 히나이치가 짓켄다나・오와리 쵸・닌교 쵸・아사쿠사 가야 쵸・이케노 하타 나카 쵸・우시고메 진라쿠자카우에・고우지마치 산쵸메・시바신메이마에・고마고메 등 각지에 섰는데, 가장 성황을 이룬 것은 물론 짓켄다나였다."
                 }
             ]
         }
-    ],
-    "frameID": 165,
-    "ko_pos": "NNG",
-    "ko_lu": "완료.n.Activity_finish",
-    "lu_id": 1175,
-    "en_lus": [
-        "completion"
     ]
 }

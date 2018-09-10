@@ -1,38 +1,63 @@
 {
-    "frameName": "Sole_instance",
+    "ko_pos": "n",
+    "ko_lu": "친구.n.Aggregate",
+    "frameID": 103,
+    "frameName": "Aggregate",
+    "en_lus": [
+        "group"
+    ],
+    "lu_id": 4760,
     "patterns": [
         {
-            "valenceText": "annotation id: 16702",
+            "valenceText": "annotation id: 2427",
             "examples": [
                 {
-                    "frameName": "Sole_instance",
+                    "origin_lus": [
+                        "group"
+                    ],
+                    "ko_annotation_id": 2427,
+                    "annotation_id": 4756,
+                    "frameName": "Aggregate",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Aggregate",
                             "span": {
-                                "begin": 65,
-                                "end": 67
+                                "begin": 4,
+                                "end": 7
                             },
-                            "id": "1"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "친구들"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Individuals",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "친구들",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "single"
+                    "sent_id": 920,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16702,
-                    "text": "또 다른 새로운 형태의 테러리스트 조직은 낙태, 동물 권리, 환경 보호, 혹은 유전 공학과 같은 뜨겁게 논란이 되는 문제에 초점을 맞춘다.",
-                    "sent_id": 2072,
-                    "relations": [],
-                    "annotation_id": 10164
+                    "lu": "친구.n.Aggregate",
+                    "text": "당신이 친구들 사이의 담소를 우연히 듣게 될 때 알아챌지 모르나 그들은 서로와의 교제에서 매우 직선적이다."
                 }
             ]
         }
-    ],
-    "frameID": 355,
-    "ko_pos": "NNG",
-    "ko_lu": "문제.n.Sole_instance",
-    "lu_id": 4760,
-    "en_lus": [
-        "single"
     ]
 }

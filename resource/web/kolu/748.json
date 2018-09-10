@@ -1,109 +1,81 @@
 {
-    "frameName": "Enforcing",
+    "ko_pos": "n",
+    "ko_lu": "단체전.n.Competition",
+    "frameID": 241,
+    "frameName": "Competition",
+    "en_lus": [
+        "dantai sen .団体 戦 "
+    ],
+    "lu_id": 748,
     "patterns": [
         {
-            "valenceText": "annotation id: 2295",
+            "valenceText": "annotation id: 12116",
             "examples": [
                 {
-                    "frameName": "Enforcing",
+                    "origin_lus": [
+                        "dantai sen .団体 戦 "
+                    ],
+                    "ko_annotation_id": 12116,
+                    "annotation_id": 0,
+                    "frameName": "Competition",
                     "denotations": [
                         {
-                            "obj": "rule",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 8,
-                                "end": 11
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Competition",
                             "span": {
                                 "begin": 22,
-                                "end": 24
+                                "end": 27
                             },
-                            "id": "3"
-                        }
-                    ],
-                    "origin_lus": [
-                        "enforce"
-                    ],
-                    "ko_annotation_id": 2295,
-                    "text": "그러나 결정을 집행할 수단의 부족으로, 유엔은 영국이 1948년에 그들의 병력을 철수하면서 분출된 싸움을 멈추게 할 힘이 없었다.",
-                    "sent_id": 716,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "단체전과,"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 3756
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.69646",
-            "examples": [
-                {
-                    "frameName": "Enforcing",
-                    "denotations": [
-                        {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 28
+                                "begin": 17,
+                                "end": 21
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "정부는 국회의 심의가 끝나지 않아서 예산을 집행하지 못하고 있다.",
-                    "target": "집행하지",
-                    "ko_annotation_id": "sejong.69646",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.69647",
-            "examples": [
-                {
-                    "frameName": "Enforcing",
-                    "denotations": [
+                            "text": "5월에는",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "id": "1",
+                            "id": 3,
+                            "obj": "Competition",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 17
+                                "begin": 22,
+                                "end": 27
                             },
-                            "obj": "target"
+                            "text": "단체전과,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "간수는 사형수의 형을 집행하였다.",
-                    "target": "집행하였다",
-                    "ko_annotation_id": "sejong.69647",
-                    "relations": []
+                    "sent_id": 4838,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "단체전.n.Competition",
+                    "text": "이번 개인전은 6월에 열리고, 5월에는 단체전과, 첫 시도로써 여자유도 개인전이 열렸다."
                 }
             ]
         }
-    ],
-    "frameID": 1813,
-    "ko_pos": "VV",
-    "ko_lu": "집행하다.v.Enforcing",
-    "lu_id": 748,
-    "en_lus": [
-        "enforce"
     ]
 }

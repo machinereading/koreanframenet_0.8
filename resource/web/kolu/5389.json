@@ -1,38 +1,85 @@
 {
-    "frameName": "Theft",
+    "ko_pos": "n",
+    "ko_lu": "비결임.n.Importance",
+    "frameID": 407,
+    "frameName": "Importance",
+    "en_lus": [
+        "key"
+    ],
+    "lu_id": 5389,
     "patterns": [
         {
-            "valenceText": "annotation id: 19024",
+            "valenceText": "annotation id: 9437",
             "examples": [
                 {
-                    "frameName": "Theft",
+                    "origin_lus": [
+                        "key"
+                    ],
+                    "ko_annotation_id": 9437,
+                    "annotation_id": 17631,
+                    "frameName": "Importance",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Importance",
                             "span": {
-                                "begin": 193,
-                                "end": 194
+                                "begin": 23,
+                                "end": 26
                             },
-                            "id": "1"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "비결임"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Factor",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "중국과 러시아의 공급 정책은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Undertaking",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 22
+                            },
+                            "text": "이란의 성공",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Stealing"
+                    "sent_id": 3314,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19024,
-                    "text": "위의 단체들은 다음과 같은 위험을 제기한다 : 1- 다음의 목적을 위해 공격함 : A : 암살 B : 납치 C : 공중 공격 및 포 공격 2- 방해 행위 A : 방화 B : 폭파 C : 기술적 방해 행위 D : 화학적 방해 행위 3- 스파이 활동 A : 사회 구성원 모집 B : 사회 내에 스파이 심기 C : 감시 작전에 대한 스파이 활동 4- 절도 5- 해충 : A : 뱀과 전갈 같은 독성이 있는 B : 쥐와 바퀴벌레와 같은 해로운 C : 모기와 같이 아프게 하는",
-                    "sent_id": 1549,
-                    "relations": [],
-                    "annotation_id": 7517
+                    "lu": "비결임.n.Importance",
+                    "text": "중국과 러시아의 공급 정책은 이란의 성공 비결임 ; 러시아는 원자로를 걸설하기로 동의함."
                 }
             ]
         }
-    ],
-    "frameID": 94,
-    "ko_pos": "NNG",
-    "ko_lu": "절.n.Theft",
-    "lu_id": 5389,
-    "en_lus": [
-        "Stealing"
     ]
 }

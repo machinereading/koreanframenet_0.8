@@ -1,96 +1,83 @@
 {
-    "frameName": "Motion",
+    "ko_pos": "v",
+    "ko_lu": "대화하다.v.Chatting",
+    "frameID": 910,
+    "frameName": "Chatting",
+    "en_lus": [
+        "kaiwa .会話",
+        "hanasi .話"
+    ],
+    "lu_id": 416,
     "patterns": [
         {
-            "valenceText": "annotation id: 1090",
+            "valenceText": "annotation id: 11146",
             "examples": [
                 {
-                    "frameName": "Motion",
+                    "origin_lus": [
+                        "hanasi .話"
+                    ],
+                    "ko_annotation_id": 11146,
+                    "annotation_id": 0,
+                    "frameName": "Chatting",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Chatting",
                             "span": {
-                                "begin": 38,
-                                "end": 42
+                                "begin": 7,
+                                "end": 12
                             },
-                            "id": "1"
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "대화할 수"
                         },
                         {
-                            "obj": "theme",
+                            "id": 2,
+                            "obj": "Interlocutor_1",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 43,
-                                "end": 45
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "2"
+                            "text": "당신도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Interlocutor_2",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "개와",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "floating"
-                    ],
-                    "ko_annotation_id": 1090,
-                    "text": "한때 해적의 굴이었던 섬의 가장 오래된 정착지인 Aberdeen은 \" 떠다니는 주민 \" 의 거처인데 - 이들은 항구에서 전 삶을 보내는 보트 피플이고, 일부는 자랑스럽게 육지 ( 장례는 예외로, 이것은 계산되지 않는다 ) 에 결코 발을 딛지 않는다고 주장한다.",
-                    "sent_id": 1129,
+                    "sent_id": 4203,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 5916
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.100675",
-            "examples": [
-                {
-                    "frameName": "Motion",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 16,
-                                "end": 20
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "나는 새로 정해진 계획이 영 떠름했다.",
-                    "target": "떠름했다",
-                    "ko_annotation_id": "sejong.100675",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.100676",
-            "examples": [
-                {
-                    "frameName": "Motion",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 16,
-                                "end": 19
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그는 내가 데리고 온 친구가 떠름한 모양이었다.",
-                    "target": "떠름한",
-                    "ko_annotation_id": "sejong.100676",
-                    "relations": []
+                    "lu": "대화하다.v.Chatting",
+                    "text": "당신도 개와 대화할 수 있다!-우선 가나가와 현・가와사키 시에 있는「다카에스 동물 애호 병원」에서는, 매우 독특한 치료 광경을 볼 수 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 7,
-    "ko_pos": "VA",
-    "ko_lu": "떠름하다.a.Motion",
-    "lu_id": 416,
-    "en_lus": [
-        "float"
     ]
 }

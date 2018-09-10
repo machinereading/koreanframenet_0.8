@@ -1,73 +1,64 @@
 {
-    "frameName": "Roadways",
+    "ko_pos": "n",
+    "ko_lu": "소량.n.Dimension",
+    "frameID": 108,
+    "frameName": "Dimension",
+    "en_lus": [
+        "small"
+    ],
+    "lu_id": 3327,
     "patterns": [
         {
-            "valenceText": "annotation id: 11316",
+            "valenceText": "annotation id: 14666",
             "examples": [
                 {
-                    "frameName": "Roadways",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 13,
-                                "end": 15
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "track",
-                        "senro .線路 "
+                        "small"
                     ],
-                    "ko_annotation_id": 11316,
-                    "text": "지도에 그려진 것처럼, 선로는 Helen Stewart의 Las Vegas Ranch를 바로 통과하여 지나갔다.",
-                    "sent_id": 770,
-                    "relations": [],
-                    "annotation_id": 4025
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 11317",
-            "examples": [
-                {
-                    "frameName": "Roadways",
+                    "ko_annotation_id": 14666,
+                    "annotation_id": 11985,
+                    "frameName": "Dimension",
                     "denotations": [
                         {
-                            "obj": "Roadway",
+                            "id": 1,
+                            "obj": "Dimension",
                             "span": {
-                                "begin": 4,
-                                "end": 8
-                            }
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "소량의"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Object",
+                            "token_span": [
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 8
-                            }
+                                "begin": 42,
+                                "end": 50
+                            },
+                            "text": "소량의 작용제를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "track",
-                        "senro .線路 "
+                    "sent_id": 2374,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 11317,
-                    "text": "나는, 이 선로를 탄 것에 대해서는, 동기로서 참 다행이라고 생각한다.",
-                    "sent_id": 4312,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "소량.n.Dimension",
+                    "text": "미국은 이란이, 아마도 진독균, 리신, 그리고 천연두 바이러스를 포함하는, 소량의 작용제를 개발하기 시작하였을지도 모른다고 주장한다."
                 }
             ]
         }
-    ],
-    "frameID": 203,
-    "ko_pos": "NNG",
-    "ko_lu": "선로.n.Roadways",
-    "lu_id": 3327,
-    "en_lus": [
-        "track",
-        "senro .線路 "
     ]
 }

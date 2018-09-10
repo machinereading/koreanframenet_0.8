@@ -1,59 +1,83 @@
 {
-    "frameName": "Self_motion",
+    "ko_pos": "v",
+    "ko_lu": "타이핑되다.v.Text_creation",
+    "frameID": 278,
+    "frameName": "Text_creation",
+    "en_lus": [
+        "typed"
+    ],
+    "lu_id": 2861,
     "patterns": [
         {
-            "valenceText": "annotation id: 9460",
+            "valenceText": "annotation id: 392",
             "examples": [
                 {
-                    "frameName": "Self_motion",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 57,
-                                "end": 63
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "humikomu .踏み込む"
+                        "typed"
                     ],
-                    "ko_annotation_id": 9460,
-                    "text": "통상적으로, 자연주택 또는 건강주택을 부르짖는 회사는, 비용이 비싸거나, 디자인 감각이 떨어져, 선뜻 결정하기 힘이 든데, 종합적으로 보았을 때 월등해, 정말이지 고민스럽습니다.",
-                    "sent_id": 4938,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.97828",
-            "examples": [
-                {
-                    "frameName": "Self_motion",
+                    "ko_annotation_id": 392,
+                    "annotation_id": 808,
+                    "frameName": "Text_creation",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Text_creation",
                             "span": {
-                                "begin": 3,
-                                "end": 7
+                                "begin": 13,
+                                "end": 19
                             },
-                            "obj": "target"
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "타이핑 되고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Text",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이것은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 12
+                            },
+                            "text": "서있는 자세에서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "방을 결정하게 치워 놓아라.",
-                    "target": "결정하게",
-                    "ko_annotation_id": "sejong.97828",
-                    "relations": []
+                    "sent_id": 140,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "타이핑되다.v.Text_creation",
+                    "text": "이것은 서있는 자세에서 타이핑 되고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 64,
-    "ko_pos": "VA",
-    "ko_lu": "결정하다.a.Self_motion",
-    "lu_id": 2861,
-    "en_lus": [
-        "humikomu .踏み込む"
     ]
 }

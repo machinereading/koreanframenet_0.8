@@ -1,52 +1,90 @@
 {
-    "frameName": "Verdict",
+    "ko_pos": "v",
+    "ko_lu": "의하다.v.Means",
+    "frameID": 1790,
+    "frameName": "Means",
+    "en_lus": [
+        "by"
+    ],
+    "lu_id": 4930,
     "patterns": [
         {
-            "valenceText": "annotation id: 17377",
+            "valenceText": "annotation id: 1782",
             "examples": [
                 {
-                    "frameName": "Verdict",
+                    "origin_lus": [
+                        "by"
+                    ],
+                    "ko_annotation_id": 1782,
+                    "annotation_id": 3686,
+                    "frameName": "Means",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Means",
                             "span": {
-                                "begin": 29,
-                                "end": 31
+                                "begin": 37,
+                                "end": 39
                             },
-                            "id": "1"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "의해"
                         },
                         {
-                            "obj": "defendant",
+                            "id": 2,
+                            "obj": "Means",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 43,
-                                "end": 44
+                                "begin": 33,
+                                "end": 36
                             },
-                            "id": "2"
+                            "text": "협상에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 86
+                            },
+                            "text": "신성 로마 황제 프레데릭 II세는 기독교도들을 위해 예루살렘을 가까스로 확보하였다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "guilty"
-                    ],
-                    "ko_annotation_id": 17377,
-                    "text": "그래, 그래, Price 의 코멘트로 돌아가서 그가 유죄로 되었을 때, 어, 그는 자기 주변에 흑인들을 갖고 있지 않다고 말하였다.",
-                    "sent_id": 1930,
+                    "sent_id": 696,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9341
+                    "lu": "의하다.v.Means",
+                    "text": "여섯번 째 십자군 기간 동안 ( 1228 - 1229 ), 협상에 의해 신성 로마 황제 프레데릭 II세는 기독교도들을 위해 예루살렘을 가까스로 확보하였다."
                 }
             ]
         }
-    ],
-    "frameID": 318,
-    "ko_pos": "NNG",
-    "ko_lu": "유죄.n.Verdict",
-    "lu_id": 4930,
-    "en_lus": [
-        "guilty"
     ]
 }

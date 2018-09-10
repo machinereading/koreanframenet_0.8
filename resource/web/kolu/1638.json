@@ -1,73 +1,64 @@
 {
-    "frameName": "Personal_relationship",
+    "ko_pos": "n",
+    "ko_lu": "수송.n.Sent_items",
+    "frameID": 1609,
+    "frameName": "Sent_items",
+    "en_lus": [
+        "shipment"
+    ],
+    "lu_id": 1638,
     "patterns": [
         {
-            "valenceText": "annotation id: 5129",
+            "valenceText": "annotation id: 7651",
             "examples": [
                 {
-                    "frameName": "Personal_relationship",
-                    "denotations": [
-                        {
-                            "obj": "Depictive",
-                            "span": {
-                                "begin": 14,
-                                "end": 18
-                            }
-                        },
-                        {
-                            "obj": "Partners",
-                            "span": {
-                                "begin": 20,
-                                "end": 23
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 14,
-                                "end": 18
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "nakama .仲間 "
+                        "shipments"
                     ],
-                    "ko_annotation_id": 5129,
-                    "text": "(오십견인가?) 병원에서 동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이 생각났다.",
-                    "sent_id": 3913,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.18037",
-            "examples": [
-                {
-                    "frameName": "Personal_relationship",
+                    "ko_annotation_id": 7651,
+                    "annotation_id": 13927,
+                    "frameName": "Sent_items",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Sent_items",
                             "span": {
-                                "begin": 12,
-                                "end": 15
+                                "begin": 10,
+                                "end": 13
                             },
-                            "id": "1"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "수송은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Sent_Item",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "화학무기 작용제의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "늘 칭얼거리던 아이가 동년배 들과 있으니까 잘 노는구나.",
-                    "target": "동년배",
-                    "ko_annotation_id": "sejong.18037",
-                    "relations": []
+                    "sent_id": 2758,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수송.n.Sent_items",
+                    "text": "화학무기 작용제의 수송은 과도한 주의를 끌지 않는 방법으로 행해지고, 일반 군 화물로 위장된다고 보고된다."
                 }
             ]
         }
-    ],
-    "frameID": 102,
-    "ko_pos": "NN",
-    "ko_lu": "동년배.n.Personal_relationship",
-    "lu_id": 1638,
-    "en_lus": [
-        "nakama .仲間 "
     ]
 }

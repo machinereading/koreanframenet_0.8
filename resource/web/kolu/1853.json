@@ -1,88 +1,137 @@
 {
-    "frameName": "Body_parts",
+    "ko_pos": "n",
+    "ko_lu": "축제.n.Social_event",
+    "frameID": 125,
+    "frameName": "Social_event",
+    "en_lus": [
+        "festival",
+        "maturi .祭り "
+    ],
+    "lu_id": 1853,
     "patterns": [
         {
-            "valenceText": "annotation id: 5858",
+            "valenceText": "annotation id: 13434",
             "examples": [
                 {
-                    "frameName": "Observable_bodyparts",
+                    "origin_lus": [
+                        "maturi .祭り ",
+                        "festivals"
+                    ],
+                    "ko_annotation_id": 13434,
+                    "annotation_id": 5627,
+                    "frameName": "Social_event",
                     "denotations": [
                         {
-                            "obj": "Possessor",
+                            "id": 1,
+                            "obj": "Social_event",
                             "span": {
-                                "begin": 30,
-                                "end": 32
-                            }
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "축제"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Occasion",
+                            "token_span": [
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 44,
-                                "end": 46
-                            }
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "text": "봄과 가을",
+                            "role": "ARGUMENT"
                         }
                     ],
+                    "sent_id": 1079,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "축제.n.Social_event",
+                    "text": "사람들이 전통적으로 언덕 꼭대기를 찾는 봄과 가을 축제 동안에는 인파가 너무 많아 당신은 다른 시기에 시도할 것을 충고받는 것이 더 좋을 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16613",
+            "examples": [
+                {
                     "origin_lus": [
-                        "nikutai .肉体"
+                        "maturi .祭り ",
+                        "festivals"
                     ],
-                    "ko_annotation_id": 5858,
-                    "text": "아니누나 오키나와, 일본 고대의 신앙에 따르면, 역시 인간은 죽으면, 그 혼은 육체를 떠나 하늘로 올라간다.",
-                    "sent_id": 4069,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.13848",
-            "examples": [
-                {
-                    "frameName": "Body_parts",
+                    "ko_annotation_id": 16613,
+                    "annotation_id": 0,
+                    "frameName": "Social_event",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Social_event",
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 26,
+                                "end": 29
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "교육은 정신과 육체의 균등한 발전을 도모하는 것을 기본으로 하여야 한다.",
-                    "target": "육체",
-                    "ko_annotation_id": "sejong.13848",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.13849",
-            "examples": [
-                {
-                    "frameName": "Body_parts",
-                    "denotations": [
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "축제가"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Social_Event",
+                            "token_span": [
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 18,
+                                "end": 29
                             },
-                            "id": "1"
+                            "text": "시바라뜨리라는 축제가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 80,
+                                "end": 85
+                            },
+                            "text": "바라나시에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 아내와 사별한 뒤에 육체적으로 몹시 힘든 나날을 보냈다.",
-                    "target": "육체",
-                    "ko_annotation_id": "sejong.13849",
-                    "relations": []
+                    "sent_id": 4636,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "축제.n.Social_event",
+                    "text": "하지만 인도에 도착하자마자, 곧 시바라뜨리라는 축제가 시작된다는 말을 듣고, 시바라뜨리 하면 역시 시바의 고장 바라나시에 가야지, 하는 생각에 바라나시에 와버린 것이 잘못이었다."
                 }
             ]
         }
-    ],
-    "frameID": 119,
-    "ko_pos": "NNG",
-    "ko_lu": "육체.n.Body_parts",
-    "lu_id": 1853,
-    "en_lus": [
-        "nikutai .肉体"
     ]
 }

@@ -1,44 +1,103 @@
 {
-    "frameName": "Relational_quantity",
+    "ko_pos": "v",
+    "ko_lu": "가지다.v.Containing",
+    "frameID": 397,
+    "frameName": "Containing",
+    "en_lus": [
+        "contains",
+        "hold"
+    ],
+    "lu_id": 2809,
     "patterns": [
         {
-            "valenceText": "annotation id: 9175",
+            "valenceText": "annotation id: 2900",
             "examples": [
                 {
-                    "frameName": "Relational_quantity",
+                    "origin_lus": [
+                        "contains",
+                        "holds"
+                    ],
+                    "ko_annotation_id": 2900,
+                    "annotation_id": 5573,
+                    "frameName": "Containing",
                     "denotations": [
                         {
-                            "obj": "Focal_entity",
+                            "id": 1,
+                            "obj": "Containing",
                             "span": {
-                                "begin": 61,
-                                "end": 65
-                            }
+                                "begin": 73,
+                                "end": 80
+                            },
+                            "token_span": [
+                                21,
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "가지고 있다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Container",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 66,
-                                "end": 68
-                            }
+                                "begin": 0,
+                                "end": 39
+                            },
+                            "text": "그 공원의 10.5 헥타르 ( 25 에이크 ) 의 조경된 공원과 호수는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Contents",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 72
+                            },
+                            "text": "많은 종의 식물과 다양한 이국적인 새들이 있는 대형 온실을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "yo .余"
+                    "sent_id": 1065,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 9175,
-                    "text": "기구치 기이치로의 『그림책 에도 풍속왕래』에 따르면, 「열칸 저자거리는 왕래 좌우로 작은 가게를 마련할 것, 한 자루 남짓의 공간이 된다.",
-                    "sent_id": 4534,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "가지다.v.Containing",
+                    "text": "그 공원의 10.5 헥타르 ( 25 에이크 ) 의 조경된 공원과 호수는 많은 종의 식물과 다양한 이국적인 새들이 있는 대형 온실을 가지고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 2427,
-    "ko_pos": "NNB",
-    "ko_lu": "남짓.n.Relational_quantity",
-    "lu_id": 2809,
-    "en_lus": [
-        "yo .余"
     ]
 }

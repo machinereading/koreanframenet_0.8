@@ -1,88 +1,102 @@
 {
-    "frameName": "Experiencer_focus",
+    "ko_pos": "v",
+    "ko_lu": "설득하다.v.Suasion",
+    "frameID": 89,
+    "frameName": "Suasion",
+    "en_lus": [
+        "persuade"
+    ],
+    "lu_id": 4739,
     "patterns": [
         {
-            "valenceText": "annotation id: 16663",
+            "valenceText": "annotation id: 7775",
             "examples": [
                 {
-                    "frameName": "Experiencer_focus",
+                    "origin_lus": [
+                        "persuade"
+                    ],
+                    "ko_annotation_id": 7775,
+                    "annotation_id": 14126,
+                    "frameName": "Suasion",
                     "denotations": [
                         {
-                            "obj": "Manner",
+                            "id": 1,
+                            "obj": "Suasion",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 55,
+                                "end": 59
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "설득하는"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 7
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "nikumu .憎む"
-                    ],
-                    "ko_annotation_id": 16663,
-                    "text": "결국은 미워한다.",
-                    "sent_id": 4750,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.48922",
-            "examples": [
-                {
-                    "frameName": "Experiencer_focus",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 9,
-                                "end": 13
+                                "begin": 0,
+                                "end": 3
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "나는 그 인간을 미워한다.",
-                    "target": "미워한다",
-                    "ko_annotation_id": "sejong.48922",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.48923",
-            "examples": [
-                {
-                    "frameName": "Experiencer_focus",
-                    "denotations": [
+                            "text": "북한은",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "id": "1",
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 3,
-                                "end": 7
+                                "begin": 33,
+                                "end": 36
                             },
-                            "obj": "target"
+                            "text": "북한이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Content",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 54
+                            },
+                            "text": "화학무기 군축 제도에 참여하도록",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "죄는 미워해도 인간은 미워하지 말라.",
-                    "target": "미워해도",
-                    "ko_annotation_id": "sejong.48923",
-                    "relations": []
+                    "sent_id": 2793,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "설득하다.v.Suasion",
+                    "text": "북한은 또한 화학무기 금지 기구 ( OPCW ) 는 물론, 북한이 화학무기 군축 제도에 참여하도록 설득하는 일본 정부 측의 노력도 거절하였다."
                 }
             ]
         }
-    ],
-    "frameID": 48,
-    "ko_pos": "VV",
-    "ko_lu": "미워하다.v.Experiencer_focus",
-    "lu_id": 4739,
-    "en_lus": [
-        "nikumu .憎む"
     ]
 }

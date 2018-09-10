@@ -1,60 +1,88 @@
 {
-    "frameName": "Natural_features",
+    "ko_pos": "v",
+    "ko_lu": "발하다.v.Emanating",
+    "frameID": 361,
+    "frameName": "Emanating",
+    "en_lus": [
+        "hassuru .発する "
+    ],
+    "lu_id": 2303,
     "patterns": [
         {
-            "valenceText": "annotation id: 7456",
+            "valenceText": "annotation id: 16712",
             "examples": [
                 {
-                    "frameName": "Natural_features",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 11,
-                                "end": 13
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "mountain"
+                        "hassuru .発する "
                     ],
-                    "ko_annotation_id": 7456,
-                    "text": "이 정원들은 지사의 산장에 속해 있었지만 건물은 홍콩 점령 기간동안 일본인들에 의해 파괴 되었다.",
-                    "sent_id": 1085,
-                    "relations": [],
-                    "annotation_id": 5659
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.34847",
-            "examples": [
-                {
-                    "frameName": "Natural_features",
+                    "ko_annotation_id": 16712,
+                    "annotation_id": 0,
+                    "frameName": "Emanating",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Emanating",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 113,
+                                "end": 117
                             },
-                            "id": "1"
+                            "token_span": [
+                                28
+                            ],
+                            "role": "TARGET",
+                            "text": "발하여,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24,
+                                25
+                            ],
+                            "span": {
+                                "begin": 78,
+                                "end": 104
+                            },
+                            "text": "연인을 향한 영적 동경 (애정.)을 지닌 가운데",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Emission",
+                            "token_span": [
+                                26,
+                                27
+                            ],
+                            "span": {
+                                "begin": 105,
+                                "end": 112
+                            },
+                            "text": "관능적 요구를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "우리들은 산 중턱에 있는 산장에서 하루를 머물렀다.",
-                    "target": "산장",
-                    "ko_annotation_id": "sejong.34847",
-                    "relations": []
+                    "sent_id": 4822,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "발하다.v.Emanating",
+                    "text": "그렇다면 「처녀성을 버리기에 가장 적절한 때」는 언제인가 하면 「각자의 내적 생활의 경험으로 미루어 보았을 때, 그것은 연애의 경험 중에, 연인을 향한 영적 동경 (애정.)을 지닌 가운데 관능적 요구를 발하여, 자신의 인격 안에서 양자의 일치 결합을 진실로 느꼈을 경우가 아닌가 」「그렇게 생각한다면 처녀성의 가치는 실로 크다."
                 }
             ]
         }
-    ],
-    "frameID": 191,
-    "ko_pos": "NNG",
-    "ko_lu": "산장.n.Natural_features",
-    "lu_id": 2303,
-    "en_lus": [
-        "mountain"
     ]
 }

@@ -1,38 +1,99 @@
 {
-    "frameName": "Dimension",
+    "ko_pos": "v",
+    "ko_lu": "여행하다.v.Travel",
+    "frameID": 343,
+    "frameName": "Travel",
+    "en_lus": [
+        "travel"
+    ],
+    "lu_id": 1684,
     "patterns": [
         {
-            "valenceText": "annotation id: 5244",
+            "valenceText": "annotation id: 13556",
             "examples": [
                 {
-                    "frameName": "Dimension",
+                    "origin_lus": [
+                        "travels"
+                    ],
+                    "ko_annotation_id": 13556,
+                    "annotation_id": 6168,
+                    "frameName": "Travel",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Travel",
                             "span": {
-                                "begin": 36,
-                                "end": 38
+                                "begin": 7,
+                                "end": 11
                             },
-                            "id": "1"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "여행하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Frequency",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "자주",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "해외로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Traveler",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "text": "John은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "light"
+                    "sent_id": 1190,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5244,
-                    "text": "이곳 기후는 \" 변덕스러운 \" 으로 가장 잘 묘사될 수 있고 그러나 밝음에서 어두움으로, 맑은 날씨에서 소나기로의 갑작스런 변화는 이 도시 매력의 한 부분이다.",
-                    "sent_id": 973,
-                    "relations": [],
-                    "annotation_id": 5069
+                    "lu": "여행하다.v.Travel",
+                    "text": "자주 해외로 여행하는 John은 보스턴의 집에 있고 그리고 그가 즉시 파리에 가야 한다는 전화를 받는다."
                 }
             ]
         }
-    ],
-    "frameID": 108,
-    "ko_pos": "NNG",
-    "ko_lu": "밝음.n.Dimension",
-    "lu_id": 1684,
-    "en_lus": [
-        "light"
     ]
 }

@@ -1,44 +1,172 @@
 {
-    "frameName": "Research",
+    "ko_pos": "v",
+    "ko_lu": "받아들다.v.Receiving",
+    "frameID": 411,
+    "frameName": "Receiving",
+    "en_lus": [
+        "accepted",
+        "uketoru .受け取る "
+    ],
+    "lu_id": 3051,
     "patterns": [
         {
-            "valenceText": "annotation id: 10166",
+            "valenceText": "annotation id: 220",
             "examples": [
                 {
-                    "frameName": "Research",
+                    "origin_lus": [
+                        "accepted"
+                    ],
+                    "ko_annotation_id": 220,
+                    "annotation_id": 429,
+                    "frameName": "Receiving",
                     "denotations": [
                         {
-                            "obj": "Field",
+                            "id": 1,
+                            "obj": "Receiving",
                             "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
+                                "begin": 16,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "받아들여지지는"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 9
-                            }
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "모든 곳에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "text": "여성들이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "siraberu .調べる"
+                    "sent_id": 67,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 10166,
-                    "text": "인터넷에서 알아보아도 완성된 시스템만 검색될 뿐, 개개의 부품에 관해서는 어떠한 설명도 찾을 수 없다.",
-                    "sent_id": 4475,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "받아들다.v.Receiving",
+                    "text": "그러나 모든 곳에서 여성들이 받아들여지지는 않는다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10065",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "uketoru .受け取る "
+                    ],
+                    "ko_annotation_id": 10065,
+                    "annotation_id": 0,
+                    "frameName": "Receiving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Receiving",
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "받아들자,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "다케시 군이,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "그것을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Donor",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 26
+                            },
+                            "text": "이상한 아이는,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3548,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "받아들다.v.Receiving",
+                    "text": "다케시 군이, 그것을 받아들자, 이상한 아이는, 휙 뒤돌아서더니, 성큼성큼, 문밖으로 나가버렸습니다."
                 }
             ]
         }
-    ],
-    "frameID": 1152,
-    "ko_pos": "VV",
-    "ko_lu": "알아보다.v.Research",
-    "lu_id": 3051,
-    "en_lus": [
-        "siraberu .調べる"
     ]
 }

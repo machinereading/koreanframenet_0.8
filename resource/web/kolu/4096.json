@@ -1,59 +1,91 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "v",
+    "ko_lu": "신장시키다.v.Cause_change_of_position_on_a_scale",
+    "frameID": 96,
+    "frameName": "Cause_change_of_position_on_a_scale",
+    "en_lus": [
+        "increase"
+    ],
+    "lu_id": 4096,
     "patterns": [
         {
-            "valenceText": "annotation id: 13944",
+            "valenceText": "annotation id: 7591",
             "examples": [
                 {
-                    "frameName": "Leadership",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 6,
-                                "end": 9
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "keeee sya .経営 者"
+                        "increased"
                     ],
-                    "ko_annotation_id": 13944,
-                    "text": "그것은 공동경영자로서의 지혜다.",
-                    "sent_id": 3604,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.23625",
-            "examples": [
-                {
-                    "frameName": "Leadership",
+                    "ko_annotation_id": 7591,
+                    "annotation_id": 13777,
+                    "frameName": "Cause_change_of_position_on_a_scale",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Cause_change_of_position_on_a_scale",
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 68,
+                                "end": 72
                             },
-                            "id": "1"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "신장시킨"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "북한은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Attribute",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 67
+                            },
+                            "text": "화학무기 작용제 생산뿐만 아니라 다양한 화학 투하 시스템의 개발과 전개에서도 능력을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 우수한 경영자로 알려져 있다.",
-                    "target": "경영자",
-                    "ko_annotation_id": "sejong.23625",
-                    "relations": []
+                    "sent_id": 2737,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "신장시키다.v.Cause_change_of_position_on_a_scale",
+                    "text": "그러나, 과거 20년에 걸쳐, 북한은 화학무기 작용제 생산뿐만 아니라 다양한 화학 투하 시스템의 개발과 전개에서도 능력을 신장시킨 것처럼 보인다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "NN",
-    "ko_lu": "경영자.n.Leadership",
-    "lu_id": 4096,
-    "en_lus": [
-        "keeee sya .経営 者"
     ]
 }

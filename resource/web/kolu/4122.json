@@ -1,38 +1,81 @@
 {
-    "frameName": "Closure",
+    "ko_pos": "n",
+    "ko_lu": "마신.n.Ingestion",
+    "frameID": 263,
+    "frameName": "Ingestion",
+    "en_lus": [
+        "suu .吸う"
+    ],
+    "lu_id": 4122,
     "patterns": [
         {
-            "valenceText": "annotation id: 14177",
+            "valenceText": "annotation id: 10241",
             "examples": [
                 {
-                    "frameName": "Closure",
+                    "origin_lus": [
+                        "suu .吸う"
+                    ],
+                    "ko_annotation_id": 10241,
+                    "annotation_id": 0,
+                    "frameName": "Ingestion",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Ingestion",
                             "span": {
-                                "begin": 15,
-                                "end": 18
+                                "begin": 26,
+                                "end": 28
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "마신"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ingestor",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "text": "모기가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ingestibles",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 31
+                            },
+                            "text": "피를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "closed"
+                    "sent_id": 3625,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14177,
-                    "text": "민주당은 상원을 보기 드문 비밀회의로 이끌었다.",
-                    "sent_id": 1720,
-                    "relations": [],
-                    "annotation_id": 8399
+                    "lu": "마신.n.Ingestion",
+                    "text": "박쥐는 모기의 몸을 먹는 것이 아니라, 모기가 마신 피를 마실 뿐이므로, 몸은 바로 배출해버립니다."
                 }
             ]
         }
-    ],
-    "frameID": 254,
-    "ko_pos": "NN",
-    "ko_lu": "비밀회.n.Closure",
-    "lu_id": 4122,
-    "en_lus": [
-        "close"
     ]
 }

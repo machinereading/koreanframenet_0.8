@@ -1,38 +1,95 @@
 {
-    "frameName": "Text",
+    "ko_pos": "n",
+    "ko_lu": "전장.n.Hostile_encounter",
+    "frameID": 93,
+    "frameName": "Hostile_encounter",
+    "en_lus": [
+        "warfare"
+    ],
+    "lu_id": 2069,
     "patterns": [
         {
-            "valenceText": "annotation id: 6583",
+            "valenceText": "annotation id: 3358",
             "examples": [
                 {
-                    "frameName": "Text",
+                    "origin_lus": [
+                        "warfare"
+                    ],
+                    "ko_annotation_id": 3358,
+                    "annotation_id": 6369,
+                    "frameName": "Hostile_encounter",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Hostile_encounter",
                             "span": {
-                                "begin": 25,
-                                "end": 27
+                                "begin": 0,
+                                "end": 4
                             },
-                            "id": "1"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "전장에서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Instrument",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "화학무기를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "books"
+                    "sent_id": 1265,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6583,
-                    "text": "젊은 십대들을 위한 호평을 받고 있는 일련의 책들에 대해 공동 작업하는 데에 고등학교 선생으로서 그녀의 경험에 의지했던 퇴직한 아이오아 주립대학의 영어 교수인 Annabelle Irwin은 아이오아주 디모인의 딸 집에서 9월 13일 죽었다.",
-                    "sent_id": 1232,
+                    "lu": "전장.n.Hostile_encounter",
+                    "text": "전장에서 화학무기를 경험한 세계에서 몇 안되는 국가 중의 하나인, 이란은 1997년에 화학무기금지협약을 비준하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14468",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "warfare"
+                    ],
+                    "ko_annotation_id": 14468,
+                    "annotation_id": 11067,
+                    "frameName": "Hostile_encounter",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "전장에서"
+                        }
+                    ],
+                    "sent_id": 2217,
                     "relations": [],
-                    "annotation_id": 6250
+                    "lu": "전장.n.Hostile_encounter",
+                    "text": "전장에서 화학전 ( CW ) 을 경험한 세계에서 몇 안되는 국가들 중 하나인 이란은 1997년에 화학무기협정을 비준하였다."
                 }
             ]
         }
-    ],
-    "frameID": 298,
-    "ko_pos": "NN",
-    "ko_lu": "책들.n.Text",
-    "lu_id": 2069,
-    "en_lus": [
-        "book"
     ]
 }

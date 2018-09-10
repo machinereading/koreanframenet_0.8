@@ -1,78 +1,63 @@
 {
-    "frameName": "Placing",
+    "ko_pos": "n",
+    "ko_lu": "오너.n.Possession",
+    "frameID": 118,
+    "frameName": "Possession",
+    "en_lus": [
+        "oonaa .オーナー"
+    ],
+    "lu_id": 2584,
     "patterns": [
         {
-            "valenceText": "annotation id: 8512",
+            "valenceText": "annotation id: 11866",
             "examples": [
                 {
-                    "frameName": "Placing",
+                    "origin_lus": [
+                        "oonaa .オーナー"
+                    ],
+                    "ko_annotation_id": 11866,
+                    "annotation_id": 0,
+                    "frameName": "Possession",
                     "denotations": [
                         {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Possession",
                             "span": {
-                                "begin": 14,
-                                "end": 15
+                                "begin": 50,
+                                "end": 52
                             },
-                            "id": "2"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "오너"
                         },
                         {
-                            "obj": "theme",
+                            "id": 2,
+                            "obj": "Possession",
+                            "token_span": [
+                                14
+                            ],
                             "span": {
-                                "begin": 17,
-                                "end": 19
+                                "begin": 53,
+                                "end": 56
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "goal",
-                            "span": {
-                                "begin": 21,
-                                "end": 22
-                            },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 24,
-                                "end": 27
-                            },
-                            "id": "1"
+                            "text": "기업이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "put"
-                    ],
-                    "ko_annotation_id": 8512,
-                    "text": "29 RICH : 좋아, 나는 그것을 책에 기록하지도 않을 거네.",
-                    "sent_id": 1893,
+                    "sent_id": 4678,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9128
+                    "lu": "오너.n.Possession",
+                    "text": "왜냐하면, 어느 기업이든 변하기 힘든 내부 사정이나 조직의 특성이 있어, 꽤 규모가 작은 오너 기업이 아닌 한, 전사가 하나가 되어 일에 착수하여, 성과를 내기까지는, 시간과 끈기가 상당히 필요하기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 62,
-    "ko_pos": "VV",
-    "ko_lu": "기록하다.v.Placing",
-    "lu_id": 2584,
-    "en_lus": [
-        "put"
     ]
 }

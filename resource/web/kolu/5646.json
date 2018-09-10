@@ -1,52 +1,84 @@
 {
-    "frameName": "Contrition",
+    "ko_pos": "v",
+    "ko_lu": "붙다.v.Being_attached",
+    "frameID": 307,
+    "frameName": "Being_attached",
+    "en_lus": [
+        "stuck"
+    ],
+    "lu_id": 5646,
     "patterns": [
         {
-            "valenceText": "annotation id: 19929",
+            "valenceText": "annotation id: 160",
             "examples": [
                 {
-                    "frameName": "Contrition",
+                    "origin_lus": [
+                        "stuck"
+                    ],
+                    "ko_annotation_id": 160,
+                    "annotation_id": 291,
+                    "frameName": "Being_attached",
                     "denotations": [
                         {
-                            "obj": "action",
+                            "id": 1,
+                            "obj": "Being_attached",
                             "span": {
-                                "begin": 94,
-                                "end": 108
+                                "begin": 22,
+                                "end": 27
                             },
-                            "id": "2"
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "붙어 있는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 109,
-                                "end": 116
+                                "begin": 14,
+                                "end": 21
                             },
-                            "id": "1"
+                            "text": "종탑의 바닥에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Item",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "text": "어떤 것으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sorry"
-                    ],
-                    "ko_annotation_id": 19929,
-                    "text": "그는 경찰과 군에 합류하는 사람들을 비난하면서  Albu'Ubaid 부족 앞에서 두 번 회교사원에서 회개를 공표했고, 무슬림 형제단으로부터의 어떤 압력이나 위협이 없이 그가 행한 모든 것에 대해 유감을 나타냈다.",
-                    "sent_id": 1867,
+                    "sent_id": 44,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9039
+                    "lu": "붙다.v.Being_attached",
+                    "text": "자주, 종지기들은 교회를 종탑의 바닥에 붙어 있는 어떤 것으로 생각한다."
                 }
             ]
         }
-    ],
-    "frameID": 382,
-    "ko_pos": "VV",
-    "ko_lu": "나타내다.v.Contrition",
-    "lu_id": 5646,
-    "en_lus": [
-        "sorry"
     ]
 }

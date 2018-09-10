@@ -1,66 +1,133 @@
 {
-    "frameName": "Difficulty",
+    "ko_pos": "v",
+    "ko_lu": "주목받다.v.Attention",
+    "frameID": 791,
+    "frameName": "Attention",
+    "en_lus": [
+        "tyuumoku .注目 "
+    ],
+    "lu_id": 269,
     "patterns": [
         {
-            "valenceText": "annotation id: 763",
+            "valenceText": "annotation id: 12287",
             "examples": [
                 {
-                    "frameName": "Difficulty",
+                    "origin_lus": [
+                        "tyuumoku .注目 "
+                    ],
+                    "ko_annotation_id": 12287,
+                    "annotation_id": 0,
+                    "frameName": "Attention",
                     "denotations": [
                         {
-                            "obj": "Activity",
+                            "id": 1,
+                            "obj": "Attention",
                             "span": {
-                                "begin": 46,
-                                "end": 53
-                            }
+                                "begin": 77,
+                                "end": 81
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "주목받게"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Figure",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 54,
-                                "end": 57
-                            }
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이것이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 73,
+                                "end": 76
+                            },
+                            "text": "상당히",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "taihen sa .大変 さ "
+                    "sent_id": 4936,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 763,
-                    "text": "이거 참 어쩌지, 하면서도 묵기에 마음이 편한 바라나시를 떠날 생각도 들지 않고, 기차표를 끊는 수고로움을 생각하니 더욱 엉덩이가 떨어지지 않아, 딱 2, 3일만 더 있자 하며 어물어물 주저앉아 버린 것이다.",
-                    "sent_id": 4804,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "주목받다.v.Attention",
+                    "text": "이것이 유명해지면서, 잡지에 실리게 되고, 프랑스 레스토랑 관계자들에 의해 추켜세워 지거나 깍아내려 지기도 하면서 프랑스 내에서도 상당히 주목받게 되었고, 이후에 그들 스스로 잡지를 만드는 데 성공했다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.99080",
+            "valenceText": "annotation id: 16435",
             "examples": [
                 {
-                    "frameName": "Difficulty",
+                    "origin_lus": [
+                        "tyuumoku .注目 "
+                    ],
+                    "ko_annotation_id": 16435,
+                    "annotation_id": 0,
+                    "frameName": "Attention",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Attention",
                             "span": {
-                                "begin": 3,
-                                "end": 7
+                                "begin": 21,
+                                "end": 25
                             },
-                            "obj": "target"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "주목받고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Figure",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 20
+                            },
+                            "text": "이슬람의 가르침이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "괜히 수고로운 일을 맡겨서 미안하군.",
-                    "target": "수고로운",
-                    "ko_annotation_id": "sejong.99080",
-                    "relations": []
+                    "sent_id": 4276,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주목받다.v.Attention",
+                    "text": "이와 동시에, 현재 이슬람의 가르침이 주목받고 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 375,
-    "ko_pos": "VA",
-    "ko_lu": "수고롭다.a.Difficulty",
-    "lu_id": 269,
-    "en_lus": [
-        "taihen sa .大変 さ "
     ]
 }

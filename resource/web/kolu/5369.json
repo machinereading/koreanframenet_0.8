@@ -1,44 +1,81 @@
 {
-    "frameName": "Becoming",
+    "ko_pos": "v",
+    "ko_lu": "건너다.v.Intentional_traversing",
+    "frameID": 1642,
+    "frameName": "Intentional_traversing",
+    "en_lus": [
+        "ford"
+    ],
+    "lu_id": 5369,
     "patterns": [
         {
-            "valenceText": "annotation id: 18981",
+            "valenceText": "annotation id: 1206",
             "examples": [
                 {
-                    "frameName": "Becoming",
+                    "origin_lus": [
+                        "ford"
+                    ],
+                    "ko_annotation_id": 1206,
+                    "annotation_id": 2583,
+                    "frameName": "Intentional_traversing",
                     "denotations": [
                         {
-                            "obj": "Final_state",
+                            "id": 1,
+                            "obj": "Intentional_traversing",
                             "span": {
-                                "begin": 8,
-                                "end": 14
-                            }
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "건너고"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Path",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 28
-                            }
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "공해를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "text": "선박을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "naru .なる"
+                    "sent_id": 490,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18981,
-                    "text": "너무 맛있어서 밥이 부족해, 얻으러 갔다는 것입니다.",
-                    "sent_id": 4080,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "건너다.v.Intentional_traversing",
+                    "text": "그들의 호기심은 공해를 건너고 이들 섬에 도착할만큼 충분히 튼튼한 선박을 건조하게 하였고, 지중해 항해의 오랜 유산을 시작하게 하였다."
                 }
             ]
         }
-    ],
-    "frameID": 2971,
-    "ko_pos": "VV",
-    "ko_lu": "갔다오다.v.Becoming",
-    "lu_id": 5369,
-    "en_lus": [
-        "naru .なる"
     ]
 }

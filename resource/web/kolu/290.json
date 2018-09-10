@@ -1,95 +1,135 @@
 {
-    "frameName": "Relational_natural_features",
+    "ko_pos": "n",
+    "ko_lu": "학습.n.Studying",
+    "frameID": 1130,
+    "frameName": "Studying",
+    "en_lus": [
+        "manabi .学び "
+    ],
+    "lu_id": 290,
     "patterns": [
         {
-            "valenceText": "annotation id: 798",
+            "valenceText": "annotation id: 10920",
             "examples": [
                 {
-                    "frameName": "Relational_natural_features",
-                    "denotations": [
-                        {
-                            "obj": "Focal_feature",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        },
-                        {
-                            "obj": "Landmark_feature",
-                            "span": {
-                                "begin": 52,
-                                "end": 54
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 52,
-                                "end": 54
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "enyoo .遠洋 "
+                        "manabi .学び "
                     ],
-                    "ko_annotation_id": 798,
-                    "text": "마을이 전전의 작은 어촌에서, 양항을 끼고 있다는 점을 살려서, 대형 선박이 정박할 수 있는 원양어업의 기지로 탈바꿈하는 급격한 발전을 겪고 있을 무렵이었다.",
-                    "sent_id": 4775,
-                    "relations": [],
-                    "annotation_id": 0
+                    "ko_annotation_id": 10920,
+                    "annotation_id": 0,
+                    "frameName": "Studying",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Studying",
+                            "span": {
+                                "begin": 36,
+                                "end": 38
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "학습"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Subject",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 42
+                            },
+                            "text": "내용을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4066,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "학습.n.Studying",
+                    "text": "중학교 이과 수업은, 이러한 아이들의 학습 성장 실태에 맞추어, 학습 내용을 보다 과학적인 내용으로 바꾸어나가는 것이 그 목적 중 하나이다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.45352",
+            "valenceText": "annotation id: 10921",
             "examples": [
                 {
-                    "frameName": "Relational_natural_features",
+                    "origin_lus": [
+                        "manabi .学び "
+                    ],
+                    "ko_annotation_id": 10921,
+                    "annotation_id": 0,
+                    "frameName": "Studying",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Studying",
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "학습"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Subject",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
+                                "end": 11
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "원양에는 큰 고기들이 많이 있다.",
-                    "target": "원양",
-                    "ko_annotation_id": "sejong.45352",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.45353",
-            "examples": [
-                {
-                    "frameName": "Relational_natural_features",
-                    "denotations": [
+                            "text": "중학교 이과 수업은,",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Student",
+                            "token_span": [
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 8
+                                "begin": 12,
+                                "end": 20
                             },
-                            "id": "1"
+                            "text": "이러한 아이들의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "배를 타고 원양에 나가서 고기를 잡는 어업이 유망하다.",
-                    "target": "원양",
-                    "ko_annotation_id": "sejong.45353",
-                    "relations": []
+                    "sent_id": 4066,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "학습.n.Studying",
+                    "text": "중학교 이과 수업은, 이러한 아이들의 학습 성장 실태에 맞추어, 학습 내용을 보다 과학적인 내용으로 바꾸어나가는 것이 그 목적 중 하나이다."
                 }
             ]
         }
-    ],
-    "frameID": 1490,
-    "ko_pos": "NNG",
-    "ko_lu": "원양.n.Relational_natural_features",
-    "lu_id": 290,
-    "en_lus": [
-        "enyoo .遠洋 "
     ]
 }

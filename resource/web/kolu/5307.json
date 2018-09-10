@@ -1,51 +1,90 @@
 {
-    "frameName": "Part_orientational",
+    "ko_pos": "v",
+    "ko_lu": "직면하다.v.Being_obligated",
+    "frameID": 392,
+    "frameName": "Being_obligated",
+    "en_lus": [
+        "have"
+    ],
+    "lu_id": 5307,
     "patterns": [
         {
-            "valenceText": "annotation id: 18719",
+            "valenceText": "annotation id: 2930",
             "examples": [
                 {
-                    "frameName": "Part_orientational",
+                    "origin_lus": [
+                        "have"
+                    ],
+                    "ko_annotation_id": 2930,
+                    "annotation_id": 5621,
+                    "frameName": "Being_obligated",
                     "denotations": [
                         {
-                            "obj": "Whole",
+                            "id": 1,
+                            "obj": "Being_obligated",
                             "span": {
-                                "begin": 40,
-                                "end": 42
-                            }
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "직면해야"
                         },
                         {
-                            "obj": "Part",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 43,
-                                "end": 45
-                            }
+                                "begin": 5,
+                                "end": 19
+                            },
+                            "text": "화창한 토요일과 일요일에는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Responsible_Party",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 43,
-                                "end": 45
-                            }
+                                "begin": 20,
+                                "end": 54
+                            },
+                            "text": "당신은 하부 터미널에서 줄서있는 많은 사람들을 용감히 직면해야",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sayuu .左右 "
+                    "sent_id": 1078,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18719,
-                    "text": "기구치 기이치로의 『그림책 에도 풍속왕래』에 따르면, 「열칸 저자거리는 왕래 좌우로 작은 가게를 마련할 것, 한 자루 남짓의 공간이 된다.",
-                    "sent_id": 4534,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "직면하다.v.Being_obligated",
+                    "text": "그러나, 화창한 토요일과 일요일에는 당신은 하부 터미널에서 줄서있는 많은 사람들을 용감히 직면해야 할 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 143,
-    "ko_pos": "NNG",
-    "ko_lu": "좌우.n.Part_orientational",
-    "lu_id": 5307,
-    "en_lus": [
-        "sayuu .左右 "
     ]
 }

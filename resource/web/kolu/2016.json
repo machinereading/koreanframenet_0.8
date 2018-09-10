@@ -1,52 +1,83 @@
 {
-    "frameName": "Calendric_unit",
+    "ko_pos": "n",
+    "ko_lu": "컬렉션.n.Aggregate",
+    "frameID": 103,
+    "frameName": "Aggregate",
+    "en_lus": [
+        "collection"
+    ],
+    "lu_id": 2016,
     "patterns": [
         {
-            "valenceText": "annotation id: 6407",
+            "valenceText": "annotation id: 2187",
             "examples": [
                 {
-                    "frameName": "Calendric_unit",
+                    "origin_lus": [
+                        "collection"
+                    ],
+                    "ko_annotation_id": 2187,
+                    "annotation_id": 4381,
+                    "frameName": "Aggregate",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Aggregate",
                             "span": {
-                                "begin": 44,
-                                "end": 47
+                                "begin": 78,
+                                "end": 82
                             },
-                            "id": "1"
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "컬렉션을"
                         },
                         {
-                            "obj": "relative_time",
+                            "id": 2,
+                            "obj": "Aggregateproperty",
+                            "token_span": [
+                                15,
+                                16
+                            ],
                             "span": {
-                                "begin": 61,
-                                "end": 63
+                                "begin": 65,
+                                "end": 71
                             },
-                            "id": "2"
+                            "text": "세계 최상급",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Individuals",
+                            "token_span": [
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 72,
+                                "end": 77
+                            },
+                            "text": "예술 명품",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "week"
-                    ],
-                    "ko_annotation_id": 6407,
-                    "text": "이라크 정부는 미국 대표 Tony Hall이 1990년 걸프전 이후 심해진 인도주의적인 위기를 평가하기 위해 다음 주 그 나라를 방문하도록 합의하였다고, 월요일 Hall의 사무실이 언급하였다.",
-                    "sent_id": 1484,
+                    "sent_id": 843,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 7014
+                    "lu": "컬렉션.n.Aggregate",
+                    "text": "1.6조 달러의 세계에서 가장 비싼 리조트인 Bellagio의 편의 시설은 5성 식당, 샤넬 등급의 부티크, 그리고 세계 최상급 예술 명품 컬렉션을 포함한다."
                 }
             ]
         }
-    ],
-    "frameID": 229,
-    "ko_pos": "NN",
-    "ko_lu": "주의적.n.Calendric_unit",
-    "lu_id": 2016,
-    "en_lus": [
-        "week"
     ]
 }

@@ -1,65 +1,85 @@
 {
-    "frameName": "Temporal_collocation",
+    "ko_pos": "n",
+    "ko_lu": "수도.n.Capability",
+    "frameID": 990,
+    "frameName": "Capability",
+    "en_lus": [
+        "can"
+    ],
+    "lu_id": 371,
     "patterns": [
         {
-            "valenceText": "annotation id: 937",
+            "valenceText": "annotation id: 7987",
             "examples": [
                 {
-                    "frameName": "Temporal_collocation",
+                    "origin_lus": [
+                        "can"
+                    ],
+                    "ko_annotation_id": 7987,
+                    "annotation_id": 14573,
+                    "frameName": "Capability",
                     "denotations": [
                         {
-                            "obj": "landmark_period",
+                            "id": 1,
+                            "obj": "Capability",
                             "span": {
-                                "begin": 3,
-                                "end": 6
+                                "begin": 66,
+                                "end": 71
                             },
-                            "id": "2"
+                            "token_span": [
+                                16,
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "수도 있고"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                11
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 7
+                                "begin": 43,
+                                "end": 46
                             },
-                            "id": "1"
+                            "text": "그들은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "trajector_event",
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 32
+                                "begin": 47,
+                                "end": 65
                             },
-                            "id": "3"
+                            "text": "외국으로부터의 어떤 유입을 추구할",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "In"
-                    ],
-                    "ko_annotation_id": 937,
-                    "text": "최근 몇 년간 미국의 영향은 영국의 영향보다 훨씬 더 강했다.",
-                    "sent_id": 910,
+                    "sent_id": 2855,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4709
+                    "lu": "수도.n.Capability",
+                    "text": "국가들은 독자적인, 고유 기반의 이러한 능력을 개발하려고 할 수 있는 반면, 그들은 외국으로부터의 어떤 유입을 추구할 수도 있고 또한 종종 실제로 그렇게 한다."
                 }
             ]
         }
-    ],
-    "frameID": 1895,
-    "ko_pos": "NNG",
-    "ko_lu": "간.n.Temporal_collocation",
-    "lu_id": 371,
-    "en_lus": [
-        "In"
     ]
 }

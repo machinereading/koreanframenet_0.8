@@ -1,51 +1,88 @@
 {
-    "frameName": "Clothing",
+    "ko_pos": "v",
+    "ko_lu": "쉬다.v.Activity_stop",
+    "frameID": 166,
+    "frameName": "Activity_stop",
+    "en_lus": [
+        "yasumu .休む "
+    ],
+    "lu_id": 322,
     "patterns": [
         {
-            "valenceText": "annotation id: 863",
+            "valenceText": "annotation id: 11702",
             "examples": [
                 {
-                    "frameName": "Clothing",
+                    "origin_lus": [
+                        "yasumu .休む "
+                    ],
+                    "ko_annotation_id": 11702,
+                    "annotation_id": 0,
+                    "frameName": "Activity_stop",
                     "denotations": [
                         {
-                            "obj": "Garment",
+                            "id": 1,
+                            "obj": "Activity_stop",
                             "span": {
-                                "begin": 24,
-                                "end": 34
-                            }
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "쉬고"
                         },
                         {
-                            "obj": "Wearer",
+                            "id": 2,
+                            "obj": "Purpose",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 60,
-                                "end": 68
-                            }
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "그 때문에",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 32,
-                                "end": 34
-                            }
+                                "begin": 6,
+                                "end": 27
+                            },
+                            "text": "9년 전에 당시 하고 있던 홈헬퍼 일을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sebiro .せびろ"
+                    "sent_id": 4574,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 863,
-                    "text": "붉은 머리카락을, 어른처럼 깔끔하게 빗고, 어설픈 줄무늬 정장을 입은, 12, 3살의 서양인 같아 보이는, 독특한 어린이입니다.",
-                    "sent_id": 3545,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "쉬다.v.Activity_stop",
+                    "text": "그 때문에 9년 전에 당시 하고 있던 홈헬퍼 일을 쉬고 인도까지 갔다 온 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 134,
-    "ko_pos": "NNG",
-    "ko_lu": "정장.n.Clothing",
-    "lu_id": 322,
-    "en_lus": [
-        "sebiro .せびろ"
     ]
 }

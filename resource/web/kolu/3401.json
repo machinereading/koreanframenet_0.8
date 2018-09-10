@@ -1,52 +1,91 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "a",
+    "ko_lu": "공정하다.a.Fairness_evaluation",
+    "frameID": 376,
+    "frameName": "Fairness_evaluation",
+    "en_lus": [
+        "fair"
+    ],
+    "lu_id": 3401,
     "patterns": [
         {
-            "valenceText": "annotation id: 11571",
+            "valenceText": "annotation id: 17006",
             "examples": [
                 {
-                    "frameName": "Buildings",
+                    "origin_lus": [
+                        "fair"
+                    ],
+                    "ko_annotation_id": 17006,
+                    "annotation_id": 8229,
+                    "frameName": "Fairness_evaluation",
                     "denotations": [
                         {
-                            "obj": "descriptor",
+                            "id": 1,
+                            "obj": "Fairness_evaluation",
                             "span": {
-                                "begin": 30,
-                                "end": 33
+                                "begin": 61,
+                                "end": 65
                             },
-                            "id": "2"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "공정하지"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Action",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 33
+                                "begin": 4,
+                                "end": 56
                             },
-                            "id": "1"
+                            "text": "Sheik Bin Baz의 실수를 얕잡아보고 Sheik Maqdasi에 의한 실수를 과장할 때",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Actor",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 57,
+                                "end": 60
+                            },
+                            "text": "당신은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "House"
-                    ],
-                    "ko_annotation_id": 11571,
-                    "text": "Ed_Hnery : 민주당 대표 Harry Reed는 백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을 조사하지 못했다고 공화당원들을 비난하였다.",
-                    "sent_id": 1725,
+                    "sent_id": 1683,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8416
+                    "lu": "공정하다.a.Fairness_evaluation",
+                    "text": "당신이 Sheik Bin Baz의 실수를 얕잡아보고 Sheik Maqdasi에 의한 실수를 과장할 때 당신은 공정하지 않다 …"
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NN",
-    "ko_lu": "백악관.n.Buildings",
-    "lu_id": 3401,
-    "en_lus": [
-        "House"
     ]
 }

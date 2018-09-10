@@ -1,44 +1,101 @@
 {
-    "frameName": "Intentionally_act",
+    "ko_pos": "n",
+    "ko_lu": "태도.n.Posture",
+    "frameID": 18,
+    "frameName": "Posture",
+    "en_lus": [
+        "posture"
+    ],
+    "lu_id": 2137,
     "patterns": [
         {
-            "valenceText": "annotation id: 6886",
+            "valenceText": "annotation id: 549",
             "examples": [
                 {
-                    "frameName": "Intentionally_act",
+                    "origin_lus": [
+                        "posture"
+                    ],
+                    "ko_annotation_id": 549,
+                    "annotation_id": 1164,
+                    "frameName": "Posture",
                     "denotations": [
                         {
-                            "obj": "Act",
+                            "id": 1,
+                            "obj": "Posture",
                             "span": {
-                                "begin": 42,
-                                "end": 46
-                            }
+                                "begin": 60,
+                                "end": 63
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "태도를"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Purpose",
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
                             "span": {
-                                "begin": 47,
-                                "end": 50
-                            }
+                                "begin": 43,
+                                "end": 55
+                            },
+                            "text": "중요한 지지층을 위하여",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 59
+                            },
+                            "text": "친근한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Agent",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 73,
+                                "end": 78
+                            },
+                            "text": "정치인들을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hukameru .深める "
+                    "sent_id": 216,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6886,
-                    "text": "또한 학습회에서 끝나는 것이 아니라, 그 후 정기적인 미팅을 하거나, 한층 더 깊이 학습하기  위한 연구회를 만드는 것도 좋겠습니다.",
-                    "sent_id": 4485,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "태도.n.Posture",
+                    "text": "그것은 또한 정치인들이 유용하다고 여기는 일종의 모욕인데, 그 이유는 그것이 중요한 지지층을 위하여 친근한 태도를 보일 수 있도록 정치인들을 도와주기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 198,
-    "ko_pos": "VV",
-    "ko_lu": "학습하다.v.Intentionally_act",
-    "lu_id": 2137,
-    "en_lus": [
-        "hukameru .深める "
     ]
 }

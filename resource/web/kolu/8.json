@@ -1,44 +1,71 @@
 {
+    "ko_pos": "v",
+    "ko_lu": "생각나다.v.Memory",
+    "frameID": 135,
     "frameName": "Memory",
+    "en_lus": [
+        "omoidasu .思い出す"
+    ],
+    "lu_id": 8,
     "patterns": [
         {
-            "valenceText": "annotation id: 23",
+            "valenceText": "annotation id: 16289",
             "examples": [
                 {
-                    "frameName": "Memory",
-                    "denotations": [
-                        {
-                            "obj": "Content",
-                            "span": {
-                                "begin": 14,
-                                "end": 54
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 56,
-                                "end": 59
-                            }
-                        }
-                    ],
                     "origin_lus": [
                         "omoidasu .思い出す"
                     ],
-                    "ko_annotation_id": 23,
-                    "text": "(오십견인가?) 병원에서 동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이 생각났다.",
+                    "ko_annotation_id": 16289,
+                    "annotation_id": 0,
+                    "frameName": "Memory",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Memory",
+                            "span": {
+                                "begin": 56,
+                                "end": 61
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "생각났다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 55
+                            },
+                            "text": "동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
                     "sent_id": 3913,
-                    "relations": [],
-                    "annotation_id": 0
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "생각나다.v.Memory",
+                    "text": "(오십견인가?) 병원에서 동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이 생각났다."
                 }
             ]
         }
-    ],
-    "frameID": 135,
-    "ko_pos": "VV",
-    "ko_lu": "생각나다.v.Memory",
-    "lu_id": 8,
-    "en_lus": [
-        "omoidasu .思い出す"
     ]
 }

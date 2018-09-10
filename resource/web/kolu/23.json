@@ -1,44 +1,64 @@
 {
+    "ko_pos": "n",
+    "ko_lu": "현상.n.Event",
+    "frameID": 187,
     "frameName": "Event",
+    "en_lus": [
+        "gensyoo .現象 "
+    ],
+    "lu_id": 23,
     "patterns": [
         {
-            "valenceText": "annotation id: 79",
+            "valenceText": "annotation id: 11924",
             "examples": [
                 {
-                    "frameName": "Event",
-                    "denotations": [
-                        {
-                            "obj": "Event",
-                            "span": {
-                                "begin": 6,
-                                "end": 11
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 9,
-                                "end": 11
-                            }
-                        }
-                    ],
                     "origin_lus": [
                         "gensyoo .現象 "
                     ],
-                    "ko_annotation_id": 79,
-                    "text": "또 하나는 영적 현상입니다.",
+                    "ko_annotation_id": 11924,
+                    "annotation_id": 0,
+                    "frameName": "Event",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Event",
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "현상입니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 15
+                            },
+                            "text": "영적 현상입니다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
                     "sent_id": 4720,
-                    "relations": [],
-                    "annotation_id": 0
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "현상.n.Event",
+                    "text": "또 하나는 영적 현상입니다."
                 }
             ]
         }
-    ],
-    "frameID": 187,
-    "ko_pos": "NNG",
-    "ko_lu": "현상.n.Event",
-    "lu_id": 23,
-    "en_lus": [
-        "gensyoo .現象 "
     ]
 }

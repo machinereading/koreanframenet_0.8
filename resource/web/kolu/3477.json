@@ -1,58 +1,85 @@
 {
-    "frameName": "Arriving",
+    "ko_pos": "v",
+    "ko_lu": "포함되다.v.Containing",
+    "frameID": 397,
+    "frameName": "Containing",
+    "en_lus": [
+        "contain"
+    ],
+    "lu_id": 3477,
     "patterns": [
         {
-            "valenceText": "annotation id: 11861",
+            "valenceText": "annotation id: 1609",
             "examples": [
                 {
-                    "frameName": "Arriving",
+                    "origin_lus": [
+                        "containing"
+                    ],
+                    "ko_annotation_id": 1609,
+                    "annotation_id": 3386,
+                    "frameName": "Containing",
                     "denotations": [
                         {
-                            "obj": "Theme",
+                            "id": 1,
+                            "obj": "Containing",
                             "span": {
-                                "begin": 0,
-                                "end": 6
-                            }
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "포함된"
                         },
                         {
-                            "obj": "Depictive",
+                            "id": 2,
+                            "obj": "Contents",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 30
-                            }
+                                "begin": 6,
+                                "end": 20
+                            },
+                            "text": "시나이 산에서 받은 법판이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Goal",
+                            "id": 3,
+                            "obj": "Container",
+                            "token_span": [
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 33,
-                                "end": 43
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 45,
-                                "end": 48
-                            }
+                                "begin": 25,
+                                "end": 33
+                            },
+                            "text": "이동식 예배소인",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hairu .入る "
+                    "sent_id": 629,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 11861,
-                    "text": "나와 동거인은 파는 사람과 만드는 사람으로 확실히 나뉘어, 서로 상대방의 영역에 관여하지 않게 되었다.",
-                    "sent_id": 3892,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "포함되다.v.Containing",
+                    "text": "그는 또한 시나이 산에서 받은 법판이 포함된 이동식 예배소인 언약궤를 예루살렘 방벽 외부에 있는, 기혼 샘에 가져왔다."
                 }
             ]
         }
-    ],
-    "frameID": 54,
-    "ko_pos": "VV",
-    "ko_lu": "관여하다.v.Arriving",
-    "lu_id": 3477,
-    "en_lus": [
-        "hairu .入る "
     ]
 }

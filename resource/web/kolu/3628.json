@@ -1,74 +1,147 @@
 {
-    "frameName": "Import_export_scenario",
+    "ko_pos": "v",
+    "ko_lu": "촉발시키다.v.Cause_to_start",
+    "frameID": 381,
+    "frameName": "Cause_to_start",
+    "en_lus": [
+        "prompt"
+    ],
+    "lu_id": 3628,
     "patterns": [
         {
-            "valenceText": "annotation id: 12474",
+            "valenceText": "annotation id: 6541",
             "examples": [
                 {
-                    "frameName": "Import_export",
+                    "origin_lus": [
+                        "prompting",
+                        "prompted"
+                    ],
+                    "ko_annotation_id": 6541,
+                    "annotation_id": 11924,
+                    "frameName": "Cause_to_start",
                     "denotations": [
                         {
-                            "obj": "importing_area",
+                            "id": 1,
+                            "obj": "Cause_to_start",
                             "span": {
-                                "begin": 40,
-                                "end": 42
+                                "begin": 120,
+                                "end": 126
                             },
-                            "id": "2"
+                            "token_span": [
+                                31
+                            ],
+                            "role": "TARGET",
+                            "text": "촉발시켰다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Effect",
+                            "token_span": [
+                                22,
+                                23,
+                                24,
+                                25,
+                                26,
+                                27,
+                                28,
+                                29,
+                                30
+                            ],
                             "span": {
-                                "begin": 47,
-                                "end": 50
+                                "begin": 89,
+                                "end": 119
                             },
-                            "id": "1"
+                            "text": "이란에 의한 작업 중단과 핵 조사에 대한 뒤이은 동결을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "imports"
-                    ],
-                    "ko_annotation_id": 12474,
-                    "text": "주요 공급자 / 주요 수출자 다음 요약은 화학무기 프로그램 영역 내에서 이란의 주요 수입품을 나열한다.",
-                    "sent_id": 2278,
+                    "sent_id": 2366,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 11418
+                    "lu": "촉발시키다.v.Cause_to_start",
+                    "text": "그러나 이란이 비밀의 원자 폭탄 프로그램을 가지고 있지 않다는 것을 입증하라는 미국의 강한 압력은 결국 2003년 9월에 강경한 내용의 유엔 결의안이 되었고, 이란에 의한 작업 중단과 핵 조사에 대한 뒤이은 동결을 촉발시켰다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.13522",
+            "valenceText": "annotation id: 15380",
             "examples": [
                 {
-                    "frameName": "Import_export_scenario",
+                    "origin_lus": [
+                        "prompting",
+                        "prompted"
+                    ],
+                    "ko_annotation_id": 15380,
+                    "annotation_id": 14976,
+                    "frameName": "Cause_to_start",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Cause_to_start",
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 77,
+                                "end": 83
                             },
-                            "id": "1"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "촉발시켰다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 57
+                            },
+                            "text": "큐바 미사일 위기는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 58,
+                                "end": 76
+                            },
+                            "text": "헌신적인 핵무기 프로그램의 시작을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "어느 국가나 수입품에는 높은 관세를 부과한다.",
-                    "target": "수입품",
-                    "ko_annotation_id": "sejong.13522",
-                    "relations": []
+                    "sent_id": 2919,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "촉발시키다.v.Cause_to_start",
+                    "text": "프로그램은 평화적인 것으로 시작하는 것처럼 보였으나, 김의 원래 의도가 무엇이었든, 큐바 미사일 위기는 헌신적인 핵무기 프로그램의 시작을 촉발시켰다."
                 }
             ]
         }
-    ],
-    "frameID": 422,
-    "ko_pos": "NN",
-    "ko_lu": "수입품.n.Import_export_scenario",
-    "lu_id": 3628,
-    "en_lus": [
-        "import"
     ]
 }

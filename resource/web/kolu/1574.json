@@ -1,44 +1,111 @@
 {
-    "frameName": "Activity_finish",
+    "ko_pos": "v",
+    "ko_lu": "초과하다.v.Surpassing",
+    "frameID": 358,
+    "frameName": "Surpassing",
+    "en_lus": [
+        "tyooka .超過 "
+    ],
+    "lu_id": 1574,
     "patterns": [
         {
-            "valenceText": "annotation id: 4934",
+            "valenceText": "annotation id: 11032",
             "examples": [
                 {
-                    "frameName": "Activity_finish",
+                    "origin_lus": [
+                        "tyooka .超過 "
+                    ],
+                    "ko_annotation_id": 11032,
+                    "annotation_id": 0,
+                    "frameName": "Surpassing",
                     "denotations": [
                         {
-                            "obj": "Activity",
+                            "id": 1,
+                            "obj": "Surpassing",
                             "span": {
-                                "begin": 3,
-                                "end": 6
-                            }
+                                "begin": 82,
+                                "end": 87
+                            },
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "초과했다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Profiled_Item",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 12
-                            }
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "이 배는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Standard_Item",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 76
+                            },
+                            "text": "정규 속력은 브린디시, 수에즈 간이 1시간 10마일, 수에즈, 뭄바이 간이 9마일 반이었으나,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Standard_Item",
+                            "token_span": [
+                                20
+                            ],
+                            "span": {
+                                "begin": 79,
+                                "end": 81
+                            },
+                            "text": "이를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "owaru .終わる"
+                    "sent_id": 4114,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4934,
-                    "text": "또한 학습회에서 끝나는 것이 아니라, 그 후 정기적인 미팅을 하거나, 한층 더 깊이 학습하기  위한 연구회를 만드는 것도 좋겠습니다.",
-                    "sent_id": 4485,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "초과하다.v.Surpassing",
+                    "text": "이 배는, 같은 회사의 쾌속정 중 하나로, 정규 속력은 브린디시, 수에즈 간이 1시간 10마일, 수에즈, 뭄바이 간이 9마일 반이었으나, 늘 이를 초과했다."
                 }
             ]
         }
-    ],
-    "frameID": 165,
-    "ko_pos": "VV",
-    "ko_lu": "끝나다.v.Activity_finish",
-    "lu_id": 1574,
-    "en_lus": [
-        "owaru .終わる"
     ]
 }

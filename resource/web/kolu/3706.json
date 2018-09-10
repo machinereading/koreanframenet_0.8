@@ -1,82 +1,86 @@
 {
-    "frameName": "Emotion_directed",
+    "ko_pos": "n",
+    "ko_lu": "예선.n.Competition",
+    "frameID": 241,
+    "frameName": "Competition",
+    "en_lus": [
+        "yosen .予選 "
+    ],
+    "lu_id": 3706,
     "patterns": [
         {
-            "valenceText": "annotation id: 12643",
+            "valenceText": "annotation id: 11310",
             "examples": [
                 {
-                    "frameName": "Emotion_directed",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 61,
-                                "end": 63
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "anger"
+                        "yosen .予選 "
                     ],
-                    "ko_annotation_id": 12643,
-                    "text": "그러나 어디서나 최고의 수송 체계 중의 하나로, 홍콩은 또한 효율적이며, 이러한 붐비는 장소에서, 조용한 - 화나서 높이는 소리, 경적을 울리며 앉아 있는 운전자, 또는 시끄러운 대형 휴대용 카세트 라디오의 소리를 당신은 듣지 못한다.",
-                    "sent_id": 855,
-                    "relations": [],
-                    "annotation_id": 4430
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.91371",
-            "examples": [
-                {
-                    "frameName": "Emotion_directed",
+                    "ko_annotation_id": 11310,
+                    "annotation_id": 0,
+                    "frameName": "Competition",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Competition",
                             "span": {
-                                "begin": -1,
-                                "end": 4
+                                "begin": 26,
+                                "end": 29
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "선생님이 내게 화난 이유가 뭔지 아니?",
-                    "target": "",
-                    "ko_annotation_id": "sejong.91371",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.91372",
-            "examples": [
-                {
-                    "frameName": "Emotion_directed",
-                    "denotations": [
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "예선을"
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Competition",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": -1,
-                                "end": -1
+                                "begin": 0,
+                                "end": 3
                             },
-                            "obj": "target"
+                            "text": "시합은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Participants",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 25
+                            },
+                            "text": "주황 띠 이상의 여성 유도인을 대상으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그의 불성실한 태도에 화난 사장은 당장 사표를 쓰라고 소리를 질렀다.",
-                    "target": "",
-                    "ko_annotation_id": "sejong.91372",
-                    "relations": []
+                    "sent_id": 4305,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예선.n.Competition",
+                    "text": "시합은 주황 띠 이상의 여성 유도인을 대상으로 예선을 치뤄, 출장 선수를 16명으로 추린 후, 제1회전, 2회전, 준결승전이 열렸으며, 결국 애디슨 부인(파랑 띠)과 루바니에 부인(갈색 띠)이 결승전에서 대결하게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 46,
-    "ko_pos": "VV",
-    "ko_lu": "화나다.v.Emotion_directed",
-    "lu_id": 3706,
-    "en_lus": [
-        "anger"
     ]
 }

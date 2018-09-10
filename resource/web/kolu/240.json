@@ -1,144 +1,85 @@
 {
-    "frameName": "Residence",
+    "ko_pos": "n",
+    "ko_lu": "등산.n.Intentional_traversing",
+    "frameID": 1642,
+    "frameName": "Intentional_traversing",
+    "en_lus": [
+        "tozan .登山 "
+    ],
+    "lu_id": 240,
     "patterns": [
         {
-            "valenceText": "annotation id: 714",
+            "valenceText": "annotation id: 10846",
             "examples": [
                 {
-                    "frameName": "Residence",
+                    "origin_lus": [
+                        "tozan .登山 "
+                    ],
+                    "ko_annotation_id": 10846,
+                    "annotation_id": 0,
+                    "frameName": "Intentional_traversing",
                     "denotations": [
                         {
-                            "obj": "resident",
+                            "id": 1,
+                            "obj": "Intentional_traversing",
                             "span": {
-                                "begin": 4,
-                                "end": 8
+                                "begin": 11,
+                                "end": 14
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "등산로"
                         },
                         {
-                            "obj": "location",
+                            "id": 2,
+                            "obj": "Path_Shape",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 48
+                                "begin": 11,
+                                "end": 14
                             },
-                            "id": "4"
+                            "text": "등산로",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "frequency",
+                            "id": 3,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
                             "span": {
-                                "begin": 51,
-                                "end": 53
+                                "begin": 19,
+                                "end": 38
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 54,
-                                "end": 56
-                            },
-                            "id": "1"
+                            "text": "노인 세대에 의해 점령당하고 있다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "live"
-                    ],
-                    "ko_annotation_id": 714,
-                    "text": "또한, 종지기들은 작은 시골 교구와 도심 지역 교회와 같이, 종이 울릴 필요가 있는 곳에서 항상 살지는 않는다.",
-                    "sent_id": 63,
+                    "sent_id": 4020,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 400
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.103772",
-            "examples": [
-                {
-                    "frameName": "Residence",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 8,
-                                "end": 11
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "가을은 만물이 살지는 계절이다.",
-                    "target": "살지는",
-                    "ko_annotation_id": "sejong.103772",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.103773",
-            "examples": [
-                {
-                    "frameName": "Residence",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": -1,
-                                "end": -1
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "너희가 살진 양들을 잡아 기름을 먹고 양털로 옷을 입어도 양무리는 먹이지 아니하는도다.",
-                    "target": "",
-                    "ko_annotation_id": "sejong.103773",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.103774",
-            "examples": [
-                {
-                    "frameName": "Residence",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": -1,
-                                "end": -1
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "물이 오른 살진 과일은 보기에도 탐스럽다.",
-                    "target": "",
-                    "ko_annotation_id": "sejong.103774",
-                    "relations": []
+                    "lu": "등산.n.Intentional_traversing",
+                    "text": "현재, 일본의 주요 등산로 입구는 노인 세대에 의해 점령당하고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 110,
-    "ko_pos": "VA",
-    "ko_lu": "살지다.a.Residence",
-    "lu_id": 240,
-    "en_lus": [
-        "live"
     ]
 }

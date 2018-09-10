@@ -1,65 +1,189 @@
 {
-    "frameName": "Collaboration",
+    "ko_pos": "v",
+    "ko_lu": "접수하다.v.Receiving",
+    "frameID": 411,
+    "frameName": "Receiving",
+    "en_lus": [
+        "receive"
+    ],
+    "lu_id": 520,
     "patterns": [
         {
-            "valenceText": "annotation id: 1465",
+            "valenceText": "annotation id: 9788",
             "examples": [
                 {
-                    "frameName": "Collaboration",
+                    "origin_lus": [
+                        "receive"
+                    ],
+                    "ko_annotation_id": 9788,
+                    "annotation_id": 18163,
+                    "frameName": "Receiving",
                     "denotations": [
                         {
-                            "obj": "partner_2",
+                            "id": 1,
+                            "obj": "Receiving",
                             "span": {
-                                "begin": 22,
-                                "end": 26
+                                "begin": 69,
+                                "end": 72
                             },
-                            "id": "3"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "접수할"
                         },
                         {
-                            "obj": "manner",
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                12
+                            ],
                             "span": {
-                                "begin": 29,
-                                "end": 31
+                                "begin": 50,
+                                "end": 53
                             },
-                            "id": "2"
+                            "text": "이란이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Donor",
+                            "token_span": [
+                                13
+                            ],
                             "span": {
-                                "begin": 32,
-                                "end": 34
+                                "begin": 54,
+                                "end": 60
                             },
-                            "id": "1"
+                            "text": "브라질로부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 61,
+                                "end": 68
+                            },
+                            "text": "핵무기 기술을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "cooperation"
-                    ],
-                    "ko_annotation_id": 1465,
-                    "text": "이란의 전쟁 후 미사일 프로그램은 또한 파키스탄과의 양자 협정과 종전 소비에트 연방 ( 예, 벨라루스, 우크라이나,카자흐스탄, 그리고 우즈베키스탄 ) 과 동유럽으로부터의 생산 장비, 제한되지 않은 부품들, 그리고 제한된 부품들의 획득으로 때때로 이득을 얻었다.",
-                    "sent_id": 2507,
+                    "sent_id": 3447,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 12532
+                    "lu": "접수하다.v.Receiving",
+                    "text": "브라질 여단의 Hugo Piva 장군은 이란에서 작업하고 있을 수 있으며, 미국 보고서는 이란이 브라질로부터 핵무기 기술을 접수할 수 있을 것이라고 한다 ( PPNN )."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9794",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "received"
+                    ],
+                    "ko_annotation_id": 9794,
+                    "annotation_id": 18166,
+                    "frameName": "Receiving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Receiving",
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "접수하였다고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Donor",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 19
+                            },
+                            "text": "브라질과 인도로부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 27
+                            },
+                            "text": "핵무기 기술을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3448,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "접수하다.v.Receiving",
+                    "text": "보고들은 이란이 브라질과 인도로부터 핵무기 기술을 접수하였다고 말한다 ( 7401 )."
                 }
             ]
         }
-    ],
-    "frameID": 418,
-    "ko_pos": "NNG",
-    "ko_lu": "협정.n.Collaboration",
-    "lu_id": 520,
-    "en_lus": [
-        "cooperation"
     ]
 }

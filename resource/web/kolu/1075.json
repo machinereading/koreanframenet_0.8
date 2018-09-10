@@ -1,60 +1,64 @@
 {
-    "frameName": "Food",
+    "ko_pos": "v",
+    "ko_lu": "사랑하다.v.Kinship",
+    "frameID": 104,
+    "frameName": "Kinship",
+    "en_lus": [
+        "aizi .愛児"
+    ],
+    "lu_id": 1075,
     "patterns": [
         {
-            "valenceText": "annotation id: 3350",
+            "valenceText": "annotation id: 12397",
             "examples": [
                 {
-                    "frameName": "Food",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "herb"
+                        "aizi .愛児"
                     ],
-                    "ko_annotation_id": 3350,
-                    "text": "당신은 약초와 의료 가게, 향 가게, 관인 제조자 가게 ( 중국 인장 제조자 ), 그리고 더 많은 것을 발견할 것이다.",
-                    "sent_id": 1095,
-                    "relations": [],
-                    "annotation_id": 5723
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.1391",
-            "examples": [
-                {
-                    "frameName": "Food",
+                    "ko_annotation_id": 12397,
+                    "annotation_id": 0,
+                    "frameName": "Kinship",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Kinship",
                             "span": {
-                                "begin": 21,
-                                "end": 23
+                                "begin": 35,
+                                "end": 43
                             },
-                            "id": "1"
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "사랑하는 자식의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ego",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 어머니의 병을 고치기 위해 매일 약초를 캐러 간다.",
-                    "target": "약초",
-                    "ko_annotation_id": "sejong.1391",
-                    "relations": []
+                    "sent_id": 5015,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사랑하다.v.Kinship",
+                    "text": "나는 결혼도 아이들의 세례도 거부할 용기가 있었으므로, 지금, 사랑하는 자식의 죽음에 직면하여, 그리스도교의 장례라 불리는 허례허식은 하지 않겠다고 주장했다."
                 }
             ]
         }
-    ],
-    "frameID": 277,
-    "ko_pos": "NNG",
-    "ko_lu": "약초.n.Food",
-    "lu_id": 1075,
-    "en_lus": [
-        "herb"
     ]
 }

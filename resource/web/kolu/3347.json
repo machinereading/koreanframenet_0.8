@@ -1,88 +1,174 @@
 {
-    "frameName": "Typicality",
+    "ko_pos": "v",
+    "ko_lu": "닿다.v.Perception_experience",
+    "frameID": 70,
+    "frameName": "Perception_experience",
+    "en_lus": [
+        "hureru .触れる ",
+        "hureru .ふれる "
+    ],
+    "lu_id": 3347,
     "patterns": [
         {
-            "valenceText": "annotation id: 11399",
+            "valenceText": "annotation id: 10679",
             "examples": [
                 {
-                    "frameName": "Typicality",
+                    "origin_lus": [
+                        "hureru .ふれる ",
+                        "hureru .触れる "
+                    ],
+                    "ko_annotation_id": 10679,
+                    "annotation_id": 0,
+                    "frameName": "Perception_experience",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Perception_experience",
                             "span": {
-                                "begin": 64,
-                                "end": 67
-                            }
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "닿았다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Perceiver_Passive",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 60,
-                                "end": 63
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "hen .へん "
-                    ],
-                    "ko_annotation_id": 11399,
-                    "text": "붉은 머리카락을, 어른처럼 깔끔하게 빗고, 어설픈 줄무늬 정장을 입은, 12, 3살의 서양인 같아 보이는, 독특한 어린이입니다.",
-                    "sent_id": 3545,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.101076",
-            "examples": [
-                {
-                    "frameName": "Typicality",
-                    "denotations": [
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "한 소녀가",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "id": "1",
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
                                 "begin": 12,
-                                "end": 15
+                                "end": 20
                             },
-                            "obj": "target"
+                            "text": "말의 한쪽 발이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "얼굴에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "한국에는 신춘문예라는 독특한 제도가 있다.",
-                    "target": "독특한",
-                    "ko_annotation_id": "sejong.101076",
-                    "relations": []
+                    "sent_id": 3935,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "닿다.v.Perception_experience",
+                    "text": "한 소녀가 낙마하여, 말의 한쪽 발이 얼굴에 닿았다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.101077",
+            "valenceText": "annotation id: 11104",
             "examples": [
                 {
-                    "frameName": "Typicality",
+                    "origin_lus": [
+                        "hureru .ふれる ",
+                        "hureru .触れる "
+                    ],
+                    "ko_annotation_id": 11104,
+                    "annotation_id": 0,
+                    "frameName": "Perception_experience",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Perception_experience",
                             "span": {
-                                "begin": 8,
-                                "end": 11
+                                "begin": 11,
+                                "end": 15
                             },
-                            "obj": "target"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "닿았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "손가락에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "무엇인가가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "작가의 개성은 독특한 언어에서 나타난다.",
-                    "target": "독특한",
-                    "ko_annotation_id": "sejong.101077",
-                    "relations": []
+                    "sent_id": 4183,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "닿다.v.Perception_experience",
+                    "text": "손가락에 무엇인가가 닿았다."
                 }
             ]
         }
-    ],
-    "frameID": 1134,
-    "ko_pos": "VA",
-    "ko_lu": "독특하다.a.Typicality",
-    "lu_id": 3347,
-    "en_lus": [
-        "hen .へん "
     ]
 }

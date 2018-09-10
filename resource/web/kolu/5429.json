@@ -1,44 +1,63 @@
 {
-    "frameName": "Assistance",
+    "ko_pos": "n",
+    "ko_lu": "방벽.n.Architectural_part",
+    "frameID": 971,
+    "frameName": "Architectural_part",
+    "en_lus": [
+        "wall"
+    ],
+    "lu_id": 5429,
     "patterns": [
         {
-            "valenceText": "annotation id: 19215",
+            "valenceText": "annotation id: 1611",
             "examples": [
                 {
-                    "frameName": "Assistance",
+                    "origin_lus": [
+                        "walls"
+                    ],
+                    "ko_annotation_id": 1611,
+                    "annotation_id": 3388,
+                    "frameName": "Architectural_part",
                     "denotations": [
                         {
-                            "obj": "Focal_entity",
+                            "id": 1,
+                            "obj": "Architectural_part",
                             "span": {
-                                "begin": 55,
-                                "end": 63
-                            }
+                                "begin": 44,
+                                "end": 46
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "방벽"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Whole",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 58,
-                                "end": 63
-                            }
+                                "begin": 39,
+                                "end": 43
+                            },
+                            "text": "예루살렘",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tetudai .手伝い"
+                    "sent_id": 629,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19215,
-                    "text": "그렇다고는 하지만 집에 있는 건 주말이라는 한정된 시간뿐이므로, 기껏 식사 후의 뒷정리나, 이따금 음식 만드는 것을 돕는 정도다.",
-                    "sent_id": 3985,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "방벽.n.Architectural_part",
+                    "text": "그는 또한 시나이 산에서 받은 법판이 포함된 이동식 예배소인 언약궤를 예루살렘 방벽 외부에 있는, 기혼 샘에 가져왔다."
                 }
             ]
         }
-    ],
-    "frameID": 391,
-    "ko_pos": "VV",
-    "ko_lu": "만들다.v.Assistance",
-    "lu_id": 5429,
-    "en_lus": [
-        "tetudai .手伝い"
     ]
 }

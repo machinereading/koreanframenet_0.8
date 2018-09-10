@@ -1,78 +1,83 @@
 {
-    "frameName": "Categorization",
+    "ko_pos": "v",
+    "ko_lu": "가동하다.v.Using",
+    "frameID": 1141,
+    "frameName": "Using",
+    "en_lus": [
+        "operating"
+    ],
+    "lu_id": 641,
     "patterns": [
         {
-            "valenceText": "annotation id: 1935",
+            "valenceText": "annotation id: 7831",
             "examples": [
                 {
-                    "frameName": "Categorization",
+                    "origin_lus": [
+                        "operating"
+                    ],
+                    "ko_annotation_id": 7831,
+                    "annotation_id": 14263,
+                    "frameName": "Using",
                     "denotations": [
                         {
-                            "obj": "category",
+                            "id": 1,
+                            "obj": "Using",
                             "span": {
-                                "begin": 25,
-                                "end": 28
+                                "begin": 22,
+                                "end": 26
                             },
-                            "id": "3"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "가동하기"
                         },
                         {
-                            "obj": "criteria",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 28
+                                "begin": 7,
+                                "end": 10
                             },
-                            "id": "4"
+                            "text": "북한은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Instrument",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 31,
-                                "end": 35
+                                "begin": 11,
+                                "end": 21
                             },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "item",
-                            "span": {
-                                "begin": 36,
-                                "end": 44
-                            },
-                            "id": "2"
+                            "text": "우라늄 농축 공장을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "understood"
-                    ],
-                    "ko_annotation_id": 1935,
-                    "text": "다행히도, 이들 같은 부모들은 자기 아이들이 전통적으로 이해되는 제대로 된 교육을 받기를 정말 원하고 있으며, 그리고 그들은 그것이 무엇을 요구하는가를 알만한 충분한 상식을 가지고 있다.",
-                    "sent_id": 193,
+                    "sent_id": 2813,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1069
+                    "lu": "가동하다.v.Using",
+                    "text": "얼마나 빨리 북한은 우라늄 농축 공장을 가동하기 시작할 것인가에 대한 예측은 서로 다르지만, 북한은 아마도 10년 내에는 상당량의 무기급 고농축 우라늄을 생산할 수 없을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 21,
-    "ko_pos": "VV",
-    "ko_lu": "이해되다.v.Categorization",
-    "lu_id": 641,
-    "en_lus": [
-        "understood"
     ]
 }

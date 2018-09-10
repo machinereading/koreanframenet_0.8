@@ -1,66 +1,115 @@
 {
-    "frameName": "Timespan",
+    "ko_pos": "a",
+    "ko_lu": "낡다.a.Age",
+    "frameID": 972,
+    "frameName": "Age",
+    "en_lus": [
+        "old"
+    ],
+    "lu_id": 2002,
     "patterns": [
         {
-            "valenceText": "annotation id: 6310",
+            "valenceText": "annotation id: 322",
             "examples": [
                 {
-                    "frameName": "Timespan",
+                    "origin_lus": [
+                        "old"
+                    ],
+                    "ko_annotation_id": 322,
+                    "annotation_id": 676,
+                    "frameName": "Age",
                     "denotations": [
                         {
-                            "obj": "Duration",
+                            "id": 1,
+                            "obj": "Age",
                             "span": {
-                                "begin": 30,
-                                "end": 35
-                            }
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "낡은"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 36,
-                                "end": 38
-                            }
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "text": "건물의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "aida .間 "
+                    "sent_id": 106,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6310,
-                    "text": "원이 개설되고부터, 명치 원년에 형장이 폐지되기까지, 이백여 년 동안에 매장된 사체는 20여만 구라 합니다.",
-                    "sent_id": 4670,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "낡다.a.Age",
+                    "text": "나는 도로의 낡은 건물의 3층에 있었고, 나의 심장 ( 쿵, 쿵 ! ) 외에는 무사하다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.15725",
+            "valenceText": "annotation id: 12545",
             "examples": [
                 {
-                    "frameName": "Timespan",
+                    "origin_lus": [
+                        "old"
+                    ],
+                    "ko_annotation_id": 12545,
+                    "annotation_id": 823,
+                    "frameName": "Age",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Age",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 24,
+                                "end": 26
                             },
-                            "id": "1"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "낡은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 33
+                            },
+                            "text": "일반 상점과",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 자신의 얼굴이 너무 동안인 것이 불만이었다.",
-                    "target": "동안",
-                    "ko_annotation_id": "sejong.15725",
-                    "relations": []
+                    "sent_id": 144,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "낡다.a.Age",
+                    "text": "전력도 없고, 최소한의 전화만 있고, 대형 낡은 일반 상점과 조합의 바닥 도처에는 마요네스, 와인, 기타 등등이 어지럽게 Z어져 있다."
                 }
             ]
         }
-    ],
-    "frameID": 2142,
-    "ko_pos": "NNG",
-    "ko_lu": "동안.n.Timespan",
-    "lu_id": 2002,
-    "en_lus": [
-        "aida .間 "
     ]
 }

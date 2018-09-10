@@ -1,52 +1,82 @@
 {
-    "frameName": "Rest",
+    "ko_pos": "v",
+    "ko_lu": "불법화하다.v.Deny_or_grant_permission",
+    "frameID": 520,
+    "frameName": "Deny_or_grant_permission",
+    "en_lus": [
+        "outlaw"
+    ],
+    "lu_id": 3371,
     "patterns": [
         {
-            "valenceText": "annotation id: 11447",
+            "valenceText": "annotation id: 2032",
             "examples": [
                 {
-                    "frameName": "Rest",
+                    "origin_lus": [
+                        "outlawed"
+                    ],
+                    "ko_annotation_id": 2032,
+                    "annotation_id": 4115,
+                    "frameName": "Deny_or_grant_permission",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Deny_or_grant_permission",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 16,
+                                "end": 20
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "불법화한"
                         },
                         {
-                            "obj": "whole",
+                            "id": 2,
+                            "obj": "Authority",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 13
+                                "begin": 5,
+                                "end": 11
                             },
-                            "id": "2"
+                            "text": "입법 기관도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "text": "도박을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "rest"
-                    ],
-                    "ko_annotation_id": 11447,
-                    "text": "나머지 새로운 유대 국가로부터 분리된 서 예루살렘은 이스라엘 병력이 해안 지역까지 도시를 연결하는 회랑 지대를 확보할 때까지 수개월 간 포위당한 채로 지속되었다.",
-                    "sent_id": 718,
+                    "sent_id": 786,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3774
+                    "lu": "불법화하다.v.Deny_or_grant_permission",
+                    "text": "게다가, 입법 기관도 도박을 불법화한 해인1909년에 라스 베이거스는 네바다의 새로운 Clark County의 일부가 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 1000,
-    "ko_pos": "NNG",
-    "ko_lu": "나머지.n.Rest",
-    "lu_id": 3371,
-    "en_lus": [
-        "rest"
     ]
 }

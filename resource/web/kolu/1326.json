@@ -1,52 +1,84 @@
 {
-    "frameName": "Collaboration",
+    "ko_pos": "n",
+    "ko_lu": "근본적.n.Architectural_part",
+    "frameID": 971,
+    "frameName": "Architectural_part",
+    "en_lus": [
+        "konpon .根本 "
+    ],
+    "lu_id": 1326,
     "patterns": [
         {
-            "valenceText": "annotation id: 4128",
+            "valenceText": "annotation id: 12243",
             "examples": [
                 {
-                    "frameName": "Collaboration",
+                    "origin_lus": [
+                        "konpon .根本 "
+                    ],
+                    "ko_annotation_id": 12243,
+                    "annotation_id": 0,
+                    "frameName": "Architectural_part",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Architectural_part",
                             "span": {
-                                "begin": 3,
-                                "end": 5
+                                "begin": 15,
+                                "end": 20
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "근본적으로"
                         },
                         {
-                            "obj": "partners",
+                            "id": 2,
+                            "obj": "Whole",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 7,
+                                "begin": 0,
                                 "end": 14
                             },
-                            "id": "2"
+                            "text": "일본 교육이 지니는 문제를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Part",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "text": "근본적으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "conspiracy"
-                    ],
-                    "ko_annotation_id": 4128,
-                    "text": "이런 음모는 두 편에 의해 주도된다.",
-                    "sent_id": 1840,
+                    "sent_id": 4922,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8848
+                    "lu": "근본적.n.Architectural_part",
+                    "text": "일본 교육이 지니는 문제를 근본적으로 해결하기 위해서는, 우선 초등학교를 바꾸지 않으면 안된다, 고 도쓰카 히로시는 늘 그렇게 주장한다."
                 }
             ]
         }
-    ],
-    "frameID": 418,
-    "ko_pos": "NNG",
-    "ko_lu": "음모.n.Collaboration",
-    "lu_id": 1326,
-    "en_lus": [
-        "conspiracy"
     ]
 }

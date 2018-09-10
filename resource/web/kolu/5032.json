@@ -1,51 +1,82 @@
 {
-    "frameName": "Reason",
+    "ko_pos": "v",
+    "ko_lu": "공급받다.v.Supply",
+    "frameID": 1346,
+    "frameName": "Supply",
+    "en_lus": [
+        "supply"
+    ],
+    "lu_id": 5032,
     "patterns": [
         {
-            "valenceText": "annotation id: 17692",
+            "valenceText": "annotation id: 6716",
             "examples": [
                 {
-                    "frameName": "Reason",
+                    "origin_lus": [
+                        "supplied"
+                    ],
+                    "ko_annotation_id": 6716,
+                    "annotation_id": 12278,
+                    "frameName": "Supply",
                     "denotations": [
                         {
-                            "obj": "Agent",
+                            "id": 1,
+                            "obj": "Supply",
                             "span": {
-                                "begin": 6,
-                                "end": 12
-                            }
+                                "begin": 37,
+                                "end": 42
+                            },
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "공급 받은"
                         },
                         {
-                            "obj": "Action",
+                            "id": 2,
+                            "obj": "Supplier",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 20
-                            }
+                                "begin": 30,
+                                "end": 36
+                            },
+                            "text": "리비아로부터",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 26
-                            }
+                                "begin": 43,
+                                "end": 49
+                            },
+                            "text": "스커드-B를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "zizyoo .事情 "
+                    "sent_id": 2440,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 17692,
-                    "text": "왜냐하면, 어느 기업이든 변하기 힘든 내부 사정이나 조직의 특성이 있어, 꽤 규모가 작은 오너 기업이 아닌 한, 전사가 하나가 되어 일에 착수하여, 성과를 내기까지는, 시간과 끈기가 상당히 필요하기 때문이다.",
-                    "sent_id": 4678,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "공급받다.v.Supply",
+                    "text": "1985년 3월 12일에, 이란은 0240 시 부대가 리비아로부터 공급 받은 스커드-B를  Kirkuk에 발사함으로 이라크에 대한 최초의 탄도 미사일 공격을 개시하였다 ."
                 }
             ]
         }
-    ],
-    "frameID": 514,
-    "ko_pos": "NNG",
-    "ko_lu": "사정.n.Reason",
-    "lu_id": 5032,
-    "en_lus": [
-        "zizyoo .事情 "
     ]
 }

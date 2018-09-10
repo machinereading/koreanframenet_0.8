@@ -1,58 +1,114 @@
 {
-    "frameName": "Placing",
+    "ko_pos": "v",
+    "ko_lu": "보이다.v.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "confirm"
+    ],
+    "lu_id": 4702,
     "patterns": [
         {
-            "valenceText": "annotation id: 16476",
+            "valenceText": "annotation id: 6600",
             "examples": [
                 {
-                    "frameName": "Placing",
+                    "origin_lus": [
+                        "confirmed"
+                    ],
+                    "ko_annotation_id": 6600,
+                    "annotation_id": 12055,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "Place",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 37,
-                                "end": 50
-                            }
+                                "begin": 96,
+                                "end": 102
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "보여주었다."
                         },
                         {
-                            "obj": "Area",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 64,
-                                "end": 66
-                            }
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "2004년 10월 20일에,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Theme",
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 71,
-                                "end": 74
-                            }
+                                "begin": 16,
+                                "end": 38
+                            },
+                            "text": "이란 국방장관 Ali Shamkhani는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 4,
+                            "obj": "Message",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
                             "span": {
-                                "begin": 76,
-                                "end": 79
-                            }
+                                "begin": 39,
+                                "end": 95
+                            },
+                            "text": "참관인 앞에서 2,000 킬로미터 거리를 가진 이란의 Shehab-3를 최근에 성공적으로 시험하였음을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "settee .設定 "
+                    "sent_id": 2389,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16476,
-                    "text": "그 밖에는, 아직 야마토를 거스르는 세력이 적잖이 있다는 뜻으로, 왕성 부근에 있는 나라들이 무엇을 했는가 하면, 국경에 우선 방위선을 설정하는 겁니다.",
-                    "sent_id": 3686,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "보이다.v.Statement",
+                    "text": "2004년 10월 20일에, 이란 국방장관 Ali Shamkhani는 참관인 앞에서 2,000 킬로미터 거리를 가진 이란의 Shehab-3를 최근에 성공적으로 시험하였음을 보여주었다."
                 }
             ]
         }
-    ],
-    "frameID": 62,
-    "ko_pos": "VV",
-    "ko_lu": "설정하다.v.Placing",
-    "lu_id": 4702,
-    "en_lus": [
-        "settee .設定 "
     ]
 }

@@ -1,95 +1,103 @@
 {
-    "frameName": "Reliance",
+    "ko_pos": "v",
+    "ko_lu": "비축하다.v.Possession",
+    "frameID": 118,
+    "frameName": "Possession",
+    "en_lus": [
+        "have"
+    ],
+    "lu_id": 5532,
     "patterns": [
         {
-            "valenceText": "annotation id: 19624",
+            "valenceText": "annotation id: 8383",
             "examples": [
                 {
-                    "frameName": "Reliance",
-                    "denotations": [
-                        {
-                            "obj": "Instrument",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        },
-                        {
-                            "obj": "Degree",
-                            "span": {
-                                "begin": 4,
-                                "end": 9
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 11,
-                                "end": 13
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "ate .あて "
+                        "had"
                     ],
-                    "ko_annotation_id": 19624,
-                    "text": "강물은 졸졸 흐르니 도움이 안되고, 마을 사람들이, 여기저기 우물을 파봐도 시원스레 깨끗한 물이 나오지 않았지.",
-                    "sent_id": 4699,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.14686",
-            "examples": [
-                {
-                    "frameName": "Reliance",
+                    "ko_annotation_id": 8383,
+                    "annotation_id": 15365,
+                    "frameName": "Possession",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Possession",
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 54,
+                                "end": 60
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "오늘날 우리 사회에는 도움을 바라는 불우한 이웃들이 많다.",
-                    "target": "도움",
-                    "ko_annotation_id": "sejong.14686",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.14687",
-            "examples": [
-                {
-                    "frameName": "Reliance",
-                    "denotations": [
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "비축하였고,"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Owner",
+                            "token_span": [
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 11
+                                "begin": 29,
+                                "end": 37
                             },
-                            "id": "1"
+                            "text": "소비에트 연방은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Possession",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 53
+                            },
+                            "text": "약 35,000 개의 무기를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Depictive",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 60
+                            },
+                            "text": "비축하였고,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 여간해서는 도움을 주지 않는다.",
-                    "target": "도움",
-                    "ko_annotation_id": "sejong.14687",
-                    "relations": []
+                    "sent_id": 2982,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "비축하다.v.Possession",
+                    "text": "천연자원보호협의회의 추정에 의하면, 1991년까지, 소비에트 연방은 약 35,000 개의 무기를 비축하였고, 그것은 1986년의 최고치인 약 45,000 개에서 감소한 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 901,
-    "ko_pos": "NNG",
-    "ko_lu": "도움.n.Reliance",
-    "lu_id": 5532,
-    "en_lus": [
-        "ate .あて "
     ]
 }

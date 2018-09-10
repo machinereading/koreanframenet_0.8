@@ -1,51 +1,83 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "v",
+    "ko_lu": "접근하다.v.Having_or_lacking_access",
+    "frameID": 1870,
+    "frameName": "Having_or_lacking_access",
+    "en_lus": [
+        "accessible"
+    ],
+    "lu_id": 2278,
     "patterns": [
         {
-            "valenceText": "annotation id: 7376",
+            "valenceText": "annotation id: 13390",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "accessible"
+                    ],
+                    "ko_annotation_id": 13390,
+                    "annotation_id": 5246,
+                    "frameName": "Having_or_lacking_access",
                     "denotations": [
                         {
-                            "obj": "Ground",
+                            "id": 1,
+                            "obj": "Having_or_lacking_access",
                             "span": {
-                                "begin": 0,
-                                "end": 4
-                            }
+                                "begin": 46,
+                                "end": 52
+                            },
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "접근할 수도"
                         },
                         {
-                            "obj": "Figure",
+                            "id": 2,
+                            "obj": "Useful_Location",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 12
-                            }
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "text": "몇몇은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                11,
+                                12
+                            ],
                             "span": {
-                                "begin": 2,
-                                "end": 4
-                            }
+                                "begin": 39,
+                                "end": 45
+                            },
+                            "text": "도시 버스로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tooku .遠く"
+                    "sent_id": 998,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7376,
-                    "text": "강 저편에서, 다다쓰구가 슬프게 울부짓기 시작했다.",
-                    "sent_id": 3898,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "접근하다.v.Having_or_lacking_access",
+                    "text": "도시 외곽에 있는 명소들로 가는 많은 안내 버스 관광이 있고, 몇몇은 도시 버스로 접근할 수도 있다."
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "NNG",
-    "ko_lu": "저편.n.Locative_relation",
-    "lu_id": 2278,
-    "en_lus": [
-        "tooku .遠く"
     ]
 }

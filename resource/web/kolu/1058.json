@@ -1,44 +1,64 @@
 {
-    "frameName": "Relational_natural_features",
+    "ko_pos": "n",
+    "ko_lu": "발사체.n.Vehicle",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "en_lus": [
+        "vehicle"
+    ],
+    "lu_id": 1058,
     "patterns": [
         {
-            "valenceText": "annotation id: 3307",
+            "valenceText": "annotation id: 6884",
             "examples": [
                 {
-                    "frameName": "Relational_natural_features",
+                    "origin_lus": [
+                        "vehicle"
+                    ],
+                    "ko_annotation_id": 6884,
+                    "annotation_id": 12553,
+                    "frameName": "Vehicle",
                     "denotations": [
                         {
-                            "obj": "Focal_feature",
+                            "id": 1,
+                            "obj": "Vehicle",
                             "span": {
-                                "begin": 24,
-                                "end": 26
-                            }
+                                "begin": 69,
+                                "end": 72
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "발사체"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                19,
+                                20
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 26
-                            }
+                                "begin": 66,
+                                "end": 72
+                            },
+                            "text": "우주 발사체",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "komen .湖面 "
+                    "sent_id": 2511,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 3307,
-                    "text": "여기서 말하는 「육상 다발기」란, 해상이나 호면에서 이착륙할 수 있는 수상기와 달리, 통상적인 활주로를 사용해 이착륙하는 비행기를 가리키는 용어로 이해해주시기 바란다.",
-                    "sent_id": 4646,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "발사체.n.Vehicle",
+                    "text": "2003 년 말 현재, 이란은 제3세계에서 두 번째로 가장 큰 ( 북한 다음으로 ) 탄도 미사일 부대를 보유하고 있고 우주 발사체 및 대륙간 탄도 미사일을 개발하기 직전이다."
                 }
             ]
         }
-    ],
-    "frameID": 1490,
-    "ko_pos": "NNG",
-    "ko_lu": "호면.n.Relational_natural_features",
-    "lu_id": 1058,
-    "en_lus": [
-        "komen .湖面 "
     ]
 }

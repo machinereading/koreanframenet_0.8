@@ -1,60 +1,85 @@
 {
-    "frameName": "Activity_start",
+    "ko_pos": "v",
+    "ko_lu": "사들이다.v.Commerce_buy",
+    "frameID": 171,
+    "frameName": "Commerce_buy",
+    "en_lus": [
+        "buying"
+    ],
+    "lu_id": 4541,
     "patterns": [
         {
-            "valenceText": "annotation id: 15739",
+            "valenceText": "annotation id: 13239",
             "examples": [
                 {
-                    "frameName": "Activity_start",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 5,
-                                "end": 8
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "beginners"
+                        "buying"
                     ],
-                    "ko_annotation_id": 15739,
-                    "text": "대부분의 초보자가 하는 실수는 붓에 너무 많은 페인트를 묻히는 것이다.",
-                    "sent_id": 1225,
-                    "relations": [],
-                    "annotation_id": 6226
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.25684",
-            "examples": [
-                {
-                    "frameName": "Activity_start",
+                    "ko_annotation_id": 13239,
+                    "annotation_id": 4103,
+                    "frameName": "Commerce_buy",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Commerce_buy",
                             "span": {
-                                "begin": 6,
-                                "end": 9
+                                "begin": 51,
+                                "end": 55
                             },
-                            "id": "1"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "사들이는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Buyer",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 31
+                            },
+                            "text": "Union Pacific이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goods",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 50
+                            },
+                            "text": "로스앤젤레스 - 솔트레이크 선로를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "이 훈련은 초보자를 위한 기초 훈련이다.",
-                    "target": "초보자",
-                    "ko_annotation_id": "sejong.25684",
-                    "relations": []
+                    "sent_id": 784,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사들이다.v.Commerce_buy",
+                    "text": "철도 수송에서 증가하는 경쟁은 Union Pacific이 로스앤젤레스 - 솔트레이크 선로를 사들이는 결과를 가져왔다."
                 }
             ]
         }
-    ],
-    "frameID": 146,
-    "ko_pos": "NN",
-    "ko_lu": "초보자.n.Activity_start",
-    "lu_id": 4541,
-    "en_lus": [
-        "beginner"
     ]
 }

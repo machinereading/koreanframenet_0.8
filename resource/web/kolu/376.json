@@ -1,52 +1,63 @@
 {
-    "frameName": "Verification",
+    "ko_pos": "n",
+    "ko_lu": "명절.n.Social_event",
+    "frameID": 125,
+    "frameName": "Social_event",
+    "en_lus": [
+        "sekku .節供 "
+    ],
+    "lu_id": 376,
     "patterns": [
         {
-            "valenceText": "annotation id: 944",
+            "valenceText": "annotation id: 12179",
             "examples": [
                 {
-                    "frameName": "Verification",
+                    "origin_lus": [
+                        "sekku .節供 "
+                    ],
+                    "ko_annotation_id": 12179,
+                    "annotation_id": 0,
+                    "frameName": "Social_event",
                     "denotations": [
                         {
-                            "obj": "unconfirmed_content",
+                            "id": 1,
+                            "obj": "Social_event",
                             "span": {
                                 "begin": 0,
-                                "end": 19
+                                "end": 3
                             },
-                            "id": "2"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "명절을"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Social_Event",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 24
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "1"
+                            "text": "명절을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "verifying"
-                    ],
-                    "ko_annotation_id": 944,
-                    "text": "정부 보고나 추방 단체로부터의 주장을 검증할 구체적인 기제가 없기 때문에, 이란의 생물무기 프로그램에 관한 많은 주장은 입증되지 않고 있다.",
-                    "sent_id": 2172,
+                    "sent_id": 4883,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10825
+                    "lu": "명절.n.Social_event",
+                    "text": "명절을 앞둔 2월 25일부터 3월 3일까지는, 히나인형을 파는 히나이치가 짓켄다나・오와리 쵸・닌교 쵸・아사쿠사 가야 쵸・이케노 하타 나카 쵸・우시고메 진라쿠자카우에・고우지마치 산쵸메・시바신메이마에・고마고메 등 각지에 섰는데, 가장 성황을 이룬 것은 물론 짓켄다나였다."
                 }
             ]
         }
-    ],
-    "frameID": 1230,
-    "ko_pos": "VV",
-    "ko_lu": "검증하다.v.Verification",
-    "lu_id": 376,
-    "en_lus": [
-        "verify"
     ]
 }

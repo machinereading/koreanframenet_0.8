@@ -1,44 +1,100 @@
 {
-    "frameName": "Entity",
+    "ko_pos": "v",
+    "ko_lu": "드러나다.v.Evidence",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "en_lus": [
+        "reveal"
+    ],
+    "lu_id": 5191,
     "patterns": [
         {
-            "valenceText": "annotation id: 18290",
+            "valenceText": "annotation id: 5684",
             "examples": [
                 {
-                    "frameName": "Entity",
+                    "origin_lus": [
+                        "revealed"
+                    ],
+                    "ko_annotation_id": 5684,
+                    "annotation_id": 10263,
+                    "frameName": "Evidence",
                     "denotations": [
                         {
-                            "obj": "Constituent_parts",
+                            "id": 1,
+                            "obj": "Evidence",
                             "span": {
-                                "begin": 55,
-                                "end": 57
-                            }
+                                "begin": 93,
+                                "end": 98
+                            },
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "드러났다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Support",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 55,
-                                "end": 57
-                            }
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "이 자료들로부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Proposition",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 92
+                            },
+                            "text": "그 조직이 파키스탄의 미생물학자를 충원하고, 보툴리누스균 독소를 제조하기 위한 물질을 확보하고, 탄저병 생산을 위한 실행 가능한 계획을 세웠다는 것이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tanpin .単品 "
+                    "sent_id": 2096,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18290,
-                    "text": "다만 단순히 단품별로 데이터를 파악하는 것이 아니라, 이 표처럼, 최초의 상품구성, 상품 종류별로 단품 데이터의 추이를 파악하는 것이 중요하다.",
-                    "sent_id": 3628,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "드러나다.v.Evidence",
+                    "text": "이 자료들로부터 그 조직이 파키스탄의 미생물학자를 충원하고, 보툴리누스균 독소를 제조하기 위한 물질을 확보하고, 탄저병 생산을 위한 실행 가능한 계획을 세웠다는 것이 드러났다."
                 }
             ]
         }
-    ],
-    "frameID": 251,
-    "ko_pos": "NNG",
-    "ko_lu": "단품.n.Entity",
-    "lu_id": 5191,
-    "en_lus": [
-        "tanpin .単品 "
     ]
 }

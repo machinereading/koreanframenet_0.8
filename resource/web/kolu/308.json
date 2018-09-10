@@ -1,95 +1,435 @@
 {
-    "frameName": "Age",
+    "ko_pos": "v",
+    "ko_lu": "싸우다.v.Hostile_encounter",
+    "frameID": 93,
+    "frameName": "Hostile_encounter",
+    "en_lus": [
+        "fight",
+        "fought"
+    ],
+    "lu_id": 308,
     "patterns": [
         {
-            "valenceText": "annotation id: 836",
+            "valenceText": "annotation id: 512",
             "examples": [
                 {
-                    "frameName": "Age",
+                    "origin_lus": [
+                        "fight"
+                    ],
+                    "ko_annotation_id": 512,
+                    "annotation_id": 1083,
+                    "frameName": "Hostile_encounter",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Hostile_encounter",
                             "span": {
-                                "begin": 61,
-                                "end": 63
+                                "begin": 26,
+                                "end": 32
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "싸울것이다."
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Side_1",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 64,
-                                "end": 74
+                                "begin": 0,
+                                "end": 6
                             },
-                            "id": "2"
+                            "text": "교육 기관은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duration",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 18
+                            },
+                            "text": "조금도 양보하지 않고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Purpose",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 25
+                            },
+                            "text": "상식과 맞서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "old",
-                        "Old"
-                    ],
-                    "ko_annotation_id": 836,
-                    "text": "1930년대와 1940년대 초에 많은 도박장들이 Downtown에 개점된데 반해, 궁극적으로 Strip이 된 옛날 로스앤젤레스 고속도로 지역에 단 두 곳이 건설되었다.",
-                    "sent_id": 802,
+                    "sent_id": 196,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4201
+                    "lu": "싸우다.v.Hostile_encounter",
+                    "text": "교육 기관은 조금도 양보하지 않고 상식과 맞서 싸울것이다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 837",
+            "valenceText": "annotation id: 1729",
             "examples": [
                 {
-                    "frameName": "Age",
+                    "origin_lus": [
+                        "fought",
+                        "fight",
+                        "fighting"
+                    ],
+                    "ko_annotation_id": 1729,
+                    "annotation_id": 3575,
+                    "frameName": "Hostile_encounter",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Hostile_encounter",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 27,
+                                "end": 30
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "싸웠다"
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Duration",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 3,
+                                "begin": 0,
                                 "end": 5
                             },
-                            "id": "2"
+                            "text": "4년 동안",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Side_1",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 16
+                            },
+                            "text": "유대인 열성분자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Side_2",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 26
+                            },
+                            "text": "로마의 힘에 맞서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "old",
-                        "Old"
-                    ],
-                    "ko_annotation_id": 837,
-                    "text": "옛날 관습을 여전히 따른다 : 운명과 행운은 매우 심각하게 다루고, 그리고 점성가와 점쟁이들은 지속적으로 사업을 한다.",
-                    "sent_id": 876,
+                    "sent_id": 669,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4537
+                    "lu": "싸우다.v.Hostile_encounter",
+                    "text": "4년 동안 유대인 열성분자들은 로마의 힘에 맞서 싸웠다"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 1796",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "fighting"
+                    ],
+                    "ko_annotation_id": 1796,
+                    "annotation_id": 3729,
+                    "frameName": "Hostile_encounter",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 20,
+                                "end": 26
+                            },
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "싸우고 있던"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 35
+                            },
+                            "text": "1917년에 오스만 투르크와 싸우고 있던 영국 전략가들이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 711,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "싸우다.v.Hostile_encounter",
+                    "text": "문제는 1917년에 오스만 투르크와 싸우고 있던 영국 전략가들이 비밀리에 그 영토를 그들의 제1차 세계대전 아랍 동맹국에 약속하였다는 것이었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4789",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "fought",
+                        "fight",
+                        "fighting"
+                    ],
+                    "ko_annotation_id": 4789,
+                    "annotation_id": 8717,
+                    "frameName": "Hostile_encounter",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 53,
+                                "end": 59
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "Hamas와"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Side_2",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 9
+                            },
+                            "text": "Hamas가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1800,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "싸우다.v.Hostile_encounter",
+                    "text": "나는 Hamas가 정치적 교섭에 합류할 준비가 되었지만, 정치적 대가에 대한 유일한 대가라면  Hamas와 싸워야 하고, 그것이 그들이 Abu Mazen가 하도록 요구하는 것이라면, 그들은 그가 실패할 것이라고 명령하는 것과 같다고  생각한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4864",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "fought",
+                        "fight",
+                        "fighting"
+                    ],
+                    "ko_annotation_id": 4864,
+                    "annotation_id": 8844,
+                    "frameName": "Hostile_encounter",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 91,
+                                "end": 97
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "추종세력들과"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Issue",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 75,
+                                "end": 82
+                            },
+                            "text": "Ramadi는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1838,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "싸우다.v.Hostile_encounter",
+                    "text": "그래서 이것이 우리가 일반적으로 al-Anbar에서 살아가고 있는 현실이고, 특히 몇몇 부족의 우두머리 족장이고 이슬람 당의 상징인  Ramadi는 테러리즘과 그 추종세력들과 싸우기 위해, 요르단 및 다른 곳에서 미국인들과 회담했다,"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4926",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "fought",
+                        "fight",
+                        "fighting"
+                    ],
+                    "ko_annotation_id": 4926,
+                    "annotation_id": 8924,
+                    "frameName": "Hostile_encounter",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hostile_encounter",
+                            "span": {
+                                "begin": 127,
+                                "end": 131
+                            },
+                            "token_span": [
+                                27
+                            ],
+                            "role": "TARGET",
+                            "text": "싸웠다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Side_1",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 60
+                            },
+                            "text": "이 사람은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Side_2",
+                            "token_span": [
+                                22,
+                                23,
+                                24
+                            ],
+                            "span": {
+                                "begin": 107,
+                                "end": 119
+                            },
+                            "text": "Tanzim ) 조직과",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1853,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "싸우다.v.Hostile_encounter",
+                    "text": "1- AlbuFhad 부족의 족장 Nasr al-Fahdawi는 Anbar의 주지사로 임명되었고, 이 사람은 Ramadi에서 그가 가진 모든 것, 돈으로부터 권력까지 그리고 명성을 가지고 ( Tanzim ) 조직과 매우 열심히 싸웠다."
                 }
             ]
         }
-    ],
-    "frameID": 972,
-    "ko_pos": "NNG",
-    "ko_lu": "옛날.n.Age",
-    "lu_id": 308,
-    "en_lus": [
-        "old",
-        "Old"
     ]
 }

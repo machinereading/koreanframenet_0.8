@@ -1,52 +1,87 @@
 {
-    "frameName": "Quantity",
+    "ko_pos": "v",
+    "ko_lu": "서술하다.v.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "state"
+    ],
+    "lu_id": 4225,
     "patterns": [
         {
-            "valenceText": "annotation id: 14518",
+            "valenceText": "annotation id: 9816",
             "examples": [
                 {
-                    "frameName": "Quantity",
+                    "origin_lus": [
+                        "states"
+                    ],
+                    "ko_annotation_id": 9816,
+                    "annotation_id": 18217,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 43,
-                                "end": 45
+                                "begin": 109,
+                                "end": 117
                             },
-                            "id": "1"
+                            "token_span": [
+                                25,
+                                26
+                            ],
+                            "role": "TARGET",
+                            "text": "서술하고 있다."
                         },
                         {
-                            "obj": "mass",
+                            "id": 2,
+                            "obj": "Medium",
+                            "token_span": [
+                                18,
+                                19
+                            ],
                             "span": {
-                                "begin": 47,
-                                "end": 56
+                                "begin": 77,
+                                "end": 83
                             },
-                            "id": "2"
+                            "text": "한 보고서는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                20,
+                                21,
+                                22,
+                                23,
+                                24
+                            ],
+                            "span": {
+                                "begin": 84,
+                                "end": 108
+                            },
+                            "text": "중국이 칼루트론을 인도하지 않았을지 모른다고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "a little"
-                    ],
-                    "ko_annotation_id": 14518,
-                    "text": "이곳은 따뜻한 햇볕, 아름다운 해변, 우거진 열대 경관, 그리고 멋진 호텔로 조금의 휴식과 기분 전환을 제공하기를 보장한다.",
-                    "sent_id": 880,
+                    "sent_id": 3459,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4575
+                    "lu": "서술하다.v.Statement",
+                    "text": "이란은 중국이 제공한 영출력 시설을 보유한 것으로 생각되고, 중국은 1987년 경에 소형 칼루트론을 공급한 것으로 전해지는데 ; 그러나, 한 보고서는 중국이 칼루트론을 인도하지 않았을지 모른다고 서술하고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 2604,
-    "ko_pos": "NNG",
-    "ko_lu": "조금.n.Quantity",
-    "lu_id": 4225,
-    "en_lus": [
-        "a little"
     ]
 }

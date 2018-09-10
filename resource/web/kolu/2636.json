@@ -1,73 +1,63 @@
 {
-    "frameName": "Intentionally_act",
+    "ko_pos": "n",
+    "ko_lu": "협약.n.Law",
+    "frameID": 950,
+    "frameName": "Law",
+    "en_lus": [
+        "protocol"
+    ],
+    "lu_id": 2636,
     "patterns": [
         {
-            "valenceText": "annotation id: 8637",
+            "valenceText": "annotation id: 14897",
             "examples": [
                 {
-                    "frameName": "Intentionally_act",
-                    "denotations": [
-                        {
-                            "obj": "Agent",
-                            "span": {
-                                "begin": 11,
-                                "end": 13
-                            }
-                        },
-                        {
-                            "obj": "Act",
-                            "span": {
-                                "begin": 49,
-                                "end": 52
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 49,
-                                "end": 52
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "saku .策 "
+                        "protocol"
                     ],
-                    "ko_annotation_id": 8637,
-                    "text": "1 계발활동・학습회 현장에서는, 아이들의 특징을 이해하는 것과, 상황에 적합한 구체적인 대응책이 요구됩니다.",
-                    "sent_id": 4488,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.29860",
-            "examples": [
-                {
-                    "frameName": "Intentionally_act",
+                    "ko_annotation_id": 14897,
+                    "annotation_id": 13017,
+                    "frameName": "Law",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Law",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 48,
+                                "end": 51
                             },
-                            "id": "1"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "협약을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 45,
+                                "end": 47
+                            },
+                            "text": "비밀",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "대응책을 급히 마련하시오.",
-                    "target": "대응책",
-                    "ko_annotation_id": "sejong.29860",
-                    "relations": []
+                    "sent_id": 2601,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "협약.n.Law",
+                    "text": "미국은 또한 이란과 러시아가 무엇보다 가스 원심분리기 농축 시설 건설을 명시하는 비밀 협약을 맺었다는 것을 알았다."
                 }
             ]
         }
-    ],
-    "frameID": 198,
-    "ko_pos": "NN",
-    "ko_lu": "대응책.n.Intentionally_act",
-    "lu_id": 2636,
-    "en_lus": [
-        "saku .策 "
     ]
 }

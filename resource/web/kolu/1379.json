@@ -1,51 +1,103 @@
 {
-    "frameName": "Hindering",
+    "ko_pos": "n",
+    "ko_lu": "실력.n.Capability",
+    "frameID": 990,
+    "frameName": "Capability",
+    "en_lus": [
+        "zituryoku .実力 "
+    ],
+    "lu_id": 1379,
     "patterns": [
         {
-            "valenceText": "annotation id: 4383",
+            "valenceText": "annotation id: 16725",
             "examples": [
                 {
-                    "frameName": "Hindering",
+                    "origin_lus": [
+                        "zituryoku .実力 "
+                    ],
+                    "ko_annotation_id": 16725,
+                    "annotation_id": 0,
+                    "frameName": "Capability",
                     "denotations": [
                         {
-                            "obj": "Hindrance",
+                            "id": 1,
+                            "obj": "Capability",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "실력을"
                         },
                         {
-                            "obj": "Action",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 26,
-                                "end": 29
-                            }
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "그 작가가",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 26,
-                                "end": 29
-                            }
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "충분히",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Event",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 28
+                            },
+                            "text": "발휘 할 수 있는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "boogai .妨害"
+                    "sent_id": 4823,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4383,
-                    "text": "그들은 거만하고, 나태하며, 시끄러워, 수업에 방해된다.",
-                    "sent_id": 4018,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "실력.n.Capability",
+                    "text": "따라서, 그 작가가 충분히 실력을 발휘 할 수 있는 주제나 방향성을 찾도록 도움을 줄 것."
                 }
             ]
         }
-    ],
-    "frameID": 480,
-    "ko_pos": "VV",
-    "ko_lu": "방해되다.v.Hindering",
-    "lu_id": 1379,
-    "en_lus": [
-        "boogai .妨害"
     ]
 }

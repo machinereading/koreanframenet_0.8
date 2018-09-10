@@ -1,52 +1,87 @@
 {
-    "frameName": "Awareness",
+    "ko_pos": "v",
+    "ko_lu": "획득하다.v.Seeking",
+    "frameID": 269,
+    "frameName": "Seeking",
+    "en_lus": [
+        "seek"
+    ],
+    "lu_id": 5621,
     "patterns": [
         {
-            "valenceText": "annotation id: 19861",
+            "valenceText": "annotation id: 17141",
             "examples": [
                 {
-                    "frameName": "Awareness",
+                    "origin_lus": [
+                        "seeking"
+                    ],
+                    "ko_annotation_id": 17141,
+                    "annotation_id": 12250,
+                    "frameName": "Seeking",
                     "denotations": [
                         {
-                            "obj": "content",
+                            "id": 1,
+                            "obj": "Seeking",
                             "span": {
-                                "begin": 116,
-                                "end": 129
+                                "begin": 39,
+                                "end": 43
                             },
-                            "id": "2"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "획득하기"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Cognizer_Agent",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 130,
-                                "end": 131
+                                "begin": 4,
+                                "end": 7
                             },
-                            "id": "1"
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Sought_Entity",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 38
+                            },
+                            "text": "미사일 기술과 스커드-B 급의 전술 탄도 미사일을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "know"
-                    ],
-                    "ko_annotation_id": 19861,
-                    "text": "그러나, 주지사 Donald Carcieri, Providence 시장 David Cicilline 그리고 다른 사람들은, 그들이 더 많은 연방 정부 돈을 필요로 하고, 재난 강타 시 돈이 더 빨리 와야하며 그들이 해마다 의존할 수 있도록 지속적인 자금의 흐름이 있어야 한다고, 메인 주 의장 Susan Collins와 로드아일랜드 주 상원의원 Lincoln Chafee에게 말하였다.",
-                    "sent_id": 3147,
+                    "sent_id": 2433,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 16433
+                    "lu": "획득하다.v.Seeking",
+                    "text": "이때가 이란이 또한 미사일 기술과 스커드-B 급의 전술 탄도 미사일을 획득하기 위해 북한과 중국 ( PRC ) 에 접근한 기간이었다."
                 }
             ]
         }
-    ],
-    "frameID": 19,
-    "ko_pos": "VA",
-    "ko_lu": "있다.a.Awareness",
-    "lu_id": 5621,
-    "en_lus": [
-        "know"
     ]
 }

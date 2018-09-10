@@ -1,109 +1,63 @@
 {
+    "ko_pos": "a",
+    "ko_lu": "옳다.a.Correctness",
+    "frameID": 1512,
     "frameName": "Correctness",
+    "en_lus": [
+        "tadasii .正しい"
+    ],
+    "lu_id": 710,
     "patterns": [
         {
-            "valenceText": "annotation id: 2167",
+            "valenceText": "annotation id: 11290",
             "examples": [
                 {
+                    "origin_lus": [
+                        "tadasii .正しい"
+                    ],
+                    "ko_annotation_id": 11290,
+                    "annotation_id": 0,
                     "frameName": "Correctness",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Correctness",
                             "span": {
-                                "begin": 46,
-                                "end": 49
+                                "begin": 13,
+                                "end": 15
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "옳지"
                         },
                         {
-                            "obj": "information",
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 50,
-                                "end": 52
+                                "begin": 19,
+                                "end": 21
                             },
-                            "id": "2"
+                            "text": "신은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "right",
-                        "tadasii .正しい"
-                    ],
-                    "ko_annotation_id": 2167,
-                    "text": "스페인 수상 Felipe Gonzalez는 일요일 그의 간신히 이긴 선거 승리에서 올바른 결론을 내릴 것으로 희망할 수 있다.",
-                    "sent_id": 74,
+                    "sent_id": 4303,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 497
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 2168",
-            "examples": [
-                {
-                    "frameName": "Correctness",
-                    "denotations": [
-                        {
-                            "obj": "Source",
-                            "span": {
-                                "begin": 4,
-                                "end": 5
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "right",
-                        "tadasii .正しい"
-                    ],
-                    "ko_annotation_id": 2168,
-                    "text": "올바른 신을 믿는다면, 옳지 않은 신은 자연히 소멸해 버릴 것입니다.",
-                    "sent_id": 4303,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.100520",
-            "examples": [
-                {
-                    "frameName": "Correctness",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 8,
-                                "end": 12
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그 사람은 늘 올바르다.",
-                    "target": "올바르다",
-                    "ko_annotation_id": "sejong.100520",
-                    "relations": []
+                    "lu": "옳다.a.Correctness",
+                    "text": "올바른 신을 믿는다면, 옳지 않은 신은 자연히 소멸해 버릴 것입니다."
                 }
             ]
         }
-    ],
-    "frameID": 1512,
-    "ko_pos": "VA",
-    "ko_lu": "올바르다.a.Correctness",
-    "lu_id": 710,
-    "en_lus": [
-        "tadasii .正しい",
-        "right"
     ]
 }

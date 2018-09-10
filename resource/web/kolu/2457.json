@@ -1,65 +1,82 @@
 {
-    "frameName": "Resolve_problem",
+    "ko_pos": "v",
+    "ko_lu": "거치다.v.Undergoing",
+    "frameID": 1725,
+    "frameName": "Undergoing",
+    "en_lus": [
+        "undergone"
+    ],
+    "lu_id": 2457,
     "patterns": [
         {
-            "valenceText": "annotation id: 8069",
+            "valenceText": "annotation id: 2650",
             "examples": [
                 {
-                    "frameName": "Resolve_problem",
+                    "origin_lus": [
+                        "undergone"
+                    ],
+                    "ko_annotation_id": 2650,
+                    "annotation_id": 5171,
+                    "frameName": "Undergoing",
                     "denotations": [
                         {
-                            "obj": "cause",
+                            "id": 1,
+                            "obj": "Undergoing",
+                            "span": {
+                                "begin": 14,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "거쳤다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 14
+                                "end": 8
                             },
-                            "id": "3"
+                            "text": "더블린의 음식은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "problem",
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 54
+                                "begin": 9,
+                                "end": 13
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 59,
-                                "end": 61
-                            },
-                            "id": "1"
+                            "text": "대변모를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "addressed"
-                    ],
-                    "ko_annotation_id": 8069,
-                    "text": "향상된 수출 통제법과 시행은 핵 및 화학무기와 관련된 확산에 대한 많은 ( 그러나 전부는 아닌 ) 관심을 불렀다.",
-                    "sent_id": 2101,
+                    "sent_id": 986,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10323
+                    "lu": "거치다.v.Undergoing",
+                    "text": "더블린의 음식은 대변모를 거쳤다."
                 }
             ]
         }
-    ],
-    "frameID": 1523,
-    "ko_pos": "VV",
-    "ko_lu": "부르다.v.Resolve_problem",
-    "lu_id": 2457,
-    "en_lus": [
-        "address"
     ]
 }

@@ -1,51 +1,85 @@
 {
-    "frameName": "Intentionally_act",
+    "ko_pos": "v",
+    "ko_lu": "닮다.v.Similarity",
+    "frameID": 481,
+    "frameName": "Similarity",
+    "en_lus": [
+        "niru .似る",
+        "resembles"
+    ],
+    "lu_id": 3716,
     "patterns": [
         {
-            "valenceText": "annotation id: 12677",
+            "valenceText": "annotation id: 2935",
             "examples": [
                 {
-                    "frameName": "Intentionally_act",
+                    "origin_lus": [
+                        "niru .似る",
+                        "resembles"
+                    ],
+                    "ko_annotation_id": 2935,
+                    "annotation_id": 5640,
+                    "frameName": "Similarity",
                     "denotations": [
                         {
-                            "obj": "Agent",
+                            "id": 1,
+                            "obj": "Similarity",
                             "span": {
-                                "begin": 19,
-                                "end": 22
-                            }
-                        },
-                        {
-                            "obj": "Purpose",
-                            "span": {
-                                "begin": 24,
+                                "begin": 41,
                                 "end": 44
-                            }
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "닮았고"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Entity_2",
+                            "token_span": [
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 54,
-                                "end": 55
-                            }
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "text": "공항 타워를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity_1",
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 64,
+                                "end": 75
+                            },
+                            "text": "Peak Tower가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "suru .する "
+                    "sent_id": 1080,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12677,
-                    "text": "그런 미래를 실현하는 첫걸음으로, 도즈카는 자신의 손으로 초등학교를 운영하겠다는 것을 큰 목표로 갖고 있다.",
-                    "sent_id": 4801,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "닮다.v.Similarity",
+                    "text": "상부 터미널에는 4층 쇼핑 센터인 Peak Galleria와 공항 타워를 닮았고 상점들, 위락시설, 식당들이 있는 Peak Tower가 있다."
                 }
             ]
         }
-    ],
-    "frameID": 198,
-    "ko_pos": "VV",
-    "ko_lu": "갖다.v.Intentionally_act",
-    "lu_id": 3716,
-    "en_lus": [
-        "suru .する "
     ]
 }

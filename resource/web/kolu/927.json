@@ -1,51 +1,65 @@
 {
-    "frameName": "Cause_change_of_strength",
+    "ko_pos": "v",
+    "ko_lu": "처형되다.v.Execution",
+    "frameID": 225,
+    "frameName": "Execution",
+    "en_lus": [
+        "execute"
+    ],
+    "lu_id": 927,
     "patterns": [
         {
-            "valenceText": "annotation id: 2735",
+            "valenceText": "annotation id: 1731",
             "examples": [
                 {
-                    "frameName": "Physical_strength",
+                    "origin_lus": [
+                        "executed"
+                    ],
+                    "ko_annotation_id": 1731,
+                    "annotation_id": 3583,
+                    "frameName": "Execution",
                     "denotations": [
                         {
-                            "obj": "Source",
+                            "id": 1,
+                            "obj": "Execution",
                             "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "처형되거나"
                         },
                         {
-                            "obj": "Theme",
+                            "id": 2,
+                            "obj": "Executed",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 9
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 8,
-                                "end": 9
-                            }
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "도망가지 못한 사람들은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tikara .力 "
+                    "sent_id": 671,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2735,
-                    "text": "결국, 남자의 힘이 여자의 저항을 이겼고, 나는 그녀를 성폭행했다.",
-                    "sent_id": 4205,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "처형되다.v.Execution",
+                    "text": "도망가지 못한 사람들은 처형되거나 노예로 팔렸다."
                 }
             ]
         }
-    ],
-    "frameID": 1781,
-    "ko_pos": "NNG",
-    "ko_lu": "힘.n.Cause_change_of_strength",
-    "lu_id": 927,
-    "en_lus": [
-        "tikara .力 "
     ]
 }

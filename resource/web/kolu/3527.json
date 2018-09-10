@@ -1,82 +1,108 @@
 {
-    "frameName": "Sounds",
+    "ko_pos": "v",
+    "ko_lu": "시사하다.v.Communication",
+    "frameID": 6,
+    "frameName": "Communication",
+    "en_lus": [
+        "indicate"
+    ],
+    "lu_id": 3527,
     "patterns": [
         {
-            "valenceText": "annotation id: 12022",
+            "valenceText": "annotation id: 14639",
             "examples": [
                 {
-                    "frameName": "Sounds",
+                    "origin_lus": [
+                        "indicated"
+                    ],
+                    "ko_annotation_id": 14639,
+                    "annotation_id": 11863,
+                    "frameName": "Communication",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Communication",
+                            "span": {
+                                "begin": 55,
+                                "end": 62
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "시사하였으나,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 18
+                            },
+                            "text": "국제 IAEA의 이란 방문 동안,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Communicator",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 26
+                            },
+                            "text": "이란 관리들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Message",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
                                 "begin": 27,
-                                "end": 29
+                                "end": 54
                             },
-                            "id": "1"
+                            "text": "이란이 IAEA와의 안전조치협정을 존중할 것이라고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "guffaws"
-                    ],
-                    "ko_annotation_id": 12022,
-                    "text": "그들에게 던질 몇 가지 말들을 준비해 놓는 것은 폭소와 감탄하며 등을 치는 행동을 유발한다.",
-                    "sent_id": 925,
-                    "relations": [],
-                    "annotation_id": 4773
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.29861",
-            "examples": [
-                {
-                    "frameName": "Sounds",
-                    "denotations": [
+                    "sent_id": 2356,
+                    "relations": [
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 20,
-                                "end": 22
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "재치 있는 장내 방송에 관중석에서는 폭소가 터졌다.",
-                    "target": "폭소",
-                    "ko_annotation_id": "sejong.29861",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.29862",
-            "examples": [
-                {
-                    "frameName": "Sounds",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 21,
-                                "end": 23
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "우리 가족은 그 코미디를 보고 한바탕 폭소를 터뜨렸다.",
-                    "target": "폭소",
-                    "ko_annotation_id": "sejong.29862",
-                    "relations": []
+                    "lu": "시사하다.v.Communication",
+                    "text": "국제 IAEA의 이란 방문 동안, 이란 관리들은 이란이 IAEA와의 안전조치협정을 존중할 것이라고 시사하였으나, 추가의정서를 받아드릴 의지를 분명히 나타내지 않았다."
                 }
             ]
         }
-    ],
-    "frameID": 850,
-    "ko_pos": "NNG",
-    "ko_lu": "폭소.n.Sounds",
-    "lu_id": 3527,
-    "en_lus": [
-        "guffaw"
     ]
 }

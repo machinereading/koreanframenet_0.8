@@ -1,38 +1,82 @@
 {
-    "frameName": "Possession",
+    "ko_pos": "n",
+    "ko_lu": "블록.n.Measure_linear_extent",
+    "frameID": 154,
+    "frameName": "Measure_linear_extent",
+    "en_lus": [
+        "block"
+    ],
+    "lu_id": 3170,
     "patterns": [
         {
-            "valenceText": "annotation id: 10675",
+            "valenceText": "annotation id: 1992",
             "examples": [
                 {
-                    "frameName": "Possession",
+                    "origin_lus": [
+                        "blocks"
+                    ],
+                    "ko_annotation_id": 1992,
+                    "annotation_id": 4060,
+                    "frameName": "Measure_linear_extent",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Measure_linear_extent",
                             "span": {
-                                "begin": 22,
-                                "end": 24
+                                "begin": 15,
+                                "end": 18
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "블록의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Count",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "text": "40",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Stuff",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 27
+                            },
+                            "text": "사유 재산으로,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "property"
-                    ],
-                    "ko_annotation_id": 10675,
-                    "text": "준비된 철도 서비스와 40 블록의 사유 재산으로, 라스 베이거스는 실제 타운이 될 준비가 되었다.",
                     "sent_id": 777,
-                    "relations": [],
-                    "annotation_id": 4061
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "블록.n.Measure_linear_extent",
+                    "text": "준비된 철도 서비스와 40 블록의 사유 재산으로, 라스 베이거스는 실제 타운이 될 준비가 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 118,
-    "ko_pos": "NNG",
-    "ko_lu": "재산.n.Possession",
-    "lu_id": 3170,
-    "en_lus": [
-        "property"
     ]
 }

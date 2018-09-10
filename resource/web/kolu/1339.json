@@ -1,38 +1,181 @@
 {
-    "frameName": "Foreign_or_domestic_country",
+    "ko_pos": "v",
+    "ko_lu": "지어내다.v.Building",
+    "frameID": 259,
+    "frameName": "Building",
+    "en_lus": [
+        "built"
+    ],
+    "lu_id": 1339,
     "patterns": [
         {
-            "valenceText": "annotation id: 4162",
+            "valenceText": "annotation id: 2012",
             "examples": [
                 {
-                    "frameName": "Foreign_or_domestic_country",
+                    "origin_lus": [
+                        "built"
+                    ],
+                    "ko_annotation_id": 2012,
+                    "annotation_id": 4084,
+                    "frameName": "Building",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Building",
                             "span": {
-                                "begin": 47,
-                                "end": 49
+                                "begin": 27,
+                                "end": 32
                             },
-                            "id": "1"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "지어졌다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Period_Of_Iterations",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "처음부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 13
+                            },
+                            "text": "라스 베이거스는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Purpose",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 26
+                            },
+                            "text": "여행객들을 섬기기 위해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "home"
+                    "sent_id": 780,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4162,
-                    "text": "그리고 젊은 졸업생들은 이제 떠나지 않고 있다 -- 다국적 기업과 유럽 연합 투자는 본국에 그들을 위한 충분한 기회가 있음을 뜻한다.",
-                    "sent_id": 1004,
-                    "relations": [],
-                    "annotation_id": 5286
+                    "lu": "지어내다.v.Building",
+                    "text": "처음부터 라스 베이거스는 여행객들을 섬기기 위해 지어졌다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16948",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "built"
+                    ],
+                    "ko_annotation_id": 16948,
+                    "annotation_id": 5604,
+                    "frameName": "Building",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 54,
+                                "end": 59
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "지어졌다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "text": "Peak 전차는, 원래 스팀 구동이였는데,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 53
+                            },
+                            "text": "부유한 사장들을 산비탈의 피서지로 빠르게 보내기 위해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1074,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지어내다.v.Building",
+                    "text": "Peak 전차는, 원래 스팀 구동이였는데, 부유한 사장들을 산비탈의 피서지로 빠르게 보내기 위해 지어졌다."
                 }
             ]
         }
-    ],
-    "frameID": 1483,
-    "ko_pos": "NNG",
-    "ko_lu": "본국.n.Foreign_or_domestic_country",
-    "lu_id": 1339,
-    "en_lus": [
-        "home"
     ]
 }

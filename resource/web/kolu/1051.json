@@ -1,52 +1,102 @@
 {
-    "frameName": "Roadways",
+    "ko_pos": "v",
+    "ko_lu": "포장하다.v.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "packaging"
+    ],
+    "lu_id": 1051,
     "patterns": [
         {
-            "valenceText": "annotation id: 3290",
+            "valenceText": "annotation id: 13347",
             "examples": [
                 {
-                    "frameName": "Roadways",
+                    "origin_lus": [
+                        "packaging"
+                    ],
+                    "ko_annotation_id": 13347,
+                    "annotation_id": 4959,
+                    "frameName": "Placing",
                     "denotations": [
                         {
-                            "obj": "use",
+                            "id": 1,
+                            "obj": "Placing",
                             "span": {
-                                "begin": 94,
-                                "end": 96
+                                "begin": 22,
+                                "end": 28
                             },
-                            "id": "2"
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "포장해 놓는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 97,
-                                "end": 99
+                                "begin": 0,
+                                "end": 4
                             },
-                            "id": "1"
+                            "text": "더블린은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Beneficiary",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 13
+                            },
+                            "text": "방문객을 위해서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 21
+                            },
+                            "text": "자신의 과거를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "route"
-                    ],
-                    "ko_annotation_id": 3290,
-                    "text": "1844년에 미국 탐험가 John C. Fremont는 Big Springs에 그의 말들을 세워두었고, 정부로 보낸 그의 보고로 인해 이 지점을 지나 캘리포니아로 가는 우편 노선이 되었다.",
-                    "sent_id": 749,
+                    "sent_id": 955,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3942
+                    "lu": "포장하다.v.Placing",
+                    "text": "더블린은 방문객을 위해서 자신의 과거를 포장해 놓는 일에 탁월합니다."
                 }
             ]
         }
-    ],
-    "frameID": 203,
-    "ko_pos": "NNG",
-    "ko_lu": "노선.n.Roadways",
-    "lu_id": 1051,
-    "en_lus": [
-        "route"
     ]
 }

@@ -1,60 +1,114 @@
 {
-    "frameName": "Discussion",
+    "ko_pos": "n",
+    "ko_lu": "단품별.n.Entity",
+    "frameID": 251,
+    "frameName": "Entity",
+    "en_lus": [
+        "tanpin .単品 "
+    ],
+    "lu_id": 186,
     "patterns": [
         {
-            "valenceText": "annotation id: 600",
+            "valenceText": "annotation id: 11668",
             "examples": [
                 {
-                    "frameName": "Discussion",
+                    "origin_lus": [
+                        "tanpin .単品 "
+                    ],
+                    "ko_annotation_id": 11668,
+                    "annotation_id": 0,
+                    "frameName": "Entity",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Entity",
                             "span": {
-                                "begin": 26,
-                                "end": 28
+                                "begin": 17,
+                                "end": 20
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "단품별"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Constituent_Parts",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "단품별",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "debate"
+                    "sent_id": 4550,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 600,
-                    "text": "다가올 많은 많은 달 동안 분노하게 될 것같은 논쟁.",
-                    "sent_id": 1742,
-                    "relations": [],
-                    "annotation_id": 8487
+                    "lu": "단품별.n.Entity",
+                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.16459",
+            "valenceText": "annotation id: 16149",
             "examples": [
                 {
-                    "frameName": "Discussion",
+                    "origin_lus": [
+                        "tanpin .単品 "
+                    ],
+                    "ko_annotation_id": 16149,
+                    "annotation_id": 0,
+                    "frameName": "Entity",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Entity",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 7,
+                                "end": 11
                             },
-                            "id": "1"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "단품별로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "text": "단품별로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "호주제 폐지에 관한 찬반 논쟁이 벌어졌다.",
-                    "target": "논쟁",
-                    "ko_annotation_id": "sejong.16459",
-                    "relations": []
+                    "sent_id": 3628,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "단품별.n.Entity",
+                    "text": "다만 단순히 단품별로 데이터를 파악하는 것이 아니라, 이 표처럼, 최초의 상품구성, 상품 종류별로 단품 데이터의 추이를 파악하는 것이 중요하다."
                 }
             ]
         }
-    ],
-    "frameID": 34,
-    "ko_pos": "NNG",
-    "ko_lu": "논쟁.n.Discussion",
-    "lu_id": 186,
-    "en_lus": [
-        "debate"
     ]
 }

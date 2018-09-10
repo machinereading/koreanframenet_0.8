@@ -1,78 +1,162 @@
 {
-    "frameName": "Placing",
+    "ko_pos": "n",
+    "ko_lu": "해체.n.Destroying",
+    "frameID": 417,
+    "frameName": "Destroying",
+    "en_lus": [
+        "dismantle",
+        "dismantlement"
+    ],
+    "lu_id": 4901,
     "patterns": [
         {
-            "valenceText": "annotation id: 17227",
+            "valenceText": "annotation id: 7386",
             "examples": [
                 {
-                    "frameName": "Placing",
+                    "origin_lus": [
+                        "dismantlement",
+                        "dismantled"
+                    ],
+                    "ko_annotation_id": 7386,
+                    "annotation_id": 13390,
+                    "frameName": "Destroying",
                     "denotations": [
                         {
-                            "obj": "cause",
+                            "id": 1,
+                            "obj": "Destroying",
+                            "span": {
+                                "begin": 47,
+                                "end": 49
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "해체"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
+                                "end": 12
                             },
-                            "id": "2"
+                            "text": "독립된 첫 10년 간,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "theme",
-                            "span": {
-                                "begin": 4,
-                                "end": 11
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "goal",
+                            "id": 3,
+                            "obj": "Destroyer",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
                                 "begin": 13,
-                                "end": 15
+                                "end": 19
                             },
-                            "id": "4"
+                            "text": "카자흐스탄은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 4,
+                            "obj": "Undergoer",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 17,
-                                "end": 21
+                                "begin": 20,
+                                "end": 46
                             },
-                            "id": "1"
+                            "text": "자국 영토에 남은 소비에트 무기 시스템과 시설을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "put"
-                    ],
-                    "ko_annotation_id": 17227,
-                    "text": "이것이 라스 베이거스를 지도에 올려 놓았고 라스 베이거스 역사의 중요한 전환점들 중의 하나이었다.",
-                    "sent_id": 750,
+                    "sent_id": 2675,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3943
+                    "lu": "해체.n.Destroying",
+                    "text": "독립된 첫 10년 간, 카자흐스탄은 자국 영토에 남은 소비에트 무기 시스템과 시설을 해체 및 파괴하고 여러 국제 비확산 조약에 서명하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15044",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "dismantlement",
+                        "dismantled"
+                    ],
+                    "ko_annotation_id": 15044,
+                    "annotation_id": 13501,
+                    "frameName": "Destroying",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Destroying",
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "해체를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Gov",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 38
+                            },
+                            "text": "이전하였고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2694,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "해체.n.Destroying",
+                    "text": "모든 ICBM은 1996년 9월 까지 해체를 위해 러시아로 이전하였고 미사일 격납고와 격납고 구조물은 1999년 9월 까지 미국의 국방 협력 위협 감소부 ( CTR ) 관장 하에 파괴되었다."
                 }
             ]
         }
-    ],
-    "frameID": 62,
-    "ko_pos": "VV",
-    "ko_lu": "올리다.v.Placing",
-    "lu_id": 4901,
-    "en_lus": [
-        "put"
     ]
 }

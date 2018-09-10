@@ -1,60 +1,120 @@
 {
-    "frameName": "Vehicle",
+    "ko_pos": "v",
+    "ko_lu": "설치하다.v.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "set",
+        "place"
+    ],
+    "lu_id": 5530,
     "patterns": [
         {
-            "valenceText": "annotation id: 19619",
+            "valenceText": "annotation id: 184",
             "examples": [
                 {
-                    "frameName": "Vehicle",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 91,
-                                "end": 93
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "vehicle"
+                        "set",
+                        "place"
                     ],
-                    "ko_annotation_id": 19619,
-                    "text": "오늘날, 이란은 제3세계에서 두 번째로 가장 큰 ( 북한 -- DPRK의 뒤를 이어 ) 탄도 미사일 세력을 보유하고 있고 유럽과 미국 대륙을 위협할 수 있는 우주 로켓과 중거리 및 대륙간 탄도 미사일을 거의 개발하였다.",
-                    "sent_id": 2396,
-                    "relations": [],
-                    "annotation_id": 12088
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.5220",
-            "examples": [
-                {
-                    "frameName": "Vehicle",
+                    "ko_annotation_id": 184,
+                    "annotation_id": 311,
+                    "frameName": "Placing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Placing",
                             "span": {
-                                "begin": 4,
-                                "end": 6
+                                "begin": 122,
+                                "end": 128
                             },
-                            "id": "1"
+                            "token_span": [
+                                25
+                            ],
+                            "role": "TARGET",
+                            "text": "설치하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                20
+                            ],
+                            "span": {
+                                "begin": 103,
+                                "end": 108
+                            },
+                            "text": "종지기들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speed",
+                            "token_span": [
+                                21
+                            ],
+                            "span": {
+                                "begin": 109,
+                                "end": 111
+                            },
+                            "text": "즉시",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Purpose",
+                            "token_span": [
+                                22
+                            ],
+                            "span": {
+                                "begin": 112,
+                                "end": 114
+                            },
+                            "text": "항의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Theme",
+                            "token_span": [
+                                23,
+                                24
+                            ],
+                            "span": {
+                                "begin": 115,
+                                "end": 121
+                            },
+                            "text": "피켓 라인을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "아이는 로켓을 타고 달나라에 가는 꿈을 꾸었다.",
-                    "target": "로켓",
-                    "ko_annotation_id": "sejong.5220",
-                    "relations": []
+                    "sent_id": 47,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "설치하다.v.Placing",
+                    "text": "2년 전에, Devon의 Great Torrington 교구 목사인 Jeremy Hummerstone 목사는 예배에 참석하지 않는 종지기들에 너무나 질려서 그는 전 단원을 해고시켰고; 종지기들은 즉시 항의 피켓 라인을 설치하였다."
                 }
             ]
         }
-    ],
-    "frameID": 429,
-    "ko_pos": "NNG",
-    "ko_lu": "로켓.n.Vehicle",
-    "lu_id": 5530,
-    "en_lus": [
-        "vehicle"
     ]
 }

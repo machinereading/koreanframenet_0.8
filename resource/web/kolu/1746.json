@@ -1,52 +1,69 @@
 {
-    "frameName": "Roadways",
+    "ko_pos": "v",
+    "ko_lu": "사형하다.v.Execution",
+    "frameID": 225,
+    "frameName": "Execution",
+    "en_lus": [
+        "execution"
+    ],
+    "lu_id": 1746,
     "patterns": [
         {
-            "valenceText": "annotation id: 5497",
+            "valenceText": "annotation id: 1714",
             "examples": [
                 {
-                    "frameName": "Roadways",
+                    "origin_lus": [
+                        "execution"
+                    ],
+                    "ko_annotation_id": 1714,
+                    "annotation_id": 3563,
+                    "frameName": "Execution",
                     "denotations": [
                         {
-                            "obj": "characteristic",
+                            "id": 1,
+                            "obj": "Execution",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 50,
+                                "end": 54
                             },
-                            "id": "2"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "사형하는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Executed",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 6
+                                "begin": 18,
+                                "end": 49
                             },
-                            "id": "1"
+                            "text": "일반 범죄자들은 물론이고 정치적 그리고 종교적 반대자들을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "driveway"
-                    ],
-                    "ko_annotation_id": 5497,
-                    "text": "경사진 차도의 맨 위에는, 원래 대학 건물이었던 위풍당당한 Edward 건축물은 연구원의 더 새로운 빌딩들을 주도하고 있다.",
-                    "sent_id": 1098,
+                    "sent_id": 666,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5739
+                    "lu": "사형하다.v.Execution",
+                    "text": "예수는 신속히 재판에 회부되었고 일반 범죄자들은 물론이고 정치적 그리고 종교적 반대자들을 사형하는 로마의 형태인 십자가 처형 선고를 받았다."
                 }
             ]
         }
-    ],
-    "frameID": 203,
-    "ko_pos": "NNG",
-    "ko_lu": "차도.n.Roadways",
-    "lu_id": 1746,
-    "en_lus": [
-        "driveway"
     ]
 }

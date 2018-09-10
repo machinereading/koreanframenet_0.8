@@ -1,83 +1,185 @@
 {
-    "frameName": "Possession",
+    "ko_pos": "v",
+    "ko_lu": "사다.v.Commerce_buy",
+    "frameID": 171,
+    "frameName": "Commerce_buy",
+    "en_lus": [
+        "buy",
+        "purchase",
+        "kau .買う ",
+        "kaikomu .買い込む "
+    ],
+    "lu_id": 3978,
     "patterns": [
         {
-            "valenceText": "annotation id: 13556",
+            "valenceText": "annotation id: 11515",
             "examples": [
                 {
-                    "frameName": "Possession",
+                    "origin_lus": [
+                        "purchase",
+                        "kaikomu .買い込む ",
+                        "kau .買う ",
+                        "buy"
+                    ],
+                    "ko_annotation_id": 11515,
+                    "annotation_id": 0,
+                    "frameName": "Commerce_buy",
                     "denotations": [
                         {
-                            "obj": "Owner",
+                            "id": 1,
+                            "obj": "Commerce_buy",
                             "span": {
-                                "begin": 0,
-                                "end": 6
-                            }
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "사버렸다면"
                         },
                         {
-                            "obj": "Possession",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 30
-                            }
+                                "begin": 10,
+                                "end": 20
+                            },
+                            "text": "저도 모르는 사이에",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 43,
-                                "end": 45
-                            }
+                                "begin": 21,
+                                "end": 29
+                            },
+                            "text": "예산을 초과해서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "zinusi .地主 "
+                    "sent_id": 4449,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13556,
-                    "text": "나카타 가문은, 현재 동경 내리마 구 일대 대부분의 땅을, 대대로 소유해온 대지주였다.",
-                    "sent_id": 4778,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "사다.v.Commerce_buy",
+                    "text": "물건을 고르다가, 저도 모르는 사이에 예산을 초과해서 사버렸다면 누구라도 찜찜할 것입니다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 13557",
+            "valenceText": "annotation id: 16072",
             "examples": [
                 {
-                    "frameName": "Possession",
+                    "origin_lus": [
+                        "purchase",
+                        "kaikomu .買い込む ",
+                        "kau .買う ",
+                        "buy"
+                    ],
+                    "ko_annotation_id": 16072,
+                    "annotation_id": 18433,
+                    "frameName": "Commerce_buy",
                     "denotations": [
                         {
-                            "obj": "Owner",
+                            "id": 1,
+                            "obj": "Commerce_buy",
                             "span": {
-                                "begin": 58,
-                                "end": 61
-                            }
+                                "begin": 80,
+                                "end": 82
+                            },
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "사기"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Buyer",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 59,
-                                "end": 61
-                            }
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "이란의 원자력 기구는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Seller",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 60,
+                                "end": 65
+                            },
+                            "text": "인도로부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goods",
+                            "token_span": [
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 66,
+                                "end": 79
+                            },
+                            "text": "핵 기술이나 전문 지식을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "zinusi .地主 "
+                    "sent_id": 3511,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13557,
-                    "text": "아침이 되면 찾아오는 통학하는 학생들, 이른바 서생도 여럿 되고, 그야말로 메이지나 다이쇼 시대를 사는 대지주의 생활상이었다.",
-                    "sent_id": 4218,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "사다.v.Commerce_buy",
+                    "text": "이란의 원자력 기구는 인도는 핵 기술 수출을 추구한다는 인도 원자력 위원의 91년 2월 1일 발표에 이어, 인도로부터 핵 기술이나 전문 지식을 사기 위해 협상한다. ( 5511, 5883 )."
                 }
             ]
         }
-    ],
-    "frameID": 118,
-    "ko_pos": "NNG",
-    "ko_lu": "지주.n.Possession",
-    "lu_id": 3978,
-    "en_lus": [
-        "zinusi .地主 "
     ]
 }

@@ -1,44 +1,126 @@
 {
-    "frameName": "Research",
+    "ko_pos": "v",
+    "ko_lu": "순례하다.v.Travel",
+    "frameID": 343,
+    "frameName": "Travel",
+    "en_lus": [
+        "pilgrimage"
+    ],
+    "lu_id": 2718,
     "patterns": [
         {
-            "valenceText": "annotation id: 8863",
+            "valenceText": "annotation id: 13162",
             "examples": [
                 {
-                    "frameName": "Research",
+                    "origin_lus": [
+                        "pilgrimage"
+                    ],
+                    "ko_annotation_id": 13162,
+                    "annotation_id": 3622,
+                    "frameName": "Travel",
                     "denotations": [
                         {
-                            "obj": "Researcher",
+                            "id": 1,
+                            "obj": "Travel",
                             "span": {
-                                "begin": 30,
-                                "end": 32
-                            }
+                                "begin": 72,
+                                "end": 78
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "순례하였다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Traveler",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 35,
-                                "end": 36
-                            }
+                                "begin": 11,
+                                "end": 37
+                            },
+                            "text": "콘스탄티누스 황제의 어머니인 Helena 여왕은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 61
+                            },
+                            "text": "예수의 일생과 관련된 장소를 확인하기 위해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 62,
+                                "end": 67
+                            },
+                            "text": "326년에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Goal",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 68,
+                                "end": 71
+                            },
+                            "text": "성지를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "siraberu .調べる"
+                    "sent_id": 681,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 8863,
-                    "text": "거래처라고 하면, 「우리로서는 그 정도는 상식이니까, 그쪽에서 알아 보십시오.",
-                    "sent_id": 4664,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "순례하다.v.Travel",
+                    "text": "독실한 기독교인이자 콘스탄티누스 황제의 어머니인 Helena 여왕은 예수의 일생과 관련된 장소를 확인하기 위해 326년에 성지를 순례하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1152,
-    "ko_pos": "VV",
-    "ko_lu": "알다.v.Research",
-    "lu_id": 2718,
-    "en_lus": [
-        "siraberu .調べる"
     ]
 }

@@ -1,59 +1,63 @@
 {
-    "frameName": "Text",
+    "ko_pos": "v",
+    "ko_lu": "구획되다.v.Abounding_with",
+    "frameID": 262,
+    "frameName": "Abounding_with",
+    "en_lus": [
+        "narabu .並ぶ "
+    ],
+    "lu_id": 1835,
     "patterns": [
         {
-            "valenceText": "annotation id: 5784",
+            "valenceText": "annotation id: 10452",
             "examples": [
                 {
-                    "frameName": "Text",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "kooen .講演 "
+                        "narabu .並ぶ "
                     ],
-                    "ko_annotation_id": 5784,
-                    "text": "강연회 후에, 관계자가 참여하는 실제 사례 검토회 등을 열면, 관계자의 역량과 현장 실정도 파악할 수 있습니다.",
-                    "sent_id": 3884,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.10737",
-            "examples": [
-                {
-                    "frameName": "Text",
+                    "ko_annotation_id": 10452,
+                    "annotation_id": 0,
+                    "frameName": "Abounding_with",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Abounding_with",
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 95,
+                                "end": 98
                             },
-                            "id": "1"
+                            "token_span": [
+                                24
+                            ],
+                            "role": "TARGET",
+                            "text": "구획된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Collection",
+                            "token_span": [
+                                25
+                            ],
+                            "span": {
+                                "begin": 99,
+                                "end": 104
+                            },
+                            "text": "관객석에서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "민간단체에서 강연회를 개최하였다.",
-                    "target": "강연회",
-                    "ko_annotation_id": "sejong.10737",
-                    "relations": []
+                    "sent_id": 3749,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구획되다.v.Abounding_with",
+                    "text": "큼직한 인형을 실은 수레, 음악대, 가장행렬 등 수많은 공연가가 프로므나드 데 장글레라 불리는 해안 길을 따라 행진하고, 세계 곳곳에서 모여든 사람들은 죽 가로와 세로로 구획된 관객석에서 성대한 박수를 보낼 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 298,
-    "ko_pos": "NN",
-    "ko_lu": "강연회.n.Text",
-    "lu_id": 1835,
-    "en_lus": [
-        "kooen .講演 "
     ]
 }

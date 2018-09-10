@@ -1,38 +1,121 @@
 {
-    "frameName": "Aggregate",
+    "ko_pos": "v",
+    "ko_lu": "놀라다.v.Experiencer_obj",
+    "frameID": 47,
+    "frameName": "Experiencer_obj",
+    "en_lus": [
+        "frighten",
+        "surprise"
+    ],
+    "lu_id": 210,
     "patterns": [
         {
-            "valenceText": "annotation id: 654",
+            "valenceText": "annotation id: 5470",
             "examples": [
                 {
-                    "frameName": "Aggregate",
+                    "origin_lus": [
+                        "frightened"
+                    ],
+                    "ko_annotation_id": 5470,
+                    "annotation_id": 9937,
+                    "frameName": "Experiencer_obj",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Experiencer_obj",
                             "span": {
-                                "begin": 76,
-                                "end": 78
+                                "begin": 34,
+                                "end": 39
                             },
-                            "id": "1"
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "놀라게 한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 33
+                            },
+                            "text": "수 백만명의 미국인을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 57
+                            },
+                            "text": "2001년의 탄저병 편지 공격이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "group"
+                    "sent_id": 2037,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 654,
-                    "text": "이 단체의 멤버들은 거의 매일 이스라엘 공동체에 발사되고 있는 Kassam 로케트에 새로운 무기들을 추가하는 것을 서슴지 않을 것이라고 말하였다.",
-                    "sent_id": 3262,
+                    "lu": "놀라다.v.Experiencer_obj",
+                    "text": "화학 생물무기는 단지 5 명을 죽였지만 수 백만명의 미국인을 놀라게 한 2001년의 탄저병 편지 공격이 암시한 것처럼, 재래식 폭발물보다 더 큰 심리적 영향을 가질 수 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16932",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "surprise"
+                    ],
+                    "ko_annotation_id": 16932,
+                    "annotation_id": 4720,
+                    "frameName": "Experiencer_obj",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Experiencer_obj",
+                            "span": {
+                                "begin": 45,
+                                "end": 51
+                            },
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "놀라운 일이"
+                        }
+                    ],
+                    "sent_id": 912,
                     "relations": [],
-                    "annotation_id": 17284
+                    "lu": "놀라다.v.Experiencer_obj",
+                    "text": "상품 값을 지불하는데 미국 달러가 자마이카 달러처럼 쉽게 받아들여지고 있는 것은 놀라운 일이 아니다."
                 }
             ]
         }
-    ],
-    "frameID": 103,
-    "ko_pos": "VV",
-    "ko_lu": "말하다.v.Aggregate",
-    "lu_id": 210,
-    "en_lus": [
-        "group"
     ]
 }

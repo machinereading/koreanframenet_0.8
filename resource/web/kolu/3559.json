@@ -1,92 +1,108 @@
 {
-    "frameName": "Origin",
+    "ko_pos": "v",
+    "ko_lu": "적재되다.v.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "load"
+    ],
+    "lu_id": 3559,
     "patterns": [
         {
-            "valenceText": "annotation id: 12101",
+            "valenceText": "annotation id: 8425",
             "examples": [
                 {
-                    "frameName": "Origin",
+                    "origin_lus": [
+                        "loaded"
+                    ],
+                    "ko_annotation_id": 8425,
+                    "annotation_id": 15406,
+                    "frameName": "Placing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Placing",
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 52,
+                                "end": 57
                             },
-                            "id": "1"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "적재된다."
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 16
+                                "begin": 0,
+                                "end": 5
                             },
-                            "id": "2"
-                        }
-                    ],
-                    "origin_lus": [
-                        "Syrian"
-                    ],
-                    "ko_annotation_id": 12101,
-                    "text": "첫째, 그는 시리아의 무자히딘이 시리아의 Hafiz al-Assad 정권을 전복시키라고 사담 후세인에게 요청했을 때 불신자의 지원을 찾는 것을 금지하였다.",
-                    "sent_id": 1690,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 8261
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 12102",
-            "examples": [
-                {
-                    "frameName": "Origin",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 12,
-                                "end": 15
-                            },
-                            "id": "1"
+                            "text": "전시에는,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "entity",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 19
+                                "begin": 6,
+                                "end": 14
                             },
-                            "id": "2"
+                            "text": "처방된 작용제는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 51
+                            },
+                            "text": "공중투하 폭탄과 탄도 미사일 탄두를 포함한, 다양한 투하 시스템에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Syrian"
-                    ],
-                    "ko_annotation_id": 12102,
-                    "text": "2003년, 러시아와 시리아 관리들은 원자력발전소와 해수 원자 담수처리공장을 포함하는 핵 시설 건설을 위한 협상을 계속하였다.",
-                    "sent_id": 3101,
+                    "sent_id": 2992,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 16165
+                    "lu": "적재되다.v.Placing",
+                    "text": "전시에는, 처방된 작용제는 공중투하 폭탄과 탄도 미사일 탄두를 포함한, 다양한 투하 시스템에 적재된다."
                 }
             ]
         }
-    ],
-    "frameID": 1103,
-    "ko_pos": "NNP",
-    "ko_lu": "시리아.n.Origin",
-    "lu_id": 3559,
-    "en_lus": [
-        "Syrian"
     ]
 }

@@ -1,52 +1,88 @@
 {
-    "frameName": "Store",
+    "ko_pos": "v",
+    "ko_lu": "말아먹다.v.Being_obligated",
+    "frameID": 392,
+    "frameName": "Being_obligated",
+    "en_lus": [
+        "should"
+    ],
+    "lu_id": 4785,
     "patterns": [
         {
-            "valenceText": "annotation id: 16777",
+            "valenceText": "annotation id: 2596",
             "examples": [
                 {
-                    "frameName": "Store",
+                    "origin_lus": [
+                        "should"
+                    ],
+                    "ko_annotation_id": 2596,
+                    "annotation_id": 5108,
+                    "frameName": "Being_obligated",
                     "denotations": [
                         {
-                            "obj": "resource",
+                            "id": 1,
+                            "obj": "Being_obligated",
                             "span": {
-                                "begin": 4,
-                                "end": 9
+                                "begin": 53,
+                                "end": 60
                             },
-                            "id": "2"
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "말아야 한다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Responsible_Party",
+                            "token_span": [
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 12
+                                "begin": 15,
+                                "end": 22
                             },
-                            "id": "1"
+                            "text": "어떤 방문객도",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duty",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 52
+                            },
+                            "text": "Abbey 극장이나 Gate 극장에서의 공연을 놓치지",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "supplies"
-                    ],
-                    "ko_annotation_id": 16777,
-                    "text": "평양은 중유 오일 보급 손실에 대한 보상으로 전기를 생산하기 위해 동결을 해제한다고 언급하였고, 북한 기술자들은 봉인을 제거하고  수일 이내에 영변군의 핵 시설의 감시 카메라를 망가뜨릴 수 있었다.",
-                    "sent_id": 2880,
+                    "sent_id": 979,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 14721
+                    "lu": "말아먹다.v.Being_obligated",
+                    "text": "더블린 극장은 전설적이며, 어떤 방문객도 Abbey 극장이나 Gate 극장에서의 공연을 놓치지 말아야 한다."
                 }
             ]
         }
-    ],
-    "frameID": 1511,
-    "ko_pos": "NNG",
-    "ko_lu": "보급.n.Store",
-    "lu_id": 4785,
-    "en_lus": [
-        "supply"
     ]
 }

@@ -1,52 +1,124 @@
 {
-    "frameName": "Hostile_encounter",
+    "ko_pos": "n",
+    "ko_lu": "언급.n.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "Says",
+        "mention"
+    ],
+    "lu_id": 4658,
     "patterns": [
         {
-            "valenceText": "annotation id: 16170",
+            "valenceText": "annotation id: 9990",
             "examples": [
                 {
-                    "frameName": "Hostile_encounter",
+                    "origin_lus": [
+                        "Says",
+                        "mention"
+                    ],
+                    "ko_annotation_id": 9990,
+                    "annotation_id": 18474,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "instrument",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 28,
-                                "end": 31
+                                "begin": 15,
+                                "end": 18
                             },
-                            "id": "2"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "언급,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 28,
-                                "end": 31
+                                "begin": 0,
+                                "end": 14
                             },
-                            "id": "1"
+                            "text": "이란과의 핵 프로젝트 보류",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "warfare"
-                    ],
-                    "ko_annotation_id": 16170,
-                    "text": "유타주의 Dugway Proving Ground는 세균전작용제에 저항할 군 백신을 실험하기 위한 장소로 선정되었다.",
-                    "sent_id": 1354,
+                    "sent_id": 3523,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6703
+                    "lu": "언급.n.Statement",
+                    "text": "이란과의 핵 프로젝트 보류 언급, Inside China Today, 1997년 10월 22일."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15768",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "Says",
+                        "mention"
+                    ],
+                    "ko_annotation_id": 15768,
+                    "annotation_id": 17207,
+                    "frameName": "Statement",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Statement",
+                            "span": {
+                                "begin": 84,
+                                "end": 87
+                            },
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "언급은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 65,
+                                "end": 83
+                            },
+                            "text": "비밀과 의문에 가득찬 과거에 대한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3252,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "언급.n.Statement",
+                    "text": "부시 대통령이 1,400 마일 길이의 북서 하와이 제도를 기념물로 지정한다는 데 대한 상당수의 최근 뉴스 보도에서, 비밀과 의문에 가득찬 과거에 대한 언급은 없다."
                 }
             ]
         }
-    ],
-    "frameID": 93,
-    "ko_pos": "NN",
-    "ko_lu": "세균전.n.Hostile_encounter",
-    "lu_id": 4658,
-    "en_lus": [
-        "warfare"
     ]
 }

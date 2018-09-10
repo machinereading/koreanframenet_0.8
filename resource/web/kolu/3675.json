@@ -1,78 +1,81 @@
 {
-    "frameName": "Means",
+    "ko_pos": "n",
+    "ko_lu": "직전.n.Locative_relation",
+    "frameID": 199,
+    "frameName": "Locative_relation",
+    "en_lus": [
+        "temae .手前 "
+    ],
+    "lu_id": 3675,
     "patterns": [
         {
-            "valenceText": "annotation id: 12571",
+            "valenceText": "annotation id: 11429",
             "examples": [
                 {
-                    "frameName": "Means",
+                    "origin_lus": [
+                        "temae .手前 "
+                    ],
+                    "ko_annotation_id": 11429,
+                    "annotation_id": 0,
+                    "frameName": "Locative_relation",
                     "denotations": [
                         {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Locative_relation",
+                            "span": {
+                                "begin": 3,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "직전에서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "신호",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Figure",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
                                 "begin": 8,
-                                "end": 25
+                                "end": 11
                             },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "descriptor",
-                            "span": {
-                                "begin": 71,
-                                "end": 73
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "purpose",
-                            "span": {
-                                "begin": 74,
-                                "end": 76
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 77,
-                                "end": 79
-                            },
-                            "id": "1"
+                            "text": "택시는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "mechanisms"
-                    ],
-                    "ko_annotation_id": 12571,
-                    "text": "조직 구성 : 크게 염려되는 테러리스트 단체들은 그들이 정부 요원에 의한 침투나 단체 멤버의 위반을 막을 수 있는 조직 구조와 내부 통제 장치를 가지고 있다.",
-                    "sent_id": 2045,
+                    "sent_id": 4379,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9993
+                    "lu": "직전.n.Locative_relation",
+                    "text": "신호 직전에서 택시는 정지한다."
                 }
             ]
         }
-    ],
-    "frameID": 1790,
-    "ko_pos": "NNG",
-    "ko_lu": "장치.n.Means",
-    "lu_id": 3675,
-    "en_lus": [
-        "mechanism"
     ]
 }

@@ -1,51 +1,107 @@
 {
-    "frameName": "Attributes",
+    "ko_pos": "v",
+    "ko_lu": "이루어지다.v.Giving",
+    "frameID": 139,
+    "frameName": "Giving",
+    "en_lus": [
+        "give"
+    ],
+    "lu_id": 951,
     "patterns": [
         {
-            "valenceText": "annotation id: 2792",
+            "valenceText": "annotation id: 7553",
             "examples": [
                 {
-                    "frameName": "Attributes",
+                    "origin_lus": [
+                        "given"
+                    ],
+                    "ko_annotation_id": 7553,
+                    "annotation_id": 13734,
+                    "frameName": "Giving",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Giving",
                             "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 50,
+                                "end": 56
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "이루어졌다."
                         },
                         {
-                            "obj": "Attribute",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "2003년,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Recipient",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 15
+                            },
+                            "text": "미국 전문가들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 18
-                            }
+                                "end": 49
+                            },
+                            "text": "리비아의 미사일 무기고와 다수의 미사일 연구 시설에의 접근이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ningen see .人間 性 "
+                    "sent_id": 2728,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2792,
-                    "text": "초등학교에 다니는 동안 바른 인성의 기초를 만들어줄 수 있다면, 문제행동을 일으키는 십 대 청소년은 크게 줄 것이 틀림없다.",
-                    "sent_id": 3585,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "이루어지다.v.Giving",
+                    "text": "2003년, 미국 전문가들은 리비아의 미사일 무기고와 다수의 미사일 연구 시설에의 접근이 이루어졌다."
                 }
             ]
         }
-    ],
-    "frameID": 964,
-    "ko_pos": "NNG",
-    "ko_lu": "인성.n.Attributes",
-    "lu_id": 951,
-    "en_lus": [
-        "ningen see .人間 性 "
     ]
 }

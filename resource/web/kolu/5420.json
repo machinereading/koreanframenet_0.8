@@ -1,74 +1,82 @@
 {
-    "frameName": "Employing",
+    "ko_pos": "n",
+    "ko_lu": "도움.n.Reliance",
+    "frameID": 901,
+    "frameName": "Reliance",
+    "en_lus": [
+        "ate .あて "
+    ],
+    "lu_id": 5420,
     "patterns": [
         {
-            "valenceText": "annotation id: 19164",
+            "valenceText": "annotation id: 16656",
             "examples": [
                 {
-                    "frameName": "Employing",
+                    "origin_lus": [
+                        "ate .あて "
+                    ],
+                    "ko_annotation_id": 16656,
+                    "annotation_id": 0,
+                    "frameName": "Reliance",
                     "denotations": [
                         {
-                            "obj": "field",
+                            "id": 1,
+                            "obj": "Reliance",
                             "span": {
-                                "begin": 34,
-                                "end": 38
+                                "begin": 11,
+                                "end": 14
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "도움이"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Instrument",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 39,
-                                "end": 42
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "1"
+                            "text": "강물은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "졸졸 흐르니",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "workers"
-                    ],
-                    "ko_annotation_id": 19164,
-                    "text": "Paula_Zahn : 지금 그 돈의 많은 부분은 20 백만 건강관리 종사자와 다른 최초 처치자들을 보호하기 위한 충분한 백신을 비축하는데 사용될 것이다.",
-                    "sent_id": 1747,
+                    "sent_id": 4699,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 8514
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.7180",
-            "examples": [
-                {
-                    "frameName": "Employing",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 12,
-                                "end": 15
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "그는 오랫동안 출판업 종사자로 지냈다.",
-                    "target": "종사자",
-                    "ko_annotation_id": "sejong.7180",
-                    "relations": []
+                    "lu": "도움.n.Reliance",
+                    "text": "강물은 졸졸 흐르니 도움이 안되고, 마을 사람들이, 여기저기 우물을 파봐도 시원스레 깨끗한 물이 나오지 않았지."
                 }
             ]
         }
-    ],
-    "frameID": 323,
-    "ko_pos": "NN",
-    "ko_lu": "종사자.n.Employing",
-    "lu_id": 5420,
-    "en_lus": [
-        "worker"
     ]
 }

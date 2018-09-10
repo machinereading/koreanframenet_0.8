@@ -1,74 +1,86 @@
 {
-    "frameName": "Prevarication",
+    "ko_pos": "v",
+    "ko_lu": "지배하다.v.Beat_opponent",
+    "frameID": 2074,
+    "frameName": "Beat_opponent",
+    "en_lus": [
+        "prevail"
+    ],
+    "lu_id": 1936,
     "patterns": [
         {
-            "valenceText": "annotation id: 6108",
+            "valenceText": "annotation id: 12617",
             "examples": [
                 {
-                    "frameName": "Prevarication",
+                    "origin_lus": [
+                        "prevail"
+                    ],
+                    "ko_annotation_id": 12617,
+                    "annotation_id": 1079,
+                    "frameName": "Beat_opponent",
                     "denotations": [
                         {
-                            "obj": "topic",
+                            "id": 1,
+                            "obj": "Beat_opponent",
                             "span": {
-                                "begin": 46,
-                                "end": 120
+                                "begin": 45,
+                                "end": 50
                             },
-                            "id": "2"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "지배하도록"
                         },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 123,
-                                "end": 125
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "Lie"
-                    ],
-                    "ko_annotation_id": 6108,
-                    "text": "민주당원들이 왜 사람들이 클린턴에 대해 그렇게 크게 분노하고 있는지 어아해할 때, 그들은 Stephanopouos, Carville ( 그리고 협력적인 선거운동 기자단 ) 이 1992년에 호평받도록 도운 엽색에 대한 그 허위 선전 이상 멀리 볼 필요가 없다.",
-                    "sent_id": 1030,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 5390
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.1606",
-            "examples": [
-                {
-                    "frameName": "Prevarication",
-                    "denotations": [
-                        {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Winner",
+                            "token_span": [
+                                5,
+                                6
+                            ],
                             "span": {
                                 "begin": 18,
-                                "end": 20
+                                "end": 25
                             },
-                            "id": "1"
+                            "text": "이러한 상식이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Loser",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 44
+                            },
+                            "text": "우리가 또한 공유하고 있는 환상을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그가 나에게 고백했던 모든 것이 허위로 밝혀졌다",
-                    "target": "허위",
-                    "ko_annotation_id": "sejong.1606",
-                    "relations": []
+                    "sent_id": 195,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지배하다.v.Beat_opponent",
+                    "text": "미국 교육의 미래는 우리 모두가 이러한 상식이 우리가 또한 공유하고 있는 환상을 지배하도록 허용하는 정도에 의해 결정될 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 287,
-    "ko_pos": "NNG",
-    "ko_lu": "허위.n.Prevarication",
-    "lu_id": 1936,
-    "en_lus": [
-        "Lie"
     ]
 }

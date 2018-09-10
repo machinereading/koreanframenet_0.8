@@ -1,74 +1,63 @@
 {
-    "frameName": "Morality_evaluation",
+    "ko_pos": "n",
+    "ko_lu": "노인.n.People_by_age",
+    "frameID": 973,
+    "frameName": "People_by_age",
+    "en_lus": [
+        "roozin .老人 "
+    ],
+    "lu_id": 714,
     "patterns": [
         {
-            "valenceText": "annotation id: 2182",
+            "valenceText": "annotation id: 12042",
             "examples": [
                 {
-                    "frameName": "Morality_evaluation",
+                    "origin_lus": [
+                        "roozin .老人 "
+                    ],
+                    "ko_annotation_id": 12042,
+                    "annotation_id": 0,
+                    "frameName": "People_by_age",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "People_by_age",
                             "span": {
                                 "begin": 0,
                                 "end": 3
                             },
-                            "id": "1"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "노인."
                         },
                         {
-                            "obj": "evaluee",
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 6
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "2"
+                            "text": "노인.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "right"
-                    ],
-                    "ko_annotation_id": 2182,
-                    "text": "올바른 정신을 가진 사람은 누구도 우리 모두 동일한 학업 잠재력을 가지고 있다는 것을 실제로 믿지 않는다.",
-                    "sent_id": 249,
+                    "sent_id": 4797,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1354
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.100520",
-            "examples": [
-                {
-                    "frameName": "Morality_evaluation",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 8,
-                                "end": 12
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그 사람은 늘 올바르다.",
-                    "target": "올바르다",
-                    "ko_annotation_id": "sejong.100520",
-                    "relations": []
+                    "lu": "노인.n.People_by_age",
+                    "text": "노인."
                 }
             ]
         }
-    ],
-    "frameID": 370,
-    "ko_pos": "VA",
-    "ko_lu": "올바르다.a.Morality_evaluation",
-    "lu_id": 714,
-    "en_lus": [
-        "right"
     ]
 }

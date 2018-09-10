@@ -1,96 +1,88 @@
 {
-    "frameName": "Cure",
+    "ko_pos": "v",
+    "ko_lu": "자리잡다.v.Being_located",
+    "frameID": 960,
+    "frameName": "Being_located",
+    "en_lus": [
+        "sits"
+    ],
+    "lu_id": 2908,
     "patterns": [
         {
-            "valenceText": "annotation id: 9560",
+            "valenceText": "annotation id: 2512",
             "examples": [
                 {
-                    "frameName": "Cure",
-                    "denotations": [
-                        {
-                            "obj": "affliction",
-                            "span": {
-                                "begin": 0,
-                                "end": 4
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 6,
-                                "end": 9
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "alleviate"
+                        "sits"
                     ],
-                    "ko_annotation_id": 9560,
-                    "text": "이 문제를 완화하기 위해, 정부는 비록 아파트 단지가 모든 현대적 시설을 그들이 가졌을지라도 크기에서는 9 평방미터 ( 100 평방피트 ) 가 평균인 대규모 아파트 단지 건설에서 도시의 주요 임대주가 되었다.",
-                    "sent_id": 870,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 4504
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.57613",
-            "examples": [
-                {
-                    "frameName": "Cure",
+                    "ko_annotation_id": 2512,
+                    "annotation_id": 4938,
+                    "frameName": "Being_located",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Being_located",
                             "span": {
                                 "begin": 28,
-                                "end": 31
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "정부는 외국인의 투자를 유치하기 위해 각종 규제를 완화할 방침이다.",
-                    "target": "완화할",
-                    "ko_annotation_id": "sejong.57613",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.57614",
-            "examples": [
-                {
-                    "frameName": "Cure",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 29,
                                 "end": 35
                             },
-                            "obj": "target"
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "자리잡고 있다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 17
+                            },
+                            "text": "이 바쁘고 현대적인 유럽 도시는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 27
+                            },
+                            "text": "천년의 역사 위에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "보건복지부는 수입 농산물의 잔류 농약 허용치 기준을 완화하겠다고 발표했다.",
-                    "target": "완화하겠다고",
-                    "ko_annotation_id": "sejong.57614",
-                    "relations": []
+                    "sent_id": 951,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "자리잡다.v.Being_located",
+                    "text": "이 바쁘고 현대적인 유럽 도시는 천년의 역사 위에 자리잡고 있다 -- 우아한 Merrion 광장에서 중앙 우체국의 총탄 구멍까지 역사는 도처에 존재한다."
                 }
             ]
         }
-    ],
-    "frameID": 50,
-    "ko_pos": "VV",
-    "ko_lu": "완화하다.v.Cure",
-    "lu_id": 2908,
-    "en_lus": [
-        "alleviate"
     ]
 }

@@ -1,74 +1,83 @@
 {
-    "frameName": "Connectors",
+    "ko_pos": "v",
+    "ko_lu": "을러메다.v.Locative_relation",
+    "frameID": 199,
+    "frameName": "Locative_relation",
+    "en_lus": [
+        "on"
+    ],
+    "lu_id": 307,
     "patterns": [
         {
-            "valenceText": "annotation id: 835",
+            "valenceText": "annotation id: 4286",
             "examples": [
                 {
-                    "frameName": "Connectors",
+                    "origin_lus": [
+                        "on"
+                    ],
+                    "ko_annotation_id": 4286,
+                    "annotation_id": 7838,
+                    "frameName": "Locative_relation",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Locative_relation",
                             "span": {
-                                "begin": 52,
-                                "end": 54
+                                "begin": 14,
+                                "end": 17
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "지역을"
                         },
                         {
-                            "obj": "connected_item",
+                            "id": 2,
+                            "obj": "Ground",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 56,
-                                "end": 59
+                                "begin": 7,
+                                "end": 17
                             },
-                            "id": "2"
+                            "text": "울타리 외곽 지역을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Figure",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "text": "순찰을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "chain"
-                    ],
-                    "ko_annotation_id": 835,
-                    "text": "한 Humboldt 참전 용사의 새로운 하와이제도 기념물과의 관계 : 하와이 북서쪽을 휩쓰는 일련의 섬들인 국가의 최신 천연 기념물은 그곳의 청색 물결과 낮은 흰색 모래 해변이 드러내는 것보다 더 어두운 과거를 가지고 있다.",
-                    "sent_id": 3247,
+                    "sent_id": 1608,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 17159
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.18824",
-            "examples": [
-                {
-                    "frameName": "Connectors",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 18,
-                                "end": 20
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "경제불황을 타개하기 위해 정부는 일련의 개혁조치들을 수립 발표했다.",
-                    "target": "일련",
-                    "ko_annotation_id": "sejong.18824",
-                    "relations": []
+                    "lu": "을러메다.v.Locative_relation",
+                    "text": "인근 지역은 울타리 외곽 지역을 배회하는 순찰을 하지 않으면 완전히 보호될 수 없다."
                 }
             ]
         }
-    ],
-    "frameID": 419,
-    "ko_pos": "NNG",
-    "ko_lu": "일련.n.Connectors",
-    "lu_id": 307,
-    "en_lus": [
-        "chain"
     ]
 }

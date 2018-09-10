@@ -1,109 +1,81 @@
 {
-    "frameName": "Taking",
+    "ko_pos": "v",
+    "ko_lu": "집행하다.v.Enforcing",
+    "frameID": 1813,
+    "frameName": "Enforcing",
+    "en_lus": [
+        "enforce"
+    ],
+    "lu_id": 737,
     "patterns": [
         {
-            "valenceText": "annotation id: 2226",
+            "valenceText": "annotation id: 1808",
             "examples": [
                 {
-                    "frameName": "Taking",
+                    "origin_lus": [
+                        "enforce"
+                    ],
+                    "ko_annotation_id": 1808,
+                    "annotation_id": 3756,
+                    "frameName": "Enforcing",
                     "denotations": [
                         {
-                            "obj": "theme",
+                            "id": 1,
+                            "obj": "Enforcing",
                             "span": {
                                 "begin": 8,
-                                "end": 10
+                                "end": 11
                             },
-                            "id": "3"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "집행할"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Rule",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 15
+                                "begin": 4,
+                                "end": 7
                             },
-                            "id": "1"
+                            "text": "결정을",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "agent",
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 29,
-                                "end": 45
+                                "begin": 22,
+                                "end": 25
                             },
-                            "id": "2"
+                            "text": "유엔은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "seize"
-                    ],
-                    "ko_annotation_id": 2226,
-                    "text": "콜롬비아에서는 국가를 장악하고 민주주의를 파괴하려는 마약 재정지원을 받는 게릴라들은 M-19 이 포함되고, 이는 카스트로가 분명히 지원하였다.",
-                    "sent_id": 1994,
+                    "sent_id": 716,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9644
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.55162",
-            "examples": [
-                {
-                    "frameName": "Taking",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 12,
-                                "end": 16
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "삼성이 반도체 시장을 장악하고 있다.",
-                    "target": "장악하고",
-                    "ko_annotation_id": "sejong.55162",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.55163",
-            "examples": [
-                {
-                    "frameName": "Taking",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 13,
-                                "end": 17
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "민주당이 충청도 지역을 장악하고 있다.",
-                    "target": "장악하고",
-                    "ko_annotation_id": "sejong.55163",
-                    "relations": []
+                    "lu": "집행하다.v.Enforcing",
+                    "text": "그러나 결정을 집행할 수단의 부족으로, 유엔은 영국이 1948년에 그들의 병력을 철수하면서 분출된 싸움을 멈추게 할 힘이 없었다."
                 }
             ]
         }
-    ],
-    "frameID": 410,
-    "ko_pos": "VV",
-    "ko_lu": "장악하다.v.Taking",
-    "lu_id": 737,
-    "en_lus": [
-        "seize"
     ]
 }

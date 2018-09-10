@@ -1,52 +1,102 @@
 {
-    "frameName": "People_by_jurisdiction",
+    "ko_pos": "n",
+    "ko_lu": "거짓.n.Prevarication",
+    "frameID": 287,
+    "frameName": "Prevarication",
+    "en_lus": [
+        "lie",
+        "uso .嘘"
+    ],
+    "lu_id": 4931,
     "patterns": [
         {
-            "valenceText": "annotation id: 17378",
+            "valenceText": "annotation id: 2746",
             "examples": [
                 {
-                    "frameName": "People_by_jurisdiction",
+                    "origin_lus": [
+                        "lies",
+                        "uso .嘘"
+                    ],
+                    "ko_annotation_id": 2746,
+                    "annotation_id": 5322,
+                    "frameName": "Prevarication",
                     "denotations": [
                         {
-                            "obj": "jurisdiction",
+                            "id": 1,
+                            "obj": "Prevarication",
                             "span": {
-                                "begin": 0,
-                                "end": 23
+                                "begin": 40,
+                                "end": 43
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "거짓과"
+                        }
+                    ],
+                    "sent_id": 1014,
+                    "relations": [],
+                    "lu": "거짓.n.Prevarication",
+                    "text": "Lewinsky 혐의에 신빙성을 제공하고, 클린턴의 친숙한 방어를 마치 거짓과 반 거짓이 존재하는 것 같이 다룸으로써, Stephanopoulos는 자가가 바보가 아니라는 것을 보여준다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10139",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "lies",
+                        "uso .嘘"
+                    ],
+                    "ko_annotation_id": 10139,
+                    "annotation_id": 0,
+                    "frameName": "Prevarication",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Prevarication",
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "거짓은"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 29
+                                "begin": 0,
+                                "end": 18
                             },
-                            "id": "1"
+                            "text": "일본 고유의 신령에 대한 상식도,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "parishioners"
-                    ],
-                    "ko_annotation_id": 17378,
-                    "text": "St. Michael과 All Angels의 교구민들은 이곳의 멤버들이 항상 하는 것처럼, 교회 문에서 담소를 나누기 위해 멈춘다.",
-                    "sent_id": 14,
+                    "sent_id": 3575,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 96
+                    "lu": "거짓.n.Prevarication",
+                    "text": "일본 고유의 신령에 대한 상식도, 거짓은 아닙니다만, 그런 것에 매달리기보다는, 더 큰, 전세계적인 신을 제대로 알아가는 방법을 취하는 것이 좋습니다."
                 }
             ]
         }
-    ],
-    "frameID": 1023,
-    "ko_pos": "NN",
-    "ko_lu": "교구민들.n.People_by_jurisdiction",
-    "lu_id": 4931,
-    "en_lus": [
-        "parishioner"
     ]
 }

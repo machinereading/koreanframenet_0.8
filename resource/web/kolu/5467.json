@@ -1,65 +1,81 @@
 {
-    "frameName": "Point_of_dispute",
+    "ko_pos": "v",
+    "ko_lu": "교체되다.v.Take_place_of",
+    "frameID": 1171,
+    "frameName": "Take_place_of",
+    "en_lus": [
+        "replace"
+    ],
+    "lu_id": 5467,
     "patterns": [
         {
-            "valenceText": "annotation id: 19365",
+            "valenceText": "annotation id: 2177",
             "examples": [
                 {
-                    "frameName": "Point_of_dispute",
+                    "origin_lus": [
+                        "replaced"
+                    ],
+                    "ko_annotation_id": 2177,
+                    "annotation_id": 4352,
+                    "frameName": "Take_place_of",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Take_place_of",
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 24,
+                                "end": 27
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "교체됨"
                         },
                         {
-                            "obj": "null",
+                            "id": 2,
+                            "obj": "Old",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 17
+                                "begin": 6,
+                                "end": 11
                             },
-                            "id": "2"
+                            "text": "Dunes",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "cop",
+                            "id": 3,
+                            "obj": "New",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 17
+                                "begin": 14,
+                                "end": 23
                             },
-                            "id": "3"
+                            "text": "Bellagio로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "question"
-                    ],
-                    "ko_annotation_id": 19365,
-                    "text": "더 이상 의심의 어떤 여지가 없었다 : 당신이 일부 억제할 수 없는 성인의 즐거움을 원할 때는 라스 베이거스가 꼭 가야할 곳이었다.",
-                    "sent_id": 820,
+                    "sent_id": 837,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4260
+                    "lu": "교체되다.v.Take_place_of",
+                    "text": "이 추세는 Dunes ( Bellagio로 교체됨 ), Aladdin ( 새로운 Aladdin ), 그리고 Sands ( Venetian ) 호텔들을 포함한 더 많은 건물들의 철거로 이어졌다."
                 }
             ]
         }
-    ],
-    "frameID": 1608,
-    "ko_pos": "NNB",
-    "ko_lu": "여지.n.Point_of_dispute",
-    "lu_id": 5467,
-    "en_lus": [
-        "question"
     ]
 }

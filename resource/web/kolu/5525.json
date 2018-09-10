@@ -1,60 +1,73 @@
 {
-    "frameName": "Increment",
+    "ko_pos": "n",
+    "ko_lu": "프로그램.n.Goal",
+    "frameID": 1177,
+    "frameName": "Goal",
+    "en_lus": [
+        "to"
+    ],
+    "lu_id": 5525,
     "patterns": [
         {
-            "valenceText": "annotation id: 19608",
+            "valenceText": "annotation id: 13827",
             "examples": [
                 {
-                    "frameName": "Increment",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 5,
-                                "end": 12
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "another"
+                        "to"
                     ],
-                    "ko_annotation_id": 19608,
-                    "text": "나중에, 고위급 밀매자인 Leoidas Vagas가 체포되었고 1,000 파운드의 다이나마이트가 압수되었다.",
-                    "sent_id": 2000,
-                    "relations": [],
-                    "annotation_id": 9673
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.37154",
-            "examples": [
-                {
-                    "frameName": "Increment",
+                    "ko_annotation_id": 13827,
+                    "annotation_id": 7313,
+                    "frameName": "Goal",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Goal",
                             "span": {
-                                "begin": 7,
-                                "end": 12
+                                "begin": 37,
+                                "end": 41
                             },
-                            "id": "1"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "프로그램"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Trajector",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 52
+                            },
+                            "text": "건강 보급품과 다른 긴급 상품을 유엔의 인도주의적 프로그램 하에 국가로의 유입",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "검찰은 현재 고위공직자의 비리를 내사 중이라고 밝혔다.",
-                    "target": "고위공직자",
-                    "ko_annotation_id": "sejong.37154",
-                    "relations": []
+                    "sent_id": 1521,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "프로그램.n.Goal",
+                    "text": "한 가지 방법은 건강 보급품과 다른 긴급 상품을 유엔의 인도주의적 프로그램 하에 국가로의 유입 속도를 높이는 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 1001,
-    "ko_pos": "NNG",
-    "ko_lu": "고위공직자.n.Increment",
-    "lu_id": 5525,
-    "en_lus": [
-        "another"
     ]
 }

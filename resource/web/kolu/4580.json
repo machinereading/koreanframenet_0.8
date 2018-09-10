@@ -1,60 +1,65 @@
 {
-    "frameName": "Foreign_or_domestic_country",
+    "ko_pos": "a",
+    "ko_lu": "적다.a.Dimension",
+    "frameID": 108,
+    "frameName": "Dimension",
+    "en_lus": [
+        "small"
+    ],
+    "lu_id": 4580,
     "patterns": [
         {
-            "valenceText": "annotation id: 15880",
+            "valenceText": "annotation id: 15012",
             "examples": [
                 {
-                    "frameName": "Foreign_or_domestic_country",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 32,
-                                "end": 35
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "home"
+                        "small"
                     ],
-                    "ko_annotation_id": 15880,
-                    "text": "이란은 전장에서 패했을 뿐만 아니라, 더욱 심각한 것은, 본거지에서 패배하였다.",
-                    "sent_id": 2481,
-                    "relations": [],
-                    "annotation_id": 12426
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.44447",
-            "examples": [
-                {
-                    "frameName": "Foreign_or_domestic_country",
+                    "ko_annotation_id": 15012,
+                    "annotation_id": 13423,
+                    "frameName": "Dimension",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Dimension",
                             "span": {
-                                "begin": 4,
-                                "end": 7
+                                "begin": 52,
+                                "end": 54
                             },
-                            "id": "1"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "적은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Object",
+                            "token_span": [
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 65
+                            },
+                            "text": "양의 고농축 우라늄",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "서울을 본거지로 삼고 시작해 보자.",
-                    "target": "본거지",
-                    "ko_annotation_id": "sejong.44447",
-                    "relations": []
+                    "sent_id": 2678,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "적다.a.Dimension",
+                    "text": "그러나, 서부 카자흐스탄의 폐쇄 증식로에 있는 3톤의 플루토니움과 두 개의 핵 연구소에 있는 적은 양의 고농축 우라늄 ( HEU )을 포함하여, 무기급 핵 물질은 카자흐스탄에 남아 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1483,
-    "ko_pos": "NNG",
-    "ko_lu": "본거지.n.Foreign_or_domestic_country",
-    "lu_id": 4580,
-    "en_lus": [
-        "home"
     ]
 }

@@ -1,38 +1,63 @@
 {
-    "frameName": "Self_motion",
+    "ko_pos": "n",
+    "ko_lu": "통증.n.Perception_body",
+    "frameID": 68,
+    "frameName": "Perception_body",
+    "en_lus": [
+        "itami .痛み "
+    ],
+    "lu_id": 2983,
     "patterns": [
         {
-            "valenceText": "annotation id: 9771",
+            "valenceText": "annotation id: 11455",
             "examples": [
                 {
-                    "frameName": "Self_motion",
+                    "origin_lus": [
+                        "itami .痛み "
+                    ],
+                    "ko_annotation_id": 11455,
+                    "annotation_id": 0,
+                    "frameName": "Perception_body",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Perception_body",
                             "span": {
-                                "begin": 75,
-                                "end": 81
+                                "begin": 9,
+                                "end": 12
                             },
-                            "id": "1"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "통증이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "가벼운",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "rushes"
+                    "sent_id": 4402,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 9771,
-                    "text": "Goodwill 프로그램의 한 참여자는 우리의 탁상 출판 훈련 프로그램의 자기 급우들과 인터뷰 결과를 공유하기 위해 일자리 인터뷰에서 급히 돌아온다.",
-                    "sent_id": 376,
-                    "relations": [],
-                    "annotation_id": 2030
+                    "lu": "통증.n.Perception_body",
+                    "text": "움직이면 가벼운 통증이 밀려온다."
                 }
             ]
         }
-    ],
-    "frameID": 64,
-    "ko_pos": "VV",
-    "ko_lu": "돌아오다.v.Self_motion",
-    "lu_id": 2983,
-    "en_lus": [
-        "rush"
     ]
 }

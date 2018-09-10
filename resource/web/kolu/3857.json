@@ -1,52 +1,105 @@
 {
-    "frameName": "Defending",
+    "ko_pos": "v",
+    "ko_lu": "올려놓다.v.Assessing",
+    "frameID": 519,
+    "frameName": "Assessing",
+    "en_lus": [
+        "rank"
+    ],
+    "lu_id": 3857,
     "patterns": [
         {
-            "valenceText": "annotation id: 13186",
+            "valenceText": "annotation id: 7564",
             "examples": [
                 {
-                    "frameName": "Defend",
+                    "origin_lus": [
+                        "ranks"
+                    ],
+                    "ko_annotation_id": 7564,
+                    "annotation_id": 13746,
+                    "frameName": "Assessing",
                     "denotations": [
                         {
-                            "obj": "victim",
+                            "id": 1,
+                            "obj": "Assessing",
                             "span": {
-                                "begin": 42,
-                                "end": 46
+                                "begin": 41,
+                                "end": 47
                             },
-                            "id": "2"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "올려놓는다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Method",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 58,
-                                "end": 62
+                                "begin": 0,
+                                "end": 7
                             },
-                            "id": "1"
+                            "text": "이러한 평가는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "북한을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Standard",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 36
+                            },
+                            "text": "세계에서 가장 많은 화학무기 보유국들 가운데",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "defenders"
-                    ],
-                    "ko_annotation_id": 13186,
-                    "text": "결국, 로마 장군 Titus는 서기 70년에 예루살렘을 포위하였고, 마침내 예루살렘의 굶주리고 허약해진 방어자들을 공격하였다.",
-                    "sent_id": 670,
+                    "sent_id": 2731,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3580
+                    "lu": "올려놓다.v.Assessing",
+                    "text": "이러한 평가는 북한을 세계에서 가장 많은 화학무기 보유국들 가운데 하나에 올려놓는다."
                 }
             ]
         }
-    ],
-    "frameID": 1330,
-    "ko_pos": "NN",
-    "ko_lu": "방어자들.n.Defending",
-    "lu_id": 3857,
-    "en_lus": [
-        "defender"
     ]
 }

@@ -1,95 +1,86 @@
 {
-    "frameName": "Personal_relationship",
+    "ko_pos": "n",
+    "ko_lu": "인수.n.Delivery",
+    "frameID": 1344,
+    "frameName": "Delivery",
+    "en_lus": [
+        "delivery"
+    ],
+    "lu_id": 1992,
     "patterns": [
         {
-            "valenceText": "annotation id: 6298",
+            "valenceText": "annotation id: 9620",
             "examples": [
                 {
-                    "frameName": "Personal_relationship",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 42,
-                                "end": 44
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "couple",
-                        "kappuru .カップル "
+                        "delivery"
                     ],
-                    "ko_annotation_id": 6298,
-                    "text": "오전 6시 50분 CAROLG : 나는 치료를 위한 일부 새로운 고객인 한 커플을 만나려고 앉아 있었는데 건물이 미친듯이 흔들리기 시작하였다.",
-                    "sent_id": 163,
-                    "relations": [],
-                    "annotation_id": 933
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 6299",
-            "examples": [
-                {
-                    "frameName": "Personal_relationship",
+                    "ko_annotation_id": 9620,
+                    "annotation_id": 17909,
+                    "frameName": "Delivery",
                     "denotations": [
                         {
-                            "obj": "Partners",
+                            "id": 1,
+                            "obj": "Delivery",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "인수에"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Recipient",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "couple",
-                        "kappuru .カップル "
-                    ],
-                    "ko_annotation_id": 6299,
-                    "text": "커플.",
-                    "sent_id": 4297,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.42246",
-            "examples": [
-                {
-                    "frameName": "Personal_relationship",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 6,
-                                "end": 8
+                                "begin": 17,
+                                "end": 20
                             },
-                            "id": "1"
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 54
+                            },
+                            "text": "Eurodif가 재처리한 3% U-235으로 농축한 우라늄의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "여행지에는 커플을 위한 다양한 행사가 개최되고 있었다.",
-                    "target": "커플",
-                    "ko_annotation_id": "sejong.42246",
-                    "relations": []
+                    "sent_id": 3380,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인수.n.Delivery",
+                    "text": "1980년에서 1990년 까지 이란은 Eurodif가 재처리한 3% U-235으로 농축한 우라늄의 인수에 대한 지불을 거부하였다."
                 }
             ]
         }
-    ],
-    "frameID": 102,
-    "ko_pos": "NNG",
-    "ko_lu": "커플.n.Personal_relationship",
-    "lu_id": 1992,
-    "en_lus": [
-        "couple",
-        "kappuru .カップル "
     ]
 }

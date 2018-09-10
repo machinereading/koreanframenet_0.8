@@ -1,122 +1,87 @@
 {
-    "frameName": "Posture",
+    "ko_pos": "v",
+    "ko_lu": "단축하다.v.Change_event_duration",
+    "frameID": 1770,
+    "frameName": "Change_event_duration",
+    "en_lus": [
+        "shorten"
+    ],
+    "lu_id": 3632,
     "patterns": [
         {
-            "valenceText": "annotation id: 12482",
+            "valenceText": "annotation id: 14024",
             "examples": [
                 {
-                    "frameName": "Posture",
+                    "origin_lus": [
+                        "shorten"
+                    ],
+                    "ko_annotation_id": 14024,
+                    "annotation_id": 8602,
+                    "frameName": "Change_event_duration",
                     "denotations": [
                         {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Change_event_duration",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 35,
+                                "end": 39
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "단축하고"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 3,
-                                "end": 6
+                                "begin": 5,
+                                "end": 24
                             },
-                            "id": "1"
+                            "text": "독감이 당신에게 미칠 수 있는 나쁜",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "location",
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                13,
+                                14
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 53,
+                                "end": 63
                             },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "location",
-                            "span": {
-                                "begin": 11,
-                                "end": 12
-                            },
-                            "id": "3"
+                            "text": "항바이러스 약이다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "crouched"
-                    ],
-                    "ko_annotation_id": 12482,
-                    "text": "내가 쭈그리고 있는 벽의 다른 편의 길을 따라 발걸음이 지나갔다.",
-                    "sent_id": 3301,
+                    "sent_id": 1768,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17589
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.76770",
-            "examples": [
-                {
-                    "frameName": "Posture",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 8,
-                                "end": 12
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "꼬마들이 몸을 쭈그리고 앉아서 벌레를 열심히들여다 본다.",
-                    "target": "쭈그리고",
-                    "ko_annotation_id": "sejong.76770",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.76771",
-            "examples": [
-                {
-                    "frameName": "Posture",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 4,
-                                "end": 8
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "다리를 쭈그리고 오래 앉아 있으면 오금이 저린다.",
-                    "target": "쭈그리고",
-                    "ko_annotation_id": "sejong.76771",
-                    "relations": []
+                    "lu": "단축하다.v.Change_event_duration",
+                    "text": "그것들은 독감이 당신에게 미칠 수 있는 나쁜 영향을 기본적으로 단축하고 완화하기 위해 만들어진 항바이러스 약이다."
                 }
             ]
         }
-    ],
-    "frameID": 18,
-    "ko_pos": "VV",
-    "ko_lu": "쭈그리다.v.Posture",
-    "lu_id": 3632,
-    "en_lus": [
-        "crouch"
     ]
 }

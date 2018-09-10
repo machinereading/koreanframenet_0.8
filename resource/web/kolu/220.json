@@ -1,75 +1,66 @@
 {
-    "frameName": "System",
+    "ko_pos": "n",
+    "ko_lu": "점보.n.Vehicle",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "en_lus": [
+        "zyanbo zietto .ジャンボ ジェット "
+    ],
+    "lu_id": 220,
     "patterns": [
         {
-            "valenceText": "annotation id: 664",
+            "valenceText": "annotation id: 16211",
             "examples": [
                 {
-                    "frameName": "System",
+                    "origin_lus": [
+                        "zyanbo zietto .ジャンボ ジェット "
+                    ],
+                    "ko_annotation_id": 16211,
+                    "annotation_id": 0,
+                    "frameName": "Vehicle",
                     "denotations": [
                         {
-                            "obj": "function",
+                            "id": 1,
+                            "obj": "Vehicle",
                             "span": {
-                                "begin": 76,
-                                "end": 82
+                                "begin": 48,
+                                "end": 52
                             },
-                            "id": "2"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "점보제트"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 83,
-                                "end": 85
+                                "begin": 36,
+                                "end": 52
                             },
-                            "id": "1"
+                            "text": "최대 568명이 타는 점보제트",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "systems",
-                        "system"
-                    ],
-                    "ko_annotation_id": 664,
-                    "text": "경제는 붕궤되었지만 이 유산으로 인해 러시아는 큰 힘을 유지할 수 있었으나, 이와 같은 대규모 단지를 지원하는데 대한 부담으로 러시아의 정치와 경제 체제는 압박을 받아왔다.",
-                    "sent_id": 2978,
+                    "sent_id": 3808,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 15348
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.4336",
-            "examples": [
-                {
-                    "frameName": "System",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 21,
-                                "end": 23
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "이 기지는 현재 연중 무휴, 24시간 체제로 운영되고 있다.",
-                    "target": "체제",
-                    "ko_annotation_id": "sejong.4336",
-                    "relations": []
+                    "lu": "점보.n.Vehicle",
+                    "text": "한편, 정기항공에서 사용되는 기재는, 수십 명이 타는 비행기부터 최대 568명이 타는 점보제트 (최대이륙중량은 38만 킬로그램/380톤 전후.)까지로, 최대이륙중량이 5.7톤을 넘는 크기의 비행기를 조종하기 위해서는, 이런 라이선스로는 아직 부족해, 비행기마다 독자적인 라이선스를 취득하지 않으면 안된다."
                 }
             ]
         }
-    ],
-    "frameID": 1610,
-    "ko_pos": "NNG",
-    "ko_lu": "체제.n.System",
-    "lu_id": 220,
-    "en_lus": [
-        "system"
     ]
 }

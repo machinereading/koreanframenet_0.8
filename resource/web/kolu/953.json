@@ -1,60 +1,65 @@
 {
-    "frameName": "Fields",
+    "ko_pos": "n",
+    "ko_lu": "권한.n.Deny_or_grant_permission",
+    "frameID": 520,
+    "frameName": "Deny_or_grant_permission",
+    "en_lus": [
+        "mandate"
+    ],
+    "lu_id": 953,
     "patterns": [
         {
-            "valenceText": "annotation id: 2795",
+            "valenceText": "annotation id: 298",
             "examples": [
                 {
-                    "frameName": "Fields",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 20,
-                                "end": 22
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "sectors"
+                        "mandate"
                     ],
-                    "ko_annotation_id": 2795,
-                    "text": "족장인 당신은 의사결정을 하는 많은 부서와 학자들의 반대로, 저들에게 전쟁을 선포하였다.",
-                    "sent_id": 1850,
-                    "relations": [],
-                    "annotation_id": 8901
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.36944",
-            "examples": [
-                {
-                    "frameName": "Fields",
+                    "ko_annotation_id": 298,
+                    "annotation_id": 631,
+                    "frameName": "Deny_or_grant_permission",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Deny_or_grant_permission",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 34,
+                                "end": 37
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "권한을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Reason",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 28
+                            },
+                            "text": "그의 성공을 위해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 이번 인사 이동에서 부서를 옮기게 되었다.",
-                    "target": "부서",
-                    "ko_annotation_id": "sejong.36944",
-                    "relations": []
+                    "sent_id": 96,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "권한.n.Deny_or_grant_permission",
+                    "text": "투표자들은 Gonzalez 씨에게 그의 성공을 위해 세 번째 권한을 부여하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1345,
-    "ko_pos": "NNG",
-    "ko_lu": "부서.n.Fields",
-    "lu_id": 953,
-    "en_lus": [
-        "sector"
     ]
 }

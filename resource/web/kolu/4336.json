@@ -1,102 +1,85 @@
 {
-    "frameName": "Cotheme",
+    "ko_pos": "v",
+    "ko_lu": "보다.v.Operate_vehicle",
+    "frameID": 65,
+    "frameName": "Operate_vehicle",
+    "en_lus": [
+        "tobu .飛ぶ "
+    ],
+    "lu_id": 4336,
     "patterns": [
         {
-            "valenceText": "annotation id: 14953",
+            "valenceText": "annotation id: 10771",
             "examples": [
                 {
-                    "frameName": "Cotheme",
-                    "denotations": [
-                        {
-                            "obj": "Theme",
-                            "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
-                        },
-                        {
-                            "obj": "Purpose",
-                            "span": {
-                                "begin": 5,
-                                "end": 13
-                            }
-                        },
-                        {
-                            "obj": "Cotheme",
-                            "span": {
-                                "begin": 21,
-                                "end": 23
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 25,
-                                "end": 28
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "doohan .同伴 "
+                        "tobu .飛ぶ "
                     ],
-                    "ko_annotation_id": 14953,
-                    "text": "미무라는 새 거처를 구하면서 한 번도 그녀를 동반하지 않았다.",
-                    "sent_id": 4637,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.53054",
-            "examples": [
-                {
-                    "frameName": "Cotheme",
+                    "ko_annotation_id": 10771,
+                    "annotation_id": 0,
+                    "frameName": "Operate_vehicle",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Operate_vehicle",
                             "span": {
-                                "begin": 12,
-                                "end": 15
+                                "begin": 46,
+                                "end": 53
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "이번 주말에는 바람을 동반한 한랭전선이 전국을 덮을 것으로 예상된다.",
-                    "target": "동반한",
-                    "ko_annotation_id": "sejong.53054",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.53055",
-            "examples": [
-                {
-                    "frameName": "Cotheme",
-                    "denotations": [
+                            "token_span": [
+                                13,
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "보고 비행하는"
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 17
+                                "begin": 29,
+                                "end": 41
                             },
-                            "obj": "target"
+                            "text": "일절 바깥을 보지 않고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "text": "계기만",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "이번 비는 강한 바람을 동반하니 허술한 곳이 없나 집 안팎을 다시 한번 살피시기 바랍니다.",
-                    "target": "동반하니",
-                    "ko_annotation_id": "sejong.53055",
-                    "relations": []
+                    "sent_id": 3994,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "보다.v.Operate_vehicle",
+                    "text": "그 후, 자가용 조종사 면허, 사업용 조종사 면허, 일절 바깥을 보지 않고 계기만 보고 비행하는 계기 비행증명, 쌍발 이상의 엔진을 지닌 비행기를 조종하는 육상다발기 등의 기본적인 면허를 약 4년간, 비행시간은 약 3백 수십 시간 훈련받고 취득한다."
                 }
             ]
         }
-    ],
-    "frameID": 56,
-    "ko_pos": "VV",
-    "ko_lu": "동반하다.v.Cotheme",
-    "lu_id": 4336,
-    "en_lus": [
-        "doohan .同伴 "
     ]
 }

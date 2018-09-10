@@ -1,52 +1,120 @@
 {
-    "frameName": "Vehicle",
+    "ko_pos": "v",
+    "ko_lu": "포위하다.v.Besieging",
+    "frameID": 1817,
+    "frameName": "Besieging",
+    "en_lus": [
+        "siege"
+    ],
+    "lu_id": 5516,
     "patterns": [
         {
-            "valenceText": "annotation id: 19568",
+            "valenceText": "annotation id: 13147",
             "examples": [
                 {
-                    "frameName": "Vehicle",
+                    "origin_lus": [
+                        "siege"
+                    ],
+                    "ko_annotation_id": 13147,
+                    "annotation_id": 3581,
+                    "frameName": "Besieging",
                     "denotations": [
                         {
-                            "obj": "use",
+                            "id": 1,
+                            "obj": "Besieging",
                             "span": {
-                                "begin": 71,
-                                "end": 75
+                                "begin": 31,
+                                "end": 37
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "포위하였고,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 76,
-                                "end": 79
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "1"
+                            "text": "결국,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Assailant",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 16
+                            },
+                            "text": "로마 장군 Titus는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 24
+                            },
+                            "text": "서기 70년에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Victim",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 30
+                            },
+                            "text": "예루살렘을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "vehicle"
-                    ],
-                    "ko_annotation_id": 19568,
-                    "text": "미국 정보부는 북한으로부터 완전한 시스템이나 주요 하부 시스템의 획득이 없다면, 이란은 향후 5년 내에 대륙간 탄도 미사일이나 위성발사 비행체 ( SLV ) 를 발사할 것 같지 않다고 보고 있다.",
-                    "sent_id": 2386,
+                    "sent_id": 670,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 12045
+                    "lu": "포위하다.v.Besieging",
+                    "text": "결국, 로마 장군 Titus는 서기 70년에 예루살렘을 포위하였고, 마침내 예루살렘의 굶주리고 허약해진 방어자들을 공격하였다."
                 }
             ]
         }
-    ],
-    "frameID": 429,
-    "ko_pos": "NN",
-    "ko_lu": "비행체.n.Vehicle",
-    "lu_id": 5516,
-    "en_lus": [
-        "vehicle"
     ]
 }

@@ -1,65 +1,83 @@
 {
-    "frameName": "Partitive",
+    "ko_pos": "a",
+    "ko_lu": "친하다.a.Personal_relationship",
+    "frameID": 102,
+    "frameName": "Personal_relationship",
+    "en_lus": [
+        "tomodati .友だち"
+    ],
+    "lu_id": 2502,
     "patterns": [
         {
-            "valenceText": "annotation id: 8270",
+            "valenceText": "annotation id: 11880",
             "examples": [
                 {
-                    "frameName": "Partitive",
+                    "origin_lus": [
+                        "tomodati .友だち"
+                    ],
+                    "ko_annotation_id": 11880,
+                    "annotation_id": 0,
+                    "frameName": "Personal_relationship",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Personal_relationship",
                             "span": {
-                                "begin": 65,
-                                "end": 67
+                                "begin": 31,
+                                "end": 35
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "친했다."
                         },
                         {
-                            "obj": "group",
+                            "id": 2,
+                            "obj": "Partner_1",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 75,
-                                "end": 79
+                                "begin": 8,
+                                "end": 18
                             },
-                            "id": "3"
+                            "text": "이 마을의 아이들은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "subset",
+                            "id": 3,
+                            "obj": "Partner_2",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 81,
-                                "end": 87
+                                "begin": 28,
+                                "end": 30
                             },
-                            "id": "2"
+                            "text": "물과",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "of"
-                    ],
-                    "ko_annotation_id": 8270,
-                    "text": "주들 간 상호 계량 경제적 조사를 하면, 더 나아가서, 다른 요인들을 일정하게 유지하면, 공화당 주지사 후보로 가는 주의 다수당 표와 주 하원의 공화당 의석 사이의 차이는 주 세율의 정의 함수로 나타난다.",
-                    "sent_id": 301,
+                    "sent_id": 4681,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1675
+                    "lu": "친하다.a.Personal_relationship",
+                    "text": "그에 비하면, 이 마을의 아이들은 마치 물고기처럼 물과 친했다."
                 }
             ]
         }
-    ],
-    "frameID": 1010,
-    "ko_pos": "NNG",
-    "ko_lu": "주의.n.Partitive",
-    "lu_id": 2502,
-    "en_lus": [
-        "of"
     ]
 }

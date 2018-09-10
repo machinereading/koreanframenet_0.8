@@ -1,74 +1,85 @@
 {
-    "frameName": "Execution",
+    "ko_pos": "v",
+    "ko_lu": "일으키다.v.Cause_to_start",
+    "frameID": 381,
+    "frameName": "Cause_to_start",
+    "en_lus": [
+        "arouse"
+    ],
+    "lu_id": 1780,
     "patterns": [
         {
-            "valenceText": "annotation id: 5600",
+            "valenceText": "annotation id: 1659",
             "examples": [
                 {
-                    "frameName": "Execution",
+                    "origin_lus": [
+                        "aroused"
+                    ],
+                    "ko_annotation_id": 1659,
+                    "annotation_id": 3459,
+                    "frameName": "Cause_to_start",
                     "denotations": [
                         {
-                            "obj": "executed",
+                            "id": 1,
+                            "obj": "Cause_to_start",
                             "span": {
-                                "begin": 18,
-                                "end": 48
+                                "begin": 37,
+                                "end": 42
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "일으켰다고"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 50,
-                                "end": 53
+                                "begin": 4,
+                                "end": 15
                             },
-                            "id": "1"
+                            "text": "양 왕국의 통치자들의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 36
+                            },
+                            "text": "대 예언자의 분노를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "execution"
-                    ],
-                    "ko_annotation_id": 5600,
-                    "text": "예수는 신속히 재판에 회부되었고 일반 범죄자들은 물론이고 정치적 그리고 종교적 반대자들을 사형하는 로마의 형태인 십자가 처형 선고를 받았다.",
-                    "sent_id": 666,
+                    "sent_id": 639,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 3563
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.64791",
-            "examples": [
-                {
-                    "frameName": "Execution",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 21,
-                                "end": 25
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "전시에는 군법에 의해 군대가 탈영병을 사형한다.",
-                    "target": "사형한다",
-                    "ko_annotation_id": "sejong.64791",
-                    "relations": []
+                    "lu": "일으키다.v.Cause_to_start",
+                    "text": "성경은 양 왕국의 통치자들의 잔임함과 불신앙은 대 예언자의 분노를 일으켰다고 우리에게 말한다."
                 }
             ]
         }
-    ],
-    "frameID": 225,
-    "ko_pos": "VV",
-    "ko_lu": "사형하다.v.Execution",
-    "lu_id": 1780,
-    "en_lus": [
-        "execution"
     ]
 }

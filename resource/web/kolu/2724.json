@@ -1,65 +1,83 @@
 {
-    "frameName": "Hearsay",
+    "ko_pos": "a",
+    "ko_lu": "뚜렷하다.a.Obviousness",
+    "frameID": 1360,
+    "frameName": "Obviousness",
+    "en_lus": [
+        "hakkiri .はっきり"
+    ],
+    "lu_id": 2724,
     "patterns": [
         {
-            "valenceText": "annotation id: 8883",
+            "valenceText": "annotation id: 10356",
             "examples": [
                 {
-                    "frameName": "Hear",
+                    "origin_lus": [
+                        "hakkiri .はっきり"
+                    ],
+                    "ko_annotation_id": 10356,
+                    "annotation_id": 0,
+                    "frameName": "Obviousness",
                     "denotations": [
                         {
-                            "obj": "hearer",
+                            "id": 1,
+                            "obj": "Obviousness",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 35,
+                                "end": 39
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "뚜렷하게"
                         },
                         {
-                            "obj": "topic",
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 19
+                                "begin": 18,
+                                "end": 31
                             },
-                            "id": "3"
+                            "text": "하리마의 지리적인 의미를",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 23
+                                "begin": 32,
+                                "end": 34
                             },
-                            "id": "1"
+                            "text": "가장",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hearing"
-                    ],
-                    "ko_annotation_id": 8883,
-                    "text": "당신은 조류 독감에 대해 아주 많이 들어왔다.",
-                    "sent_id": 1744,
+                    "sent_id": 3696,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8492
+                    "lu": "뚜렷하다.a.Obviousness",
+                    "text": "우선, 하리마는 무엇인가 하는, 하리마의 지리적인 의미를 가장 뚜렷하게 보여주는 것이 아카마쓰라고 생각합니다."
                 }
             ]
         }
-    ],
-    "frameID": 37,
-    "ko_pos": "VV",
-    "ko_lu": "들어오다.v.Hearsay",
-    "lu_id": 2724,
-    "en_lus": [
-        "hearing"
     ]
 }

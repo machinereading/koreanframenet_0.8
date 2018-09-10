@@ -1,66 +1,83 @@
 {
-    "frameName": "Version_sequence",
+    "ko_pos": "a",
+    "ko_lu": "되다.a.Capability",
+    "frameID": 990,
+    "frameName": "Capability",
+    "en_lus": [
+        "could"
+    ],
+    "lu_id": 3642,
     "patterns": [
         {
-            "valenceText": "annotation id: 12505",
+            "valenceText": "annotation id: 15212",
             "examples": [
                 {
-                    "frameName": "Version_sequence",
+                    "origin_lus": [
+                        "could"
+                    ],
+                    "ko_annotation_id": 15212,
+                    "annotation_id": 14376,
+                    "frameName": "Capability",
                     "denotations": [
                         {
-                            "obj": "Item",
+                            "id": 1,
+                            "obj": "Capability",
                             "span": {
-                                "begin": 9,
-                                "end": 13
-                            }
+                                "begin": 49,
+                                "end": 53
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "되었다고"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 5,
-                                "end": 7
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "toosyo .当初 "
-                    ],
-                    "ko_annotation_id": 12505,
-                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다.",
-                    "sent_id": 4550,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.35351",
-            "examples": [
-                {
-                    "frameName": "Version_sequence",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 7,
-                                "end": 9
+                                "begin": 0,
+                                "end": 6
                             },
-                            "id": "1"
+                            "text": "대포동-2는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 48
+                            },
+                            "text": "시험을 위한 준비가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "이번 작품은 기존의 양식에서 벗어난 새로운 시도로 보인다",
-                    "target": "기존",
-                    "ko_annotation_id": "sejong.35351",
-                    "relations": []
+                    "sent_id": 2833,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "되다.a.Capability",
+                    "text": "대포동-2는 비행시험을 하지 않았지만, 미국 정보 분석가들은 언제나 시험을 위한 준비가 되었다고 믿으며, 평양은 약 175 기의 노동을 포함하여, 600 - 700 기의 탄도 미사일을 배치하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1960,
-    "ko_pos": "NNG",
-    "ko_lu": "기존.n.Version_sequence",
-    "lu_id": 3642,
-    "en_lus": [
-        "toosyo .当初 "
     ]
 }

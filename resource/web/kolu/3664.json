@@ -1,52 +1,83 @@
 {
-    "frameName": "Purpose",
+    "ko_pos": "n",
+    "ko_lu": "중심부.n.Part_whole",
+    "frameID": 140,
+    "frameName": "Part_whole",
+    "en_lus": [
+        "bubun .部分"
+    ],
+    "lu_id": 3664,
     "patterns": [
         {
-            "valenceText": "annotation id: 12551",
+            "valenceText": "annotation id: 10323",
             "examples": [
                 {
-                    "frameName": "Purpose",
+                    "origin_lus": [
+                        "bubun .部分"
+                    ],
+                    "ko_annotation_id": 10323,
+                    "annotation_id": 0,
+                    "frameName": "Part_whole",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Part_whole",
                             "span": {
-                                "begin": 10,
-                                "end": 13
+                                "begin": 43,
+                                "end": 47
                             },
-                            "id": "1"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "중심부를"
                         },
                         {
-                            "obj": "goal",
+                            "id": 2,
+                            "obj": "Part",
+                            "token_span": [
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 40,
-                                "end": 42
+                                "begin": 33,
+                                "end": 40
                             },
-                            "id": "2"
+                            "text": "젊은 노동자는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Whole",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 47
+                            },
+                            "text": "그 중심부를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "use"
-                    ],
-                    "ko_annotation_id": 12551,
-                    "text": "인도는 또한 신경 작용제 VX 뿐만 아니라 살충제 생산에 사용되는 군민 양용 화학물질인,   5황화인을 이란에 판매하기로 합의하였다.",
-                    "sent_id": 2248,
+                    "sent_id": 3661,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 11256
+                    "lu": "중심부.n.Part_whole",
+                    "text": "근로자의 70% 가까이가 제조업 노동자에 해당했던 시대로, 젊은 노동자는 그 중심부를 담당하고 있었습니다."
                 }
             ]
         }
-    ],
-    "frameID": 513,
-    "ko_pos": "NN",
-    "ko_lu": "작용제.n.Purpose",
-    "lu_id": 3664,
-    "en_lus": [
-        "use"
     ]
 }

@@ -1,51 +1,65 @@
 {
-    "frameName": "Residence",
+    "ko_pos": "n",
+    "ko_lu": "가끔.n.Frequency",
+    "frameID": 80,
+    "frameName": "Frequency",
+    "en_lus": [
+        "occasional"
+    ],
+    "lu_id": 2407,
     "patterns": [
         {
-            "valenceText": "annotation id: 7891",
+            "valenceText": "annotation id: 13200",
             "examples": [
                 {
-                    "frameName": "Residence",
+                    "origin_lus": [
+                        "occasional"
+                    ],
+                    "ko_annotation_id": 13200,
+                    "annotation_id": 3803,
+                    "frameName": "Frequency",
                     "denotations": [
                         {
-                            "obj": "Resident",
+                            "id": 1,
+                            "obj": "Frequency",
                             "span": {
-                                "begin": 24,
-                                "end": 27
-                            }
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "가끔의"
                         },
                         {
-                            "obj": "Co_resident",
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
                             "span": {
-                                "begin": 29,
-                                "end": 32
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 12,
-                                "end": 14
-                            }
+                                "begin": 39,
+                                "end": 53
+                            },
+                            "text": "테러리즘이나 저격 사건으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "dookyo .同居 "
+                    "sent_id": 724,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7891,
-                    "text": "하지만, 출산 전부터 동거 생활을 시작했던 다카코와 마사오의 관계는, 이때 이미 톱니바퀴가 엇나가고 있었다.",
-                    "sent_id": 4800,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "가끔.n.Frequency",
+                    "text": "정치적 그리고 종교적 벽은 1967년 6월의 6일 전쟁 때까지 가끔의 테러리즘이나 저격 사건으로 악화되었다."
                 }
             ]
         }
-    ],
-    "frameID": 110,
-    "ko_pos": "NNG",
-    "ko_lu": "동거.n.Residence",
-    "lu_id": 2407,
-    "en_lus": [
-        "dookyo .同居 "
     ]
 }

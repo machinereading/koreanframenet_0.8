@@ -1,52 +1,81 @@
 {
-    "frameName": "Needing",
+    "ko_pos": "n",
+    "ko_lu": "정형외.n.Medical_specialties",
+    "frameID": 256,
+    "frameName": "Medical_specialties",
+    "en_lus": [
+        "seekee .整形 "
+    ],
+    "lu_id": 1934,
     "patterns": [
         {
-            "valenceText": "annotation id: 6106",
+            "valenceText": "annotation id: 16292",
             "examples": [
                 {
-                    "frameName": "Needing",
+                    "origin_lus": [
+                        "seekee .整形 "
+                    ],
+                    "ko_annotation_id": 16292,
+                    "annotation_id": 0,
+                    "frameName": "Medical_specialties",
                     "denotations": [
                         {
-                            "obj": "requirement",
+                            "id": 1,
+                            "obj": "Medical_specialties",
                             "span": {
-                                "begin": 53,
-                                "end": 61
+                                "begin": 25,
+                                "end": 29
                             },
-                            "id": "2"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "정형외과"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Specialty",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 62,
-                                "end": 65
+                                "begin": 25,
+                                "end": 29
                             },
-                            "id": "1"
+                            "text": "정형외과",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Type",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "text": "의사에게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "need"
-                    ],
-                    "ko_annotation_id": 6106,
-                    "text": "핵무기를 추구하는 알 카이다의 본거지인 남아시아에서 보다 핵전쟁이나 핵 테러리즘의 위협, 또는 핵무기를 보호할 필요성이 더 중요한 곳은 아무데도 없다고, Dorgan이 남아시아를 지역의 핵무기 보유국인 중국, 인도, 파키스탄 간의 관계가 역사적으로 긴장되어온 지역으로 설명하면서 말했다. ( DailyIndia.com ; 06년 6월 25일 ; Arun Kumar, Indo - Asian News Service ) ( Link )",
-                    "sent_id": 3241,
+                    "sent_id": 3913,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17099
+                    "lu": "정형외.n.Medical_specialties",
+                    "text": "(오십견인가?) 병원에서 동년배들이 하나둘, 정형외과 의사에게 그런 진단을 받았다며, 한숨짓던 것이 생각났다."
                 }
             ]
         }
-    ],
-    "frameID": 1375,
-    "ko_pos": "NN",
-    "ko_lu": "필요성.n.Needing",
-    "lu_id": 1934,
-    "en_lus": [
-        "need"
     ]
 }

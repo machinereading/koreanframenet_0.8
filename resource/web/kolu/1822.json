@@ -1,65 +1,93 @@
 {
-    "frameName": "Social_connection",
+    "ko_pos": "v",
+    "ko_lu": "보이다.v.Reasoning",
+    "frameID": 308,
+    "frameName": "Reasoning",
+    "en_lus": [
+        "demonstrate"
+    ],
+    "lu_id": 1822,
     "patterns": [
         {
-            "valenceText": "annotation id: 5753",
+            "valenceText": "annotation id: 5481",
             "examples": [
                 {
-                    "frameName": "Social_connection",
+                    "origin_lus": [
+                        "demonstrating"
+                    ],
+                    "ko_annotation_id": 5481,
+                    "annotation_id": 9943,
+                    "frameName": "Reasoning",
                     "denotations": [
                         {
-                            "obj": "individual2",
+                            "id": 1,
+                            "obj": "Reasoning",
                             "span": {
-                                "begin": 32,
-                                "end": 46
+                                "begin": 59,
+                                "end": 65
                             },
-                            "id": "3"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "보여줌으로써"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Arguer",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 48,
-                                "end": 51
+                                "begin": 0,
+                                "end": 7
                             },
-                            "id": "1"
+                            "text": "테러리스트들은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "individual1",
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 53,
-                                "end": 78
+                                "begin": 8,
+                                "end": 58
                             },
-                            "id": "2"
+                            "text": "화학 생물무기 작용제를 개발, 생산, 및 배달하는 데 필요한 기술적인 능력을 가졌다는 것을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "close"
-                    ],
-                    "ko_annotation_id": 5753,
-                    "text": "그러나 안보 전문가들은 이 거래가 이란의 최고보안수석이자 Rafsanjani 대통령의 측근인, Majid Tehrani Abbaspur 박사가 인가한 것으로 믿는다.",
-                    "sent_id": 2312,
+                    "sent_id": 2038,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 11637
+                    "lu": "보이다.v.Reasoning",
+                    "text": "테러리스트들은 화학 생물무기 작용제를 개발, 생산, 및 배달하는 데 필요한 기술적인 능력을 가졌다는 것을 보여줌으로써 더 큰 지위 협상력을 가지려고 할 수 있다."
                 }
             ]
         }
-    ],
-    "frameID": 253,
-    "ko_pos": "NNG",
-    "ko_lu": "측근.n.Social_connection",
-    "lu_id": 1822,
-    "en_lus": [
-        "close"
     ]
 }

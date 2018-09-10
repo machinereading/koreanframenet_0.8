@@ -1,52 +1,64 @@
 {
-    "frameName": "Social_interaction_evaluation",
+    "ko_pos": "n",
+    "ko_lu": "세대.n.Timespan",
+    "frameID": 2142,
+    "frameName": "Timespan",
+    "en_lus": [
+        "dai .代"
+    ],
+    "lu_id": 3242,
     "patterns": [
         {
-            "valenceText": "annotation id: 11031",
+            "valenceText": "annotation id: 11663",
             "examples": [
                 {
-                    "frameName": "Social_interaction_evaluation",
+                    "origin_lus": [
+                        "dai .代"
+                    ],
+                    "ko_annotation_id": 11663,
+                    "annotation_id": 0,
+                    "frameName": "Timespan",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Timespan",
                             "span": {
-                                "begin": 10,
-                                "end": 13
+                                "begin": 5,
+                                "end": 10
                             },
-                            "id": "1"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "세대에는,"
                         },
                         {
-                            "obj": "behavior",
+                            "id": 2,
+                            "obj": "Duration",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 0,
+                                "end": 10
                             },
-                            "id": "2"
+                            "text": "할아버지 세대에는,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "warm"
-                    ],
-                    "ko_annotation_id": 11031,
-                    "text": "그 소문난 환대와 따뜻한 환영은 여전히 여기에 있다.",
-                    "sent_id": 950,
+                    "sent_id": 4548,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4929
+                    "lu": "세대.n.Timespan",
+                    "text": "할아버지 세대에는, 초등학교도, 아이들이 뛰놀던 신사도, 모두 나카타 가문이 소유하는 토지에 속해 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 372,
-    "ko_pos": "VA",
-    "ko_lu": "따뜻하다.a.Social_interaction_evaluation",
-    "lu_id": 3242,
-    "en_lus": [
-        "warm"
     ]
 }

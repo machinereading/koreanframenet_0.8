@@ -1,100 +1,245 @@
 {
-    "frameName": "Money",
+    "ko_pos": "v",
+    "ko_lu": "태어나다.v.Being_born",
+    "frameID": 793,
+    "frameName": "Being_born",
+    "en_lus": [
+        "umareru .生まれる ",
+        "bear"
+    ],
+    "lu_id": 4053,
     "patterns": [
         {
-            "valenceText": "annotation id: 13762",
+            "valenceText": "annotation id: 2264",
             "examples": [
                 {
-                    "frameName": "Money",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 20,
-                                "end": 22
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "cash"
+                        "born",
+                        "umareru .生まれる "
                     ],
-                    "ko_annotation_id": 13762,
-                    "text": "그러나 알다싶이, 우리가 지금 가진 현금의 지출이 적으면 적을수록 더 좋다.",
-                    "sent_id": 1814,
-                    "relations": [],
-                    "annotation_id": 8764
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 13763",
-            "examples": [
-                {
-                    "frameName": "Money",
+                    "ko_annotation_id": 2264,
+                    "annotation_id": 4520,
+                    "frameName": "Being_born",
                     "denotations": [
                         {
-                            "obj": "possessor",
+                            "id": 1,
+                            "obj": "Being_born",
                             "span": {
-                                "begin": 45,
-                                "end": 47
+                                "begin": 10,
+                                "end": 15
                             },
-                            "id": "2"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "태어나거나"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 48,
-                                "end": 50
+                                "begin": 5,
+                                "end": 9
                             },
-                            "id": "1"
+                            "text": "홍콩에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Child",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 33
+                            },
+                            "text": "광동인이지만,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "cash"
-                    ],
-                    "ko_annotation_id": 13763,
-                    "text": "조직 범죄는 곧 라스 베이거스를 지배하는데 있어서 강력한 적수가 나타났다. -- 기업 현금.",
-                    "sent_id": 821,
+                    "sent_id": 873,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4267
+                    "lu": "태어나다.v.Being_born",
+                    "text": "대다수는 홍콩에서 태어나거나 중국 남부 출신인 광동인이지만, 그러나 중국 전역에서 온 이주민들이 있다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.41151",
+            "valenceText": "annotation id: 16120",
             "examples": [
                 {
-                    "frameName": "Money",
+                    "origin_lus": [
+                        "born",
+                        "umareru .生まれる "
+                    ],
+                    "ko_annotation_id": 16120,
+                    "annotation_id": 0,
+                    "frameName": "Being_born",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Being_born",
                             "span": {
-                                "begin": 7,
-                                "end": 9
+                                "begin": 14,
+                                "end": 17
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "태어난"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Child",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "우리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "text": "이 세상에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 주식을 현금으로 바꿨다.",
-                    "target": "현금",
-                    "ko_annotation_id": "sejong.41151",
-                    "relations": []
+                    "sent_id": 3597,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "태어나다.v.Being_born",
+                    "text": "우리는 우연히 이 세상에 태어난 것이 아니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16757",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "umareru .生まれる "
+                    ],
+                    "ko_annotation_id": 16757,
+                    "annotation_id": 0,
+                    "frameName": "Being_born",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_born",
+                            "span": {
+                                "begin": 82,
+                                "end": 85
+                            },
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "태어난"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 61,
+                                "end": 66
+                            },
+                            "text": "이 시대,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 67,
+                                "end": 72
+                            },
+                            "text": "이 장소,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Relatives",
+                            "token_span": [
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 73,
+                                "end": 81
+                            },
+                            "text": "이 가족 안에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4896,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "태어나다.v.Being_born",
+                    "text": "많은 선조가 있었고, 각각의 영혼의 진화 과정이 있었기 때문에, 필연적이라고나 할까, 자신이 스스로 선택하여 이 시대, 이 장소, 이 가족 안에서 태어난 것이라고 나는 생각한다."
                 }
             ]
         }
-    ],
-    "frameID": 1761,
-    "ko_pos": "NNG",
-    "ko_lu": "현금.n.Money",
-    "lu_id": 4053,
-    "en_lus": [
-        "cash"
     ]
 }

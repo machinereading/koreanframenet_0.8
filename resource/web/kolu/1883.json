@@ -1,44 +1,65 @@
 {
-    "frameName": "Businesses",
+    "ko_pos": "v",
+    "ko_lu": "부인되다.v.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "deny"
+    ],
+    "lu_id": 1883,
     "patterns": [
         {
-            "valenceText": "annotation id: 5919",
+            "valenceText": "annotation id: 9707",
             "examples": [
                 {
-                    "frameName": "Businesses",
+                    "origin_lus": [
+                        "denied"
+                    ],
+                    "ko_annotation_id": 9707,
+                    "annotation_id": 18017,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "Service_provider",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 12,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "부인되었으나"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
-                            }
+                                "end": 11
+                            },
+                            "text": "계약에 대한 보도들은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hanaya .花屋 "
+                    "sent_id": 3406,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5919,
-                    "text": "꽃집에서 그 즈음 파는 것은, 틀림없이 온실에서 자란 것이겠지.",
-                    "sent_id": 4612,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "부인되다.v.Statement",
+                    "text": "계약에 대한 보도들은 부인되었으나 ( 576 ), KWU사는 이란의 요청으로 아르헨티나 및 스페인과 협상 중이라고 한다 ( 2219 )."
                 }
             ]
         }
-    ],
-    "frameID": 365,
-    "ko_pos": "NNG",
-    "ko_lu": "꽃집.n.Businesses",
-    "lu_id": 1883,
-    "en_lus": [
-        "hanaya .花屋 "
     ]
 }

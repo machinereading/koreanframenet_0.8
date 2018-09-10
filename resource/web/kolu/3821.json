@@ -1,51 +1,82 @@
 {
-    "frameName": "Departing",
+    "ko_pos": "v",
+    "ko_lu": "학살하다.v.Killing",
+    "frameID": 590,
+    "frameName": "Killing",
+    "en_lus": [
+        "slaughter"
+    ],
+    "lu_id": 3821,
     "patterns": [
         {
-            "valenceText": "annotation id: 13091",
+            "valenceText": "annotation id: 1773",
             "examples": [
                 {
-                    "frameName": "Departing",
+                    "origin_lus": [
+                        "slaughtering"
+                    ],
+                    "ko_annotation_id": 1773,
+                    "annotation_id": 3673,
+                    "frameName": "Killing",
                     "denotations": [
                         {
-                            "obj": "Purpose",
+                            "id": 1,
+                            "obj": "Killing",
                             "span": {
-                                "begin": 39,
-                                "end": 44
-                            }
+                                "begin": 66,
+                                "end": 72
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "학살함으로써"
                         },
                         {
-                            "obj": "Theme",
+                            "id": 2,
+                            "obj": "Killer",
+                            "token_span": [
+                                9
+                            ],
                             "span": {
-                                "begin": 49,
-                                "end": 51
-                            }
+                                "begin": 51,
+                                "end": 55
+                            },
+                            "text": "십자군이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 46,
-                                "end": 48
-                            }
+                                "begin": 56,
+                                "end": 65
+                            },
+                            "text": "무슬림과 유대인을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "deru .出る "
+                    "sent_id": 693,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13091,
-                    "text": "박쥐의 먹이가 되는 것이 모기입니다만, 모기는 야행성 곤충으로 야간에 먹이 사냥에 나선 박쥐에게는 마치 좋은 먹잇감이 되어 줍니다.",
-                    "sent_id": 4761,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "학살하다.v.Killing",
+                    "text": "1099년에 그들의 지도자인 Godfrey de Bouillon 과 Tancred 휘하에서 십자군이 무슬림과 유대인을 학살함으로써 전 세계 기독교도들을 위한 Holy City를 점령하였다."
                 }
             ]
         }
-    ],
-    "frameID": 57,
-    "ko_pos": "VV",
-    "ko_lu": "나서다.v.Departing",
-    "lu_id": 3821,
-    "en_lus": [
-        "deru .出る "
     ]
 }

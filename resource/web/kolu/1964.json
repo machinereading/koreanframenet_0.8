@@ -1,52 +1,209 @@
 {
-    "frameName": "Commerce_scenario",
+    "ko_pos": "n",
+    "ko_lu": "제품.n.Manufacturing",
+    "frameID": 408,
+    "frameName": "Manufacturing",
+    "en_lus": [
+        "seehin .製品"
+    ],
+    "lu_id": 1964,
     "patterns": [
         {
-            "valenceText": "annotation id: 6196",
+            "valenceText": "annotation id: 11780",
             "examples": [
                 {
-                    "frameName": "Commerce_scenario",
+                    "origin_lus": [
+                        "seehin .製品"
+                    ],
+                    "ko_annotation_id": 11780,
+                    "annotation_id": 0,
+                    "frameName": "Manufacturing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Manufacturing",
                             "span": {
-                                "begin": 13,
-                                "end": 19
+                                "begin": 22,
+                                "end": 25
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "제품을"
                         },
                         {
-                            "obj": "seller",
+                            "id": 2,
+                            "obj": "Manufacturer",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 35
+                                "begin": 5,
+                                "end": 9
                             },
-                            "id": "2"
+                            "text": "상대방은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 21
+                            },
+                            "text": "A+b+C로 이루어진",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Product",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "text": "제품을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "trafficker"
-                    ],
-                    "ko_annotation_id": 6196,
-                    "text": "나중에, 또다른 고위급 불법 거래자 Leonidas Vargas가 체포되었고 1,000 파운드의 다이나마이트가 압류되었다.",
-                    "sent_id": 3539,
+                    "sent_id": 4626,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 18553
+                    "lu": "제품.n.Manufacturing",
+                    "text": "그런데, 상대방은 A+b+C로 이루어진 제품을 제조 판매하고 있습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16387",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "seehin .製品"
+                    ],
+                    "ko_annotation_id": 16387,
+                    "annotation_id": 0,
+                    "frameName": "Manufacturing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Manufacturing",
+                            "span": {
+                                "begin": 54,
+                                "end": 57
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "제품은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 57
+                            },
+                            "text": "설계되는 제품은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4174,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "제품.n.Manufacturing",
+                    "text": "실제로, 예를 들어 우리가 개발하고 있는 반도체분야는, 연속적인 성능향상이 요구되므로, 설계되는 제품은 대부분 이론 한계치에 근사하게 설계된다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16810",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "seehin .製品"
+                    ],
+                    "ko_annotation_id": 16810,
+                    "annotation_id": 0,
+                    "frameName": "Manufacturing",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Manufacturing",
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "제품을,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 29
+                            },
+                            "text": "이론 한계치에 근접한 수준으로 설계되는 모든 제품을,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 5023,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "제품.n.Manufacturing",
+                    "text": "이론 한계치에 근접한 수준으로 설계되는 모든 제품을, 다른 어떤 기업보다도 신속하게 수율 100%로 만들어내지 못하는 한 사업은 성공하지 못한다."
                 }
             ]
         }
-    ],
-    "frameID": 82,
-    "ko_pos": "NNG",
-    "ko_lu": "거래.n.Commerce_scenario",
-    "lu_id": 1964,
-    "en_lus": [
-        "trafficker"
     ]
 }

@@ -1,109 +1,138 @@
 {
-    "frameName": "Statement",
+    "ko_pos": "n",
+    "ko_lu": "여행.n.Touring",
+    "frameID": 1907,
+    "frameName": "Touring",
+    "en_lus": [
+        "tour"
+    ],
+    "lu_id": 2343,
     "patterns": [
         {
-            "valenceText": "annotation id: 7592",
+            "valenceText": "annotation id: 3108",
             "examples": [
                 {
-                    "frameName": "Statement",
+                    "origin_lus": [
+                        "tour"
+                    ],
+                    "ko_annotation_id": 3108,
+                    "annotation_id": 5951,
+                    "frameName": "Touring",
                     "denotations": [
                         {
-                            "obj": "message",
+                            "id": 1,
+                            "obj": "Touring",
                             "span": {
-                                "begin": 9,
-                                "end": 46
+                                "begin": 36,
+                                "end": 39
                             },
-                            "id": "3"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "여행을"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Tourist",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 27
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "1"
+                            "text": "당신은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "message",
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 29,
-                                "end": 46
+                                "begin": 4,
+                                "end": 32
                             },
-                            "id": "2"
+                            "text": "여성 운전자의 손에서 추진되는 작은 배들 중 하나로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Attraction",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 35
+                            },
+                            "text": "항구",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "said"
-                    ],
-                    "ko_annotation_id": 7592,
-                    "text": "이번주, 정부는 네 번째 순위의 기업 연합 리더인, Jose Abello Silva를 체포하였다",
-                    "sent_id": 3537,
+                    "sent_id": 1133,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 18539
+                    "lu": "여행.n.Touring",
+                    "text": "당신은 여성 운전자의 손에서 추진되는 작은 배들 중 하나로 항구 여행을 할 수 있다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.40011",
+            "valenceText": "annotation id: 3115",
             "examples": [
                 {
-                    "frameName": "Statement",
+                    "origin_lus": [
+                        "tour"
+                    ],
+                    "ko_annotation_id": 3115,
+                    "annotation_id": 5960,
+                    "frameName": "Touring",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Touring",
                             "span": {
-                                "begin": 6,
+                                "begin": 5,
                                 "end": 8
                             },
-                            "id": "1"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "여행에"
                         }
                     ],
-                    "text": "우리 팀의 리더는 많은 활동을 벌였다.",
-                    "target": "리더",
-                    "ko_annotation_id": "sejong.40011",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.40012",
-            "examples": [
-                {
-                    "frameName": "Statement",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 9,
-                                "end": 11
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "그 집단을 이끌 리더들을 다시 뽑았다.",
-                    "target": "리더",
-                    "ko_annotation_id": "sejong.40012",
-                    "relations": []
+                    "sent_id": 1134,
+                    "relations": [],
+                    "lu": "여행.n.Touring",
+                    "text": "반 시간 여행에 50 홍콩달러가 든다 ; 마지막에 지불하라, 그렇지 않으면 운전자가 당신 여행을 짧게 자를 지도 모른다."
                 }
             ]
         }
-    ],
-    "frameID": 43,
-    "ko_pos": "NNG",
-    "ko_lu": "리더.n.Statement",
-    "lu_id": 2343,
-    "en_lus": [
-        "say"
     ]
 }

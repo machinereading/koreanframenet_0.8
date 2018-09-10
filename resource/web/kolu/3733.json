@@ -1,66 +1,71 @@
 {
-    "frameName": "Sleep",
+    "ko_pos": "v",
+    "ko_lu": "주시당하다.v.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "announce"
+    ],
+    "lu_id": 3733,
     "patterns": [
         {
-            "valenceText": "annotation id: 12767",
+            "valenceText": "annotation id: 3563",
             "examples": [
                 {
-                    "frameName": "Sleep",
+                    "origin_lus": [
+                        "announced"
+                    ],
+                    "ko_annotation_id": 3563,
+                    "annotation_id": 6688,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "Time",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 6,
-                                "end": 8
-                            }
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "주었다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 8
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "nemuri .眠り"
-                    ],
-                    "ko_annotation_id": 12767,
-                    "text": "이 시기에 밤잠이 들면, 가슴 속의 섬세해진 어떤 부분이 깨어나, 등이 쫙 펴지는 순간을 느낄 수 있습니다.",
-                    "sent_id": 4058,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.38680",
-            "examples": [
-                {
-                    "frameName": "Sleep",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 3,
-                                "end": 5
+                                "begin": 0,
+                                "end": 45
                             },
-                            "id": "1"
+                            "text": "국방성은 BioPort사에게 탄저백신을 제조, 시험, 병으로 만들고 저장하기 위한",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 밤잠을 설쳤다.",
-                    "target": "밤잠",
-                    "ko_annotation_id": "sejong.38680",
-                    "relations": []
+                    "sent_id": 1349,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주시당하다.v.Statement",
+                    "text": "국방성은 BioPort사에게 탄저백신을 제조, 시험, 병으로 만들고 저장하기 위한 계약을 주었다."
                 }
             ]
         }
-    ],
-    "frameID": 264,
-    "ko_pos": "NNG",
-    "ko_lu": "밤잠.n.Sleep",
-    "lu_id": 3733,
-    "en_lus": [
-        "nemuri .眠り"
     ]
 }

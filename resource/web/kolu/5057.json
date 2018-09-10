@@ -1,38 +1,87 @@
 {
-    "frameName": "People_by_origin",
+    "ko_pos": "a",
+    "ko_lu": "되다.a.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "do"
+    ],
+    "lu_id": 5057,
     "patterns": [
         {
-            "valenceText": "annotation id: 17769",
+            "valenceText": "annotation id: 7970",
             "examples": [
                 {
-                    "frameName": "People_by_origin",
+                    "origin_lus": [
+                        "done"
+                    ],
+                    "ko_annotation_id": 7970,
+                    "annotation_id": 14523,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 3,
-                                "end": 7
+                                "begin": 67,
+                                "end": 71
                             },
-                            "id": "1"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 35
+                            },
+                            "text": "핵무기를 성공적으로 획득한 것으로 알려진 모든 국가들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 63,
+                                "end": 66
+                            },
+                            "text": "그렇게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Germans"
+                    "sent_id": 2850,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 17769,
-                    "text": "후에 독일인들은 세력을 얻어 많은 섬을 점령하였다.",
-                    "sent_id": 601,
-                    "relations": [],
-                    "annotation_id": 3201
+                    "lu": "되다.a.Intentionally_act",
+                    "text": "그러나, 핵무기를 성공적으로 획득한 것으로 알려진 모든 국가들은 주로 자체적으로 생산한 핵분열성 물질을 기반으로 그렇게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 974,
-    "ko_pos": "NN",
-    "ko_lu": "독일인들.n.People_by_origin",
-    "lu_id": 5057,
-    "en_lus": [
-        "Germans"
     ]
 }

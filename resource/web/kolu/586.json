@@ -1,82 +1,84 @@
 {
-    "frameName": "Calendric_unit",
+    "ko_pos": "n",
+    "ko_lu": "기여.n.Giving",
+    "frameID": 139,
+    "frameName": "Giving",
+    "en_lus": [
+        "contribution"
+    ],
+    "lu_id": 586,
     "patterns": [
         {
-            "valenceText": "annotation id: 1789",
+            "valenceText": "annotation id: 1079",
             "examples": [
                 {
-                    "frameName": "Calendric_unit",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 3,
-                                "end": 5
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "Today"
+                        "contribution"
                     ],
-                    "ko_annotation_id": 1789,
-                    "text": " ( 이제, 물론, 대통령의 옹호자들은 클린턴이 60 Minutes 에서 외도를 시인하고 그리고 그기에 대해 충분히 알고 있는 투표자들은 개의치 않았다고 주장한다. )",
-                    "sent_id": 1022,
-                    "relations": [],
-                    "annotation_id": 5354
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.20077",
-            "examples": [
-                {
-                    "frameName": "Calendric_unit",
+                    "ko_annotation_id": 1079,
+                    "annotation_id": 2292,
+                    "frameName": "Giving",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Giving",
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "기여로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Donor",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
+                                "end": 4
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "이제부터라도 지난 과거는 모두 잊고 새롭게 시작해야 한다.",
-                    "target": "이제",
-                    "ko_annotation_id": "sejong.20077",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.20078",
-            "examples": [
-                {
-                    "frameName": "Calendric_unit",
-                    "denotations": [
+                            "text": "여러분의",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Recipient",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 20
+                                "begin": 5,
+                                "end": 36
                             },
-                            "id": "1"
+                            "text": "Pleasant Run Children's Homes에의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그 친구에게 직접 말을 하고나니 이제까지 쌓였던 울분이 모두 가시는 듯 했다.",
-                    "target": "이제",
-                    "ko_annotation_id": "sejong.20078",
-                    "relations": []
+                    "sent_id": 437,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기여.n.Giving",
+                    "text": "여러분의 Pleasant Run Children's Homes에의 기여로 어떤 종류의 사람들이 혜택을 받는가 ?"
                 }
             ]
         }
-    ],
-    "frameID": 229,
-    "ko_pos": "NNG",
-    "ko_lu": "이제.n.Calendric_unit",
-    "lu_id": 586,
-    "en_lus": [
-        "Today"
     ]
 }

@@ -1,38 +1,63 @@
 {
-    "frameName": "Experiencer_focus",
+    "ko_pos": "a",
+    "ko_lu": "솔직하다.a.Candidness",
+    "frameID": 32,
+    "frameName": "Candidness",
+    "en_lus": [
+        "syooziki .正直 "
+    ],
+    "lu_id": 3448,
     "patterns": [
         {
-            "valenceText": "annotation id: 11776",
+            "valenceText": "annotation id: 11244",
             "examples": [
                 {
-                    "frameName": "Experiencer_focus",
+                    "origin_lus": [
+                        "syooziki .正直 "
+                    ],
+                    "ko_annotation_id": 11244,
+                    "annotation_id": 0,
+                    "frameName": "Candidness",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Candidness",
                             "span": {
-                                "begin": 66,
-                                "end": 68
+                                "begin": 46,
+                                "end": 50
                             },
-                            "id": "1"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "솔직하게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "「저는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "solace"
+                    "sent_id": 4253,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 11776,
-                    "text": "화요일의 파괴적인 지진 후 길고, 무서운 밤에 Bay Area 주민들은 그들이 할 수 있는 곳에서는 어디에서나 평안과 위로를 찾았다.",
-                    "sent_id": 99,
-                    "relations": [],
-                    "annotation_id": 646
+                    "lu": "솔직하다.a.Candidness",
+                    "text": "「저는 저도 모르게 무언가 끔찍한 것이라도 만지는 것 같은 태도를 보였습니다」라고 솔직하게 그때의 기분을 토로하고 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 48,
-    "ko_pos": "NNG",
-    "ko_lu": "위.n.Experiencer_focus",
-    "lu_id": 3448,
-    "en_lus": [
-        "solace"
     ]
 }

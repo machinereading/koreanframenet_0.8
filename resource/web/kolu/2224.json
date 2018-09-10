@@ -1,51 +1,89 @@
 {
-    "frameName": "Motion",
+    "ko_pos": "v",
+    "ko_lu": "제거되다.v.Removing",
+    "frameID": 63,
+    "frameName": "Removing",
+    "en_lus": [
+        "remove"
+    ],
+    "lu_id": 2224,
     "patterns": [
         {
-            "valenceText": "annotation id: 7239",
+            "valenceText": "annotation id: 8288",
             "examples": [
                 {
-                    "frameName": "Motion",
+                    "origin_lus": [
+                        "removed"
+                    ],
+                    "ko_annotation_id": 8288,
+                    "annotation_id": 15148,
+                    "frameName": "Removing",
                     "denotations": [
                         {
-                            "obj": "Place",
+                            "id": 1,
+                            "obj": "Removing",
                             "span": {
-                                "begin": 6,
-                                "end": 9
-                            }
+                                "begin": 93,
+                                "end": 96
+                            },
+                            "token_span": [
+                                26
+                            ],
+                            "role": "TARGET",
+                            "text": "제거된"
                         },
                         {
+                            "id": 2,
+                            "obj": "Source",
+                            "token_span": [
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24,
+                                25
+                            ],
+                            "span": {
+                                "begin": 69,
+                                "end": 92
+                            },
+                            "text": "영변군의 5 메가와트 ( e ) 원자로에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
                             "obj": "Theme",
+                            "token_span": [
+                                27,
+                                28,
+                                29
+                            ],
                             "span": {
-                                "begin": 15,
-                                "end": 17
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 11,
-                                "end": 14
-                            }
+                                "begin": 97,
+                                "end": 113
+                            },
+                            "text": "파손되어 소모된 연료봉으로부터",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ukabu .浮かぶ"
+                    "sent_id": 2946,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7239,
-                    "text": "부산만은, 앞바다에 위치한 영도가 보호하는 안쪽으로 길게 펼쳐진 주머니같은 모양새를 띈 항구를 산이 둘러싸고 있는 천혜의 양항이다.",
-                    "sent_id": 3569,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "제거되다.v.Removing",
+                    "text": "평양의 최초 선언은 소량의 플루토늄 샘플 ( 100 그램 보다 더 적은 ) 이 포함되는데, 북한 관리들이 언급하기를 이것은 영변군의 5 메가와트 ( e ) 원자로에서 제거된 파손되어 소모된 연료봉으로부터 재처리된 것이라고 하였다."
                 }
             ]
         }
-    ],
-    "frameID": 7,
-    "ko_pos": "VV",
-    "ko_lu": "위치하다.v.Motion",
-    "lu_id": 2224,
-    "en_lus": [
-        "ukabu .浮かぶ"
     ]
 }

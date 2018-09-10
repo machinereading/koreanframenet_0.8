@@ -1,65 +1,85 @@
 {
-    "frameName": "State_continue",
+    "ko_pos": "v",
+    "ko_lu": "쏟아지다.v.Mass_motion",
+    "frameID": 284,
+    "frameName": "Mass_motion",
+    "en_lus": [
+        "orisosogu .降り注ぐ"
+    ],
+    "lu_id": 5482,
     "patterns": [
         {
-            "valenceText": "annotation id: 19404",
+            "valenceText": "annotation id: 10177",
             "examples": [
                 {
-                    "frameName": "State_continue",
+                    "origin_lus": [
+                        "orisosogu .降り注ぐ"
+                    ],
+                    "ko_annotation_id": 10177,
+                    "annotation_id": 0,
+                    "frameName": "Mass_motion",
                     "denotations": [
                         {
-                            "obj": "entity",
+                            "id": 1,
+                            "obj": "Mass_motion",
                             "span": {
-                                "begin": 9,
-                                "end": 16
+                                "begin": 25,
+                                "end": 29
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "쏟아져,"
                         },
                         {
-                            "obj": "state",
+                            "id": 2,
+                            "obj": "Mass_Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 23,
-                                "end": 25
+                                "begin": 0,
+                                "end": 15
                             },
-                            "id": "3"
+                            "text": "질량이 느껴지는 강한 햇볕이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 27,
-                                "end": 28
+                                "begin": 16,
+                                "end": 24
                             },
-                            "id": "1"
+                            "text": "빌딩과 가로수에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "stay"
-                    ],
-                    "ko_annotation_id": 19404,
-                    "text": "Nanolab은 나노튜브 수요가 감소하면 이익이 날 수 없다고 말한다.",
-                    "sent_id": 1211,
+                    "sent_id": 3591,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6199
+                    "lu": "쏟아지다.v.Mass_motion",
+                    "text": "질량이 느껴지는 강한 햇볕이 빌딩과 가로수에 쏟아져, 도로 위에 진한 음영을 그리고 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 1155,
-    "ko_pos": "VV",
-    "ko_lu": "나다.v.State_continue",
-    "lu_id": 5482,
-    "en_lus": [
-        "stay"
     ]
 }

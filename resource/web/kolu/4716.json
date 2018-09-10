@@ -1,88 +1,82 @@
 {
-    "frameName": "Social_event",
+    "ko_pos": "v",
+    "ko_lu": "달성되다.v.Accomplishment",
+    "frameID": 1519,
+    "frameName": "Accomplishment",
+    "en_lus": [
+        "achieve"
+    ],
+    "lu_id": 4716,
     "patterns": [
         {
-            "valenceText": "annotation id: 16529",
+            "valenceText": "annotation id: 7857",
             "examples": [
                 {
-                    "frameName": "Social_event",
+                    "origin_lus": [
+                        "achieved"
+                    ],
+                    "ko_annotation_id": 7857,
+                    "annotation_id": 14298,
+                    "frameName": "Accomplishment",
                     "denotations": [
                         {
-                            "obj": "Social_event",
+                            "id": 1,
+                            "obj": "Accomplishment",
                             "span": {
-                                "begin": 23,
-                                "end": 26
-                            }
+                                "begin": 42,
+                                "end": 45
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "달성될"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 23,
-                                "end": 26
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "kaanibaru .カーニバル "
-                    ],
-                    "ko_annotation_id": 16529,
-                    "text": "그 이름도 겨울 바캉스, 또 다른 이름은 카니발 휴가.",
-                    "sent_id": 3731,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.11665",
-            "examples": [
-                {
-                    "frameName": "Social_event",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 12,
-                                "end": 15
+                                "begin": 30,
+                                "end": 37
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "소녀는 아버지를 따라 카니발에 참가하게 되었다.",
-                    "target": "카니발",
-                    "ko_annotation_id": "sejong.11665",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.11666",
-            "examples": [
-                {
-                    "frameName": "Social_event",
-                    "denotations": [
+                            "text": "이러한 목표가",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 12
+                                "begin": 38,
+                                "end": 41
                             },
-                            "id": "1"
+                            "text": "어떻게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "리오에 들어서면 카니발이 열리기 전부터 이곳의 모습에 벌써 마음을 빼앗기고 만다.",
-                    "target": "카니발",
-                    "ko_annotation_id": "sejong.11666",
-                    "relations": []
+                    "sent_id": 2818,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "달성되다.v.Accomplishment",
+                    "text": "모든 당사국들은 한반도의 비핵화 추구에 동의하였으나, 이러한 목표가 어떻게 달성될 것인지는 명확하지 않다."
                 }
             ]
         }
-    ],
-    "frameID": 125,
-    "ko_pos": "NNG",
-    "ko_lu": "카니발.n.Social_event",
-    "lu_id": 4716,
-    "en_lus": [
-        "kaanibaru .カーニバル "
     ]
 }

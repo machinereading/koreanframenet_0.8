@@ -1,51 +1,63 @@
 {
-    "frameName": "Cogitation",
+    "ko_pos": "a",
+    "ko_lu": "따뜻하다.a.Ambient_temperature",
+    "frameID": 1052,
+    "frameName": "Ambient_temperature",
+    "en_lus": [
+        "warm"
+    ],
+    "lu_id": 3363,
     "patterns": [
         {
-            "valenceText": "annotation id: 11428",
+            "valenceText": "annotation id: 2300",
             "examples": [
                 {
-                    "frameName": "Cogitation",
+                    "origin_lus": [
+                        "warm"
+                    ],
+                    "ko_annotation_id": 2300,
+                    "annotation_id": 4567,
+                    "frameName": "Ambient_temperature",
                     "denotations": [
                         {
-                            "obj": "Medium",
+                            "id": 1,
+                            "obj": "Ambient_temperature",
                             "span": {
-                                "begin": 0,
-                                "end": 9
-                            }
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "따뜻한"
                         },
                         {
-                            "obj": "Topic",
+                            "id": 2,
+                            "obj": "Attribute",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 29
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 31,
-                                "end": 33
-                            }
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "햇볕,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tatu .立つ "
+                    "sent_id": 880,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 11428,
-                    "text": "중학교 이과 수업은, 이러한 아이들의 학습 성장 실태에 맞추어, 학습 내용을 보다 과학적인 내용으로 바꾸어나가는 것이 그 목적 중 하나이다.",
-                    "sent_id": 4066,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "따뜻하다.a.Ambient_temperature",
+                    "text": "이곳은 따뜻한 햇볕, 아름다운 해변, 우거진 열대 경관, 그리고 멋진 호텔로 조금의 휴식과 기분 전환을 제공하기를 보장한다."
                 }
             ]
         }
-    ],
-    "frameID": 22,
-    "ko_pos": "VV",
-    "ko_lu": "맞추다.v.Cogitation",
-    "lu_id": 3363,
-    "en_lus": [
-        "tatu .立つ "
     ]
 }

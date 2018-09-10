@@ -1,74 +1,191 @@
 {
-    "frameName": "Assistance",
+    "ko_pos": "a",
+    "ko_lu": "까지다.a.Goal",
+    "frameID": 1177,
+    "frameName": "Goal",
+    "en_lus": [
+        "to"
+    ],
+    "lu_id": 4498,
     "patterns": [
         {
-            "valenceText": "annotation id: 15610",
+            "valenceText": "annotation id: 2947",
             "examples": [
                 {
-                    "frameName": "Assistance",
+                    "origin_lus": [
+                        "to"
+                    ],
+                    "ko_annotation_id": 2947,
+                    "annotation_id": 5655,
+                    "frameName": "Goal",
                     "denotations": [
                         {
-                            "obj": "helper",
+                            "id": 1,
+                            "obj": "Goal",
                             "span": {
-                                "begin": 61,
-                                "end": 63
+                                "begin": 31,
+                                "end": 33
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "까지"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Landmark",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 64,
-                                "end": 66
+                                "begin": 14,
+                                "end": 30
                             },
-                            "id": "1"
+                            "text": "Victoria Peak 정원",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Trajector",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 54
+                            },
+                            "text": "까지 Mount Austin 도로를 타라.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "assistance"
-                    ],
-                    "ko_annotation_id": 15610,
-                    "text": "당신과 제가 누군가가 일자리를 찾도록 도울 때, 한 사람을 더 납세자 계층에 합류하게 하고, 더 적은 세금이 생활 보호에 지출되고 기업들은 또다른 한 명의 소비자를 얻습니다.",
-                    "sent_id": 405,
+                    "sent_id": 1084,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2135
+                    "lu": "까지다.a.Goal",
+                    "text": "당신이 오르막에 있다면, Victoria Peak 정원 까지 Mount Austin 도로를 타라."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.38498",
+            "valenceText": "annotation id: 7471",
             "examples": [
                 {
-                    "frameName": "Assistance",
+                    "origin_lus": [
+                        "to"
+                    ],
+                    "ko_annotation_id": 7471,
+                    "annotation_id": 13604,
+                    "frameName": "Goal",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Goal",
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 47,
+                                "end": 50
                             },
-                            "id": "1"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "평화적"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Landmark",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 50
+                            },
+                            "text": "제조에서 평화적",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그들은 경찰의 보호를 받으며 행사장에 들어섰다.",
-                    "target": "보호",
-                    "ko_annotation_id": "sejong.38498",
-                    "relations": []
+                    "sent_id": 2707,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "까지다.a.Goal",
+                    "text": " IAEA 총재 El Baradei는 의정서에 서명한 것은 IAEA가 무기 제조에서 평화적 목적까지 리비아의 핵 전이에 대한 감독을 확실히 하는 것이라고  지적했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13451",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "to"
+                    ],
+                    "ko_annotation_id": 13451,
+                    "annotation_id": 5665,
+                    "frameName": "Goal",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Goal",
+                            "span": {
+                                "begin": 49,
+                                "end": 52
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "까지는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Trajector",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 67
+                            },
+                            "text": "짧은 도보거리였는데,",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1086,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "까지다.a.Goal",
+                    "text": "Peak Tram의 하부 터미널에서 전 주지사의 거주지인 Government House 까지는 단지 짧은 도보거리였는데, 지금은 박물관이다."
                 }
             ]
         }
-    ],
-    "frameID": 391,
-    "ko_pos": "NNG",
-    "ko_lu": "보호.n.Assistance",
-    "lu_id": 4498,
-    "en_lus": [
-        "assistance"
     ]
 }

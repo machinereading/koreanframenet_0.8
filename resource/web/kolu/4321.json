@@ -1,60 +1,107 @@
 {
-    "frameName": "Emptying",
+    "ko_pos": "v",
+    "ko_lu": "전해지다.v.Judgment_communication",
+    "frameID": 219,
+    "frameName": "Judgment_communication",
+    "en_lus": [
+        "cite"
+    ],
+    "lu_id": 4321,
     "patterns": [
         {
-            "valenceText": "annotation id: 14893",
+            "valenceText": "annotation id: 14821",
             "examples": [
                 {
-                    "frameName": "Emptying",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 88,
-                                "end": 90
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "disarmament"
+                        "cited"
                     ],
-                    "ko_annotation_id": 14893,
-                    "text": "과거 인종 차별주의 남아공 정부는  민감한 품목과 기술 이전을 통제하기 위해 대량 파괴 무기 비확산 법령 ( 1993년의 No. 87 ) 을 통한 비확산 및 군축 정책을 시행하였다",
-                    "sent_id": 3016,
-                    "relations": [],
-                    "annotation_id": 15568
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.18413",
-            "examples": [
-                {
-                    "frameName": "Emptying",
+                    "ko_annotation_id": 14821,
+                    "annotation_id": 12580,
+                    "frameName": "Judgment_communication",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Judgment_communication",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 47,
+                                "end": 50
                             },
-                            "id": "1"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "전해져"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "2004년 9월 초 현재,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Reason",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 46
+                            },
+                            "text": "두 번째로 Shehab-3 미사일을 시험한 것으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "패전국들은 강압에 의해서 군축을 해야만 했다.",
-                    "target": "군축",
-                    "ko_annotation_id": "sejong.18413",
-                    "relations": []
+                    "sent_id": 2516,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "전해지다.v.Judgment_communication",
+                    "text": "2004년 9월 초 현재, 이란은 두 번째로 Shehab-3 미사일을 시험한 것으로 전해져 확장된 거리의 미사일 능력을 시험하고 개발하려는 이란의 고집을 추가로 증명하였다."
                 }
             ]
         }
-    ],
-    "frameID": 58,
-    "ko_pos": "NNG",
-    "ko_lu": "군축.n.Emptying",
-    "lu_id": 4321,
-    "en_lus": [
-        "disarmament"
     ]
 }

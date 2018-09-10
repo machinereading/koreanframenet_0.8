@@ -1,52 +1,193 @@
 {
-    "frameName": "Weapon",
+    "ko_pos": "v",
+    "ko_lu": "투하하다.v.Delivery",
+    "frameID": 1344,
+    "frameName": "Delivery",
+    "en_lus": [
+        "deliver"
+    ],
+    "lu_id": 5648,
     "patterns": [
         {
-            "valenceText": "annotation id: 19938",
+            "valenceText": "annotation id: 5980",
             "examples": [
                 {
-                    "frameName": "Weapon",
+                    "origin_lus": [
+                        "deliver"
+                    ],
+                    "ko_annotation_id": 5980,
+                    "annotation_id": 10788,
+                    "frameName": "Delivery",
                     "denotations": [
                         {
-                            "obj": "descriptor",
+                            "id": 1,
+                            "obj": "Delivery",
                             "span": {
-                                "begin": 13,
-                                "end": 15
+                                "begin": 50,
+                                "end": 53
                             },
-                            "id": "2"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "투하할"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Deliverer",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 19
+                                "begin": 9,
+                                "end": 12
                             },
-                            "id": "1"
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 41
+                            },
+                            "text": "스커드 미사일, 항공기, 혹은 다른 분무주입 기술로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 49
+                            },
+                            "text": "생물 작용제를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "arsenal"
-                    ],
-                    "ko_annotation_id": 19938,
-                    "text": "전해지는 바에 의하면, 북한 병기고에 있는 화학무기 작용제는 포스진 ( 질식 ), 시안화수소 ( 혈액 ), 겨자 ( 수포 ) 그리고 사린 ( 신경 작용제 ) 과 같은 모두 주요한 부류를 포함한다.",
-                    "sent_id": 2734,
+                    "sent_id": 2164,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 13761
+                    "lu": "투하하다.v.Delivery",
+                    "text": "일부 전문가들은 이란이 스커드 미사일, 항공기, 혹은 다른 분무주입 기술로 생물 작용제를 투하할 능력을 개발 중이라고 믿는다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6631",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "deliver"
+                    ],
+                    "ko_annotation_id": 6631,
+                    "annotation_id": 12113,
+                    "frameName": "Delivery",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Delivery",
+                            "span": {
+                                "begin": 69,
+                                "end": 72
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "투하할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Deliverer",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 35
+                            },
+                            "text": "많은 이란의 탄도 미사일 및 / 혹은 장거리 로케트 포 시스템은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 68
+                            },
+                            "text": "재래식 고폭탄, 자탄, 화학, 생물 및 방사능 확산 탄두를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2401,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "투하하다.v.Delivery",
+                    "text": "많은 이란의 탄도 미사일 및 / 혹은 장거리 로케트 포 시스템은 재래식 고폭탄, 자탄, 화학, 생물 및 방사능 확산 탄두를 투하할 능력을 현재 보유하고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 426,
-    "ko_pos": "NN",
-    "ko_lu": "병기고.n.Weapon",
-    "lu_id": 5648,
-    "en_lus": [
-        "arsenal"
     ]
 }

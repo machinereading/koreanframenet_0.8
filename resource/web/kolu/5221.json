@@ -1,38 +1,63 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "n",
+    "ko_lu": "농장.n.Locale_by_use",
+    "frameID": 196,
+    "frameName": "Locale_by_use",
+    "en_lus": [
+        "farm"
+    ],
+    "lu_id": 5221,
     "patterns": [
         {
-            "valenceText": "annotation id: 18421",
+            "valenceText": "annotation id: 2661",
             "examples": [
                 {
-                    "frameName": "Buildings",
+                    "origin_lus": [
+                        "farms"
+                    ],
+                    "ko_annotation_id": 2661,
+                    "annotation_id": 5181,
+                    "frameName": "Locale_by_use",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Locale_by_use",
                             "span": {
-                                "begin": 5,
-                                "end": 8
+                                "begin": 51,
+                                "end": 54
                             },
-                            "id": "1"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "농장의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Container_Possessor",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 39
+                            },
+                            "text": "아일랜드의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "fortifications"
+                    "sent_id": 988,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18421,
-                    "text": "그러나, 요새화와 철조망에 의해 격리된 도시로 이스라엘이나 유대인 순례자들은 Western Wall 이나 동예루살렘의 다른 유대인 지역으로의 방문이 허용되지 않았다.",
-                    "sent_id": 722,
-                    "relations": [],
-                    "annotation_id": 3794
+                    "lu": "농장.n.Locale_by_use",
+                    "text": "더블린은 많은 국제적인 식당이 있고, 새로운 아일랜드 요리는 아일랜드의 바다, 강, 그리고 농장의 신선한 생산품으로 만들어진다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NN",
-    "ko_lu": "요새화.n.Buildings",
-    "lu_id": 5221,
-    "en_lus": [
-        "fortification"
     ]
 }

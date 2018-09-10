@@ -1,52 +1,86 @@
 {
-    "frameName": "Aggregate",
+    "ko_pos": "v",
+    "ko_lu": "속하다.v.Motion_directional",
+    "frameID": 362,
+    "frameName": "Motion_directional",
+    "en_lus": [
+        "fall"
+    ],
+    "lu_id": 4033,
     "patterns": [
         {
-            "valenceText": "annotation id: 13705",
+            "valenceText": "annotation id: 13845",
             "examples": [
                 {
-                    "frameName": "Aggregate",
+                    "origin_lus": [
+                        "falls"
+                    ],
+                    "ko_annotation_id": 13845,
+                    "annotation_id": 7496,
+                    "frameName": "Motion_directional",
                     "denotations": [
                         {
-                            "obj": "aggregateproperty",
+                            "id": 1,
+                            "obj": "Motion_directional",
                             "span": {
-                                "begin": 0,
-                                "end": 9
+                                "begin": 24,
+                                "end": 27
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "속한다"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 13
+                                "begin": 0,
+                                "end": 14
                             },
-                            "id": "1"
+                            "text": "우리 사회에 직면하는 적은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 23
+                            },
+                            "text": "세 가지 부류에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "packages"
-                    ],
-                    "ko_annotation_id": 13705,
-                    "text": "모든 것이 포함된 패키지와 큰 리조트 호텔들은 식당, 스포츠 활동, 여흥, 바 내의 넓은 화면의 스포츠 채널, 쇼핑, 그리고 햇볕에 그을은 갈색 피부를 제공한다.",
-                    "sent_id": 933,
+                    "sent_id": 1547,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4832
+                    "lu": "속하다.v.Motion_directional",
+                    "text": "우리 사회에 직면하는 적은 세 가지 부류에 속한다 : 1- 미국, 사우디 아라비아, 이집트, 파키스탄 그리고 유대인과 같은, 적대적 정보 기관, 2- 무신론자와 배교자인 벗어난 집단 3- 기존 환경."
                 }
             ]
         }
-    ],
-    "frameID": 103,
-    "ko_pos": "NNG",
-    "ko_lu": "패키지.n.Aggregate",
-    "lu_id": 4033,
-    "en_lus": [
-        "package"
     ]
 }

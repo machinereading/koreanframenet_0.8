@@ -1,51 +1,81 @@
 {
+    "ko_pos": "n",
+    "ko_lu": "눈.n.Waking_up",
+    "frameID": 295,
     "frameName": "Waking_up",
+    "en_lus": [
+        "me ga sameru .目 が 覚める"
+    ],
+    "lu_id": 39,
     "patterns": [
         {
-            "valenceText": "annotation id: 126",
+            "valenceText": "annotation id: 10667",
             "examples": [
                 {
-                    "frameName": "Waking_up",
-                    "denotations": [
-                        {
-                            "obj": "Time",
-                            "span": {
-                                "begin": 9,
-                                "end": 13
-                            }
-                        },
-                        {
-                            "obj": "Sleeper",
-                            "span": {
-                                "begin": 15,
-                                "end": 17
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 26,
-                                "end": 27
-                            }
-                        }
-                    ],
                     "origin_lus": [
                         "me ga sameru .目 が 覚める"
                     ],
-                    "ko_annotation_id": 126,
-                    "text": "제39장 위화감 해결방법, 시즈는 어떤 자극에 눈이 떠졌다.",
+                    "ko_annotation_id": 10667,
+                    "annotation_id": 0,
+                    "frameName": "Waking_up",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Waking_up",
+                            "span": {
+                                "begin": 26,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "눈이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "text": "해결방법,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Sleeper",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "시즈는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
                     "sent_id": 3925,
-                    "relations": [],
-                    "annotation_id": 0
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "눈.n.Waking_up",
+                    "text": "제39장 위화감 해결방법, 시즈는 어떤 자극에 눈이 떠졌다."
                 }
             ]
         }
-    ],
-    "frameID": 295,
-    "ko_pos": "NNG",
-    "ko_lu": "눈.n.Waking_up",
-    "lu_id": 39,
-    "en_lus": [
-        "me ga sameru .目 が 覚める"
     ]
 }

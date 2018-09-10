@@ -1,60 +1,82 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "v",
+    "ko_lu": "부르다.v.Being_named",
+    "frameID": 228,
+    "frameName": "Being_named",
+    "en_lus": [
+        "yobu .呼ぶ"
+    ],
+    "lu_id": 4969,
     "patterns": [
         {
-            "valenceText": "annotation id: 17493",
+            "valenceText": "annotation id: 10519",
             "examples": [
                 {
-                    "frameName": "Buildings",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 34,
-                                "end": 36
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "tent"
+                        "yobu .呼ぶ"
                     ],
-                    "ko_annotation_id": 17493,
-                    "text": "사업체들이 하룻밤 사이에 생겼고 많은 초기 정착자들이 살았던 텐트 도시를 대체하기 위해 목재 주택이 세워졌다.",
-                    "sent_id": 778,
-                    "relations": [],
-                    "annotation_id": 4069
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.13457",
-            "examples": [
-                {
-                    "frameName": "Buildings",
+                    "ko_annotation_id": 10519,
+                    "annotation_id": 0,
+                    "frameName": "Being_named",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Being_named",
                             "span": {
-                                "begin": 3,
-                                "end": 5
+                                "begin": 20,
+                                "end": 24
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "부른다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "이런 <단위>를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Name",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 19
+                            },
+                            "text": "<루프roof>라고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "빨리 텐트를 설치하고 밥을 먹자.",
-                    "target": "텐트",
-                    "ko_annotation_id": "sejong.13457",
-                    "relations": []
+                    "sent_id": 3811,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "부르다.v.Being_named",
+                    "text": "이런 <단위>를 <루프roof>라고 부른다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NNG",
-    "ko_lu": "텐트.n.Buildings",
-    "lu_id": 4969,
-    "en_lus": [
-        "tent"
     ]
 }

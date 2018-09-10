@@ -1,58 +1,82 @@
 {
-    "frameName": "Intentionally_act",
+    "ko_pos": "a",
+    "ko_lu": "크다.a.Importance",
+    "frameID": 407,
+    "frameName": "Importance",
+    "en_lus": [
+        "ookii .大きい"
+    ],
+    "lu_id": 1353,
     "patterns": [
         {
-            "valenceText": "annotation id: 4186",
+            "valenceText": "annotation id: 16708",
             "examples": [
                 {
-                    "frameName": "Intentionally_act",
+                    "origin_lus": [
+                        "ookii .大きい"
+                    ],
+                    "ko_annotation_id": 16708,
+                    "annotation_id": 0,
+                    "frameName": "Importance",
                     "denotations": [
                         {
-                            "obj": "Agent",
+                            "id": 1,
+                            "obj": "Importance",
                             "span": {
-                                "begin": 0,
-                                "end": 7
-                            }
+                                "begin": 180,
+                                "end": 183
+                            },
+                            "token_span": [
+                                44
+                            ],
+                            "role": "TARGET",
+                            "text": "크다."
                         },
                         {
-                            "obj": "Time",
+                            "id": 2,
+                            "obj": "Factor",
+                            "token_span": [
+                                41,
+                                42
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 13
-                            }
+                                "begin": 168,
+                                "end": 176
+                            },
+                            "text": "처녀성의 가치는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Act",
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                43
+                            ],
                             "span": {
-                                "begin": 19,
-                                "end": 26
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 28,
-                                "end": 29
-                            }
+                                "begin": 177,
+                                "end": 179
+                            },
+                            "text": "실로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "suru .する "
+                    "sent_id": 4822,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4186,
-                    "text": "나 같은 사람은, 일요일에 친구와 테니스나 골프를 치고 있어도, 건강상담이라면 눈이 번쩍 뜨입니다.",
-                    "sent_id": 3758,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "크다.a.Importance",
+                    "text": "그렇다면 「처녀성을 버리기에 가장 적절한 때」는 언제인가 하면 「각자의 내적 생활의 경험으로 미루어 보았을 때, 그것은 연애의 경험 중에, 연인을 향한 영적 동경 (애정.)을 지닌 가운데 관능적 요구를 발하여, 자신의 인격 안에서 양자의 일치 결합을 진실로 느꼈을 경우가 아닌가 」「그렇게 생각한다면 처녀성의 가치는 실로 크다."
                 }
             ]
         }
-    ],
-    "frameID": 198,
-    "ko_pos": "VV",
-    "ko_lu": "치다.v.Intentionally_act",
-    "lu_id": 1353,
-    "en_lus": [
-        "suru .する "
     ]
 }

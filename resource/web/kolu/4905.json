@@ -1,73 +1,125 @@
 {
-    "frameName": "Experiencer_focus",
+    "ko_pos": "n",
+    "ko_lu": "할부금.n.Commerce_pay",
+    "frameID": 180,
+    "frameName": "Commerce_pay",
+    "en_lus": [
+        "payment"
+    ],
+    "lu_id": 4905,
     "patterns": [
         {
-            "valenceText": "annotation id: 17236",
+            "valenceText": "annotation id: 6654",
             "examples": [
                 {
-                    "frameName": "Experiencer_focus",
-                    "denotations": [
-                        {
-                            "obj": "Circumstances",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
-                        },
-                        {
-                            "obj": "Content",
-                            "span": {
-                                "begin": 7,
-                                "end": 8
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 16,
-                                "end": 19
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "kandoo .感動 "
+                        "payment"
                     ],
-                    "ko_annotation_id": 17236,
-                    "text": "역시, 이왕 집을 짓는다면, 감동하고 싶고, 자랑도 하고 싶지요.",
-                    "sent_id": 3788,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.54961",
-            "examples": [
-                {
-                    "frameName": "Experiencer_focus",
+                    "ko_annotation_id": 6654,
+                    "annotation_id": 12159,
+                    "frameName": "Commerce_pay",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Commerce_pay",
                             "span": {
-                                "begin": 13,
-                                "end": 17
+                                "begin": 59,
+                                "end": 63
                             },
-                            "obj": "target"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "할부금을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "다음 해,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Buyer",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Means",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 40
+                            },
+                            "text": "이스라엘에 280 백만 달러 어치의 기름을 제공함으로써",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Goods",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 53
+                            },
+                            "text": "프로젝트 Flower에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "선생님의 위로에 수연은 감동하여 말을 잇지 못하였다.",
-                    "target": "감동하여",
-                    "ko_annotation_id": "sejong.54961",
-                    "relations": []
+                    "sent_id": 2415,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "할부금.n.Commerce_pay",
+                    "text": "다음 해, 이란은 이스라엘에 280 백만 달러 어치의 기름을 제공함으로써 프로젝트 Flower에 대한 첫 할부금을 내었다."
                 }
             ]
         }
-    ],
-    "frameID": 48,
-    "ko_pos": "VV",
-    "ko_lu": "감동하다.v.Experiencer_focus",
-    "lu_id": 4905,
-    "en_lus": [
-        "kandoo .感動 "
     ]
 }

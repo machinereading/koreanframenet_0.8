@@ -1,37 +1,115 @@
 {
-    "frameName": "Relation",
+    "ko_pos": "n",
+    "ko_lu": "입.n.Body_parts",
+    "frameID": 119,
+    "frameName": "Body_parts",
+    "en_lus": [
+        "mouth",
+        "kuti .口 "
+    ],
+    "lu_id": 2150,
     "patterns": [
         {
-            "valenceText": "annotation id: 6941",
+            "valenceText": "annotation id: 5008",
             "examples": [
                 {
-                    "frameName": "Relation",
+                    "origin_lus": [
+                        "mouth"
+                    ],
+                    "ko_annotation_id": 5008,
+                    "annotation_id": 9064,
+                    "frameName": "Body_parts",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Body_parts",
                             "span": {
-                                "begin": 20,
-                                "end": 22
-                            }
+                                "begin": 16,
+                                "end": 18
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "입을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possessor",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sinzoku .親族 "
+                    "sent_id": 1871,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6941,
-                    "text": "그것은 필시 기능을 초월해, 가족, 친족, 혈연 집단과 같은 규모를 추상화한 <단위>이다.",
-                    "sent_id": 3897,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "입.n.Body_parts",
+                    "text": "그의 부족 중 아무도 자기의 입을 열지 않았고, 대신에 그들은 더 두렵고 더 약해졌다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11342",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kuti .口 "
+                    ],
+                    "ko_annotation_id": 11342,
+                    "annotation_id": 0,
+                    "frameName": "Body_parts",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Body_parts",
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "입을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "text": "입을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4315,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "입.n.Body_parts",
+                    "text": "모기떼를 발견하면, 그냥 입을 벌린 채 달리기만 해도, 모기가 저절로 입속에 들어옵니다."
                 }
             ]
         }
-    ],
-    "frameID": 248,
-    "ko_pos": "NNG",
-    "ko_lu": "친족.n.Relation",
-    "lu_id": 2150,
-    "en_lus": [
-        "sinzoku .親族 "
     ]
 }

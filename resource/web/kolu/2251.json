@@ -1,52 +1,83 @@
 {
-    "frameName": "Cause_expansion",
+    "ko_pos": "n",
+    "ko_lu": "비판적.n.Judgment",
+    "frameID": 28,
+    "frameName": "Judgment",
+    "en_lus": [
+        "critical"
+    ],
+    "lu_id": 2251,
     "patterns": [
         {
-            "valenceText": "annotation id: 7307",
+            "valenceText": "annotation id: 260",
             "examples": [
                 {
-                    "frameName": "Cause_expansion",
+                    "origin_lus": [
+                        "critical"
+                    ],
+                    "ko_annotation_id": 260,
+                    "annotation_id": 563,
+                    "frameName": "Judgment",
                     "denotations": [
                         {
-                            "obj": "item",
+                            "id": 1,
+                            "obj": "Judgment",
                             "span": {
-                                "begin": 23,
-                                "end": 31
+                                "begin": 37,
+                                "end": 43
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "비판적이다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 32,
-                                "end": 34
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "1"
+                            "text": "좌파는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 36
+                            },
+                            "text": "사회주의 정부 형태에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "expansion"
-                    ],
-                    "ko_annotation_id": 7307,
-                    "text": "주요 기능 : 교육, 대학원 과정 개발, 산업 학술 연계 확대, 그리고 새로운 연구 실험실 설립.",
-                    "sent_id": 2206,
+                    "sent_id": 83,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 11006
+                    "lu": "비판적.n.Judgment",
+                    "text": "좌파는 또한 영국의 상황과 두드러지게 평행한 사회주의 정부 형태에 비판적이다."
                 }
             ]
         }
-    ],
-    "frameID": 77,
-    "ko_pos": "NNG",
-    "ko_lu": "확대.n.Cause_expansion",
-    "lu_id": 2251,
-    "en_lus": [
-        "expansion"
     ]
 }

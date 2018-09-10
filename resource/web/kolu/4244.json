@@ -1,52 +1,101 @@
 {
-    "frameName": "Measure_duration",
+    "ko_pos": "n",
+    "ko_lu": "배상.n.Fining",
+    "frameID": 223,
+    "frameName": "Fining",
+    "en_lus": [
+        "baisyoo .賠償"
+    ],
+    "lu_id": 4244,
     "patterns": [
         {
-            "valenceText": "annotation id: 14653",
+            "valenceText": "annotation id: 11224",
             "examples": [
                 {
-                    "frameName": "Measure_duration",
+                    "origin_lus": [
+                        "baisyoo .賠償"
+                    ],
+                    "ko_annotation_id": 11224,
+                    "annotation_id": 0,
+                    "frameName": "Fining",
                     "denotations": [
                         {
-                            "obj": "count",
+                            "id": 1,
+                            "obj": "Fining",
                             "span": {
-                                "begin": 18,
-                                "end": 21
+                                "begin": 62,
+                                "end": 72
                             },
-                            "id": "2"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "손해배상청구(이른바"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Payer",
+                            "token_span": [
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 21
+                                "begin": 27,
+                                "end": 35
                             },
-                            "id": "1"
+                            "text": "마사오를 상대로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 61
+                            },
+                            "text": "「다카코와 마이카라의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Reason",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 62,
+                                "end": 72
+                            },
+                            "text": "손해배상청구(이른바",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hours"
-                    ],
-                    "ko_annotation_id": 14653,
-                    "text": "Lewinsky 이야기가 나온지 얼마되지 않았던 지난 주에, Stephanopoulos는 갑자기 Good Morning America에 나타나 우려를 나타냈다.",
-                    "sent_id": 1008,
+                    "sent_id": 4249,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5302
+                    "lu": "배상.n.Fining",
+                    "text": "출산 후, 다카코는 마사오와의 이별을 결심하고, 마사오를 상대로 「마이카라의 인지청구」와 「다카코와 마이카라의 손해배상청구(이른바 위자료.)」의 두 가지 소송을 제기했다."
                 }
             ]
         }
-    ],
-    "frameID": 224,
-    "ko_pos": "VA",
-    "ko_lu": "되다.a.Measure_duration",
-    "lu_id": 4244,
-    "en_lus": [
-        "hour"
     ]
 }

@@ -1,82 +1,84 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "v",
+    "ko_lu": "잠자다.v.Rashness",
+    "frameID": 1581,
+    "frameName": "Rashness",
+    "en_lus": [
+        "hitasura .ひたすら "
+    ],
+    "lu_id": 317,
     "patterns": [
         {
-            "valenceText": "annotation id: 857",
+            "valenceText": "annotation id: 10422",
             "examples": [
                 {
-                    "frameName": "Buildings",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 54,
-                                "end": 56
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "motel"
+                        "hitasura .ひたすら "
                     ],
-                    "ko_annotation_id": 857,
-                    "text": "Goodwill이 그가 일자리를 찾도록 도와준 이후 얼마 안되어, Robert는 약 40분 내에 모텔 방을 완전히 청소하도록 배웠다.",
-                    "sent_id": 361,
-                    "relations": [],
-                    "annotation_id": 1938
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.3264",
-            "examples": [
-                {
-                    "frameName": "Buildings",
+                    "ko_annotation_id": 10422,
+                    "annotation_id": 0,
+                    "frameName": "Rashness",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Rashness",
                             "span": {
-                                "begin": 11,
-                                "end": 13
+                                "begin": 14,
+                                "end": 17
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "그들은 처음 나오는 모텔에 투숙하기로 했다.",
-                    "target": "모텔",
-                    "ko_annotation_id": "sejong.3264",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.3265",
-            "examples": [
-                {
-                    "frameName": "Buildings",
-                    "denotations": [
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "잠자코"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Action",
+                            "token_span": [
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 3,
-                                "end": 5
+                                "begin": 18,
+                                "end": 26
                             },
-                            "id": "1"
+                            "text": "기다리기만 하는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 43
+                            },
+                            "text": "작가 에이전트는 아니다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 모텔을 세 개 경영하고 있다.",
-                    "target": "모텔",
-                    "ko_annotation_id": "sejong.3265",
-                    "relations": []
+                    "sent_id": 3723,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "잠자다.v.Rashness",
+                    "text": "작가가 작품을 완성하기를 잠자코 기다리기만 하는 것이 작가 에이전트는 아니다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NNG",
-    "ko_lu": "모텔.n.Buildings",
-    "lu_id": 317,
-    "en_lus": [
-        "motel"
     ]
 }

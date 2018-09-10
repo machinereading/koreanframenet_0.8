@@ -1,38 +1,65 @@
 {
-    "frameName": "Natural_features",
+    "ko_pos": "v",
+    "ko_lu": "소문나다.v.Unattributed_information",
+    "frameID": 1154,
+    "frameName": "Unattributed_information",
+    "en_lus": [
+        "proverbial"
+    ],
+    "lu_id": 3145,
     "patterns": [
         {
-            "valenceText": "annotation id: 10595",
+            "valenceText": "annotation id: 2504",
             "examples": [
                 {
-                    "frameName": "Natural_features",
+                    "origin_lus": [
+                        "proverbial"
+                    ],
+                    "ko_annotation_id": 2504,
+                    "annotation_id": 4928,
+                    "frameName": "Unattributed_information",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Unattributed_information",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 2,
+                                "end": 5
                             },
-                            "id": "1"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "소문난"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Reported_Fact",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 17
+                            },
+                            "text": "환대와 따뜻한 환영은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "island"
+                    "sent_id": 950,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 10595,
-                    "text": "이섬은 산호초와 산호 벽으로 둘러싸여 있고, 이들은 수 백종의 바다 생명체에 거처를 그리고 다이버와 스노클러들에게는 오락을 제공한다.",
-                    "sent_id": 889,
-                    "relations": [],
-                    "annotation_id": 4621
+                    "lu": "소문나다.v.Unattributed_information",
+                    "text": "그 소문난 환대와 따뜻한 환영은 여전히 여기에 있다."
                 }
             ]
         }
-    ],
-    "frameID": 191,
-    "ko_pos": "NNP",
-    "ko_lu": "이섬.n.Natural_features",
-    "lu_id": 3145,
-    "en_lus": [
-        "island"
     ]
 }

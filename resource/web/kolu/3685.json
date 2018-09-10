@@ -1,80 +1,64 @@
 {
-    "frameName": "Being_active",
+    "ko_pos": "v",
+    "ko_lu": "검색되다.v.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "appu .アップ "
+    ],
+    "lu_id": 3685,
     "patterns": [
         {
-            "valenceText": "annotation id: 12587",
+            "valenceText": "annotation id: 11559",
             "examples": [
                 {
-                    "frameName": "Being_active",
+                    "origin_lus": [
+                        "appu .アップ "
+                    ],
+                    "ko_annotation_id": 11559,
+                    "annotation_id": 0,
+                    "frameName": "Placing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Placing",
                             "span": {
-                                "begin": 28,
-                                "end": 30
+                                "begin": 21,
+                                "end": 24
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "검색될"
                         },
                         {
-                            "obj": "agent",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 31,
-                                "end": 34
+                                "begin": 12,
+                                "end": 20
                             },
-                            "id": "2"
+                            "text": "완성된 시스템만",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "active",
-                        "gen'eki .現役 "
-                    ],
-                    "ko_annotation_id": 12587,
-                    "text": "교구 목사 Marshall은 자신이 교구 목사이고 현역 종지기이기 때문에 이러한 문제에 관해 착잡한 감정을 시인한다.",
-                    "sent_id": 55,
+                    "sent_id": 4475,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 358
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 12588",
-            "examples": [
-                {
-                    "frameName": "Being_active",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 26,
-                                "end": 28
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "active",
-                        "gen'eki .現役 "
-                    ],
-                    "ko_annotation_id": 12588,
-                    "text": "창립 80주년의 역사를 지닌 동 대학 산악부의 현역 부원이 고작 5명이라는 사실에 놀랐다.",
-                    "sent_id": 4501,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "검색되다.v.Placing",
+                    "text": "인터넷에서 알아보아도 완성된 시스템만 검색될 뿐, 개개의 부품에 관해서는 어떠한 설명도 찾을 수 없다."
                 }
             ]
         }
-    ],
-    "frameID": 1540,
-    "ko_pos": "NNG",
-    "ko_lu": "현역.n.Being_active",
-    "lu_id": 3685,
-    "en_lus": [
-        "active",
-        "gen'eki .現役 "
     ]
 }

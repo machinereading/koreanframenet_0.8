@@ -1,88 +1,184 @@
 {
-    "frameName": "Existence",
+    "ko_pos": "n",
+    "ko_lu": "침해.n.Compliance",
+    "frameID": 117,
+    "frameName": "Compliance",
+    "en_lus": [
+        "singai .侵害"
+    ],
+    "lu_id": 3676,
     "patterns": [
         {
-            "valenceText": "annotation id: 12573",
+            "valenceText": "annotation id: 10825",
             "examples": [
                 {
-                    "frameName": "Existence",
+                    "origin_lus": [
+                        "singai .侵害"
+                    ],
+                    "ko_annotation_id": 10825,
+                    "annotation_id": 0,
+                    "frameName": "Compliance",
                     "denotations": [
                         {
-                            "obj": "Conditions",
+                            "id": 1,
+                            "obj": "Compliance",
                             "span": {
-                                "begin": 14,
-                                "end": 20
-                            }
+                                "begin": 95,
+                                "end": 98
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "침해의"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                19,
+                                20
+                            ],
                             "span": {
-                                "begin": 22,
-                                "end": 24
-                            }
+                                "begin": 93,
+                                "end": 98
+                            },
+                            "text": "그 침해의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Norm",
+                            "token_span": [
+                                21
+                            ],
+                            "span": {
+                                "begin": 99,
+                                "end": 102
+                            },
+                            "text": "범위에",
+                            "role": "ARGUMENT"
                         }
                     ],
+                    "sent_id": 4011,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "침해.n.Compliance",
+                    "text": "직접침해는, 특허 청구 범위의 문언에 의해 규정되는 경우(문언침해.)와 문언의 범위에는 포함되지 않으나, 그 문언에 기재된 것과 가치적으로 같다고 보여(균등침해.), 그 침해의 범위에 포함되는 경우가 있습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12107",
+            "examples": [
+                {
                     "origin_lus": [
-                        "nai .ない"
+                        "singai .侵害"
                     ],
-                    "ko_annotation_id": 12573,
-                    "text": "그러나 지금은 그런 일로 정리할 상황이 아니다.",
-                    "sent_id": 4041,
-                    "relations": [],
-                    "annotation_id": 0
+                    "ko_annotation_id": 12107,
+                    "annotation_id": 0,
+                    "frameName": "Compliance",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Compliance",
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "침해)와"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "text": "침해)와",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4833,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "침해.n.Compliance",
+                    "text": "우선, 보호의 범위에는 직접적으로 보호받는 범위 (직접 침해)와 간접적으로 보호받는 범위 (간접 침해)가 있습니다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.93440",
+            "valenceText": "annotation id: 12108",
             "examples": [
                 {
-                    "frameName": "Existence",
+                    "origin_lus": [
+                        "singai .侵害"
+                    ],
+                    "ko_annotation_id": 12108,
+                    "annotation_id": 0,
+                    "frameName": "Compliance",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Compliance",
                             "span": {
-                                "begin": 3,
-                                "end": 7
+                                "begin": 54,
+                                "end": 58
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "머지 아니해서 좋은 날을 맞게 될 것이다.",
-                    "target": "아니해서",
-                    "ko_annotation_id": "sejong.93440",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.93441",
-            "examples": [
-                {
-                    "frameName": "Existence",
-                    "denotations": [
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "침해)가"
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                12
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 12
+                                "begin": 54,
+                                "end": 58
                             },
-                            "obj": "target"
+                            "text": "침해)가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "조만간 오래지 아니해서 승진하시게 될 것 같습니다.",
-                    "target": "아니해서",
-                    "ko_annotation_id": "sejong.93441",
-                    "relations": []
+                    "sent_id": 4833,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "침해.n.Compliance",
+                    "text": "우선, 보호의 범위에는 직접적으로 보호받는 범위 (직접 침해)와 간접적으로 보호받는 범위 (간접 침해)가 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 660,
-    "ko_pos": "VA",
-    "ko_lu": "아니하다.a.Existence",
-    "lu_id": 3676,
-    "en_lus": [
-        "nai .ない"
     ]
 }

@@ -1,52 +1,102 @@
 {
-    "frameName": "Aggregate",
+    "ko_pos": "n",
+    "ko_lu": "동력.n.Locale_by_use",
+    "frameID": 196,
+    "frameName": "Locale_by_use",
+    "en_lus": [
+        "reactor"
+    ],
+    "lu_id": 4405,
     "patterns": [
         {
-            "valenceText": "annotation id: 15255",
+            "valenceText": "annotation id: 6436",
             "examples": [
                 {
-                    "frameName": "Aggregate",
+                    "origin_lus": [
+                        "reactors"
+                    ],
+                    "ko_annotation_id": 6436,
+                    "annotation_id": 11753,
+                    "frameName": "Locale_by_use",
                     "denotations": [
                         {
-                            "obj": "container_possessor",
+                            "id": 1,
+                            "obj": "Locale_by_use",
                             "span": {
-                                "begin": 9,
-                                "end": 16
+                                "begin": 41,
+                                "end": 45
                             },
-                            "id": "2"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "동력로를"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Relative_Location",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 29,
-                                "end": 32
+                                "begin": 4,
+                                "end": 12
                             },
-                            "id": "1"
+                            "text": "Bushehr에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 40
+                            },
+                            "text": "2 개의 부분적으로 건설된",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Use",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 45
+                            },
+                            "text": "동력로를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "population"
-                    ],
-                    "ko_annotation_id": 15255,
-                    "text": "경매 후 일년, 라스 베이거스의 인구는 1500명의 거주민으로 급속히 늘어났는데, 이는 향후 90년 동안 일어날 일들의 전조였다.",
-                    "sent_id": 779,
+                    "sent_id": 2339,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4077
+                    "lu": "동력.n.Locale_by_use",
+                    "text": "이란은 Bushehr에 5 개의 연구 원자로와 2 개의 부분적으로 건설된 동력로를 보유하고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 103,
-    "ko_pos": "NN",
-    "ko_lu": "거주민.n.Aggregate",
-    "lu_id": 4405,
-    "en_lus": [
-        "population"
     ]
 }

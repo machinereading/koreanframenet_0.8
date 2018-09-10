@@ -1,65 +1,81 @@
 {
-    "frameName": "Have_associated",
+    "ko_pos": "v",
+    "ko_lu": "접어들다.v.Process_continue",
+    "frameID": 145,
+    "frameName": "Process_continue",
+    "en_lus": [
+        "drag"
+    ],
+    "lu_id": 2406,
     "patterns": [
         {
-            "valenceText": "annotation id: 7890",
+            "valenceText": "annotation id: 6670",
             "examples": [
                 {
-                    "frameName": "Have_associated",
+                    "origin_lus": [
+                        "dragged"
+                    ],
+                    "ko_annotation_id": 6670,
+                    "annotation_id": 12188,
+                    "frameName": "Process_continue",
                     "denotations": [
                         {
-                            "obj": "topical_entity",
+                            "id": 1,
+                            "obj": "Process_continue",
                             "span": {
-                                "begin": 10,
-                                "end": 52
+                                "begin": 16,
+                                "end": 22
                             },
-                            "id": "3"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "접어들면서,"
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 54,
-                                "end": 63
+                                "begin": 7,
+                                "end": 10
                             },
-                            "id": "2"
+                            "text": "전쟁이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Duration",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 62,
-                                "end": 68
+                                "begin": 11,
+                                "end": 15
                             },
-                            "id": "1"
+                            "text": "2년째로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "have"
-                    ],
-                    "ko_annotation_id": 7890,
-                    "text": "셋째, 이 이론은 지역의 혜택 추구에 비해 국가정책 결정에 너무 많은 관심을 기울이는 입법자들이 재임에 덜 안전한가에 대한 이유를 제시해 준다.",
-                    "sent_id": 278,
+                    "sent_id": 2422,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1536
+                    "lu": "접어들다.v.Process_continue",
+                    "text": "1982년, 전쟁이 2년째로 접어들면서, 이라크의 작전은 FROG-7AS 타격의 사용을 확장하고 이란의 전략적 후방에 대한 공격에 스커드-B 단거리 탄도 미사일 ( SRBM ) 을 최초로 사용하는 새로운 단계로 진입하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1933,
-    "ko_pos": "VV",
-    "ko_lu": "대하다.v.Have_associated",
-    "lu_id": 2406,
-    "en_lus": [
-        "have"
     ]
 }

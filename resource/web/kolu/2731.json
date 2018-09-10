@@ -1,74 +1,85 @@
 {
-    "frameName": "Relational_quantity",
+    "ko_pos": "n",
+    "ko_lu": "포함.n.Inclusion",
+    "frameID": 1153,
+    "frameName": "Inclusion",
+    "en_lus": [
+        "include"
+    ],
+    "lu_id": 2731,
     "patterns": [
         {
-            "valenceText": "annotation id: 8905",
+            "valenceText": "annotation id: 7020",
             "examples": [
                 {
-                    "frameName": "Relational_quantity",
+                    "origin_lus": [
+                        "including"
+                    ],
+                    "ko_annotation_id": 7020,
+                    "annotation_id": 12785,
+                    "frameName": "Inclusion",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Inclusion",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 122,
+                                "end": 124
                             },
-                            "id": "1"
+                            "token_span": [
+                                34
+                            ],
+                            "role": "TARGET",
+                            "text": "포함"
                         },
                         {
-                            "obj": "mass",
+                            "id": 2,
+                            "obj": "Total",
+                            "token_span": [
+                                26
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 6
+                                "begin": 93,
+                                "end": 96
                             },
-                            "id": "2"
+                            "text": "활동에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Part",
+                            "token_span": [
+                                30,
+                                31,
+                                32,
+                                33,
+                                34
+                            ],
+                            "span": {
+                                "begin": 105,
+                                "end": 124
+                            },
+                            "text": "원심 분리기와 아마도 레이저를 포함",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "some"
-                    ],
-                    "ko_annotation_id": 8905,
-                    "text": "약간의 시간이 걸리고 어려운 일이었지만 Goodwill의 도움으로, Jerry는 검찰과 함께 지불 계획을 성공적으로 세우고 거처를 찾고 더 철저한 일자리 찾기를 할 수 있었다.",
-                    "sent_id": 428,
+                    "sent_id": 2555,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 2239
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.38358",
-            "examples": [
-                {
-                    "frameName": "Relational_quantity",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 3,
-                                "end": 5
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "그는 약간의 돈을 요구했다.",
-                    "target": "약간",
-                    "ko_annotation_id": "sejong.38358",
-                    "relations": []
+                    "lu": "포함.n.Inclusion",
+                    "text": "가장 걱정스러운 발전은 2002 - 03년에 탄로 났는데, 이동안 이란은 두 개의 농축 시설, 중수로 생산 공장, 연료 제조 공장의 건설 계획, 그리고 개조 및 농축 활동에 관한 연구 ( 원심 분리기와 아마도 레이저를 포함 ) 에 착수한 것을 시인하였다."
                 }
             ]
         }
-    ],
-    "frameID": 2427,
-    "ko_pos": "NNG",
-    "ko_lu": "약간.n.Relational_quantity",
-    "lu_id": 2731,
-    "en_lus": [
-        "some"
     ]
 }

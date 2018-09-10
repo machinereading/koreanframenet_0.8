@@ -1,60 +1,98 @@
 {
-    "frameName": "Biological_area",
+    "ko_pos": "n",
+    "ko_lu": "수입.n.Earnings_and_losses",
+    "frameID": 1873,
+    "frameName": "Earnings_and_losses",
+    "en_lus": [
+        "revenue",
+        "syuunyuu .収入 "
+    ],
+    "lu_id": 5453,
     "patterns": [
         {
-            "valenceText": "annotation id: 19297",
+            "valenceText": "annotation id: 2207",
             "examples": [
                 {
-                    "frameName": "Biological_area",
+                    "origin_lus": [
+                        "syuunyuu .収入 ",
+                        "revenues"
+                    ],
+                    "ko_annotation_id": 2207,
+                    "annotation_id": 4397,
+                    "frameName": "Earnings_and_losses",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Earnings_and_losses",
                             "span": {
-                                "begin": 10,
-                                "end": 12
+                                "begin": 35,
+                                "end": 38
                             },
-                            "id": "1"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "수입은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goods",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "text": "관광",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "scrub"
+                    "sent_id": 847,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19297,
-                    "text": "이들은 석회암층, 관목과 초원, 산호 절벽, 그리고 질 좋은 모래 해변들의 지역으로 둘러싸여 있다.",
-                    "sent_id": 885,
-                    "relations": [],
-                    "annotation_id": 4608
+                    "lu": "수입.n.Earnings_and_losses",
+                    "text": "라스 베이거스의 최근 사업 추정은 어려움들을 예상한다 ; 관광 수입은 이미 건축된 것을 유지하기 위해 상당히 증가해야 하는 반면에 실제 수치는 방문이 변함 없거나 감소하는 것으로 나타난다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.15999",
+            "valenceText": "annotation id: 11466",
             "examples": [
                 {
-                    "frameName": "Biological_area",
+                    "origin_lus": [
+                        "syuunyuu .収入 ",
+                        "revenues"
+                    ],
+                    "ko_annotation_id": 11466,
+                    "annotation_id": 0,
+                    "frameName": "Earnings_and_losses",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Earnings_and_losses",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 17,
+                                "end": 20
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "수입은"
                         }
                     ],
-                    "text": "이곳은 고지대라서 그런지 관목들만이 무성하게 자라고 있다.",
-                    "target": "관목",
-                    "ko_annotation_id": "sejong.15999",
-                    "relations": []
+                    "sent_id": 4406,
+                    "relations": [],
+                    "lu": "수입.n.Earnings_and_losses",
+                    "text": "전술한 대로, 작가 에이전트의 수입은 작가에게 들어오는 인세에 많은 부분을 의지한다."
                 }
             ]
         }
-    ],
-    "frameID": 193,
-    "ko_pos": "NNG",
-    "ko_lu": "관목.n.Biological_area",
-    "lu_id": 5453,
-    "en_lus": [
-        "scrub"
     ]
 }

@@ -1,51 +1,65 @@
 {
-    "frameName": "Self_motion",
+    "ko_pos": "n",
+    "ko_lu": "초기.n.Process_start",
+    "frameID": 133,
+    "frameName": "Process_start",
+    "en_lus": [
+        "nascent"
+    ],
+    "lu_id": 1616,
     "patterns": [
         {
-            "valenceText": "annotation id: 5090",
+            "valenceText": "annotation id: 6890",
             "examples": [
                 {
-                    "frameName": "Self_motion",
+                    "origin_lus": [
+                        "nascent"
+                    ],
+                    "ko_annotation_id": 6890,
+                    "annotation_id": 12560,
+                    "frameName": "Process_start",
                     "denotations": [
                         {
-                            "obj": "Reason",
+                            "id": 1,
+                            "obj": "Process_start",
                             "span": {
-                                "begin": 0,
-                                "end": 16
-                            }
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "초기의"
                         },
                         {
-                            "obj": "Purpose",
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 25
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 27,
-                                "end": 28
-                            }
+                                "begin": 24,
+                                "end": 35
+                            },
+                            "text": "미사일 생산 프로그램",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "iku .行く "
+                    "sent_id": 2512,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5090,
-                    "text": "스승 고노무카이의 명령에 따라, 빈집을 청소하러 갔습니다.",
-                    "sent_id": 4441,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "초기.n.Process_start",
+                    "text": "2004년 초부터 현재까지, 이란은 초기의 미사일 생산 프로그램 개발을 포기하지 않을 것임이 증명되었다."
                 }
             ]
         }
-    ],
-    "frameID": 64,
-    "ko_pos": "VV",
-    "ko_lu": "갔다오다.v.Self_motion",
-    "lu_id": 1616,
-    "en_lus": [
-        "iku .行く "
     ]
 }

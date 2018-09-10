@@ -1,51 +1,82 @@
 {
-    "frameName": "Existence",
+    "ko_pos": "v",
+    "ko_lu": "봉기하다.v.Change_of_leadership",
+    "frameID": 72,
+    "frameName": "Change_of_leadership",
+    "en_lus": [
+        "revolt"
+    ],
+    "lu_id": 3802,
     "patterns": [
         {
-            "valenceText": "annotation id: 13022",
+            "valenceText": "annotation id: 4938",
             "examples": [
                 {
-                    "frameName": "Existence",
+                    "origin_lus": [
+                        "revolting"
+                    ],
+                    "ko_annotation_id": 4938,
+                    "annotation_id": 8939,
+                    "frameName": "Change_of_leadership",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Change_of_leadership",
                             "span": {
-                                "begin": 18,
-                                "end": 21
-                            }
+                                "begin": 55,
+                                "end": 59
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "봉기하는"
                         },
                         {
-                            "obj": "Point_of_view",
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                8,
+                                9
+                            ],
                             "span": {
-                                "begin": 23,
-                                "end": 27
-                            }
+                                "begin": 33,
+                                "end": 54
+                            },
+                            "text": "AlburFaha의 al-Anbar에서",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Selector",
+                            "token_span": [
+                                11
+                            ],
                             "span": {
-                                "begin": 28,
-                                "end": 30
-                            }
+                                "begin": 60,
+                                "end": 64
+                            },
+                            "text": "사람들의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sonzai .存在 "
+                    "sent_id": 1856,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13022,
-                    "text": "우선, 하리마는 무엇인가 하는, 하리마의 지리적인 의미를 가장 뚜렷하게 보여주는 것이 아카마쓰라고 생각합니다.",
-                    "sent_id": 3696,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "봉기하다.v.Change_of_leadership",
+                    "text": "그들은 심지어 그것을 공표하였으며, 그 이후 우리 형제들은 AlburFaha의 al-Anbar에서 봉기하는 사람들의 두뇌 역할을 하는 배후자인 야전 지휘자를 공격하였다."
                 }
             ]
         }
-    ],
-    "frameID": 660,
-    "ko_pos": "NNG",
-    "ko_lu": "의미.n.Existence",
-    "lu_id": 3802,
-    "en_lus": [
-        "sonzai .存在 "
     ]
 }

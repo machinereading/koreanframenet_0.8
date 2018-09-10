@@ -1,37 +1,63 @@
 {
-    "frameName": "Discussion",
+    "ko_pos": "n",
+    "ko_lu": "경.n.Relational_quantity",
+    "frameID": 2427,
+    "frameName": "Relational_quantity",
+    "en_lus": [
+        "around"
+    ],
+    "lu_id": 3026,
     "patterns": [
         {
-            "valenceText": "annotation id: 9876",
+            "valenceText": "annotation id: 16913",
             "examples": [
                 {
-                    "frameName": "Discussion",
+                    "origin_lus": [
+                        "around"
+                    ],
+                    "ko_annotation_id": 16913,
+                    "annotation_id": 3911,
+                    "frameName": "Relational_quantity",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Relational_quantity",
                             "span": {
-                                "begin": 31,
-                                "end": 34
-                            }
+                                "begin": 26,
+                                "end": 27
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "경"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Reference_Quantity",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 25
+                            },
+                            "text": "1150년",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kaigi .会議 "
+                    "sent_id": 744,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 9876,
-                    "text": "그래서, 아무리 경비가 든다 하더라도 매주, 정기적으로 회의할 필요가 있다는 것이다.",
-                    "sent_id": 3557,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "경.n.Relational_quantity",
+                    "text": "신비스럽게도, Anasazi는 서기 1150년 경 계곡에서 사라졌는데 또 다른 수렵 채집 부족인 남부 Paiutes가 다시 그곳에 살게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 34,
-    "ko_pos": "VV",
-    "ko_lu": "회의하다.v.Discussion",
-    "lu_id": 3026,
-    "en_lus": [
-        "kaigi .会議 "
     ]
 }

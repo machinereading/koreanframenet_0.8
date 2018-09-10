@@ -1,66 +1,63 @@
 {
-    "frameName": "Size",
+    "ko_pos": "v",
+    "ko_lu": "구하다.v.Request",
+    "frameID": 41,
+    "frameName": "Request",
+    "en_lus": [
+        "ask"
+    ],
+    "lu_id": 171,
     "patterns": [
         {
-            "valenceText": "annotation id: 476",
+            "valenceText": "annotation id: 14088",
             "examples": [
                 {
-                    "frameName": "Size",
+                    "origin_lus": [
+                        "asking"
+                    ],
+                    "ko_annotation_id": 14088,
+                    "annotation_id": 9012,
+                    "frameName": "Request",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Request",
                             "span": {
-                                "begin": 12,
-                                "end": 43
-                            }
+                                "begin": 92,
+                                "end": 96
+                            },
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "구하며,"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                21
+                            ],
                             "span": {
-                                "begin": 45,
-                                "end": 48
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "ookii .大きい"
-                    ],
-                    "ko_annotation_id": 476,
-                    "text": "그럴지는 모르겠지만, 적어도 그 한 순간, 이성을 잃고, 말을 해버렸다는 사실은 막중하다.",
-                    "sent_id": 4033,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.94882",
-            "examples": [
-                {
-                    "frameName": "Size",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 20,
-                                "end": 24
+                                "begin": 88,
+                                "end": 91
                             },
-                            "obj": "target"
+                            "text": "용서를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "이번 작전에서 2분대의 역할은 아주 막중했다.",
-                    "target": "막중했다",
-                    "ko_annotation_id": "sejong.94882",
-                    "relations": []
+                    "sent_id": 1865,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "구하다.v.Request",
+                    "text": "AlbuFahd에서 청소 후, 무슬림 형제단은 그의 부족에 있는 스파이들 중 세 명을 사살하였고, 처음으로 그 형제단에 대항하는 반응이 없었으나, 대신 그는 용서를 구하며, 그들에게 왔고 협조할 준비가 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 2282,
-    "ko_pos": "VA",
-    "ko_lu": "막중하다.a.Size",
-    "lu_id": 171,
-    "en_lus": [
-        "ookii .大きい"
     ]
 }

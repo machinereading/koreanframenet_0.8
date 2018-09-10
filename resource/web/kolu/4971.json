@@ -1,74 +1,63 @@
 {
-    "frameName": "Locale_by_use",
+    "ko_pos": "n",
+    "ko_lu": "병력.n.Military",
+    "frameID": 1514,
+    "frameName": "Military",
+    "en_lus": [
+        "force"
+    ],
+    "lu_id": 4971,
     "patterns": [
         {
-            "valenceText": "annotation id: 17495",
+            "valenceText": "annotation id: 1828",
             "examples": [
                 {
-                    "frameName": "Locale_by_use",
+                    "origin_lus": [
+                        "forces"
+                    ],
+                    "ko_annotation_id": 1828,
+                    "annotation_id": 3766,
+                    "frameName": "Military",
                     "denotations": [
                         {
-                            "obj": "descriptor",
+                            "id": 1,
+                            "obj": "Military",
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 34,
+                                "end": 37
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "병력이"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Possessor",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 23,
-                                "end": 26
+                                "begin": 29,
+                                "end": 33
                             },
-                            "id": "1"
+                            "text": "이스라엘",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "school"
-                    ],
-                    "ko_annotation_id": 17495,
-                    "text": "Zupan 씨는 남캘리포니아대학교의 경영 대학원에서 가르친다.",
-                    "sent_id": 303,
+                    "sent_id": 718,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1692
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.30671",
-            "examples": [
-                {
-                    "frameName": "Locale_by_use",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 11,
-                                "end": 14
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "그는 대학을 마치고 대학원에 진학했다.",
-                    "target": "대학원",
-                    "ko_annotation_id": "sejong.30671",
-                    "relations": []
+                    "lu": "병력.n.Military",
+                    "text": "나머지 새로운 유대 국가로부터 분리된 서 예루살렘은 이스라엘 병력이 해안 지역까지 도시를 연결하는 회랑 지대를 확보할 때까지 수개월 간 포위당한 채로 지속되었다."
                 }
             ]
         }
-    ],
-    "frameID": 196,
-    "ko_pos": "NN",
-    "ko_lu": "대학원.n.Locale_by_use",
-    "lu_id": 4971,
-    "en_lus": [
-        "school"
     ]
 }

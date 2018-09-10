@@ -1,52 +1,65 @@
 {
-    "frameName": "Political_locales",
+    "ko_pos": "n",
+    "ko_lu": "책자.n.Text",
+    "frameID": 298,
+    "frameName": "Text",
+    "en_lus": [
+        "brochure",
+        "booklet"
+    ],
+    "lu_id": 3107,
     "patterns": [
         {
-            "valenceText": "annotation id: 10332",
+            "valenceText": "annotation id: 4005",
             "examples": [
                 {
-                    "frameName": "Political_locales",
+                    "origin_lus": [
+                        "brochure",
+                        "booklet"
+                    ],
+                    "ko_annotation_id": 4005,
+                    "annotation_id": 7416,
+                    "frameName": "Text",
                     "denotations": [
                         {
-                            "obj": "descriptor",
+                            "id": 1,
+                            "obj": "Text",
                             "span": {
-                                "begin": 39,
-                                "end": 43
+                                "begin": 12,
+                                "end": 15
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "책자는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Author",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 41,
-                                "end": 43
+                                "begin": 8,
+                                "end": 11
                             },
-                            "id": "1"
+                            "text": "SCS",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "countries"
-                    ],
-                    "ko_annotation_id": 10332,
-                    "text": "이것이 발생하면서, 콜롬비아, 쿠바, 파나마 그리고 니카라과로 인용된 4 개국은 언론이 많은 공격을 받고 있을 뿐만 아니라 마약  좌파 정치와 연결되어 있다.",
-                    "sent_id": 1991,
+                    "sent_id": 1537,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9635
+                    "lu": "책자.n.Text",
+                    "text": "내가 동봉하는 SCS 책자는 당신에게 SCS의 역사적 중요성 뿐만 아니라, Georgia O ' Keefe 수준의 기부가들에게 주어지는 활동과 구체적인 혜택에 대해 알려줄 것입니다."
                 }
             ]
         }
-    ],
-    "frameID": 195,
-    "ko_pos": "NNB",
-    "ko_lu": "개국.n.Political_locales",
-    "lu_id": 3107,
-    "en_lus": [
-        "country"
     ]
 }

@@ -1,67 +1,102 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "v",
+    "ko_lu": "먹다.v.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "aziwau .味わう "
+    ],
+    "lu_id": 4326,
     "patterns": [
         {
-            "valenceText": "annotation id: 14903",
+            "valenceText": "annotation id: 16455",
             "examples": [
                 {
-                    "frameName": "Leadership",
+                    "origin_lus": [
+                        "aziwau .味わう "
+                    ],
+                    "ko_annotation_id": 16455,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Perception_active",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 35,
+                                "end": 42
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "president",
-                        "kaityoo .会長"
-                    ],
-                    "ko_annotation_id": 14903,
-                    "text": "회장은 외교관이 도착한 후 떠났다.",
-                    "sent_id": 1397,
-                    "relations": [],
-                    "annotation_id": 6841
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 14904",
-            "examples": [
-                {
-                    "frameName": "Leadership",
-                    "denotations": [
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "먹어 보았다."
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 12
+                                "begin": 17,
+                                "end": 20
                             },
-                            "id": "1"
+                            "text": "거기서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 29
+                            },
+                            "text": "진짜 「쌀밥」을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "text": "원 없이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "president",
-                        "kaityoo .会長"
+                    "sent_id": 4298,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14904,
-                    "text": "QN : 외교관은 회장이 떠나기 전에 도착하였나 ?",
-                    "sent_id": 1398,
-                    "relations": [],
-                    "annotation_id": 6843
+                    "lu": "먹다.v.Perception_active",
+                    "text": "가게에서 숙식하면서 일했는데, 거기서 진짜 「쌀밥」을 원 없이 먹어 보았다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "NNG",
-    "ko_lu": "회장.n.Leadership",
-    "lu_id": 4326,
-    "en_lus": [
-        "president",
-        "kaityoo .会長"
     ]
 }

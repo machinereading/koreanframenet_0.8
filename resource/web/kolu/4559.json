@@ -1,65 +1,101 @@
 {
-    "frameName": "Travel",
+    "ko_pos": "a",
+    "ko_lu": "않다.a.Perception_experience",
+    "frameID": 70,
+    "frameName": "Perception_experience",
+    "en_lus": [
+        "hairu .入る "
+    ],
+    "lu_id": 4559,
     "patterns": [
         {
-            "valenceText": "annotation id: 15807",
+            "valenceText": "annotation id: 12114",
             "examples": [
                 {
-                    "frameName": "Travel",
+                    "origin_lus": [
+                        "hairu .入る "
+                    ],
+                    "ko_annotation_id": 12114,
+                    "annotation_id": 0,
+                    "frameName": "Perception_experience",
                     "denotations": [
                         {
-                            "obj": "traveler",
+                            "id": 1,
+                            "obj": "Perception_experience",
                             "span": {
-                                "begin": 13,
-                                "end": 15
+                                "begin": 61,
+                                "end": 66
                             },
-                            "id": "2"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "않습니다."
                         },
                         {
-                            "obj": "area",
+                            "id": 2,
+                            "obj": "Perceiver_Passive",
+                            "token_span": [
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 17,
-                                "end": 55
+                                "begin": 41,
+                                "end": 49
                             },
-                            "id": "3"
+                            "text": "우키부네의 귀에",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 56
+                            },
+                            "text": "그런 말들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                14
+                            ],
                             "span": {
                                 "begin": 57,
                                 "end": 60
                             },
-                            "id": "1"
+                            "text": "들리지",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "traveled"
-                    ],
-                    "ko_annotation_id": 15807,
-                    "text": "지도에 그려진 것처럼, 선로는 Helen Stewart의 Las Vegas Ranch를 바로 통과하여 지나갔다.",
-                    "sent_id": 770,
+                    "sent_id": 4836,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4026
+                    "lu": "않다.a.Perception_experience",
+                    "text": "아낙네들은 모두, 이사를 위해 염색이다 뭐다 이사 준비에 여념이 없는데, 우키부네의 귀에 그런 말들은 들리지 않습니다."
                 }
             ]
         }
-    ],
-    "frameID": 343,
-    "ko_pos": "VV",
-    "ko_lu": "지나가다.v.Travel",
-    "lu_id": 4559,
-    "en_lus": [
-        "travel"
     ]
 }

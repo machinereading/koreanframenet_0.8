@@ -1,87 +1,81 @@
 {
-    "frameName": "Temporary_stay",
+    "ko_pos": "v",
+    "ko_lu": "위치하다.v.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "place"
+    ],
+    "lu_id": 144,
     "patterns": [
         {
-            "valenceText": "annotation id: 380",
+            "valenceText": "annotation id: 4257",
             "examples": [
                 {
-                    "frameName": "Temporary_stay",
+                    "origin_lus": [
+                        "placed"
+                    ],
+                    "ko_annotation_id": 4257,
+                    "annotation_id": 7799,
+                    "frameName": "Placing",
                     "denotations": [
                         {
-                            "obj": "duration",
+                            "id": 1,
+                            "obj": "Placing",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 29,
+                                "end": 32
                             },
-                            "id": "3"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "위치한"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 5,
-                                "end": 7
+                                "begin": 25,
+                                "end": 28
                             },
-                            "id": "1"
+                            "text": "그것이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "guest",
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 16
+                                "begin": 33,
+                                "end": 35
                             },
-                            "id": "2"
+                            "text": "지역",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "stay"
-                    ],
-                    "ko_annotation_id": 380,
-                    "text": "4일간의 체류 동안, Hall은 바그다와 남부 Muthana 지방의 병원과 보건기관을 방문하였다.",
-                    "sent_id": 1526,
+                    "sent_id": 1599,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 7337
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.24091",
-            "examples": [
-                {
-                    "frameName": "Temporary_stay",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 3,
-                                "end": 5
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "미국 체류가 나에게는 부담이 많이 된다.",
-                    "target": "체류",
-                    "ko_annotation_id": "sejong.24091",
-                    "relations": []
+                    "lu": "위치하다.v.Placing",
+                    "text": "3- 키오스크는 전천후에 견디도록 설계되고, 그것이 위치한 지역 전체를 커버해야 한다."
                 }
             ]
         }
-    ],
-    "frameID": 1885,
-    "ko_pos": "NNG",
-    "ko_lu": "체류.n.Temporary_stay",
-    "lu_id": 144,
-    "en_lus": [
-        "stay"
     ]
 }

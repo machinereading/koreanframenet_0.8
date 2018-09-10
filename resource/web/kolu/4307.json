@@ -1,44 +1,81 @@
 {
-    "frameName": "Undergo_change",
+    "ko_pos": "v",
+    "ko_lu": "그을리다.v.Experience_bodily_harm",
+    "frameID": 384,
+    "frameName": "Experience_bodily_harm",
+    "en_lus": [
+        "hiyake .日焼け "
+    ],
+    "lu_id": 4307,
     "patterns": [
         {
-            "valenceText": "annotation id: 14851",
+            "valenceText": "annotation id: 16576",
             "examples": [
                 {
-                    "frameName": "Undergo_change",
+                    "origin_lus": [
+                        "hiyake .日焼け "
+                    ],
+                    "ko_annotation_id": 16576,
+                    "annotation_id": 0,
+                    "frameName": "Experience_bodily_harm",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Experience_bodily_harm",
                             "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "그을린"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 34
-                            }
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "새까맣게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "text": "그들에게,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ryuudoo ka .流動 化 "
+                    "sent_id": 4589,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14851,
-                    "text": "포스트 산업주의 사회에서는, 지식이 고도화, 복합화, 유동화하여, 지식이 자본으로서 기능하기 때문입니다.",
-                    "sent_id": 4182,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "그을리다.v.Experience_bodily_harm",
+                    "text": "새까맣게 그을린 날렵한 몸을 한 그들에게, 흰 샅바가 멋들어지게 어울려 부러움을 느꼈다."
                 }
             ]
         }
-    ],
-    "frameID": 1172,
-    "ko_pos": "VV",
-    "ko_lu": "유동하다.v.Undergo_change",
-    "lu_id": 4307,
-    "en_lus": [
-        "ryuudoo ka .流動 化 "
     ]
 }

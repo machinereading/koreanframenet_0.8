@@ -1,51 +1,86 @@
 {
-    "frameName": "Damaging",
+    "ko_pos": "v",
+    "ko_lu": "이름나다.v.Fame",
+    "frameID": 1880,
+    "frameName": "Fame",
+    "en_lus": [
+        "renowned"
+    ],
+    "lu_id": 690,
     "patterns": [
         {
-            "valenceText": "annotation id: 2119",
+            "valenceText": "annotation id: 2457",
             "examples": [
                 {
-                    "frameName": "Damaging",
+                    "origin_lus": [
+                        "renowned"
+                    ],
+                    "ko_annotation_id": 2457,
+                    "annotation_id": 4825,
+                    "frameName": "Fame",
                     "denotations": [
                         {
-                            "obj": "Agent",
+                            "id": 1,
+                            "obj": "Fame",
                             "span": {
-                                "begin": 27,
-                                "end": 34
-                            }
+                                "begin": 64,
+                                "end": 68
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "이름나게"
                         },
                         {
-                            "obj": "Patient",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 50,
-                                "end": 60
-                            }
+                                "begin": 37,
+                                "end": 39
+                            },
+                            "text": "섬은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
                             "span": {
-                                "begin": 62,
-                                "end": 64
-                            }
+                                "begin": 40,
+                                "end": 63
+                            },
+                            "text": "카리브 해에서 최고의 목적지 가운데 하나로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "songai .損害 "
+                    "sent_id": 931,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2119,
-                    "text": "출산 후, 다카코는 마사오와의 이별을 결심하고, 마사오를 상대로 「마이카라의 인지청구」와 「다카코와 마이카라의 손해배상청구(이른바 위자료.)」의 두 가지 소송을 제기했다.",
-                    "sent_id": 4249,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "이름나다.v.Fame",
+                    "text": "1962년에 독립한 이후부터 관광은 자마이카의 주요 산업이었고 이 섬은 카리브 해에서 최고의 목적지 가운데 하나로 이름나게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 415,
-    "ko_pos": "NNG",
-    "ko_lu": "손해.n.Damaging",
-    "lu_id": 690,
-    "en_lus": [
-        "songai .損害 "
     ]
 }

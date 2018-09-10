@@ -1,74 +1,92 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "v",
+    "ko_lu": "드러내다.v.Evidence",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "en_lus": [
+        "reveal"
+    ],
+    "lu_id": 3066,
     "patterns": [
         {
-            "valenceText": "annotation id: 10205",
+            "valenceText": "annotation id: 14945",
             "examples": [
                 {
-                    "frameName": "Buildings",
+                    "origin_lus": [
+                        "revealed"
+                    ],
+                    "ko_annotation_id": 14945,
+                    "annotation_id": 13187,
+                    "frameName": "Evidence",
                     "denotations": [
                         {
-                            "obj": "function",
+                            "id": 1,
+                            "obj": "Evidence",
                             "span": {
-                                "begin": 24,
-                                "end": 34
+                                "begin": 55,
+                                "end": 60
                             },
-                            "id": "2"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "드러냈다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Support",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 35,
-                                "end": 37
+                                "begin": 0,
+                                "end": 18
                             },
-                            "id": "1"
+                            "text": "이란에서의 뒤이은 IAEA 조사는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Proposition",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 54
+                            },
+                            "text": "이란의 핵 프로그램의 개발과 규모와 관련된 수많은 새로운 정보를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "mansions"
-                    ],
-                    "ko_annotation_id": 10205,
-                    "text": "이 찬란한 예배당과 함께, 솔로몬은 왕궁, 그의 부인들을 위한 저택, 그가 결혼한 공주들이 숭배하던 이방신들을 위한 신전들, 그리고 수도를 방어하기 위한 성벽들을 건축하였다.",
-                    "sent_id": 635,
+                    "sent_id": 2629,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 3431
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.38810",
-            "examples": [
-                {
-                    "frameName": "Buildings",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 8,
-                                "end": 10
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "그는 호화스런 저택에서 산다.",
-                    "target": "저택",
-                    "ko_annotation_id": "sejong.38810",
-                    "relations": []
+                    "lu": "드러내다.v.Evidence",
+                    "text": "이란에서의 뒤이은 IAEA 조사는 이란의 핵 프로그램의 개발과 규모와 관련된 수많은 새로운 정보를 드러냈다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NNG",
-    "ko_lu": "저택.n.Buildings",
-    "lu_id": 3066,
-    "en_lus": [
-        "mansion"
     ]
 }

@@ -1,52 +1,101 @@
 {
-    "frameName": "Duplication",
+    "ko_pos": "v",
+    "ko_lu": "구매하다.v.Getting",
+    "frameID": 179,
+    "frameName": "Getting",
+    "en_lus": [
+        "obtain"
+    ],
+    "lu_id": 3206,
     "patterns": [
         {
-            "valenceText": "annotation id: 10867",
+            "valenceText": "annotation id: 9983",
             "examples": [
                 {
-                    "frameName": "Duplication",
+                    "origin_lus": [
+                        "obtained"
+                    ],
+                    "ko_annotation_id": 9983,
+                    "annotation_id": 18464,
+                    "frameName": "Getting",
                     "denotations": [
                         {
-                            "obj": "original",
+                            "id": 1,
+                            "obj": "Getting",
                             "span": {
-                                "begin": 45,
-                                "end": 70
+                                "begin": 38,
+                                "end": 41
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "구매한"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 81,
-                                "end": 85
+                                "begin": 21,
+                                "end": 31
                             },
-                            "id": "1"
+                            "text": "1988 - 89년",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Source",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 37
+                            },
+                            "text": "남아공에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 46
+                            },
+                            "text": "우라늄을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "replicas"
-                    ],
-                    "ko_annotation_id": 10867,
-                    "text": "Middle Kingdom은 새로 만들어진 \" 살아 있는 \" 중국의 과거 역사이고, 성지, 사원, 탑, 궁전, 그리고 거리의 장면 등 많은 등신대의 모사품들을 통해 보여준다.",
-                    "sent_id": 1143,
+                    "sent_id": 3519,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6013
+                    "lu": "구매하다.v.Getting",
+                    "text": "유럽 관리들의 정보 보고서들은 이란이 1988 - 89년 남아공에서 구매한 우라늄을 농축하는데에 파키스탄의 도움을 추구할 것에 대한 우려를 나타낸다 ( 6003 )."
                 }
             ]
         }
-    ],
-    "frameID": 11,
-    "ko_pos": "NN",
-    "ko_lu": "모사품들.n.Duplication",
-    "lu_id": 3206,
-    "en_lus": [
-        "replica"
     ]
 }

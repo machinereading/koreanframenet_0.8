@@ -1,54 +1,100 @@
 {
-    "frameName": "Importance",
+    "ko_pos": "v",
+    "ko_lu": "피우다.v.Setting_fire",
+    "frameID": 283,
+    "frameName": "Setting_fire",
+    "en_lus": [
+        "light"
+    ],
+    "lu_id": 2607,
     "patterns": [
         {
-            "valenceText": "annotation id: 8550",
+            "valenceText": "annotation id: 3046",
             "examples": [
                 {
-                    "frameName": "Importance",
+                    "origin_lus": [
+                        "light"
+                    ],
+                    "ko_annotation_id": 3046,
+                    "annotation_id": 5853,
+                    "frameName": "Setting_fire",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Setting_fire",
                             "span": {
-                                "begin": 55,
-                                "end": 58
+                                "begin": 18,
+                                "end": 21
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "피우기"
                         },
                         {
-                            "obj": "factor",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 60,
-                                "end": 64
+                                "begin": 0,
+                                "end": 2
                             },
-                            "id": "2"
+                            "text": "8월",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Kindler",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 13
+                            },
+                            "text": "젊은 여성들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Flammables",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "text": "선향을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "serious",
-                        "Serious"
-                    ],
-                    "ko_annotation_id": 8550,
-                    "text": "중국의 탄도 미사일 기술의 확산과 화학무기 생산에 사용될 수 있는 화학 품목을 통제할 능력에 대해 심각하게 염려스럽다.",
-                    "sent_id": 2100,
+                    "sent_id": 1119,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10312
+                    "lu": "피우다.v.Setting_fire",
+                    "text": "8월 마다 젊은 여성들이 선향을 피우기 위해 모이고 일부는 심지어 좋은 남편을 위한 기도를 위해 9 미터 ( 30 피트 ) 를 오른다."
                 }
             ]
         }
-    ],
-    "frameID": 407,
-    "ko_pos": "VA",
-    "ko_lu": "심각하다.a.Importance",
-    "lu_id": 2607,
-    "en_lus": [
-        "Serious",
-        "serious"
     ]
 }

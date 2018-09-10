@@ -1,52 +1,82 @@
 {
-    "frameName": "Assistance",
+    "ko_pos": "a",
+    "ko_lu": "가깝다.a.Locative_relation",
+    "frameID": 199,
+    "frameName": "Locative_relation",
+    "en_lus": [
+        "tikai .近い"
+    ],
+    "lu_id": 4959,
     "patterns": [
         {
-            "valenceText": "annotation id: 17473",
+            "valenceText": "annotation id: 10392",
             "examples": [
                 {
-                    "frameName": "Assistance",
+                    "origin_lus": [
+                        "tikai .近い"
+                    ],
+                    "ko_annotation_id": 10392,
+                    "annotation_id": 0,
+                    "frameName": "Locative_relation",
                     "denotations": [
                         {
-                            "obj": "helper",
+                            "id": 1,
+                            "obj": "Locative_relation",
                             "span": {
-                                "begin": 5,
-                                "end": 7
+                                "begin": 15,
+                                "end": 19
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "가깝다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Figure",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 0,
+                                "end": 5
                             },
-                            "id": "1"
+                            "text": "다이비루는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ground",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 14
+                            },
+                            "text": "그의 회사에서는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "aid"
-                    ],
-                    "ko_annotation_id": 17473,
-                    "text": "러시아는 외부 원조가 증가되지 않으면 화학무기 비축량의 파괴를 보류할 수 있다는 한 선임 관료와 협상자의 발언이 AVN 군 통신사에 인용되었다.",
-                    "sent_id": 1388,
+                    "sent_id": 3716,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6811
+                    "lu": "가깝다.a.Locative_relation",
+                    "text": "다이비루는 그의 회사에서는 가깝다."
                 }
             ]
         }
-    ],
-    "frameID": 391,
-    "ko_pos": "NNG",
-    "ko_lu": "원조.n.Assistance",
-    "lu_id": 4959,
-    "en_lus": [
-        "aid"
     ]
 }

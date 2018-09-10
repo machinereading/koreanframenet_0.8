@@ -1,44 +1,84 @@
 {
-    "frameName": "Sounds",
+    "ko_pos": "v",
+    "ko_lu": "축출하다.v.Removing",
+    "frameID": 63,
+    "frameName": "Removing",
+    "en_lus": [
+        "expel"
+    ],
+    "lu_id": 200,
     "patterns": [
         {
-            "valenceText": "annotation id: 637",
+            "valenceText": "annotation id: 8057",
             "examples": [
                 {
-                    "frameName": "Sounds",
+                    "origin_lus": [
+                        "expelled"
+                    ],
+                    "ko_annotation_id": 8057,
+                    "annotation_id": 14728,
+                    "frameName": "Removing",
                     "denotations": [
                         {
-                            "obj": "Sound_source",
+                            "id": 1,
+                            "obj": "Removing",
                             "span": {
-                                "begin": 0,
-                                "end": 8
-                            }
+                                "begin": 56,
+                                "end": 59
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "축출한"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                9
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 12
-                            }
+                                "begin": 32,
+                                "end": 35
+                            },
+                            "text": "북한이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 36,
+                                "end": 55
+                            },
+                            "text": "동결을 감시했던 IAEA 조사관들을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "oto .音 "
+                    "sent_id": 2881,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 637,
-                    "text": "호출음이 한 번 울리는 중에 어머니가 받았다.",
-                    "sent_id": 3609,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "축출하다.v.Removing",
+                    "text": "영변의 핵 단지에 대한 IAEA의 직접 감시 활동 능력은 북한이 동결을 감시했던 IAEA 조사관들을 축출한 2002년 12월 말에 완전이 잃어버렸다."
                 }
             ]
         }
-    ],
-    "frameID": 850,
-    "ko_pos": "VV",
-    "ko_lu": "울리다.v.Sounds",
-    "lu_id": 200,
-    "en_lus": [
-        "oto .音 "
     ]
 }

@@ -1,74 +1,131 @@
 {
-    "frameName": "Perception_active",
+    "ko_pos": "v",
+    "ko_lu": "체결되다.v.Activity_finish",
+    "frameID": 165,
+    "frameName": "Activity_finish",
+    "en_lus": [
+        "conclude"
+    ],
+    "lu_id": 151,
     "patterns": [
         {
-            "valenceText": "annotation id: 437",
+            "valenceText": "annotation id: 14778",
             "examples": [
                 {
-                    "frameName": "Perception_active",
+                    "origin_lus": [
+                        "concluded"
+                    ],
+                    "ko_annotation_id": 14778,
+                    "annotation_id": 12460,
+                    "frameName": "Activity_finish",
                     "denotations": [
                         {
-                            "obj": "perceiver_agentive",
+                            "id": 1,
+                            "obj": "Activity_finish",
                             "span": {
-                                "begin": 70,
-                                "end": 72
+                                "begin": 106,
+                                "end": 112
                             },
-                            "id": "2"
+                            "token_span": [
+                                24
+                            ],
+                            "role": "TARGET",
+                            "text": "체결되었다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 73,
-                                "end": 75
+                                "begin": 25,
+                                "end": 49
                             },
-                            "id": "1"
+                            "text": "1991, 1992, 그리고 1993년 동안",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 90
+                            },
+                            "text": "기술, 부품, 그리고 완전한 M-9/11 미사일을 이란에 제공하기 위하여",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Agent",
+                            "token_span": [
+                                20,
+                                21,
+                                22
+                            ],
+                            "span": {
+                                "begin": 91,
+                                "end": 100
+                            },
+                            "text": "이란과 중국 간에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Activity",
+                            "token_span": [
+                                23
+                            ],
+                            "span": {
+                                "begin": 101,
+                                "end": 105
+                            },
+                            "text": "협정들이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "observation"
-                    ],
-                    "ko_annotation_id": 437,
-                    "text": "미국의 미사일 확산 반대와 인종 격리 정부의 종식에 직면하자, 남아공은 1991년에 미사일 및 우주 발사 프로그램을 포기하고 국제 감시 하에 관련 시설을 제거하였다.",
-                    "sent_id": 3058,
+                    "sent_id": 2488,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 15913
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.11440",
-            "examples": [
-                {
-                    "frameName": "Perception_active",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 15,
-                                "end": 17
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "마약범은 경찰들의 끊임없는 감시의 대상이다",
-                    "target": "감시",
-                    "ko_annotation_id": "sejong.11440",
-                    "relations": []
+                    "lu": "체결되다.v.Activity_finish",
+                    "text": "이러한 노력의 일환으로, 들리는 바에 의하면 1991, 1992, 그리고 1993년 동안 기술, 부품, 그리고 완전한 M-9/11 미사일을 이란에 제공하기 위하여 이란과 중국 간에 협정들이 체결되었다."
                 }
             ]
         }
-    ],
-    "frameID": 66,
-    "ko_pos": "NNG",
-    "ko_lu": "감시.n.Perception_active",
-    "lu_id": 151,
-    "en_lus": [
-        "observation"
     ]
 }

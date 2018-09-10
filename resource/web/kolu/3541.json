@@ -1,60 +1,63 @@
 {
-    "frameName": "Direction",
+    "ko_pos": "v",
+    "ko_lu": "경외하다.v.Experiencer_focus",
+    "frameID": 48,
+    "frameName": "Experiencer_focus",
+    "en_lus": [
+        "fear"
+    ],
+    "lu_id": 3541,
     "patterns": [
         {
-            "valenceText": "annotation id: 12055",
+            "valenceText": "annotation id: 4531",
             "examples": [
                 {
-                    "frameName": "Direction",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 43,
-                                "end": 45
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "left"
+                        "fear"
                     ],
-                    "ko_annotation_id": 12055,
-                    "text": "그는 그의 승리가 그의 성장지향의 경제개혁을 계속하라는 권한위임이지 그가 더 좌파로 이동하라는 요구가 아니라는 것을 감안해야 한다.",
-                    "sent_id": 76,
-                    "relations": [],
-                    "annotation_id": 511
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.31510",
-            "examples": [
-                {
-                    "frameName": "Direction",
+                    "ko_annotation_id": 4531,
+                    "annotation_id": 8228,
+                    "frameName": "Experiencer_focus",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Experiencer_focus",
                             "span": {
-                                "begin": 19,
-                                "end": 21
+                                "begin": 14,
+                                "end": 19
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "경외하라."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "text": "신을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그와 같은 발언을 한 것으로 보아 좌파임이 분명하다.",
-                    "target": "좌파",
-                    "ko_annotation_id": "sejong.31510",
-                    "relations": []
+                    "sent_id": 1682,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "경외하다.v.Experiencer_focus",
+                    "text": "Shei Rida, 신을 경외하라."
                 }
             ]
         }
-    ],
-    "frameID": 215,
-    "ko_pos": "NNG",
-    "ko_lu": "좌파.n.Direction",
-    "lu_id": 3541,
-    "en_lus": [
-        "left"
     ]
 }

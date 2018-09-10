@@ -1,65 +1,83 @@
 {
-    "frameName": "Locale_by_use",
+    "ko_pos": "n",
+    "ko_lu": "인구.n.People",
+    "frameID": 304,
+    "frameName": "People",
+    "en_lus": [
+        "mono .もの "
+    ],
+    "lu_id": 2308,
     "patterns": [
         {
-            "valenceText": "annotation id: 7468",
+            "valenceText": "annotation id: 10928",
             "examples": [
                 {
-                    "frameName": "Locale_by_use",
+                    "origin_lus": [
+                        "mono .もの "
+                    ],
+                    "ko_annotation_id": 10928,
+                    "annotation_id": 0,
+                    "frameName": "People",
                     "denotations": [
                         {
-                            "obj": "use",
+                            "id": 1,
+                            "obj": "People",
                             "span": {
-                                "begin": 50,
-                                "end": 53
+                                "begin": 18,
+                                "end": 21
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "인구가"
                         },
                         {
-                            "obj": "use",
+                            "id": 2,
+                            "obj": "Age",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 61,
-                                "end": 65
+                                "begin": 0,
+                                "end": 12
                             },
-                            "id": "3"
+                            "text": "20세부터 40세까지의",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 91,
-                                "end": 92
+                                "begin": 13,
+                                "end": 21
                             },
-                            "id": "1"
+                            "text": "취업연령 인구가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "depots"
-                    ],
-                    "ko_annotation_id": 7468,
-                    "text": "보고서에 의하면 북한은 천연 화학물질, 전구물질, 그리고 실제 작용제가를 생산 및/ 혹은 저장하는 12 개의 화학무기 시설과, 그리고 여섯 개의 주요 화학무기 저장고를 보유하고 있는 것으로 나타났다.",
-                    "sent_id": 2827,
+                    "sent_id": 4068,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 14349
+                    "lu": "인구.n.People",
+                    "text": "20세부터 40세까지의 취업연령 인구가 6할을 차지한다."
                 }
             ]
         }
-    ],
-    "frameID": 196,
-    "ko_pos": "NNG",
-    "ko_lu": "고.n.Locale_by_use",
-    "lu_id": 2308,
-    "en_lus": [
-        "depot"
     ]
 }

@@ -1,60 +1,64 @@
 {
-    "frameName": "People",
+    "ko_pos": "n",
+    "ko_lu": "지하철.n.Vehicle",
+    "frameID": 429,
+    "frameName": "Vehicle",
+    "en_lus": [
+        "car"
+    ],
+    "lu_id": 2644,
     "patterns": [
         {
-            "valenceText": "annotation id: 8650",
+            "valenceText": "annotation id: 15724",
             "examples": [
                 {
-                    "frameName": "People",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 7,
-                                "end": 11
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "people"
+                        "car",
+                        "cars"
                     ],
-                    "ko_annotation_id": 8650,
-                    "text": "그리고 오늘 미국인들은 약간의 빛을 보게될 것이다.",
-                    "sent_id": 1733,
-                    "relations": [],
-                    "annotation_id": 8449
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.30852",
-            "examples": [
-                {
-                    "frameName": "People",
+                    "ko_annotation_id": 15724,
+                    "annotation_id": 16982,
+                    "frameName": "Vehicle",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Vehicle",
                             "span": {
-                                "begin": 3,
-                                "end": 6
+                                "begin": 0,
+                                "end": 4
                             },
-                            "id": "1"
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "지하철과"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Vehicle",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "지하철과",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 미국인을 한 명 알고 있다.",
-                    "target": "미국인",
-                    "ko_annotation_id": "sejong.30852",
-                    "relations": []
+                    "sent_id": 3231,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지하철.n.Vehicle",
+                    "text": "지하철과 다른 사방이 막힌 공간에서 치명적인 시아나이드 가스를 살포하기 위해 알카이다가 개발한 것으로 전해지는 이 장치는 테러리스트 공격에 결코 사용되지 않았고  아마도 별로 효과적이지 않은 것 같다고 전문가들은 말한다."
                 }
             ]
         }
-    ],
-    "frameID": 304,
-    "ko_pos": "NN",
-    "ko_lu": "미국인.n.People",
-    "lu_id": 2644,
-    "en_lus": [
-        "people"
     ]
 }

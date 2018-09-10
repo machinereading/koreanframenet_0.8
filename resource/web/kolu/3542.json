@@ -1,74 +1,63 @@
 {
-    "frameName": "Experiencer_focus",
+    "ko_pos": "v",
+    "ko_lu": "인용하다.v.Purpose",
+    "frameID": 513,
+    "frameName": "Purpose",
+    "en_lus": [
+        "use"
+    ],
+    "lu_id": 3542,
     "patterns": [
         {
-            "valenceText": "annotation id: 12058",
+            "valenceText": "annotation id: 6329",
             "examples": [
                 {
-                    "frameName": "Experiencer_focus",
+                    "origin_lus": [
+                        "use"
+                    ],
+                    "ko_annotation_id": 6329,
+                    "annotation_id": 11492,
+                    "frameName": "Purpose",
                     "denotations": [
                         {
-                            "obj": "content",
-                            "span": {
-                                "begin": 16,
-                                "end": 32
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Purpose",
                             "span": {
                                 "begin": 33,
-                                "end": 35
+                                "end": 36
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "인용한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                20
+                            ],
+                            "span": {
+                                "begin": 92,
+                                "end": 95
+                            },
+                            "text": "양용의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "abhorrence"
-                    ],
-                    "ko_annotation_id": 12058,
-                    "text": "그러나, 여러 이란 관리들은 전장에서 화학무기 사용에 대한 혐오를 결코 숨기지 않았다.",
-                    "sent_id": 2236,
+                    "sent_id": 2289,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 11178
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.9203",
-            "examples": [
-                {
-                    "frameName": "Experiencer_focus",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "그녀의 혐오가 섞인 목소리를 잊을 수 없었다.",
-                    "target": "혐오",
-                    "ko_annotation_id": "sejong.9203",
-                    "relations": []
+                    "lu": "인용하다.v.Purpose",
+                    "text": "1997년 10월 30일에 Washington Times가 인용한 정보 보고에 의하면, 중국은 화학무기 생산에 사용되는 유리 내장 장비를 제조하기 위해 이란에 민군 양용의 공장 건설을 완료하였다."
                 }
             ]
         }
-    ],
-    "frameID": 48,
-    "ko_pos": "NNG",
-    "ko_lu": "혐오.n.Experiencer_focus",
-    "lu_id": 3542,
-    "en_lus": [
-        "abhorrence"
     ]
 }

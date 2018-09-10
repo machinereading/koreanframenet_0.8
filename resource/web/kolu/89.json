@@ -1,87 +1,64 @@
 {
-    "frameName": "Speak_on_topic",
+    "ko_pos": "v",
+    "ko_lu": "토론하다.v.Discussion",
+    "frameID": 34,
+    "frameName": "Discussion",
+    "en_lus": [
+        "discus"
+    ],
+    "lu_id": 89,
     "patterns": [
         {
-            "valenceText": "annotation id: 252",
+            "valenceText": "annotation id: 5352",
             "examples": [
                 {
-                    "frameName": "Speak_on_topic",
+                    "origin_lus": [
+                        "discuss"
+                    ],
+                    "ko_annotation_id": 5352,
+                    "annotation_id": 9687,
+                    "frameName": "Discussion",
                     "denotations": [
                         {
-                            "obj": "occasion",
+                            "id": 1,
+                            "obj": "Discussion",
                             "span": {
-                                "begin": 4,
-                                "end": 26
+                                "begin": 50,
+                                "end": 54
                             },
-                            "id": "3"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "토론하기"
                         },
                         {
-                            "obj": "topic",
+                            "id": 2,
+                            "obj": "Interlocutor_1",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 28,
-                                "end": 42
+                                "begin": 0,
+                                "end": 7
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 47,
-                                "end": 56
-                            },
-                            "id": "1"
+                            "text": "부시 대통령은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "address"
-                    ],
-                    "ko_annotation_id": 252,
-                    "text": "그것은 제재 해제와 궁극적인 관계 정상화의 대가로 핵무기에 대한 미국의 우려에 대해 조처를 취하겠다는 약속을 포함한다.",
-                    "sent_id": 2364,
+                    "sent_id": 2002,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 11911
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.88728",
-            "examples": [
-                {
-                    "frameName": "Speak_on_topic",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 16,
-                                "end": 19
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "긴급 상황에서는 빠르게 일을 조처할 수 있는 현명한 사람이 필요하다.",
-                    "target": "조처할",
-                    "ko_annotation_id": "sejong.88728",
-                    "relations": []
+                    "lu": "토론하다.v.Discussion",
+                    "text": "부시 대통령은 페루 대통령 Baroc와 볼리비아의 Jaime Paz Zamora 대통령과 토론하기 위해 90일 이내에 만나기로 합의하였다."
                 }
             ]
         }
-    ],
-    "frameID": 523,
-    "ko_pos": "VV",
-    "ko_lu": "조처하다.v.Speak_on_topic",
-    "lu_id": 89,
-    "en_lus": [
-        "address"
     ]
 }

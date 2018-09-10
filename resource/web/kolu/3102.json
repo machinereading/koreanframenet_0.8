@@ -1,52 +1,82 @@
 {
-    "frameName": "People",
+    "ko_pos": "n",
+    "ko_lu": "구조.n.System",
+    "frameID": 1610,
+    "frameName": "System",
+    "en_lus": [
+        "sikumi .仕組み "
+    ],
+    "lu_id": 3102,
     "patterns": [
         {
-            "valenceText": "annotation id: 10322",
+            "valenceText": "annotation id: 10592",
             "examples": [
                 {
-                    "frameName": "People",
+                    "origin_lus": [
+                        "sikumi .仕組み "
+                    ],
+                    "ko_annotation_id": 10592,
+                    "annotation_id": 0,
+                    "frameName": "System",
                     "denotations": [
                         {
-                            "obj": "descriptor",
+                            "id": 1,
+                            "obj": "System",
                             "span": {
-                                "begin": 4,
-                                "end": 31
+                                "begin": 79,
+                                "end": 82
                             },
-                            "id": "2"
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "구조를"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Component_Entities",
+                            "token_span": [
+                                17,
+                                18
+                            ],
                             "span": {
-                                "begin": 34,
-                                "end": 36
+                                "begin": 71,
+                                "end": 78
                             },
-                            "id": "1"
+                            "text": "거기에 숨겨진",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Complex",
+                            "token_span": [
+                                19
+                            ],
+                            "span": {
+                                "begin": 79,
+                                "end": 82
+                            },
+                            "text": "구조를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "man"
-                    ],
-                    "ko_annotation_id": 10322,
-                    "text": "이것은 그의 동생 Guillermo가 1986년에 살해된 한 남성으로부터 나왔다.",
-                    "sent_id": 1983,
+                    "sent_id": 3882,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9589
+                    "lu": "구조.n.System",
+                    "text": "이 모형 만들기 과정에 아이들도 참여시킴으로써, 모형은 교과서나 교사에 의해 제시되는 것이 아닌, 스스로 경험한 것을 토대로, 거기에 숨겨진 구조를 찾아내는 과정에서 얻어지는 것이라는 것을 아이들도 깨닫게 된다."
                 }
             ]
         }
-    ],
-    "frameID": 304,
-    "ko_pos": "NNG",
-    "ko_lu": "남성.n.People",
-    "lu_id": 3102,
-    "en_lus": [
-        "man"
     ]
 }

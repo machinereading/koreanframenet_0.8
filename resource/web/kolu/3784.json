@@ -1,87 +1,84 @@
 {
-    "frameName": "Categorization",
+    "ko_pos": "n",
+    "ko_lu": "실태.n.State_of_entity",
+    "frameID": 1600,
+    "frameName": "State_of_entity",
+    "en_lus": [
+        "zittai .実態 "
+    ],
+    "lu_id": 3784,
     "patterns": [
         {
-            "valenceText": "annotation id: 12963",
+            "valenceText": "annotation id: 10926",
             "examples": [
                 {
-                    "frameName": "Categorization",
+                    "origin_lus": [
+                        "zittai .実態 "
+                    ],
+                    "ko_annotation_id": 10926,
+                    "annotation_id": 0,
+                    "frameName": "State_of_entity",
                     "denotations": [
                         {
-                            "obj": "category",
+                            "id": 1,
+                            "obj": "State_of_entity",
                             "span": {
-                                "begin": 34,
-                                "end": 40
+                                "begin": 27,
+                                "end": 30
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "실태에"
                         },
                         {
-                            "obj": "cognizer",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 42,
-                                "end": 44
+                                "begin": 12,
+                                "end": 26
                             },
-                            "id": "3"
+                            "text": "이러한 아이들의 학습 성장",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "State",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 45,
-                                "end": 50
+                                "begin": 27,
+                                "end": 30
                             },
-                            "id": "1"
+                            "text": "실태에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "stereotype"
-                    ],
-                    "ko_annotation_id": 12963,
-                    "text": "그러나, 활기찬 서민 문화와 독립국가의 증가하는 자신감으로, 버림받은 섬의 광고 고정 관념을 거부한다.",
-                    "sent_id": 881,
+                    "sent_id": 4066,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4579
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.30333",
-            "examples": [
-                {
-                    "frameName": "Categorization",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 16,
-                                "end": 20
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "너는 정치인에 대해서 잘못된 고정관념을 가지고 있는 것 같구나.",
-                    "target": "고정관념",
-                    "ko_annotation_id": "sejong.30333",
-                    "relations": []
+                    "lu": "실태.n.State_of_entity",
+                    "text": "중학교 이과 수업은, 이러한 아이들의 학습 성장 실태에 맞추어, 학습 내용을 보다 과학적인 내용으로 바꾸어나가는 것이 그 목적 중 하나이다."
                 }
             ]
         }
-    ],
-    "frameID": 21,
-    "ko_pos": "NNG",
-    "ko_lu": "고정관념.n.Categorization",
-    "lu_id": 3784,
-    "en_lus": [
-        "stereotype"
     ]
 }

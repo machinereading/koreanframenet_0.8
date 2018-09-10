@@ -1,82 +1,82 @@
 {
-    "frameName": "Quantity",
+    "ko_pos": "v",
+    "ko_lu": "이름짓다.v.Name_conferral",
+    "frameID": 221,
+    "frameName": "Name_conferral",
+    "en_lus": [
+        "rename"
+    ],
+    "lu_id": 4692,
     "patterns": [
         {
-            "valenceText": "annotation id: 16454",
+            "valenceText": "annotation id: 13009",
             "examples": [
                 {
-                    "frameName": "Quantity",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 27,
-                                "end": 29
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "amount"
+                        "renaming"
                     ],
-                    "ko_annotation_id": 16454,
-                    "text": "그들이 우리에게 빚진 것을 우리가 그들에게 빚진 금액으로 상쇄하기 위해 기다리며 노력하자 - 그래서 당신이 7월과 8월에 회계처리를 마칠 때까지 기다리라고 말하는 것이다.",
-                    "sent_id": 1815,
-                    "relations": [],
-                    "annotation_id": 8767
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.4101",
-            "examples": [
-                {
-                    "frameName": "Quantity",
+                    "ko_annotation_id": 13009,
+                    "annotation_id": 3033,
+                    "frameName": "Name_conferral",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Name_conferral",
                             "span": {
-                                "begin": 24,
-                                "end": 26
+                                "begin": 56,
+                                "end": 65
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "연금생활자들은 매달 임금의 70%에 달하는 금액을 받게 된다.",
-                    "target": "금액",
-                    "ko_annotation_id": "sejong.4101",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.4102",
-            "examples": [
-                {
-                    "frameName": "Quantity",
-                    "denotations": [
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "다시 이름지었다."
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 15
+                                "begin": 45,
+                                "end": 48
                             },
-                            "id": "1"
+                            "text": "그곳을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Name",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 55
+                            },
+                            "text": "이스탄불이라",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그가 빌려간 돈의 전체 금액은 천만원이 넘는다.",
-                    "target": "금액",
-                    "ko_annotation_id": "sejong.4102",
-                    "relations": []
+                    "sent_id": 574,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이름짓다.v.Name_conferral",
+                    "text": "1453년에, 그들은 콘스탄티노플을 차지하고 즉시 그 곳을 그들의 수도를 만들어 그곳을 이스탄불이라 다시 이름지었다."
                 }
             ]
         }
-    ],
-    "frameID": 2604,
-    "ko_pos": "NNG",
-    "ko_lu": "금액.n.Quantity",
-    "lu_id": 4692,
-    "en_lus": [
-        "amount"
     ]
 }

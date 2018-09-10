@@ -1,66 +1,108 @@
 {
-    "frameName": "Organization",
+    "ko_pos": "v",
+    "ko_lu": "표명하다.v.Expressing_publicly",
+    "frameID": 1622,
+    "frameName": "Expressing_publicly",
+    "en_lus": [
+        "express"
+    ],
+    "lu_id": 3346,
     "patterns": [
         {
-            "valenceText": "annotation id: 11398",
+            "valenceText": "annotation id: 16994",
             "examples": [
                 {
-                    "frameName": "Organization",
+                    "origin_lus": [
+                        "expressed"
+                    ],
+                    "ko_annotation_id": 16994,
+                    "annotation_id": 7333,
+                    "frameName": "Expressing_publicly",
                     "denotations": [
                         {
-                            "obj": "Organization",
+                            "id": 1,
+                            "obj": "Expressing_publicly",
                             "span": {
-                                "begin": 39,
-                                "end": 42
-                            }
+                                "begin": 51,
+                                "end": 57
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "표명하였다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Medium",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 39,
-                                "end": 42
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "yakusyo .役所 "
-                    ],
-                    "ko_annotation_id": 11398,
-                    "text": "연회는 육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의 연회가 중심을 이뤘다.",
-                    "sent_id": 3649,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.10302",
-            "examples": [
-                {
-                    "frameName": "Organization",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 18,
-                                "end": 21
+                                "begin": 0,
+                                "end": 7
                             },
-                            "id": "1"
+                            "text": "한 성명에서,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Communicator",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 13
+                            },
+                            "text": "Hall은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Content",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 50
+                            },
+                            "text": "이라크 국민에 대한 10년간의 제재에 대한 부정적인 영향에 유감을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "이 도로에는 주로 시청을 비롯한 관공서나 우체국 등이 밀집해 있다.",
-                    "target": "관공서",
-                    "ko_annotation_id": "sejong.10302",
-                    "relations": []
+                    "sent_id": 1525,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "표명하다.v.Expressing_publicly",
+                    "text": "한 성명에서, Hall은 이라크 국민에 대한 10년간의 제재에 대한 부정적인 영향에 유감을 표명하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1371,
-    "ko_pos": "NNG",
-    "ko_lu": "관공서.n.Organization",
-    "lu_id": 3346,
-    "en_lus": [
-        "yakusyo .役所 "
     ]
 }

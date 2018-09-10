@@ -1,78 +1,105 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "v",
+    "ko_lu": "어울리다.v.Light_movement",
+    "frameID": 131,
+    "frameName": "Light_movement",
+    "en_lus": [
+        "haeru .映える"
+    ],
+    "lu_id": 3350,
     "patterns": [
         {
-            "valenceText": "annotation id: 11404",
+            "valenceText": "annotation id: 16575",
             "examples": [
                 {
-                    "frameName": "Buildings",
+                    "origin_lus": [
+                        "haeru .映える"
+                    ],
+                    "ko_annotation_id": 16575,
+                    "annotation_id": 0,
+                    "frameName": "Light_movement",
                     "denotations": [
                         {
-                            "obj": "name",
+                            "id": 1,
+                            "obj": "Light_movement",
                             "span": {
-                                "begin": 28,
-                                "end": 34
+                                "begin": 36,
+                                "end": 39
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "어울려"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 34,
-                                "end": 37
+                                "begin": 0,
+                                "end": 23
                             },
-                            "id": "1"
+                            "text": "새까맣게 그을린 날렵한 몸을 한 그들에게,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Emitter",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "text": "흰 샅바가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "text": "멋들어지게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "library"
-                    ],
-                    "ko_annotation_id": 11404,
-                    "text": "오전 12시 6분 HRH : 나는 지진이 났을 때 버클리 중앙도서관에 있었다.",
-                    "sent_id": 112,
+                    "sent_id": 4589,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 704
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 11405",
-            "examples": [
-                {
-                    "frameName": "Buildings",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 25,
-                                "end": 28
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "origin_lus": [
-                        "library"
-                    ],
-                    "ko_annotation_id": 11405,
-                    "text": "중앙은 갈채를 받고 있는 음향 기기, 극장, 도서관, 전시 갤러리, 가게, 식당, 그리고 바를 갖춘 콘서트 홀을 포함하고 있다.",
-                    "sent_id": 1161,
-                    "relations": [],
-                    "annotation_id": 6086
+                    "lu": "어울리다.v.Light_movement",
+                    "text": "새까맣게 그을린 날렵한 몸을 한 그들에게, 흰 샅바가 멋들어지게 어울려 부러움을 느꼈다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NN",
-    "ko_lu": "도서관.n.Buildings",
-    "lu_id": 3350,
-    "en_lus": [
-        "library"
     ]
 }

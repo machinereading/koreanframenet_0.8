@@ -1,54 +1,89 @@
 {
-    "frameName": "Locale_by_use",
+    "ko_pos": "v",
+    "ko_lu": "조사하다.v.Criminal_investigation",
+    "frameID": 500,
+    "frameName": "Criminal_investigation",
+    "en_lus": [
+        "probe",
+        "investigation"
+    ],
+    "lu_id": 1526,
     "patterns": [
         {
-            "valenceText": "annotation id: 4832",
+            "valenceText": "annotation id: 4608",
             "examples": [
                 {
-                    "frameName": "Locale_by_use",
+                    "origin_lus": [
+                        "probe"
+                    ],
+                    "ko_annotation_id": 4608,
+                    "annotation_id": 8413,
+                    "frameName": "Criminal_investigation",
                     "denotations": [
                         {
-                            "obj": "relative_location",
+                            "id": 1,
+                            "obj": "Criminal_investigation",
                             "span": {
-                                "begin": 0,
-                                "end": 17
+                                "begin": 69,
+                                "end": 73
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "조사하지"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Incident",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 22,
-                                "end": 23
+                                "begin": 30,
+                                "end": 68
                             },
-                            "id": "1"
+                            "text": "백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Investigator",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 79,
+                                "end": 85
+                            },
+                            "text": "공화당원들을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "depot",
-                        "eki .駅"
-                    ],
-                    "ko_annotation_id": 4832,
-                    "text": "Main 및 Fremont 거리에 있는 역에 서서, 철도 관리들은 사막 관목지역 40 평방 블록에서 세분화 한 1200 개의 부지를 경매에 부쳤다.",
-                    "sent_id": 774,
+                    "sent_id": 1725,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4039
+                    "lu": "조사하다.v.Criminal_investigation",
+                    "text": "Ed_Hnery : 민주당 대표 Harry Reed는 백악관이 이라크에서의 전쟁을 정당화하기 위해 정보를 조작했다는 주장을 조사하지 못했다고 공화당원들을 비난하였다."
                 }
             ]
         }
-    ],
-    "frameID": 196,
-    "ko_pos": "NNG",
-    "ko_lu": "역.n.Locale_by_use",
-    "lu_id": 1526,
-    "en_lus": [
-        "depot",
-        "eki .駅"
     ]
 }

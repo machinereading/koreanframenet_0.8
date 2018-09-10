@@ -1,109 +1,737 @@
 {
-    "frameName": "Posture",
+    "ko_pos": "v",
+    "ko_lu": "짓다.v.Building",
+    "frameID": 259,
+    "frameName": "Building",
+    "en_lus": [
+        "construct",
+        "build",
+        "tateru .建てる",
+        "built",
+        "tukuru .造る ",
+        "building"
+    ],
+    "lu_id": 3352,
     "patterns": [
         {
-            "valenceText": "annotation id: 11407",
+            "valenceText": "annotation id: 438",
             "examples": [
                 {
-                    "frameName": "Posture",
-                    "denotations": [
-                        {
-                            "obj": "Agent",
-                            "span": {
-                                "begin": 0,
-                                "end": 4
-                            }
-                        },
-                        {
-                            "obj": "Location",
-                            "span": {
-                                "begin": 6,
-                                "end": 9
-                            }
-                        },
-                        {
-                            "obj": "Agent",
-                            "span": {
-                                "begin": 12,
-                                "end": 19
-                            }
-                        },
-                        {
-                            "obj": "Location",
-                            "span": {
-                                "begin": 21,
-                                "end": 23
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 25,
-                                "end": 27
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "yorikakaru .寄りかかる"
+                        "constructed",
+                        "built"
                     ],
-                    "ko_annotation_id": 11407,
-                    "text": "한 사람은 아우디에, 다른 한 사람은 나무에 기대면서.",
-                    "sent_id": 3936,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.30605",
-            "examples": [
-                {
-                    "frameName": "Posture",
+                    "ko_annotation_id": 438,
+                    "annotation_id": 940,
+                    "frameName": "Building",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Building",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 20,
+                                "end": 24
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "지어졌고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 12
+                            },
+                            "text": "엉성한 구조로,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 19
+                            },
+                            "text": "지지대 위에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "기대 이상의 좋은 결과가 나와 매우 기쁘다",
-                    "target": "기대",
-                    "ko_annotation_id": "sejong.30605",
-                    "relations": []
+                    "sent_id": 164,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짓다.v.Building",
+                    "text": "건물은 엉성한 구조로, 지지대 위에 지어졌고 매우 세게 흔들리고 있었다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.30606",
+            "valenceText": "annotation id: 1439",
             "examples": [
                 {
-                    "frameName": "Posture",
+                    "origin_lus": [
+                        "building",
+                        "tukuru .造る ",
+                        "tateru .建てる",
+                        "build"
+                    ],
+                    "ko_annotation_id": 1439,
+                    "annotation_id": 3008,
+                    "frameName": "Building",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Building",
                             "span": {
-                                "begin": 36,
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "짓고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 16
+                            },
+                            "text": "그들의 강력한 성채들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 569,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짓다.v.Building",
+                    "text": "그들은 그들의 강력한 성채들을 짓고, 섬에서 기독교 신앙을 강화하는 과정을 시작하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 1618",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "built"
+                    ],
+                    "ko_annotation_id": 1618,
+                    "annotation_id": 3392,
+                    "frameName": "Building",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 43,
+                                "end": 46
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "지어진"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 29
+                            },
+                            "text": "도시의 북쪽 끝에서 높은 지점인 모리아 산에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 42
+                            },
+                            "text": "약 960년에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 50
+                            },
+                            "text": "신전에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 630,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짓다.v.Building",
+                    "text": "그 궤는 도시의 북쪽 끝에서 높은 지점인 모리아 산에 기원 전 약 960년에 지어진 신전에 놓일 때까지  그곳에 머물렀다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 2868",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "constructed",
+                        "built"
+                    ],
+                    "ko_annotation_id": 2868,
+                    "annotation_id": 5511,
+                    "frameName": "Building",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 57,
+                                "end": 65
+                            },
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "위에 지어졌고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 56
+                            },
+                            "text": "옷걸이 프레임 \"",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1054,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짓다.v.Building",
+                    "text": "경쟁자인 홍콩과 상하이 은행은 건축가 Norman Foster에 의한 것이고 ; \" 옷걸이 프레임 \" 위에 지어졌고, 그것의 바닥은 오르기 보다는 오히려 걸려 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 3164",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "built"
+                    ],
+                    "ko_annotation_id": 3164,
+                    "annotation_id": 6069,
+                    "frameName": "Building",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 47,
+                                "end": 49
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "지은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Components",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 46
+                            },
+                            "text": "60 헥타르 ( 150 에이커 ) 보다 더 많은 매립지에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 59
+                            },
+                            "text": "분주한 상업지역인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1158,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짓다.v.Building",
+                    "text": "산책로 끝으로 계속 가면, 60 헥타르 ( 150 에이커 ) 보다 더 많은 매립지에 지은 분주한 상업지역인 Tsim Sha Tsui East에 이른다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 3685",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "build"
+                    ],
+                    "ko_annotation_id": 3685,
+                    "annotation_id": 6890,
+                    "frameName": "Building",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 24,
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "지으려는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Purpose",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 15
+                            },
+                            "text": "전기를 위한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 23
+                            },
+                            "text": "핵전력 공장을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1427,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짓다.v.Building",
+                    "text": "QN : 이란은 전기를 위한 핵전력 공장을 지으려는 계획의 위장하에 비밀 무기 프로그램을 운영하고 있나 ?"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4142",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "built"
+                    ],
+                    "ko_annotation_id": 4142,
+                    "annotation_id": 7640,
+                    "frameName": "Building",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 14,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "지은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Components",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 13
+                            },
+                            "text": "벽돌이나 콘크리트로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "text": "울타리는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1569,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짓다.v.Building",
+                    "text": "1- 벽돌이나 콘크리트로 지은 울타리는 높이가 4 미터이어야 한다, 그때 1 미터 높이의 가시 철조망을 상부에 두어야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7171",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "building",
+                        "tukuru .造る ",
+                        "tateru .建てる",
+                        "build"
+                    ],
+                    "ko_annotation_id": 7171,
+                    "annotation_id": 12989,
+                    "frameName": "Building",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 70,
+                                "end": 73
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "짓기로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 18
+                            },
+                            "text": "러시아 연방은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 65
+                            },
+                            "text": "3 기의 추가 원자로를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Place",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 66,
+                                "end": 69
+                            },
+                            "text": "현지에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2596,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짓다.v.Building",
+                    "text": "1995년 1월에, 러시아 연방은 공식적으로 Bushehr 원자로 건설을 완공하겠다고 선언하고 3 기의 추가 원자로를 현지에 짓기로 이란과 협정에 서명하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10502",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "building",
+                        "tukuru .造る ",
+                        "tateru .建てる",
+                        "build"
+                    ],
+                    "ko_annotation_id": 10502,
+                    "annotation_id": 0,
+                    "frameName": "Building",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "짓는다면,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "집을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3788,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짓다.v.Building",
+                    "text": "역시, 이왕 집을 짓는다면, 감동하고 싶고, 자랑도 하고 싶지요."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13181",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "constructed",
+                        "built"
+                    ],
+                    "ko_annotation_id": 13181,
+                    "annotation_id": 3695,
+                    "frameName": "Building",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Building",
+                            "span": {
+                                "begin": 32,
                                 "end": 38
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "지어졌으나,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 18
+                            },
+                            "text": "도시의 많은 최고 이슬람 건축물은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 31
+                            },
+                            "text": "Mameluke 시대에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "경험이 많은 구청장이 신임되면서, 민원 행정도 많이 바뀔 거라는 기대들이 많다",
-                    "target": "기대",
-                    "ko_annotation_id": "sejong.30606",
-                    "relations": []
+                    "sent_id": 700,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "짓다.v.Building",
+                    "text": "도시의 많은 최고 이슬람 건축물은 Mameluke 시대에 지어졌으나, 과거 천년은 그곳에 타격을 주었다 : 예루살렘은 초기에 즐겼던 번영을 되찾을 수 없었다."
                 }
             ]
         }
-    ],
-    "frameID": 18,
-    "ko_pos": "NNG",
-    "ko_lu": "기대.n.Posture",
-    "lu_id": 3352,
-    "en_lus": [
-        "yorikakaru .寄りかかる"
     ]
 }

@@ -1,40 +1,185 @@
 {
-    "frameName": "Medical_professionals",
+    "ko_pos": "a",
+    "ko_lu": "무덥다.a.Being_wet",
+    "frameID": 332,
+    "frameName": "Being_wet",
+    "en_lus": [
+        "musiatui .蒸し暑い "
+    ],
+    "lu_id": 1750,
     "patterns": [
         {
-            "valenceText": "annotation id: 5520",
+            "valenceText": "annotation id: 11055",
             "examples": [
                 {
-                    "frameName": "Medical_professionals",
+                    "origin_lus": [
+                        "musiatui .蒸し暑い "
+                    ],
+                    "ko_annotation_id": 11055,
+                    "annotation_id": 0,
+                    "frameName": "Being_wet",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Being_wet",
+                            "span": {
+                                "begin": 19,
+                                "end": 24
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "무더웠다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 5
+                                "end": 9
                             },
-                            "id": "1"
+                            "text": "객실 안은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 18
+                            },
+                            "text": "땀이 날 정도로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "doctor",
-                        "dokutaa .ドクター "
+                    "sent_id": 4127,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5520,
-                    "text": "바로 의사가 주문한 것입니다.",
-                    "sent_id": 1774,
+                    "lu": "무덥다.a.Being_wet",
+                    "text": "특히 객실 안은, 땀이 날 정도로 무더웠다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11584",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "musiatui .蒸し暑い "
+                    ],
+                    "ko_annotation_id": 11584,
+                    "annotation_id": 0,
+                    "frameName": "Being_wet",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_wet",
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "무덥다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "text": "여름은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "text": "상당히",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4489,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "무덥다.a.Being_wet",
+                    "text": "기후는 사계절의 변화가 뚜렷하며, 여름은 상당히 무덥다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16738",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "musiatui .蒸し暑い "
+                    ],
+                    "ko_annotation_id": 16738,
+                    "annotation_id": 0,
+                    "frameName": "Being_wet",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Being_wet",
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "무덥습니다."
+                        }
+                    ],
+                    "sent_id": 4852,
                     "relations": [],
-                    "annotation_id": 8616
+                    "lu": "무덥다.a.Being_wet",
+                    "text": "오늘은 무덥습니다."
                 }
             ]
         }
-    ],
-    "frameID": 255,
-    "ko_pos": "NNG",
-    "ko_lu": "의사.n.Medical_professionals",
-    "lu_id": 1750,
-    "en_lus": [
-        "doctor",
-        "dokutaa .ドクター "
     ]
 }

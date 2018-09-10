@@ -1,44 +1,105 @@
 {
-    "frameName": "People",
+    "ko_pos": "v",
+    "ko_lu": "회담하다.v.Being_located",
+    "frameID": 960,
+    "frameName": "Being_located",
+    "en_lus": [
+        "sat"
+    ],
+    "lu_id": 4289,
     "patterns": [
         {
-            "valenceText": "annotation id: 14783",
+            "valenceText": "annotation id: 4869",
             "examples": [
                 {
-                    "frameName": "People",
+                    "origin_lus": [
+                        "sat"
+                    ],
+                    "ko_annotation_id": 4869,
+                    "annotation_id": 8837,
+                    "frameName": "Being_located",
                     "denotations": [
                         {
-                            "obj": "Person",
+                            "id": 1,
+                            "obj": "Being_located",
                             "span": {
-                                "begin": 2,
-                                "end": 4
-                            }
+                                "begin": 119,
+                                "end": 124
+                            },
+                            "token_span": [
+                                27
+                            ],
+                            "role": "TARGET",
+                            "text": "미국인들과"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
                             "span": {
-                                "begin": 2,
-                                "end": 4
-                            }
+                                "begin": 46,
+                                "end": 73
+                            },
+                            "text": "몇몇 부족의 우두머리 족장이고 이슬람 당의 상징인",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                22
+                            ],
+                            "span": {
+                                "begin": 102,
+                                "end": 105
+                            },
+                            "text": "위해,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Cotheme",
+                            "token_span": [
+                                26
+                            ],
+                            "span": {
+                                "begin": 115,
+                                "end": 118
+                            },
+                            "text": "곳에서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "zinbutu .人物"
+                    "sent_id": 1838,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14783,
-                    "text": "이 인물에 대해서도, 당신은 꽤나 낮은 평가를 하고 있군요.",
-                    "sent_id": 3671,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "회담하다.v.Being_located",
+                    "text": "그래서 이것이 우리가 일반적으로 al-Anbar에서 살아가고 있는 현실이고, 특히 몇몇 부족의 우두머리 족장이고 이슬람 당의 상징인  Ramadi는 테러리즘과 그 추종세력들과 싸우기 위해, 요르단 및 다른 곳에서 미국인들과 회담했다,"
                 }
             ]
         }
-    ],
-    "frameID": 304,
-    "ko_pos": "NNG",
-    "ko_lu": "인물.n.People",
-    "lu_id": 4289,
-    "en_lus": [
-        "zinbutu .人物"
     ]
 }

@@ -1,88 +1,88 @@
 {
-    "frameName": "Information",
+    "ko_pos": "v",
+    "ko_lu": "판단하다.v.Attempt",
+    "frameID": 116,
+    "frameName": "Attempt",
+    "en_lus": [
+        "try"
+    ],
+    "lu_id": 2116,
     "patterns": [
         {
-            "valenceText": "annotation id: 6822",
+            "valenceText": "annotation id: 3236",
             "examples": [
                 {
-                    "frameName": "Information",
+                    "origin_lus": [
+                        "trying"
+                    ],
+                    "ko_annotation_id": 3236,
+                    "annotation_id": 6195,
+                    "frameName": "Attempt",
                     "denotations": [
                         {
-                            "obj": "Information",
+                            "id": 1,
+                            "obj": "Attempt",
                             "span": {
                                 "begin": 29,
-                                "end": 43
-                            }
+                                "end": 41
+                            },
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "판단하려고 하고 있다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 44,
-                                "end": 46
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "sirase .知らせ"
-                    ],
-                    "ko_annotation_id": 6822,
-                    "text": "낮 열두 시경에 가와고에로 향하는 나룻배가 뜨는데, 거기에 시즈가 타고 있다는 기별이 왔기 때문이다.",
-                    "sent_id": 4376,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.28185",
-            "examples": [
-                {
-                    "frameName": "Information",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 18,
-                                "end": 20
+                                "begin": 0,
+                                "end": 4
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "서울 아들내 집에 올라간다고 막 기별을 했다",
-                    "target": "기별",
-                    "ko_annotation_id": "sejong.28185",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.28186",
-            "examples": [
-                {
-                    "frameName": "Information",
-                    "denotations": [
+                            "text": "행정부는",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 5,
+                                "end": 34
                             },
-                            "id": "1"
+                            "text": "사담 후세인이 대량살상무기를 가지고 있는지 판단하려고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "서울에 간 오빠에게서 잘 도착했다는 기별을 받았다",
-                    "target": "기별",
-                    "ko_annotation_id": "sejong.28186",
-                    "relations": []
+                    "sent_id": 1208,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "판단하다.v.Attempt",
+                    "text": "행정부는 사담 후세인이 대량살상무기를 가지고 있는지 판단하려고 하고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1591,
-    "ko_pos": "NNG",
-    "ko_lu": "기별.n.Information",
-    "lu_id": 2116,
-    "en_lus": [
-        "sirase .知らせ"
     ]
 }

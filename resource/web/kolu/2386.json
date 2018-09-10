@@ -1,106 +1,190 @@
 {
-    "frameName": "Likelihood",
+    "ko_pos": "n",
+    "ko_lu": "사고.n.Commerce_buy",
+    "frameID": 171,
+    "frameName": "Commerce_buy",
+    "en_lus": [
+        "buy"
+    ],
+    "lu_id": 2386,
     "patterns": [
         {
-            "valenceText": "annotation id: 19826",
+            "valenceText": "annotation id: 842",
             "examples": [
                 {
-                    "frameName": "Likelihood",
+                    "origin_lus": [
+                        "bought",
+                        "buy"
+                    ],
+                    "ko_annotation_id": 842,
+                    "annotation_id": 1716,
+                    "frameName": "Commerce_buy",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Commerce_buy",
                             "span": {
-                                "begin": 9,
-                                "end": 13
+                                "begin": 10,
+                                "end": 12
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "사고"
                         },
                         {
-                            "obj": "hypothetical_event",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 32
+                                "begin": 0,
+                                "end": 2
                             },
-                            "id": "2"
+                            "text": "이제",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Buyer",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goods",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "소다를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "unlikely"
-                    ],
-                    "ko_annotation_id": 19826,
-                    "text": "첫째, 있을 것 같지 않지만, 그러나 불가능하지 않은 진전은 잠재적으로 Khatami 대통령의 개혁주의 정부 내에서 핵무기에 대한 국내의 반대 여론 부상이다.",
-                    "sent_id": 2625,
+                    "sent_id": 309,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 13163
+                    "lu": "사고.n.Commerce_buy",
+                    "text": "이제 나는 소다를 사고 돈을 쓸 수 있다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 7716",
+            "valenceText": "annotation id: 1621",
             "examples": [
                 {
-                    "frameName": "Likelihood",
+                    "origin_lus": [
+                        "bought",
+                        "buy"
+                    ],
+                    "ko_annotation_id": 1621,
+                    "annotation_id": 3403,
+                    "frameName": "Commerce_buy",
                     "denotations": [
                         {
-                            "obj": "hypothetical_event",
+                            "id": 1,
+                            "obj": "Commerce_buy",
                             "span": {
-                                "begin": 45,
-                                "end": 47
+                                "begin": 30,
+                                "end": 32
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "사고"
                         },
                         {
-                            "obj": "hypothetical_event",
+                            "id": 2,
+                            "obj": "Buyer",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 49,
-                                "end": 93
+                                "begin": 13,
+                                "end": 16
                             },
-                            "id": "3"
+                            "text": "다윗이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 94,
-                                "end": 100
+                                "begin": 17,
+                                "end": 25
                             },
-                            "id": "1"
+                            "text": "그 신전을 위한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goods",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 29
+                            },
+                            "text": "부지를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "unlikely"
-                    ],
-                    "ko_annotation_id": 7716,
-                    "text": "미국 정보부는 북한으로부터 완전한 시스템이나 주요 하부 시스템의 획득이 없다면, 이란은 향후 5년 내에 대륙간 탄도 미사일이나 위성발사 비행체 ( SLV ) 를 발사할 것 같지 않다고 보고 있다.",
-                    "sent_id": 2386,
+                    "sent_id": 632,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 12040
+                    "lu": "사고.n.Commerce_buy",
+                    "text": "성서적 전통에 의하면, 다윗이 그 신전을 위한 부지를 사고 조심스럽게 건축 자재를 모았지만, 그는 그의 손에 피를 묻힌 전사였기 때문에 그 신전을 건축할 자격이 없는 것으로 간주되었다."
                 }
             ]
         }
-    ],
-    "frameID": 114,
-    "ko_pos": "VA",
-    "ko_lu": "같지않다.a.Likelihood",
-    "lu_id": 2386,
-    "en_lus": [
-        "unlikely",
-        "unlikely"
     ]
 }

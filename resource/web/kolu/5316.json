@@ -1,153 +1,81 @@
 {
-    "frameName": "Cognitive_connection",
+    "ko_pos": "v",
+    "ko_lu": "실시되다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "conduct"
+    ],
+    "lu_id": 5316,
     "patterns": [
         {
-            "valenceText": "annotation id: 18758",
+            "valenceText": "annotation id: 15306",
             "examples": [
                 {
-                    "frameName": "Cognitive_connection",
+                    "origin_lus": [
+                        "conducted"
+                    ],
+                    "ko_annotation_id": 15306,
+                    "annotation_id": 14657,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "concept_1",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 11,
-                                "end": 43
+                                "begin": 55,
+                                "end": 58
                             },
-                            "id": "3"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "실시될"
                         },
                         {
-                            "obj": "concept_2",
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 69,
-                                "end": 78
+                                "begin": 4,
+                                "end": 8
                             },
-                            "id": "2"
+                            "text": "핵실험을",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                12
+                            ],
                             "span": {
-                                "begin": 80,
-                                "end": 83
+                                "begin": 51,
+                                "end": 54
                             },
-                            "id": "1"
+                            "text": "6월에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "linked"
-                    ],
-                    "ko_annotation_id": 18758,
-                    "text": "이것이 발생하면서, 콜롬비아, 쿠바, 파나마 그리고 니카라과로 인용된 4 개국은 언론이 많은 공격을 받고 있을 뿐만 아니라 마약  좌파 정치와 연결되어 있다.",
-                    "sent_id": 1991,
+                    "sent_id": 2870,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9637
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.52584",
-            "examples": [
-                {
-                    "frameName": "Cognitive_connection",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 7,
-                                "end": 12
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "섬이 육지와 연결되었다.",
-                    "target": "연결되었다",
-                    "ko_annotation_id": "sejong.52584",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.52585",
-            "examples": [
-                {
-                    "frameName": "Cognitive_connection",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 10,
-                                "end": 15
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "섬과 육지가 서로 연결되었다.",
-                    "target": "연결되었다",
-                    "ko_annotation_id": "sejong.52585",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.52586",
-            "examples": [
-                {
-                    "frameName": "Cognitive_connection",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 8,
-                                "end": 13
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "다리가 육지에 연결되었다.",
-                    "target": "연결되었다",
-                    "ko_annotation_id": "sejong.52586",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.52587",
-            "examples": [
-                {
-                    "frameName": "Cognitive_connection",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 12,
-                                "end": 17
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "내 컴퓨터는 인터넷에 연결되었다.",
-                    "target": "연결되었다",
-                    "ko_annotation_id": "sejong.52587",
-                    "relations": []
+                    "lu": "실시되다.v.Intentionally_act",
+                    "text": "북한은 핵실험을 하지 않았지만, 2005년 5월 초에 미국 인공위성이 보내온 사진이 북한이 6월에 실시될 핵실험을 위한 준비가 될 수 있는 신호를 탐지하였다고 언론 보도는 지적하였다."
                 }
             ]
         }
-    ],
-    "frameID": 720,
-    "ko_pos": "VV",
-    "ko_lu": "연결되다.v.Cognitive_connection",
-    "lu_id": 5316,
-    "en_lus": [
-        "link"
     ]
 }

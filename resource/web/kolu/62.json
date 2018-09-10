@@ -1,73 +1,790 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "a",
+    "ko_lu": "걸다.a.Self_motion",
+    "frameID": 64,
+    "frameName": "Self_motion",
+    "en_lus": [
+        "walk",
+        "toho .徒歩",
+        "Walk",
+        "aruku .歩く "
+    ],
+    "lu_id": 62,
     "patterns": [
         {
-            "valenceText": "annotation id: 195",
+            "valenceText": "annotation id: 2911",
             "examples": [
                 {
-                    "frameName": "Leadership",
+                    "origin_lus": [
+                        "toho .徒歩",
+                        "aruku .歩く ",
+                        "walk",
+                        "Walk",
+                        "walked"
+                    ],
+                    "ko_annotation_id": 2911,
+                    "annotation_id": 5583,
+                    "frameName": "Self_motion",
                     "denotations": [
                         {
-                            "obj": "Governed",
+                            "id": 1,
+                            "obj": "Self_motion",
                             "span": {
-                                "begin": 7,
-                                "end": 10
-                            }
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "걸어"
                         },
                         {
-                            "obj": "Leader",
+                            "id": 2,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 15,
-                                "end": 19
-                            }
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "당신이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 14
-                            }
+                                "begin": 11,
+                                "end": 37
+                            },
+                            "text": "Cotton Tree Drive를 걸어 오르면,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kun .君 "
+                    "sent_id": 1068,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 195,
-                    "text": "우선 첫째로 무사들의 군주 아가멤논은, 할리조네스의 총 지휘관으로서 거구 오디오스를 전차에서 떨어뜨렸고, 곧바로 그가 앞을 보고 일어서려 할 때 등을 향해, 양 어깨 사이에 푹 창을 찔렀는데, 가슴을 창이 관통했다.",
-                    "sent_id": 4900,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "걸다.a.Self_motion",
+                    "text": "당신이 공원을 떠나 Cotton Tree Drive를 걸어 오르면, Peak 전차 터미널을 발견할 것이다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.11807",
+            "valenceText": "annotation id: 2941",
             "examples": [
                 {
-                    "frameName": "Leadership",
+                    "origin_lus": [
+                        "aruku .歩く ",
+                        "walk"
+                    ],
+                    "ko_annotation_id": 2941,
+                    "annotation_id": 5644,
+                    "frameName": "Self_motion",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Self_motion",
                             "span": {
-                                "begin": 24,
-                                "end": 26
+                                "begin": 72,
+                                "end": 74
                             },
-                            "id": "1"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "걸을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "당신은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Path",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 25
+                            },
+                            "text": "Lugard 및 Harlech 도로에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Duration",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 32
+                            },
+                            "text": "45분 안에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Reason",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 64
+                            },
+                            "text": "홍콩, 해안선, 그리고 섬들의 인상적인 경관을 보기 위해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 6,
+                            "obj": "Direction",
+                            "token_span": [
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 65,
+                                "end": 71
+                            },
+                            "text": "정상 주변을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그분은 참으로 백성을 사랑하고 아끼는 어진 군주이셨다.",
-                    "target": "군주",
-                    "ko_annotation_id": "sejong.11807",
-                    "relations": []
+                    "sent_id": 1081,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 6,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "걸다.a.Self_motion",
+                    "text": "당신은 Lugard 및 Harlech 도로에서 45분 안에 홍콩, 해안선, 그리고 섬들의 인상적인 경관을 보기 위해 정상 주변을 걸을 수 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 2977",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "toho .徒歩",
+                        "aruku .歩く ",
+                        "walk",
+                        "Walk",
+                        "walked"
+                    ],
+                    "ko_annotation_id": 2977,
+                    "annotation_id": 5719,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 94,
+                                "end": 98
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "걸어라."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Path",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 93
+                            },
+                            "text": "Bonham Strand 동쪽과 서쪽, Man Wa Lane, 그리고 Cleverly Street를 따라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1094,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "걸다.a.Self_motion",
+                    "text": "작고 가족 소유의 상점들을 흥미롭게 잠깐씩 둘러보기 위해서는, Bonham Strand 동쪽과 서쪽, Man Wa Lane, 그리고 Cleverly Street를 따라 걸어라."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10640",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "toho .徒歩",
+                        "aruku .歩く ",
+                        "walk",
+                        "Walk",
+                        "walked"
+                    ],
+                    "ko_annotation_id": 10640,
+                    "annotation_id": 0,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "걸으며,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Area",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "자연 속을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3902,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "걸다.a.Self_motion",
+                    "text": "(4) 자연 속을 걸으며, 국민과 자연의 친밀도를 높이고, 자연을 사랑하는 정신을 고양하고 심신 건강의 증진을 도모하기 위하여, 환경청이 주창하고, 각 도도부현 및 사단법인 일본 걷자 걷자 협회 등 민간단체의 협력 하에 10월 7일 (10월 첫 번째 일요일)에 「제3회 전국이 다 함께 자연보도를 걷자 대회」를 실시하여, 전국 36도도부현의 자연보도에 약 2만 명이 넘는 참가자가 모였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10992",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "toho .徒歩",
+                        "aruku .歩く ",
+                        "walk",
+                        "Walk",
+                        "walked"
+                    ],
+                    "ko_annotation_id": 10992,
+                    "annotation_id": 0,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "걸어서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "해안은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Source",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "집에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4103,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "걸다.a.Self_motion",
+                    "text": "해안은 집에서 걸어서 20분 정도 떨어진 곳에 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12531",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "aruku .歩く ",
+                        "walk"
+                    ],
+                    "ko_annotation_id": 12531,
+                    "annotation_id": 736,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 41,
+                                "end": 43
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "걸을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 16
+                            },
+                            "text": "어느 3층 아파트의 한 여인은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 24
+                            },
+                            "text": "지진 발생 후",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Source",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 36
+                            },
+                            "text": "3층의 창문에서 나와",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Goal",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "text": "거리를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 123,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "걸다.a.Self_motion",
+                    "text": "어느 3층 아파트의 한 여인은 지진 발생 후 3층의 창문에서 나와 거리를 걸을 수 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12610",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "toho .徒歩",
+                        "aruku .歩く ",
+                        "walk",
+                        "Walk",
+                        "walked"
+                    ],
+                    "ko_annotation_id": 12610,
+                    "annotation_id": 999,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 55,
+                                "end": 59
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "걸었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 18
+                            },
+                            "text": "오늘 아침 8시 몇 분 전에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Path",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 54
+                            },
+                            "text": "Delaware와 Dedar 사이에 있는 Shattuck을 따라",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 182,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "걸다.a.Self_motion",
+                    "text": "나는 오늘 아침 8시 몇 분 전에 Delaware와 Dedar 사이에 있는 Shattuck을 따라 걸었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13465",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "toho .徒歩",
+                        "aruku .歩く ",
+                        "walk",
+                        "Walk",
+                        "walked"
+                    ],
+                    "ko_annotation_id": 13465,
+                    "annotation_id": 5764,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 76,
+                                "end": 80
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "걸어라."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Path",
+                            "token_span": [
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 70
+                            },
+                            "text": "Hollywood Road를 따라",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Direction",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 71,
+                                "end": 75
+                            },
+                            "text": "서쪽으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1103,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "걸다.a.Self_motion",
+                    "text": "섬의 가장 오래된 예배소 ( 설립 날짜는 논란이지만 ) 인, Man Mo 사원에 이를 때까지 Hollywood Road를 따라 서쪽으로 걸어라."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13527",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "toho .徒歩",
+                        "aruku .歩く ",
+                        "walk",
+                        "Walk",
+                        "walked"
+                    ],
+                    "ko_annotation_id": 13527,
+                    "annotation_id": 6059,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "걸으면,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Direction",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 24
+                            },
+                            "text": "Star Ferry 터미널의 중앙 홀 동쪽을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "text": "당신은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1156,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "걸다.a.Self_motion",
+                    "text": "Star Ferry 터미널의 중앙 홀 동쪽을 걸으면, 당신은 자신이 멋진 산책로에 있다는 것을 알 것이며, 이곳은 한때 모두가 웅장한 Kowloon - Canton 종착역의 유일한 유적인 시계탑에서 시작한다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "NNG",
-    "ko_lu": "군주.n.Leadership",
-    "lu_id": 62,
-    "en_lus": [
-        "kun .君 "
     ]
 }

@@ -1,65 +1,121 @@
 {
+    "ko_pos": "v",
+    "ko_lu": "기울다.v.Self_motion",
+    "frameID": 64,
     "frameName": "Self_motion",
+    "en_lus": [
+        "yoru .よる "
+    ],
+    "lu_id": 31,
     "patterns": [
         {
-            "valenceText": "annotation id: 118",
+            "valenceText": "annotation id: 11065",
             "examples": [
                 {
-                    "frameName": "Self_motion",
-                    "denotations": [
-                        {
-                            "obj": "Self_mover",
-                            "span": {
-                                "begin": 0,
-                                "end": 1
-                            }
-                        },
-                        {
-                            "obj": "Time",
-                            "span": {
-                                "begin": 4,
-                                "end": 10
-                            }
-                        },
-                        {
-                            "obj": "Distance",
-                            "span": {
-                                "begin": 12,
-                                "end": 28
-                            }
-                        },
-                        {
-                            "obj": "Direction",
-                            "span": {
-                                "begin": 31,
-                                "end": 33
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 36,
-                                "end": 38
-                            }
-                        }
-                    ],
                     "origin_lus": [
                         "yoru .よる "
                     ],
-                    "ko_annotation_id": 118,
-                    "text": "나는, 좌회전할 때는 바이크가 빠져나가지 못할 정도로, 왼쪽으로 기울지만.",
+                    "ko_annotation_id": 11065,
+                    "annotation_id": 0,
+                    "frameName": "Self_motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Self_motion",
+                            "span": {
+                                "begin": 36,
+                                "end": 41
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "기울지만."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Self_Mover",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "나는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "좌회전할 때는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Distance",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 30
+                            },
+                            "text": "바이크가 빠져나가지 못할 정도로,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Direction",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "text": "왼쪽으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
                     "sent_id": 4137,
-                    "relations": [],
-                    "annotation_id": 0
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "기울다.v.Self_motion",
+                    "text": "나는, 좌회전할 때는 바이크가 빠져나가지 못할 정도로, 왼쪽으로 기울지만."
                 }
             ]
         }
-    ],
-    "frameID": 64,
-    "ko_pos": "VV",
-    "ko_lu": "기울다.v.Self_motion",
-    "lu_id": 31,
-    "en_lus": [
-        "yoru .よる "
     ]
 }

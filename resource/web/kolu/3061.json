@@ -1,64 +1,101 @@
 {
-    "frameName": "Calendric_unit",
+    "ko_pos": "v",
+    "ko_lu": "멈추다.v.Process_stop",
+    "frameID": 144,
+    "frameName": "Process_stop",
+    "en_lus": [
+        "stop"
+    ],
+    "lu_id": 3061,
     "patterns": [
         {
-            "valenceText": "annotation id: 10198",
+            "valenceText": "annotation id: 12601",
             "examples": [
                 {
-                    "frameName": "Calendric_unit",
+                    "origin_lus": [
+                        "stopped"
+                    ],
+                    "ko_annotation_id": 12601,
+                    "annotation_id": 942,
+                    "frameName": "Process_stop",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Process_stop",
                             "span": {
-                                "begin": 39,
-                                "end": 40
+                                "begin": 15,
+                                "end": 20
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "months"
-                    ],
-                    "ko_annotation_id": 10198,
-                    "text": "당신은 내가 금요일에 Pasadena에게 지불하기를 원하는가 아니면 7월과 8월에 완료할 때까지 내가 보류하기를 원하는가 ?",
-                    "sent_id": 1819,
-                    "relations": [],
-                    "annotation_id": 8784
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 10199",
-            "examples": [
-                {
-                    "frameName": "Calendric_unit",
-                    "denotations": [
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "멈추었고,"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Process",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 39,
-                                "end": 40
+                                "begin": 0,
+                                "end": 8
                             },
-                            "id": "1"
+                            "text": "우리들 세 명은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duration",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "text": "잠시",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Process",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "text": "숨을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "months"
+                    "sent_id": 165,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 10199,
-                    "text": "당신은 내가 금요일에 Pasadena에게 지불하기를 원하는가 아니면 7월과 8월에 완료할 때까지 내가 보류하기를 원하는가 ?",
-                    "sent_id": 1819,
-                    "relations": [],
-                    "annotation_id": 8784
+                    "lu": "멈추다.v.Process_stop",
+                    "text": "우리들 세 명은 잠시 숨을 멈추었고, 그리고 나서 건물이 계속 흔들렸을 때 우리는 출입구를 향해 달려갔다."
                 }
             ]
         }
-    ],
-    "frameID": 229,
-    "ko_pos": "NNB",
-    "ko_lu": "월.n.Calendric_unit",
-    "lu_id": 3061,
-    "en_lus": [
-        "month"
     ]
 }

@@ -1,51 +1,63 @@
 {
-    "frameName": "Guest_and_host",
+    "ko_pos": "a",
+    "ko_lu": "비슷하다.a.Similarity",
+    "frameID": 481,
+    "frameName": "Similarity",
+    "en_lus": [
+        "similar"
+    ],
+    "lu_id": 716,
     "patterns": [
         {
-            "valenceText": "annotation id: 2188",
+            "valenceText": "annotation id: 14077",
             "examples": [
                 {
-                    "frameName": "Guest_and_host",
+                    "origin_lus": [
+                        "similar"
+                    ],
+                    "ko_annotation_id": 14077,
+                    "annotation_id": 8949,
+                    "frameName": "Similarity",
                     "denotations": [
                         {
-                            "obj": "Host_location",
+                            "id": 1,
+                            "obj": "Similarity",
                             "span": {
-                                "begin": 12,
-                                "end": 29
-                            }
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "비슷한"
                         },
                         {
-                            "obj": "Guest",
+                            "id": 2,
+                            "obj": "Entities",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 31,
-                                "end": 34
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 31,
-                                "end": 34
-                            }
+                                "begin": 28,
+                                "end": 30
+                            },
+                            "text": "차를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "gesuto .ゲスト "
+                    "sent_id": 1857,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2188,
-                    "text": "이 사건과 관련하여, TV 프로그램 『보도 스테이션』에 게스트로 출연한 작가 무라카미 류 씨는, 「더는, 이러저러한 이유로, 이런 사건이 발생했습니다, 라고 설명할 수 없는 사건이 앞으로 일어날 수 있다고 생각해야 한다」는 취지의 논평을 했다.",
-                    "sent_id": 4038,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "비슷하다.a.Similarity",
+                    "text": "그래서 형제들은 국가 경호원 유니폼을 입고 비슷한 차를 운전하고 한 밤중에 그의 집을 습격하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1890,
-    "ko_pos": "NNG",
-    "ko_lu": "게스트.n.Guest_and_host",
-    "lu_id": 716,
-    "en_lus": [
-        "gesuto .ゲスト "
     ]
 }

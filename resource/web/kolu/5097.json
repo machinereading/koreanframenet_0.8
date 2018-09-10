@@ -1,44 +1,103 @@
 {
-    "frameName": "Desirable_event",
+    "ko_pos": "v",
+    "ko_lu": "멸망시키다.v.Destroying",
+    "frameID": 417,
+    "frameName": "Destroying",
+    "en_lus": [
+        "destroyed"
+    ],
+    "lu_id": 5097,
     "patterns": [
         {
-            "valenceText": "annotation id: 17959",
+            "valenceText": "annotation id: 1662",
             "examples": [
                 {
-                    "frameName": "Desirable_event",
+                    "origin_lus": [
+                        "destroyed"
+                    ],
+                    "ko_annotation_id": 1662,
+                    "annotation_id": 3462,
+                    "frameName": "Destroying",
                     "denotations": [
                         {
-                            "obj": "State_of_affairs",
+                            "id": 1,
+                            "obj": "Destroying",
                             "span": {
-                                "begin": 0,
-                                "end": 24
-                            }
+                                "begin": 40,
+                                "end": 45
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "멸망시키고"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 64,
-                                "end": 65
-                            }
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "기원 전 701년에,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Destroyer",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 33
+                            },
+                            "text": "Sennacherib의 아시리아 군대가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Undergoer",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 39
+                            },
+                            "text": "이스라엘을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "beki .べき"
+                    "sent_id": 640,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 17959,
-                    "text": "이것을 못하는, 또는 하려고 하지 않는 교사는, 유약하고, 교직에 몸담은 자로서, 받아들여질 수 없으며, 용서받을 수 없다.",
-                    "sent_id": 4713,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "멸망시키다.v.Destroying",
+                    "text": "기원 전 701년에, Sennacherib의 아시리아 군대가 이스라엘을 멸망시키고 예루살렘을 포위하기 위해 남쪽으로 이동하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1383,
-    "ko_pos": "NNB",
-    "ko_lu": "수.n.Desirable_event",
-    "lu_id": 5097,
-    "en_lus": [
-        "beki .べき"
     ]
 }

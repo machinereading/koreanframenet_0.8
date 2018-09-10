@@ -1,44 +1,85 @@
 {
-    "frameName": "Time_vector",
+    "ko_pos": "v",
+    "ko_lu": "돌리다.v.Membership",
+    "frameID": 1026,
+    "frameName": "Membership",
+    "en_lus": [
+        "kisuru .帰する "
+    ],
+    "lu_id": 4093,
     "patterns": [
         {
-            "valenceText": "annotation id: 13939",
+            "valenceText": "annotation id: 10850",
             "examples": [
                 {
-                    "frameName": "Time_vector",
+                    "origin_lus": [
+                        "kisuru .帰する "
+                    ],
+                    "ko_annotation_id": 10850,
+                    "annotation_id": 0,
+                    "frameName": "Membership",
                     "denotations": [
                         {
-                            "obj": "Landmark",
+                            "id": 1,
+                            "obj": "Membership",
                             "span": {
-                                "begin": 39,
-                                "end": 43
-                            }
+                                "begin": 30,
+                                "end": 33
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "돌리고"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Group",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 45,
-                                "end": 48
-                            }
+                                "begin": 5,
+                                "end": 20
+                            },
+                            "text": "이러한 결과에 대한 책임을,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Member",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "text": "그 학파로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "noti .後 "
+                    "sent_id": 4023,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13939,
-                    "text": "그렇다고는 하지만 집에 있는 건 주말이라는 한정된 시간뿐이므로, 기껏 식사 후의 뒷정리나, 이따금 음식 만드는 것을 돕는 정도다.",
-                    "sent_id": 3985,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "돌리다.v.Membership",
+                    "text": "그들은, 이러한 결과에 대한 책임을, 주로 그 학파로 돌리고 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 379,
-    "ko_pos": "NNG",
-    "ko_lu": "뒷정리.n.Time_vector",
-    "lu_id": 4093,
-    "en_lus": [
-        "noti .後 "
     ]
 }

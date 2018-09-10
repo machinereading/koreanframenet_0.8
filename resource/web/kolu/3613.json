@@ -1,52 +1,84 @@
 {
-    "frameName": "Experiencer_focus",
+    "ko_pos": "v",
+    "ko_lu": "가다.v.Motion_directional",
+    "frameID": 362,
+    "frameName": "Motion_directional",
+    "en_lus": [
+        "otiru .落ちる "
+    ],
+    "lu_id": 3613,
     "patterns": [
         {
-            "valenceText": "annotation id: 12438",
+            "valenceText": "annotation id: 16520",
             "examples": [
                 {
-                    "frameName": "Experiencer_focus",
+                    "origin_lus": [
+                        "otiru .落ちる "
+                    ],
+                    "ko_annotation_id": 16520,
+                    "annotation_id": 0,
+                    "frameName": "Motion_directional",
                     "denotations": [
                         {
-                            "obj": "content",
+                            "id": 1,
+                            "obj": "Motion_directional",
                             "span": {
-                                "begin": 11,
-                                "end": 12
+                                "begin": 32,
+                                "end": 34
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "가지"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 17
+                                "begin": 4,
+                                "end": 22
                             },
-                            "id": "1"
+                            "text": "비교해부학을 바탕으로 하신 말씀은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 31
+                            },
+                            "text": "납득이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "fear"
-                    ],
-                    "ko_annotation_id": 12438,
-                    "text": "Shei Rida, 신을 경외하라.",
-                    "sent_id": 1682,
+                    "sent_id": 4483,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8228
+                    "lu": "가다.v.Motion_directional",
+                    "text": "「지금 비교해부학을 바탕으로 하신 말씀은 아무래도 납득이 가지 않습니다."
                 }
             ]
         }
-    ],
-    "frameID": 48,
-    "ko_pos": "VV",
-    "ko_lu": "경외하다.v.Experiencer_focus",
-    "lu_id": 3613,
-    "en_lus": [
-        "fear"
     ]
 }

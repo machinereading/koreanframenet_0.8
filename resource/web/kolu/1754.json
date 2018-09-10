@@ -1,52 +1,65 @@
 {
-    "frameName": "Wealthiness",
+    "ko_pos": "n",
+    "ko_lu": "숨.n.Breathing",
+    "frameID": 272,
+    "frameName": "Breathing",
+    "en_lus": [
+        "breathing"
+    ],
+    "lu_id": 1754,
     "patterns": [
         {
-            "valenceText": "annotation id: 5531",
+            "valenceText": "annotation id: 12598",
             "examples": [
                 {
-                    "frameName": "Wealthiness",
+                    "origin_lus": [
+                        "breathing"
+                    ],
+                    "ko_annotation_id": 12598,
+                    "annotation_id": 943,
+                    "frameName": "Breathing",
                     "denotations": [
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "supp",
+                            "id": 1,
+                            "obj": "Breathing",
                             "span": {
                                 "begin": 12,
-                                "end": 18
+                                "end": 14
                             },
-                            "id": "2"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "숨을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "우리들 세 명은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "poverty"
-                    ],
-                    "ko_annotation_id": 5531,
-                    "text": "대규모 빈곤이 여전히 존재하고 있다.",
-                    "sent_id": 82,
+                    "sent_id": 165,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 561
+                    "lu": "숨.n.Breathing",
+                    "text": "우리들 세 명은 잠시 숨을 멈추었고, 그리고 나서 건물이 계속 흔들렸을 때 우리는 출입구를 향해 달려갔다."
                 }
             ]
         }
-    ],
-    "frameID": 85,
-    "ko_pos": "NNG",
-    "ko_lu": "빈곤.n.Wealthiness",
-    "lu_id": 1754,
-    "en_lus": [
-        "poverty"
     ]
 }

@@ -1,73 +1,64 @@
 {
-    "frameName": "Competition",
+    "ko_pos": "v",
+    "ko_lu": "주차하다.v.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "park"
+    ],
+    "lu_id": 5386,
     "patterns": [
         {
-            "valenceText": "annotation id: 19016",
+            "valenceText": "annotation id: 4182",
             "examples": [
                 {
-                    "frameName": "Competition",
-                    "denotations": [
-                        {
-                            "obj": "Participants",
-                            "span": {
-                                "begin": 79,
-                                "end": 106
-                            }
-                        },
-                        {
-                            "obj": "Competition",
-                            "span": {
-                                "begin": 108,
-                                "end": 111
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 108,
-                                "end": 111
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "kessyoo sen .決勝 戦 "
+                        "park"
                     ],
-                    "ko_annotation_id": 19016,
-                    "text": "시합은 주황 띠 이상의 여성 유도인을 대상으로 예선을 치뤄, 출장 선수를 16명으로 추린 후, 제1회전, 2회전, 준결승전이 열렸으며, 결국 애디슨 부인(파랑 띠)과 루바니에 부인(갈색 띠)이 결승전에서 대결하게 되었다.",
-                    "sent_id": 4305,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.32370",
-            "examples": [
-                {
-                    "frameName": "Competition",
+                    "ko_annotation_id": 4182,
+                    "annotation_id": 7699,
+                    "frameName": "Placing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Placing",
                             "span": {
-                                "begin": 9,
-                                "end": 12
+                                "begin": 35,
+                                "end": 39
                             },
-                            "id": "1"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "주차하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 34
+                            },
+                            "text": "울타리 옆에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "우리팀이 드디어 결승전에 진출하게 되었다.",
-                    "target": "결승전",
-                    "ko_annotation_id": "sejong.32370",
-                    "relations": []
+                    "sent_id": 1582,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "주차하다.v.Placing",
+                    "text": "2- 어떠한 상황에서도 차는, 위치에 속한 차라도 울타리 옆에 주차하는 것이 허용되어서는 안된다."
                 }
             ]
         }
-    ],
-    "frameID": 241,
-    "ko_pos": "NN",
-    "ko_lu": "결승전.n.Competition",
-    "lu_id": 5386,
-    "en_lus": [
-        "kessyoo sen .決勝 戦 "
     ]
 }

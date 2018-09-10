@@ -1,128 +1,84 @@
 {
-    "frameName": "Cogitation",
+    "ko_pos": "n",
+    "ko_lu": "소유자.n.Possession",
+    "frameID": 118,
+    "frameName": "Possession",
+    "en_lus": [
+        "owner"
+    ],
+    "lu_id": 945,
     "patterns": [
         {
-            "valenceText": "annotation id: 2784",
+            "valenceText": "annotation id: 3275",
             "examples": [
                 {
-                    "frameName": "Cogitation",
+                    "origin_lus": [
+                        "owner"
+                    ],
+                    "ko_annotation_id": 3275,
+                    "annotation_id": 6257,
+                    "frameName": "Possession",
                     "denotations": [
                         {
-                            "obj": "topic",
+                            "id": 1,
+                            "obj": "Possession",
+                            "span": {
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "소유자인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Possession",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
+                                "end": 24
                             },
-                            "id": "2"
+                            "text": "Dayton에 있는Merit Awnings의",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "time",
+                            "id": 3,
+                            "obj": "Owner",
+                            "token_span": [
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 13
+                                "begin": 30,
+                                "end": 43
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 14,
-                                "end": 17
-                            },
-                            "id": "1"
+                            "text": "Kevin Tatman에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "considered"
-                    ],
-                    "ko_annotation_id": 2784,
-                    "text": "다음은 울타리를 세울 때 고려되어야 한다 :",
-                    "sent_id": 1568,
+                    "sent_id": 1233,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 7639
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 13017",
-            "examples": [
-                {
-                    "frameName": "Cogitation",
-                    "denotations": [
-                        {
-                            "obj": "topic",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 46,
-                                "end": 49
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "considered"
-                    ],
-                    "ko_annotation_id": 13017,
-                    "text": "요청은 특별한 경우를 제외하고, 지시된 대로 시기 적절한 방법으로 제출된 경우에만 고려될 것이다.",
-                    "sent_id": 1652,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 8105
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.86284",
-            "examples": [
-                {
-                    "frameName": "Cogitation",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 14,
-                                "end": 17
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그런 점들이 이번 선발에 고려될 것입니다.",
-                    "target": "고려될",
-                    "ko_annotation_id": "sejong.86284",
-                    "relations": []
+                    "lu": "소유자.n.Possession",
+                    "text": "Dayton에 있는Merit Awnings의 소유자인 Kevin Tatman에 의하면, 직물 차양 가격은 알루미늄 차양 가격보다 변동이 더 심하다."
                 }
             ]
         }
-    ],
-    "frameID": 22,
-    "ko_pos": "VV",
-    "ko_lu": "고려되다.v.Cogitation",
-    "lu_id": 945,
-    "en_lus": [
-        "consider",
-        "consider"
     ]
 }

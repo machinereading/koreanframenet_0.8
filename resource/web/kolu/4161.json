@@ -1,51 +1,85 @@
 {
-    "frameName": "Topic",
+    "ko_pos": "v",
+    "ko_lu": "자극하다.v.Experiencer_obj",
+    "frameID": 47,
+    "frameName": "Experiencer_obj",
+    "en_lus": [
+        "sigeki .刺激"
+    ],
+    "lu_id": 4161,
     "patterns": [
         {
-            "valenceText": "annotation id: 14333",
+            "valenceText": "annotation id: 11849",
             "examples": [
                 {
-                    "frameName": "Topic",
+                    "origin_lus": [
+                        "sigeki .刺激"
+                    ],
+                    "ko_annotation_id": 11849,
+                    "annotation_id": 0,
+                    "frameName": "Experiencer_obj",
                     "denotations": [
                         {
-                            "obj": "Communicator",
+                            "id": 1,
+                            "obj": "Experiencer_obj",
                             "span": {
-                                "begin": 0,
-                                "end": 1
-                            }
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "자극한"
                         },
                         {
-                            "obj": "Topic",
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 33,
-                                "end": 46
-                            }
+                                "begin": 24,
+                                "end": 30
+                            },
+                            "text": "나의 감성을",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 28
-                            }
+                                "begin": 39,
+                                "end": 58
+                            },
+                            "text": "그 디자인 감각의 훌륭함이었습니다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hanasi .話"
+                    "sent_id": 4674,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14333,
-                    "text": "저는 잠시 「풍토기」를 연구한 적인 있는데, 이야기가 자꾸 오래전으로 거슬러 올라가서 죄송합니다만, 다이카 개신의 칙령에 따라, 궁정을 중심으로 하는 고대 수도권, 기나이라 불리는 지역이 생겼습니다.",
-                    "sent_id": 4398,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "자극하다.v.Experiencer_obj",
+                    "text": "무엇보다도 전 세계의 건축물을 수없이 봐온 나의 감성을 자극한 것은, 그 디자인 감각의 훌륭함이었습니다."
                 }
             ]
         }
-    ],
-    "frameID": 373,
-    "ko_pos": "NNG",
-    "ko_lu": "이야기.n.Topic",
-    "lu_id": 4161,
-    "en_lus": [
-        "hanasi .話"
     ]
 }

@@ -1,38 +1,90 @@
 {
-    "frameName": "Rape",
+    "ko_pos": "v",
+    "ko_lu": "제공되다.v.Supply",
+    "frameID": 1346,
+    "frameName": "Supply",
+    "en_lus": [
+        "provide"
+    ],
+    "lu_id": 4857,
     "patterns": [
         {
-            "valenceText": "annotation id: 16985",
+            "valenceText": "annotation id: 14997",
             "examples": [
                 {
-                    "frameName": "Rape",
+                    "origin_lus": [
+                        "provided"
+                    ],
+                    "ko_annotation_id": 14997,
+                    "annotation_id": 13372,
+                    "frameName": "Supply",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Supply",
                             "span": {
-                                "begin": 52,
+                                "begin": 50,
                                 "end": 55
                             },
-                            "id": "1"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "제공되거나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 25
+                            },
+                            "text": "공급 원료나 제품이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Supplier",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 49
+                            },
+                            "text": "공급자 국가 (연료 생산 공장 ) 에 의해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "rapists"
+                    "sent_id": 2672,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16985,
-                    "text": "나는 그들이 선고된 살인자의 감옥에 있는 평균 시간은, 저, 그가 가석방 되기 전에 이년이고 강간자는 육개월이고 도둑은 이개월이라고 그들이 말한 것을 어제밤 뉴스에서 보았다.",
-                    "sent_id": 1903,
-                    "relations": [],
-                    "annotation_id": 9170
+                    "lu": "제공되다.v.Supply",
+                    "text": "그러나, 분석가들은, 특히 공급 원료나 제품이 공급자 국가 (연료 생산 공장 ) 에 의해 제공되거나 이란의 총체적인 핵 프로그램 ( 우라늄 금속 실험실 ) 에 맞지 않는 여러 부품들에 대한 필요성에 의문을 제기한다."
                 }
             ]
         }
-    ],
-    "frameID": 127,
-    "ko_pos": "NNG",
-    "ko_lu": "강간자.n.Rape",
-    "lu_id": 4857,
-    "en_lus": [
-        "rapist"
     ]
 }

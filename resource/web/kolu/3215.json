@@ -1,108 +1,83 @@
 {
-    "frameName": "Operate_vehicle",
+    "ko_pos": "v",
+    "ko_lu": "파괴하다.v.Damaging",
+    "frameID": 415,
+    "frameName": "Damaging",
+    "en_lus": [
+        "damage"
+    ],
+    "lu_id": 3215,
     "patterns": [
         {
-            "valenceText": "annotation id: 10893",
+            "valenceText": "annotation id: 9343",
             "examples": [
                 {
-                    "frameName": "Operate_vehicle",
+                    "origin_lus": [
+                        "damage"
+                    ],
+                    "ko_annotation_id": 9343,
+                    "annotation_id": 17344,
+                    "frameName": "Damaging",
                     "denotations": [
                         {
-                            "obj": "Vehicle",
+                            "id": 1,
+                            "obj": "Damaging",
                             "span": {
-                                "begin": 63,
-                                "end": 80
-                            }
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "파괴하고"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 82,
-                                "end": 85
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "soozyuu .操縦 "
-                    ],
-                    "ko_annotation_id": 10893,
-                    "text": "그 후, 자가용 조종사 면허, 사업용 조종사 면허, 일절 바깥을 보지 않고 계기만 보고 비행하는 계기 비행증명, 쌍발 이상의 엔진을 지닌 비행기를 조종하는 육상다발기 등의 기본적인 면허를 약 4년간, 비행시간은 약 3백 수십 시간 훈련받고 취득한다.",
-                    "sent_id": 3994,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 10894",
-            "examples": [
-                {
-                    "frameName": "Operate_vehicle",
-                    "denotations": [
-                        {
-                            "obj": "Vehicle",
-                            "span": {
-                                "begin": 85,
-                                "end": 109
-                            }
+                                "begin": 37,
+                                "end": 48
+                            },
+                            "text": "유럽과 미국의 경제에",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                12
+                            ],
                             "span": {
-                                "begin": 111,
-                                "end": 114
-                            }
+                                "begin": 49,
+                                "end": 52
+                            },
+                            "text": "심하게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "soozyuu .操縦 "
-                    ],
-                    "ko_annotation_id": 10894,
-                    "text": "한편, 정기항공에서 사용되는 기재는, 수십 명이 타는 비행기부터 최대 568명이 타는 점보제트 (최대이륙중량은 38만 킬로그램/380톤 전후.)까지로, 최대이륙중량이 5.7톤을 넘는 크기의 비행기를 조종하기 위해서는, 이런 라이선스로는 아직 부족해, 비행기마다 독자적인 라이선스를 취득하지 않으면 안된다.",
-                    "sent_id": 3808,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 10895",
-            "examples": [
-                {
-                    "frameName": "Operate_vehicle",
-                    "denotations": [
+                    "sent_id": 3269,
+                    "relations": [
                         {
-                            "obj": "Vehicle",
-                            "span": {
-                                "begin": 59,
-                                "end": 89
-                            }
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 91,
-                                "end": 94
-                            }
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "origin_lus": [
-                        "soozyuu .操縦 "
-                    ],
-                    "ko_annotation_id": 10895,
-                    "text": "하지만 항공법에 따르면, 이러한 자가용 조종사, 사업용 조종사, 계기 비행증명, 육상 다발 면허만으로는, 최대 이륙중량이 5,700kg(5.7톤) 미만의 비행기만 조종할 수 있다.",
-                    "sent_id": 3626,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "파괴하다.v.Damaging",
+                    "text": "이는 CBRN 공격이 런던 시내에서 발생하면 영국 경제를 파괴하고 유럽과 미국의 경제에 심하게 피해를 줄 것이라는 영국의 정보 및 안전 계층의 구성원들 사이에서 증가하고 있는 염려의 결과이다. ( Telegraph.co.kr, 06년 6월 25일, Sean Rayment ) ( Link )"
                 }
             ]
         }
-    ],
-    "frameID": 65,
-    "ko_pos": "VV",
-    "ko_lu": "조종하다.v.Operate_vehicle",
-    "lu_id": 3215,
-    "en_lus": [
-        "soozyuu .操縦 "
     ]
 }

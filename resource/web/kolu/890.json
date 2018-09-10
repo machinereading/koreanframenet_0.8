@@ -1,118 +1,385 @@
 {
-    "frameName": "People_by_residence",
+    "ko_pos": "v",
+    "ko_lu": "설명하다.v.Explaining_the_facts",
+    "frameID": 1462,
+    "frameName": "Explaining_the_facts",
+    "en_lus": [
+        "explains",
+        "account",
+        "setumee .説明 "
+    ],
+    "lu_id": 890,
     "patterns": [
         {
-            "valenceText": "annotation id: 2657",
+            "valenceText": "annotation id: 682",
             "examples": [
                 {
-                    "frameName": "People_by_residence",
+                    "origin_lus": [
+                        "accounts"
+                    ],
+                    "ko_annotation_id": 682,
+                    "annotation_id": 1432,
+                    "frameName": "Explaining_the_facts",
                     "denotations": [
                         {
-                            "obj": "known_resident",
+                            "id": 1,
+                            "obj": "Explaining_the_facts",
                             "span": {
                                 "begin": 17,
-                                "end": 18
+                                "end": 22
                             },
-                            "id": "2"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "설명하는가"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 23
+                                "begin": 0,
+                                "end": 12
                             },
-                            "id": "1"
+                            "text": "최근 수십년간의 결과는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Fact",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "text": "무엇을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "neighbor"
-                    ],
-                    "ko_annotation_id": 2657,
-                    "text": "기원 전 431년에, 아테네는 그의 이웃한 동맹 멤버인 Sparta와 전쟁을 시작하였다.",
-                    "sent_id": 536,
+                    "sent_id": 265,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2822
+                    "lu": "설명하다.v.Explaining_the_facts",
+                    "text": "최근 수십년간의 결과는 무엇을 설명하는가 ?"
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.57036",
+            "valenceText": "annotation id: 10872",
             "examples": [
                 {
-                    "frameName": "People_by_residence",
+                    "origin_lus": [
+                        "setumee .説明 "
+                    ],
+                    "ko_annotation_id": 10872,
+                    "annotation_id": 0,
+                    "frameName": "Explaining_the_facts",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Explaining_the_facts",
                             "span": {
-                                "begin": 5,
-                                "end": 8
+                                "begin": 88,
+                                "end": 91
                             },
-                            "obj": "target"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "설명할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Question",
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 59,
+                                "end": 69
+                            },
+                            "text": "이러저러한 이유로,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 70,
+                                "end": 84
+                            },
+                            "text": "이런 사건이 발생했습니다,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Fact",
+                            "token_span": [
+                                23
+                            ],
+                            "span": {
+                                "begin": 97,
+                                "end": 100
+                            },
+                            "text": "사건이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "서울시에 이웃한 위성도시들의 인구가 최근 급증하고 있다.",
-                    "target": "이웃한",
-                    "ko_annotation_id": "sejong.57036",
-                    "relations": []
+                    "sent_id": 4038,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "설명하다.v.Explaining_the_facts",
+                    "text": "이 사건과 관련하여, TV 프로그램 『보도 스테이션』에 게스트로 출연한 작가 무라카미 류 씨는, 「더는, 이러저러한 이유로, 이런 사건이 발생했습니다, 라고 설명할 수 없는 사건이 앞으로 일어날 수 있다고 생각해야 한다」는 취지의 논평을 했다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.57037",
+            "valenceText": "annotation id: 12680",
             "examples": [
                 {
-                    "frameName": "People_by_residence",
+                    "origin_lus": [
+                        "explains"
+                    ],
+                    "ko_annotation_id": 12680,
+                    "annotation_id": 1528,
+                    "frameName": "Explaining_the_facts",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Explaining_the_facts",
                             "span": {
-                                "begin": 11,
-                                "end": 15
+                                "begin": 55,
+                                "end": 60
                             },
-                            "obj": "target"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "설명해준다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Fact",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 7
+                            },
+                            "text": "그것은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Question",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 54
+                            },
+                            "text": "왜 투표자들은 의회를 경멸하지만 일반적으로 그들 자신의 의회 대표자들을 좋아하는가를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "한국은 일본과 서로 이웃하고 있다.",
-                    "target": "이웃하고",
-                    "ko_annotation_id": "sejong.57037",
-                    "relations": []
+                    "sent_id": 277,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "설명하다.v.Explaining_the_facts",
+                    "text": "둘째, 그것은 왜 투표자들은 의회를 경멸하지만 일반적으로 그들 자신의 의회 대표자들을 좋아하는가를 설명해준다 : 어떤 개별 국회의원의 지역구민들은 그 국회의원이 그들을 위해 쟁취한 특정 혜택에 대해서는 감사하지만 그러나 똑같이 자기 지역구민들을 위해 똑같이 하는 모든 다른 의원과 관련된 총체적인 비용에 대해서는 감사하지 않는다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.57038",
+            "valenceText": "annotation id: 16106",
             "examples": [
                 {
-                    "frameName": "People_by_residence",
+                    "origin_lus": [
+                        "setumee .説明 "
+                    ],
+                    "ko_annotation_id": 16106,
+                    "annotation_id": 0,
+                    "frameName": "Explaining_the_facts",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Explaining_the_facts",
                             "span": {
-                                "begin": 11,
-                                "end": 15
+                                "begin": 57,
+                                "end": 60
                             },
-                            "obj": "target"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "설명해"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Question",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 51
+                            },
+                            "text": "법률가의 사고 프로세스가 어떠한지를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "한국과 일본은 서로 이웃하고 있다.",
-                    "target": "이웃하고",
-                    "ko_annotation_id": "sejong.57038",
-                    "relations": []
+                    "sent_id": 3587,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "설명하다.v.Explaining_the_facts",
+                    "text": "그래서, 오늘은, 재판까지 가게 된 경우를 예로 들어서, 법률가의 사고 프로세스가 어떠한지를 간단하게 설명해 보겠습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16193",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "setumee .説明 "
+                    ],
+                    "ko_annotation_id": 16193,
+                    "annotation_id": 0,
+                    "frameName": "Explaining_the_facts",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Explaining_the_facts",
+                            "span": {
+                                "begin": 75,
+                                "end": 78
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "설명할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "지금, 세상에서 일어나고 있는 일은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Point_Of_View",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 74
+                            },
+                            "text": "사실 이 세상에 드러나는 현상만 보아서는",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3767,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "설명하다.v.Explaining_the_facts",
+                    "text": "지금, 세상에서 일어나고 있는 일은, 자기 주변 또는 자기 자신에게 일어나는 일도 포함하여, 사실 이 세상에 드러나는 현상만 보아서는 설명할 수 없다."
                 }
             ]
         }
-    ],
-    "frameID": 1143,
-    "ko_pos": "VV",
-    "ko_lu": "이웃하다.v.People_by_residence",
-    "lu_id": 890,
-    "en_lus": [
-        "neighbor"
     ]
 }

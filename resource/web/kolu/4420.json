@@ -1,51 +1,157 @@
 {
-    "frameName": "Commitment",
+    "ko_pos": "n",
+    "ko_lu": "총재.n.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "Director General",
+        "chief"
+    ],
+    "lu_id": 4420,
     "patterns": [
         {
-            "valenceText": "annotation id: 15309",
+            "valenceText": "annotation id: 7470",
             "examples": [
                 {
-                    "frameName": "Commitment",
+                    "origin_lus": [
+                        "chief",
+                        "Director General"
+                    ],
+                    "ko_annotation_id": 7470,
+                    "annotation_id": 13598,
+                    "frameName": "Leadership",
                     "denotations": [
                         {
-                            "obj": "Speaker",
+                            "id": 1,
+                            "obj": "Leadership",
                             "span": {
-                                "begin": 3,
-                                "end": 4
-                            }
+                                "begin": 1,
+                                "end": 5
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "IAEA"
                         },
                         {
-                            "obj": "Message",
+                            "id": 2,
+                            "obj": "Governed",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 30
-                            }
+                                "begin": 0,
+                                "end": 0
+                            },
+                            "text": "",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Leader",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 32,
-                                "end": 34
-                            }
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "text": "총재 El",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hikiukeru .引き受ける "
+                    "sent_id": 2707,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15309,
-                    "text": "애초 나는, 이 안건은 조사만 하고, 기업 회생의 실행은 맡을 생각이 없었다.",
-                    "sent_id": 3995,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "총재.n.Leadership",
+                    "text": " IAEA 총재 El Baradei는 의정서에 서명한 것은 IAEA가 무기 제조에서 평화적 목적까지 리비아의 핵 전이에 대한 감독을 확실히 하는 것이라고  지적했다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15068",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "chief",
+                        "Director General"
+                    ],
+                    "ko_annotation_id": 15068,
+                    "annotation_id": 13558,
+                    "frameName": "Leadership",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Leadership",
+                            "span": {
+                                "begin": 37,
+                                "end": 39
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "총재"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Governed",
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 36
+                            },
+                            "text": "국제 원자력 기구",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Leader",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 58
+                            },
+                            "text": "Mohamed ElBaradei에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2702,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "총재.n.Leadership",
+                    "text": "리비아에 대한 2003년 12월 조사 팀을 이끈 국제 원자력 기구 총재 Mohamed ElBaradei에 의하면, 리비아의 핵무기 프로그램은 핵무기 생산에 약 3 내지 7년 떨어진 매우 초기 단계에 있다."
                 }
             ]
         }
-    ],
-    "frameID": 33,
-    "ko_pos": "VV",
-    "ko_lu": "맡다.v.Commitment",
-    "lu_id": 4420,
-    "en_lus": [
-        "hikiukeru .引き受ける "
     ]
 }

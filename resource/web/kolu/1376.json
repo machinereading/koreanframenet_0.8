@@ -1,51 +1,63 @@
 {
-    "frameName": "Temporary_stay",
+    "ko_pos": "v",
+    "ko_lu": "이어지다.v.Cognitive_connection",
+    "frameID": 720,
+    "frameName": "Cognitive_connection",
+    "en_lus": [
+        "tunagaru .つながる "
+    ],
+    "lu_id": 1376,
     "patterns": [
         {
-            "valenceText": "annotation id: 4379",
+            "valenceText": "annotation id: 10353",
             "examples": [
                 {
-                    "frameName": "Temporary_stay",
+                    "origin_lus": [
+                        "tunagaru .つながる "
+                    ],
+                    "ko_annotation_id": 10353,
+                    "annotation_id": 0,
+                    "frameName": "Cognitive_connection",
                     "denotations": [
                         {
-                            "obj": "Location",
+                            "id": 1,
+                            "obj": "Cognitive_connection",
                             "span": {
-                                "begin": 15,
-                                "end": 30
-                            }
+                                "begin": 13,
+                                "end": 17
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "이어지는"
                         },
                         {
-                            "obj": "Manner",
+                            "id": 2,
+                            "obj": "Concept_1",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 99,
-                                "end": 103
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 104,
-                                "end": 107
-                            }
+                                "begin": 8,
+                                "end": 12
+                            },
+                            "text": "「내일로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ituku .居着く "
+                    "sent_id": 3692,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4379,
-                    "text": "이거 참 어쩌지, 하면서도 묵기에 마음이 편한 바라나시를 떠날 생각도 들지 않고, 기차표를 끊는 수고로움을 생각하니 더욱 엉덩이가 떨어지지 않아, 딱 2, 3일만 더 있자 하며 어물어물 주저앉아 버린 것이다.",
-                    "sent_id": 4804,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "이어지다.v.Cognitive_connection",
+                    "text": "중요한 것은, 「내일로 이어지는 배움과 대화」를 하는 것입니다."
                 }
             ]
         }
-    ],
-    "frameID": 1885,
-    "ko_pos": "VV",
-    "ko_lu": "주저앉다.v.Temporary_stay",
-    "lu_id": 1376,
-    "en_lus": [
-        "ituku .居着く "
     ]
 }

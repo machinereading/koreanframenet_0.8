@@ -1,109 +1,81 @@
 {
-    "frameName": "Compliance",
+    "ko_pos": "n",
+    "ko_lu": "사업.n.Being_obligated",
+    "frameID": 392,
+    "frameName": "Being_obligated",
+    "en_lus": [
+        "sigoto .仕事 "
+    ],
+    "lu_id": 4758,
     "patterns": [
         {
-            "valenceText": "annotation id: 16700",
+            "valenceText": "annotation id: 16603",
             "examples": [
                 {
-                    "frameName": "Compliance",
+                    "origin_lus": [
+                        "sigoto .仕事 "
+                    ],
+                    "ko_annotation_id": 16603,
+                    "annotation_id": 0,
+                    "frameName": "Being_obligated",
                     "denotations": [
                         {
-                            "obj": "protagonist",
+                            "id": 1,
+                            "obj": "Being_obligated",
                             "span": {
-                                "begin": 0,
-                                "end": 22
+                                "begin": 88,
+                                "end": 91
                             },
-                            "id": "2"
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "사업에"
                         },
                         {
-                            "obj": "norm",
+                            "id": 2,
+                            "obj": "Responsible_Party",
+                            "token_span": [
+                                20
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 34
+                                "begin": 84,
+                                "end": 87
                             },
-                            "id": "3"
+                            "text": "자신의",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Duty",
+                            "token_span": [
+                                21
+                            ],
                             "span": {
-                                "begin": 36,
-                                "end": 42
+                                "begin": 88,
+                                "end": 91
                             },
-                            "id": "1"
+                            "text": "사업에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "honoring"
-                    ],
-                    "ko_annotation_id": 16700,
-                    "text": "159명의 유엔 회원국들 가운데 32개국은 이라크에 대한 제재에 찬성하고 있었다.",
-                    "sent_id": 1203,
+                    "sent_id": 4613,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6190
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.81736",
-            "examples": [
-                {
-                    "frameName": "Compliance",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 6,
-                                "end": 11
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "이 의견에 찬성하시는 분들께서는 손을 들어 주시기 바랍니다.",
-                    "target": "찬성하시는",
-                    "ko_annotation_id": "sejong.81736",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.81737",
-            "examples": [
-                {
-                    "frameName": "Compliance",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 23,
-                                "end": 28
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "여야는 모두 금융실명제를 앞당기는 법안에 찬성하였다.",
-                    "target": "찬성하였다",
-                    "ko_annotation_id": "sejong.81737",
-                    "relations": []
+                    "lu": "사업.n.Being_obligated",
+                    "text": "창호지 담당이 아닌 분들은 재미가 없을지 모르나, 어떻게 애초의 상품구성 목표를 검증하고, 어떻게 진열을 바꾸어 재고 상태를 개선했는지, 실례를 보며 자신의 사업에 대입시켜 보면서 참고하기 바란다."
                 }
             ]
         }
-    ],
-    "frameID": 117,
-    "ko_pos": "VV",
-    "ko_lu": "찬성하다.v.Compliance",
-    "lu_id": 4758,
-    "en_lus": [
-        "honor"
     ]
 }

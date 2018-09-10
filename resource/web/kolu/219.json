@@ -1,51 +1,119 @@
 {
-    "frameName": "Emotion_directed",
+    "ko_pos": "n",
+    "ko_lu": "배치.n.Arranging",
+    "frameID": 921,
+    "frameName": "Arranging",
+    "en_lus": [
+        "deployment",
+        "deploy"
+    ],
+    "lu_id": 219,
     "patterns": [
         {
-            "valenceText": "annotation id: 663",
+            "valenceText": "annotation id: 5703",
             "examples": [
                 {
-                    "frameName": "Emotion_directed",
+                    "origin_lus": [
+                        "deploy",
+                        "deployments",
+                        "deployment"
+                    ],
+                    "ko_annotation_id": 5703,
+                    "annotation_id": 10292,
+                    "frameName": "Arranging",
                     "denotations": [
                         {
-                            "obj": "Stimulus",
+                            "id": 1,
+                            "obj": "Arranging",
                             "span": {
-                                "begin": 0,
-                                "end": 16
-                            }
+                                "begin": 75,
+                                "end": 78
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "배치가"
                         },
                         {
-                            "obj": "Experiencer",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                15
+                            ],
                             "span": {
-                                "begin": 27,
-                                "end": 29
-                            }
+                                "begin": 64,
+                                "end": 67
+                            },
+                            "text": "미국의",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                16,
+                                17
+                            ],
                             "span": {
-                                "begin": 19,
-                                "end": 21
-                            }
+                                "begin": 68,
+                                "end": 74
+                            },
+                            "text": "미사일 방어",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hanpatu .反発 "
+                    "sent_id": 2099,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 663,
-                    "text": "내가 「진화」를 이야기하는 것에, 반감을 느끼는 사람도 많을지 모른다.",
-                    "sent_id": 4933,
+                    "lu": "배치.n.Arranging",
+                    "text": "주요 불확실성은 어떻한 진행중인 군 현대화 노력이 궁극적으로 중국의 전략적 핵 능력을 어떻게 재편할 것인가이지만, 미국의 미사일 방어 배치가 중요 변수일 것 같다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7606",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "deploy",
+                        "deployments",
+                        "deployment"
+                    ],
+                    "ko_annotation_id": 7606,
+                    "annotation_id": 13803,
+                    "frameName": "Arranging",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arranging",
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "배치는"
+                        }
+                    ],
+                    "sent_id": 2741,
                     "relations": [],
-                    "annotation_id": 0
+                    "lu": "배치.n.Arranging",
+                    "text": "이와 같은 배치는 인구가 밀집한 서울은 물론이고, 북한 군 ( KPA ) 이 남쪽으로 침입할 경우 반도 전체에 심각한 위협을 말해준다."
                 }
             ]
         }
-    ],
-    "frameID": 46,
-    "ko_pos": "NNG",
-    "ko_lu": "반감.n.Emotion_directed",
-    "lu_id": 219,
-    "en_lus": [
-        "hanpatu .反発 "
     ]
 }

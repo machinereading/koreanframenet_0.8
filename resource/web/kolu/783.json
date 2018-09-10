@@ -1,44 +1,87 @@
 {
-    "frameName": "Request",
+    "ko_pos": "v",
+    "ko_lu": "놓이다.v.Being_located",
+    "frameID": 960,
+    "frameName": "Being_located",
+    "en_lus": [
+        "lay"
+    ],
+    "lu_id": 783,
     "patterns": [
         {
-            "valenceText": "annotation id: 2375",
+            "valenceText": "annotation id: 13021",
             "examples": [
                 {
-                    "frameName": "Request",
+                    "origin_lus": [
+                        "lay"
+                    ],
+                    "ko_annotation_id": 13021,
+                    "annotation_id": 3087,
+                    "frameName": "Being_located",
                     "denotations": [
                         {
-                            "obj": "Message",
+                            "id": 1,
+                            "obj": "Being_located",
                             "span": {
-                                "begin": 30,
-                                "end": 52
-                            }
+                                "begin": 37,
+                                "end": 42
+                            },
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "놓여 있고"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 55,
-                                "end": 56
-                            }
+                                "begin": 0,
+                                "end": 25
+                            },
+                            "text": "Lesvos, Chios, 그리고 Samos는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 36
+                            },
+                            "text": "중요한 선박 항로에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "iu .言う "
+                    "sent_id": 583,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2375,
-                    "text": "고객 안전기준이 엄격해 지킬 수 있을 것 같지 않다. 지금껏 해본 적 없는 안전기준을 충족시키라고 하면서, 안내서만 건네주었다.",
-                    "sent_id": 4086,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "놓이다.v.Being_located",
+                    "text": "Lesvos, Chios, 그리고 Samos는 중요한 선박 항로에 놓여 있고 애국적인 사람들이 Ottoman 화물 항로를 방해하기 시작하였다."
                 }
             ]
         }
-    ],
-    "frameID": 41,
-    "ko_pos": "VA",
-    "ko_lu": "하다.a.Request",
-    "lu_id": 783,
-    "en_lus": [
-        "iu .言う "
     ]
 }

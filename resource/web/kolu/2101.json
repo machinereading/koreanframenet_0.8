@@ -1,52 +1,83 @@
 {
-    "frameName": "Instance",
+    "ko_pos": "n",
+    "ko_lu": "량.n.Quantity",
+    "frameID": 2604,
+    "frameName": "Quantity",
+    "en_lus": [
+        "quantity"
+    ],
+    "lu_id": 2101,
     "patterns": [
         {
-            "valenceText": "annotation id: 6778",
+            "valenceText": "annotation id: 7833",
             "examples": [
                 {
-                    "frameName": "Instance",
+                    "origin_lus": [
+                        "quantities"
+                    ],
+                    "ko_annotation_id": 7833,
+                    "annotation_id": 14259,
+                    "frameName": "Quantity",
                     "denotations": [
                         {
-                            "obj": "instance_prop",
-                            "span": {
-                                "begin": 3,
-                                "end": 5
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Quantity",
                             "span": {
                                 "begin": 68,
                                 "end": 72
                             },
-                            "id": "1"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "상당량의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Q_Prop",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 68,
+                                "end": 72
+                            },
+                            "text": "상당량의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Mass",
+                            "token_span": [
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 73,
+                                "end": 85
+                            },
+                            "text": "무기급 고농축 우라늄을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "examples"
-                    ],
-                    "ko_annotation_id": 6778,
-                    "text": "가장 최초의 예들 중 하나가 Paros에 있는 박물관에 있지만, 당신은 Cyclades 전체의 고고학 박물관들에서 원래의 본보기들을 발견할 것이다.",
-                    "sent_id": 500,
+                    "sent_id": 2813,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2638
+                    "lu": "량.n.Quantity",
+                    "text": "얼마나 빨리 북한은 우라늄 농축 공장을 가동하기 시작할 것인가에 대한 예측은 서로 다르지만, 북한은 아마도 10년 내에는 상당량의 무기급 고농축 우라늄을 생산할 수 없을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 132,
-    "ko_pos": "NN",
-    "ko_lu": "본보기.n.Instance",
-    "lu_id": 2101,
-    "en_lus": [
-        "example"
     ]
 }

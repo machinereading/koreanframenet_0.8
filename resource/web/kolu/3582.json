@@ -1,114 +1,83 @@
 {
-    "frameName": "Dimension",
+    "ko_pos": "v",
+    "ko_lu": "근무하다.v.Being_employed",
+    "frameID": 282,
+    "frameName": "Being_employed",
+    "en_lus": [
+        "work"
+    ],
+    "lu_id": 3582,
     "patterns": [
         {
-            "valenceText": "annotation id: 12251",
+            "valenceText": "annotation id: 7330",
             "examples": [
                 {
-                    "frameName": "Dimension",
+                    "origin_lus": [
+                        "work"
+                    ],
+                    "ko_annotation_id": 7330,
+                    "annotation_id": 13291,
+                    "frameName": "Being_employed",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Being_employed",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 18,
+                                "end": 23
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "근무하는지"
                         },
                         {
-                            "obj": "object",
-                            "span": {
-                                "begin": 17,
-                                "end": 21
-                            },
-                            "id": "2"
-                        }
-                    ],
-                    "origin_lus": [
-                        "large"
-                    ],
-                    "ko_annotation_id": 12251,
-                    "text": "Jardine 건물 옆에 대형 쇼핑 몰이 있는 복합단지인 Exchange Square가 있다 ; 바로 뒤에는 1층에 우표수집 센터가 있는 중앙 우체국이 있다.",
-                    "sent_id": 1043,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 5458
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 12252",
-            "examples": [
-                {
-                    "frameName": "Dimension",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 19,
-                                "end": 21
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "object",
-                            "span": {
-                                "begin": 31,
-                                "end": 33
-                            },
-                            "id": "2"
-                        }
-                    ],
-                    "origin_lus": [
-                        "large"
-                    ],
-                    "ko_annotation_id": 12252,
-                    "text": "북한은 뒤이어 그 단지를 확장하고 대형 플루토늄 재처리 공장 ( 방사 화학 실험소 ) 을 포함한, 다수의 새로운 시설을 건립하였다.",
-                    "sent_id": 2797,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 14149
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.43651",
-            "examples": [
-                {
-                    "frameName": "Dimension",
-                    "denotations": [
-                        {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Employee",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
+                                "end": 10
                             },
-                            "id": "1"
+                            "text": "얼마나 많은 사람이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place_Of_Employment",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 17
+                            },
+                            "text": "AEOI에서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "대형 버스를 대절하여 경주에 다녀왔다.그는 집이든 자동차든 대형을 좋아한다.",
-                    "target": "대형",
-                    "ko_annotation_id": "sejong.43651",
-                    "relations": []
+                    "sent_id": 2651,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "근무하다.v.Being_employed",
+                    "text": "얼마나 많은 사람이 AEOI에서 근무하는지 불분명하다."
                 }
             ]
         }
-    ],
-    "frameID": 108,
-    "ko_pos": "NN",
-    "ko_lu": "대형.n.Dimension",
-    "lu_id": 3582,
-    "en_lus": [
-        "large"
     ]
 }

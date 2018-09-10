@@ -1,58 +1,82 @@
 {
-    "frameName": "Manipulation",
+    "ko_pos": "n",
+    "ko_lu": "상.n.Finish_competition",
+    "frameID": 798,
+    "frameName": "Finish_competition",
+    "en_lus": [
+        "winner"
+    ],
+    "lu_id": 4810,
     "patterns": [
         {
-            "valenceText": "annotation id: 16872",
+            "valenceText": "annotation id: 9201",
             "examples": [
                 {
-                    "frameName": "Manipulation",
+                    "origin_lus": [
+                        "winner"
+                    ],
+                    "ko_annotation_id": 9201,
+                    "annotation_id": 17026,
+                    "frameName": "Finish_competition",
                     "denotations": [
                         {
-                            "obj": "Place",
+                            "id": 1,
+                            "obj": "Finish_competition",
                             "span": {
-                                "begin": 39,
-                                "end": 43
-                            }
+                                "begin": 0,
+                                "end": 0
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": ""
                         },
                         {
-                            "obj": "Entity",
+                            "id": 2,
+                            "obj": "Prize",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 45,
-                                "end": 48
-                            }
+                                "begin": 0,
+                                "end": 0
+                            },
+                            "text": "",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Agent",
+                            "id": 3,
+                            "obj": "Competitor",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 58,
-                                "end": 60
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 50,
-                                "end": 54
-                            }
+                                "begin": 6,
+                                "end": 13
+                            },
+                            "text": "수상자 Ron",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "daeru .抱える"
+                    "sent_id": 3235,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16872,
-                    "text": "길바닥에 주저앉아 있으면 「형아, 괜찮아요?」하고 누군가 말을 걸고, 계단 끝에 유모차를 들고 서 있는 여자에게는 「도와줄게요」하고 기꺼이 손을 내민다.",
-                    "sent_id": 3770,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "상.n.Finish_competition",
+                    "text": " 퓰리처상 수상자 Ron Suskind가 쓴 책인 1 퍼센트 교리는 이 장치의 설계가 사우디 아라비아에서 압수한 컴퓨터에서 2003년 2월 거기에 있던 한 지하디스트를 체포한 이후 발견되었고, 그로부터 한 달 후 미국 정보부는 이중 일부를 뉴욕 지하철 시스템을 공격하는 데에 사용하려다가 중단된 음모를 별도로 적발하였다고 말한다. ( Post Chronicle지, 06년 6월 26일, Shaun Waterman ) ( Link )"
                 }
             ]
         }
-    ],
-    "frameID": 17,
-    "ko_pos": "VV",
-    "ko_lu": "들다.v.Manipulation",
-    "lu_id": 4810,
-    "en_lus": [
-        "daeru .抱える"
     ]
 }

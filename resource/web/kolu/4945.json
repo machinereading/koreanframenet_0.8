@@ -1,81 +1,68 @@
 {
-    "frameName": "Roadways",
+    "ko_pos": "n",
+    "ko_lu": "날씨.n.Weather",
+    "frameID": 303,
+    "frameName": "Weather",
+    "en_lus": [
+        "yooki .陽気"
+    ],
+    "lu_id": 4945,
     "patterns": [
         {
-            "valenceText": "annotation id: 17431",
+            "valenceText": "annotation id: 16355",
             "examples": [
                 {
-                    "frameName": "Roadways",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 51,
-                                "end": 54
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "highways",
-                        "Highway"
+                        "yooki .陽気"
                     ],
-                    "ko_annotation_id": 17431,
-                    "text": "주택은 부족하고 공공 서비스는 -- 법정 시스템, 학교, 우편 서비스, 전화 연결망 그리고 고속도로 --  수치스러운 상태에 있다.",
-                    "sent_id": 81,
-                    "relations": [],
-                    "annotation_id": 548
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 17432",
-            "examples": [
-                {
-                    "frameName": "Roadways",
+                    "ko_annotation_id": 16355,
+                    "annotation_id": 0,
+                    "frameName": "Weather",
                     "denotations": [
                         {
-                            "obj": "name",
+                            "id": 1,
+                            "obj": "Weather",
                             "span": {
-                                "begin": 64,
-                                "end": 70
+                                "begin": 33,
+                                "end": 36
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "날씨도"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 71,
-                                "end": 74
+                                "begin": 0,
+                                "end": 30
                             },
-                            "id": "1"
+                            "text": "음력시대의 히나마쓰리는 지금의 4월 상순에 해당하므로,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "highways",
-                        "Highway"
-                    ],
-                    "ko_annotation_id": 17432,
-                    "text": "1930년대와 1940년대 초에 많은 도박장들이 Downtown에 개점된데 반해, 궁극적으로 Strip이 된 옛날 로스앤젤레스 고속도로 지역에 단 두 곳이 건설되었다.",
-                    "sent_id": 802,
+                    "sent_id": 4107,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4202
+                    "lu": "날씨.n.Weather",
+                    "text": "음력시대의 히나마쓰리는 지금의 4월 상순에 해당하므로, 꽤 날씨도 따뜻해져, 완연한 봄기운이 느껴졌을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 203,
-    "ko_pos": "NNG",
-    "ko_lu": "고속도.n.Roadways",
-    "lu_id": 4945,
-    "en_lus": [
-        "highway",
-        "Highway"
     ]
 }

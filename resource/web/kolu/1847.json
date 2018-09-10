@@ -1,37 +1,109 @@
 {
-    "frameName": "Cause_motion",
+    "ko_pos": "v",
+    "ko_lu": "갖다.v.Have_associated",
+    "frameID": 1933,
+    "frameName": "Have_associated",
+    "en_lus": [
+        "have"
+    ],
+    "lu_id": 1847,
     "patterns": [
         {
-            "valenceText": "annotation id: 5831",
+            "valenceText": "annotation id: 702",
             "examples": [
                 {
-                    "frameName": "Cause_motion",
+                    "origin_lus": [
+                        "have"
+                    ],
+                    "ko_annotation_id": 702,
+                    "annotation_id": 1477,
+                    "frameName": "Have_associated",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Have_associated",
+                            "span": {
+                                "begin": 86,
+                                "end": 92
+                            },
+                            "token_span": [
+                                20,
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "갖게 된다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 3
-                            }
+                                "end": 15
+                            },
+                            "text": "이러한 가정을 견지할 경우,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topical_Entity",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 27
+                            },
+                            "text": "의회 경선 투표자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Entity",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 62,
+                                "end": 85
+                            },
+                            "text": "한계적으로, 민주당에 기대게 하는 유인책을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ugokasu .動かす"
+                    "sent_id": 271,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5831,
-                    "text": "움직이면 가벼운 통증이 밀려온다.",
-                    "sent_id": 4402,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "갖다.v.Have_associated",
+                    "text": "이러한 가정을 견지할 경우, 의회 경선 투표자들은 소위 경제이론에서 죄수의 딜레마라 불리는 것에 직면하게 되고 한계적으로, 민주당에 기대게 하는 유인책을 갖게 된다."
                 }
             ]
         }
-    ],
-    "frameID": 55,
-    "ko_pos": "VV",
-    "ko_lu": "움직이다.v.Cause_motion",
-    "lu_id": 1847,
-    "en_lus": [
-        "ugokasu .動かす"
     ]
 }

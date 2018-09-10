@@ -1,52 +1,115 @@
 {
-    "frameName": "Relative_time",
+    "ko_pos": "a",
+    "ko_lu": "느리다.a.Taking_time",
+    "frameID": 967,
+    "frameName": "Taking_time",
+    "en_lus": [
+        "slow",
+        "slowly"
+    ],
+    "lu_id": 4398,
     "patterns": [
         {
-            "valenceText": "annotation id: 15245",
+            "valenceText": "annotation id: 27",
             "examples": [
                 {
-                    "frameName": "Relative_time",
+                    "origin_lus": [
+                        "slowly"
+                    ],
+                    "ko_annotation_id": 27,
+                    "annotation_id": 37,
+                    "frameName": "Taking_time",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Taking_time",
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 25,
+                                "end": 28
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "느리기"
                         },
                         {
-                            "obj": "focal_participant",
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 11,
-                                "end": 13
+                                "begin": 17,
+                                "end": 18
                             },
-                            "id": "2"
+                            "text": "더",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "last"
-                    ],
-                    "ko_annotation_id": 15245,
-                    "text": "그녀가 나의 마지막 편지에 무엇을 말하였는가를 기억하나?",
-                    "sent_id": 340,
+                    "sent_id": 6,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1858
+                    "lu": "느리다.a.Taking_time",
+                    "text": "그러나 이들 청구는 평가하기가 더 어렵고 더 느리기 때문에, 회사는 4분기 실적에 대한 지진의 영향을 예측하지 못하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 2961",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "slow"
+                    ],
+                    "ko_annotation_id": 2961,
+                    "annotation_id": 5687,
+                    "frameName": "Taking_time",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Taking_time",
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "느린"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "동작의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1089,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "느리다.a.Taking_time",
+                    "text": "젊은이와 노인은 마음과 몸을 단련하기 위해 느린 동작의 발레와 같은 운동을 해나간다."
                 }
             ]
         }
-    ],
-    "frameID": 81,
-    "ko_pos": "NNG",
-    "ko_lu": "마지막.n.Relative_time",
-    "lu_id": 4398,
-    "en_lus": [
-        "last"
     ]
 }

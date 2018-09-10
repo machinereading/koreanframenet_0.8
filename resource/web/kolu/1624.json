@@ -1,38 +1,100 @@
 {
-    "frameName": "Gesture",
+    "ko_pos": "v",
+    "ko_lu": "착수하다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "torikumu .取り組む "
+    ],
+    "lu_id": 1624,
     "patterns": [
         {
-            "valenceText": "annotation id: 5108",
+            "valenceText": "annotation id: 11862",
             "examples": [
                 {
-                    "frameName": "Gesture",
+                    "origin_lus": [
+                        "torikumu .取り組む "
+                    ],
+                    "ko_annotation_id": 11862,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 5,
-                                "end": 7
+                                "begin": 77,
+                                "end": 82
                             },
-                            "id": "1"
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "착수하여,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 63,
+                                "end": 66
+                            },
+                            "text": "전사가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 67,
+                                "end": 73
+                            },
+                            "text": "하나가 되어",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Act",
+                            "token_span": [
+                                20
+                            ],
+                            "span": {
+                                "begin": 74,
+                                "end": 76
+                            },
+                            "text": "일에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "signal"
+                    "sent_id": 4678,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5108,
-                    "text": "그러면, 신호에 맞추어 종지기들은 타종의 지속적인 리듬은 바꾸지 않고 종이 울리는 순서를 바꾸기 시작한다.",
-                    "sent_id": 30,
-                    "relations": [],
-                    "annotation_id": 203
+                    "lu": "착수하다.v.Intentionally_act",
+                    "text": "왜냐하면, 어느 기업이든 변하기 힘든 내부 사정이나 조직의 특성이 있어, 꽤 규모가 작은 오너 기업이 아닌 한, 전사가 하나가 되어 일에 착수하여, 성과를 내기까지는, 시간과 끈기가 상당히 필요하기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 36,
-    "ko_pos": "NNG",
-    "ko_lu": "신호.n.Gesture",
-    "lu_id": 1624,
-    "en_lus": [
-        "signal"
     ]
 }

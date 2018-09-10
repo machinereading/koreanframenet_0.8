@@ -1,74 +1,81 @@
 {
-    "frameName": "Roadways",
+    "ko_pos": "n",
+    "ko_lu": "점유율.n.Bragging",
+    "frameID": 1624,
+    "frameName": "Bragging",
+    "en_lus": [
+        "haba o kika seru .幅 を 利か せる"
+    ],
+    "lu_id": 3838,
     "patterns": [
         {
-            "valenceText": "annotation id: 13147",
+            "valenceText": "annotation id: 11714",
             "examples": [
                 {
-                    "frameName": "Roadways",
+                    "origin_lus": [
+                        "haba o kika seru .幅 を 利か せる"
+                    ],
+                    "ko_annotation_id": 11714,
+                    "annotation_id": 0,
+                    "frameName": "Bragging",
                     "denotations": [
                         {
-                            "obj": "abundant_entities",
+                            "id": 1,
+                            "obj": "Bragging",
                             "span": {
-                                "begin": 30,
-                                "end": 32
+                                "begin": 44,
+                                "end": 48
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "점유율을"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 32
+                                "begin": 36,
+                                "end": 40
                             },
-                            "id": "1"
+                            "text": "대용품이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 43
+                            },
+                            "text": "점차",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tunnel"
-                    ],
-                    "ko_annotation_id": 13147,
-                    "text": "성경은 어떻게 불시에 다윗의 군사들이 벽 아래에 있는 수로를 발견하고 그 수로를 사용하여 도시를  예루살렘을 정복하였는가를 묘사한다.",
-                    "sent_id": 626,
+                    "sent_id": 4581,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 3363
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.32954",
-            "examples": [
-                {
-                    "frameName": "Roadways",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 13,
-                                "end": 15
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "들어가는 통로가 좁아서 수로를 따라 배들이 일렬로 늘어서 있었다.",
-                    "target": "수로",
-                    "ko_annotation_id": "sejong.32954",
-                    "relations": []
+                    "lu": "점유율.n.Bragging",
+                    "text": "신선란이 점차 사라지고, 홍콩에서 들어오는 건조란이 늘어나면서, 대용품이 점차 점유율을 높이게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 203,
-    "ko_pos": "NNG",
-    "ko_lu": "수로.n.Roadways",
-    "lu_id": 3838,
-    "en_lus": [
-        "tunnel"
     ]
 }

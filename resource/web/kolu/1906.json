@@ -1,52 +1,120 @@
 {
-    "frameName": "Punctual_perception",
+    "ko_pos": "a",
+    "ko_lu": "급격하다.a.Change_position_on_a_scale",
+    "frameID": 91,
+    "frameName": "Change_position_on_a_scale",
+    "en_lus": [
+        "gekigen .激減 "
+    ],
+    "lu_id": 1906,
     "patterns": [
         {
-            "valenceText": "annotation id: 6056",
+            "valenceText": "annotation id: 10726",
             "examples": [
                 {
-                    "frameName": "Punctual_perception",
+                    "origin_lus": [
+                        "gekigen .激減 "
+                    ],
+                    "ko_annotation_id": 10726,
+                    "annotation_id": 0,
+                    "frameName": "Change_position_on_a_scale",
                     "denotations": [
                         {
-                            "obj": "phenomenon",
+                            "id": 1,
+                            "obj": "Change_position_on_a_scale",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 44,
+                                "end": 51
                             },
-                            "id": "2"
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "급격히 감소할"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 20
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "1"
+                            "text": "일본은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 26
+                            },
+                            "text": "2020년에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Item",
+                            "token_span": [
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 38
+                            },
+                            "text": "제조업 노종자 인구가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Final_Value",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 39,
+                                "end": 43
+                            },
+                            "text": "2%까지",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "glimpses"
-                    ],
-                    "ko_annotation_id": 6056,
-                    "text": "승객들은 어지럽게 변하는 항구의 모습을 얼핏얼핏 보기 위해 그들의 목을 길게 뺀다.",
-                    "sent_id": 1072,
+                    "sent_id": 3981,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5597
+                    "lu": "급격하다.a.Change_position_on_a_scale",
+                    "text": "일본은 경제 선진국 중 하나이므로, 2020년에 제조업 노종자 인구가 2%까지 급격히 감소할 것으로 예상되고 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 2075,
-    "ko_pos": "NNG",
-    "ko_lu": "모습.n.Punctual_perception",
-    "lu_id": 1906,
-    "en_lus": [
-        "glimpse"
     ]
 }

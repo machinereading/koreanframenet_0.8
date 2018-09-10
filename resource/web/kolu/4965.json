@@ -1,87 +1,93 @@
 {
-    "frameName": "Travel",
+    "ko_pos": "v",
+    "ko_lu": "납치되다.v.Kidnapping",
+    "frameID": 122,
+    "frameName": "Kidnapping",
+    "en_lus": [
+        "kidnap"
+    ],
+    "lu_id": 4965,
     "patterns": [
         {
-            "valenceText": "annotation id: 17484",
+            "valenceText": "annotation id: 5283",
             "examples": [
                 {
-                    "frameName": "Travel",
+                    "origin_lus": [
+                        "kidnapped"
+                    ],
+                    "ko_annotation_id": 5283,
+                    "annotation_id": 9520,
+                    "frameName": "Kidnapping",
                     "denotations": [
                         {
-                            "obj": "goal",
+                            "id": 1,
+                            "obj": "Kidnapping",
                             "span": {
-                                "begin": 0,
-                                "end": 17
+                                "begin": 80,
+                                "end": 85
                             },
-                            "id": "3"
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "납치되었다"
                         },
                         {
-                            "obj": "mode_of_transportation",
+                            "id": 2,
+                            "obj": "Perpetrator",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 26
+                                "begin": 14,
+                                "end": 59
                             },
-                            "id": "2"
+                            "text": "마약 거래자나 좌파 게릴라들 -- 콜롬비아에서 종종 하나이고 동일한 -- 에 의해",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Victim",
+                            "token_span": [
+                                20,
+                                21
+                            ],
                             "span": {
-                                "begin": 27,
-                                "end": 29
+                                "begin": 75,
+                                "end": 79
                             },
-                            "id": "1"
+                            "text": "열 명은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tours"
-                    ],
-                    "ko_annotation_id": 17484,
-                    "text": "도시 외곽에 있는 명소들로 가는 많은 안내 버스 관광이 있고, 몇몇은 도시 버스로 접근할 수도 있다.",
-                    "sent_id": 998,
+                    "sent_id": 1971,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5242
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.2249",
-            "examples": [
-                {
-                    "frameName": "Travel",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 12,
-                                "end": 14
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "이 조그마한 나라에서 관광으로 벌어들이는 외화가 수억 달러에 달한다.올 가을에는 아내와 단풍 관광을 떠나기로 했다.",
-                    "target": "관광",
-                    "ko_annotation_id": "sejong.2249",
-                    "relations": []
+                    "lu": "납치되다.v.Kidnapping",
+                    "text": "지난 6 개월에 걸쳐서, 마약 거래자나 좌파 게릴라들 -- 콜롬비아에서 종종 하나이고 동일한 -- 에 의해 여섯 명의 기자가 피살되고 열 명은 납치되었다"
                 }
             ]
         }
-    ],
-    "frameID": 343,
-    "ko_pos": "NNG",
-    "ko_lu": "관광.n.Travel",
-    "lu_id": 4965,
-    "en_lus": [
-        "tour"
     ]
 }

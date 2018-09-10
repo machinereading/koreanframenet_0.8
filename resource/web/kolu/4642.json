@@ -1,44 +1,86 @@
 {
-    "frameName": "Request",
+    "ko_pos": "n",
+    "ko_lu": "분화.n.Process_start",
+    "frameID": 133,
+    "frameName": "Process_start",
+    "en_lus": [
+        "hunka .噴火"
+    ],
+    "lu_id": 4642,
     "patterns": [
         {
-            "valenceText": "annotation id: 16093",
+            "valenceText": "annotation id: 16581",
             "examples": [
                 {
-                    "frameName": "Request",
+                    "origin_lus": [
+                        "hunka .噴火"
+                    ],
+                    "ko_annotation_id": 16581,
+                    "annotation_id": 0,
+                    "frameName": "Process_start",
                     "denotations": [
                         {
-                            "obj": "Addressee",
+                            "id": 1,
+                            "obj": "Process_start",
                             "span": {
-                                "begin": 0,
-                                "end": 11
-                            }
+                                "begin": 34,
+                                "end": 38
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "대분화를"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 17
-                            }
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "15년 전,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 38
+                            },
+                            "text": "미야케지마에서 가까운 이즈 오오시마・미하라야마가 대분화를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hattyuu .発注"
+                    "sent_id": 4594,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16093,
-                    "text": "늘 거래해온 납입업자에게 발주하더라도, 안전기준과 관련된 기기선정 등의 책임은 질 수 없다고 한다.",
-                    "sent_id": 4758,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "분화.n.Process_start",
+                    "text": "15년 전, 미야케지마에서 가까운 이즈 오오시마・미하라야마가 대분화를 일으켰다."
                 }
             ]
         }
-    ],
-    "frameID": 41,
-    "ko_pos": "VV",
-    "ko_lu": "발주하다.v.Request",
-    "lu_id": 4642,
-    "en_lus": [
-        "hattyuu .発注"
     ]
 }

@@ -1,44 +1,139 @@
 {
-    "frameName": "Vehicle",
+    "ko_pos": "n",
+    "ko_lu": "시대.n.Timespan",
+    "frameID": 2142,
+    "frameName": "Timespan",
+    "en_lus": [
+        "zidai .時代 "
+    ],
+    "lu_id": 2633,
     "patterns": [
         {
-            "valenceText": "annotation id: 8626",
+            "valenceText": "annotation id: 10320",
             "examples": [
                 {
-                    "frameName": "Vehicle",
+                    "origin_lus": [
+                        "zidai .時代 "
+                    ],
+                    "ko_annotation_id": 10320,
+                    "annotation_id": 0,
+                    "frameName": "Timespan",
                     "denotations": [
                         {
-                            "obj": "Vehicle",
+                            "id": 1,
+                            "obj": "Timespan",
                             "span": {
-                                "begin": 3,
-                                "end": 4
-                            }
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "시대로,"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "State",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 9
-                            }
+                                "begin": 0,
+                                "end": 27
+                            },
+                            "text": "근로자의 70% 가까이가 제조업 노동자에 해당했던",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duration",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "text": "시대로,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hune .船 "
+                    "sent_id": 3661,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 8626,
-                    "text": "2. 배의 주술선에 붙은 눈은, 옛날로선 레이더 같은 것데 배가 바다를 나아갈 때 앞이 잘 보이라고 배에 눈알을 그린 거지＊아마미오시마의 어부・자야스 도오루 씨는, 뱃머리에 눈을 그리는 섬의 관습에 대해서, 그렇게 이야기했다.",
-                    "sent_id": 4446,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "시대.n.Timespan",
+                    "text": "근로자의 70% 가까이가 제조업 노동자에 해당했던 시대로, 젊은 노동자는 그 중심부를 담당하고 있었습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10907",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "zidai .時代 "
+                    ],
+                    "ko_annotation_id": 10907,
+                    "annotation_id": 0,
+                    "frameName": "Timespan",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Timespan",
+                            "span": {
+                                "begin": 36,
+                                "end": 39
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "시대를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "State",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 35
+                            },
+                            "text": "산업 기술이 미숙한",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4060,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시대.n.Timespan",
+                    "text": "사실, 지금까지 일본의 전자기기 제조회사는, 산업 기술이 미숙한 시대를 상징하듯, 모든 회사가 비슷비슷한 일을 해왔으나, 산업기술이 고도화하는 미래에는 이러한 일은 있을 수 없다."
                 }
             ]
         }
-    ],
-    "frameID": 429,
-    "ko_pos": "NNG",
-    "ko_lu": "주술선.n.Vehicle",
-    "lu_id": 2633,
-    "en_lus": [
-        "hune .船 "
     ]
 }

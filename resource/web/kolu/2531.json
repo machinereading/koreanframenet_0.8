@@ -1,88 +1,498 @@
 {
-    "frameName": "Roadways",
+    "ko_pos": "a",
+    "ko_lu": "도달하다.a.Arriving",
+    "frameID": 54,
+    "frameName": "Arriving",
+    "en_lus": [
+        "reach",
+        "get"
+    ],
+    "lu_id": 2531,
     "patterns": [
         {
-            "valenceText": "annotation id: 8388",
+            "valenceText": "annotation id: 3429",
             "examples": [
                 {
-                    "frameName": "Roadways",
+                    "origin_lus": [
+                        "reaching",
+                        "reach"
+                    ],
+                    "ko_annotation_id": 3429,
+                    "annotation_id": 6499,
+                    "frameName": "Arriving",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Arriving",
                             "span": {
-                                "begin": 7,
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "도달하도록"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 29
+                            },
+                            "text": "고유의 신경작용제 생산 능력의 목표에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1297,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도달하다.a.Arriving",
+                    "text": "테헤란은 이란이 고유의 신경작용제 생산 능력의 목표에 도달하도록 도와줄 수 있었던 러시아와 중국의 기관들로부터 상당한 생산 기술, 훈련, 전문가, 장비와 화학물질을 계속해서 얻으려고 하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 3836",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "reaching",
+                        "reach"
+                    ],
+                    "ko_annotation_id": 3836,
+                    "annotation_id": 7134,
+                    "frameName": "Arriving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arriving",
+                            "span": {
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "도달하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 22
+                            },
+                            "text": "보급품이 그것들을 필요로 하는 사람들에게",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1499,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도달하다.a.Arriving",
+                    "text": "보급품이 그것들을 필요로 하는 사람들에게 도달하지 않으면, Hall은 유엔이나 구호 단체가 일을 다르게 처리하는 것이 필요한지, 혹은, \" 이라크가 그 방법에서 벗어나고 우리가 그 일을 하도록 할 필요 \" 가 있는지 찾기를 원한다고 말하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 5848",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "reach"
+                    ],
+                    "ko_annotation_id": 5848,
+                    "annotation_id": 10510,
+                    "frameName": "Arriving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arriving",
+                            "span": {
+                                "begin": 94,
+                                "end": 98
+                            },
+                            "token_span": [
+                                30
+                            ],
+                            "role": "TARGET",
+                            "text": "러시아에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                25,
+                                26,
+                                27,
+                                28,
+                                29
+                            ],
+                            "span": {
+                                "begin": 79,
+                                "end": 93
+                            },
+                            "text": " ; 일본, 인도, 그리고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                35,
+                                36,
+                                37,
+                                38,
+                                39,
+                                40,
+                                41,
+                                42,
+                                43
+                            ],
+                            "span": {
+                                "begin": 111,
+                                "end": 139
+                            },
+                            "text": "기의 DF -3, DF -4, 그리고  DF -21",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2119,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도달하다.a.Arriving",
+                    "text": "중국의 미사일은 제2 포병 군단에서 운영되고, 대만 맞은 편에 약 650 기의 DF -11 ( M-11 ) 과 DF - 15 ( M -9 )  ; 일본, 인도, 그리고 러시아에 도달할 수 있는 수십 기의 DF -3, DF -4, 그리고  DF -21 중거리 미사일 ; 그리고 미국과 유럽에 도달할 수 있는 18-24 기의 DF-5 대륙간 타도 미사일을 포함하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 5849",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "reach"
+                    ],
+                    "ko_annotation_id": 5849,
+                    "annotation_id": 10510,
+                    "frameName": "Arriving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arriving",
+                            "span": {
+                                "begin": 94,
+                                "end": 98
+                            },
+                            "token_span": [
+                                30
+                            ],
+                            "role": "TARGET",
+                            "text": "러시아에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                46,
+                                47
+                            ],
+                            "span": {
+                                "begin": 148,
+                                "end": 153
+                            },
+                            "text": "; 그리고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                51,
+                                52,
+                                53,
+                                54,
+                                55,
+                                56
+                            ],
+                            "span": {
+                                "begin": 166,
+                                "end": 188
+                            },
+                            "text": "수 있는 18-24 기의 DF-5 대륙간",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2119,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도달하다.a.Arriving",
+                    "text": "중국의 미사일은 제2 포병 군단에서 운영되고, 대만 맞은 편에 약 650 기의 DF -11 ( M-11 ) 과 DF - 15 ( M -9 )  ; 일본, 인도, 그리고 러시아에 도달할 수 있는 수십 기의 DF -3, DF -4, 그리고  DF -21 중거리 미사일 ; 그리고 미국과 유럽에 도달할 수 있는 18-24 기의 DF-5 대륙간 타도 미사일을 포함하고 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 8875",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "reach"
+                    ],
+                    "ko_annotation_id": 8875,
+                    "annotation_id": 16261,
+                    "frameName": "Arriving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arriving",
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "도달할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 11
+                            },
+                            "text": "중국 해안에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 36
+                            },
+                            "text": "단거리 탄도 미사일 시스템인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3116,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도달하다.a.Arriving",
+                    "text": "타이완은 중국 해안에 도달할 수 있는 단거리 탄도 미사일 시스템인 Tien Chi를 현재 개발중이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13387",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "get",
+                        "reach"
+                    ],
+                    "ko_annotation_id": 13387,
+                    "annotation_id": 5235,
+                    "frameName": "Arriving",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Arriving",
+                            "span": {
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "도달하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
                                 "end": 9
                             },
-                            "id": "1"
+                            "text": "방문객들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 27
+                            },
+                            "text": "외진 곳에 있는 명소와 마을들에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tunnels",
-                        "tunnel"
+                    "sent_id": 997,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 8388,
-                    "text": "아무리 많은 터널과 수송 체계가 항구를 가로지르는 교통의 속도를 높이고 있지만, kowloond에서 빅토리아 항구를 가로질러 Central District로 가는 Star Ferry를 타는 것과 견줄 것은 아무것도 없다.",
-                    "sent_id": 1038,
-                    "relations": [],
-                    "annotation_id": 5421
+                    "lu": "도달하다.a.Arriving",
+                    "text": "그것은 방문객들이 외진 곳에 있는 명소와 마을들에 도달하는 이상적인 방법이다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 8389",
+            "valenceText": "annotation id: 16952",
             "examples": [
                 {
-                    "frameName": "Roadways",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 81,
-                                "end": 83
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "tunnels",
-                        "tunnel"
+                        "get",
+                        "reach"
                     ],
-                    "ko_annotation_id": 8389,
-                    "text": "19세기 고고학자들에 의해 발견된 Cananite 급수시설의 일부이고 방문객들에게 개방한 Warren 's Shaft는 바로 다윗의 군대가 침투한 터널일지도 모른다.",
-                    "sent_id": 627,
-                    "relations": [],
-                    "annotation_id": 3371
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.34599",
-            "examples": [
-                {
-                    "frameName": "Roadways",
+                    "ko_annotation_id": 16952,
+                    "annotation_id": 5610,
+                    "frameName": "Arriving",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Arriving",
                             "span": {
-                                "begin": 2,
-                                "end": 4
+                                "begin": 31,
+                                "end": 35
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "도달하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "여기에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그 터널은 우리나라에서 가장 길다.",
-                    "target": "터널",
-                    "ko_annotation_id": "sejong.34599",
-                    "relations": []
+                    "sent_id": 1075,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도달하다.a.Arriving",
+                    "text": "전차가 만들어지기 전에는 세단 의자와 인력거들이 여기에 도달하는 유일한 방법이었다."
                 }
             ]
         }
-    ],
-    "frameID": 203,
-    "ko_pos": "NNG",
-    "ko_lu": "터널.n.Roadways",
-    "lu_id": 2531,
-    "en_lus": [
-        "tunnel"
     ]
 }

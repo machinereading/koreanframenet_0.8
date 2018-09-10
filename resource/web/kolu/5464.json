@@ -1,52 +1,90 @@
 {
-    "frameName": "Usefulness",
+    "ko_pos": "v",
+    "ko_lu": "입원하다.v.Institutionalization",
+    "frameID": 1620,
+    "frameName": "Institutionalization",
+    "en_lus": [
+        "hospitalize"
+    ],
+    "lu_id": 5464,
     "patterns": [
         {
-            "valenceText": "annotation id: 19359",
+            "valenceText": "annotation id: 3606",
             "examples": [
                 {
-                    "frameName": "Usefulness",
+                    "origin_lus": [
+                        "hospitalized"
+                    ],
+                    "ko_annotation_id": 3606,
+                    "annotation_id": 6784,
+                    "frameName": "Institutionalization",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Institutionalization",
                             "span": {
-                                "begin": 9,
-                                "end": 11
+                                "begin": 37,
+                                "end": 43
                             },
-                            "id": "1"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "입원하였다."
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 18
+                                "begin": 0,
+                                "end": 28
                             },
-                            "id": "2"
+                            "text": "2,600 명 이상의 마을 주민 중 약 400 명이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 36
+                            },
+                            "text": "7월과 8월에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "best"
-                    ],
-                    "ko_annotation_id": 19359,
-                    "text": "그러나 어디서나 최고의 수송 체계 중의 하나로, 홍콩은 또한 효율적이며, 이러한 붐비는 장소에서, 조용한 - 화나서 높이는 소리, 경적을 울리며 앉아 있는 운전자, 또는 시끄러운 대형 휴대용 카세트 라디오의 소리를 당신은 듣지 못한다.",
-                    "sent_id": 855,
+                    "sent_id": 1378,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4426
+                    "lu": "입원하다.v.Institutionalization",
+                    "text": "2,600 명 이상의 마을 주민 중 약 400 명이 7월과 8월에 입원하였다."
                 }
             ]
         }
-    ],
-    "frameID": 726,
-    "ko_pos": "NNG",
-    "ko_lu": "최고.n.Usefulness",
-    "lu_id": 5464,
-    "en_lus": [
-        "best"
     ]
 }

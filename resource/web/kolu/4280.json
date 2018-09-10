@@ -1,38 +1,64 @@
 {
-    "frameName": "Attack",
+    "ko_pos": "v",
+    "ko_lu": "밀려오다.v.Coming_to_be",
+    "frameID": 316,
+    "frameName": "Coming_to_be",
+    "en_lus": [
+        "hasiru .走る"
+    ],
+    "lu_id": 4280,
     "patterns": [
         {
-            "valenceText": "annotation id: 14766",
+            "valenceText": "annotation id: 11456",
             "examples": [
                 {
-                    "frameName": "Attack",
+                    "origin_lus": [
+                        "hasiru .走る"
+                    ],
+                    "ko_annotation_id": 11456,
+                    "annotation_id": 0,
+                    "frameName": "Coming_to_be",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Coming_to_be",
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 13,
+                                "end": 18
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "밀려온다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 12
+                            },
+                            "text": "가벼운 통증이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "offensive"
+                    "sent_id": 4402,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14766,
-                    "text": "이들 판매가 공격적 화학무기 능력이 있다는 것을 나타낸다고 할 수는 없지만 불법적인 이란의 화학무기 프로그램으로의 전환 가능성 때문에 주목할 필요가 있다.",
-                    "sent_id": 2280,
-                    "relations": [],
-                    "annotation_id": 11426
+                    "lu": "밀려오다.v.Coming_to_be",
+                    "text": "움직이면 가벼운 통증이 밀려온다."
                 }
             ]
         }
-    ],
-    "frameID": 424,
-    "ko_pos": "NN",
-    "ko_lu": "공격적.n.Attack",
-    "lu_id": 4280,
-    "en_lus": [
-        "offensive"
     ]
 }

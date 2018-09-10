@@ -1,51 +1,63 @@
 {
-    "frameName": "Fame",
+    "ko_pos": "v",
+    "ko_lu": "이해하다.v.Awareness",
+    "frameID": 19,
+    "frameName": "Awareness",
+    "en_lus": [
+        "understand"
+    ],
+    "lu_id": 2511,
     "patterns": [
         {
-            "valenceText": "annotation id: 8297",
+            "valenceText": "annotation id: 5120",
             "examples": [
                 {
-                    "frameName": "Fame",
+                    "origin_lus": [
+                        "understanding"
+                    ],
+                    "ko_annotation_id": 5120,
+                    "annotation_id": 9236,
+                    "frameName": "Awareness",
                     "denotations": [
                         {
-                            "obj": "Place",
+                            "id": 1,
+                            "obj": "Awareness",
                             "span": {
-                                "begin": 65,
-                                "end": 67
-                            }
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "이해하기로는"
                         },
                         {
-                            "obj": "Entity",
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 68,
-                                "end": 75
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 73,
-                                "end": 75
-                            }
+                                "begin": 3,
+                                "end": 5
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hyooban .評判 "
+                    "sent_id": 1916,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 8297,
-                    "text": "하지만, 이 말이 새로이 사용되게 된 것은, 앙리 고와 크리스티앙 미요(고에미요로 알려진 음식평론가.)가 라디오에서 유럽 레스토랑 평가를 하면서 우물가의 쑥덕공론을 하게 된 것에서 출발했다고 한다.",
-                    "sent_id": 4250,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "이해하다.v.Awareness",
+                    "text": "어, 내가 이해하기로는 판결이 있을 때, 그리고 예를 들어, 여기 Fort Worth 에서는 오전 8시부터 오후 4시까지 이틀간 지루한 배심이 있었고 그리고 그 사람은 마침내 석방 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 1880,
-    "ko_pos": "NNG",
-    "ko_lu": "평가.n.Fame",
-    "lu_id": 2511,
-    "en_lus": [
-        "hyooban .評判 "
     ]
 }

@@ -1,82 +1,83 @@
 {
-    "frameName": "Membership",
+    "ko_pos": "v",
+    "ko_lu": "거래하다.v.Exchange",
+    "frameID": 1170,
+    "frameName": "Exchange",
+    "en_lus": [
+        "trade"
+    ],
+    "lu_id": 1520,
     "patterns": [
         {
-            "valenceText": "annotation id: 4822",
+            "valenceText": "annotation id: 12922",
             "examples": [
                 {
-                    "frameName": "Membership",
+                    "origin_lus": [
+                        "trade"
+                    ],
+                    "ko_annotation_id": 12922,
+                    "annotation_id": 2649,
+                    "frameName": "Exchange",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Exchange",
+                            "span": {
+                                "begin": 20,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "거래하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Exchanger_1",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme_1",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 7
+                                "end": 16
                             },
-                            "id": "1"
+                            "text": "흑요석과 지역 대리석을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "belong"
-                    ],
-                    "ko_annotation_id": 4822,
-                    "text": "그들은 소속되고, 자급자족하게 되고, 그들의 자부심과 자신감을 되찾을 기회를 환영한다.",
-                    "sent_id": 455,
-                    "relations": [],
-                    "annotation_id": 2383
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.59806",
-            "examples": [
-                {
-                    "frameName": "Membership",
-                    "denotations": [
+                    "sent_id": 503,
+                    "relations": [
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 11,
-                                "end": 15
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "나는 축구 대표팀에 소속되어 있다.",
-                    "target": "소속되어",
-                    "ko_annotation_id": "sejong.59806",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.59807",
-            "examples": [
-                {
-                    "frameName": "Membership",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 3,
-                                "end": 6
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "그는 소속된 곳은 검찰청이지만 지금은 국정원에 파견나가 있다.",
-                    "target": "소속된",
-                    "ko_annotation_id": "sejong.59807",
-                    "relations": []
+                    "lu": "거래하다.v.Exchange",
+                    "text": "그들은 흑요석과 지역 대리석을 계속 거래하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1026,
-    "ko_pos": "VV",
-    "ko_lu": "소속되다.v.Membership",
-    "lu_id": 1520,
-    "en_lus": [
-        "belong"
     ]
 }

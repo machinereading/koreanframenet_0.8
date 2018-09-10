@@ -1,74 +1,86 @@
 {
-    "frameName": "Typicality",
+    "ko_pos": "n",
+    "ko_lu": "추구.n.Seeking_to_achieve",
+    "frameID": 1480,
+    "frameName": "Seeking_to_achieve",
+    "en_lus": [
+        "pursuit",
+        "seek"
+    ],
+    "lu_id": 2374,
     "patterns": [
         {
-            "valenceText": "annotation id: 7680",
+            "valenceText": "annotation id: 7850",
             "examples": [
                 {
-                    "frameName": "Typicality",
+                    "origin_lus": [
+                        "seek",
+                        "pursuit"
+                    ],
+                    "ko_annotation_id": 7850,
+                    "annotation_id": 0,
+                    "frameName": "Seeking_to_achieve",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Seeking_to_achieve",
                             "span": {
-                                "begin": 23,
-                                "end": 25
+                                "begin": 18,
+                                "end": 21
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "추구에"
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 26,
-                                "end": 28
+                                "begin": 0,
+                                "end": 8
                             },
-                            "id": "2"
+                            "text": "모든 당사국들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 21
+                            },
+                            "text": "한반도의 비핵화 추구에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "average"
-                    ],
-                    "ko_annotation_id": 7680,
-                    "text": "나는 그들이 선고된 살인자의 감옥에 있는 평균 시간은, 저, 그가 가석방 되기 전에 이년이고 강간자는 육개월이고 도둑은 이개월이라고 그들이 말한 것을 어제밤 뉴스에서 보았다.",
-                    "sent_id": 1903,
+                    "sent_id": 2818,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 9163
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.19158",
-            "examples": [
-                {
-                    "frameName": "Typicality",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 11,
-                                "end": 13
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "여러 자료를 합하여 평균을 내보려고 한다",
-                    "target": "평균",
-                    "ko_annotation_id": "sejong.19158",
-                    "relations": []
+                    "lu": "추구.n.Seeking_to_achieve",
+                    "text": "모든 당사국들은 한반도의 비핵화 추구에 동의하였으나, 이러한 목표가 어떻게 달성될 것인지는 명확하지 않다."
                 }
             ]
         }
-    ],
-    "frameID": 1134,
-    "ko_pos": "NNG",
-    "ko_lu": "평균.n.Typicality",
-    "lu_id": 2374,
-    "en_lus": [
-        "average"
     ]
 }

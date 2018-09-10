@@ -1,52 +1,85 @@
 {
-    "frameName": "Stage_of_progress",
+    "ko_pos": "v",
+    "ko_lu": "감싸다.v.Distributed_position",
+    "frameID": 76,
+    "frameName": "Distributed_position",
+    "en_lus": [
+        "envelop"
+    ],
+    "lu_id": 5570,
     "patterns": [
         {
-            "valenceText": "annotation id: 19721",
+            "valenceText": "annotation id: 1499",
             "examples": [
                 {
-                    "frameName": "Stage_of_progress",
+                    "origin_lus": [
+                        "enveloped"
+                    ],
+                    "ko_annotation_id": 1499,
+                    "annotation_id": 3103,
+                    "frameName": "Distributed_position",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Distributed_position",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 28,
+                                "end": 32
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "감쌌고,"
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 11
+                                "begin": 0,
+                                "end": 8
                             },
-                            "id": "2"
+                            "text": "새로운 정체성이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 27
+                            },
+                            "text": "해 전역에서 그리스 사람들을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "advanced"
-                    ],
-                    "ko_annotation_id": 19721,
-                    "text": "발전된 무기 프로그램은 신장된 무기의 조립을 위해, 핵무기 폭발력을 향상시키는데 사용될 수 있는 방사성 가스인, 트리티움 제조 능력을 필요로 한다.",
-                    "sent_id": 2854,
+                    "sent_id": 587,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 14557
+                    "lu": "감싸다.v.Distributed_position",
+                    "text": "새로운 정체성이 에게 해 전역에서 그리스 사람들을 감쌌고, 그리하여 그리스를 확장하고 이질적인 정교회 주민들을 통합하기 위한 운동이 시작되었다."
                 }
             ]
         }
-    ],
-    "frameID": 1341,
-    "ko_pos": "VV",
-    "ko_lu": "발전되다.v.Stage_of_progress",
-    "lu_id": 5570,
-    "en_lus": [
-        "advanced"
     ]
 }

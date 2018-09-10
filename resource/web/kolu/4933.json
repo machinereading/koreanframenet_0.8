@@ -1,38 +1,83 @@
 {
-    "frameName": "People_by_religion",
+    "ko_pos": "n",
+    "ko_lu": "사정.n.Reason",
+    "frameID": 514,
+    "frameName": "Reason",
+    "en_lus": [
+        "zizyoo .事情 "
+    ],
+    "lu_id": 4933,
     "patterns": [
         {
-            "valenceText": "annotation id: 17386",
+            "valenceText": "annotation id: 11870",
             "examples": [
                 {
-                    "frameName": "People_by_religion",
+                    "origin_lus": [
+                        "zizyoo .事情 "
+                    ],
+                    "ko_annotation_id": 11870,
+                    "annotation_id": 0,
+                    "frameName": "Reason",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Reason",
                             "span": {
-                                "begin": 4,
-                                "end": 6
+                                "begin": 24,
+                                "end": 28
                             },
-                            "id": "1"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "사정이나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 13
+                            },
+                            "text": "어느 기업이든",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "text": "변하기 힘든",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "pagan"
+                    "sent_id": 4678,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 17386,
-                    "text": "로마는 이교도 제국을 다스렸지만, 에게 해는 초기 기독교 발달에 중요한 영향을 미쳤다.",
-                    "sent_id": 548,
-                    "relations": [],
-                    "annotation_id": 2878
+                    "lu": "사정.n.Reason",
+                    "text": "왜냐하면, 어느 기업이든 변하기 힘든 내부 사정이나 조직의 특성이 있어, 꽤 규모가 작은 오너 기업이 아닌 한, 전사가 하나가 되어 일에 착수하여, 성과를 내기까지는, 시간과 끈기가 상당히 필요하기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 1021,
-    "ko_pos": "NNG",
-    "ko_lu": "이교.n.People_by_religion",
-    "lu_id": 4933,
-    "en_lus": [
-        "pagan"
     ]
 }

@@ -1,78 +1,83 @@
 {
-    "frameName": "Process_stop",
+    "ko_pos": "a",
+    "ko_lu": "가치있다.a.Deserving",
+    "frameID": 541,
+    "frameName": "Deserving",
+    "en_lus": [
+        "deserves"
+    ],
+    "lu_id": 3125,
     "patterns": [
         {
-            "valenceText": "annotation id: 10431",
+            "valenceText": "annotation id: 3252",
             "examples": [
                 {
-                    "frameName": "Process_stop",
+                    "origin_lus": [
+                        "deserves"
+                    ],
+                    "ko_annotation_id": 3252,
+                    "annotation_id": 6216,
+                    "frameName": "Deserving",
                     "denotations": [
                         {
-                            "obj": "process",
+                            "id": 1,
+                            "obj": "Deserving",
                             "span": {
-                                "begin": 0,
-                                "end": 7
+                                "begin": 30,
+                                "end": 37
                             },
-                            "id": "2"
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "가치가 있다고"
                         },
                         {
-                            "obj": "duration",
+                            "id": 2,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 11
+                                "begin": 13,
+                                "end": 24
                             },
-                            "id": "4"
+                            "text": "Grand Slam이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "process",
+                            "id": 3,
+                            "obj": "Action",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 13
+                                "begin": 25,
+                                "end": 29
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 15,
-                                "end": 17
-                            },
-                            "id": "1"
+                            "text": "존경받을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "stopped"
-                    ],
-                    "ko_annotation_id": 10431,
-                    "text": "우리들 세 명은 잠시 숨을 멈추었고, 그리고 나서 건물이 계속 흔들렸을 때 우리는 출입구를 향해 달려갔다.",
-                    "sent_id": 165,
+                    "sent_id": 1220,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 942
+                    "lu": "가치있다.a.Deserving",
+                    "text": "QN : Walden은 Grand Slam이 존경받을 가치가 있다고 생각하는가 ?"
                 }
             ]
         }
-    ],
-    "frameID": 144,
-    "ko_pos": "VV",
-    "ko_lu": "멈추다.v.Process_stop",
-    "lu_id": 3125,
-    "en_lus": [
-        "stop"
     ]
 }

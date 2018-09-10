@@ -1,51 +1,83 @@
 {
-    "frameName": "Desirability",
+    "ko_pos": "n",
+    "ko_lu": "킬로그램.n.Measure_mass",
+    "frameID": 147,
+    "frameName": "Measure_mass",
+    "en_lus": [
+        "kilogram"
+    ],
+    "lu_id": 4393,
     "patterns": [
         {
-            "valenceText": "annotation id: 15238",
+            "valenceText": "annotation id: 7398",
             "examples": [
                 {
-                    "frameName": "Desirability",
+                    "origin_lus": [
+                        "kilograms"
+                    ],
+                    "ko_annotation_id": 7398,
+                    "annotation_id": 13427,
+                    "frameName": "Measure_mass",
                     "denotations": [
                         {
-                            "obj": "Degree",
+                            "id": 1,
+                            "obj": "Measure_mass",
                             "span": {
-                                "begin": 31,
-                                "end": 32
-                            }
+                                "begin": 6,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "킬로그램의"
                         },
                         {
-                            "obj": "Evaluee",
+                            "id": 2,
+                            "obj": "Count",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 33,
-                                "end": 35
-                            }
+                                "begin": 2,
+                                "end": 5
+                            },
+                            "text": "600",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Stuff",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 37,
-                                "end": 40
-                            }
+                                "begin": 12,
+                                "end": 24
+                            },
+                            "text": "무기급 고농축 우라늄은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "yoi .よい "
+                    "sent_id": 2679,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15238,
-                    "text": "음력시대의 히나마쓰리는 지금의 4월 상순에 해당하므로, 꽤 날씨도 따뜻해져, 완연한 봄기운이 느껴졌을 것이다.",
-                    "sent_id": 4107,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "킬로그램.n.Measure_mass",
+                    "text": "약 600 킬로그램의 무기급 고농축 우라늄은 프로젝트 Sapphire로 알려진 미국 - 카자흐스탄의 합동 작전 하에 1994년에 Ulba 야금 공장에서 미국으로 옮겨졌다."
                 }
             ]
         }
-    ],
-    "frameID": 354,
-    "ko_pos": "VA",
-    "ko_lu": "따뜻하다.a.Desirability",
-    "lu_id": 4393,
-    "en_lus": [
-        "yoi .よい "
     ]
 }

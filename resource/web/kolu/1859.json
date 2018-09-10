@@ -1,65 +1,97 @@
 {
-    "frameName": "Reasoning",
+    "ko_pos": "n",
+    "ko_lu": "몰.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "mall"
+    ],
+    "lu_id": 1859,
     "patterns": [
         {
-            "valenceText": "annotation id: 5869",
+            "valenceText": "annotation id: 2836",
             "examples": [
                 {
-                    "frameName": "Reasoning",
+                    "origin_lus": [
+                        "malls",
+                        "mall"
+                    ],
+                    "ko_annotation_id": 2836,
+                    "annotation_id": 5460,
+                    "frameName": "Buildings",
                     "denotations": [
                         {
-                            "obj": "arguer",
+                            "id": 1,
+                            "obj": "Buildings",
                             "span": {
-                                "begin": 0,
-                                "end": 6
+                                "begin": 20,
+                                "end": 22
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "몰이"
                         },
                         {
-                            "obj": "content",
+                            "id": 2,
+                            "obj": "Function",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 57
+                                "begin": 17,
+                                "end": 19
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 59,
-                                "end": 61
-                            },
-                            "id": "1"
+                            "text": "쇼핑",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "demonstrating"
-                    ],
-                    "ko_annotation_id": 5869,
-                    "text": "테러리스트들은 화학 생물무기 작용제를 개발, 생산, 및 배달하는 데 필요한 기술적인 능력을 가졌다는 것을 보여줌으로써 더 큰 지위 협상력을 가지려고 할 수 있다.",
-                    "sent_id": 2038,
+                    "sent_id": 1043,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9943
+                    "lu": "몰.n.Buildings",
+                    "text": "Jardine 건물 옆에 대형 쇼핑 몰이 있는 복합단지인 Exchange Square가 있다 ; 바로 뒤에는 1층에 우표수집 센터가 있는 중앙 우체국이 있다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13519",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "malls",
+                        "mall"
+                    ],
+                    "ko_annotation_id": 13519,
+                    "annotation_id": 6056,
+                    "frameName": "Buildings",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Buildings",
+                            "span": {
+                                "begin": 77,
+                                "end": 79
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "몰,"
+                        }
+                    ],
+                    "sent_id": 1155,
+                    "relations": [],
+                    "lu": "몰.n.Buildings",
+                    "text": "Star Ferry 터미널에 인접하여는 Ocean 터미널이 있고, 이곳은 국제 유람선 부두, 그리고 거대한 Harbour City, 복합 몰, 호텔과 식당들이 있다."
                 }
             ]
         }
-    ],
-    "frameID": 308,
-    "ko_pos": "VV",
-    "ko_lu": "보이다.v.Reasoning",
-    "lu_id": 1859,
-    "en_lus": [
-        "demonstrate"
     ]
 }

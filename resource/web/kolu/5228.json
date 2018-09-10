@@ -1,65 +1,121 @@
 {
-    "frameName": "Dimension",
+    "ko_pos": "v",
+    "ko_lu": "수집하다.v.Gathering_up",
+    "frameID": 260,
+    "frameName": "Gathering_up",
+    "en_lus": [
+        "collect"
+    ],
+    "lu_id": 5228,
     "patterns": [
         {
-            "valenceText": "annotation id: 18437",
+            "valenceText": "annotation id: 1137",
             "examples": [
                 {
-                    "frameName": "Dimension",
+                    "origin_lus": [
+                        "collect"
+                    ],
+                    "ko_annotation_id": 1137,
+                    "annotation_id": 2435,
+                    "frameName": "Gathering_up",
                     "denotations": [
                         {
-                            "obj": "object",
+                            "id": 1,
+                            "obj": "Gathering_up",
                             "span": {
-                                "begin": 51,
-                                "end": 56
+                                "begin": 39,
+                                "end": 43
                             },
-                            "id": "2"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "수집하는"
                         },
                         {
-                            "obj": "measurement",
+                            "id": 2,
+                            "obj": "Containing_Event",
+                            "token_span": [
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 58,
-                                "end": 65
+                                "begin": 19,
+                                "end": 27
                             },
-                            "id": "3"
+                            "text": "우리의 보도에서",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 66,
-                                "end": 72
+                                "begin": 28,
+                                "end": 34
                             },
-                            "id": "1"
+                            "text": "우리 모두가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Frequency",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "text": "날마다",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Aggregate",
+                            "token_span": [
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 44,
+                                "end": 53
+                            },
+                            "text": "모든 좋은 자료를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "weigh"
-                    ],
-                    "ko_annotation_id": 18437,
-                    "text": "380 년 전 영국인이 발명한 마음을 뛰게하는 활동인 전조타종은 강한 전신적 집중력과 함께 어떤 종들은 일 톤이 넘는 무게가 나가기 때문에 육체적인 기민함을 요구한다.",
-                    "sent_id": 28,
+                    "sent_id": 464,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 188
+                    "lu": "수집하다.v.Gathering_up",
+                    "text": "우리가 이야기에 결코 더하지 않는 우리의 보도에서 우리 모두가 날마다 수집하는 모든 좋은 자료를 생각하라."
                 }
             ]
         }
-    ],
-    "frameID": 108,
-    "ko_pos": "NNG",
-    "ko_lu": "무게.n.Dimension",
-    "lu_id": 5228,
-    "en_lus": [
-        "weigh"
     ]
 }

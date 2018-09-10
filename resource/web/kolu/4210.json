@@ -1,60 +1,83 @@
 {
-    "frameName": "Toxic_substance",
+    "ko_pos": "n",
+    "ko_lu": "도시.n.Locative_relation",
+    "frameID": 199,
+    "frameName": "Locative_relation",
+    "en_lus": [
+        "where"
+    ],
+    "lu_id": 4210,
     "patterns": [
         {
-            "valenceText": "annotation id: 14467",
+            "valenceText": "annotation id: 2624",
             "examples": [
                 {
-                    "frameName": "Toxic_substance",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 25,
-                                "end": 27
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "poisons"
+                        "where"
                     ],
-                    "ko_annotation_id": 14467,
-                    "text": "특정 테러리스트 단체나 개인의 심리나 이념은 독약과 질병에 대한 매력으로 이끌 수 있다.",
-                    "sent_id": 2040,
-                    "relations": [],
-                    "annotation_id": 9959
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.23900",
-            "examples": [
-                {
-                    "frameName": "Toxic_substance",
+                    "ko_annotation_id": 2624,
+                    "annotation_id": 5136,
+                    "frameName": "Locative_relation",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Locative_relation",
                             "span": {
-                                "begin": 3,
-                                "end": 5
+                                "begin": 29,
+                                "end": 34
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "도시에서,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Figure",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "문학과 극장이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ground",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 34
+                            },
+                            "text": "이 도시에서,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 독약을 마시고 자살했다.",
-                    "target": "독약",
-                    "ko_annotation_id": "sejong.23900",
-                    "relations": []
+                    "sent_id": 982,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "도시.n.Locative_relation",
+                    "text": "그리고 문학과 극장이 역사적으로 무대를 지배했던 이 도시에서, 현대 아일랜드 미술가들의 작품을 전시하는 새로운 현대 미술 박물관과 많은 갤러리와 함께 시각 예술은 마침내 독자적으로 태어나고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1163,
-    "ko_pos": "NNG",
-    "ko_lu": "독약.n.Toxic_substance",
-    "lu_id": 4210,
-    "en_lus": [
-        "poison"
     ]
 }

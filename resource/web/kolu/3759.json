@@ -1,65 +1,123 @@
 {
-    "frameName": "Evidence",
+    "ko_pos": "v",
+    "ko_lu": "기울이다.v.Attention",
+    "frameID": 791,
+    "frameName": "Attention",
+    "en_lus": [
+        "attention"
+    ],
+    "lu_id": 3759,
     "patterns": [
         {
-            "valenceText": "annotation id: 12818",
+            "valenceText": "annotation id: 723",
             "examples": [
                 {
-                    "frameName": "Evidence",
+                    "origin_lus": [
+                        "attention"
+                    ],
+                    "ko_annotation_id": 723,
+                    "annotation_id": 1532,
+                    "frameName": "Attention",
                     "denotations": [
                         {
-                            "obj": "support",
+                            "id": 1,
+                            "obj": "Attention",
                             "span": {
-                                "begin": 5,
-                                "end": 13
+                                "begin": 39,
+                                "end": 47
                             },
-                            "id": "2"
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "관심을 기울이는"
                         },
                         {
-                            "obj": "proposition",
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 15,
-                                "end": 68
+                                "begin": 10,
+                                "end": 23
                             },
-                            "id": "3"
+                            "text": "지역의 혜택 추구에 비해",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Figure",
+                            "token_span": [
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 72,
-                                "end": 75
+                                "begin": 24,
+                                "end": 32
                             },
-                            "id": "1"
+                            "text": "국가정책 결정에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Degree",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 38
+                            },
+                            "text": "너무 많은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Perceiver",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 53
+                            },
+                            "text": "입법자들이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "indicated"
-                    ],
-                    "ko_annotation_id": 12818,
-                    "text": "그러나, IAEA 분석가는 북한의 기술자들이 1989년, 1990년, 그리고 1991년의 세 번에 걸쳐 플루토늄을 재처리하였다고 지적하였다.",
-                    "sent_id": 2947,
+                    "sent_id": 278,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 15150
+                    "lu": "기울이다.v.Attention",
+                    "text": "셋째, 이 이론은 지역의 혜택 추구에 비해 국가정책 결정에 너무 많은 관심을 기울이는 입법자들이 재임에 덜 안전한가에 대한 이유를 제시해 준다."
                 }
             ]
         }
-    ],
-    "frameID": 25,
-    "ko_pos": "VV",
-    "ko_lu": "지적하다.v.Evidence",
-    "lu_id": 3759,
-    "en_lus": [
-        "indicate"
     ]
 }

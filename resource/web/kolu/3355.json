@@ -1,52 +1,81 @@
 {
-    "frameName": "Dimension",
+    "ko_pos": "v",
+    "ko_lu": "주목받다.v.Come_together",
+    "frameID": 730,
+    "frameName": "Come_together",
+    "en_lus": [
+        "atumaru .集まる "
+    ],
+    "lu_id": 3355,
     "patterns": [
         {
-            "valenceText": "annotation id: 11413",
+            "valenceText": "annotation id: 16436",
             "examples": [
                 {
-                    "frameName": "Dimension",
+                    "origin_lus": [
+                        "atumaru .集まる "
+                    ],
+                    "ko_annotation_id": 16436,
+                    "annotation_id": 0,
+                    "frameName": "Come_together",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Come_together",
                             "span": {
-                                "begin": 49,
-                                "end": 51
+                                "begin": 21,
+                                "end": 25
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "주목받고"
                         },
                         {
-                            "obj": "object",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 51,
-                                "end": 53
+                                "begin": 8,
+                                "end": 10
                             },
-                            "id": "2"
+                            "text": "현재",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Configuration",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "text": "주목받고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "dark"
-                    ],
-                    "ko_annotation_id": 11413,
-                    "text": "그들은 야만 인종이였고, 그들의 그 지역 관리는 문자 언어가 잊히고 예술이 사라지게 한 암흑시대를 가져왔다.",
-                    "sent_id": 513,
+                    "sent_id": 4276,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2704
+                    "lu": "주목받다.v.Come_together",
+                    "text": "이와 동시에, 현재 이슬람의 가르침이 주목받고 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 108,
-    "ko_pos": "NNG",
-    "ko_lu": "암흑.n.Dimension",
-    "lu_id": 3355,
-    "en_lus": [
-        "dark"
     ]
 }

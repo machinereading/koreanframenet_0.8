@@ -1,38 +1,109 @@
 {
-    "frameName": "Measure_duration",
+    "ko_pos": "v",
+    "ko_lu": "전달되다.v.Delivery",
+    "frameID": 1344,
+    "frameName": "Delivery",
+    "en_lus": [
+        "deliver"
+    ],
+    "lu_id": 5148,
     "patterns": [
         {
-            "valenceText": "annotation id: 18136",
+            "valenceText": "annotation id: 5228",
             "examples": [
                 {
-                    "frameName": "Measure_duration",
+                    "origin_lus": [
+                        "delivered"
+                    ],
+                    "ko_annotation_id": 5228,
+                    "annotation_id": 9393,
+                    "frameName": "Delivery",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Delivery",
                             "span": {
-                                "begin": 16,
-                                "end": 18
+                                "begin": 50,
+                                "end": 53
                             },
-                            "id": "1"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "전달된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 30
+                            },
+                            "text": "기업 전자 스파이 행위에 관한 온종일의 회의에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Deliverer",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 49
+                            },
+                            "text": "정부와 개인 안보 전문가들에 의해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 60
+                            },
+                            "text": "메시지였다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "week"
+                    "sent_id": 1948,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18136,
-                    "text": "1- 결혼자는 매 3주마다 일주일 동안 교대로 휴가를 갖고, 특정한 경우에 알 카에다는 4개월 동안 이 휴가를 거부할 수도 있다.",
-                    "sent_id": 1648,
-                    "relations": [],
-                    "annotation_id": 8081
+                    "lu": "전달되다.v.Delivery",
+                    "text": "그것이 기업 전자 스파이 행위에 관한 온종일의 회의에서 정부와 개인 안보 전문가들에 의해 전달된 메시지였다."
                 }
             ]
         }
-    ],
-    "frameID": 224,
-    "ko_pos": "NNG",
-    "ko_lu": "주일.n.Measure_duration",
-    "lu_id": 5148,
-    "en_lus": [
-        "week"
     ]
 }

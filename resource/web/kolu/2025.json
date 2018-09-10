@@ -1,78 +1,87 @@
 {
-    "frameName": "Manipulation",
+    "ko_pos": "v",
+    "ko_lu": "유래되다.v.Origin",
+    "frameID": 1103,
+    "frameName": "Origin",
+    "en_lus": [
+        "originate"
+    ],
+    "lu_id": 2025,
     "patterns": [
         {
-            "valenceText": "annotation id: 6422",
+            "valenceText": "annotation id: 16924",
             "examples": [
                 {
-                    "frameName": "Manipulation",
+                    "origin_lus": [
+                        "originated"
+                    ],
+                    "ko_annotation_id": 16924,
+                    "annotation_id": 4178,
+                    "frameName": "Origin",
                     "denotations": [
                         {
-                            "obj": "bodypart_of_agent",
+                            "id": 1,
+                            "obj": "Origin",
                             "span": {
-                                "begin": 12,
-                                "end": 15
+                                "begin": 27,
+                                "end": 33
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "유래되었다."
                         },
                         {
-                            "obj": "agent",
+                            "id": 2,
+                            "obj": "Origin",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 15
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "3"
+                            "text": "그래서",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 22
+                                "begin": 4,
+                                "end": 33
                             },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "entity",
-                            "span": {
-                                "begin": 32,
-                                "end": 37
-                            },
-                            "id": "4"
+                            "text": "라스 베이거스의 평판이 성인 테마 파크로 유래되었다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "diddle"
-                    ],
-                    "ko_annotation_id": 6422,
-                    "text": "언급한대로, IBM은 손가락으로 움직이는 작은 트랙볼이나 작은 패널 대신에 키보드의 중앙에 있는 마우스 스틱을 선택하였다.",
-                    "sent_id": 1214,
+                    "sent_id": 798,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6208
+                    "lu": "유래되다.v.Origin",
+                    "text": "그래서 라스 베이거스의 평판이 성인 테마 파크로 유래되었다."
                 }
             ]
         }
-    ],
-    "frameID": 17,
-    "ko_pos": "VV",
-    "ko_lu": "움직이다.v.Manipulation",
-    "lu_id": 2025,
-    "en_lus": [
-        "diddle"
     ]
 }

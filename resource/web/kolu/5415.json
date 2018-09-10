@@ -1,93 +1,335 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "v",
+    "ko_lu": "요청받다.v.Request",
+    "frameID": 41,
+    "frameName": "Request",
+    "en_lus": [
+        "ask"
+    ],
+    "lu_id": 5415,
     "patterns": [
         {
-            "valenceText": "annotation id: 19116",
+            "valenceText": "annotation id: 2146",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "asked"
+                    ],
+                    "ko_annotation_id": 2146,
+                    "annotation_id": 4282,
+                    "frameName": "Request",
                     "denotations": [
                         {
-                            "obj": "Figure",
+                            "id": 1,
+                            "obj": "Request",
                             "span": {
-                                "begin": 31,
-                                "end": 33
-                            }
+                                "begin": 35,
+                                "end": 40
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "요청받았고"
                         },
                         {
-                            "obj": "Ground",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 39,
-                                "end": 41
-                            }
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "몇 주 후에",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 39,
-                                "end": 41
-                            }
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Message",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 34
+                            },
+                            "text": "돈을 많이 쓰는 사람들을 위해 방을 비우도록",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "naka .中 ",
-                        "tyuu .中 "
+                    "sent_id": 825,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19116,
-                    "text": "모기떼를 발견하면, 그냥 입을 벌린 채 달리기만 해도, 모기가 저절로 입속에 들어옵니다.",
-                    "sent_id": 4315,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "요청받다.v.Request",
+                    "text": "몇 주 후에 그는 돈을 많이 쓰는 사람들을 위해 방을 비우도록 요청받았고 그런 후 명령을 받았다. 그래서 그는 즉시 그 건물을 사고 관리자를 해고시켰다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 19117",
+            "valenceText": "annotation id: 3898",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "asked"
+                    ],
+                    "ko_annotation_id": 3898,
+                    "annotation_id": 7225,
+                    "frameName": "Request",
                     "denotations": [
                         {
-                            "obj": "Figure",
+                            "id": 1,
+                            "obj": "Request",
                             "span": {
-                                "begin": 31,
-                                "end": 33
-                            }
+                                "begin": 67,
+                                "end": 71
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "요청받지"
                         },
                         {
-                            "obj": "Ground",
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                11
+                            ],
                             "span": {
-                                "begin": 39,
-                                "end": 41
-                            }
+                                "begin": 43,
+                                "end": 45
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
                             "span": {
-                                "begin": 39,
-                                "end": 41
-                            }
+                                "begin": 46,
+                                "end": 66
+                            },
+                            "text": "어떤 수뇌부 이라크 관료들을 만나도록",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "naka .中 ",
-                        "tyuu .中 "
+                    "sent_id": 1511,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19117,
-                    "text": "모기떼를 발견하면, 그냥 입을 벌린 채 달리기만 해도, 모기가 저절로 입속에 들어옵니다.",
-                    "sent_id": 4315,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "요청받다.v.Request",
+                    "text": "그가 이라크 관리들을 만날 어떤 계획이 있는지 Xinhua가 물었을 때, \" 나는 어떤 수뇌부 이라크 관료들을 만나도록 요청받지 않았다. \" 고 그는 말하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4425",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "asked"
+                    ],
+                    "ko_annotation_id": 4425,
+                    "annotation_id": 8062,
+                    "frameName": "Request",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "요청받지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "당신이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "달리 하도록",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1645,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "요청받다.v.Request",
+                    "text": "당신이 달리 하도록 요청받지 않거나 또는 당신의 일이 다른 사람들의 참여를 요구하고, 그리고 그때 지도자의 안내를 통할 경우에는, 당신이 일을 논의할 수 있는 유일한 사람은 당신의 직속 지휘관 ( Amir ) 이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9107",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "asked"
+                    ],
+                    "ko_annotation_id": 9107,
+                    "annotation_id": 16804,
+                    "frameName": "Request",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 79,
+                                "end": 85
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "요청받을지도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 32
+                            },
+                            "text": "Fort Detrick의 최신 생체방어 센터의 생물학자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 78
+                            },
+                            "text": "이미 있는 것보다 훨씬 더 위험한 세계에서 가장 치명적인 미생물의 일부를 만들도록",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3207,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "요청받다.v.Request",
+                    "text": "Fort Detrick의 최신 생체방어 센터의 생물학자들은 이미 있는 것보다 훨씬 더 위험한 세계에서 가장 치명적인 미생물의 일부를 만들도록 요청받을지도 모른다."
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "NNG",
-    "ko_lu": "입속.n.Locative_relation",
-    "lu_id": 5415,
-    "en_lus": [
-        "naka .中 ",
-        "tyuu .中 "
     ]
 }

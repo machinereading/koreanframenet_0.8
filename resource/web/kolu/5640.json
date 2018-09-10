@@ -1,52 +1,65 @@
 {
-    "frameName": "Becoming_aware",
+    "ko_pos": "v",
+    "ko_lu": "노출되다.v.Required_event",
+    "frameID": 1381,
+    "frameName": "Required_event",
+    "en_lus": [
+        "should"
+    ],
+    "lu_id": 5640,
     "patterns": [
         {
-            "valenceText": "annotation id: 19912",
+            "valenceText": "annotation id: 4210",
             "examples": [
                 {
-                    "frameName": "Becoming_aware",
+                    "origin_lus": [
+                        "should"
+                    ],
+                    "ko_annotation_id": 4210,
+                    "annotation_id": 7733,
+                    "frameName": "Required_event",
                     "denotations": [
                         {
-                            "obj": "phenomenon",
+                            "id": 1,
+                            "obj": "Required_event",
                             "span": {
-                                "begin": 14,
-                                "end": 26
+                                "begin": 7,
+                                "end": 11
                             },
-                            "id": "2"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "노출되고"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Required_Situation",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 28,
-                                "end": 29
+                                "begin": 0,
+                                "end": 11
                             },
-                            "id": "1"
+                            "text": "일부 버스는 노출되고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "noticed"
-                    ],
-                    "ko_annotation_id": 19912,
-                    "text": "아무것도 느끼지 못했지만,약간 이상한 새의 행동을 보았다.",
-                    "sent_id": 141,
+                    "sent_id": 1589,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 811
+                    "lu": "노출되다.v.Required_event",
+                    "text": "일부 버스는 노출되고 다른 버스는 위장되어야 한다."
                 }
             ]
         }
-    ],
-    "frameID": 20,
-    "ko_pos": "VV",
-    "ko_lu": "보다.v.Becoming_aware",
-    "lu_id": 5640,
-    "en_lus": [
-        "notice"
     ]
 }

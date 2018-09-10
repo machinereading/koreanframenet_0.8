@@ -1,91 +1,83 @@
 {
-    "frameName": "Manufacturing",
+    "ko_pos": "v",
+    "ko_lu": "압류되다.v.Taking",
+    "frameID": 410,
+    "frameName": "Taking",
+    "en_lus": [
+        "seize"
+    ],
+    "lu_id": 5165,
     "patterns": [
         {
-            "valenceText": "annotation id: 18203",
+            "valenceText": "annotation id: 10045",
             "examples": [
                 {
-                    "frameName": "Manufacturing",
+                    "origin_lus": [
+                        "seized"
+                    ],
+                    "ko_annotation_id": 10045,
+                    "annotation_id": 18552,
+                    "frameName": "Taking",
                     "denotations": [
                         {
-                            "obj": "Manufacturer",
+                            "id": 1,
+                            "obj": "Taking",
                             "span": {
-                                "begin": 14,
-                                "end": 17
-                            }
+                                "begin": 62,
+                                "end": 68
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "압류되었다."
                         },
                         {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 14,
-                                "end": 17
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "seezoo .製造 "
-                    ],
-                    "ko_annotation_id": 18203,
-                    "text": "근로자의 70% 가까이가 제조업 노동자에 해당했던 시대로, 젊은 노동자는 그 중심부를 담당하고 있었습니다.",
-                    "sent_id": 3661,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 18204",
-            "examples": [
-                {
-                    "frameName": "Manufacturing",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 27,
-                                "end": 30
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "seezoo .製造 "
-                    ],
-                    "ko_annotation_id": 18204,
-                    "text": "일본은 경제 선진국 중 하나이므로, 2020년에 제조업 노종자 인구가 2%까지 급격히 감소할 것으로 예상되고 있습니다.",
-                    "sent_id": 3981,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.33021",
-            "examples": [
-                {
-                    "frameName": "Manufacturing",
-                    "denotations": [
-                        {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 3
+                                "end": 4
                             },
-                            "id": "1"
+                            "text": "나중에,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 61
+                            },
+                            "text": "1,000 파운드의 다이나마이트가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "제조업에 종사하는 사람들의 비율이 점점 줄어드는 추세다.",
-                    "target": "제조업",
-                    "ko_annotation_id": "sejong.33021",
-                    "relations": []
+                    "sent_id": 3539,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "압류되다.v.Taking",
+                    "text": "나중에, 또다른 고위급 불법 거래자 Leonidas Vargas가 체포되었고 1,000 파운드의 다이나마이트가 압류되었다."
                 }
             ]
         }
-    ],
-    "frameID": 408,
-    "ko_pos": "NN",
-    "ko_lu": "제조업.n.Manufacturing",
-    "lu_id": 5165,
-    "en_lus": [
-        "seezoo .製造 "
     ]
 }

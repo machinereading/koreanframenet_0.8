@@ -1,74 +1,135 @@
 {
-    "frameName": "Kinship",
+    "ko_pos": "n",
+    "ko_lu": "옷.n.Clothing",
+    "frameID": 134,
+    "frameName": "Clothing",
+    "en_lus": [
+        "clothes",
+        "suit"
+    ],
+    "lu_id": 4749,
     "patterns": [
         {
-            "valenceText": "annotation id: 16684",
+            "valenceText": "annotation id: 1517",
             "examples": [
                 {
-                    "frameName": "Kinship",
+                    "origin_lus": [
+                        "suits",
+                        "clothes"
+                    ],
+                    "ko_annotation_id": 1517,
+                    "annotation_id": 3170,
+                    "frameName": "Clothing",
                     "denotations": [
                         {
-                            "obj": "ego",
+                            "id": 1,
+                            "obj": "Clothing",
                             "span": {
-                                "begin": 19,
-                                "end": 20
+                                "begin": 18,
+                                "end": 19
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "옷"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Wearer",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 26
+                                "begin": 11,
+                                "end": 14
                             },
-                            "id": "1"
+                            "text": "그들이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "daughter"
-                    ],
-                    "ko_annotation_id": 16684,
-                    "text": "오전 12시 7분 ONEZIE : 나의 작은 딸과 나는 무사하다.",
-                    "sent_id": 116,
+                    "sent_id": 597,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 717
+                    "lu": "옷.n.Clothing",
+                    "text": "수천 명의 사람들이 그들이 입은 옷 이외에는 거의 더 가진 것이 없이 도착하였고, 섬들의 자원에 엄청난 부담을 주었다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.30838",
+            "valenceText": "annotation id: 2820",
             "examples": [
                 {
-                    "frameName": "Kinship",
+                    "origin_lus": [
+                        "suits",
+                        "clothes"
+                    ],
+                    "ko_annotation_id": 2820,
+                    "annotation_id": 5432,
+                    "frameName": "Clothing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Clothing",
                             "span": {
-                                "begin": 11,
-                                "end": 12
+                                "begin": 53,
+                                "end": 55
                             },
-                            "id": "1"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "옷을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 49
+                            },
+                            "text": "청색",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Style",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 52
+                            },
+                            "text": "선원",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그 집은 아들 없이 딸만 다섯이다.",
-                    "target": "딸",
-                    "ko_annotation_id": "sejong.30838",
-                    "relations": []
+                    "sent_id": 1039,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "옷.n.Clothing",
+                    "text": "2중 갑판의 보트가 부두를 떠날 준비가 되면, 종이 울리고, 건널 판자가 올려지고, 청색 선원 옷을 입은 갑판원은 굵은 밧줄을 담당하고, 약 200 명의 통근자들은 7분 간의 관광 여행을 시작한다."
                 }
             ]
         }
-    ],
-    "frameID": 104,
-    "ko_pos": "NNG",
-    "ko_lu": "딸.n.Kinship",
-    "lu_id": 4749,
-    "en_lus": [
-        "daughter"
     ]
 }

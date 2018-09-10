@@ -1,100 +1,82 @@
 {
-    "frameName": "Commerce_sell",
+    "ko_pos": "v",
+    "ko_lu": "앉다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "tomaru .止まる"
+    ],
+    "lu_id": 4860,
     "patterns": [
         {
-            "valenceText": "annotation id: 17004",
+            "valenceText": "annotation id: 11946",
             "examples": [
                 {
-                    "frameName": "Commerce_sell",
+                    "origin_lus": [
+                        "tomaru .止まる"
+                    ],
+                    "ko_annotation_id": 11946,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
                     "denotations": [
                         {
-                            "obj": "goods",
+                            "id": 1,
+                            "obj": "Motion",
                             "span": {
-                                "begin": 8,
-                                "end": 15
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "time",
-                            "span": {
-                                "begin": 17,
-                                "end": 19
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 20,
-                                "end": 23
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "money",
-                            "span": {
-                                "begin": 24,
+                                "begin": 28,
                                 "end": 32
                             },
-                            "id": "4"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "앉았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "text": "때까치가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 27
+                            },
+                            "text": "철책 위에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sale"
-                    ],
-                    "ko_annotation_id": 17004,
-                    "text": "3분기 결과는 연합 투자자들의 8월 판매액 27 백만 달러와 15 백만 달러의 세금 공제를 포함한 48 백만 달러의 순실현자본이득을 포함하였다.",
-                    "sent_id": 10,
+                    "sent_id": 4741,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 63
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.20381",
-            "examples": [
-                {
-                    "frameName": "Commerce_sell",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 10,
-                                "end": 13
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "우리 가게의 인형 판매액만 해도 백만원이 넘습니다.",
-                    "target": "판매액",
-                    "ko_annotation_id": "sejong.20381",
-                    "relations": []
+                    "lu": "앉다.v.Motion",
+                    "text": "지렁이를 입에 물은 한 마리의 때까치가 철책 위에 앉았다."
                 }
             ]
         }
-    ],
-    "frameID": 172,
-    "ko_pos": "NN",
-    "ko_lu": "판매액.n.Commerce_sell",
-    "lu_id": 4860,
-    "en_lus": [
-        "sale"
     ]
 }

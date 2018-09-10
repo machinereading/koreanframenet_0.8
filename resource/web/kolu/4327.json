@@ -1,46 +1,88 @@
 {
-    "frameName": "Timespan",
+    "ko_pos": "v",
+    "ko_lu": "보이다.v.Categorization",
+    "frameID": 21,
+    "frameName": "Categorization",
+    "en_lus": [
+        "mieru .見える"
+    ],
+    "lu_id": 4327,
     "patterns": [
         {
-            "valenceText": "annotation id: 14905",
+            "valenceText": "annotation id: 10507",
             "examples": [
                 {
-                    "frameName": "Timespan",
+                    "origin_lus": [
+                        "mieru .見える"
+                    ],
+                    "ko_annotation_id": 10507,
+                    "annotation_id": 0,
+                    "frameName": "Categorization",
                     "denotations": [
                         {
-                            "obj": "Duration",
+                            "id": 1,
+                            "obj": "Categorization",
                             "span": {
-                                "begin": 0,
-                                "end": 3
-                            }
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "보였다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 5
-                            }
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "그 수는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Category",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 26
+                            },
+                            "text": "갑자기 읽을 수 없을 정도의 많은 수로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "zidai .時代 ",
-                        "goro .頃 "
+                    "sent_id": 3800,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14905,
-                    "text": "어렸을 때부터, 나는 교회나 교회의 가르침과 관계된 것에, 강한 반감을 느꼈다.",
-                    "sent_id": 3950,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "보이다.v.Categorization",
+                    "text": "그 수는 갑자기 읽을 수 없을 정도의 많은 수로 보였다."
                 }
             ]
         }
-    ],
-    "frameID": 2142,
-    "ko_pos": "NNG",
-    "ko_lu": "때.n.Timespan",
-    "lu_id": 4327,
-    "en_lus": [
-        "goro .頃 ",
-        "zidai .時代 "
     ]
 }

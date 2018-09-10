@@ -1,51 +1,82 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "v",
+    "ko_lu": "저장하다.v.Amassing",
+    "frameID": 1482,
+    "frameName": "Amassing",
+    "en_lus": [
+        "stockpile"
+    ],
+    "lu_id": 1275,
     "patterns": [
         {
-            "valenceText": "annotation id: 3958",
+            "valenceText": "annotation id: 5630",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "stockpile"
+                    ],
+                    "ko_annotation_id": 5630,
+                    "annotation_id": 10190,
+                    "frameName": "Amassing",
                     "denotations": [
                         {
-                            "obj": "Figure",
+                            "id": 1,
+                            "obj": "Amassing",
                             "span": {
-                                "begin": 8,
-                                "end": 12
-                            }
+                                "begin": 23,
+                                "end": 27
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "저장하고"
                         },
                         {
-                            "obj": "Ground",
+                            "id": 2,
+                            "obj": "Mass_Theme",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 18
-                            }
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "text": "무기를",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Recipient",
+                            "token_span": [
+                                15,
+                                16
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 18
-                            }
+                                "begin": 68,
+                                "end": 74
+                            },
+                            "text": "군 민병대를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kaizyoo .海上 "
+                    "sent_id": 2077,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 3958,
-                    "text": "있는 그대로의 작은 산이 바다 위에서도 바라다보인다.",
-                    "sent_id": 4238,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "저장하다.v.Amassing",
+                    "text": "농촌지역에서 애국자 단체들은 흔히 무기를 저장하고 연방 정부나 유엔군과의 예상되는 폭력적인 대결을 준비하기 위해 훈련하는 군 민병대를 조직한다."
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "NNG",
-    "ko_lu": "바다.n.Locative_relation",
-    "lu_id": 1275,
-    "en_lus": [
-        "kaizyoo .海上 "
     ]
 }

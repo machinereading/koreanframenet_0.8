@@ -1,88 +1,570 @@
 {
-    "frameName": "Perception_active",
+    "ko_pos": "v",
+    "ko_lu": "들다.v.Hearsay",
+    "frameID": 37,
+    "frameName": "Hearsay",
+    "en_lus": [
+        "ukagau .伺う ",
+        "hear",
+        "heard",
+        "ukagau .うかがう"
+    ],
+    "lu_id": 3653,
     "patterns": [
         {
-            "valenceText": "annotation id: 12527",
+            "valenceText": "annotation id: 555",
             "examples": [
                 {
-                    "frameName": "Perception_active",
+                    "origin_lus": [
+                        "heard"
+                    ],
+                    "ko_annotation_id": 555,
+                    "annotation_id": 1173,
+                    "frameName": "Hearsay",
                     "denotations": [
                         {
-                            "obj": "Phenomenon",
+                            "id": 1,
+                            "obj": "Hearsay",
                             "span": {
-                                "begin": 1,
-                                "end": 4
-                            }
+                                "begin": 27,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "들어보았을"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Hearer",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "당신은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 26
+                            },
+                            "text": "그것에 대해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 218,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들다.v.Hearsay",
+                    "text": "만약 그러한 증거가 있다면, 당신은 그것에 대해 들어보았을 것이라고 확신할 수 있다"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4845",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "hear"
+                    ],
+                    "ko_annotation_id": 4845,
+                    "annotation_id": 8809,
+                    "frameName": "Hearsay",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hearsay",
+                            "span": {
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "듣지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hearer",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "당신이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Period_Of_Iterations",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 6
+                            },
+                            "text": "오늘",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Speaker",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 12
+                            },
+                            "text": "그녀로부터",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1827,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들다.v.Hearsay",
+                    "text": "당신이 오늘 그녀로부터 듣지 못하면 내게 알려주시오."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10294",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "heard",
+                        "ukagau .伺う ",
+                        "ukagau .うかがう"
+                    ],
+                    "ko_annotation_id": 10294,
+                    "annotation_id": 0,
+                    "frameName": "Hearsay",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hearsay",
+                            "span": {
+                                "begin": 31,
+                                "end": 37
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "들었습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 26
+                            },
+                            "text": "고다이라시 중앙도서관의 고다이라 씨라는 분에게서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "말씀을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3654,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들다.v.Hearsay",
+                    "text": "고다이라시 중앙도서관의 고다이라 씨라는 분에게서 말씀을 들었습니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11978",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "heard",
+                        "ukagau .伺う ",
+                        "ukagau .うかがう"
+                    ],
+                    "ko_annotation_id": 11978,
+                    "annotation_id": 0,
+                    "frameName": "Hearsay",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hearsay",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "들었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "결핵균학을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
                                 "begin": 6,
-                                "end": 9
-                            }
+                                "end": 20
+                            },
+                            "text": "시바타 마사나 선생님한테서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "miru .見る"
+                    "sent_id": 4757,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12527,
-                    "text": "○NHK는 시청하지 않으니까요.",
-                    "sent_id": 4216,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "들다.v.Hearsay",
+                    "text": "결핵균학을 시바타 마사나 선생님한테서 들었다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.66987",
+            "valenceText": "annotation id: 13789",
             "examples": [
                 {
-                    "frameName": "Perception_active",
+                    "origin_lus": [
+                        "heard",
+                        "ukagau .伺う ",
+                        "ukagau .うかがう"
+                    ],
+                    "ko_annotation_id": 13789,
+                    "annotation_id": 7191,
+                    "frameName": "Hearsay",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Hearsay",
                             "span": {
-                                "begin": 23,
+                                "begin": 50,
+                                "end": 54
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "들었고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hearer",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 23
+                            },
+                            "text": "Hall은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 100
+                            },
+                            "text": "이락에 대한 인도주의적인 상황에 대해 오랫동안 들었고, 특히 이라크 어린이들 사이의 영양 실조와 어린이와 노인층의 증가하는 사망률에 대해",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1507,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들다.v.Hearsay",
+                    "text": "Mansour 호텔의 입구에서, Hall은 이락에 대한 인도주의적인 상황에 대해 오랫동안 들었고, 특히 이라크 어린이들 사이의 영양 실조와 어린이와 노인층의 증가하는 사망률에 대해 들었기 때문에 이라크에 왔다고 간결하게 말하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16252",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "heard",
+                        "ukagau .伺う ",
+                        "ukagau .うかがう"
+                    ],
+                    "ko_annotation_id": 16252,
+                    "annotation_id": 0,
+                    "frameName": "Hearsay",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hearsay",
+                            "span": {
+                                "begin": 41,
+                                "end": 45
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "들었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hearer",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 36
+                            },
+                            "text": "어느 직원분으로부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Topic",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "text": "말씀을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3853,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들다.v.Hearsay",
+                    "text": "7월의 어떤 날 나는 지역 도서관을 방문해서, 어느 직원분으로부터 말씀을 들었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16317",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "heard",
+                        "ukagau .伺う ",
+                        "ukagau .うかがう"
+                    ],
+                    "ko_annotation_id": 16317,
+                    "annotation_id": 0,
+                    "frameName": "Hearsay",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Hearsay",
+                            "span": {
+                                "begin": 21,
                                 "end": 27
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "아침 시간대에는 주부들이 주로 텔레비전을 시청한다.",
-                    "target": "시청한다",
-                    "ko_annotation_id": "sejong.66987",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.66988",
-            "examples": [
-                {
-                    "frameName": "Perception_active",
-                    "denotations": [
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "들었습니다."
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 29
+                                "begin": 6,
+                                "end": 10
                             },
-                            "obj": "target"
+                            "text": "씨로부터",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 20
+                            },
+                            "text": "파라오의 이야기는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "남성들이 여성들보다 뉴스 프로그램을 더 많이 시청한다.",
-                    "target": "시청한다",
-                    "ko_annotation_id": "sejong.66988",
-                    "relations": []
+                    "sent_id": 3979,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들다.v.Hearsay",
+                    "text": "「다노미야 씨로부터 파라오의 이야기는 들었습니다."
                 }
             ]
         }
-    ],
-    "frameID": 66,
-    "ko_pos": "VV",
-    "ko_lu": "시청하다.v.Perception_active",
-    "lu_id": 3653,
-    "en_lus": [
-        "miru .見る"
     ]
 }

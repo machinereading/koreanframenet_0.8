@@ -1,117 +1,83 @@
 {
-    "frameName": "Body_parts",
+    "ko_pos": "v",
+    "ko_lu": "떠오르다.v.Evoking",
+    "frameID": 1012,
+    "frameName": "Evoking",
+    "en_lus": [
+        "evoke"
+    ],
+    "lu_id": 5383,
     "patterns": [
         {
-            "valenceText": "annotation id: 19010",
+            "valenceText": "annotation id: 73",
             "examples": [
                 {
-                    "frameName": "Observable_body_parts",
+                    "origin_lus": [
+                        "evoke"
+                    ],
+                    "ko_annotation_id": 73,
+                    "annotation_id": 91,
+                    "frameName": "Evoking",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Evoking",
                             "span": {
-                                "begin": 67,
-                                "end": 69
+                                "begin": 24,
+                                "end": 28
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "face"
-                    ],
-                    "ko_annotation_id": 19010,
-                    "text": "Bill_First : 종전의 민주당 대표나 현 민주장 대표와 함께 나는 이 당당한 단체의 리더십에 이와 같은 모욕으로 얼굴을 맞은 적이 없었다.",
-                    "sent_id": 1729,
-                    "relations": [],
-                    "annotation_id": 8430
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 19093",
-            "examples": [
-                {
-                    "frameName": "Observable_bodyparts",
-                    "denotations": [
-                        {
-                            "obj": "Body_part",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "떠오르게"
                         },
                         {
-                            "obj": "Possessor",
-                            "span": {
-                                "begin": 29,
-                                "end": 38
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "kao .顔 "
-                    ],
-                    "ko_annotation_id": 19093,
-                    "text": "얼굴은, 사과처럼 붉고, 눈은, 커다랗고, 동그란, 머리가 큰 아이입니다.",
-                    "sent_id": 3787,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 19094",
-            "examples": [
-                {
-                    "frameName": "Observable_bodyparts",
-                    "denotations": [
-                        {
-                            "obj": "Descriptor",
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                3,
+                                4
+                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 31
-                            }
+                                "end": 23
+                            },
+                            "text": "영국의 시골을",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Body_part",
+                            "id": 3,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                7,
+                                8
+                            ],
                             "span": {
                                 "begin": 32,
-                                "end": 34
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 32,
-                                "end": 34
-                            }
+                                "end": 38
+                            },
+                            "text": "모든 경관들",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kao .顔 "
+                    "sent_id": 13,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19094,
-                    "text": "또 다른 작고 마른 남자는, 신경질적이고 빈틈없어 보이는 얼굴로, 눈에 띄게 눈썹 근육을 쉴 새 없이 경련시키고 있었다.",
-                    "sent_id": 4919,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "떠오르다.v.Evoking",
+                    "text": "ASLACTON, 영국 -- 영국의 시골을 떠오르게 하는 모든 경관들 중에서, 이것은 가장 아름다운 것들 중의 하나이다 : 고대의 석조 교회가 들판 가운데 서 있고, 종탑에서 종소리가 흘러나오면서, 신도들을 저녁예배에 부른다."
                 }
             ]
         }
-    ],
-    "frameID": 119,
-    "ko_pos": "NNG",
-    "ko_lu": "얼굴.n.Body_parts",
-    "lu_id": 5383,
-    "en_lus": [
-        "kao .顔 ",
-        "face"
     ]
 }

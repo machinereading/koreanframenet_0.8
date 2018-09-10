@@ -1,52 +1,63 @@
 {
-    "frameName": "Hostile_encounter",
+    "ko_pos": "v",
+    "ko_lu": "내려지다.v.Coming_to_be",
+    "frameID": 316,
+    "frameName": "Coming_to_be",
+    "en_lus": [
+        "deru .出る "
+    ],
+    "lu_id": 3052,
     "patterns": [
         {
-            "valenceText": "annotation id: 10168",
+            "valenceText": "annotation id: 10268",
             "examples": [
                 {
-                    "frameName": "Hostile_encounter",
+                    "origin_lus": [
+                        "deru .出る "
+                    ],
+                    "ko_annotation_id": 10268,
+                    "annotation_id": 0,
+                    "frameName": "Coming_to_be",
                     "denotations": [
                         {
-                            "obj": "instrument",
+                            "id": 1,
+                            "obj": "Coming_to_be",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 31,
+                                "end": 37
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "내려졌다면,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 2,
-                                "end": 4
+                                "begin": 22,
+                                "end": 25
                             },
-                            "id": "1"
+                            "text": "명령이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "warfare"
-                    ],
-                    "ko_annotation_id": 10168,
-                    "text": "화학무기 ( CW ) 작용제는 높은 독성이 있고 폐나 피부를 통해 신체에 들어갈 수 있는 살아있지 않고, 제조된 화학물질이다.",
-                    "sent_id": 2027,
+                    "sent_id": 3642,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9872
+                    "lu": "내려지다.v.Coming_to_be",
+                    "text": "만약 「요카와 헤이시치로를 죽여라」라는 명령이 시즈에서 내려졌다면, 아무리 배를 뒤쫓아가도 소용없었을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 93,
-    "ko_pos": "NNG",
-    "ko_lu": "무기.n.Hostile_encounter",
-    "lu_id": 3052,
-    "en_lus": [
-        "warfare"
     ]
 }

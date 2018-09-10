@@ -1,44 +1,67 @@
 {
-    "frameName": "Statement",
+    "ko_pos": "v",
+    "ko_lu": "제조되다.v.Building",
+    "frameID": 259,
+    "frameName": "Building",
+    "en_lus": [
+        "built"
+    ],
+    "lu_id": 5397,
     "patterns": [
         {
-            "valenceText": "annotation id: 19051",
+            "valenceText": "annotation id: 15649",
             "examples": [
                 {
-                    "frameName": "Statement",
+                    "origin_lus": [
+                        "built"
+                    ],
+                    "ko_annotation_id": 15649,
+                    "annotation_id": 16366,
+                    "frameName": "Building",
                     "denotations": [
                         {
-                            "obj": "Speaker",
+                            "id": 1,
+                            "obj": "Building",
                             "span": {
-                                "begin": 8,
-                                "end": 11
-                            }
+                                "begin": 39,
+                                "end": 41
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "많이"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 15
-                            }
+                                "begin": 18,
+                                "end": 38
+                            },
+                            "text": "Ching Feng 미사일이  얼마나",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "iu .言う "
+                    "sent_id": 3137,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19051,
-                    "text": "그러고 보니, 딜랜드가 그랬어.",
-                    "sent_id": 4115,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "제조되다.v.Building",
+                    "text": "1980년대 초에 최초로 배치된 Ching Feng 미사일이  얼마나 많이 제조되었는지 그리고 그들이 아직도 운영되고 있는지는 불명확하다."
                 }
             ]
         }
-    ],
-    "frameID": 43,
-    "ko_pos": "VA",
-    "ko_lu": "그렇다.a.Statement",
-    "lu_id": 5397,
-    "en_lus": [
-        "iu .言う "
     ]
 }

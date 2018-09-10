@@ -1,38 +1,65 @@
 {
-    "frameName": "Being_employed",
+    "ko_pos": "a",
+    "ko_lu": "가능성있다.a.Likelihood",
+    "frameID": 114,
+    "frameName": "Likelihood",
+    "en_lus": [
+        "possible"
+    ],
+    "lu_id": 2496,
     "patterns": [
         {
-            "valenceText": "annotation id: 8262",
+            "valenceText": "annotation id: 4671",
             "examples": [
                 {
-                    "frameName": "Being_employed",
+                    "origin_lus": [
+                        "possible"
+                    ],
+                    "ko_annotation_id": 4671,
+                    "annotation_id": 8505,
+                    "frameName": "Likelihood",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Likelihood",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 24,
+                                "end": 31
                             },
-                            "id": "1"
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "가능성이 있는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Hypothetical_Event",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 39
+                            },
+                            "text": "독감 유행병에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "work"
+                    "sent_id": 1746,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 8262,
-                    "text": "일반적으로 이슬람에 고수하기 위한 부름과, 특별히 지하드의 개념을 퍼뜨리는 것은 친척과 친구들로부터 시작한다. ( T.C : 코란 구절 ) Naeem Ibn Mas ' uud ( 신이 그대를 축복하소서 ) 처럼, 당신의 일이 극도의 비밀을 요구하면, 당신은 이것을 할 수 없을지 모른다.",
-                    "sent_id": 1646,
-                    "relations": [],
-                    "annotation_id": 8072
+                    "lu": "가능성있다.a.Likelihood",
+                    "text": "Paula_Zahn : 오늘 대통령 부시는 가능성이 있는 독감 유행병에 대비하기 위한 7.1 십억 달러 계획을 발표하였다."
                 }
             ]
         }
-    ],
-    "frameID": 282,
-    "ko_pos": "NN",
-    "ko_lu": "일반적.n.Being_employed",
-    "lu_id": 2496,
-    "en_lus": [
-        "work"
     ]
 }

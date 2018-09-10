@@ -1,52 +1,102 @@
 {
-    "frameName": "Research",
+    "ko_pos": "v",
+    "ko_lu": "소장하다.v.Containing",
+    "frameID": 397,
+    "frameName": "Containing",
+    "en_lus": [
+        "hold"
+    ],
+    "lu_id": 5337,
     "patterns": [
         {
-            "valenceText": "annotation id: 18824",
+            "valenceText": "annotation id: 3004",
             "examples": [
                 {
-                    "frameName": "Research",
+                    "origin_lus": [
+                        "holds"
+                    ],
+                    "ko_annotation_id": 3004,
+                    "annotation_id": 5749,
+                    "frameName": "Containing",
                     "denotations": [
                         {
-                            "obj": "topic",
+                            "id": 1,
+                            "obj": "Containing",
                             "span": {
-                                "begin": 36,
-                                "end": 37
+                                "begin": 97,
+                                "end": 104
                             },
-                            "id": "2"
+                            "token_span": [
+                                27,
+                                28
+                            ],
+                            "role": "TARGET",
+                            "text": "소장하고 있다"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Container",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 38,
+                                "begin": 20,
                                 "end": 41
                             },
-                            "id": "1"
+                            "text": "Fung Ping Shan 대학 박물관",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Contents",
+                            "token_span": [
+                                25,
+                                26,
+                                27,
+                                28,
+                                29,
+                                30,
+                                31,
+                                32,
+                                33,
+                                34,
+                                35,
+                                36,
+                                37,
+                                38,
+                                39,
+                                40,
+                                41
+                            ],
+                            "span": {
+                                "begin": 87,
+                                "end": 159
+                            },
+                            "text": "중요한 골동품들을 소장하고 있다 : 기원 전 3000년으로 거슬러 올라가는 동제품, 그리고 한왕조 무덤의 도기를 포함한 도자기들.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "research"
-                    ],
-                    "ko_annotation_id": 18824,
-                    "text": "1959년, 북한과 소련은 평양 북부 지방의 영변군에 소비에트가 핵 연구단지 설립을 돕기 위한 조항을 포함한 평화적인 핵 에너지 이용에 관한 협정에 서명하였다.",
-                    "sent_id": 2915,
+                    "sent_id": 1099,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 14950
+                    "lu": "소장하다.v.Containing",
+                    "text": "94 Bonham Road에 있는, Fung Ping Shan 대학 박물관 ( 월요일 - 토요일 오전 9 : 30 - 오후 6시 개방, 입장료 무료 ) 은 중요한 골동품들을 소장하고 있다 : 기원 전 3000년으로 거슬러 올라가는 동제품, 그리고 한왕조 무덤의 도기를 포함한 도자기들."
                 }
             ]
         }
-    ],
-    "frameID": 1152,
-    "ko_pos": "NN",
-    "ko_lu": "연구단.n.Research",
-    "lu_id": 5337,
-    "en_lus": [
-        "research"
     ]
 }

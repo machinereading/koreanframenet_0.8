@@ -1,51 +1,85 @@
 {
-    "frameName": "Political_locales",
+    "ko_pos": "v",
+    "ko_lu": "밝히다.v.Evidence",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "en_lus": [
+        "reveal"
+    ],
+    "lu_id": 1584,
     "patterns": [
         {
-            "valenceText": "annotation id: 4979",
+            "valenceText": "annotation id: 8103",
             "examples": [
                 {
-                    "frameName": "Political_locales",
+                    "origin_lus": [
+                        "revealed"
+                    ],
+                    "ko_annotation_id": 8103,
+                    "annotation_id": 14819,
+                    "frameName": "Evidence",
                     "denotations": [
                         {
-                            "obj": "Container_possessor",
+                            "id": 1,
+                            "obj": "Evidence",
                             "span": {
-                                "begin": 55,
-                                "end": 57
-                            }
+                                "begin": 65,
+                                "end": 70
+                            },
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "밝혀졌다."
                         },
                         {
-                            "obj": "Name",
+                            "id": 2,
+                            "obj": "Support",
+                            "token_span": [
+                                11,
+                                12
+                            ],
                             "span": {
-                                "begin": 62,
-                                "end": 66
-                            }
+                                "begin": 42,
+                                "end": 46
+                            },
+                            "text": "그 결과",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Proposition",
+                            "token_span": [
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
                             "span": {
-                                "begin": 59,
-                                "end": 61
-                            }
+                                "begin": 47,
+                                "end": 64
+                            },
+                            "text": "Khan의 네트워크에 대해 많이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "mati .町"
+                    "sent_id": 2894,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4979,
-                    "text": "하지만 인도에 도착하자마자, 곧 시바라뜨리라는 축제가 시작된다는 말을 듣고, 시바라뜨리 하면 역시 시바의 고장 바라나시에 가야지, 하는 생각에 바라나시에 와버린 것이 잘못이었다.",
-                    "sent_id": 4636,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "밝히다.v.Evidence",
+                    "text": "리비아는 그 이후 핵 야망을 포기하였고 IAEA 및 미국과 협력하고 있고, 그 결과 Khan의 네트워크에 대해 많이 밝혀졌다."
                 }
             ]
         }
-    ],
-    "frameID": 195,
-    "ko_pos": "NNG",
-    "ko_lu": "고장.n.Political_locales",
-    "lu_id": 1584,
-    "en_lus": [
-        "mati .町"
     ]
 }

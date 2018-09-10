@@ -1,95 +1,136 @@
 {
-    "frameName": "Mental_property",
+    "ko_pos": "a",
+    "ko_lu": "빠르다.a.Speed_description",
+    "frameID": 966,
+    "frameName": "Speed_description",
+    "en_lus": [
+        "subayai .素早い",
+        "quick",
+        "hayai .早い "
+    ],
+    "lu_id": 4556,
     "patterns": [
         {
-            "valenceText": "annotation id: 15800",
+            "valenceText": "annotation id: 11355",
             "examples": [
                 {
-                    "frameName": "Mental_property",
-                    "denotations": [
-                        {
-                            "obj": "Degree",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        },
-                        {
-                            "obj": "Protagonist",
-                            "span": {
-                                "begin": 7,
-                                "end": 10
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 3,
-                                "end": 6
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "manuke .間抜け"
+                        "quick",
+                        "hayai .早い "
                     ],
-                    "ko_annotation_id": 15800,
-                    "text": "정말 한심한 유괴범이군, 감탄까지 할 정도로, 500엔 짜리 동전을 자기 지갑에 두고, 아버지의 지갑에서 10엔 짜리 동전을 다섯 개, 달라고 한거나 마찬가지야.",
-                    "sent_id": 5010,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.102968",
-            "examples": [
-                {
-                    "frameName": "Mental_property",
+                    "ko_annotation_id": 11355,
+                    "annotation_id": 0,
+                    "frameName": "Speed_description",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Speed_description",
                             "span": {
-                                "begin": 29,
-                                "end": 32
+                                "begin": 12,
+                                "end": 14
                             },
-                            "obj": "target"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "빠른"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "성장이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "대학생들이 하라는 공부는 안 하고 놀러만 다니니 참 한심한 일이다.",
-                    "target": "한심한",
-                    "ko_annotation_id": "sejong.102968",
-                    "relations": []
+                    "sent_id": 4322,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "빠르다.a.Speed_description",
+                    "text": "좋게 말하면, 성장이 빠른 나머지, 영업력, 세일즈 노하우의 확립이 제때 이루어지지 못했다고도 생각할 수 있다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.102969",
+            "valenceText": "annotation id: 16174",
             "examples": [
                 {
-                    "frameName": "Mental_property",
+                    "origin_lus": [
+                        "subayai .素早い"
+                    ],
+                    "ko_annotation_id": 16174,
+                    "annotation_id": 0,
+                    "frameName": "Speed_description",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Speed_description",
                             "span": {
-                                "begin": 37,
+                                "begin": 35,
                                 "end": 41
                             },
-                            "obj": "target"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "빨랐습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 31
+                            },
+                            "text": "낙찰자의 대응이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "text": "매우",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "허우대는 멀쩡한 놈이 일은 안 하고 빌어먹을 생각이나 하고 있으니 한심하다.",
-                    "target": "한심하다",
-                    "ko_annotation_id": "sejong.102969",
-                    "relations": []
+                    "sent_id": 3732,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "빠르다.a.Speed_description",
+                    "text": "개최 일정이 가까운 티켓이었기 때문인지, 낙찰자의 대응이 매우 빨랐습니다."
                 }
             ]
         }
-    ],
-    "frameID": 29,
-    "ko_pos": "VA",
-    "ko_lu": "한심하다.a.Mental_property",
-    "lu_id": 4556,
-    "en_lus": [
-        "manuke .間抜け"
     ]
 }

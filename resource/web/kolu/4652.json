@@ -1,102 +1,81 @@
 {
-    "frameName": "Perception_experience",
+    "ko_pos": "v",
+    "ko_lu": "자백하다.v.Reveal_secret",
+    "frameID": 1146,
+    "frameName": "Reveal_secret",
+    "en_lus": [
+        "zikyoo .自供 "
+    ],
+    "lu_id": 4652,
     "patterns": [
         {
-            "valenceText": "annotation id: 16138",
+            "valenceText": "annotation id: 10186",
             "examples": [
                 {
-                    "frameName": "Perception_experience",
-                    "denotations": [
-                        {
-                            "obj": "Perceiver_passive",
-                            "span": {
-                                "begin": 41,
-                                "end": 48
-                            }
-                        },
-                        {
-                            "obj": "Phenomenon",
-                            "span": {
-                                "begin": 50,
-                                "end": 55
-                            }
-                        },
-                        {
-                            "obj": "Body_part",
-                            "span": {
-                                "begin": 57,
-                                "end": 59
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 61,
-                                "end": 62
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "hairu .入る "
+                        "zikyoo .自供 "
                     ],
-                    "ko_annotation_id": 16138,
-                    "text": "아낙네들은 모두, 이사를 위해 염색이다 뭐다 이사 준비에 여념이 없는데, 우키부네의 귀에 그런 말들은 들리지 않습니다.",
-                    "sent_id": 4836,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.102919",
-            "examples": [
-                {
-                    "frameName": "Perception_experience",
+                    "ko_annotation_id": 10186,
+                    "annotation_id": 0,
+                    "frameName": "Reveal_secret",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Reveal_secret",
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 9,
+                                "end": 14
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "방이 깨끗하지 않다.",
-                    "target": "않다",
-                    "ko_annotation_id": "sejong.102919",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.102920",
-            "examples": [
-                {
-                    "frameName": "Perception_experience",
-                    "denotations": [
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "자백했다."
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 7,
-                                "end": 9
+                                "begin": 0,
+                                "end": 4
                             },
-                            "obj": "target"
+                            "text": "에자키는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Information",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "범행을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "건물이 높지 않다.",
-                    "target": "않다",
-                    "ko_annotation_id": "sejong.102920",
-                    "relations": []
+                    "sent_id": 3603,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "자백하다.v.Reveal_secret",
+                    "text": "에자키는 범행을 자백했다."
                 }
             ]
         }
-    ],
-    "frameID": 70,
-    "ko_pos": "VA",
-    "ko_lu": "않다.a.Perception_experience",
-    "lu_id": 4652,
-    "en_lus": [
-        "hairu .入る "
     ]
 }

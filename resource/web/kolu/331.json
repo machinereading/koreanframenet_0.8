@@ -1,44 +1,86 @@
 {
-    "frameName": "Cause_change",
+    "ko_pos": "a",
+    "ko_lu": "뜨다.a.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "ateru .当てる "
+    ],
+    "lu_id": 331,
     "patterns": [
         {
-            "valenceText": "annotation id: 874",
+            "valenceText": "annotation id: 10676",
             "examples": [
                 {
-                    "frameName": "Cause_change",
+                    "origin_lus": [
+                        "ateru .当てる "
+                    ],
+                    "ko_annotation_id": 10676,
+                    "annotation_id": 0,
+                    "frameName": "Placing",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Placing",
                             "span": {
-                                "begin": 63,
-                                "end": 68
-                            }
+                                "begin": 18,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "뜨고 볼 수"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Reason",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 70,
-                                "end": 73
-                            }
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "빈집은 너무 지저분해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "text": "차마 눈을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kaeru .変える "
+                    "sent_id": 3928,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 874,
-                    "text": "창호지 담당이 아닌 분들은 재미가 없을지 모르나, 어떻게 애초의 상품구성 목표를 검증하고, 어떻게 진열을 바꾸어 재고 상태를 개선했는지, 실례를 보며 자신의 사업에 대입시켜 보면서 참고하기 바란다.",
-                    "sent_id": 4613,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "뜨다.a.Placing",
+                    "text": "빈집은 너무 지저분해 차마 눈을 뜨고 볼 수 없었습니다."
                 }
             ]
         }
-    ],
-    "frameID": 683,
-    "ko_pos": "VV",
-    "ko_lu": "개선하다.v.Cause_change",
-    "lu_id": 331,
-    "en_lus": [
-        "kaeru .変える "
     ]
 }

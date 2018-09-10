@@ -1,87 +1,104 @@
 {
-    "frameName": "Experiencer_focus",
+    "ko_pos": "n",
+    "ko_lu": "다행.n.Desirability",
+    "frameID": 354,
+    "frameName": "Desirability",
+    "en_lus": [
+        "yoi .よい "
+    ],
+    "lu_id": 1348,
     "patterns": [
         {
-            "valenceText": "annotation id: 4179",
+            "valenceText": "annotation id: 11322",
             "examples": [
                 {
-                    "frameName": "Experiencer_focus",
+                    "origin_lus": [
+                        "yoi .よい "
+                    ],
+                    "ko_annotation_id": 11322,
+                    "annotation_id": 0,
+                    "frameName": "Desirability",
                     "denotations": [
                         {
-                            "obj": "experiencer",
+                            "id": 1,
+                            "obj": "Desirability",
                             "span": {
-                                "begin": 0,
-                                "end": 31
+                                "begin": 28,
+                                "end": 33
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "다행이라고"
                         },
                         {
-                            "obj": "content",
+                            "id": 2,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 33,
-                                "end": 64
+                                "begin": 4,
+                                "end": 20
                             },
-                            "id": "3"
+                            "text": "이 선로를 탄 것에 대해서는,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Parameter",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
-                                "begin": 67,
-                                "end": 72
+                                "begin": 21,
+                                "end": 25
                             },
-                            "id": "1"
+                            "text": "동기로서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Degree",
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 26,
+                                "end": 33
+                            },
+                            "text": "참 다행이라고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "interested"
-                    ],
-                    "ko_annotation_id": 4179,
-                    "text": "지멘스 면허인 스페인의 Equipos Numleares사는 이란의 원자로를 완성하기 위해 지멘스로부터 하청계약을 받는데 관심이 있다고 들었다 ( 5948 ).",
-                    "sent_id": 3515,
+                    "sent_id": 4312,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 18448
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.101456",
-            "examples": [
-                {
-                    "frameName": "Experiencer_focus",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 9,
-                                "end": 13
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "그녀는 디자인에 관심있다.",
-                    "target": "관심있다",
-                    "ko_annotation_id": "sejong.101456",
-                    "relations": []
+                    "lu": "다행.n.Desirability",
+                    "text": "나는, 이 선로를 탄 것에 대해서는, 동기로서 참 다행이라고 생각한다."
                 }
             ]
         }
-    ],
-    "frameID": 48,
-    "ko_pos": "VA",
-    "ko_lu": "관심있다.a.Experiencer_focus",
-    "lu_id": 1348,
-    "en_lus": [
-        "interested"
     ]
 }

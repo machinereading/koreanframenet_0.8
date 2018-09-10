@@ -1,96 +1,63 @@
 {
-    "frameName": "Deny_or_grant_permission",
+    "ko_pos": "v",
+    "ko_lu": "물다.v.Arriving",
+    "frameID": 54,
+    "frameName": "Arriving",
+    "en_lus": [
+        "kuru .くる"
+    ],
+    "lu_id": 4614,
     "patterns": [
         {
-            "valenceText": "annotation id: 16020",
+            "valenceText": "annotation id: 16585",
             "examples": [
                 {
-                    "frameName": "Grant_permission",
+                    "origin_lus": [
+                        "kuru .くる"
+                    ],
+                    "ko_annotation_id": 16585,
+                    "annotation_id": 0,
+                    "frameName": "Arriving",
                     "denotations": [
                         {
-                            "obj": "action",
+                            "id": 1,
+                            "obj": "Arriving",
                             "span": {
-                                "begin": 39,
-                                "end": 80
+                                "begin": 28,
+                                "end": 32
                             },
-                            "id": "2"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "물었다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 82,
-                                "end": 85
+                                "begin": 18,
+                                "end": 27
                             },
-                            "id": "1"
+                            "text": "「다카시냐？」라고",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "approved"
-                    ],
-                    "ko_annotation_id": 16020,
-                    "text": "미국은 이란에 138 백만 달러 어치의 컴퓨터 수출 허가를 승인하고 ; 130,000 달러의 오실로스코프를 포함하여, 다른 핵 관련 기술의 적하물이 승인되었다.",
-                    "sent_id": 3413,
+                    "sent_id": 4604,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 18033
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.77916",
-            "examples": [
-                {
-                    "frameName": "Deny_or_grant_permission",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 9,
-                                "end": 16
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그 사실은 이미 승인되었습니다.",
-                    "target": "승인되었습니다",
-                    "ko_annotation_id": "sejong.77916",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.77917",
-            "examples": [
-                {
-                    "frameName": "Deny_or_grant_permission",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 6,
-                                "end": 13
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "신용구매가 승인되었습니다.",
-                    "target": "승인되었습니다",
-                    "ko_annotation_id": "sejong.77917",
-                    "relations": []
+                    "lu": "물다.v.Arriving",
+                    "text": "받자마자, 신경질적인 목소리로, 「다카시냐？」라고 물었다."
                 }
             ]
         }
-    ],
-    "frameID": 520,
-    "ko_pos": "VV",
-    "ko_lu": "승인되다.v.Deny_or_grant_permission",
-    "lu_id": 4614,
-    "en_lus": [
-        "approve"
     ]
 }

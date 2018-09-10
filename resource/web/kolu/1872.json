@@ -1,66 +1,91 @@
 {
-    "frameName": "Abounding_with",
+    "ko_pos": "v",
+    "ko_lu": "당기다.v.Manipulation",
+    "frameID": 17,
+    "frameName": "Manipulation",
+    "en_lus": [
+        "pull"
+    ],
+    "lu_id": 1872,
     "patterns": [
         {
-            "valenceText": "annotation id: 5904",
+            "valenceText": "annotation id: 129",
             "examples": [
                 {
-                    "frameName": "Abounding_with",
+                    "origin_lus": [
+                        "pulling"
+                    ],
+                    "ko_annotation_id": 129,
+                    "annotation_id": 229,
+                    "frameName": "Manipulation",
                     "denotations": [
                         {
-                            "obj": "Collection",
+                            "id": 1,
+                            "obj": "Manipulation",
                             "span": {
-                                "begin": 99,
-                                "end": 102
-                            }
+                                "begin": 97,
+                                "end": 101
+                            },
+                            "token_span": [
+                                27
+                            ],
+                            "role": "TARGET",
+                            "text": "당긴다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24,
+                                25
+                            ],
                             "span": {
-                                "begin": 95,
-                                "end": 98
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "narabu .並ぶ "
-                    ],
-                    "ko_annotation_id": 5904,
-                    "text": "큼직한 인형을 실은 수레, 음악대, 가장행렬 등 수많은 공연가가 프로므나드 데 장글레라 불리는 해안 길을 따라 행진하고, 세계 곳곳에서 모여든 사람들은 죽 가로와 세로로 구획된 관객석에서 성대한 박수를 보낼 것이다.",
-                    "sent_id": 3749,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.60574",
-            "examples": [
-                {
-                    "frameName": "Abounding_with",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 32,
-                                "end": 35
+                                "begin": 56,
+                                "end": 93
                             },
-                            "obj": "target"
+                            "text": "종이 울리는 방의 높은 천장에 난 작은 구멍을 통해 사라지는 밧줄을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                26
+                            ],
+                            "span": {
+                                "begin": 94,
+                                "end": 96
+                            },
+                            "text": "각자",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "회사나 단편적 부문 시장에 집중할 것이냐, 복합적인 여러 구획된 부문에 동시에 집중하느냐, 그렇지 않으면 부문에 관계없이 시장전략을 펼 것이냐를 결정해야 한다.",
-                    "target": "구획된",
-                    "ko_annotation_id": "sejong.60574",
-                    "relations": []
+                    "sent_id": 35,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "당기다.v.Manipulation",
+                    "text": "10 명의 와이셔츠 차림의 종지기가 원으로 서서, 프로권투선투 자세로 한 발을 다른 발 앞에 두고, 종이 울리는 방의 높은 천장에 난 작은 구멍을 통해 사라지는 밧줄을 각자 당긴다."
                 }
             ]
         }
-    ],
-    "frameID": 262,
-    "ko_pos": "VV",
-    "ko_lu": "구획되다.v.Abounding_with",
-    "lu_id": 1872,
-    "en_lus": [
-        "narabu .並ぶ "
     ]
 }

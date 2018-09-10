@@ -1,38 +1,103 @@
 {
-    "frameName": "Roadways",
+    "ko_pos": "n",
+    "ko_lu": "대회.n.Competition",
+    "frameID": 241,
+    "frameName": "Competition",
+    "en_lus": [
+        "taikai .大会 "
+    ],
+    "lu_id": 3947,
     "patterns": [
         {
-            "valenceText": "annotation id: 13465",
+            "valenceText": "annotation id: 11187",
             "examples": [
                 {
-                    "frameName": "Roadways",
+                    "origin_lus": [
+                        "taikai .大会 "
+                    ],
+                    "ko_annotation_id": 11187,
+                    "annotation_id": 0,
+                    "frameName": "Competition",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Competition",
                             "span": {
-                                "begin": 21,
-                                "end": 22
+                                "begin": 32,
+                                "end": 38
                             },
-                            "id": "1"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "선수권대회가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Participant_1",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 2,
+                                "end": 14
+                            },
+                            "text": "아와즈 쇼조를 초청하여",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "text": "그해 5월",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Competition",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 38
+                            },
+                            "text": "프랑스 선수권대회가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "railroad"
+                    "sent_id": 4231,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13465,
-                    "text": "땅 투기꾼과 지역민들은 똑같이 최신의 철로 신흥 도시의 일부를 소유하려고 안달하였고 오후에 부지의 80 % 이상이 팔렸다.",
-                    "sent_id": 775,
-                    "relations": [],
-                    "annotation_id": 4050
+                    "lu": "대회.n.Competition",
+                    "text": "4 아와즈 쇼조를 초청하여 그해 5월 예년과 같이 프랑스 선수권대회가 열렸다."
                 }
             ]
         }
-    ],
-    "frameID": 203,
-    "ko_pos": "NNG",
-    "ko_lu": "철.n.Roadways",
-    "lu_id": 3947,
-    "en_lus": [
-        "railroad"
     ]
 }

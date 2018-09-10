@@ -1,100 +1,105 @@
 {
-    "frameName": "Importing",
+    "ko_pos": "n",
+    "ko_lu": "착공.n.Cause_to_fragment",
+    "frameID": 414,
+    "frameName": "Cause_to_fragment",
+    "en_lus": [
+        "break"
+    ],
+    "lu_id": 3629,
     "patterns": [
         {
-            "valenceText": "annotation id: 12476",
+            "valenceText": "annotation id: 9078",
             "examples": [
                 {
-                    "frameName": "Importing",
+                    "origin_lus": [
+                        "break"
+                    ],
+                    "ko_annotation_id": 9078,
+                    "annotation_id": 16773,
+                    "frameName": "Cause_to_fragment",
                     "denotations": [
                         {
-                            "obj": "goods",
+                            "id": 1,
+                            "obj": "Cause_to_fragment",
+                            "span": {
+                                "begin": 35,
+                                "end": 37
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "착공"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 11
+                                "end": 9
                             },
-                            "id": "2"
+                            "text": "미국 국토안보부는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "exporting_area",
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 19
+                                "begin": 10,
+                                "end": 30
                             },
-                            "id": "4"
+                            "text": "국가 생체방어 분석 및 대책 본부에서",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "importing_area",
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 23,
-                                "end": 25
+                                "begin": 31,
+                                "end": 34
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 28,
-                                "end": 31
-                            },
-                            "id": "1"
+                            "text": "월요일",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "imported"
-                    ],
-                    "ko_annotation_id": 12476,
-                    "text": "여러 군민 양용 품목은 서방 국가들로부터 이란으로 수입되었고, 이란은 또한 생명 공학 영역 내에서 인도 및 쿠바와 밀접하게 일하고 있다.",
-                    "sent_id": 2143,
+                    "sent_id": 3200,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10692
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.47958",
-            "examples": [
-                {
-                    "frameName": "Importing",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 19,
-                                "end": 23
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "많은 사치품들이 유럽에서 한국으로 수입되고 있다.",
-                    "target": "수입되고",
-                    "ko_annotation_id": "sejong.47958",
-                    "relations": []
+                    "lu": "착공.n.Cause_to_fragment",
+                    "text": "미국 국토안보부는 국가 생체방어 분석 및 대책 본부에서 월요일 착공 예정이었다."
                 }
             ]
         }
-    ],
-    "frameID": 1567,
-    "ko_pos": "VV",
-    "ko_lu": "수입되다.v.Importing",
-    "lu_id": 3629,
-    "en_lus": [
-        "import"
     ]
 }

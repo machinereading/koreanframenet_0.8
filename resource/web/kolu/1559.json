@@ -1,52 +1,117 @@
 {
-    "frameName": "Medical_conditions",
+    "ko_pos": "n",
+    "ko_lu": "통신.n.Communication",
+    "frameID": 6,
+    "frameName": "Communication",
+    "en_lus": [
+        "communication"
+    ],
+    "lu_id": 1559,
     "patterns": [
         {
-            "valenceText": "annotation id: 4900",
+            "valenceText": "annotation id: 4265",
             "examples": [
                 {
-                    "frameName": "Medical_conditions",
+                    "origin_lus": [
+                        "communication",
+                        "communications"
+                    ],
+                    "ko_annotation_id": 4265,
+                    "annotation_id": 7803,
+                    "frameName": "Communication",
                     "denotations": [
                         {
-                            "obj": "patient",
+                            "id": 1,
+                            "obj": "Communication",
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 9,
+                                "end": 13
                             },
-                            "id": "2"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "무선통신"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Medium",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 23,
-                                "end": 26
+                                "begin": 9,
+                                "end": 17
                             },
-                            "id": "1"
+                            "text": "무선통신 장비와",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "health"
-                    ],
-                    "ko_annotation_id": 4900,
-                    "text": "그리고 나는 또한 많은 일반시민들과 공중 위생계에 종사하는  많은 사람들에 주목할만하다고 생각한다.",
-                    "sent_id": 1760,
+                    "sent_id": 1600,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8554
+                    "lu": "통신.n.Communication",
+                    "text": "4- 키오스크는 무선통신 장비와 자동적으로 문을 열고 닫을 기계기사를 갖추어야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14151",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "communication",
+                        "communications"
+                    ],
+                    "ko_annotation_id": 14151,
+                    "annotation_id": 9461,
+                    "frameName": "Communication",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication",
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "통신을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "text": "기업",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1960,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "통신.n.Communication",
+                    "text": "그러나, 기업 통신을 암호화하는 것은 부분적인 해결책일 뿐이다."
                 }
             ]
         }
-    ],
-    "frameID": 239,
-    "ko_pos": "NN",
-    "ko_lu": "위생계.n.Medical_conditions",
-    "lu_id": 1559,
-    "en_lus": [
-        "health"
     ]
 }

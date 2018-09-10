@@ -1,51 +1,65 @@
 {
-    "frameName": "Actually_occurring_entity",
+    "ko_pos": "n",
+    "ko_lu": "해당.n.Organization",
+    "frameID": 1371,
+    "frameName": "Organization",
+    "en_lus": [
+        "tookai .当会 "
+    ],
+    "lu_id": 1533,
     "patterns": [
         {
-            "valenceText": "annotation id: 4852",
+            "valenceText": "annotation id: 11013",
             "examples": [
                 {
-                    "frameName": "Actually_occurring_entity",
+                    "origin_lus": [
+                        "tookai .当会 "
+                    ],
+                    "ko_annotation_id": 11013,
+                    "annotation_id": 0,
+                    "frameName": "Organization",
                     "denotations": [
                         {
-                            "obj": "Instance",
+                            "id": 1,
+                            "obj": "Organization",
                             "span": {
-                                "begin": 11,
-                                "end": 18
-                            }
+                                "begin": 80,
+                                "end": 86
+                            },
+                            "token_span": [
+                                21,
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "해당 단체의"
                         },
                         {
-                            "obj": "Instance",
+                            "id": 2,
+                            "obj": "Organization",
+                            "token_span": [
+                                21,
+                                22
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 33
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 5,
-                                "end": 8
-                            }
+                                "begin": 80,
+                                "end": 86
+                            },
+                            "text": "해당 단체의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "gutai teki .具体 的"
+                    "sent_id": 4112,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4852,
-                    "text": "하지만, 구체적으로 어떤 것이 있고, 얼마 정도 하는 물건인지 모른다.",
-                    "sent_id": 5022,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "해당.n.Organization",
+                    "text": "각지에 「뇌 외상 친우회」 및 관련 단체가 결성되어 가는 가운데, 가족 단체의 권고로 장애 연금, 장애인 수첩의 취득률도 오르고 있어, 작년의 해당 단체의 조사에 따르면, 장애인 수첩을 가지고 있지 않은 사람은 약 20%로 나타났다."
                 }
             ]
         }
-    ],
-    "frameID": 1580,
-    "ko_pos": "NN",
-    "ko_lu": "구체적.n.Actually_occurring_entity",
-    "lu_id": 1533,
-    "en_lus": [
-        "gutai teki .具体 的"
     ]
 }

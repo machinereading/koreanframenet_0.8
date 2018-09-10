@@ -1,38 +1,63 @@
 {
-    "frameName": "Foreign_or_domestic_country",
+    "ko_pos": "v",
+    "ko_lu": "접하다.v.Encounter",
+    "frameID": 2249,
+    "frameName": "Encounter",
+    "en_lus": [
+        "hureau .ふれあう "
+    ],
+    "lu_id": 2179,
     "patterns": [
         {
-            "valenceText": "annotation id: 7091",
+            "valenceText": "annotation id: 17374",
             "examples": [
                 {
-                    "frameName": "Foreign_or_domestic_country",
+                    "origin_lus": [
+                        "hureau .ふれあう "
+                    ],
+                    "ko_annotation_id": 17374,
+                    "annotation_id": 0,
+                    "frameName": "Encounter",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Encounter",
                             "span": {
-                                "begin": 49,
-                                "end": 51
+                                "begin": 62,
+                                "end": 64
                             },
-                            "id": "1"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "접할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Party_2",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 59,
+                                "end": 61
+                            },
+                            "text": "책을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "international"
+                    "sent_id": 4157,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7091,
-                    "text": "대학들은 전 세계에서 학생들을 끌어들이고, 이러한 유입은 더블린을 분주하고, 왁자지껄한 국제 도시로 만들도록 돕는다.",
-                    "sent_id": 1001,
-                    "relations": [],
-                    "annotation_id": 5269
+                    "lu": "접하다.v.Encounter",
+                    "text": "5 독서의 세계 배우기・두근두근・아니마시온 ■협동의 힘으로 독서를 즐기는 「아침의 독서」 시간을 만들면, 책을 접할 기회가 보장되어, 책 읽기를 좋아하는 아이가 늘어납니다."
                 }
             ]
         }
-    ],
-    "frameID": 1483,
-    "ko_pos": "NNG",
-    "ko_lu": "국제.n.Foreign_or_domestic_country",
-    "lu_id": 2179,
-    "en_lus": [
-        "international"
     ]
 }

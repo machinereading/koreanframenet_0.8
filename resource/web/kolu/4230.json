@@ -1,95 +1,105 @@
 {
-    "frameName": "Gathering_up",
+    "ko_pos": "v",
+    "ko_lu": "알리다.v.Giving",
+    "frameID": 139,
+    "frameName": "Giving",
+    "en_lus": [
+        "give"
+    ],
+    "lu_id": 4230,
     "patterns": [
         {
-            "valenceText": "annotation id: 14526",
+            "valenceText": "annotation id: 4006",
             "examples": [
                 {
-                    "frameName": "Gathering_up",
-                    "denotations": [
-                        {
-                            "obj": "Place",
-                            "span": {
-                                "begin": 68,
-                                "end": 73
-                            }
-                        },
-                        {
-                            "obj": "Individuals",
-                            "span": {
-                                "begin": 80,
-                                "end": 83
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 76,
-                                "end": 79
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "atumaru .集まる "
+                        "give"
                     ],
-                    "ko_annotation_id": 14526,
-                    "text": "큼직한 인형을 실은 수레, 음악대, 가장행렬 등 수많은 공연가가 프로므나드 데 장글레라 불리는 해안 길을 따라 행진하고, 세계 곳곳에서 모여든 사람들은 죽 가로와 세로로 구획된 관객석에서 성대한 박수를 보낼 것이다.",
-                    "sent_id": 3749,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.75803",
-            "examples": [
-                {
-                    "frameName": "Gathering_up",
+                    "ko_annotation_id": 4006,
+                    "annotation_id": 7411,
+                    "frameName": "Giving",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Giving",
                             "span": {
-                                "begin": 29,
-                                "end": 34
+                                "begin": 92,
+                                "end": 101
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "기자들이 피고석에 선 전직 대통령을 취재하러 법정에 모여들었다.",
-                    "target": "모여들었다",
-                    "ko_annotation_id": "sejong.75803",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.75804",
-            "examples": [
-                {
-                    "frameName": "Gathering_up",
-                    "denotations": [
+                            "token_span": [
+                                21,
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "알려줄 것입니다."
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Donor",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "내가 동봉하는 SCS 책자는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Recipient",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 21
+                                "end": 20
                             },
-                            "obj": "target"
+                            "text": "당신에게",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 33
+                            },
+                            "text": "SCS의 역사적 중요성",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "모기떼가 사방에서 모닥불가로 모여들었다.",
-                    "target": "모여들었다",
-                    "ko_annotation_id": "sejong.75804",
-                    "relations": []
+                    "sent_id": 1537,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "알리다.v.Giving",
+                    "text": "내가 동봉하는 SCS 책자는 당신에게 SCS의 역사적 중요성 뿐만 아니라, Georgia O ' Keefe 수준의 기부가들에게 주어지는 활동과 구체적인 혜택에 대해 알려줄 것입니다."
                 }
             ]
         }
-    ],
-    "frameID": 260,
-    "ko_pos": "VV",
-    "ko_lu": "모여들다.v.Gathering_up",
-    "lu_id": 4230,
-    "en_lus": [
-        "atumaru .集まる "
     ]
 }

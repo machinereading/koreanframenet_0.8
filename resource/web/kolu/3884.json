@@ -1,66 +1,84 @@
 {
-    "frameName": "Locale_by_event",
+    "ko_pos": "v",
+    "ko_lu": "들다.v.Adducing",
+    "frameID": 1601,
+    "frameName": "Adducing",
+    "en_lus": [
+        "ageru .挙げる "
+    ],
+    "lu_id": 3884,
     "patterns": [
         {
-            "valenceText": "annotation id: 13255",
+            "valenceText": "annotation id: 16108",
             "examples": [
                 {
-                    "frameName": "Locale_by_event",
+                    "origin_lus": [
+                        "ageru .挙げる "
+                    ],
+                    "ko_annotation_id": 16108,
+                    "annotation_id": 0,
+                    "frameName": "Adducing",
                     "denotations": [
                         {
-                            "obj": "Defining_event",
+                            "id": 1,
+                            "obj": "Adducing",
                             "span": {
-                                "begin": 57,
-                                "end": 66
-                            }
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "들어서,"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Specified_Entity",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 67,
-                                "end": 69
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "huukee .風景 "
-                    ],
-                    "ko_annotation_id": 13255,
-                    "text": "당신도 개와 대화할 수 있다!-우선 가나가와 현・가와사키 시에 있는「다카에스 동물 애호 병원」에서는, 매우 독특한 치료 광경을 볼 수 있습니다.",
-                    "sent_id": 4203,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.16963",
-            "examples": [
-                {
-                    "frameName": "Locale_by_event",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 10,
+                                "end": 23
                             },
-                            "id": "1"
+                            "text": "재판까지 가게 된 경우를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "text": "예로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "어른들은 아이들이 싸우는 광경을 보고도 아무 말 못하고 물러서 있었다.",
-                    "target": "광경",
-                    "ko_annotation_id": "sejong.16963",
-                    "relations": []
+                    "sent_id": 3587,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "들다.v.Adducing",
+                    "text": "그래서, 오늘은, 재판까지 가게 된 경우를 예로 들어서, 법률가의 사고 프로세스가 어떠한지를 간단하게 설명해 보겠습니다."
                 }
             ]
         }
-    ],
-    "frameID": 1921,
-    "ko_pos": "NNG",
-    "ko_lu": "광경.n.Locale_by_event",
-    "lu_id": 3884,
-    "en_lus": [
-        "huukee .風景 "
     ]
 }

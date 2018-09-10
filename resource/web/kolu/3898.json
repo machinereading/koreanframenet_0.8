@@ -1,59 +1,138 @@
 {
-    "frameName": "State_of_entity",
+    "ko_pos": "n",
+    "ko_lu": "지주.n.Possession",
+    "frameID": 118,
+    "frameName": "Possession",
+    "en_lus": [
+        "zinusi .地主 "
+    ],
+    "lu_id": 3898,
     "patterns": [
         {
-            "valenceText": "annotation id: 13307",
+            "valenceText": "annotation id: 11175",
             "examples": [
                 {
-                    "frameName": "State_of_entity",
+                    "origin_lus": [
+                        "zinusi .地主 "
+                    ],
+                    "ko_annotation_id": 11175,
+                    "annotation_id": 0,
+                    "frameName": "Possession",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Possession",
                             "span": {
-                                "begin": 3,
-                                "end": 8
-                            }
+                                "begin": 58,
+                                "end": 62
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "대지주의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Owner",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 58,
+                                "end": 62
+                            },
+                            "text": "대지주의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kanasibari .金縛り "
+                    "sent_id": 4218,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13307,
-                    "text": "그때 가위눌리는 상태가 되는 것입니다.",
-                    "sent_id": 4599,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "지주.n.Possession",
+                    "text": "아침이 되면 찾아오는 통학하는 학생들, 이른바 서생도 여럿 되고, 그야말로 메이지나 다이쇼 시대를 사는 대지주의 생활상이었다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.66578",
+            "valenceText": "annotation id: 12022",
             "examples": [
                 {
-                    "frameName": "State_of_entity",
+                    "origin_lus": [
+                        "zinusi .地主 "
+                    ],
+                    "ko_annotation_id": 12022,
+                    "annotation_id": 0,
+                    "frameName": "Possession",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Possession",
                             "span": {
-                                "begin": 9,
-                                "end": 14
+                                "begin": 42,
+                                "end": 48
                             },
-                            "obj": "target"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "대지주였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Owner",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "나카타 가문은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Possession",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 32
+                            },
+                            "text": "동경 내리마 구 일대 대부분의 땅을,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "준영은 습관처럼 가위눌려서 요즘 불면증에 시달리고 있다.",
-                    "target": "가위눌려서",
-                    "ko_annotation_id": "sejong.66578",
-                    "relations": []
+                    "sent_id": 4778,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지주.n.Possession",
+                    "text": "나카타 가문은, 현재 동경 내리마 구 일대 대부분의 땅을, 대대로 소유해온 대지주였다."
                 }
             ]
         }
-    ],
-    "frameID": 1600,
-    "ko_pos": "VV",
-    "ko_lu": "가위눌리다.v.State_of_entity",
-    "lu_id": 3898,
-    "en_lus": [
-        "kanasibari .金縛り "
     ]
 }

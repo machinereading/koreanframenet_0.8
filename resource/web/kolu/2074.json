@@ -1,103 +1,64 @@
 {
-    "frameName": "Kinship",
+    "ko_pos": "a",
+    "ko_lu": "관련있다.a.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "kakawaru .関わる"
+    ],
+    "lu_id": 2074,
     "patterns": [
         {
-            "valenceText": "annotation id: 6589",
+            "valenceText": "annotation id: 10207",
             "examples": [
                 {
-                    "frameName": "Kinship",
+                    "origin_lus": [
+                        "kakawaru .関わる"
+                    ],
+                    "ko_annotation_id": 10207,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "ego",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 16,
-                                "end": 18
+                                "begin": 9,
+                                "end": 15
                             },
-                            "id": "2"
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "관련이 있는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 3,
+                                "end": 8
                             },
-                            "id": "1"
+                            "text": "창의성과도",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "mother",
-                        "Mom"
-                    ],
-                    "ko_annotation_id": 6589,
-                    "text": "그녀가 난소암으로 죽기 전에 그들의 엄마가 유전자 테스트를 가졌다는 것을 아는 두 자매는 그녀의 테스트 결과를 알기 원한다.",
-                    "sent_id": 1248,
+                    "sent_id": 3618,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6308
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 6590",
-            "examples": [
-                {
-                    "frameName": "Kinship",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "mother",
-                        "Mom"
-                    ],
-                    "ko_annotation_id": 6590,
-                    "text": "엄마와 아빠의 목숨을 앗아 간 인디애나폴리의 최근의 살해 - 자살 후 집을 잃은, Tracy와 Kerry 같은 더 나이 든 아이들.",
-                    "sent_id": 439,
-                    "relations": [],
-                    "annotation_id": 2303
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.12539",
-            "examples": [
-                {
-                    "frameName": "Kinship",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "아이가 엄마의 젖을 먹고 있다.",
-                    "target": "엄마",
-                    "ko_annotation_id": "sejong.12539",
-                    "relations": []
+                    "lu": "관련있다.a.Intentionally_act",
+                    "text": "가령 창의성과도 관련이 있는 경우가 있다."
                 }
             ]
         }
-    ],
-    "frameID": 104,
-    "ko_pos": "NNG",
-    "ko_lu": "엄마.n.Kinship",
-    "lu_id": 2074,
-    "en_lus": [
-        "Mom",
-        "mother"
     ]
 }

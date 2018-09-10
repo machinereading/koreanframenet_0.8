@@ -1,38 +1,63 @@
 {
-    "frameName": "Weapon",
+    "ko_pos": "a",
+    "ko_lu": "깔끔하다.a.Aesthetics",
+    "frameID": 1016,
+    "frameName": "Aesthetics",
+    "en_lus": [
+        "kiree .きれい "
+    ],
+    "lu_id": 2330,
     "patterns": [
         {
-            "valenceText": "annotation id: 7556",
+            "valenceText": "annotation id: 16087",
             "examples": [
                 {
-                    "frameName": "Weapon",
+                    "origin_lus": [
+                        "kiree .きれい "
+                    ],
+                    "ko_annotation_id": 16087,
+                    "annotation_id": 0,
+                    "frameName": "Aesthetics",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Aesthetics",
                             "span": {
-                                "begin": 19,
-                                "end": 22
+                                "begin": 15,
+                                "end": 19
                             },
-                            "id": "1"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "깔끔하게"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 23
+                            },
+                            "text": "빗고,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "artillery"
+                    "sent_id": 3545,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7556,
-                    "text": "미확인된 화학무기 작용제의 일부는 포장하지 않고 저장되었으나, 상당 량은 포탄 및 로케트 탄두에 채워져 있다고 보도되고 있다.",
-                    "sent_id": 2755,
-                    "relations": [],
-                    "annotation_id": 13898
+                    "lu": "깔끔하다.a.Aesthetics",
+                    "text": "붉은 머리카락을, 어른처럼 깔끔하게 빗고, 어설픈 줄무늬 정장을 입은, 12, 3살의 서양인 같아 보이는, 독특한 어린이입니다."
                 }
             ]
         }
-    ],
-    "frameID": 426,
-    "ko_pos": "VV",
-    "ko_lu": "포장하다.v.Weapon",
-    "lu_id": 2330,
-    "en_lus": [
-        "artillery"
     ]
 }

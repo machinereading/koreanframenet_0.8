@@ -1,154 +1,85 @@
 {
-    "frameName": "Deny_or_grant_permission",
+    "ko_pos": "n",
+    "ko_lu": "혐의.n.Suspicion",
+    "frameID": 503,
+    "frameName": "Suspicion",
+    "en_lus": [
+        "suspect"
+    ],
+    "lu_id": 2493,
     "patterns": [
         {
-            "valenceText": "annotation id: 8256",
+            "valenceText": "annotation id: 8778",
             "examples": [
                 {
-                    "frameName": "Grant_permission",
+                    "origin_lus": [
+                        "suspected"
+                    ],
+                    "ko_annotation_id": 8778,
+                    "annotation_id": 16097,
+                    "frameName": "Suspicion",
                     "denotations": [
                         {
-                            "obj": "Conditions",
+                            "id": 1,
+                            "obj": "Suspicion",
                             "span": {
-                                "begin": 19,
-                                "end": 29
-                            }
+                                "begin": 68,
+                                "end": 74
+                            },
+                            "token_span": [
+                                12,
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "혐의를 받는"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Suspect",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 32,
-                                "end": 33
-                            }
+                                "begin": 47,
+                                "end": 50
+                            },
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Incident",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 51,
+                                "end": 67
+                            },
+                            "text": "농축 우라늄에 사용되고 있다는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ii .いい "
-                    ],
-                    "ko_annotation_id": 8256,
-                    "text": "「당신의 자녀가 지닌 좋은 점을, 아무리 사소한 것이라도 좋으니 적어 주세요.",
-                    "sent_id": 3968,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 8257",
-            "examples": [
-                {
-                    "frameName": "Grant_permission",
-                    "denotations": [
+                    "sent_id": 3090,
+                    "relations": [
                         {
-                            "obj": "Action",
-                            "span": {
-                                "begin": 5,
-                                "end": 16
-                            }
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 18,
-                                "end": 19
-                            }
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "origin_lus": [
-                        "ii .いい "
-                    ],
-                    "ko_annotation_id": 8257,
-                    "text": "원한다면 사진을 여기서 건네줘도 좋다.",
-                    "sent_id": 3967,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 8258",
-            "examples": [
-                {
-                    "frameName": "Grant_permission",
-                    "denotations": [
-                        {
-                            "obj": "Conditions",
-                            "span": {
-                                "begin": 0,
-                                "end": 17
-                            }
-                        },
-                        {
-                            "obj": "Action",
-                            "span": {
-                                "begin": 19,
-                                "end": 24
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 27,
-                                "end": 28
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "ii .いい "
-                    ],
-                    "ko_annotation_id": 8258,
-                    "text": "이름이 밝혀지는 것이 싫은 사람은 말하지 않아도 좋다.",
-                    "sent_id": 4050,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 8259",
-            "examples": [
-                {
-                    "frameName": "Grant_permission",
-                    "denotations": [
-                        {
-                            "obj": "Conditions",
-                            "span": {
-                                "begin": 23,
-                                "end": 29
-                            }
-                        },
-                        {
-                            "obj": "Action",
-                            "span": {
-                                "begin": 31,
-                                "end": 38
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 41,
-                                "end": 42
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "ii .いい "
-                    ],
-                    "ko_annotation_id": 8259,
-                    "text": "회사를 만들 때마다 출자나 융자를 받고, 그래도 안되면 더는 갚지 않아도 좋다.",
-                    "sent_id": 4413,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "혐의.n.Suspicion",
+                    "text": "벨기에의 lon Beam Applications가 공급한 사이클론-30 사이클로톤은 이란이 농축 우라늄에 사용되고 있다는 혐의를 받는 이란의 사이클로트론과 동일한 모델이다."
                 }
             ]
         }
-    ],
-    "frameID": 520,
-    "ko_pos": "VA",
-    "ko_lu": "좋다.a.Deny_or_grant_permission",
-    "lu_id": 2493,
-    "en_lus": [
-        "ii .いい "
     ]
 }

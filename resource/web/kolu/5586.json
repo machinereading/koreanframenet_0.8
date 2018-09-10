@@ -1,51 +1,82 @@
 {
-    "frameName": "Taking_sides",
+    "ko_pos": "v",
+    "ko_lu": "관련되다.v.Participation",
+    "frameID": 1144,
+    "frameName": "Participation",
+    "en_lus": [
+        "involve"
+    ],
+    "lu_id": 5586,
     "patterns": [
         {
-            "valenceText": "annotation id: 19769",
+            "valenceText": "annotation id: 14982",
             "examples": [
                 {
-                    "frameName": "Taking_sides",
+                    "origin_lus": [
+                        "involved"
+                    ],
+                    "ko_annotation_id": 14982,
+                    "annotation_id": 13334,
+                    "frameName": "Participation",
                     "denotations": [
                         {
-                            "obj": "Cognizer",
+                            "id": 1,
+                            "obj": "Participation",
                             "span": {
-                                "begin": 0,
-                                "end": 5
-                            }
+                                "begin": 34,
+                                "end": 37
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "관련된"
                         },
                         {
-                            "obj": "Issue",
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 7,
-                                "end": 15
-                            }
+                                "begin": 25,
+                                "end": 33
+                            },
+                            "text": "우라늄염 생산에",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Participant_1",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 22,
-                                "end": 24
-                            }
+                                "begin": 38,
+                                "end": 42
+                            },
+                            "text": "시설들을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "aite .相手 "
+                    "sent_id": 2665,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19769,
-                    "text": "자기 회사가 어떤 산업 분야에서 세계를 상대로 이길 수 있을지를 정확히 꿰뚫어보고, 모든 자원을 동원하여 제대로 된 산업 기술을 창출하여, 전 세계적인 판매・관리망을 구축하도록 손을 쓴 곳만이 살아남을 수 있다는 것이다.",
-                    "sent_id": 4607,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "관련되다.v.Participation",
+                    "text": "선광 및 습식제련 연구센터 (BHRC ) 는 우라늄염 생산에 관련된 시설들을 운영하고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1306,
-    "ko_pos": "NNG",
-    "ko_lu": "상대.n.Taking_sides",
-    "lu_id": 5586,
-    "en_lus": [
-        "aite .相手 "
     ]
 }

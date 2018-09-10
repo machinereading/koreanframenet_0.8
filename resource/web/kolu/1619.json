@@ -1,38 +1,64 @@
 {
-    "frameName": "Collaboration",
+    "ko_pos": "n",
+    "ko_lu": "저자.n.People_by_vocation",
+    "frameID": 1071,
+    "frameName": "People_by_vocation",
+    "en_lus": [
+        "tyosya .著者 "
+    ],
+    "lu_id": 1619,
     "patterns": [
         {
-            "valenceText": "annotation id: 5101",
+            "valenceText": "annotation id: 10984",
             "examples": [
                 {
-                    "frameName": "Collaboration",
+                    "origin_lus": [
+                        "tyosya .著者 "
+                    ],
+                    "ko_annotation_id": 10984,
+                    "annotation_id": 0,
+                    "frameName": "People_by_vocation",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "People_by_vocation",
                             "span": {
-                                "begin": 56,
-                                "end": 58
+                                "begin": 11,
+                                "end": 14
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "저자인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 14
+                            },
+                            "text": "그 저자인",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "associate"
+                    "sent_id": 4099,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5101,
-                    "text": "대학은 테헤란 인근 Tafresh 타운에 위치한 14 개의 공학부, 5 개의 연구센터, 그리고 대학 부속건물이 있다.",
-                    "sent_id": 2204,
-                    "relations": [],
-                    "annotation_id": 11001
+                    "lu": "저자.n.People_by_vocation",
+                    "text": "독서를 할 때, 그 저자인 나와 독자인 당신 사이에, 이처럼 바보스러운 「추리 게임」을 시작하게 한 것은 과연 무엇인가? 나는 당신과 대화하고 있는 것이 아니며, 당신의 눈앞에 있는 이러한 문장은, 당신의 의견에 따라서 바뀌는 것이 아니다."
                 }
             ]
         }
-    ],
-    "frameID": 418,
-    "ko_pos": "NNG",
-    "ko_lu": "부속.n.Collaboration",
-    "lu_id": 1619,
-    "en_lus": [
-        "associate"
     ]
 }

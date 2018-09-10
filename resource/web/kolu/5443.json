@@ -1,122 +1,103 @@
 {
-    "frameName": "Statement",
+    "ko_pos": "v",
+    "ko_lu": "빠뜨리다.v.Causation",
+    "frameID": 5,
+    "frameName": "Causation",
+    "en_lus": [
+        "put"
+    ],
+    "lu_id": 5443,
     "patterns": [
         {
-            "valenceText": "annotation id: 19271",
+            "valenceText": "annotation id: 8980",
             "examples": [
                 {
-                    "frameName": "Statement",
+                    "origin_lus": [
+                        "puts"
+                    ],
+                    "ko_annotation_id": 8980,
+                    "annotation_id": 16502,
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "obj": "Message",
+                            "id": 1,
+                            "obj": "Causation",
                             "span": {
-                                "begin": 59,
-                                "end": 63
-                            }
+                                "begin": 25,
+                                "end": 29
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "빠뜨린다"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 61,
-                                "end": 63
-                            }
+                                "begin": 0,
+                                "end": 7
+                            },
+                            "text": "침대의 감소는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Effect",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 18
+                            },
+                            "text": "도시 [ 시드니 ]",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Effect",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "위험에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "mongon .文言 "
-                    ],
-                    "ko_annotation_id": 19271,
-                    "text": "직접침해는, 특허 청구 범위의 문언에 의해 규정되는 경우(문언침해.)와 문언의 범위에는 포함되지 않으나, 그 문언에 기재된 것과 가치적으로 같다고 보여(균등침해.), 그 침해의 범위에 포함되는 경우가 있습니다.",
-                    "sent_id": 4011,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 19272",
-            "examples": [
-                {
-                    "frameName": "Statement",
-                    "denotations": [
+                    "sent_id": 3162,
+                    "relations": [
                         {
-                            "obj": "Topic",
-                            "span": {
-                                "begin": 7,
-                                "end": 15
-                            }
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "obj": "Message",
-                            "span": {
-                                "begin": 40,
-                                "end": 42
-                            }
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         },
                         {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 40,
-                                "end": 42
-                            }
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "origin_lus": [
-                        "mongon .文言 "
-                    ],
-                    "ko_annotation_id": 19272,
-                    "text": "직접침해는, 특허 청구 범위의 문언에 의해 규정되는 경우(문언침해.)와 문언의 범위에는 포함되지 않으나, 그 문언에 기재된 것과 가치적으로 같다고 보여(균등침해.), 그 침해의 범위에 포함되는 경우가 있습니다.",
-                    "sent_id": 4011,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 19273",
-            "examples": [
-                {
-                    "frameName": "Statement",
-                    "denotations": [
-                        {
-                            "obj": "Topic",
-                            "span": {
-                                "begin": 7,
-                                "end": 15
-                            }
-                        },
-                        {
-                            "obj": "Message",
-                            "span": {
-                                "begin": 17,
-                                "end": 19
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 17,
-                                "end": 19
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "mongon .文言 "
-                    ],
-                    "ko_annotation_id": 19273,
-                    "text": "직접침해는, 특허 청구 범위의 문언에 의해 규정되는 경우(문언침해.)와 문언의 범위에는 포함되지 않으나, 그 문언에 기재된 것과 가치적으로 같다고 보여(균등침해.), 그 침해의 범위에 포함되는 경우가 있습니다.",
-                    "sent_id": 4011,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "빠뜨리다.v.Causation",
+                    "text": "침대의 감소는 도시 [ 시드니 ] 를 위험에 빠뜨린다 : 병원 직원"
                 }
             ]
         }
-    ],
-    "frameID": 43,
-    "ko_pos": "NNG",
-    "ko_lu": "문언.n.Statement",
-    "lu_id": 5443,
-    "en_lus": [
-        "mongon .文言 "
     ]
 }

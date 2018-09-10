@@ -1,59 +1,63 @@
 {
-    "frameName": "Judgment",
+    "ko_pos": "a",
+    "ko_lu": "거칠다.a.Natural_features",
+    "frameID": 191,
+    "frameName": "Natural_features",
+    "en_lus": [
+        "rugged"
+    ],
+    "lu_id": 4219,
     "patterns": [
         {
-            "valenceText": "annotation id: 14491",
+            "valenceText": "annotation id: 2674",
             "examples": [
                 {
-                    "frameName": "Judgment",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 14,
-                                "end": 16
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "kansin .感心"
+                        "rugged"
                     ],
-                    "ko_annotation_id": 14491,
-                    "text": "정말 한심한 유괴범이군, 감탄까지 할 정도로, 500엔 짜리 동전을 자기 지갑에 두고, 아버지의 지갑에서 10엔 짜리 동전을 다섯 개, 달라고 한거나 마찬가지야.",
-                    "sent_id": 5010,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.39148",
-            "examples": [
-                {
-                    "frameName": "Judgment",
+                    "ko_annotation_id": 2674,
+                    "annotation_id": 5221,
+                    "frameName": "Natural_features",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Natural_features",
                             "span": {
-                                "begin": 16,
-                                "end": 18
+                                "begin": 39,
+                                "end": 41
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "거친"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Locale",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 42,
+                                "end": 47
+                            },
+                            "text": "시골전경을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "설악산의 풍경을 보고 우리는 감탄을 금치 못하였다",
-                    "target": "감탄",
-                    "ko_annotation_id": "sejong.39148",
-                    "relations": []
+                    "sent_id": 994,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "거칠다.a.Natural_features",
+                    "text": "아름다운 Wicklow 산, 그리고 Wicklow 산 국립공원은 보다 거친 시골전경을 보여주고, 그리고 그 지역은 Castletown, Mount Usher 및 Powerscourt와 같은 깜짝 놀랄만한 주택과 정원들을 가지고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 28,
-    "ko_pos": "NNG",
-    "ko_lu": "감탄.n.Judgment",
-    "lu_id": 4219,
-    "en_lus": [
-        "kansin .感心"
     ]
 }

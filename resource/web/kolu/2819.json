@@ -1,52 +1,107 @@
 {
-    "frameName": "Bungling",
+    "ko_pos": "v",
+    "ko_lu": "훈련받다.v.Education_teaching",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "en_lus": [
+        "train"
+    ],
+    "lu_id": 2819,
     "patterns": [
         {
-            "valenceText": "annotation id: 9199",
+            "valenceText": "annotation id: 8723",
             "examples": [
                 {
-                    "frameName": "Bungling",
+                    "origin_lus": [
+                        "trained"
+                    ],
+                    "ko_annotation_id": 8723,
+                    "annotation_id": 15999,
+                    "frameName": "Education_teaching",
                     "denotations": [
                         {
-                            "obj": "patient",
+                            "id": 1,
+                            "obj": "Education_teaching",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 54,
+                                "end": 60
                             },
-                            "id": "2"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "훈련받았다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Student",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 6
+                                "begin": 0,
+                                "end": 15
                             },
-                            "id": "1"
+                            "text": "다섯 명의 시리아 과학자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 26
+                            },
+                            "text": "프로젝트의 일환으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Place",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 53
+                            },
+                            "text": "헝가리, 미국, 유고슬라비아, 및 오스트리아에서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "fiasco"
-                    ],
-                    "ko_annotation_id": 9199,
-                    "text": "파나마 실패 후 그들은 안심시키는 것이 필요할 것이다.",
-                    "sent_id": 2004,
+                    "sent_id": 3074,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9692
+                    "lu": "훈련받다.v.Education_teaching",
+                    "text": "다섯 명의 시리아 과학자들은 프로젝트의 일환으로 헝가리, 미국, 유고슬라비아, 및 오스트리아에서 훈련받았다."
                 }
             ]
         }
-    ],
-    "frameID": 266,
-    "ko_pos": "NNG",
-    "ko_lu": "실패.n.Bungling",
-    "lu_id": 2819,
-    "en_lus": [
-        "fiasco"
     ]
 }

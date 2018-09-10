@@ -1,88 +1,119 @@
 {
-    "frameName": "Cutting",
+    "ko_pos": "n",
+    "ko_lu": "사회.n.Aggregate",
+    "frameID": 103,
+    "frameName": "Aggregate",
+    "en_lus": [
+        "syakai .社会",
+        "community"
+    ],
+    "lu_id": 2178,
     "patterns": [
         {
-            "valenceText": "annotation id: 7090",
+            "valenceText": "annotation id: 11095",
             "examples": [
                 {
-                    "frameName": "Cutting",
-                    "denotations": [
-                        {
-                            "obj": "Item",
-                            "span": {
-                                "begin": 78,
-                                "end": 84
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 74,
-                                "end": 77
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "hiraku .ひらく"
+                        "community",
+                        "syakai .社会"
                     ],
-                    "ko_annotation_id": 7090,
-                    "text": "그 후, 이것이 전례가 되어 해부를 하게 되었는데, 1771년(1771년)에는, 스기타 겐파쿠, 마에노 료타쿠, 나카가와 쥰안 등이 처형된 사람들의 속을 들여다보았고, 이것이 후에 「해체신서」로 출판되었다.",
-                    "sent_id": 4497,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.51971",
-            "examples": [
-                {
-                    "frameName": "Cutting",
+                    "ko_annotation_id": 11095,
+                    "annotation_id": 0,
+                    "frameName": "Aggregate",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Aggregate",
                             "span": {
-                                "begin": 10,
+                                "begin": 9,
                                 "end": 15
                             },
-                            "obj": "target"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "사회에서는,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Aggregate",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 15
+                            },
+                            "text": "포스트 산업주의 사회에서는,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "성삼문은 반역죄로 처형되었다.",
-                    "target": "처형되었다",
-                    "ko_annotation_id": "sejong.51971",
-                    "relations": []
+                    "sent_id": 4182,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사회.n.Aggregate",
+                    "text": "포스트 산업주의 사회에서는, 지식이 고도화, 복합화, 유동화하여, 지식이 자본으로서 기능하기 때문입니다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.51972",
+            "valenceText": "annotation id: 14861",
             "examples": [
                 {
-                    "frameName": "Cutting",
+                    "origin_lus": [
+                        "community",
+                        "syakai .社会"
+                    ],
+                    "ko_annotation_id": 14861,
+                    "annotation_id": 12769,
+                    "frameName": "Aggregate",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Aggregate",
                             "span": {
-                                "begin": 8,
-                                "end": 12
+                                "begin": 128,
+                                "end": 131
                             },
-                            "obj": "target"
+                            "token_span": [
+                                29
+                            ],
+                            "role": "TARGET",
+                            "text": "사회와"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Individuals",
+                            "token_span": [
+                                28
+                            ],
+                            "span": {
+                                "begin": 125,
+                                "end": 127
+                            },
+                            "text": "국제",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 역적으로 처형됐다.",
-                    "target": "처형됐다",
-                    "ko_annotation_id": "sejong.51972",
-                    "relations": []
+                    "sent_id": 2554,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "사회.n.Aggregate",
+                    "text": "부분적으로 1970년대에 이라크의 핵 프로그램의 신속한 발전과 1990년대에 북한의 발전이 대체로 들키지 않게 허용한 핵확산 방지 조약 (NPT ) 감시 체제의 단점의 결과로, 그리고 부분적으로 이란의 의도를 평가함으로써, 국제 사회와 국제 원자력 기구 ( IAEA ) 는 과거 수 년간에 걸친 이란의 활동에 대한 면밀 조사를 증가시켰다."
                 }
             ]
         }
-    ],
-    "frameID": 265,
-    "ko_pos": "VV",
-    "ko_lu": "처형되다.v.Cutting",
-    "lu_id": 2178,
-    "en_lus": [
-        "hiraku .ひらく"
     ]
 }

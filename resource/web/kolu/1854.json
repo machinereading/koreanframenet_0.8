@@ -1,52 +1,171 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "v",
+    "ko_lu": "맡다.v.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "kagu .かぐ "
+    ],
+    "lu_id": 1854,
     "patterns": [
         {
-            "valenceText": "annotation id: 5859",
+            "valenceText": "annotation id: 10168",
             "examples": [
                 {
-                    "frameName": "Leadership",
+                    "origin_lus": [
+                        "kagu .かぐ "
+                    ],
+                    "ko_annotation_id": 10168,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Perception_active",
                             "span": {
-                                "begin": 38,
-                                "end": 41
+                                "begin": 28,
+                                "end": 30
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "맡아"
                         },
                         {
-                            "obj": "governed",
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 62,
-                                "end": 64
+                                "begin": 0,
+                                "end": 2
                             },
-                            "id": "2"
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 23
+                            },
+                            "text": "커피를 마시는 척하며",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "향기를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "King"
-                    ],
-                    "ko_annotation_id": 5859,
-                    "text": "로마 집정 및 정치적 내분 초기 이후, 로마는 헤롯 ( 사막의 유대 왕국인 Iduma 출신 가계의 자손 ) 을 유대의 왕으로 추대하였다.",
-                    "sent_id": 653,
+                    "sent_id": 3588,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3504
+                    "lu": "맡다.v.Perception_active",
+                    "text": "나는 밥을 먹은 후, 커피를 마시는 척하며 향기를 맡아 보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10549",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "kagu .かぐ "
+                    ],
+                    "ko_annotation_id": 10549,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 12,
+                                "end": 14
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "맡아"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "맥주 냄새를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "text": "조심스레",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3833,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "맡다.v.Perception_active",
+                    "text": "맥주 냄새를 조심스레 맡아 본다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "NNG",
-    "ko_lu": "왕국.n.Leadership",
-    "lu_id": 1854,
-    "en_lus": [
-        "King"
     ]
 }

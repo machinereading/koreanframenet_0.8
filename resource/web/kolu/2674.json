@@ -1,66 +1,99 @@
 {
-    "frameName": "Killing",
+    "ko_pos": "n",
+    "ko_lu": "서쪽.n.Direction",
+    "frameID": 215,
+    "frameName": "Direction",
+    "en_lus": [
+        "nisi .西 ",
+        "west"
+    ],
+    "lu_id": 2674,
     "patterns": [
         {
-            "valenceText": "annotation id: 8724",
+            "valenceText": "annotation id: 16937",
             "examples": [
                 {
-                    "frameName": "Killing",
+                    "origin_lus": [
+                        "west",
+                        "nisi .西 "
+                    ],
+                    "ko_annotation_id": 16937,
+                    "annotation_id": 4991,
+                    "frameName": "Direction",
                     "denotations": [
                         {
-                            "obj": "Killer",
+                            "id": 1,
+                            "obj": "Direction",
                             "span": {
-                                "begin": 4,
-                                "end": 11
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 9,
-                                "end": 11
-                            }
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "서쪽에서"
                         }
                     ],
-                    "origin_lus": [
-                        "sikaku .刺客 "
-                    ],
-                    "ko_annotation_id": 8724,
-                    "text": "곧바로 네 명의 자객에 대한 일이 가슴을 스쳐지나갔다.",
-                    "sent_id": 4997,
+                    "sent_id": 959,
                     "relations": [],
-                    "annotation_id": 0
+                    "lu": "서쪽.n.Direction",
+                    "text": "Liffey 강은 도시 중심을 가로질러 더블린 만까지 서쪽에서 동쪽으로 흐른다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.33246",
+            "valenceText": "annotation id: 17431",
             "examples": [
                 {
-                    "frameName": "Killing",
+                    "origin_lus": [
+                        "west",
+                        "nisi .西 "
+                    ],
+                    "ko_annotation_id": 17431,
+                    "annotation_id": 0,
+                    "frameName": "Direction",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Direction",
                             "span": {
-                                "begin": 10,
-                                "end": 12
+                                "begin": 38,
+                                "end": 41
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "서쪽에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Base_Position",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 34
+                            },
+                            "text": "스마우라 공원",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "명성왕후는 일본인 자객들에 의해 무참히 살해되었다.",
-                    "target": "자객",
-                    "ko_annotation_id": "sejong.33246",
-                    "relations": []
+                    "sent_id": 4955,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "서쪽.n.Direction",
+                    "text": "예를 들어 하리마노구니와 셋쓰노구니의 국경선에는 스마우라 공원 가장 서쪽에 사카이가와라는 것이 있는데, 그것이 말 그대로 양국의 경계였습니다."
                 }
             ]
         }
-    ],
-    "frameID": 590,
-    "ko_pos": "NNG",
-    "ko_lu": "자객.n.Killing",
-    "lu_id": 2674,
-    "en_lus": [
-        "sikaku .刺客 "
     ]
 }

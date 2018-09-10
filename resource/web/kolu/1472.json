@@ -1,65 +1,141 @@
 {
-    "frameName": "Being_named",
+    "ko_pos": "v",
+    "ko_lu": "흐르다.v.Fluidic_motion",
+    "frameID": 345,
+    "frameName": "Fluidic_motion",
+    "en_lus": [
+        "nagareru .流れる ",
+        "flow"
+    ],
+    "lu_id": 1472,
     "patterns": [
         {
-            "valenceText": "annotation id: 4699",
+            "valenceText": "annotation id: 16935",
             "examples": [
                 {
-                    "frameName": "Being_named",
+                    "origin_lus": [
+                        "flows",
+                        "nagareru .流れる "
+                    ],
+                    "ko_annotation_id": 16935,
+                    "annotation_id": 4986,
+                    "frameName": "Fluidic_motion",
                     "denotations": [
                         {
-                            "obj": "entity",
+                            "id": 1,
+                            "obj": "Fluidic_motion",
                             "span": {
-                                "begin": 0,
-                                "end": 13
+                                "begin": 40,
+                                "end": 44
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "흐른다."
                         },
                         {
-                            "obj": "name_source",
+                            "id": 2,
+                            "obj": "Fluid",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 92
+                                "end": 9
                             },
-                            "id": "3"
+                            "text": "Liffey 강은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Area",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 94,
-                                "end": 95
+                                "begin": 10,
+                                "end": 21
                             },
-                            "id": "1"
+                            "text": "도시 중심을 가로질러",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 29
+                            },
+                            "text": "더블린 만까지",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Source",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 34
+                            },
+                            "text": "서쪽에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 6,
+                            "obj": "Goal",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 39
+                            },
+                            "text": "동쪽으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "named"
-                    ],
-                    "ko_annotation_id": 4699,
-                    "text": "Islambouli 여단은 카이로에서 1981년 군사 퍼레이드시 사다트를 암살한 공격적인 이슬람교도 단체의 리더였던 Khaled Islambouli 중위의 이름을 따서 지었다.",
-                    "sent_id": 3307,
+                    "sent_id": 959,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 6,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17607
+                    "lu": "흐르다.v.Fluidic_motion",
+                    "text": "Liffey 강은 도시 중심을 가로질러 더블린 만까지 서쪽에서 동쪽으로 흐른다."
                 }
             ]
         }
-    ],
-    "frameID": 228,
-    "ko_pos": "VV",
-    "ko_lu": "지다.v.Being_named",
-    "lu_id": 1472,
-    "en_lus": [
-        "name"
     ]
 }

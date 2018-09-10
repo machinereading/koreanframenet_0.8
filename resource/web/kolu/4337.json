@@ -1,74 +1,81 @@
 {
-    "frameName": "Manufacturing",
+    "ko_pos": "v",
+    "ko_lu": "생기다.v.Eventive_affecting",
+    "frameID": 88,
+    "frameName": "Eventive_affecting",
+    "en_lus": [
+        "aru .ある "
+    ],
+    "lu_id": 4337,
     "patterns": [
         {
-            "valenceText": "annotation id: 14960",
+            "valenceText": "annotation id: 12424",
             "examples": [
                 {
-                    "frameName": "Manufacturing",
+                    "origin_lus": [
+                        "aru .ある "
+                    ],
+                    "ko_annotation_id": 12424,
+                    "annotation_id": 0,
+                    "frameName": "Eventive_affecting",
                     "denotations": [
                         {
-                            "obj": "product",
+                            "id": 1,
+                            "obj": "Eventive_affecting",
                             "span": {
-                                "begin": 13,
-                                "end": 19
+                                "begin": 59,
+                                "end": 63
                             },
-                            "id": "2"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "생기기도"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                11
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 23
+                                "begin": 52,
+                                "end": 55
                             },
-                            "id": "1"
+                            "text": "출혈이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Frequency",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 56,
+                                "end": 58
+                            },
+                            "text": "종종",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "fabrication"
-                    ],
-                    "ko_annotation_id": 14960,
-                    "text": "발전된 무기 프로그램은 신장된 무기의 조립을 위해, 핵무기 폭발력을 향상시키는데 사용될 수 있는 방사성 가스인, 트리티움 제조 능력을 필요로 한다.",
-                    "sent_id": 2854,
+                    "sent_id": 5024,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 14567
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.25661",
-            "examples": [
-                {
-                    "frameName": "Manufacturing",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 10,
-                                "end": 12
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "나는 모형 비행기 조립에 실패했다.",
-                    "target": "조립",
-                    "ko_annotation_id": "sejong.25661",
-                    "relations": []
+                    "lu": "생기다.v.Eventive_affecting",
+                    "text": "악성 검은 반점은, 발바닥뿐만 아니라 다른 부위에도, 커지거나, 주변으로 검은색이 퍼지거나, 출혈이 종종 생기기도 하므로, 이러한 증상이 있을 때는, 병원에서 조직검사를 받는 편이 좋겠지요."
                 }
             ]
         }
-    ],
-    "frameID": 408,
-    "ko_pos": "NNG",
-    "ko_lu": "조립.n.Manufacturing",
-    "lu_id": 4337,
-    "en_lus": [
-        "fabrication"
     ]
 }

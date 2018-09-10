@@ -1,109 +1,63 @@
 {
-    "frameName": "Purpose",
+    "ko_pos": "n",
+    "ko_lu": "미팅.n.Discussion",
+    "frameID": 34,
+    "frameName": "Discussion",
+    "en_lus": [
+        "miitingu .ミーティング "
+    ],
+    "lu_id": 2078,
     "patterns": [
         {
-            "valenceText": "annotation id: 6595",
+            "valenceText": "annotation id: 16524",
             "examples": [
                 {
-                    "frameName": "Purpose",
+                    "origin_lus": [
+                        "miitingu .ミーティング "
+                    ],
+                    "ko_annotation_id": 16524,
+                    "annotation_id": 0,
+                    "frameName": "Discussion",
                     "denotations": [
                         {
-                            "obj": "means",
+                            "id": 1,
+                            "obj": "Discussion",
                             "span": {
-                                "begin": 0,
-                                "end": 5
+                                "begin": 30,
+                                "end": 33
                             },
-                            "id": "3"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "미팅을"
                         },
                         {
-                            "obj": "goal",
+                            "id": 2,
+                            "obj": "Depictive",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 7,
-                                "end": 10
+                                "begin": 25,
+                                "end": 29
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 12,
-                                "end": 15
-                            },
-                            "id": "1"
+                            "text": "정기적인",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "applications"
-                    ],
-                    "ko_annotation_id": 6595,
-                    "text": "이 품목들은 핵무기에 적용될 수 있을 것이다 ( 6577 ).",
-                    "sent_id": 3414,
+                    "sent_id": 4485,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 18038
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.58960",
-            "examples": [
-                {
-                    "frameName": "Purpose",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 12,
-                                "end": 16
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그의 이론이 실세계에 적용되면 굉장한 파괴력이 생길 수도 있다.",
-                    "target": "적용되면",
-                    "ko_annotation_id": "sejong.58960",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.58961",
-            "examples": [
-                {
-                    "frameName": "Purpose",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 12,
-                                "end": 16
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그 논리는 이 문제에 적용되지 않는다.",
-                    "target": "적용되지",
-                    "ko_annotation_id": "sejong.58961",
-                    "relations": []
+                    "lu": "미팅.n.Discussion",
+                    "text": "또한 학습회에서 끝나는 것이 아니라, 그 후 정기적인 미팅을 하거나, 한층 더 깊이 학습하기  위한 연구회를 만드는 것도 좋겠습니다."
                 }
             ]
         }
-    ],
-    "frameID": 513,
-    "ko_pos": "VV",
-    "ko_lu": "적용되다.v.Purpose",
-    "lu_id": 2078,
-    "en_lus": [
-        "application"
     ]
 }

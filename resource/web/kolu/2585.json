@@ -1,65 +1,81 @@
 {
-    "frameName": "Body_movement",
+    "ko_pos": "n",
+    "ko_lu": "대응책.n.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "saku .策 "
+    ],
+    "lu_id": 2585,
     "patterns": [
         {
-            "valenceText": "annotation id: 8513",
+            "valenceText": "annotation id: 11576",
             "examples": [
                 {
-                    "frameName": "Body_movement",
+                    "origin_lus": [
+                        "saku .策 "
+                    ],
+                    "ko_annotation_id": 11576,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 0,
-                                "end": 10
+                                "begin": 49,
+                                "end": 53
                             },
-                            "id": "2"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "대응책이"
                         },
                         {
-                            "obj": "body_part",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 12,
+                                "begin": 11,
                                 "end": 17
                             },
-                            "id": "3"
+                            "text": "현장에서는,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 19,
-                                "end": 20
+                                "begin": 49,
+                                "end": 53
                             },
-                            "id": "1"
+                            "text": "대응책이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "opened"
-                    ],
-                    "ko_annotation_id": 8513,
-                    "text": "그의 부족 중 아무도 자기의 입을 열지 않았고, 대신에 그들은 더 두렵고 더 약해졌다.",
-                    "sent_id": 1871,
+                    "sent_id": 4488,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9063
+                    "lu": "대응책.n.Intentionally_act",
+                    "text": "1 계발활동・학습회 현장에서는, 아이들의 특징을 이해하는 것과, 상황에 적합한 구체적인 대응책이 요구됩니다."
                 }
             ]
         }
-    ],
-    "frameID": 16,
-    "ko_pos": "VV",
-    "ko_lu": "열다.v.Body_movement",
-    "lu_id": 2585,
-    "en_lus": [
-        "open"
     ]
 }

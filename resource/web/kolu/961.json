@@ -1,103 +1,1203 @@
 {
-    "frameName": "Possession",
+    "ko_pos": "v",
+    "ko_lu": "시작하다.v.Process_start",
+    "frameID": 133,
+    "frameName": "Process_start",
+    "en_lus": [
+        "start",
+        "begin"
+    ],
+    "lu_id": 961,
     "patterns": [
         {
-            "valenceText": "annotation id: 2849",
+            "valenceText": "annotation id: 140",
             "examples": [
                 {
-                    "frameName": "Possession",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 3,
-                                "end": 6
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "Belongings",
-                        "effects"
+                        "started",
+                        "starts",
+                        "starting",
+                        "began",
+                        "begins"
                     ],
-                    "ko_annotation_id": 2849,
-                    "text": "2- 소지품 A : 차량 B : 개인 소지품 C : 전자 장비.",
-                    "sent_id": 1622,
-                    "relations": [],
-                    "annotation_id": 7937
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 2850",
-            "examples": [
-                {
-                    "frameName": "Possession",
+                    "ko_annotation_id": 140,
+                    "annotation_id": 253,
+                    "frameName": "Process_start",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Process_start",
                             "span": {
-                                "begin": 3,
-                                "end": 6
+                                "begin": 62,
+                                "end": 66
                             },
-                            "id": "1"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "시작하고"
                         },
                         {
-                            "obj": "depictive",
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 20
+                                "begin": 11,
+                                "end": 29
                             },
-                            "id": "2"
+                            "text": "바퀴에 부착된 커다란 구리 종들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 61
+                            },
+                            "text": "거꾸로된 상태로 또는 입구가 위로 향한 자세로,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Belongings",
-                        "effects"
-                    ],
-                    "ko_annotation_id": 2850,
-                    "text": "2- 소지품 A : 차량 B : 개인 소지품 C : 전자 장비.",
-                    "sent_id": 1622,
+                    "sent_id": 38,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 7937
+                    "lu": "시작하다.v.Process_start",
+                    "text": "종탑 높은 곳에는, 바퀴에 부착된 커다란 구리 종들이 놀랍게도 거꾸로된 상태로 또는 입구가 위로 향한 자세로, 시작하고 끝나면서 완전히 360도로 마구 흔들린다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.24443",
+            "valenceText": "annotation id: 444",
             "examples": [
                 {
-                    "frameName": "Possession",
+                    "origin_lus": [
+                        "started"
+                    ],
+                    "ko_annotation_id": 444,
+                    "annotation_id": 953,
+                    "frameName": "Process_start",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Process_start",
                             "span": {
-                                "begin": 8,
-                                "end": 11
+                                "begin": 31,
+                                "end": 35
                             },
-                            "id": "1"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "시작했을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "잔디가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 30
+                            },
+                            "text": "구르기",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 경찰에게 소지품을 수색 당했다.",
-                    "target": "소지품",
-                    "ko_annotation_id": "sejong.24443",
-                    "relations": []
+                    "sent_id": 168,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "오전 8시 1분 HLR : 잔디가 바다 파도처럼 구르기 시작했을 때 Judy와 나는 뒤뜰에 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 1587",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "started",
+                        "starts",
+                        "starting",
+                        "began",
+                        "begins"
+                    ],
+                    "ko_annotation_id": 1587,
+                    "annotation_id": 3318,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 43,
+                                "end": 49
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "시작하지만,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "예루살렘이 기록된 역사는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 22
+                            },
+                            "text": "4,000년 전",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Initial_Subevent",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 42
+                            },
+                            "text": "이집트 법정 기록에 그것이 언급되기",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 619,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "예루살렘이 기록된 역사는 4,000년 전 이집트 법정 기록에 그것이 언급되기 시작하지만, 수 세기, 아마도 그 전의 수 천년 동안 인간이 여기에 정착하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 5589",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "started",
+                        "starts",
+                        "starting",
+                        "began",
+                        "begins"
+                    ],
+                    "ko_annotation_id": 5589,
+                    "annotation_id": 10129,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 212,
+                                "end": 218
+                            },
+                            "token_span": [
+                                54
+                            ],
+                            "role": "TARGET",
+                            "text": "시작하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                45
+                            ],
+                            "span": {
+                                "begin": 174,
+                                "end": 182
+                            },
+                            "text": "1980년대에는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                46,
+                                47,
+                                48,
+                                49,
+                                50,
+                                51,
+                                52,
+                                53
+                            ],
+                            "span": {
+                                "begin": 183,
+                                "end": 211
+                            },
+                            "text": "주로 종교적 신념을 특징으로 한 단체 수가 증가하기",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2062,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "1960년대와 1970년대 동안 대부분의 테러리스트 단체들은 좌익 이념 ( 막스주의 레닌주의자나 모택동주의 단체에 의해 옹호된 사회주의자 / 공산주의 정치 ) 에 의해서 혹은 국가 분리주의 목적 ( 윤리, 인종, 혹은 문화적 구성을 기반으로 한 독립 국가가 되기 위한 단체의 추구 ) 에 의해서 동기화된 반면, 1980년대에는 주로 종교적 신념을 특징으로 한 단체 수가 증가하기 시작하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7540",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "started",
+                        "began",
+                        "begun"
+                    ],
+                    "ko_annotation_id": 7540,
+                    "annotation_id": 13719,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "시작한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 10
+                            },
+                            "text": "1999년에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "text": "전해지는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Event",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 38
+                            },
+                            "text": "다른 미사일 부품 적하물을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2726,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "이것은 1999년에 시작한 것으로 전해지는 다른 미사일 부품 적하물을 보완하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7611",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "started",
+                        "starts",
+                        "starting",
+                        "began",
+                        "begins"
+                    ],
+                    "ko_annotation_id": 7611,
+                    "annotation_id": 13820,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 36,
+                                "end": 42
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "시작하였고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 29
+                            },
+                            "text": "북한의 공격 화학무기 프로그램은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 35
+                            },
+                            "text": "이때",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2745,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "일부 설명에 의하면, 북한의 공격 화학무기 프로그램은 또한 이때 시작하였고, 화학무기 개발을 위해 주로 중국의 도움에 의존하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 7859",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "started",
+                        "began",
+                        "begun"
+                    ],
+                    "ko_annotation_id": 7859,
+                    "annotation_id": 14329,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "시작한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 14
+                            },
+                            "text": "생물 무기 작용제의 생산은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 24
+                            },
+                            "text": "1980년대 초에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2823,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "생물 무기 작용제의 생산은 1980년대 초에 시작한 것으로 보인다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 8283",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "started",
+                        "starts",
+                        "starting",
+                        "began",
+                        "begins"
+                    ],
+                    "ko_annotation_id": 8283,
+                    "annotation_id": 15140,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "시작하여"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "여섯 번의 조사가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 19
+                            },
+                            "text": "1992년 5월에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2945,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "여섯 번의 조사가 1992년 5월에 시작하여 1993년 2월에 끝났다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12594",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "started",
+                        "starts",
+                        "starting",
+                        "began",
+                        "begins"
+                    ],
+                    "ko_annotation_id": 12594,
+                    "annotation_id": 924,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "시작하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 27
+                            },
+                            "text": "880과 Bay 다리의 사진들을 보았을 때,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Event",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "text": "울기",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 161,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "내가 880과 Bay 다리의 사진들을 보았을 때, 나는 울기 시작하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13726",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "started",
+                        "began",
+                        "begun"
+                    ],
+                    "ko_annotation_id": 13726,
+                    "annotation_id": 0,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "시작한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 33
+                            },
+                            "text": "결국",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "text": "활기를 찾기",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Event",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 45,
+                                "end": 49
+                            },
+                            "text": "경제에서",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1460,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "5 년간의 완화된 신용 이후, Fed는 코스를 뒤바꾸어 결국 활기를 찾기 시작한 경제에서 인플레이션과의 싸움에 전념하는 것에 대해 의심의 여지를 남기지 않았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13934",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "started",
+                        "starts",
+                        "starting",
+                        "began",
+                        "begins"
+                    ],
+                    "ko_annotation_id": 13934,
+                    "annotation_id": 8068,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 56,
+                                "end": 61
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "시작한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 23
+                            },
+                            "text": "일반적으로 이슬람에 고수하기 위한 부름과,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Reason",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 45,
+                                "end": 55
+                            },
+                            "text": "친척과 친구들로부터",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1646,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "일반적으로 이슬람에 고수하기 위한 부름과, 특별히 지하드의 개념을 퍼뜨리는 것은 친척과 친구들로부터 시작한다. ( T.C : 코란 구절 ) Naeem Ibn Mas ' uud ( 신이 그대를 축복하소서 ) 처럼, 당신의 일이 극도의 비밀을 요구하면, 당신은 이것을 할 수 없을지 모른다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13938",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "started",
+                        "starts",
+                        "starting",
+                        "began",
+                        "begins"
+                    ],
+                    "ko_annotation_id": 13938,
+                    "annotation_id": 8127,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "시작한다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "이 기간은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Initial_Subevent",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 20
+                            },
+                            "text": "알 카에다에 합류한 날짜로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1657,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "이 기간은 알 카에다에 합류한 날짜로 부터 시작한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15375",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "begin"
+                    ],
+                    "ko_annotation_id": 15375,
+                    "annotation_id": 14971,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 15,
+                                "end": 19
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "시작하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "프로그램은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Depictive",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 14
+                            },
+                            "text": "평화적인 것으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2919,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "프로그램은 평화적인 것으로 시작하는 것처럼 보였으나, 김의 원래 의도가 무엇이었든, 큐바 미사일 위기는 헌신적인 핵무기 프로그램의 시작을 촉발시켰다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16823",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "started",
+                        "starts",
+                        "starting",
+                        "began",
+                        "begins"
+                    ],
+                    "ko_annotation_id": 16823,
+                    "annotation_id": 934,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 73,
+                                "end": 79
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "시작하였다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 59,
+                                "end": 62
+                            },
+                            "text": "건물이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 68,
+                                "end": 72
+                            },
+                            "text": "흔들리기",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 163,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "오전 6시 50분 CAROLG : 나는 치료를 위한 일부 새로운 고객인 한 커플을 만나려고 앉아 있었는데 건물이 미친듯이 흔들리기 시작하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16893",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "beginning"
+                    ],
+                    "ko_annotation_id": 16893,
+                    "annotation_id": 3315,
+                    "frameName": "Process_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Process_start",
+                            "span": {
+                                "begin": 92,
+                                "end": 97
+                            },
+                            "token_span": [
+                                23
+                            ],
+                            "role": "TARGET",
+                            "text": "시작했다는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22
+                            ],
+                            "span": {
+                                "begin": 65,
+                                "end": 91
+                            },
+                            "text": "이들 두 전통적인 적들 사이의 적대감이 감소되기",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 618,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "시작하다.v.Process_start",
+                    "text": "이것이 언제나 일어날 것인지 두고 볼 일이지만, 1999년의 엄청난 지진 후에 그리스가 터키에 제공한 도움은 어쩌면 이들 두 전통적인 적들 사이의 적대감이 감소되기 시작했다는 징후일지 모르겠다."
                 }
             ]
         }
-    ],
-    "frameID": 118,
-    "ko_pos": "NN",
-    "ko_lu": "소지품.n.Possession",
-    "lu_id": 961,
-    "en_lus": [
-        "Belongings",
-        "effect"
     ]
 }

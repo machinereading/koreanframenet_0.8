@@ -1,44 +1,81 @@
 {
-    "frameName": "Ranked_expectation",
+    "ko_pos": "n",
+    "ko_lu": "히나마쓰리.n.Social_event",
+    "frameID": 125,
+    "frameName": "Social_event",
+    "en_lus": [
+        "hinamaturi .雛祭 "
+    ],
+    "lu_id": 2533,
     "patterns": [
         {
-            "valenceText": "annotation id: 8393",
+            "valenceText": "annotation id: 16352",
             "examples": [
                 {
-                    "frameName": "Ranked_expectation",
+                    "origin_lus": [
+                        "hinamaturi .雛祭 "
+                    ],
+                    "ko_annotation_id": 16352,
+                    "annotation_id": 0,
+                    "frameName": "Social_event",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Social_event",
                             "span": {
-                                "begin": 18,
-                                "end": 21
-                            }
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "히나마쓰리는"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 15,
-                                "end": 17
-                            }
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "음력시대의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Social_Event",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "text": "히나마쓰리는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "zenkoku .全国 "
+                    "sent_id": 4107,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 8393,
-                    "text": "당회는 2000년 4월에, 전국 연합체로서 설립되었으나, 당시에는 지원책이 전무했고, 사회적 인지도도 낮아, 회원의 장애인 수첩 취득률도 50%에 못 미쳤다.",
-                    "sent_id": 4746,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "히나마쓰리.n.Social_event",
+                    "text": "음력시대의 히나마쓰리는 지금의 4월 상순에 해당하므로, 꽤 날씨도 따뜻해져, 완연한 봄기운이 느껴졌을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 1533,
-    "ko_pos": "NNG",
-    "ko_lu": "전국.n.Ranked_expectation",
-    "lu_id": 2533,
-    "en_lus": [
-        "zenkoku .全国 "
     ]
 }

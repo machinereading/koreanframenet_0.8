@@ -1,87 +1,103 @@
 {
-    "frameName": "Judgment",
+    "ko_pos": "v",
+    "ko_lu": "응답하다.v.Response",
+    "frameID": 1302,
+    "frameName": "Response",
+    "en_lus": [
+        "respond"
+    ],
+    "lu_id": 4412,
     "patterns": [
         {
-            "valenceText": "annotation id: 15269",
+            "valenceText": "annotation id: 8352",
             "examples": [
                 {
-                    "frameName": "Judgment",
+                    "origin_lus": [
+                        "responded"
+                    ],
+                    "ko_annotation_id": 8352,
+                    "annotation_id": 15311,
+                    "frameName": "Response",
                     "denotations": [
                         {
-                            "obj": "cognizer",
+                            "id": 1,
+                            "obj": "Response",
                             "span": {
-                                "begin": 10,
-                                "end": 14
+                                "begin": 31,
+                                "end": 37
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "응답하였고,"
                         },
                         {
-                            "obj": "evaluee",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 18
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "3"
+                            "text": "미국은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Response",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 19
+                            },
+                            "text": "중유 수송을 유보하는 것으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                5,
+                                6
+                            ],
                             "span": {
                                 "begin": 20,
-                                "end": 23
+                                "end": 30
                             },
-                            "id": "1"
+                            "text": "2002년 12월에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "disdain"
-                    ],
-                    "ko_annotation_id": 15269,
-                    "text": "둘째, 그것은 왜 투표자들은 의회를 경멸하지만 일반적으로 그들 자신의 의회 대표자들을 좋아하는가를 설명해준다 : 어떤 개별 국회의원의 지역구민들은 그 국회의원이 그들을 위해 쟁취한 특정 혜택에 대해서는 감사하지만 그러나 똑같이 자기 지역구민들을 위해 똑같이 하는 모든 다른 의원과 관련된 총체적인 비용에 대해서는 감사하지 않는다.",
-                    "sent_id": 277,
+                    "sent_id": 2973,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 1522
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.58164",
-            "examples": [
-                {
-                    "frameName": "Judgment",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 16,
-                                "end": 20
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "우리들은 그의 비굴한 행동을 경멸했다.",
-                    "target": "경멸했다",
-                    "ko_annotation_id": "sejong.58164",
-                    "relations": []
+                    "lu": "응답하다.v.Response",
+                    "text": "미국은 중유 수송을 유보하는 것으로 2002년 12월에 응답하였고, 이때 북한은 핵시설 동결 해제, 동결을 감시하는 IAEA 조사관 축출, 그리고 2003년 1월 10일 NPT로부터 탈퇴를 선언하여 핵시설 동결에 대해 보복하였다."
                 }
             ]
         }
-    ],
-    "frameID": 28,
-    "ko_pos": "VV",
-    "ko_lu": "경멸하다.v.Judgment",
-    "lu_id": 4412,
-    "en_lus": [
-        "disdain"
     ]
 }

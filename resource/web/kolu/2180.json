@@ -1,78 +1,81 @@
 {
-    "frameName": "Locale_by_use",
+    "ko_pos": "v",
+    "ko_lu": "위치하다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "ukabu .浮かぶ"
+    ],
+    "lu_id": 2180,
     "patterns": [
         {
-            "valenceText": "annotation id: 7092",
+            "valenceText": "annotation id: 10100",
             "examples": [
                 {
-                    "frameName": "Locale_by_use",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 59,
-                                "end": 62
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "Post Office"
+                        "ukabu .浮かぶ"
                     ],
-                    "ko_annotation_id": 7092,
-                    "text": "이 바쁘고 현대적인 유럽 도시는 천년의 역사 위에 자리잡고 있다 -- 우아한 Merrion 광장에서 중앙 우체국의 총탄 구멍까지 역사는 도처에 존재한다.",
-                    "sent_id": 951,
-                    "relations": [],
-                    "annotation_id": 4944
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 7093",
-            "examples": [
-                {
-                    "frameName": "Locale_by_use",
+                    "ko_annotation_id": 10100,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
                     "denotations": [
                         {
-                            "obj": "name",
+                            "id": 1,
+                            "obj": "Motion",
                             "span": {
-                                "begin": 76,
-                                "end": 78
+                                "begin": 11,
+                                "end": 14
                             },
-                            "id": "2"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "위치한"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 79,
-                                "end": 82
+                                "begin": 6,
+                                "end": 10
                             },
-                            "id": "1"
+                            "text": "앞바다에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 18
+                            },
+                            "text": "영도가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Post Office"
-                    ],
-                    "ko_annotation_id": 7093,
-                    "text": "Jardine 건물 옆에 대형 쇼핑 몰이 있는 복합단지인 Exchange Square가 있다 ; 바로 뒤에는 1층에 우표수집 센터가 있는 중앙 우체국이 있다.",
-                    "sent_id": 1043,
+                    "sent_id": 3569,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5461
+                    "lu": "위치하다.v.Motion",
+                    "text": "부산만은, 앞바다에 위치한 영도가 보호하는 안쪽으로 길게 펼쳐진 주머니같은 모양새를 띈 항구를 산이 둘러싸고 있는 천혜의 양항이다."
                 }
             ]
         }
-    ],
-    "frameID": 196,
-    "ko_pos": "NN",
-    "ko_lu": "우체국.n.Locale_by_use",
-    "lu_id": 2180,
-    "en_lus": [
-        "Post Office"
     ]
 }

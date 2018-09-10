@@ -1,65 +1,63 @@
 {
-    "frameName": "Temporal_subregion",
+    "ko_pos": "v",
+    "ko_lu": "허락하다.v.Deny_or_grant_permission",
+    "frameID": 520,
+    "frameName": "Deny_or_grant_permission",
+    "en_lus": [
+        "yurusi .許し"
+    ],
+    "lu_id": 2739,
     "patterns": [
         {
-            "valenceText": "annotation id: 8947",
+            "valenceText": "annotation id: 11521",
             "examples": [
                 {
-                    "frameName": "Temporal_subregion",
+                    "origin_lus": [
+                        "yurusi .許し"
+                    ],
+                    "ko_annotation_id": 11521,
+                    "annotation_id": 0,
+                    "frameName": "Deny_or_grant_permission",
                     "denotations": [
                         {
-                            "obj": "time",
+                            "id": 1,
+                            "obj": "Deny_or_grant_permission",
                             "span": {
-                                "begin": 0,
-                                "end": 9
+                                "begin": 13,
+                                "end": 16
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "허락해"
                         },
                         {
-                            "obj": "time_period",
+                            "id": 2,
+                            "obj": "Grantor",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 11,
-                                "end": 13
+                                "begin": 9,
+                                "end": 12
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 15,
-                                "end": 17
-                            },
-                            "id": "1"
+                            "text": "의사가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "end"
-                    ],
-                    "ko_annotation_id": 8947,
-                    "text": "기원 전 401년에 전쟁이 끝나기 전, 많은 섬들이 이미 Macedon의 Philip II가 이끄는 승리자들에게로 그들의 충성의 대상을 옮겼다.",
-                    "sent_id": 538,
+                    "sent_id": 4451,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2835
+                    "lu": "허락하다.v.Deny_or_grant_permission",
+                    "text": "상처가 나았으니 의사가 허락해 준 것이겠지."
                 }
             ]
         }
-    ],
-    "frameID": 1470,
-    "ko_pos": "VV",
-    "ko_lu": "끝나다.v.Temporal_subregion",
-    "lu_id": 2739,
-    "en_lus": [
-        "end"
     ]
 }

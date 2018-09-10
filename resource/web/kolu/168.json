@@ -1,100 +1,70 @@
 {
-    "frameName": "Verdict",
+    "ko_pos": "n",
+    "ko_lu": "진술.n.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "statement"
+    ],
+    "lu_id": 168,
     "patterns": [
         {
-            "valenceText": "annotation id: 470",
+            "valenceText": "annotation id: 8671",
             "examples": [
                 {
-                    "frameName": "Verdict",
+                    "origin_lus": [
+                        "statements"
+                    ],
+                    "ko_annotation_id": 8671,
+                    "annotation_id": 15932,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "defendant",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 0,
-                                "end": 1
+                                "begin": 48,
+                                "end": 51
                             },
-                            "id": "2"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "진술에"
                         },
                         {
-                            "obj": "charges",
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 3,
-                                "end": 23
+                                "begin": 10,
+                                "end": 42
                             },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "place",
-                            "span": {
-                                "begin": 25,
-                                "end": 28
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 31,
-                                "end": 34
-                            },
-                            "id": "1"
+                            "text": "고위층 시리아 관리들과 자칭 무기 공급자라는 사람들에 의해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "acquitted"
-                    ],
-                    "ko_annotation_id": 470,
-                    "text": "그는 알 카이다와 유대관계를 가졌다는 고소가 요르단에서 취하되었다.",
-                    "sent_id": 1679,
+                    "sent_id": 3062,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8220
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.73120",
-            "examples": [
-                {
-                    "frameName": "Verdict",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 36,
-                                "end": 41
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "노부호의 자식들은 사회의 눈총을 의식해서인지, 재산 분할 소송을 취하하였다.",
-                    "target": "취하하였다",
-                    "ko_annotation_id": "sejong.73120",
-                    "relations": []
+                    "lu": "진술.n.Statement",
+                    "text": "이 소문들은 주로 고위층 시리아 관리들과 자칭 무기 공급자라는 사람들에 의해 이루어진 진술에 근거한다."
                 }
             ]
         }
-    ],
-    "frameID": 318,
-    "ko_pos": "VV",
-    "ko_lu": "취하하다.v.Verdict",
-    "lu_id": 168,
-    "en_lus": [
-        "acquit"
     ]
 }

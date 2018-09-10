@@ -1,66 +1,135 @@
 {
-    "frameName": "Bragging",
+    "ko_pos": "v",
+    "ko_lu": "예상하다.v.Expectation",
+    "frameID": 26,
+    "frameName": "Expectation",
+    "en_lus": [
+        "expect",
+        "unexpected"
+    ],
+    "lu_id": 66,
     "patterns": [
         {
-            "valenceText": "annotation id: 205",
+            "valenceText": "annotation id: 2559",
             "examples": [
                 {
-                    "frameName": "Bragging",
+                    "origin_lus": [
+                        "unexpected"
+                    ],
+                    "ko_annotation_id": 2559,
+                    "annotation_id": 5029,
+                    "frameName": "Expectation",
                     "denotations": [
                         {
-                            "obj": "Topic",
+                            "id": 1,
+                            "obj": "Expectation",
                             "span": {
-                                "begin": 4,
-                                "end": 11
-                            }
+                                "begin": 13,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "예상하지 못한"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 27
-                            }
+                                "begin": 21,
+                                "end": 28
+                            },
+                            "text": "멀리의 전망은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ziman .自慢 "
+                    "sent_id": 965,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 205,
-                    "text": "역시, 이왕 집을 짓는다면, 감동하고 싶고, 자랑도 하고 싶지요.",
-                    "sent_id": 3788,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "예상하다.v.Expectation",
+                    "text": "때때로 갈매기의 울음과 예상하지 못한 멀리의 전망은 더블린이 바닷가에 있다는 것을 당신에게 상기시키고, 더블린을 연안 가까이에 붙들고 있는 Wicklow 산맥은 어디에서나 보인다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.22224",
+            "valenceText": "annotation id: 12690",
             "examples": [
                 {
-                    "frameName": "Bragging",
+                    "origin_lus": [
+                        "expect"
+                    ],
+                    "ko_annotation_id": 12690,
+                    "annotation_id": 1587,
+                    "frameName": "Expectation",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Expectation",
                             "span": {
-                                "begin": 9,
-                                "end": 11
+                                "begin": 112,
+                                "end": 116
                             },
-                            "id": "1"
+                            "token_span": [
+                                26
+                            ],
+                            "role": "TARGET",
+                            "text": "예상하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                24
+                            ],
+                            "span": {
+                                "begin": 104,
+                                "end": 107
+                            },
+                            "text": "우리가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                27
+                            ],
+                            "span": {
+                                "begin": 117,
+                                "end": 122
+                            },
+                            "text": "패턴이다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 항상 자기 자랑을 한다.",
-                    "target": "자랑",
-                    "ko_annotation_id": "sejong.22224",
-                    "relations": []
+                    "sent_id": 287,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예상하다.v.Expectation",
+                    "text": "국회의 하원에서는 지역의 이익 추구와 관련된 문제들은 더 중요하고 국가정책 결정과 관련된 문제들은 덜 중요하기 때문에, 공화당원들이 민주당원들보다 지역의 이익 추구에 덜 개입한다면 이는 우리가 정확히 예상하는 패턴이다."
                 }
             ]
         }
-    ],
-    "frameID": 1624,
-    "ko_pos": "NNG",
-    "ko_lu": "자랑.n.Bragging",
-    "lu_id": 66,
-    "en_lus": [
-        "ziman .自慢 "
     ]
 }

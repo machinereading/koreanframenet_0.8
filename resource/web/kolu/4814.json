@@ -1,44 +1,238 @@
 {
-    "frameName": "Existence",
+    "ko_pos": "v",
+    "ko_lu": "인도되다.v.Extradition",
+    "frameID": 1370,
+    "frameName": "Extradition",
+    "en_lus": [
+        "extradite"
+    ],
+    "lu_id": 4814,
     "patterns": [
         {
-            "valenceText": "annotation id: 16881",
+            "valenceText": "annotation id: 5344",
             "examples": [
                 {
-                    "frameName": "Existence",
+                    "origin_lus": [
+                        "extradited"
+                    ],
+                    "ko_annotation_id": 5344,
+                    "annotation_id": 9668,
+                    "frameName": "Extradition",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Extradition",
                             "span": {
-                                "begin": 41,
-                                "end": 47
-                            }
+                                "begin": 59,
+                                "end": 62
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "인도될"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Suspect",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 49,
-                                "end": 52
-                            }
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Legal_Basis",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 46
+                            },
+                            "text": "Virgilla Barco 회장이 부활시킨 외국 범인의 인도 협정 하에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Purpose",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 47,
+                                "end": 53
+                            },
+                            "text": "재판을 위해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Crime_Jurisdiction",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 58
+                            },
+                            "text": "미국으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "nai .ない"
+                    "sent_id": 1999,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16881,
-                    "text": "통상적으로, 자연주택 또는 건강주택을 부르짖는 회사는, 비용이 비싸거나, 디자인 감각이 떨어져, 선뜻 결정하기 힘이 든데, 종합적으로 보았을 때 월등해, 정말이지 고민스럽습니다.",
-                    "sent_id": 4938,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "인도되다.v.Extradition",
+                    "text": "그는 아마도 Virgilla Barco 회장이 부활시킨 외국 범인의 인도 협정 하에 재판을 위해 미국으로 인도될 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10041",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "extradited"
+                    ],
+                    "ko_annotation_id": 10041,
+                    "annotation_id": 18547,
+                    "frameName": "Extradition",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Extradition",
+                            "span": {
+                                "begin": 54,
+                                "end": 57
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "인도될"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Suspect",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Legal_Basis",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 37
+                            },
+                            "text": "대통령 Virgilla Barco가 부활시킨 인도 협정에 따라",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Purpose",
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 44
+                            },
+                            "text": "재판을 위해",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Crime_Jurisdiction",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 53
+                            },
+                            "text": "미국으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3538,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "인도되다.v.Extradition",
+                    "text": "그는 대통령 Virgilla Barco가 부활시킨 인도 협정에 따라 재판을 위해 아마도 미국으로 인도될 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 660,
-    "ko_pos": "VV",
-    "ko_lu": "떨어지다.v.Existence",
-    "lu_id": 4814,
-    "en_lus": [
-        "nai .ない"
     ]
 }

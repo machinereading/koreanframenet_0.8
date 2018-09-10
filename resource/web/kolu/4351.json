@@ -1,44 +1,83 @@
 {
-    "frameName": "People_by_age",
+    "ko_pos": "n",
+    "ko_lu": "동생.n.Kinship",
+    "frameID": 104,
+    "frameName": "Kinship",
+    "en_lus": [
+        "brother"
+    ],
+    "lu_id": 4351,
     "patterns": [
         {
-            "valenceText": "annotation id: 15105",
+            "valenceText": "annotation id: 5313",
             "examples": [
                 {
-                    "frameName": "People_by_age",
+                    "origin_lus": [
+                        "brother"
+                    ],
+                    "ko_annotation_id": 5313,
+                    "annotation_id": 9590,
+                    "frameName": "Kinship",
                     "denotations": [
                         {
-                            "obj": "Person",
+                            "id": 1,
+                            "obj": "Kinship",
                             "span": {
-                                "begin": 5,
-                                "end": 8
-                            }
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "동생"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 5,
-                                "end": 8
-                            }
+                                "begin": 21,
+                                "end": 31
+                            },
+                            "text": "1986년에 살해된",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ego",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 40
+                            },
+                            "text": "한 남성으로부터",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "yoozi .幼児 "
+                    "sent_id": 1983,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15105,
-                    "text": "어원은, 유아어 맘마입니다.",
-                    "sent_id": 3782,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "동생.n.Kinship",
+                    "text": "이것은 그의 동생 Guillermo가 1986년에 살해된 한 남성으로부터 나왔다."
                 }
             ]
         }
-    ],
-    "frameID": 973,
-    "ko_pos": "NN",
-    "ko_lu": "유아어.n.People_by_age",
-    "lu_id": 4351,
-    "en_lus": [
-        "yoozi .幼児 "
     ]
 }

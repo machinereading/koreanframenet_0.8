@@ -1,51 +1,81 @@
 {
-    "frameName": "Undergo_change",
+    "ko_pos": "n",
+    "ko_lu": "와중.n.Cause_change",
+    "frameID": 683,
+    "frameName": "Cause_change",
+    "en_lus": [
+        "transformation"
+    ],
+    "lu_id": 5226,
     "patterns": [
         {
-            "valenceText": "annotation id: 18431",
+            "valenceText": "annotation id: 8594",
             "examples": [
                 {
-                    "frameName": "Undergo_change",
+                    "origin_lus": [
+                        "transformation"
+                    ],
+                    "ko_annotation_id": 8594,
+                    "annotation_id": 15715,
+                    "frameName": "Cause_change",
                     "denotations": [
                         {
-                            "obj": "Entity",
-                            "span": {
-                                "begin": 3,
-                                "end": 6
-                            }
-                        },
-                        {
-                            "obj": "Final_category",
+                            "id": 1,
+                            "obj": "Cause_change",
                             "span": {
                                 "begin": 25,
-                                "end": 32
-                            }
+                                "end": 28
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "와중에"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 34,
-                                "end": 35
-                            }
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "text": "정권의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Final_Category",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "자유화",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ikoo .移行 "
+                    "sent_id": 3037,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18431,
-                    "text": "또한 학습회에서 끝나는 것이 아니라, 그 후 정기적인 미팅을 하거나, 한층 더 깊이 학습하기  위한 연구회를 만드는 것도 좋겠습니다.",
-                    "sent_id": 4485,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "와중.n.Cause_change",
+                    "text": "화학 및 생물 무기 프로그램은 정권의 자유화 와중에 1993년에 공식적으로 해체되었다."
                 }
             ]
         }
-    ],
-    "frameID": 1172,
-    "ko_pos": "VA",
-    "ko_lu": "하다.a.Undergo_change",
-    "lu_id": 5226,
-    "en_lus": [
-        "ikoo .移行 "
     ]
 }

@@ -1,38 +1,102 @@
 {
-    "frameName": "Quantity",
+    "ko_pos": "v",
+    "ko_lu": "설정하다.v.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "settee .設定 "
+    ],
+    "lu_id": 4608,
     "patterns": [
         {
-            "valenceText": "annotation id: 15986",
+            "valenceText": "annotation id: 10349",
             "examples": [
                 {
-                    "frameName": "Quantity",
+                    "origin_lus": [
+                        "settee .設定 "
+                    ],
+                    "ko_annotation_id": 10349,
+                    "annotation_id": 0,
+                    "frameName": "Placing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Placing",
                             "span": {
-                                "begin": 49,
+                                "begin": 76,
+                                "end": 80
+                            },
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "설정하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 37,
                                 "end": 51
                             },
-                            "id": "1"
+                            "text": "왕성 부근에 있는 나라들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Area",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 64,
+                                "end": 67
+                            },
+                            "text": "국경에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 71,
+                                "end": 75
+                            },
+                            "text": "방위선을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "no"
+                    "sent_id": 3686,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15986,
-                    "text": "당신의 관대함으로부터 가장 직접적으로 혜택을 받을 수 있는 사람들은 낭비할 시간을 갖지 못한다.",
-                    "sent_id": 391,
-                    "relations": [],
-                    "annotation_id": 2092
+                    "lu": "설정하다.v.Placing",
+                    "text": "그 밖에는, 아직 야마토를 거스르는 세력이 적잖이 있다는 뜻으로, 왕성 부근에 있는 나라들이 무엇을 했는가 하면, 국경에 우선 방위선을 설정하는 겁니다."
                 }
             ]
         }
-    ],
-    "frameID": 2604,
-    "ko_pos": "VA",
-    "ko_lu": "못하다.a.Quantity",
-    "lu_id": 4608,
-    "en_lus": [
-        "no"
     ]
 }

@@ -1,74 +1,89 @@
 {
-    "frameName": "Stage_of_progress",
+    "ko_pos": "n",
+    "ko_lu": "설명.n.Explaining_the_facts",
+    "frameID": 1462,
+    "frameName": "Explaining_the_facts",
+    "en_lus": [
+        "explanation"
+    ],
+    "lu_id": 1641,
     "patterns": [
         {
-            "valenceText": "annotation id: 5133",
+            "valenceText": "annotation id: 820",
             "examples": [
                 {
-                    "frameName": "Stage_of_progress",
+                    "origin_lus": [
+                        "explanation"
+                    ],
+                    "ko_annotation_id": 820,
+                    "annotation_id": 1688,
+                    "frameName": "Explaining_the_facts",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Explaining_the_facts",
                             "span": {
-                                "begin": 13,
-                                "end": 15
+                                "begin": 74,
+                                "end": 77
                             },
-                            "id": "1"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "설명이"
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 18
+                                "begin": 21,
+                                "end": 64
                             },
-                            "id": "2"
+                            "text": "투표소에서 투표자들이 나타내는 외견상 비합리적인 행동의 적어도 일부에 대해서는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                16
+                            ],
+                            "span": {
+                                "begin": 69,
+                                "end": 73
+                            },
+                            "text": "이성적인",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "modern"
-                    ],
-                    "ko_annotation_id": 5133,
-                    "text": "그는 자기 국민을 위한 현대 국가를 약속하였으나, 상황이 불안하게 되어 터키의 도시들에서 시민 분쟁이 발생하였고 그리스인으로 간주된 자들은 위협과 폭력의 희생자들이었다.",
-                    "sent_id": 595,
+                    "sent_id": 302,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 3161
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.3457",
-            "examples": [
-                {
-                    "frameName": "Stage_of_progress",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 30,
-                                "end": 32
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "보통 갑오개혁을 기준으로 그 이전을 근대, 그 이후를 현대라고 한다.",
-                    "target": "현대",
-                    "ko_annotation_id": "sejong.3457",
-                    "relations": []
+                    "lu": "설명.n.Explaining_the_facts",
+                    "text": "요약하면, 연방 및 주 정부 차원에서 투표소에서 투표자들이 나타내는 외견상 비합리적인 행동의 적어도 일부에 대해서는 대단히 이성적인 설명이 가능할 수 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1341,
-    "ko_pos": "NNP",
-    "ko_lu": "현대.n.Stage_of_progress",
-    "lu_id": 1641,
-    "en_lus": [
-        "modern"
     ]
 }

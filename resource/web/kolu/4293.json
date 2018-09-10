@@ -1,91 +1,84 @@
 {
-    "frameName": "Seeking_to_achieve",
+    "ko_pos": "v",
+    "ko_lu": "예측되다.v.Predicting",
+    "frameID": 425,
+    "frameName": "Predicting",
+    "en_lus": [
+        "predict"
+    ],
+    "lu_id": 4293,
     "patterns": [
         {
-            "valenceText": "annotation id: 14791",
+            "valenceText": "annotation id: 14703",
             "examples": [
                 {
-                    "frameName": "Seeking_to_achieve",
+                    "origin_lus": [
+                        "predicted"
+                    ],
+                    "ko_annotation_id": 14703,
+                    "annotation_id": 12107,
+                    "frameName": "Predicting",
                     "denotations": [
                         {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Predicting",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 13,
+                                "end": 16
                             },
-                            "id": "5"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "예측될"
                         },
                         {
-                            "obj": "sought_entity",
+                            "id": 2,
+                            "obj": "Accuracy",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 5,
-                                "end": 45
+                                "begin": 9,
+                                "end": 12
                             },
-                            "id": "3"
+                            "text": "정확히",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "source",
+                            "id": 3,
+                            "obj": "Eventuality",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 46,
-                                "end": 58
+                                "begin": 26,
+                                "end": 37
                             },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "sought_entity",
-                            "span": {
-                                "begin": 62,
-                                "end": 90
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 97,
-                                "end": 98
-                            },
-                            "id": "1"
+                            "text": "국제 및 국내 요인에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "seek"
-                    ],
-                    "ko_annotation_id": 14791,
-                    "text": "테헤란은 이란이 고유의 신경작용제 생산 능력의 목표에 도달하도록 도와줄 수 있었던 러시아와 중국의 기관들로부터 상당한 생산 기술, 훈련, 전문가, 장비와 화학물질을 계속해서 얻으려고 하고 있다.",
-                    "sent_id": 1297,
+                    "sent_id": 2400,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "5",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6495
+                    "lu": "예측되다.v.Predicting",
+                    "text": "이러한 추정들은 정확히 예측될 수 없는 다수의 국제 및 국내 요인에 따라 다소 가속되거나 쉽게 지연될 수 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1480,
-    "ko_pos": "VV",
-    "ko_lu": "얻다.v.Seeking_to_achieve",
-    "lu_id": 4293,
-    "en_lus": [
-        "seek"
     ]
 }

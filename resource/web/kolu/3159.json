@@ -1,52 +1,159 @@
 {
-    "frameName": "Body_parts",
+    "ko_pos": "v",
+    "ko_lu": "착수하다.v.Activity_start",
+    "frameID": 146,
+    "frameName": "Activity_start",
+    "en_lus": [
+        "initiate",
+        "tyakusyu .着手 "
+    ],
+    "lu_id": 3159,
     "patterns": [
         {
-            "valenceText": "annotation id: 10644",
+            "valenceText": "annotation id: 10396",
             "examples": [
                 {
-                    "frameName": "Observable_body_parts",
+                    "origin_lus": [
+                        "tyakusyu .着手 ",
+                        "initiated"
+                    ],
+                    "ko_annotation_id": 10396,
+                    "annotation_id": 0,
+                    "frameName": "Activity_start",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Activity_start",
                             "span": {
-                                "begin": 20,
-                                "end": 23
+                                "begin": 6,
+                                "end": 9
                             },
-                            "id": "1"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "착수한"
                         },
                         {
-                            "obj": "descriptor",
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 23
+                                "begin": 14,
+                                "end": 28
                             },
-                            "id": "2"
+                            "text": "새로운 회사의 설립이었다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hands"
-                    ],
-                    "ko_annotation_id": 10644,
-                    "text": "시끄럽고 거친 자마이카 영어 방언과 손사래는사회관계가 여기에서 행해지는 기쁨을 반영한다.",
-                    "sent_id": 921,
+                    "sent_id": 3718,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4758
+                    "lu": "착수하다.v.Activity_start",
+                    "text": "가장 먼저 착수한 것이, 새로운 회사의 설립이었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 14850",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tyakusyu .着手 ",
+                        "initiated"
+                    ],
+                    "ko_annotation_id": 14850,
+                    "annotation_id": 12745,
+                    "frameName": "Activity_start",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Activity_start",
+                            "span": {
+                                "begin": 32,
+                                "end": 37
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "착수하였고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 9
+                            },
+                            "text": "1950 년대에,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 14
+                            },
+                            "text": "Shah",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Activity",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 31
+                            },
+                            "text": "이란의 핵 연구 프로그램을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2550,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "착수하다.v.Activity_start",
+                    "text": "1950 년대에, Shah 는 이란의 핵 연구 프로그램을 착수하였고 세기 말 까지 원자력 발전으로부터 23,000 메가와트를 생산하기 위한 야심찬 계획을 발전시켰다."
                 }
             ]
         }
-    ],
-    "frameID": 119,
-    "ko_pos": "NNG",
-    "ko_lu": "손사래.n.Body_parts",
-    "lu_id": 3159,
-    "en_lus": [
-        "hand"
     ]
 }

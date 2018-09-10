@@ -1,58 +1,81 @@
 {
-    "frameName": "Competition",
+    "ko_pos": "v",
+    "ko_lu": "들어가다.v.Activity_start",
+    "frameID": 146,
+    "frameName": "Activity_start",
+    "en_lus": [
+        "enter"
+    ],
+    "lu_id": 4265,
     "patterns": [
         {
-            "valenceText": "annotation id: 14726",
+            "valenceText": "annotation id: 6776",
             "examples": [
                 {
-                    "frameName": "Competition",
+                    "origin_lus": [
+                        "entered"
+                    ],
+                    "ko_annotation_id": 6776,
+                    "annotation_id": 12371,
+                    "frameName": "Activity_start",
                     "denotations": [
                         {
-                            "obj": "Competition",
+                            "id": 1,
+                            "obj": "Activity_start",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 58,
+                                "end": 63
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "들어갔다고"
                         },
                         {
-                            "obj": "Participants",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 23
-                            }
+                                "begin": 49,
+                                "end": 53
+                            },
+                            "text": "미사일이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Manner",
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                11
+                            ],
                             "span": {
-                                "begin": 26,
-                                "end": 32
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 54,
+                                "end": 57
+                            },
+                            "text": "생산에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "siai .試合 "
+                    "sent_id": 2462,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14726,
-                    "text": "시합은 주황 띠 이상의 여성 유도인을 대상으로 예선을 치뤄, 출장 선수를 16명으로 추린 후, 제1회전, 2회전, 준결승전이 열렸으며, 결국 애디슨 부인(파랑 띠)과 루바니에 부인(갈색 띠)이 결승전에서 대결하게 되었다.",
-                    "sent_id": 4305,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "들어가다.v.Activity_start",
+                    "text": "Shehab-1 프로그램의 발전은 비교적 지속적이었고 1988년 초 동안 이란 관리들은 미사일이 생산에 들어갔다고 주장하였다."
                 }
             ]
         }
-    ],
-    "frameID": 241,
-    "ko_pos": "NNG",
-    "ko_lu": "시합.n.Competition",
-    "lu_id": 4265,
-    "en_lus": [
-        "siai .試合 "
     ]
 }

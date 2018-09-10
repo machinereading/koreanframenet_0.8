@@ -1,65 +1,84 @@
 {
-    "frameName": "Being_attached",
+    "ko_pos": "v",
+    "ko_lu": "거래하다.v.Resolve_problem",
+    "frameID": 1523,
+    "frameName": "Resolve_problem",
+    "en_lus": [
+        "deal"
+    ],
+    "lu_id": 5244,
     "patterns": [
         {
-            "valenceText": "annotation id: 18485",
+            "valenceText": "annotation id: 4245",
             "examples": [
                 {
-                    "frameName": "Being_attached",
+                    "origin_lus": [
+                        "deal"
+                    ],
+                    "ko_annotation_id": 4245,
+                    "annotation_id": 7775,
+                    "frameName": "Resolve_problem",
                     "denotations": [
                         {
-                            "obj": "goal",
+                            "id": 1,
+                            "obj": "Resolve_problem",
                             "span": {
-                                "begin": 17,
-                                "end": 50
+                                "begin": 85,
+                                "end": 95
                             },
-                            "id": "3"
+                            "token_span": [
+                                21,
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "거래하기 위해서다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Means",
+                            "token_span": [
+                                17,
+                                18,
+                                19
+                            ],
                             "span": {
-                                "begin": 52,
-                                "end": 55
+                                "begin": 70,
+                                "end": 80
                             },
-                            "id": "1"
+                            "text": "그들의 요구에 따라",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "item",
+                            "id": 3,
+                            "obj": "Problem",
+                            "token_span": [
+                                20
+                            ],
                             "span": {
-                                "begin": 56,
-                                "end": 59
+                                "begin": 81,
+                                "end": 84
                             },
-                            "id": "2"
+                            "text": "그들과",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "attached"
-                    ],
-                    "ko_annotation_id": 18485,
-                    "text": "종탑에서는, 다섯 명의 남녀가 처음으로 1614년에 이곳에서 울렸던 동일한 다섯 개의 종들에 매달린 밧줄들을 가락에 맞추어 잡아당긴다.",
-                    "sent_id": 15,
+                    "sent_id": 1596,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 109
+                    "lu": "거래하다.v.Resolve_problem",
+                    "text": "키오스크를 갖는 목적은 그것들이 감시자와 방문자 또는 감시자와 건물에 접근하고 있는 자들 간의 통신 지점으로서의 역할을 하고 그들의 요구에 따라 그들과 거래하기 위해서다."
                 }
             ]
         }
-    ],
-    "frameID": 307,
-    "ko_pos": "VV",
-    "ko_lu": "매달리다.v.Being_attached",
-    "lu_id": 5244,
-    "en_lus": [
-        "attach"
     ]
 }

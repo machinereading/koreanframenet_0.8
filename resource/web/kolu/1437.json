@@ -1,78 +1,103 @@
 {
-    "frameName": "Transfer",
+    "ko_pos": "v",
+    "ko_lu": "신청하다.v.Request",
+    "frameID": 41,
+    "frameName": "Request",
+    "en_lus": [
+        "moosideru .申し出"
+    ],
+    "lu_id": 1437,
     "patterns": [
         {
-            "valenceText": "annotation id: 4611",
+            "valenceText": "annotation id: 11548",
             "examples": [
                 {
-                    "frameName": "Transfer",
+                    "origin_lus": [
+                        "moosideru .申し出"
+                    ],
+                    "ko_annotation_id": 11548,
+                    "annotation_id": 0,
+                    "frameName": "Request",
                     "denotations": [
                         {
-                            "obj": "donor",
+                            "id": 1,
+                            "obj": "Request",
                             "span": {
-                                "begin": 22,
-                                "end": 27
+                                "begin": 63,
+                                "end": 68
                             },
-                            "id": "2"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "신청했다."
                         },
                         {
-                            "obj": "recipient",
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 56,
-                                "end": 60
+                                "begin": 0,
+                                "end": 9
                             },
-                            "id": "4"
+                            "text": "동양의 제자들은,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "theme",
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 64,
-                                "end": 70
+                                "begin": 39,
+                                "end": 58
                             },
-                            "id": "3"
+                            "text": "교토의 치안을 담당하던 쇼시다이에게",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 4,
+                            "obj": "Message",
+                            "token_span": [
+                                14
+                            ],
                             "span": {
-                                "begin": 76,
-                                "end": 78
+                                "begin": 59,
+                                "end": 62
                             },
-                            "id": "1"
+                            "text": "해부를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "transferred"
-                    ],
-                    "ko_annotation_id": 4611,
-                    "text": "기원 전 401년에 전쟁이 끝나기 전, 많은 섬들이 이미 Macedon의 Philip II가 이끄는 승리자들에게로 그들의 충성의 대상을 옮겼다.",
-                    "sent_id": 538,
+                    "sent_id": 4473,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2838
+                    "lu": "신청하다.v.Request",
+                    "text": "동양의 제자들은, 스승이 원하던 바를 알고 있었기에, 그 해 초겨울에 교토의 치안을 담당하던 쇼시다이에게 해부를 신청했다."
                 }
             ]
         }
-    ],
-    "frameID": 178,
-    "ko_pos": "VV",
-    "ko_lu": "옮기다.v.Transfer",
-    "lu_id": 1437,
-    "en_lus": [
-        "transfer"
     ]
 }

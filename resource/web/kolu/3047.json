@@ -1,65 +1,99 @@
 {
-    "frameName": "Motion_directional",
+    "ko_pos": "v",
+    "ko_lu": "음미하다.v.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "aziwau .味わう "
+    ],
+    "lu_id": 3047,
     "patterns": [
         {
-            "valenceText": "annotation id: 10156",
+            "valenceText": "annotation id: 11786",
             "examples": [
                 {
-                    "frameName": "Motion_directional",
+                    "origin_lus": [
+                        "aziwau .味わう "
+                    ],
+                    "ko_annotation_id": 11786,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
                     "denotations": [
                         {
-                            "obj": "Theme",
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 31,
+                                "end": 35
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "음미하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
-                            }
+                                "end": 6
+                            },
+                            "text": "요시유키는,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Circumstances",
-                            "span": {
-                                "begin": 4,
-                                "end": 14
-                            }
-                        },
-                        {
+                            "id": 3,
                             "obj": "Manner",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 19
-                            }
+                                "begin": 23,
+                                "end": 26
+                            },
+                            "text": "멍하니",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Source",
-                            "span": {
-                                "begin": 20,
-                                "end": 24
-                            }
-                        },
-                        {
-                            "obj": "Target",
+                            "id": 4,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
                                 "begin": 27,
                                 "end": 30
-                            }
+                            },
+                            "text": "커피를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kudaru .下る"
+                    "sent_id": 4631,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 10156,
-                    "text": "아이는 이렇게 말하고 나서, 황급히 주인 앞에서 물러났다.",
-                    "sent_id": 4732,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "음미하다.v.Perception_active",
+                    "text": "요시유키는, 거래도 일본도 잊어버린 채, 멍하니 커피를 음미하고 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 362,
-    "ko_pos": "VV",
-    "ko_lu": "물러나다.v.Motion_directional",
-    "lu_id": 3047,
-    "en_lus": [
-        "kudaru .下る"
     ]
 }

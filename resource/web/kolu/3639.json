@@ -1,60 +1,95 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "n",
+    "ko_lu": "이용.n.Purpose",
+    "frameID": 513,
+    "frameName": "Purpose",
+    "en_lus": [
+        "us"
+    ],
+    "lu_id": 3639,
     "patterns": [
         {
-            "valenceText": "annotation id: 12498",
+            "valenceText": "annotation id: 6042",
             "examples": [
                 {
-                    "frameName": "Buildings",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 57,
-                                "end": 60
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "shelters"
+                        "uses"
                     ],
-                    "ko_annotation_id": 12498,
-                    "text": "또한, 지역 순찰 임무는 적에 맞선 Jihad 작전 후 전투원을 숨기기 위해 그 지역에서 새로운 길과 피난처를 발견하는 것이다.",
-                    "sent_id": 1616,
-                    "relations": [],
-                    "annotation_id": 7894
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.39043",
-            "examples": [
-                {
-                    "frameName": "Buildings",
+                    "ko_annotation_id": 6042,
+                    "annotation_id": 10921,
+                    "frameName": "Purpose",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Purpose",
                             "span": {
-                                "begin": 16,
-                                "end": 19
+                                "begin": 68,
+                                "end": 71
                             },
-                            "id": "1"
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "이용이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Means",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "이 모든 연구 분야는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 57
+                            },
+                            "text": "작물 수확량 향상과 해충과 질병으로 제기되는 이란의 농업 산업에 대한 위협 감소에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "어서 우리가 숨어 있을 만한 피난처를 찾아서 떠나자.",
-                    "target": "피난처",
-                    "ko_annotation_id": "sejong.39043",
-                    "relations": []
+                    "sent_id": 2190,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이용.n.Purpose",
+                    "text": "이 모든 연구 분야는 작물 수확량 향상과 해충과 질병으로 제기되는 이란의 농업 산업에 대한 위협 감소에 합법적이고 중요한 이용이 된다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NNG",
-    "ko_lu": "피난처.n.Buildings",
-    "lu_id": 3639,
-    "en_lus": [
-        "shelter"
     ]
 }

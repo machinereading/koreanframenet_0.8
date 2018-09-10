@@ -1,51 +1,63 @@
 {
-    "frameName": "Emotion_directed",
+    "ko_pos": "n",
+    "ko_lu": "작용제.n.Purpose",
+    "frameID": 513,
+    "frameName": "Purpose",
+    "en_lus": [
+        "use"
+    ],
+    "lu_id": 3590,
     "patterns": [
         {
-            "valenceText": "annotation id: 12275",
+            "valenceText": "annotation id: 14508",
             "examples": [
                 {
-                    "frameName": "Emotion_directed",
+                    "origin_lus": [
+                        "use"
+                    ],
+                    "ko_annotation_id": 14508,
+                    "annotation_id": 11256,
+                    "frameName": "Purpose",
                     "denotations": [
                         {
-                            "obj": "Experiencer",
+                            "id": 1,
+                            "obj": "Purpose",
                             "span": {
-                                "begin": 0,
+                                "begin": 10,
                                 "end": 13
-                            }
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "작용제"
                         },
                         {
-                            "obj": "Expressor",
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                11
+                            ],
                             "span": {
-                                "begin": 43,
-                                "end": 48
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 50,
-                                "end": 53
-                            }
+                                "begin": 40,
+                                "end": 42
+                            },
+                            "text": "양용",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kizewasii .気ぜわしい"
+                    "sent_id": 2248,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12275,
-                    "text": "또 다른 작고 마른 남자는, 신경질적이고 빈틈없어 보이는 얼굴로, 눈에 띄게 눈썹 근육을 쉴 새 없이 경련시키고 있었다.",
-                    "sent_id": 4919,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "작용제.n.Purpose",
+                    "text": "인도는 또한 신경 작용제 VX 뿐만 아니라 살충제 생산에 사용되는 군민 양용 화학물질인,   5황화인을 이란에 판매하기로 합의하였다."
                 }
             ]
         }
-    ],
-    "frameID": 46,
-    "ko_pos": "VV",
-    "ko_lu": "쉬다.v.Emotion_directed",
-    "lu_id": 3590,
-    "en_lus": [
-        "kizewasii .気ぜわしい"
     ]
 }

@@ -1,81 +1,123 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "v",
+    "ko_lu": "진입하다.v.Activity_start",
+    "frameID": 146,
+    "frameName": "Activity_start",
+    "en_lus": [
+        "enter"
+    ],
+    "lu_id": 1562,
     "patterns": [
         {
-            "valenceText": "annotation id: 4904",
+            "valenceText": "annotation id: 6668",
             "examples": [
                 {
-                    "frameName": "Buildings",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 69,
-                                "end": 71
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "housing",
-                        "shelters"
+                        "entered"
                     ],
-                    "ko_annotation_id": 4904,
-                    "text": "약간의 시간이 걸리고 어려운 일이었지만 Goodwill의 도움으로, Jerry는 검찰과 함께 지불 계획을 성공적으로 세우고 거처를 찾고 더 철저한 일자리 찾기를 할 수 있었다.",
-                    "sent_id": 428,
-                    "relations": [],
-                    "annotation_id": 2245
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 4905",
-            "examples": [
-                {
-                    "frameName": "Buildings",
+                    "ko_annotation_id": 6668,
+                    "annotation_id": 12196,
+                    "frameName": "Activity_start",
                     "denotations": [
                         {
-                            "obj": "type",
+                            "id": 1,
+                            "obj": "Activity_start",
                             "span": {
-                                "begin": 51,
-                                "end": 55
+                                "begin": 118,
+                                "end": 124
                             },
-                            "id": "2"
+                            "token_span": [
+                                27
+                            ],
+                            "role": "TARGET",
+                            "text": "진입하였다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 56,
-                                "end": 58
+                                "begin": 0,
+                                "end": 22
                             },
-                            "id": "1"
+                            "text": "1982년, 전쟁이 2년째로 접어들면서,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 23,
+                                "end": 31
+                            },
+                            "text": "이라크의 작전은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Activity",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                24,
+                                25,
+                                26
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 117
+                            },
+                            "text": "FROG-7AS 타격의 사용을 확장하고 이란의 전략적 후방에 대한 공격에 스커드-B 단거리 탄도 미사일 ( SRBM ) 을 최초로 사용하는 새로운 단계로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "housing",
-                        "shelters"
-                    ],
-                    "ko_annotation_id": 4905,
-                    "text": "이것은 Anasazi가 진보된 사회의 수준점 -- 야생 동물을 따라갈 필요 없이 일년 내내 영구적인 거처에서 살 수 있는 능력에 도달하도록 허용하였다.",
-                    "sent_id": 743,
+                    "sent_id": 2422,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3906
+                    "lu": "진입하다.v.Activity_start",
+                    "text": "1982년, 전쟁이 2년째로 접어들면서, 이라크의 작전은 FROG-7AS 타격의 사용을 확장하고 이란의 전략적 후방에 대한 공격에 스커드-B 단거리 탄도 미사일 ( SRBM ) 을 최초로 사용하는 새로운 단계로 진입하였다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NNG",
-    "ko_lu": "거처.n.Buildings",
-    "lu_id": 1562,
-    "en_lus": [
-        "housing",
-        "shelter"
     ]
 }

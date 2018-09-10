@@ -1,74 +1,84 @@
 {
-    "frameName": "Goal",
+    "ko_pos": "a",
+    "ko_lu": "위태롭다.a.Endangering",
+    "frameID": 631,
+    "frameName": "Endangering",
+    "en_lus": [
+        "endanger"
+    ],
+    "lu_id": 4876,
     "patterns": [
         {
-            "valenceText": "annotation id: 17038",
+            "valenceText": "annotation id: 9232",
             "examples": [
                 {
-                    "frameName": "Goal",
+                    "origin_lus": [
+                        "endanger"
+                    ],
+                    "ko_annotation_id": 9232,
+                    "annotation_id": 17078,
+                    "frameName": "Endangering",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Endangering",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 73,
+                                "end": 79
                             },
-                            "id": "1"
+                            "token_span": [
+                                15,
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "위태롭게 할"
                         },
                         {
-                            "obj": "landmark",
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 44,
-                                "end": 48
+                                "begin": 49,
+                                "end": 54
                             },
-                            "id": "2"
+                            "text": "확산시키고",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Valued_Entity",
+                            "token_span": [
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 59,
+                                "end": 72
+                            },
+                            "text": "미국이나 다른 동맹국들을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "to"
-                    ],
-                    "ko_annotation_id": 17038,
-                    "text": "에너지 장관 Bill Richardson은 뉴멕시코의 대표일 때인 1995년에 바그다드에 갔다.",
-                    "sent_id": 1504,
+                    "sent_id": 3240,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 7166
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.8054",
-            "examples": [
-                {
-                    "frameName": "Goal",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 12,
-                                "end": 15
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "산업 발달로 더 많은 에너지가 사용되고 있다.",
-                    "target": "에너지",
-                    "ko_annotation_id": "sejong.8054",
-                    "relations": []
+                    "lu": "위태롭다.a.Endangering",
+                    "text": "왜냐하면 거래가 확산 위협과 테러리스트들이 핵무기를 획득하거나 다른 무책임한 당사자에게 확산시키고 그래서 미국이나 다른 동맹국들을 위태롭게 할 수도 있는 가능성을 피하면서 평화로운 시민들이 원자력을 이용하도록 허용할 것이기 때문이다."
                 }
             ]
         }
-    ],
-    "frameID": 1177,
-    "ko_pos": "NNG",
-    "ko_lu": "에너지.n.Goal",
-    "lu_id": 4876,
-    "en_lus": [
-        "to"
     ]
 }

@@ -1,65 +1,84 @@
 {
-    "frameName": "Activity_pause",
+    "ko_pos": "n",
+    "ko_lu": "손.n.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "te o utu .手 を 打つ"
+    ],
+    "lu_id": 2427,
     "patterns": [
         {
-            "valenceText": "annotation id: 7945",
+            "valenceText": "annotation id: 11748",
             "examples": [
                 {
-                    "frameName": "Activity_pause",
+                    "origin_lus": [
+                        "te o utu .手 を 打つ"
+                    ],
+                    "ko_annotation_id": 11748,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 15,
-                                "end": 17
+                                "begin": 99,
+                                "end": 101
                             },
-                            "id": "3"
+                            "token_span": [
+                                24
+                            ],
+                            "role": "TARGET",
+                            "text": "손을"
                         },
                         {
-                            "obj": "activity",
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                20,
+                                21,
+                                22,
+                                23
+                            ],
                             "span": {
-                                "begin": 19,
-                                "end": 45
+                                "begin": 78,
+                                "end": 98
                             },
-                            "id": "2"
+                            "text": "전 세계적인 판매・관리망을 구축하도록",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                26
+                            ],
                             "span": {
-                                "begin": 46,
-                                "end": 48
+                                "begin": 104,
+                                "end": 107
                             },
-                            "id": "1"
+                            "text": "곳만이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "suspend"
-                    ],
-                    "ko_annotation_id": 7945,
-                    "text": "핵확산 방지 조약의 탈퇴는 미국이 핵동결 협약 하에 중유 오일 ( HFO ) 수송 유보 결정에 대한 반응으로 북한은 핵 프로그램 동결을 해제한다는 2002년 12월 선언에 신속히 이어 나왔다.",
-                    "sent_id": 2879,
+                    "sent_id": 4607,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 14709
+                    "lu": "손.n.Intentionally_act",
+                    "text": "자기 회사가 어떤 산업 분야에서 세계를 상대로 이길 수 있을지를 정확히 꿰뚫어보고, 모든 자원을 동원하여 제대로 된 산업 기술을 창출하여, 전 세계적인 판매・관리망을 구축하도록 손을 쓴 곳만이 살아남을 수 있다는 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 167,
-    "ko_pos": "NNG",
-    "ko_lu": "유보.n.Activity_pause",
-    "lu_id": 2427,
-    "en_lus": [
-        "suspend"
     ]
 }

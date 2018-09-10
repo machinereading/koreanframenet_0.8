@@ -1,65 +1,81 @@
 {
-    "frameName": "Exchange",
+    "ko_pos": "n",
+    "ko_lu": "접촉.n.Contacting",
+    "frameID": 286,
+    "frameName": "Contacting",
+    "en_lus": [
+        "contact"
+    ],
+    "lu_id": 1319,
     "patterns": [
         {
-            "valenceText": "annotation id: 4109",
+            "valenceText": "annotation id: 10012",
             "examples": [
                 {
-                    "frameName": "Exchange",
+                    "origin_lus": [
+                        "contacts"
+                    ],
+                    "ko_annotation_id": 10012,
+                    "annotation_id": 18520,
+                    "frameName": "Contacting",
                     "denotations": [
                         {
-                            "obj": "exchangers",
+                            "id": 1,
+                            "obj": "Contacting",
                             "span": {
-                                "begin": 44,
-                                "end": 48
+                                "begin": 134,
+                                "end": 138
                             },
-                            "id": "2"
+                            "token_span": [
+                                32
+                            ],
+                            "role": "TARGET",
+                            "text": "접촉에서"
                         },
                         {
-                            "obj": "themes",
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                31
+                            ],
                             "span": {
-                                "begin": 49,
-                                "end": 55
+                                "begin": 129,
+                                "end": 133
                             },
-                            "id": "3"
+                            "text": "이란과의",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Communicator",
+                            "token_span": [
+                                33
+                            ],
                             "span": {
-                                "begin": 56,
-                                "end": 58
+                                "begin": 139,
+                                "end": 142
                             },
-                            "id": "1"
+                            "text": "그들의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "exchanges"
-                    ],
-                    "ko_annotation_id": 4109,
-                    "text": "두 나라에서, Hashemi - Rafsanjani는 이란제 미사일을 판매하고 쌍무적인 미사일 기술 교환을 하기 위한 증가된 군사 지원과 협정을 확보하였다.",
-                    "sent_id": 2447,
+                    "sent_id": 3533,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 12304
+                    "lu": "접촉.n.Contacting",
+                    "text": "Netanyahu는 말하였다 : 나는 중국이 … 이란이 중국에 보급하도록 요청한 원자로를 건설하기 위한 수단을 제공하지 않는다는 중대 결정을 하였다고 들었다 … 우리는 이것이 매우 중요한 것으로 이를 환영하고 이것이 다른 국가들이 이란과의 접촉에서 그들의 안내 등으로서의 역할을 하길 희망한다."
                 }
             ]
         }
-    ],
-    "frameID": 1170,
-    "ko_pos": "NNG",
-    "ko_lu": "교환.n.Exchange",
-    "lu_id": 1319,
-    "en_lus": [
-        "exchange"
     ]
 }

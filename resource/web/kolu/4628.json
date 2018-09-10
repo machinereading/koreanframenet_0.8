@@ -1,52 +1,63 @@
 {
-    "frameName": "Part_inner_outer",
+    "ko_pos": "v",
+    "ko_lu": "강타하다.v.Impact",
+    "frameID": 311,
+    "frameName": "Impact",
+    "en_lus": [
+        "hit"
+    ],
+    "lu_id": 4628,
     "patterns": [
         {
-            "valenceText": "annotation id: 16055",
+            "valenceText": "annotation id: 351",
             "examples": [
                 {
-                    "frameName": "Part_inner_outer",
+                    "origin_lus": [
+                        "hit"
+                    ],
+                    "ko_annotation_id": 351,
+                    "annotation_id": 747,
+                    "frameName": "Impact",
                     "denotations": [
                         {
-                            "obj": "whole",
+                            "id": 1,
+                            "obj": "Impact",
                             "span": {
-                                "begin": 42,
-                                "end": 45
+                                "begin": 23,
+                                "end": 27
                             },
-                            "id": "2"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "강타했을"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Impactor",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 47,
-                                "end": 49
+                                "begin": 19,
+                                "end": 22
                             },
-                            "id": "1"
+                            "text": "지진이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "middle"
-                    ],
-                    "ko_annotation_id": 16055,
-                    "text": "언급한대로, IBM은 손가락으로 움직이는 작은 트랙볼이나 작은 패널 대신에 키보드의 중앙에 있는 마우스 스틱을 선택하였다.",
-                    "sent_id": 1214,
+                    "sent_id": 124,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6207
+                    "lu": "강타하다.v.Impact",
+                    "text": "오전 12시 38분 DAYAC : 지진이 강타했을 때 나는 나의 트럭을 몰고 있었고,  Oakland - Berkeley 접경에 있는 Shattuck과 Alcatraz 모퉁이의 신호등 빨간불에 멈추어 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 327,
-    "ko_pos": "NNG",
-    "ko_lu": "중앙.n.Part_inner_outer",
-    "lu_id": 4628,
-    "en_lus": [
-        "middle"
     ]
 }

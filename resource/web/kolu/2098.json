@@ -1,52 +1,174 @@
 {
-    "frameName": "Locale_by_use",
+    "ko_pos": "a",
+    "ko_lu": "필요하다.a.Have_as_requirement",
+    "frameID": 1491,
+    "frameName": "Have_as_requirement",
+    "en_lus": [
+        "need",
+        "require"
+    ],
+    "lu_id": 2098,
     "patterns": [
         {
-            "valenceText": "annotation id: 6641",
+            "valenceText": "annotation id: 2014",
             "examples": [
                 {
-                    "frameName": "Locale_by_use",
+                    "origin_lus": [
+                        "needed"
+                    ],
+                    "ko_annotation_id": 2014,
+                    "annotation_id": 4086,
+                    "frameName": "Have_as_requirement",
                     "denotations": [
                         {
-                            "obj": "name",
+                            "id": 1,
+                            "obj": "Have_as_requirement",
                             "span": {
-                                "begin": 24,
-                                "end": 29
+                                "begin": 12,
+                                "end": 20
                             },
-                            "id": "2"
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "필요로 하였고,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Dependent",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 32
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "1"
+                            "text": "철도는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Required_Entity",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "중간 기착지를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Canals"
-                    ],
-                    "ko_annotation_id": 6641,
-                    "text": "더 멀리 북쪽과 남쪽 모두에 Royal 및 Grand 운하의 광범위한 만곡이 있다.",
-                    "sent_id": 964,
+                    "sent_id": 781,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5021
+                    "lu": "필요하다.a.Have_as_requirement",
+                    "text": "철도는 중간 기착지를 필요로 하였고, 라스 베이거스가 그 장소였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15280",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "requires"
+                    ],
+                    "ko_annotation_id": 15280,
+                    "annotation_id": 14590,
+                    "frameName": "Have_as_requirement",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Have_as_requirement",
+                            "span": {
+                                "begin": 86,
+                                "end": 91
+                            },
+                            "token_span": [
+                                23
+                            ],
+                            "role": "TARGET",
+                            "text": "필요하다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Dependent",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 54
+                            },
+                            "text": "주어진 양의 핵분열성 물질을 가지고 얼마나 많은 핵무기를 한 국가가 생산할 수 있는가를 결정하려면",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Requirement",
+                            "token_span": [
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 85
+                            },
+                            "text": "그 국가의 기술적 정교함과 무기의 폭발 양을 아는 것이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2857,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "필요하다.a.Have_as_requirement",
+                    "text": "주어진 양의 핵분열성 물질을 가지고 얼마나 많은 핵무기를 한 국가가 생산할 수 있는가를 결정하려면 그 국가의 기술적 정교함과 무기의 폭발 양을 아는 것이 필요하다."
                 }
             ]
         }
-    ],
-    "frameID": 196,
-    "ko_pos": "NNG",
-    "ko_lu": "운하.n.Locale_by_use",
-    "lu_id": 2098,
-    "en_lus": [
-        "Canals"
     ]
 }

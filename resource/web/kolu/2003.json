@@ -1,144 +1,86 @@
 {
-    "frameName": "Manufacturing",
+    "ko_pos": "v",
+    "ko_lu": "돌다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "hasirimawaru .走り回る "
+    ],
+    "lu_id": 2003,
     "patterns": [
         {
-            "valenceText": "annotation id: 6311",
+            "valenceText": "annotation id: 16117",
             "examples": [
                 {
-                    "frameName": "Manufacturing",
-                    "denotations": [
-                        {
-                            "obj": "Product",
-                            "span": {
-                                "begin": 0,
-                                "end": 27
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 25,
-                                "end": 27
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "seehin .製品"
+                        "hasirimawaru .走り回る "
                     ],
-                    "ko_annotation_id": 6311,
-                    "text": "이론 한계치에 근접한 수준으로 설계되는 모든 제품을, 다른 어떤 기업보다도 신속하게 수율 100%로 만들어내지 못하는 한 사업은 성공하지 못한다.",
-                    "sent_id": 5023,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 6312",
-            "examples": [
-                {
-                    "frameName": "Manufacturing",
+                    "ko_annotation_id": 16117,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
                     "denotations": [
                         {
-                            "obj": "Product",
+                            "id": 1,
+                            "obj": "Motion",
                             "span": {
-                                "begin": 49,
-                                "end": 56
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 54,
-                                "end": 56
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "seehin .製品"
-                    ],
-                    "ko_annotation_id": 6312,
-                    "text": "실제로, 예를 들어 우리가 개발하고 있는 반도체분야는, 연속적인 성능향상이 요구되므로, 설계되는 제품은 대부분 이론 한계치에 근사하게 설계된다.",
-                    "sent_id": 4174,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 6313",
-            "examples": [
-                {
-                    "frameName": "Manufacturing",
-                    "denotations": [
-                        {
-                            "obj": "Manufacturer",
-                            "span": {
-                                "begin": 5,
-                                "end": 8
-                            }
-                        },
-                        {
-                            "obj": "Depictive",
-                            "span": {
-                                "begin": 10,
-                                "end": 21
-                            }
-                        },
-                        {
-                            "obj": "Product",
-                            "span": {
-                                "begin": 22,
-                                "end": 24
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 22,
-                                "end": 24
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "seehin .製品"
-                    ],
-                    "ko_annotation_id": 6313,
-                    "text": "그런데, 상대방은 A+b+C로 이루어진 제품을 제조 판매하고 있습니다.",
-                    "sent_id": 4626,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.1526",
-            "examples": [
-                {
-                    "frameName": "Manufacturing",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 37,
+                                "end": 40
                             },
-                            "id": "1"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "돌며,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Area",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 31
+                            },
+                            "text": "조류의 흐름이 좋아 보이는 같은 곳을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 36
+                            },
+                            "text": "빙글빙글",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "제품에 흠집이 있다.",
-                    "target": "제품",
-                    "ko_annotation_id": "sejong.1526",
-                    "relations": []
+                    "sent_id": 3595,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "돌다.v.Motion",
+                    "text": "트롤링이라고는 해도 조류의 흐름이 좋아 보이는 같은 곳을 빙글빙글 돌며, 먹이에 물고기가 달려들기를 기다린다."
                 }
             ]
         }
-    ],
-    "frameID": 408,
-    "ko_pos": "NNG",
-    "ko_lu": "제품.n.Manufacturing",
-    "lu_id": 2003,
-    "en_lus": [
-        "seehin .製品"
     ]
 }

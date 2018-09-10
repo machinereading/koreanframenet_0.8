@@ -1,60 +1,82 @@
 {
-    "frameName": "Process",
+    "ko_pos": "v",
+    "ko_lu": "고갈되다.v.Preventing_or_letting",
+    "frameID": 516,
+    "frameName": "Preventing_or_letting",
+    "en_lus": [
+        "starve"
+    ],
+    "lu_id": 3659,
     "patterns": [
         {
-            "valenceText": "annotation id: 12545",
+            "valenceText": "annotation id: 12505",
             "examples": [
                 {
-                    "frameName": "Process",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 14,
-                                "end": 16
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "process"
+                        "starved"
                     ],
-                    "ko_annotation_id": 12545,
-                    "text": "나는 Hamas가 정치적 교섭에 합류할 준비가 되었지만, 정치적 대가에 대한 유일한 대가라면  Hamas와 싸워야 하고, 그것이 그들이 Abu Mazen가 하도록 요구하는 것이라면, 그들은 그가 실패할 것이라고 명령하는 것과 같다고  생각한다.",
-                    "sent_id": 1800,
-                    "relations": [],
-                    "annotation_id": 8714
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.1444",
-            "examples": [
-                {
-                    "frameName": "Process",
+                    "ko_annotation_id": 12505,
+                    "annotation_id": 628,
+                    "frameName": "Preventing_or_letting",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Preventing_or_letting",
                             "span": {
-                                "begin": 17,
-                                "end": 19
+                                "begin": 12,
+                                "end": 15
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "고갈된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "State_Of_Affairs",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "text": "돈이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Protagonist",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 23
+                            },
+                            "text": "공공 서비스에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "기업 등 고객은 개별적인 금리 교섭을 통해 가장 유리한 금융기관을 선택하게 될 것이다.",
-                    "target": "교섭",
-                    "ko_annotation_id": "sejong.1444",
-                    "relations": []
+                    "sent_id": 95,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "고갈되다.v.Preventing_or_letting",
+                    "text": "그는 6년 동안 돈이 고갈된 공공 서비스에 자금을 이용할 수 있도록, 공공 보조금과 전용을 더 줄이기 위해 노력할 수 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 233,
-    "ko_pos": "NNG",
-    "ko_lu": "교섭.n.Process",
-    "lu_id": 3659,
-    "en_lus": [
-        "process"
     ]
 }

@@ -1,60 +1,63 @@
 {
-    "frameName": "Vehicle",
+    "ko_pos": "n",
+    "ko_lu": "오야마.n.Natural_features",
+    "frameID": 191,
+    "frameName": "Natural_features",
+    "en_lus": [
+        "koyama .小山 "
+    ],
+    "lu_id": 1272,
     "patterns": [
         {
-            "valenceText": "annotation id: 3949",
+            "valenceText": "annotation id: 10694",
             "examples": [
                 {
-                    "frameName": "Vehicle",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 26,
-                                "end": 28
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "ships"
+                        "koyama .小山 "
                     ],
-                    "ko_annotation_id": 3949,
-                    "text": "과학 박물관 ( 페이지 55 참조 ) 은 고대 범선에서부터 최신 기술까지 모든 것과 어떤 것이나 어떻게 작용하는지를 가르치는 최첨단의 쌍방향 박물관이다.",
-                    "sent_id": 1169,
-                    "relations": [],
-                    "annotation_id": 6120
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.45602",
-            "examples": [
-                {
-                    "frameName": "Vehicle",
+                    "ko_annotation_id": 10694,
+                    "annotation_id": 0,
+                    "frameName": "Natural_features",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Natural_features",
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 3,
+                                "end": 6
                             },
-                            "id": "1"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "오야마"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Locale",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 6
+                            },
+                            "text": "오야마",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "우리들은 결국 범선을 타고 가기로 했다.",
-                    "target": "범선",
-                    "ko_annotation_id": "sejong.45602",
-                    "relations": []
+                    "sent_id": 3951,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "오야마.n.Natural_features",
+                    "text": "「저 오야마 산기슭에 보이는 것이 왜관입니다」 기자부로가 가리켰다."
                 }
             ]
         }
-    ],
-    "frameID": 429,
-    "ko_pos": "NNG",
-    "ko_lu": "범선.n.Vehicle",
-    "lu_id": 1272,
-    "en_lus": [
-        "ship"
     ]
 }

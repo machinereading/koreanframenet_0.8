@@ -1,52 +1,65 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "n",
+    "ko_lu": "여인.n.People",
+    "frameID": 304,
+    "frameName": "People",
+    "en_lus": [
+        "woman"
+    ],
+    "lu_id": 3677,
     "patterns": [
         {
-            "valenceText": "annotation id: 12575",
+            "valenceText": "annotation id: 12532",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "woman"
+                    ],
+                    "ko_annotation_id": 12532,
+                    "annotation_id": 733,
+                    "frameName": "People",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "People",
                             "span": {
-                                "begin": 26,
-                                "end": 28
+                                "begin": 13,
+                                "end": 16
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "여인은"
                         },
                         {
-                            "obj": "figures",
+                            "id": 2,
+                            "obj": "Descriptor",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 43
+                                "begin": 0,
+                                "end": 10
                             },
-                            "id": "2"
+                            "text": "어느 3층 아파트의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "offshore"
-                    ],
-                    "ko_annotation_id": 12575,
-                    "text": "많은 사람들이 그들의 출생지를 떠나야 했으며, 연안의 그리스가 통치하는 섬들인 Lesvos, Chios, 그리고 Samos로 도망쳤다.",
-                    "sent_id": 596,
+                    "sent_id": 123,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3166
+                    "lu": "여인.n.People",
+                    "text": "어느 3층 아파트의 한 여인은 지진 발생 후 3층의 창문에서 나와 거리를 걸을 수 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "NNG",
-    "ko_lu": "연안.n.Locative_relation",
-    "lu_id": 3677,
-    "en_lus": [
-        "offshore"
     ]
 }

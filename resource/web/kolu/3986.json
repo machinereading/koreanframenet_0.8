@@ -1,52 +1,83 @@
 {
-    "frameName": "Secrecy_status",
+    "ko_pos": "v",
+    "ko_lu": "상대하다.v.Resolve_problem",
+    "frameID": 1523,
+    "frameName": "Resolve_problem",
+    "en_lus": [
+        "deal"
+    ],
+    "lu_id": 3986,
     "patterns": [
         {
-            "valenceText": "annotation id: 13570",
+            "valenceText": "annotation id: 14699",
             "examples": [
                 {
-                    "frameName": "Secrecy_status",
+                    "origin_lus": [
+                        "dealing"
+                    ],
+                    "ko_annotation_id": 14699,
+                    "annotation_id": 12070,
+                    "frameName": "Resolve_problem",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Resolve_problem",
                             "span": {
-                                "begin": 31,
-                                "end": 33
+                                "begin": 62,
+                                "end": 66
                             },
-                            "id": "1"
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "상대함에"
                         },
                         {
-                            "obj": "phenomenon",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                11
+                            ],
                             "span": {
-                                "begin": 35,
-                                "end": 44
+                                "begin": 44,
+                                "end": 47
                             },
-                            "id": "2"
+                            "text": "미국이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Problem",
+                            "token_span": [
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 61
+                            },
+                            "text": "지역적 위협으로서 이란과",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "concealed"
-                    ],
-                    "ko_annotation_id": 13570,
-                    "text": "이란의 강한 생명 공학 및 제약 기반 시설을 고려하면, 숨겨진 생물무기 프로그램 개발을 기대하는 것은 어렵지 않다.",
-                    "sent_id": 2142,
+                    "sent_id": 2391,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10683
+                    "lu": "상대하다.v.Resolve_problem",
+                    "text": "이란의 능력 신장과 신형 기술 확보에 대한 지속적인 관심에 대한 정보보고서들은 미국이 지역적 위협으로서 이란과 상대함에 있어서 다른 방안들을 찾도록 이끌었다."
                 }
             ]
         }
-    ],
-    "frameID": 1145,
-    "ko_pos": "VV",
-    "ko_lu": "숨다.v.Secrecy_status",
-    "lu_id": 3986,
-    "en_lus": [
-        "conceal"
     ]
 }

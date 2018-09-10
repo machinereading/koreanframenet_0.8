@@ -1,52 +1,70 @@
 {
-    "frameName": "Position_on_a_scale",
+    "ko_pos": "v",
+    "ko_lu": "시험하다.v.Examination",
+    "frameID": 107,
+    "frameName": "Examination",
+    "en_lus": [
+        "test"
+    ],
+    "lu_id": 259,
     "patterns": [
         {
-            "valenceText": "annotation id: 747",
+            "valenceText": "annotation id: 8962",
             "examples": [
                 {
-                    "frameName": "Position_on_a_scale",
+                    "origin_lus": [
+                        "test"
+                    ],
+                    "ko_annotation_id": 8962,
+                    "annotation_id": 16472,
+                    "frameName": "Examination",
                     "denotations": [
                         {
-                            "obj": "item",
+                            "id": 1,
+                            "obj": "Examination",
                             "span": {
-                                "begin": 10,
-                                "end": 12
+                                "begin": 43,
+                                "end": 47
                             },
-                            "id": "2"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "시험하는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Knowledge",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 19
+                                "begin": 8,
+                                "end": 42
                             },
-                            "id": "1"
+                            "text": "대규모 양의 약과 치료가 얼마나 빨리 일반인들에게 배달되는가를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "lower"
-                    ],
-                    "ko_annotation_id": 747,
-                    "text": "그는 세율 삭감은 수익을 더 낮추는 것이 아니라 더 높인다는 사실을 인정하여, 부와 소득에서 세율을 더 감소시키도록 해야만 하였다.",
-                    "sent_id": 94,
+                    "sent_id": 3154,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 613
+                    "lu": "시험하다.v.Examination",
+                    "text": "훈련의 본질은 대규모 양의 약과 치료가 얼마나 빨리 일반인들에게 배달되는가를 시험하는 것이었다."
                 }
             ]
         }
-    ],
-    "frameID": 95,
-    "ko_pos": "VV",
-    "ko_lu": "낮추다.v.Position_on_a_scale",
-    "lu_id": 259,
-    "en_lus": [
-        "lower"
     ]
 }

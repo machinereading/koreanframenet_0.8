@@ -1,131 +1,110 @@
 {
-    "frameName": "Arriving",
+    "ko_pos": "v",
+    "ko_lu": "입증하다.v.Evidence",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "en_lus": [
+        "demonstrate"
+    ],
+    "lu_id": 2292,
     "patterns": [
         {
-            "valenceText": "annotation id: 7422",
+            "valenceText": "annotation id: 15704",
             "examples": [
                 {
-                    "frameName": "Arriving",
+                    "origin_lus": [
+                        "demonstrated"
+                    ],
+                    "ko_annotation_id": 15704,
+                    "annotation_id": 16867,
+                    "frameName": "Evidence",
                     "denotations": [
                         {
-                            "obj": "theme",
+                            "id": 1,
+                            "obj": "Evidence",
                             "span": {
-                                "begin": 42,
-                                "end": 54
+                                "begin": 58,
+                                "end": 63
                             },
-                            "id": "3"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "입증하였고"
                         },
                         {
-                            "obj": "goal",
+                            "id": 2,
+                            "obj": "Domain_Of_Relevance",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 56,
-                                "end": 65
+                                "begin": 0,
+                                "end": 12
                             },
-                            "id": "2"
+                            "text": "동물의 효험 연구에서,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Support",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 68,
-                                "end": 72
+                                "begin": 13,
+                                "end": 20
                             },
-                            "id": "1"
+                            "text": "Anthim은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Proposition",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 57
+                            },
+                            "text": "한 번의 예방 투여량으로 탄저병 포자의 도전에 대해 완전한 보호를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "returning"
-                    ],
-                    "ko_annotation_id": 7422,
-                    "text": "발칸 지역이 다시 한 번 전쟁으로 타오르면서, 그리스 민족주의는 흔들렸고, Macedonia 영토를 그의 조상들 집단에게 돌려주는 것에 관해 Kafeneion에서 토의해 왔다.",
-                    "sent_id": 617,
+                    "sent_id": 3216,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 3304
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.87659",
-            "examples": [
-                {
-                    "frameName": "Arriving",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 15,
-                                "end": 19
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "나는 철수에게서 꿔준 돈을 돌려받지 못하고 있다.",
-                    "target": "돌려받지",
-                    "ko_annotation_id": "sejong.87659",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.87660",
-            "examples": [
-                {
-                    "frameName": "Arriving",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 3,
-                                "end": 9
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "책을 돌려받으려고 했으나, 그 친구는 막무가내였다.",
-                    "target": "돌려받으려고",
-                    "ko_annotation_id": "sejong.87660",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.87661",
-            "examples": [
-                {
-                    "frameName": "Arriving",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 27,
-                                "end": 31
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그 당시 우리 민족은 일본에게 빼았겼던 자치권을 돌려받지 못한 상태였다.",
-                    "target": "돌려받지",
-                    "ko_annotation_id": "sejong.87661",
-                    "relations": []
+                    "lu": "입증하다.v.Evidence",
+                    "text": "동물의 효험 연구에서, Anthim은 한 번의 예방 투여량으로 탄저병 포자의 도전에 대해 완전한 보호를 입증하였고 치명적인 도전 후 최대 이틀 간의 투여 시 상당한 보호를 보여주었다. ( Pharmabiz.com, 06년 6월 26일 ) ( LINK )"
                 }
             ]
         }
-    ],
-    "frameID": 54,
-    "ko_pos": "VV",
-    "ko_lu": "돌려받다.v.Arriving",
-    "lu_id": 2292,
-    "en_lus": [
-        "return"
     ]
 }

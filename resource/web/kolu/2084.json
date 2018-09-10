@@ -1,88 +1,82 @@
 {
-    "frameName": "Speed_description",
+    "ko_pos": "v",
+    "ko_lu": "거론하다.v.Topic",
+    "frameID": 373,
+    "frameName": "Topic",
+    "en_lus": [
+        "address"
+    ],
+    "lu_id": 2084,
     "patterns": [
         {
-            "valenceText": "annotation id: 6620",
+            "valenceText": "annotation id: 9363",
             "examples": [
                 {
-                    "frameName": "Speed",
+                    "origin_lus": [
+                        "address"
+                    ],
+                    "ko_annotation_id": 9363,
+                    "annotation_id": 17468,
+                    "frameName": "Topic",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Topic",
                             "span": {
-                                "begin": 72,
-                                "end": 74
-                            }
+                                "begin": 60,
+                                "end": 64
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "거론하지"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 68,
-                                "end": 71
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "kyuugeki .急激 "
-                    ],
-                    "ko_annotation_id": 6620,
-                    "text": "마을이 전전의 작은 어촌에서, 양항을 끼고 있다는 점을 살려서, 대형 선박이 정박할 수 있는 원양어업의 기지로 탈바꿈하는 급격한 발전을 겪고 있을 무렵이었다.",
-                    "sent_id": 4775,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.101609",
-            "examples": [
-                {
-                    "frameName": "Speed_description",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 12,
-                                "end": 16
+                                "begin": 8,
+                                "end": 11
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "요새는 기후의 변화가 급격하다.",
-                    "target": "급격하다",
-                    "ko_annotation_id": "sejong.101609",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.101610",
-            "examples": [
-                {
-                    "frameName": "Speed_description",
-                    "denotations": [
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "id": "1",
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                11,
+                                12
+                            ],
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 52,
+                                "end": 59
                             },
-                            "obj": "target"
+                            "text": "카메라 위치를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "급격한 기후의 변화로 인해 마케팅에 차질이 생겨 버렸다.",
-                    "target": "급격한",
-                    "ko_annotation_id": "sejong.101610",
-                    "relations": []
+                    "sent_id": 3279,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "거론하다.v.Topic",
+                    "text": "이란으로서는, 이란이 기관의 카메라를 배치 못하게 하였다는 것을 오늘 부인하였으나, 명확하게 카메라 위치를 거론하지 않았다."
                 }
             ]
         }
-    ],
-    "frameID": 966,
-    "ko_pos": "VA",
-    "ko_lu": "급격하다.a.Speed_description",
-    "lu_id": 2084,
-    "en_lus": [
-        "kyuugeki .急激 "
     ]
 }

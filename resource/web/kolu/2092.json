@@ -1,92 +1,82 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "v",
+    "ko_lu": "끼다.v.Possession",
+    "frameID": 118,
+    "frameName": "Possession",
+    "en_lus": [
+        "yuusuru .有する"
+    ],
+    "lu_id": 2092,
     "patterns": [
         {
-            "valenceText": "annotation id: 17960",
+            "valenceText": "annotation id: 12009",
             "examples": [
                 {
-                    "frameName": "Leadership",
+                    "origin_lus": [
+                        "yuusuru .有する"
+                    ],
+                    "ko_annotation_id": 12009,
+                    "annotation_id": 0,
+                    "frameName": "Possession",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Possession",
                             "span": {
-                                "begin": 19,
-                                "end": 22
+                                "begin": 21,
+                                "end": 27
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "generals"
-                    ],
-                    "ko_annotation_id": 17960,
-                    "text": "알렉산더 사후, 그의 영토는 그의 장군들에게 분배되었다.",
-                    "sent_id": 543,
-                    "relations": [],
-                    "annotation_id": 2862
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 6635",
-            "examples": [
-                {
-                    "frameName": "Leadership",
-                    "denotations": [
-                        {
-                            "obj": "descriptor",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            },
-                            "id": "3"
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "끼고 있다는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Owner",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 7,
-                                "end": 9
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "1"
+                            "text": "마을이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "leader",
+                            "id": 3,
+                            "obj": "Possession",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 15
+                                "begin": 17,
+                                "end": 20
                             },
-                            "id": "2"
+                            "text": "양항을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "general"
-                    ],
-                    "ko_annotation_id": 6635,
-                    "text": "결국, 로마 장군 Titus는 서기 70년에 예루살렘을 포위하였고, 마침내 예루살렘의 굶주리고 허약해진 방어자들을 공격하였다.",
-                    "sent_id": 670,
+                    "sent_id": 4775,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3578
+                    "lu": "끼다.v.Possession",
+                    "text": "마을이 전전의 작은 어촌에서, 양항을 끼고 있다는 점을 살려서, 대형 선박이 정박할 수 있는 원양어업의 기지로 탈바꿈하는 급격한 발전을 겪고 있을 무렵이었다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "NNG",
-    "ko_lu": "장군.n.Leadership",
-    "lu_id": 2092,
-    "en_lus": [
-        "general",
-        "general"
     ]
 }

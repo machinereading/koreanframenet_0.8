@@ -1,73 +1,94 @@
 {
-    "frameName": "Bragging",
+    "ko_pos": "v",
+    "ko_lu": "확증하다.v.Evidence",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "en_lus": [
+        "corroborate"
+    ],
+    "lu_id": 3916,
     "patterns": [
         {
-            "valenceText": "annotation id: 13408",
+            "valenceText": "annotation id: 757",
             "examples": [
                 {
-                    "frameName": "Bragging",
-                    "denotations": [
-                        {
-                            "obj": "Speaker",
-                            "span": {
-                                "begin": 36,
-                                "end": 39
-                            }
-                        },
-                        {
-                            "obj": "Manner",
-                            "span": {
-                                "begin": 41,
-                                "end": 43
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 44,
-                                "end": 47
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "haba o kika seru .幅 を 利か せる"
+                        "corroborate"
                     ],
-                    "ko_annotation_id": 13408,
-                    "text": "신선란이 점차 사라지고, 홍콩에서 들어오는 건조란이 늘어나면서, 대용품이 점차 점유율을 높이게 되었다.",
-                    "sent_id": 4581,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.19960",
-            "examples": [
-                {
-                    "frameName": "Bragging",
+                    "ko_annotation_id": 757,
+                    "annotation_id": 1597,
+                    "frameName": "Evidence",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Evidence",
                             "span": {
-                                "begin": 14,
-                                "end": 17
+                                "begin": 49,
+                                "end": 53
                             },
-                            "id": "1"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "확증하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Proposition",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 48
+                            },
+                            "text": "민주당 의원들이 그들의 공화당 동료들보다 지역의 이익 추구에 더 개입한다는 핵심 가정을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Support",
+                            "token_span": [
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 62
+                            },
+                            "text": "세 가지 증거가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그 상품은 시장에서 높은 점유율을 보였다.",
-                    "target": "점유율",
-                    "ko_annotation_id": "sejong.19960",
-                    "relations": []
+                    "sent_id": 289,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "확증하다.v.Evidence",
+                    "text": "민주당 의원들이 그들의 공화당 동료들보다 지역의 이익 추구에 더 개입한다는 핵심 가정을 확증하는 세 가지 증거가 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1624,
-    "ko_pos": "NN",
-    "ko_lu": "점유율.n.Bragging",
-    "lu_id": 3916,
-    "en_lus": [
-        "haba o kika seru .幅 を 利か せる"
     ]
 }

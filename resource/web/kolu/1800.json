@@ -1,52 +1,121 @@
 {
-    "frameName": "Frequency",
+    "ko_pos": "v",
+    "ko_lu": "가져가다.v.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "tukeru .つける"
+    ],
+    "lu_id": 1800,
     "patterns": [
         {
-            "valenceText": "annotation id: 5658",
+            "valenceText": "annotation id: 11910",
             "examples": [
                 {
-                    "frameName": "Frequency",
+                    "origin_lus": [
+                        "tukeru .つける"
+                    ],
+                    "ko_annotation_id": 11910,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
                     "denotations": [
                         {
-                            "obj": "event",
+                            "id": 1,
+                            "obj": "Perception_active",
                             "span": {
-                                "begin": 9,
-                                "end": 19
+                                "begin": 28,
+                                "end": 33
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "가져갔다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "1"
+                            "text": "야베는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Means",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 14
+                            },
+                            "text": "찻잔을 손에 잡고,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 15,
+                                "end": 24
+                            },
+                            "text": "깊은 맛을 느끼며",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "text": "입을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "never"
-                    ],
-                    "ko_annotation_id": 5658,
-                    "text": "빈번하게 자신을 호텔에서 떼어낼 수 없는 유혹이 있다.",
-                    "sent_id": 934,
+                    "sent_id": 4706,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4840
+                    "lu": "가져가다.v.Perception_active",
+                    "text": "야베는 찻잔을 손에 잡고, 깊은 맛을 느끼며 입을 가져갔다."
                 }
             ]
         }
-    ],
-    "frameID": 80,
-    "ko_pos": "VA",
-    "ko_lu": "없다.a.Frequency",
-    "lu_id": 1800,
-    "en_lus": [
-        "never"
     ]
 }

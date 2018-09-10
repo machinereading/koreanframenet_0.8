@@ -1,135 +1,108 @@
 {
-    "frameName": "Causation",
+    "ko_pos": "v",
+    "ko_lu": "명령받다.v.Request",
+    "frameID": 41,
+    "frameName": "Request",
+    "en_lus": [
+        "order"
+    ],
+    "lu_id": 3864,
     "patterns": [
         {
-            "valenceText": "annotation id: 13202",
+            "valenceText": "annotation id: 2144",
             "examples": [
                 {
-                    "frameName": "Causation",
+                    "origin_lus": [
+                        "ordered"
+                    ],
+                    "ko_annotation_id": 2144,
+                    "annotation_id": 4283,
+                    "frameName": "Request",
                     "denotations": [
                         {
-                            "obj": "time",
+                            "id": 1,
+                            "obj": "Request",
+                            "span": {
+                                "begin": 46,
+                                "end": 54
+                            },
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "명령을 받았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "몇 주 후에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Message",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
                                 "begin": 10,
-                                "end": 18
+                                "end": 34
                             },
-                            "id": "5"
-                        },
-                        {
-                            "obj": "cause",
-                            "span": {
-                                "begin": 21,
-                                "end": 31
-                            },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "affected",
-                            "span": {
-                                "begin": 33,
-                                "end": 35
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "effect",
-                            "span": {
-                                "begin": 56,
-                                "end": 62
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 58,
-                                "end": 62
-                            },
-                            "id": "1"
+                            "text": "돈을 많이 쓰는 사람들을 위해 방을 비우도록",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "make"
-                    ],
-                    "ko_annotation_id": 13202,
-                    "text": "대부분의 주에서는 우리의 현 상황에서 증가하는 교육 비용이 상황을 더 좋게 하는 것이 아니라 아마도 더 악화시킬 것이다.",
-                    "sent_id": 239,
+                    "sent_id": 825,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "5",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1295
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.53214",
-            "examples": [
-                {
-                    "frameName": "Causation",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 14,
-                                "end": 19
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "아버지의 식습관이 당뇨를 악화시켰다.",
-                    "target": "악화시켰다",
-                    "ko_annotation_id": "sejong.53214",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.53215",
-            "examples": [
-                {
-                    "frameName": "Causation",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 14,
-                                "end": 19
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "장관의 발언은 대북관계를 악화시켰다.",
-                    "target": "악화시켰다",
-                    "ko_annotation_id": "sejong.53215",
-                    "relations": []
+                    "lu": "명령받다.v.Request",
+                    "text": "몇 주 후에 그는 돈을 많이 쓰는 사람들을 위해 방을 비우도록 요청받았고 그런 후 명령을 받았다. 그래서 그는 즉시 그 건물을 사고 관리자를 해고시켰다."
                 }
             ]
         }
-    ],
-    "frameID": 5,
-    "ko_pos": "VV",
-    "ko_lu": "악화시키다.v.Causation",
-    "lu_id": 3864,
-    "en_lus": [
-        "make"
     ]
 }

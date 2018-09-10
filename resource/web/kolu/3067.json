@@ -1,38 +1,87 @@
 {
-    "frameName": "Calendric_unit",
+    "ko_pos": "a",
+    "ko_lu": "좋다.a.Importance",
+    "frameID": 407,
+    "frameName": "Importance",
+    "en_lus": [
+        "major"
+    ],
+    "lu_id": 3067,
     "patterns": [
         {
-            "valenceText": "annotation id: 10206",
+            "valenceText": "annotation id: 13516",
             "examples": [
                 {
-                    "frameName": "Calendric_unit",
+                    "origin_lus": [
+                        "major"
+                    ],
+                    "ko_annotation_id": 13516,
+                    "annotation_id": 6035,
+                    "frameName": "Importance",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Importance",
                             "span": {
-                                "begin": 30,
-                                "end": 32
+                                "begin": 57,
+                                "end": 59
                             },
-                            "id": "1"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "좋은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Undertaking",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 56
+                            },
+                            "text": "의류와 다른 상품들을 싸게 구입할 수 있는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Factor",
+                            "token_span": [
+                                18
+                            ],
+                            "span": {
+                                "begin": 60,
+                                "end": 64
+                            },
+                            "text": "곳이다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "evening"
+                    "sent_id": 1150,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 10206,
-                    "text": "오전 5시 9분 JROE : 선셋 { 구역 }은 거의 밤새 노는 파티와 같았고, 많은 사람과 앰프; 개들은 이리저리 걸어다니고, 맥주를 마시고.",
-                    "sent_id": 162,
-                    "relations": [],
-                    "annotation_id": 930
+                    "lu": "좋다.a.Importance",
+                    "text": "잘 알려진 Stanley 시장 ( 페이지 55 참조 ) 은 의류와 다른 상품들을 싸게 구입할 수 있는 좋은 곳이다."
                 }
             ]
         }
-    ],
-    "frameID": 229,
-    "ko_pos": "NNG",
-    "ko_lu": "밤새.n.Calendric_unit",
-    "lu_id": 3067,
-    "en_lus": [
-        "even"
     ]
 }

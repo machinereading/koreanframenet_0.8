@@ -1,92 +1,63 @@
 {
-    "frameName": "Aggregate",
+    "ko_pos": "v",
+    "ko_lu": "살다.v.Shopping",
+    "frameID": 1882,
+    "frameName": "Shopping",
+    "en_lus": [
+        "kaimono .買い物 "
+    ],
+    "lu_id": 5016,
     "patterns": [
         {
-            "valenceText": "annotation id: 17660",
+            "valenceText": "annotation id: 10439",
             "examples": [
                 {
-                    "frameName": "Aggregate",
+                    "origin_lus": [
+                        "kaimono .買い物 "
+                    ],
+                    "ko_annotation_id": 10439,
+                    "annotation_id": 0,
+                    "frameName": "Shopping",
                     "denotations": [
                         {
-                            "obj": "individuals",
+                            "id": 1,
+                            "obj": "Shopping",
                             "span": {
-                                "begin": 9,
-                                "end": 28
+                                "begin": 28,
+                                "end": 29
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "산"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Degree",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 33
+                                "begin": 24,
+                                "end": 27
                             },
-                            "id": "1"
+                            "text": "얼마나",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "collection"
-                    ],
-                    "ko_annotation_id": 17660,
-                    "text": "공원의 동물원은 신기하고 멋진 재잘거리는 정글 새들의 집합장이다.",
-                    "sent_id": 1090,
+                    "sent_id": 3739,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5690
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 17661",
-            "examples": [
-                {
-                    "frameName": "Aggregate",
-                    "denotations": [
-                        {
-                            "obj": "individuals",
-                            "span": {
-                                "begin": 42,
-                                "end": 57
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 59,
-                                "end": 62
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "collection"
-                    ],
-                    "ko_annotation_id": 17661,
-                    "text": "서부 구역은 홍콩의 가장 오래된 지역 중의 하나이고, 이곳의 좁은 거리들은 매력적인 전통 가게와 기업들의 집합장이다.",
-                    "sent_id": 1091,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 5701
+                    "lu": "살다.v.Shopping",
+                    "text": "그것은, 계산이 잘못된 것은 아닌지, 과연 얼마나 산 것인지, 신경이 쓰이기 때문입니다."
                 }
             ]
         }
-    ],
-    "frameID": 103,
-    "ko_pos": "NN",
-    "ko_lu": "집합장.n.Aggregate",
-    "lu_id": 5016,
-    "en_lus": [
-        "collection"
     ]
 }

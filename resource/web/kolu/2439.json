@@ -1,51 +1,159 @@
 {
-    "frameName": "Color",
+    "ko_pos": "v",
+    "ko_lu": "대체하다.v.Take_place_of",
+    "frameID": 1171,
+    "frameName": "Take_place_of",
+    "en_lus": [
+        "replacing",
+        "replace"
+    ],
+    "lu_id": 2439,
     "patterns": [
         {
-            "valenceText": "annotation id: 7994",
+            "valenceText": "annotation id: 2663",
             "examples": [
                 {
-                    "frameName": "Color",
+                    "origin_lus": [
+                        "replaced",
+                        "replacing"
+                    ],
+                    "ko_annotation_id": 2663,
+                    "annotation_id": 5186,
+                    "frameName": "Take_place_of",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Take_place_of",
                             "span": {
-                                "begin": 21,
-                                "end": 31
-                            }
+                                "begin": 15,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "대체하였다"
                         },
                         {
-                            "obj": "Cause",
+                            "id": 2,
+                            "obj": "New",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 33,
-                                "end": 36
-                            }
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "커피는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Old",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 38,
-                                "end": 44
-                            }
+                                "begin": 4,
+                                "end": 14
+                            },
+                            "text": "어디에나 있는 차를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "akai .赤い"
+                    "sent_id": 989,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7994,
-                    "text": "「하지만…이런 곳에 오시다니」 하며, 잠옷 차림의 사토코는 당혹감에 얼굴을 붉혔다.",
-                    "sent_id": 3790,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "대체하다.v.Take_place_of",
+                    "text": "커피는 어디에나 있는 차를 대체하였다 -- 더블린은 지금 거의 비엔나나 시애틀과 같은 수준의 커피 도시이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13478",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "replaced",
+                        "replacing"
+                    ],
+                    "ko_annotation_id": 13478,
+                    "annotation_id": 5832,
+                    "frameName": "Take_place_of",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Take_place_of",
+                            "span": {
+                                "begin": 63,
+                                "end": 67
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "대체하고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "New",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 48
+                            },
+                            "text": "사무실 타워들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Old",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 49,
+                                "end": 62
+                            },
+                            "text": "많은 사악한 옛 지역들을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1115,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "대체하다.v.Take_place_of",
+                    "text": "여기에는 아직도 바와 클럽들이 있으나, 그 지역은 거의 주류가 되었고, 사무실 타워들이 많은 사악한 옛 지역들을 대체하고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 423,
-    "ko_pos": "NNG",
-    "ko_lu": "얼굴.n.Color",
-    "lu_id": 2439,
-    "en_lus": [
-        "akai .赤い"
     ]
 }

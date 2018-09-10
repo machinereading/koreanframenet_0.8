@@ -1,87 +1,157 @@
 {
-    "frameName": "Choosing",
+    "ko_pos": "v",
+    "ko_lu": "변하다.v.Cause_change",
+    "frameID": 683,
+    "frameName": "Cause_change",
+    "en_lus": [
+        "transform",
+        "turn"
+    ],
+    "lu_id": 1423,
     "patterns": [
         {
-            "valenceText": "annotation id: 4570",
+            "valenceText": "annotation id: 2580",
             "examples": [
                 {
-                    "frameName": "Choosing",
+                    "origin_lus": [
+                        "transform"
+                    ],
+                    "ko_annotation_id": 2580,
+                    "annotation_id": 5073,
+                    "frameName": "Cause_change",
                     "denotations": [
                         {
-                            "obj": "possibilities",
+                            "id": 1,
+                            "obj": "Cause_change",
                             "span": {
-                                "begin": 21,
-                                "end": 39
+                                "begin": 11,
+                                "end": 14
                             },
-                            "id": "3"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "변하는"
                         },
                         {
-                            "obj": "cognizer",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 41,
-                                "end": 42
+                                "begin": 0,
+                                "end": 4
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 44,
-                                "end": 47
-                            },
-                            "id": "1"
+                            "text": "건물들은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "decide"
-                    ],
-                    "ko_annotation_id": 4570,
-                    "text": "나의 집은 지주로 떠받쳐있기 때문에, Marin에 있는 집으로 가야 할지 나는 결정할 수 없었다.",
-                    "sent_id": 131,
+                    "sent_id": 974,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 770
+                    "lu": "변하다.v.Cause_change",
+                    "text": "건물들은 빛에 따라 변하는 것처럼 보인다 ; 낮은 하늘 아래의 더블린은 맑은 날씨에서의 더블린과 다른 곳이다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.97828",
+            "valenceText": "annotation id: 13424",
             "examples": [
                 {
-                    "frameName": "Choosing",
+                    "origin_lus": [
+                        "turned"
+                    ],
+                    "ko_annotation_id": 13424,
+                    "annotation_id": 5546,
+                    "frameName": "Cause_change",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Cause_change",
                             "span": {
-                                "begin": 3,
-                                "end": 7
+                                "begin": 34,
+                                "end": 38
                             },
-                            "obj": "target"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "변하였고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "제2차 세계대전 중,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 17
+                            },
+                            "text": "그 교회는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Final_Category",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 33
+                            },
+                            "text": "일본 장교들을 위한 클럽으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "방을 결정하게 치워 놓아라.",
-                    "target": "결정하게",
-                    "ko_annotation_id": "sejong.97828",
-                    "relations": []
+                    "sent_id": 1061,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "변하다.v.Cause_change",
+                    "text": "제2차 세계대전 중, 그 교회는 일본 장교들을 위한 클럽으로 변하였고 ; 그것은 전쟁 후에 복원되었다."
                 }
             ]
         }
-    ],
-    "frameID": 352,
-    "ko_pos": "VA",
-    "ko_lu": "결정하다.a.Choosing",
-    "lu_id": 1423,
-    "en_lus": [
-        "decide"
     ]
 }

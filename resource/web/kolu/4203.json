@@ -1,44 +1,63 @@
 {
-    "frameName": "Position_on_a_scale",
+    "ko_pos": "n",
+    "ko_lu": "인물.n.People",
+    "frameID": 304,
+    "frameName": "People",
+    "en_lus": [
+        "zinbutu .人物"
+    ],
+    "lu_id": 4203,
     "patterns": [
         {
-            "valenceText": "annotation id: 14459",
+            "valenceText": "annotation id: 10334",
             "examples": [
                 {
-                    "frameName": "Position_on_a_scale",
+                    "origin_lus": [
+                        "zinbutu .人物"
+                    ],
+                    "ko_annotation_id": 10334,
+                    "annotation_id": 0,
+                    "frameName": "People",
                     "denotations": [
                         {
-                            "obj": "Item",
+                            "id": 1,
+                            "obj": "People",
                             "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 2,
+                                "end": 5
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "인물에"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 23
-                            }
+                                "begin": 2,
+                                "end": 5
+                            },
+                            "text": "인물에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "koodo .高度"
+                    "sent_id": 3671,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 14459,
-                    "text": "포스트 산업주의 사회에서는, 지식이 고도화, 복합화, 유동화하여, 지식이 자본으로서 기능하기 때문입니다.",
-                    "sent_id": 4182,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "인물.n.People",
+                    "text": "이 인물에 대해서도, 당신은 꽤나 낮은 평가를 하고 있군요."
                 }
             ]
         }
-    ],
-    "frameID": 95,
-    "ko_pos": "NN",
-    "ko_lu": "고도화.n.Position_on_a_scale",
-    "lu_id": 4203,
-    "en_lus": [
-        "koodo .高度"
     ]
 }

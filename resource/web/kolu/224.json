@@ -1,44 +1,156 @@
 {
-    "frameName": "Vehicle",
+    "ko_pos": "v",
+    "ko_lu": "제출되다.v.Submitting_documents",
+    "frameID": 1521,
+    "frameName": "Submitting_documents",
+    "en_lus": [
+        "submit"
+    ],
+    "lu_id": 224,
     "patterns": [
         {
-            "valenceText": "annotation id: 674",
+            "valenceText": "annotation id: 4445",
             "examples": [
                 {
-                    "frameName": "Vehicle",
+                    "origin_lus": [
+                        "submitted"
+                    ],
+                    "ko_annotation_id": 4445,
+                    "annotation_id": 8106,
+                    "frameName": "Submitting_documents",
                     "denotations": [
                         {
-                            "obj": "Vehicle",
+                            "id": 1,
+                            "obj": "Submitting_documents",
                             "span": {
-                                "begin": 36,
-                                "end": 50
-                            }
+                                "begin": 37,
+                                "end": 40
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "제출된"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Documents",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 48,
-                                "end": 50
-                            }
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "요청은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 36
+                            },
+                            "text": "지시된 대로 시기 적절한 방법으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "zyanbo zietto .ジャンボ ジェット "
+                    "sent_id": 1652,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 674,
-                    "text": "한편, 정기항공에서 사용되는 기재는, 수십 명이 타는 비행기부터 최대 568명이 타는 점보제트 (최대이륙중량은 38만 킬로그램/380톤 전후.)까지로, 최대이륙중량이 5.7톤을 넘는 크기의 비행기를 조종하기 위해서는, 이런 라이선스로는 아직 부족해, 비행기마다 독자적인 라이선스를 취득하지 않으면 안된다.",
-                    "sent_id": 3808,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "제출되다.v.Submitting_documents",
+                    "text": "요청은 특별한 경우를 제외하고, 지시된 대로 시기 적절한 방법으로 제출된 경우에만 고려될 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 15179",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "submitted"
+                    ],
+                    "ko_annotation_id": 15179,
+                    "annotation_id": 14220,
+                    "frameName": "Submitting_documents",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Submitting_documents",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "제출된"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 12
+                            },
+                            "text": "1992년에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Documents",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 27
+                            },
+                            "text": "북한의 최초 선언의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2808,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "제출되다.v.Submitting_documents",
+                    "text": "IAEA는 1992년에 제출된 북한의 최초 선언의 완전성과 정확성을 입증할 수 없었고, 그 단체는 핵분열성 물질이 군사 용도로 전환되었는지 입증할 수 없게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 429,
-    "ko_pos": "NNG",
-    "ko_lu": "점보.n.Vehicle",
-    "lu_id": 224,
-    "en_lus": [
-        "zyanbo zietto .ジャンボ ジェット "
     ]
 }

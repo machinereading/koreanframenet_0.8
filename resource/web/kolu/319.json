@@ -1,52 +1,86 @@
 {
-    "frameName": "Stinginess",
+    "ko_pos": "n",
+    "ko_lu": "월.n.Temporal_collocation",
+    "frameID": 1895,
+    "frameName": "Temporal_collocation",
+    "en_lus": [
+        "in"
+    ],
+    "lu_id": 319,
     "patterns": [
         {
-            "valenceText": "annotation id: 859",
+            "valenceText": "annotation id: 17278",
             "examples": [
                 {
-                    "frameName": "Stinginess",
+                    "origin_lus": [
+                        "in"
+                    ],
+                    "ko_annotation_id": 17278,
+                    "annotation_id": 17131,
+                    "frameName": "Temporal_collocation",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Temporal_collocation",
                             "span": {
                                 "begin": 13,
                                 "end": 15
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "4월"
                         },
                         {
-                            "obj": "resource",
+                            "id": 2,
+                            "obj": "Landmark_Period",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 15
+                            },
+                            "text": "지난 해 4월",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Trajector_Event",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
                                 "begin": 16,
-                                "end": 18
+                                "end": 34
                             },
-                            "id": "2"
+                            "text": "협약은 유엔 총회에서 채택되었다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "generous"
-                    ],
-                    "ko_annotation_id": 859,
-                    "text": "오늘 Goodwill에 후한 기부를 하기 위해 동봉한 봉투를 사용하세요 !",
-                    "sent_id": 357,
+                    "sent_id": 3245,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 1920
+                    "lu": "월.n.Temporal_collocation",
+                    "text": "러시아 주도로 지난 해 4월 협약은 유엔 총회에서 채택되었다."
                 }
             ]
         }
-    ],
-    "frameID": 724,
-    "ko_pos": "VA",
-    "ko_lu": "후하다.a.Stinginess",
-    "lu_id": 319,
-    "en_lus": [
-        "generous"
     ]
 }

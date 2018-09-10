@@ -1,52 +1,116 @@
 {
-    "frameName": "Hunting",
+    "ko_pos": "n",
+    "ko_lu": "장애.n.Medical_conditions",
+    "frameID": 239,
+    "frameName": "Medical_conditions",
+    "en_lus": [
+        "syoogai .障害 "
+    ],
+    "lu_id": 908,
     "patterns": [
         {
-            "valenceText": "annotation id: 2697",
+            "valenceText": "annotation id: 11011",
             "examples": [
                 {
-                    "frameName": "Hunting",
+                    "origin_lus": [
+                        "syoogai .障害 "
+                    ],
+                    "ko_annotation_id": 11011,
+                    "annotation_id": 0,
+                    "frameName": "Medical_conditions",
                     "denotations": [
                         {
-                            "obj": "hunter",
+                            "id": 1,
+                            "obj": "Medical_conditions",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 48,
+                                "end": 50
                             },
-                            "id": "2"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "장애"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Symptom",
+                            "token_span": [
+                                13
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 15
+                                "begin": 48,
+                                "end": 50
                             },
-                            "id": "1"
+                            "text": "장애",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "fished"
-                    ],
-                    "ko_annotation_id": 2697,
-                    "text": "사람들은 경작하고 고기를 잡았으며 ; 기원 전 2700년의 청동기시대의 시작에서 그들은 금속으로 작업을 하기 시작하였다.",
-                    "sent_id": 501,
+                    "sent_id": 4112,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2645
+                    "lu": "장애.n.Medical_conditions",
+                    "text": "각지에 「뇌 외상 친우회」 및 관련 단체가 결성되어 가는 가운데, 가족 단체의 권고로 장애 연금, 장애인 수첩의 취득률도 오르고 있어, 작년의 해당 단체의 조사에 따르면, 장애인 수첩을 가지고 있지 않은 사람은 약 20%로 나타났다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12359",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "syoogai .障害 "
+                    ],
+                    "ko_annotation_id": 12359,
+                    "annotation_id": 0,
+                    "frameName": "Medical_conditions",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Medical_conditions",
+                            "span": {
+                                "begin": 11,
+                                "end": 13
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "장애"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Name",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 13
+                            },
+                            "text": "경도 발달 장애",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4994,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "장애.n.Medical_conditions",
+                    "text": "하지만, 경도 발달 장애 자체에 대한 이해가 충분하지 못한 현장의 경우에는, 전체적인 이해력 향상을 위해 워크숍이나 세미나 등을 여는 것부터 시작할 필요가 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 2006,
-    "ko_pos": "NNG",
-    "ko_lu": "고기잡이.n.Hunting",
-    "lu_id": 908,
-    "en_lus": [
-        "fish"
     ]
 }

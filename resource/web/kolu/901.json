@@ -1,64 +1,175 @@
 {
-    "frameName": "Military",
+    "ko_pos": "v",
+    "ko_lu": "앉다.v.Posture",
+    "frameID": 18,
+    "frameName": "Posture",
+    "en_lus": [
+        "sit",
+        "sat"
+    ],
+    "lu_id": 901,
     "patterns": [
         {
-            "valenceText": "annotation id: 2686",
+            "valenceText": "annotation id: 3221",
             "examples": [
                 {
-                    "frameName": "Military",
+                    "origin_lus": [
+                        "sitting"
+                    ],
+                    "ko_annotation_id": 3221,
+                    "annotation_id": 6158,
+                    "frameName": "Posture",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Posture",
                             "span": {
-                                "begin": 62,
-                                "end": 64
+                                "begin": 8,
+                                "end": 11
                             },
-                            "id": "1"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "앉았던"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Location",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 11
+                            },
+                            "text": "John 옆에 앉았던",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 18
+                            },
+                            "text": "Steve는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Air Force"
+                    "sent_id": 1180,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2686,
-                    "text": "Sineva라 명명된, 개량된 SS-N-23의 변형을 생산하기 시작할 계획이 또한 있고, 전해지는 바에 의하면 공군은 신형 전략 순항 미사일을 수령하기 시작하였다.",
-                    "sent_id": 3010,
-                    "relations": [],
-                    "annotation_id": 15512
+                    "lu": "앉다.v.Posture",
+                    "text": "John 옆에 앉았던 Steve는 로마에서 내렸다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 2687",
+            "valenceText": "annotation id: 9394",
             "examples": [
                 {
-                    "frameName": "Military",
+                    "origin_lus": [
+                        "sat"
+                    ],
+                    "ko_annotation_id": 9394,
+                    "annotation_id": 17562,
+                    "frameName": "Posture",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Posture",
                             "span": {
-                                "begin": 50,
-                                "end": 52
+                                "begin": 31,
+                                "end": 35
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "앉았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "원탁 한쪽에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Depictive",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 26
+                            },
+                            "text": "나를 향해 그들의 옆모습을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Air Force"
+                    "sent_id": 3295,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2687,
-                    "text": "북쪽에 있는 라스 베이거스 Aerial Gunnery School ( 이것은 Nellis 공군기지 및 네바다 시험장이 되었음 ) 과 Henderson 인근 타운의 Basic Magnesium은 모두 미국의 전쟁에서의 수고의 결과로 1940대 초에 세워졌다.",
-                    "sent_id": 800,
-                    "relations": [],
-                    "annotation_id": 4183
+                    "lu": "앉다.v.Posture",
+                    "text": "그들은 원탁 한쪽에서 나를 향해 그들의 옆모습을 보인채 앉았다."
                 }
             ]
         }
-    ],
-    "frameID": 1514,
-    "ko_pos": "NNG",
-    "ko_lu": "공군.n.Military",
-    "lu_id": 901,
-    "en_lus": [
-        "Air Force"
     ]
 }

@@ -1,60 +1,63 @@
 {
-    "frameName": "Sensation",
+    "ko_pos": "n",
+    "ko_lu": "자본.n.Money",
+    "frameID": 1761,
+    "frameName": "Money",
+    "en_lus": [
+        "sihon .資本 "
+    ],
+    "lu_id": 532,
     "patterns": [
         {
-            "valenceText": "annotation id: 1480",
+            "valenceText": "annotation id: 11093",
             "examples": [
                 {
-                    "frameName": "Sensation",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 25,
-                                "end": 27
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "incense"
+                        "sihon .資本 "
                     ],
-                    "ko_annotation_id": 1480,
-                    "text": "사원으로 들어가는 방문객들은 모든 타고 있는 선향과 천정으로부터 매달린 향 고리에서 나오는 짙은 자욱한 연기를 만난다 ( 이들은 한 달 동안 탈 것이다 ).",
-                    "sent_id": 1104,
-                    "relations": [],
-                    "annotation_id": 5778
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.24084",
-            "examples": [
-                {
-                    "frameName": "Sensation",
+                    "ko_annotation_id": 11093,
+                    "annotation_id": 0,
+                    "frameName": "Money",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Money",
                             "span": {
-                                "begin": 7,
-                                "end": 9
+                                "begin": 41,
+                                "end": 46
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "자본으로서"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Money",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 46
+                            },
+                            "text": "자본으로서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 향로에 선향을 피우고 제를 지낼 준비를 했다.",
-                    "target": "선향",
-                    "ko_annotation_id": "sejong.24084",
-                    "relations": []
+                    "sent_id": 4182,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "자본.n.Money",
+                    "text": "포스트 산업주의 사회에서는, 지식이 고도화, 복합화, 유동화하여, 지식이 자본으로서 기능하기 때문입니다."
                 }
             ]
         }
-    ],
-    "frameID": 71,
-    "ko_pos": "NNG",
-    "ko_lu": "선향.n.Sensation",
-    "lu_id": 532,
-    "en_lus": [
-        "incense"
     ]
 }

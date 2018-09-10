@@ -1,51 +1,86 @@
 {
-    "frameName": "Experience_bodily_harm",
+    "ko_pos": "v",
+    "ko_lu": "확인하다.v.Certainty",
+    "frameID": 141,
+    "frameName": "Certainty",
+    "en_lus": [
+        "certain"
+    ],
+    "lu_id": 4395,
     "patterns": [
         {
-            "valenceText": "annotation id: 15242",
+            "valenceText": "annotation id: 609",
             "examples": [
                 {
-                    "frameName": "Experience_bodily_harm",
+                    "origin_lus": [
+                        "certain"
+                    ],
+                    "ko_annotation_id": 609,
+                    "annotation_id": 1261,
+                    "frameName": "Certainty",
                     "denotations": [
                         {
-                            "obj": "Manner",
+                            "id": 1,
+                            "obj": "Certainty",
+                            "span": {
+                                "begin": 61,
+                                "end": 65
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "확인해야"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
                                 "end": 3
-                            }
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Experiencer",
+                            "id": 3,
+                            "obj": "Content",
+                            "token_span": [
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 20
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 5,
-                                "end": 8
-                            }
+                                "begin": 36,
+                                "end": 60
+                            },
+                            "text": "아이들이 숙제를 하는데 충분한 시간을 쓰는지",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hiyake .日焼け "
+                    "sent_id": 233,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15242,
-                    "text": "새까맣게 그을린 날렵한 몸을 한 그들에게, 흰 샅바가 멋들어지게 어울려 부러움을 느꼈다.",
-                    "sent_id": 4589,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "확인하다.v.Certainty",
+                    "text": "그들은 그들의 아이들이 무단결석하지 않도록 해야 하며 ; 그들은 아이들이 숙제를 하는데 충분한 시간을 쓰는지 확인해야 하고 ; 그들은 학교 통지표를 면밀히 살펴보아야 한다."
                 }
             ]
         }
-    ],
-    "frameID": 384,
-    "ko_pos": "VV",
-    "ko_lu": "그을리다.v.Experience_bodily_harm",
-    "lu_id": 4395,
-    "en_lus": [
-        "hiyake .日焼け "
     ]
 }

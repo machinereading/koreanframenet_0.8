@@ -1,44 +1,91 @@
 {
-    "frameName": "Judgment_direct_address",
+    "ko_pos": "v",
+    "ko_lu": "빼앗다.v.Removing",
+    "frameID": 63,
+    "frameName": "Removing",
+    "en_lus": [
+        "take"
+    ],
+    "lu_id": 4683,
     "patterns": [
         {
-            "valenceText": "annotation id: 16359",
+            "valenceText": "annotation id: 769",
             "examples": [
                 {
-                    "frameName": "Judgment_direct_address",
+                    "origin_lus": [
+                        "takes"
+                    ],
+                    "ko_annotation_id": 769,
+                    "annotation_id": 1623,
+                    "frameName": "Removing",
                     "denotations": [
                         {
-                            "obj": "Addressee",
+                            "id": 1,
+                            "obj": "Removing",
                             "span": {
-                                "begin": 56,
-                                "end": 58
-                            }
+                                "begin": 83,
+                                "end": 86
+                            },
+                            "token_span": [
+                                23
+                            ],
+                            "role": "TARGET",
+                            "text": "시간을"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
                             "span": {
-                                "begin": 1,
-                                "end": 5
-                            }
+                                "begin": 38,
+                                "end": 51
+                            },
+                            "text": "반영하고 그와 같은 투표",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Source",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 82
+                            },
+                            "text": "참여가 의원이 지역의 이익 추구에 그렇지 않으면 전념할",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "irassyaru .いらっしゃる"
+                    "sent_id": 292,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16359,
-                    "text": "「어서 오세요」「기다리시게 해서 죄송합니다」「감사합니다」 같은 활력 넘치는 목소리가 귓가에 들리면, 손님의 긴장은 누그러집니다.",
-                    "sent_id": 4094,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "빼앗다.v.Removing",
+                    "text": "둘째, 그  핵심 가정이 맞다면, 그와 같은 투표가 국가정책 결정을 반영하고 그와 같은 투표 참여가 의원이 지역의 이익 추구에 그렇지 않으면 전념할 시간을 빼앗는다는 점에서 민주당 의원들은 공화당 의원들보다 호명 투표에서 더 낮은 참석률을 보였어야 한다."
                 }
             ]
         }
-    ],
-    "frameID": 711,
-    "ko_pos": "VV",
-    "ko_lu": "왔다갔다하다.v.Judgment_direct_address",
-    "lu_id": 4683,
-    "en_lus": [
-        "irassyaru .いらっしゃる"
     ]
 }

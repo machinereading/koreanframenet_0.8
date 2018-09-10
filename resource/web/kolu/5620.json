@@ -1,65 +1,102 @@
 {
-    "frameName": "Sign_agreement",
+    "ko_pos": "n",
+    "ko_lu": "지속적.n.Activity_ongoing",
+    "frameID": 164,
+    "frameName": "Activity_ongoing",
+    "en_lus": [
+        "continue"
+    ],
+    "lu_id": 5620,
     "patterns": [
         {
-            "valenceText": "annotation id: 19859",
+            "valenceText": "annotation id: 8687",
             "examples": [
                 {
-                    "frameName": "Sign_agreement",
+                    "origin_lus": [
+                        "continues",
+                        "continue"
+                    ],
+                    "ko_annotation_id": 8687,
+                    "annotation_id": 15941,
+                    "frameName": "Activity_ongoing",
                     "denotations": [
                         {
-                            "obj": "signatory",
+                            "id": 1,
+                            "obj": "Activity_ongoing",
+                            "span": {
+                                "begin": 39,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "지속적으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
+                                "end": 12
                             },
-                            "id": "2"
+                            "text": "시리아의 핵 프로그램은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "agreement",
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 13
+                                "begin": 13,
+                                "end": 92
                             },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 15,
-                                "end": 18
-                            },
-                            "id": "1"
+                            "text": "국제적인 협조를 기반으로 민간인의 핵 연구에만 지속적으로 초점을 맞추고, 핵 전력 프로그램에 대해 계속되는 국내의 열망을 지원하기 위해 착수된",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "signatory"
-                    ],
-                    "ko_annotation_id": 19859,
-                    "text": "이란은 핵확산 방지 조약의 조인국이고 IAEA 의 안전 장치 협정에 서명하였다.",
-                    "sent_id": 3372,
+                    "sent_id": 3064,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17880
+                    "lu": "지속적.n.Activity_ongoing",
+                    "text": "시리아의 핵 프로그램은 국제적인 협조를 기반으로 민간인의 핵 연구에만 지속적으로 초점을 맞추고, 핵 전력 프로그램에 대해 계속되는 국내의 열망을 지원하기 위해 착수된 것 같다."
                 }
             ]
         }
-    ],
-    "frameID": 1151,
-    "ko_pos": "NN",
-    "ko_lu": "조인국.n.Sign_agreement",
-    "lu_id": 5620,
-    "en_lus": [
-        "signatory"
     ]
 }

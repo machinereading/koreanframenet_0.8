@@ -1,64 +1,88 @@
 {
-    "frameName": "Noise_makers",
+    "ko_pos": "v",
+    "ko_lu": "분류되다.v.Categorization",
+    "frameID": 21,
+    "frameName": "Categorization",
+    "en_lus": [
+        "classify"
+    ],
+    "lu_id": 750,
     "patterns": [
         {
-            "valenceText": "annotation id: 2297",
+            "valenceText": "annotation id: 5609",
             "examples": [
                 {
-                    "frameName": "Noise_makers",
+                    "origin_lus": [
+                        "classified"
+                    ],
+                    "ko_annotation_id": 5609,
+                    "annotation_id": 10142,
+                    "frameName": "Categorization",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Categorization",
                             "span": {
-                                "begin": 13,
-                                "end": 17
+                                "begin": 81,
+                                "end": 84
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "bells"
-                    ],
-                    "ko_annotation_id": 2297,
-                    "text": "그러면, 신호에 맞추어 종지기들은 타종의 지속적인 리듬은 바꾸지 않고 종이 울리는 순서를 바꾸기 시작한다.",
-                    "sent_id": 30,
-                    "relations": [],
-                    "annotation_id": 206
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 2298",
-            "examples": [
-                {
-                    "frameName": "Noise_makers",
-                    "denotations": [
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "분류될"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Item",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 8
+                                "begin": 35,
+                                "end": 47
                             },
-                            "id": "1"
+                            "text": "국제 테러리스트 단체들",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Category",
+                            "token_span": [
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 58,
+                                "end": 80
+                            },
+                            "text": "특성 그리고 / 또는 동기에서 종교적으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "bells"
+                    "sent_id": 2064,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2298,
-                    "text": "또한, 종지기들은 작은 시골 교구와 도심 지역 교회와 같이, 종이 울릴 필요가 있는 곳에서 항상 살지는 않는다.",
-                    "sent_id": 63,
-                    "relations": [],
-                    "annotation_id": 405
+                    "lu": "분류되다.v.Categorization",
+                    "text": "그러나 1995년까지, 알려져 있고 활발하게 활동하던 56 개 국제 테러리스트 단체들 가운데 26 개가 특성 그리고 / 또는 동기에서 종교적으로 분류될 수 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1017,
-    "ko_pos": "NN",
-    "ko_lu": "종지기들.n.Noise_makers",
-    "lu_id": 750,
-    "en_lus": [
-        "bell"
     ]
 }

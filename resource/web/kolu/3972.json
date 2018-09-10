@@ -1,52 +1,84 @@
 {
-    "frameName": "Bringing",
+    "ko_pos": "v",
+    "ko_lu": "사양하다.v.Agree_or_refuse_to_act",
+    "frameID": 1625,
+    "frameName": "Agree_or_refuse_to_act",
+    "en_lus": [
+        "zitai .辞退 "
+    ],
+    "lu_id": 3972,
     "patterns": [
         {
-            "valenceText": "annotation id: 13535",
+            "valenceText": "annotation id: 16143",
             "examples": [
                 {
-                    "frameName": "Bringing",
+                    "origin_lus": [
+                        "zitai .辞退 "
+                    ],
+                    "ko_annotation_id": 16143,
+                    "annotation_id": 0,
+                    "frameName": "Agree_or_refuse_to_act",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Agree_or_refuse_to_act",
                             "span": {
-                                "begin": 16,
-                                "end": 19
+                                "begin": 30,
+                                "end": 36
                             },
-                            "id": "1"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "사양했으나,"
                         },
                         {
-                            "obj": "theme",
+                            "id": 2,
+                            "obj": "Proposed_Action",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 20,
+                                "begin": 0,
+                                "end": 20
+                            },
+                            "text": "내가, 병원까지 데려다주겠다고 하자,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 26,
                                 "end": 29
                             },
-                            "id": "2"
+                            "text": "그녀는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "mobile"
-                    ],
-                    "ko_annotation_id": 13535,
-                    "text": "전 중앙정보부 관리는 국가의 이동식 생물 무기 실험실에 관한 이라크 망명자의 주장과 관련한 문제를 고위 단체 관리들에게 경고하려는 반복된 노력을 하였으나 무시되었다고 언급한 것을, 워싱턴 포스트지가 일요일 보도하였다.",
-                    "sent_id": 3254,
+                    "sent_id": 3617,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17230
+                    "lu": "사양하다.v.Agree_or_refuse_to_act",
+                    "text": "내가, 병원까지 데려다주겠다고 하자, 처음에, 그녀는 사양했으나, 무척 아팠던지, 몇 번인가 권하자 차에 올라탔다."
                 }
             ]
         }
-    ],
-    "frameID": 240,
-    "ko_pos": "NN",
-    "ko_lu": "이동식.n.Bringing",
-    "lu_id": 3972,
-    "en_lus": [
-        "mobile"
     ]
 }

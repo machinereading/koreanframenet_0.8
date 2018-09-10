@@ -1,38 +1,100 @@
 {
-    "frameName": "Institutions",
+    "ko_pos": "v",
+    "ko_lu": "시인하다.v.Reveal_secret",
+    "frameID": 1146,
+    "frameName": "Reveal_secret",
+    "en_lus": [
+        "admit"
+    ],
+    "lu_id": 101,
     "patterns": [
         {
-            "valenceText": "annotation id: 293",
+            "valenceText": "annotation id: 2760",
             "examples": [
                 {
-                    "frameName": "Institutions",
+                    "origin_lus": [
+                        "admitted"
+                    ],
+                    "ko_annotation_id": 2760,
+                    "annotation_id": 5357,
+                    "frameName": "Reveal_secret",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Reveal_secret",
                             "span": {
-                                "begin": 47,
-                                "end": 49
+                                "begin": 41,
+                                "end": 44
                             },
-                            "id": "1"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "외도를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 21
+                            },
+                            "text": "옹호자들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Containing_Event",
+                            "token_span": [
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 29
+                            },
+                            "text": "클린턴이 60",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Information",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 38,
+                                "end": 40
+                            },
+                            "text": "에서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "institution"
+                    "sent_id": 1022,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 293,
-                    "text": "Bill_First : 종전의 민주당 대표나 현 민주장 대표와 함께 나는 이 당당한 단체의 리더십에 이와 같은 모욕으로 얼굴을 맞은 적이 없었다.",
-                    "sent_id": 1729,
-                    "relations": [],
-                    "annotation_id": 8432
+                    "lu": "시인하다.v.Reveal_secret",
+                    "text": " ( 이제, 물론, 대통령의 옹호자들은 클린턴이 60 Minutes 에서 외도를 시인하고 그리고 그기에 대해 충분히 알고 있는 투표자들은 개의치 않았다고 주장한다. )"
                 }
             ]
         }
-    ],
-    "frameID": 1604,
-    "ko_pos": "NNG",
-    "ko_lu": "단체.n.Institutions",
-    "lu_id": 101,
-    "en_lus": [
-        "institution"
     ]
 }

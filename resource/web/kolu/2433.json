@@ -1,38 +1,154 @@
 {
-    "frameName": "Text",
+    "ko_pos": "v",
+    "ko_lu": "반응하다.v.Communication_response",
+    "frameID": 42,
+    "frameName": "Communication_response",
+    "en_lus": [
+        "respond"
+    ],
+    "lu_id": 2433,
     "patterns": [
         {
-            "valenceText": "annotation id: 7972",
+            "valenceText": "annotation id: 6529",
             "examples": [
                 {
-                    "frameName": "Text",
+                    "origin_lus": [
+                        "responded"
+                    ],
+                    "ko_annotation_id": 6529,
+                    "annotation_id": 11901,
+                    "frameName": "Communication_response",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Communication_response",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 23,
+                                "end": 30
                             },
-                            "id": "1"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "반응하였으나,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 22
+                            },
+                            "text": "지속적으로 혐의를 부인하는 것으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "literature"
+                    "sent_id": 2362,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7972,
-                    "text": "본전의 조각상들은 사람, 문학의 신, 그리고 신비롭게 병렬로 놓은 전쟁의 신인 Mo를 나타낸다.",
-                    "sent_id": 1106,
-                    "relations": [],
-                    "annotation_id": 5789
+                    "lu": "반응하다.v.Communication_response",
+                    "text": "이란은 지속적으로 혐의를 부인하는 것으로 반응하였으나, 또한 이스라엘의 무기류에 대응하기 위하여 핵무기를 보유할 권리를 가졌다고 하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6533",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "responded"
+                    ],
+                    "ko_annotation_id": 6533,
+                    "annotation_id": 11915,
+                    "frameName": "Communication_response",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_response",
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "반응하지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 9
+                            },
+                            "text": "미국은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Trigger",
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "text": "그 제의에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2365,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "반응하다.v.Communication_response",
+                    "text": "지금까지, 미국은 그 제의에 반응하지 않았다."
                 }
             ]
         }
-    ],
-    "frameID": 298,
-    "ko_pos": "NNG",
-    "ko_lu": "문학.n.Text",
-    "lu_id": 2433,
-    "en_lus": [
-        "literature"
     ]
 }

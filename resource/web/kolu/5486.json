@@ -1,58 +1,83 @@
 {
-    "frameName": "Experiencer_focus",
+    "ko_pos": "v",
+    "ko_lu": "커지다.v.Measurable_attributes",
+    "frameID": 965,
+    "frameName": "Measurable_attributes",
+    "en_lus": [
+        "ookii .大きい"
+    ],
+    "lu_id": 5486,
     "patterns": [
         {
-            "valenceText": "annotation id: 19469",
+            "valenceText": "annotation id: 12429",
             "examples": [
                 {
-                    "frameName": "Experiencer_focus",
+                    "origin_lus": [
+                        "ookii .大きい"
+                    ],
+                    "ko_annotation_id": 12429,
+                    "annotation_id": 0,
+                    "frameName": "Measurable_attributes",
                     "denotations": [
                         {
-                            "obj": "Experiencer",
+                            "id": 1,
+                            "obj": "Measurable_attributes",
                             "span": {
-                                "begin": 9,
-                                "end": 10
-                            }
-                        },
-                        {
-                            "obj": "Content",
-                            "span": {
-                                "begin": 12,
-                                "end": 30
-                            }
-                        },
-                        {
-                            "obj": "Degree",
-                            "span": {
-                                "begin": 33,
+                                "begin": 30,
                                 "end": 35
-                            }
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "커지거나,"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 36,
-                                "end": 38
-                            }
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "악성 검은 반점은,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Attribute",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 35
+                            },
+                            "text": "커지거나,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hankan .反感"
+                    "sent_id": 5024,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19469,
-                    "text": "어렸을 때부터, 나는 교회나 교회의 가르침과 관계된 것에, 강한 반감을 느꼈다.",
-                    "sent_id": 3950,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "커지다.v.Measurable_attributes",
+                    "text": "악성 검은 반점은, 발바닥뿐만 아니라 다른 부위에도, 커지거나, 주변으로 검은색이 퍼지거나, 출혈이 종종 생기기도 하므로, 이러한 증상이 있을 때는, 병원에서 조직검사를 받는 편이 좋겠지요."
                 }
             ]
         }
-    ],
-    "frameID": 48,
-    "ko_pos": "NNG",
-    "ko_lu": "반감.n.Experiencer_focus",
-    "lu_id": 5486,
-    "en_lus": [
-        "hankan .反感"
     ]
 }

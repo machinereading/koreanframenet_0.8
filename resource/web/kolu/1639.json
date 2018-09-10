@@ -1,52 +1,83 @@
 {
-    "frameName": "Indicating",
+    "ko_pos": "v",
+    "ko_lu": "건너다.v.Traversing",
+    "frameID": 1310,
+    "frameName": "Traversing",
+    "en_lus": [
+        "cross"
+    ],
+    "lu_id": 1639,
     "patterns": [
         {
-            "valenceText": "annotation id: 5130",
+            "valenceText": "annotation id: 371",
             "examples": [
                 {
-                    "frameName": "Indicating",
+                    "origin_lus": [
+                        "crossing"
+                    ],
+                    "ko_annotation_id": 371,
+                    "annotation_id": 781,
+                    "frameName": "Traversing",
                     "denotations": [
                         {
-                            "obj": "unresolved_referent",
+                            "id": 1,
+                            "obj": "Traversing",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 24,
+                                "end": 27
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "건너기"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Path",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 5,
-                                "end": 9
+                                "begin": 0,
+                                "end": 23
                             },
-                            "id": "1"
+                            "text": "Richmond-San Rafael 다리를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 45,
+                                "end": 47
+                            },
+                            "text": "내가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "name"
-                    ],
-                    "ko_annotation_id": 5130,
-                    "text": "세 개만 예를 들면, 당신은 자마이카에서 Manchester, Sheffield, 그리고 Cambridge를 발견할 수 있다.",
-                    "sent_id": 905,
+                    "sent_id": 133,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4690
+                    "lu": "건너다.v.Traversing",
+                    "text": "Richmond-San Rafael 다리를 건너기 전에 Chevron 정유공장을 내가 지날 때 지독한 가스 냄새가 있었다."
                 }
             ]
         }
-    ],
-    "frameID": 2090,
-    "ko_pos": "NNG",
-    "ko_lu": "들.n.Indicating",
-    "lu_id": 1639,
-    "en_lus": [
-        "name"
     ]
 }

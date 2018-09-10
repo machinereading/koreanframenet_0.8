@@ -1,87 +1,88 @@
 {
-    "frameName": "Usefulness",
+    "ko_pos": "n",
+    "ko_lu": "간.n.Temporal_collocation",
+    "frameID": 1895,
+    "frameName": "Temporal_collocation",
+    "en_lus": [
+        "In"
+    ],
+    "lu_id": 364,
     "patterns": [
         {
-            "valenceText": "annotation id: 927",
+            "valenceText": "annotation id: 2400",
             "examples": [
                 {
-                    "frameName": "Usefulness",
+                    "origin_lus": [
+                        "In"
+                    ],
+                    "ko_annotation_id": 2400,
+                    "annotation_id": 4709,
+                    "frameName": "Temporal_collocation",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Temporal_collocation",
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 5,
+                                "end": 7
                             },
-                            "id": "1"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "년간"
                         },
                         {
-                            "obj": "entity",
+                            "id": 2,
+                            "obj": "Landmark_Period",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 49,
-                                "end": 52
+                                "begin": 3,
+                                "end": 7
                             },
-                            "id": "2"
+                            "text": "몇 년간",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Trajector_Event",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 34
+                            },
+                            "text": "미국의 영향은 영국의 영향보다 훨씬 더 강했다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "good",
-                        "ee .ええ"
-                    ],
-                    "ko_annotation_id": 927,
-                    "text": "극좌파는 비록 그것들을 다루기 위한 좋은 프로그램들은 가지고 있지 않았지만 몇 몇 좋은 이슈들은 가지고 있었다.",
-                    "sent_id": 78,
+                    "sent_id": 910,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 530
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 928",
-            "examples": [
-                {
-                    "frameName": "Usefulness",
-                    "denotations": [
-                        {
-                            "obj": "Entity",
-                            "span": {
-                                "begin": 27,
-                                "end": 28
-                            }
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 24,
-                                "end": 26
-                            }
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "origin_lus": [
-                        "good",
-                        "ee .ええ"
-                    ],
-                    "ko_annotation_id": 928,
-                    "text": "마을 사람들은, 신사를 참배하며, 「부디, 좋은 물을 주시옵소서」하고 소원을 빌었단다.",
-                    "sent_id": 4304,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "간.n.Temporal_collocation",
+                    "text": "최근 몇 년간 미국의 영향은 영국의 영향보다 훨씬 더 강했다."
                 }
             ]
         }
-    ],
-    "frameID": 726,
-    "ko_pos": "VA",
-    "ko_lu": "좋다.a.Usefulness",
-    "lu_id": 364,
-    "en_lus": [
-        "good",
-        "ee .ええ"
     ]
 }

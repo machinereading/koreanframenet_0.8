@@ -1,88 +1,82 @@
 {
-    "frameName": "Size",
+    "ko_pos": "n",
+    "ko_lu": "영역.n.Fields",
+    "frameID": 1345,
+    "frameName": "Fields",
+    "en_lus": [
+        "ryooiki .領域"
+    ],
+    "lu_id": 5379,
     "patterns": [
         {
-            "valenceText": "annotation id: 19000",
+            "valenceText": "annotation id: 10626",
             "examples": [
                 {
-                    "frameName": "Size",
+                    "origin_lus": [
+                        "ryooiki .領域"
+                    ],
+                    "ko_annotation_id": 10626,
+                    "annotation_id": 0,
+                    "frameName": "Fields",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Fields",
                             "span": {
-                                "begin": 27,
-                                "end": 28
-                            }
+                                "begin": 41,
+                                "end": 44
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "영역에"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Practitioner",
+                            "token_span": [
+                                8,
+                                9
+                            ],
                             "span": {
-                                "begin": 23,
-                                "end": 26
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "sasai .ささい "
-                    ],
-                    "ko_annotation_id": 19000,
-                    "text": "「당신의 자녀가 지닌 좋은 점을, 아무리 사소한 것이라도 좋으니 적어 주세요.",
-                    "sent_id": 3968,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.100162",
-            "examples": [
-                {
-                    "frameName": "Size",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 33,
+                                "end": 40
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "사소한 일에그렇게 흥분해 버릇하면 건강에 좋지 않다.",
-                    "target": "사소한",
-                    "ko_annotation_id": "sejong.100162",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.100163",
-            "examples": [
-                {
-                    "frameName": "Size",
-                    "denotations": [
+                            "text": "서로 상대방의",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "id": "1",
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 3,
-                                "end": 9
+                                "begin": 41,
+                                "end": 44
                             },
-                            "obj": "target"
+                            "text": "영역에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그런 사소한실수는 서로 모르는 척 넘어가는 것이 좋다.",
-                    "target": "사소한실수는",
-                    "ko_annotation_id": "sejong.100163",
-                    "relations": []
+                    "sent_id": 3892,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "영역.n.Fields",
+                    "text": "나와 동거인은 파는 사람과 만드는 사람으로 확실히 나뉘어, 서로 상대방의 영역에 관여하지 않게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 2282,
-    "ko_pos": "VA",
-    "ko_lu": "사소하다.a.Size",
-    "lu_id": 5379,
-    "en_lus": [
-        "sasai .ささい "
     ]
 }

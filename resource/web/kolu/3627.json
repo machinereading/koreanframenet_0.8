@@ -1,44 +1,82 @@
 {
-    "frameName": "Boundary",
+    "ko_pos": "n",
+    "ko_lu": "내용.n.Encoding",
+    "frameID": 35,
+    "frameName": "Encoding",
+    "en_lus": [
+        "word"
+    ],
+    "lu_id": 3627,
     "patterns": [
         {
-            "valenceText": "annotation id: 12473",
+            "valenceText": "annotation id: 6540",
             "examples": [
                 {
-                    "frameName": "Boundary",
+                    "origin_lus": [
+                        "worded"
+                    ],
+                    "ko_annotation_id": 6540,
+                    "annotation_id": 11921,
+                    "frameName": "Encoding",
                     "denotations": [
                         {
-                            "obj": "Entities",
-                            "span": {
-                                "begin": 68,
-                                "end": 70
-                            }
-                        },
-                        {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Encoding",
                             "span": {
                                 "begin": 72,
-                                "end": 74
-                            }
+                                "end": 75
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "내용의"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                17
+                            ],
+                            "span": {
+                                "begin": 68,
+                                "end": 71
+                            },
+                            "text": "강경한",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 76,
+                                "end": 83
+                            },
+                            "text": "유엔 결의안이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sakai .境 "
+                    "sent_id": 2366,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12473,
-                    "text": "예를 들어 하리마노구니와 셋쓰노구니의 국경선에는 스마우라 공원 가장 서쪽에 사카이가와라는 것이 있는데, 그것이 말 그대로 양국의 경계였습니다.",
-                    "sent_id": 4955,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "내용.n.Encoding",
+                    "text": "그러나 이란이 비밀의 원자 폭탄 프로그램을 가지고 있지 않다는 것을 입증하라는 미국의 강한 압력은 결국 2003년 9월에 강경한 내용의 유엔 결의안이 되었고, 이란에 의한 작업 중단과 핵 조사에 대한 뒤이은 동결을 촉발시켰다."
                 }
             ]
         }
-    ],
-    "frameID": 329,
-    "ko_pos": "NNG",
-    "ko_lu": "경계.n.Boundary",
-    "lu_id": 3627,
-    "en_lus": [
-        "sakai .境 "
     ]
 }

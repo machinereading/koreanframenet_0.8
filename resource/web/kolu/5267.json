@@ -1,38 +1,65 @@
 {
-    "frameName": "Defending",
+    "ko_pos": "a",
+    "ko_lu": "불확실하다.a.Certainty",
+    "frameID": 141,
+    "frameName": "Certainty",
+    "en_lus": [
+        "uncertain"
+    ],
+    "lu_id": 5267,
     "patterns": [
         {
-            "valenceText": "annotation id: 18581",
+            "valenceText": "annotation id: 6268",
             "examples": [
                 {
-                    "frameName": "Defend",
+                    "origin_lus": [
+                        "uncertain"
+                    ],
+                    "ko_annotation_id": 6268,
+                    "annotation_id": 11325,
+                    "frameName": "Certainty",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Certainty",
                             "span": {
-                                "begin": 25,
-                                "end": 27
+                                "begin": 47,
+                                "end": 54
                             },
-                            "id": "1"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "불확실하지만,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 43
+                            },
+                            "text": "탄두가 개발되었거나 시험된",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "defense"
+                    "sent_id": 2264,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18581,
-                    "text": "아르메니아 관리는 아르메니아가 오일의 대가로 방위 산업에 관여한 핵 물리학 전문가들을 포함한 과학자들을 이란에 보낼 것이라고 언명한다.",
-                    "sent_id": 3428,
-                    "relations": [],
-                    "annotation_id": 18101
+                    "lu": "불확실하다.a.Certainty",
+                    "text": "이란의 잘 알려진 Shahab 미사일은 또한 그것은 탄두가 개발되었거나 시험된 것은 불확실하지만, 화학 탄두를 운반할 능력이 있는 것으로 여겨진다."
                 }
             ]
         }
-    ],
-    "frameID": 1330,
-    "ko_pos": "NNG",
-    "ko_lu": "방위.n.Defending",
-    "lu_id": 5267,
-    "en_lus": [
-        "defense"
     ]
 }

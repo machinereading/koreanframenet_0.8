@@ -1,52 +1,91 @@
 {
-    "frameName": "Biological_area",
+    "ko_pos": "a",
+    "ko_lu": "이르다.a.Arriving",
+    "frameID": 54,
+    "frameName": "Arriving",
+    "en_lus": [
+        "kuru .来る ",
+        "tassuru .達する "
+    ],
+    "lu_id": 5102,
     "patterns": [
         {
-            "valenceText": "annotation id: 17969",
+            "valenceText": "annotation id: 11568",
             "examples": [
                 {
-                    "frameName": "Biological_area",
+                    "origin_lus": [
+                        "tassuru .達する ",
+                        "kuru .来る "
+                    ],
+                    "ko_annotation_id": 11568,
+                    "annotation_id": 0,
+                    "frameName": "Arriving",
                     "denotations": [
                         {
-                            "obj": "relative_location",
+                            "id": 1,
+                            "obj": "Arriving",
                             "span": {
-                                "begin": 17,
-                                "end": 19
+                                "begin": 44,
+                                "end": 50
                             },
-                            "id": "2"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "이르기까지,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 4,
+                                "end": 7
                             },
-                            "id": "1"
+                            "text": "여자는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 43
+                            },
+                            "text": "그녀 자신이 소유한 처녀성을, 그것을 버리기에 가장 적당한 때에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "rain-forest"
-                    ],
-                    "ko_annotation_id": 17969,
-                    "text": "지리적으로 고산의 중심 척추와 열대 우림으로 뒤덮힌 언덕을 가져 이곳은 극히 다양하다.",
-                    "sent_id": 884,
+                    "sent_id": 4479,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4606
+                    "lu": "이르다.a.Arriving",
+                    "text": "「모든 여자는 그녀 자신이 소유한 처녀성을, 그것을 버리기에 가장 적당한 때에 이르기까지, 소중하게 지녀야만 한다."
                 }
             ]
         }
-    ],
-    "frameID": 193,
-    "ko_pos": "NNG",
-    "ko_lu": "우림.n.Biological_area",
-    "lu_id": 5102,
-    "en_lus": [
-        "rain-forest"
     ]
 }

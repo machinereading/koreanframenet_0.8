@@ -1,38 +1,65 @@
 {
-    "frameName": "Military",
+    "ko_pos": "v",
+    "ko_lu": "돕다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "suru .する "
+    ],
+    "lu_id": 920,
     "patterns": [
         {
-            "valenceText": "annotation id: 2715",
+            "valenceText": "annotation id: 10744",
             "examples": [
                 {
-                    "frameName": "Military",
+                    "origin_lus": [
+                        "suru .する "
+                    ],
+                    "ko_annotation_id": 10744,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 41,
-                                "end": 45
+                                "begin": 65,
+                                "end": 67
                             },
-                            "id": "1"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "돕는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 64
+                            },
+                            "text": "음식 만드는 것을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Armed Forces"
+                    "sent_id": 3985,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2715,
-                    "text": "그 회의는 뉴욕 기술 대학교학 경영대학과 산업계와 정부 합작 거래 그룹인 국방전자통신협회가 공동으로 후원 하였다.",
-                    "sent_id": 1951,
-                    "relations": [],
-                    "annotation_id": 9425
+                    "lu": "돕다.v.Intentionally_act",
+                    "text": "그렇다고는 하지만 집에 있는 건 주말이라는 한정된 시간뿐이므로, 기껏 식사 후의 뒷정리나, 이따금 음식 만드는 것을 돕는 정도다."
                 }
             ]
         }
-    ],
-    "frameID": 1514,
-    "ko_pos": "NNG",
-    "ko_lu": "국방전자.n.Military",
-    "lu_id": 920,
-    "en_lus": [
-        "Armed Forces"
     ]
 }

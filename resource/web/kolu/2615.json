@@ -1,88 +1,84 @@
 {
-    "frameName": "Perception_experience",
+    "ko_pos": "n",
+    "ko_lu": "건조.n.Building",
+    "frameID": 259,
+    "frameName": "Building",
+    "en_lus": [
+        "construction"
+    ],
+    "lu_id": 2615,
     "patterns": [
         {
-            "valenceText": "annotation id: 8596",
+            "valenceText": "annotation id: 8474",
             "examples": [
                 {
-                    "frameName": "Perception_experience",
+                    "origin_lus": [
+                        "construction"
+                    ],
+                    "ko_annotation_id": 8474,
+                    "annotation_id": 15505,
+                    "frameName": "Building",
                     "denotations": [
                         {
-                            "obj": "Phenomenon",
+                            "id": 1,
+                            "obj": "Building",
                             "span": {
-                                "begin": 20,
-                                "end": 26
-                            }
+                                "begin": 105,
+                                "end": 107
+                            },
+                            "token_span": [
+                                26
+                            ],
+                            "role": "TARGET",
+                            "text": "현재"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 28,
-                                "end": 31
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "miru .見る"
-                    ],
-                    "ko_annotation_id": 8596,
-                    "text": "발바닥에는 20~30명에 한 명꼴로 검은 사마귀가 발견되는데, 이것은 악성이 될 가능성이 높아, 주의를 기울여야 한다고 알려져 있습니다.",
-                    "sent_id": 4355,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.87827",
-            "examples": [
-                {
-                    "frameName": "Perception_experience",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 19,
-                                "end": 22
+                                "begin": 24,
+                                "end": 26
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "결국 신대륙은 낭만주의자들에 의해 발견된 것이다.",
-                    "target": "발견된",
-                    "ko_annotation_id": "sejong.87827",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.87828",
-            "examples": [
-                {
-                    "frameName": "Perception_experience",
-                    "denotations": [
+                            "text": "현재",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "id": "1",
+                            "id": 3,
+                            "obj": "Created_Entity",
+                            "token_span": [
+                                28,
+                                29,
+                                30,
+                                31
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 12
+                                "begin": 111,
+                                "end": 125
                             },
-                            "obj": "target"
+                            "text": "중인 신형급의 탄도 미사일",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "서부인들에 의해 발견된 황금은 훗날 이 지역 경제의 기반이 되는 것이다.",
-                    "target": "발견된",
-                    "ko_annotation_id": "sejong.87828",
-                    "relations": []
+                    "sent_id": 3008,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "건조.n.Building",
+                    "text": "해상 발사 탄도 미사일 ( SLBM ) 이 현재 생산되지 않는 반명, 러시아는 Bulava라 불리는 신형  SLBM을 개발중이며, 이것은 기존의 Typhoon 급 잠수함에 그리고 향후에는 현재 건조 중인 신형급의 탄도 미사일 잠수함에 장착할 예정이다."
                 }
             ]
         }
-    ],
-    "frameID": 70,
-    "ko_pos": "VV",
-    "ko_lu": "발견되다.v.Perception_experience",
-    "lu_id": 2615,
-    "en_lus": [
-        "miru .見る"
     ]
 }

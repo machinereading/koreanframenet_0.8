@@ -1,65 +1,84 @@
 {
-    "frameName": "Importance",
+    "ko_pos": "n",
+    "ko_lu": "변경.n.Cause_change",
+    "frameID": 683,
+    "frameName": "Cause_change",
+    "en_lus": [
+        "modification"
+    ],
+    "lu_id": 3131,
     "patterns": [
         {
-            "valenceText": "annotation id: 10538",
+            "valenceText": "annotation id: 6100",
             "examples": [
                 {
-                    "frameName": "Importance",
+                    "origin_lus": [
+                        "modification"
+                    ],
+                    "ko_annotation_id": 6100,
+                    "annotation_id": 11024,
+                    "frameName": "Cause_change",
                     "denotations": [
                         {
-                            "obj": "undertaking",
+                            "id": 1,
+                            "obj": "Cause_change",
                             "span": {
-                                "begin": 33,
-                                "end": 56
+                                "begin": 49,
+                                "end": 51
                             },
-                            "id": "3"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "변경"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 57,
-                                "end": 59
+                                "begin": 8,
+                                "end": 10
                             },
-                            "id": "1"
+                            "text": "재료",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "factor",
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 60,
-                                "end": 61
+                                "begin": 16,
+                                "end": 33
                             },
-                            "id": "2"
+                            "text": "생물학적 환경에서 사용하기 위한",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "major"
-                    ],
-                    "ko_annotation_id": 10538,
-                    "text": "잘 알려진 Stanley 시장 ( 페이지 55 참조 ) 은 의류와 다른 상품들을 싸게 구입할 수 있는 좋은 곳이다.",
-                    "sent_id": 1150,
+                    "sent_id": 2210,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6035
+                    "lu": "변경.n.Cause_change",
+                    "text": "AKU의 생체 재료 실험실은 생물학적 환경에서 사용하기 위한 합성, 가공, 그리고 재료 변경 분야의 연구를 발전시키는 가장 큰 대학 실험실이다."
                 }
             ]
         }
-    ],
-    "frameID": 407,
-    "ko_pos": "VA",
-    "ko_lu": "좋다.a.Importance",
-    "lu_id": 3131,
-    "en_lus": [
-        "major"
     ]
 }

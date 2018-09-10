@@ -1,52 +1,87 @@
 {
-    "frameName": "Natural_features",
+    "ko_pos": "v",
+    "ko_lu": "배치되다.v.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "place"
+    ],
+    "lu_id": 3523,
     "patterns": [
         {
-            "valenceText": "annotation id: 12008",
+            "valenceText": "annotation id: 7600",
             "examples": [
                 {
-                    "frameName": "Natural_features",
+                    "origin_lus": [
+                        "placed"
+                    ],
+                    "ko_annotation_id": 7600,
+                    "annotation_id": 13796,
+                    "frameName": "Placing",
                     "denotations": [
                         {
-                            "obj": "type",
+                            "id": 1,
+                            "obj": "Placing",
                             "span": {
-                                "begin": 76,
-                                "end": 79
+                                "begin": 67,
+                                "end": 70
                             },
-                            "id": "2"
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "배치된"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
                             "span": {
-                                "begin": 76,
-                                "end": 79
+                                "begin": 48,
+                                "end": 66
                             },
-                            "id": "1"
+                            "text": "비무장 지대 ( DMZ ) 인근에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 71,
+                                "end": 77
+                            },
+                            "text": "새로운 포의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "springs"
-                    ],
-                    "ko_annotation_id": 12008,
-                    "text": "이때에 계곡은 그것이 오늘날 존재하는 것과 많이 동일한 지리적인 상태에 있었는데 한 가지 예외는 -- 몇몇 지역의 표면으로 거품이 이는 자분천이 있었다.",
-                    "sent_id": 736,
+                    "sent_id": 2739,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3870
+                    "lu": "배치되다.v.Placing",
+                    "text": "북한의 빈사 상태의 경제와 지도자로부터의 일부 부드러운 미사여구의 암시에도 불구하고, 비무장 지대 ( DMZ ) 인근에 배치된 새로운 포의 양과 질은 사실상 과거 여러 해에 걸쳐 증가하였다."
                 }
             ]
         }
-    ],
-    "frameID": 191,
-    "ko_pos": "NNG",
-    "ko_lu": "자분천.n.Natural_features",
-    "lu_id": 3523,
-    "en_lus": [
-        "spring"
     ]
 }

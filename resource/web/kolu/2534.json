@@ -1,65 +1,99 @@
 {
-    "frameName": "Likelihood",
+    "ko_pos": "v",
+    "ko_lu": "기록하다.v.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "put"
+    ],
+    "lu_id": 2534,
     "patterns": [
         {
-            "valenceText": "annotation id: 8394",
+            "valenceText": "annotation id: 5049",
             "examples": [
                 {
-                    "frameName": "Likelihood",
+                    "origin_lus": [
+                        "put"
+                    ],
+                    "ko_annotation_id": 5049,
+                    "annotation_id": 9128,
+                    "frameName": "Placing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Placing",
                             "span": {
-                                "begin": 35,
-                                "end": 38
+                                "begin": 24,
+                                "end": 29
                             },
-                            "id": "1"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "기록하지도"
                         },
                         {
-                            "obj": "hypothetical_event",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 39,
-                                "end": 59
+                                "begin": 14,
+                                "end": 16
                             },
-                            "id": "3"
+                            "text": "나는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "hypothetical_event",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 65,
-                                "end": 67
+                                "begin": 17,
+                                "end": 20
                             },
-                            "id": "2"
+                            "text": "그것을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 23
+                            },
+                            "text": "책에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "certainly"
-                    ],
-                    "ko_annotation_id": 8394,
-                    "text": "물론, 일류 신문을 표준으로 사용하여, 이것의 대부분은 그것이 분명히 일부 아주 좋은 이야기를 만들 수 있을지라도, 그것은 주로 우리가 반복하고 있는 소문이기 때문에 사용될 수 없다.",
-                    "sent_id": 466,
+                    "sent_id": 1893,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2443
+                    "lu": "기록하다.v.Placing",
+                    "text": "29 RICH : 좋아, 나는 그것을 책에 기록하지도 않을 거네."
                 }
             ]
         }
-    ],
-    "frameID": 114,
-    "ko_pos": "VA",
-    "ko_lu": "분명하다.a.Likelihood",
-    "lu_id": 2534,
-    "en_lus": [
-        "certainly"
     ]
 }

@@ -1,65 +1,121 @@
 {
-    "frameName": "Possession",
+    "ko_pos": "v",
+    "ko_lu": "보고하다.v.Reporting",
+    "frameID": 483,
+    "frameName": "Reporting",
+    "en_lus": [
+        "Report",
+        "report"
+    ],
+    "lu_id": 958,
     "patterns": [
         {
-            "valenceText": "annotation id: 2845",
+            "valenceText": "annotation id: 4218",
             "examples": [
                 {
-                    "frameName": "Possession",
+                    "origin_lus": [
+                        "report",
+                        "Report"
+                    ],
+                    "ko_annotation_id": 4218,
+                    "annotation_id": 7749,
+                    "frameName": "Reporting",
                     "denotations": [
                         {
-                            "obj": "possession",
+                            "id": 1,
+                            "obj": "Reporting",
                             "span": {
-                                "begin": 0,
-                                "end": 23
+                                "begin": 51,
+                                "end": 54
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "보고할"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Behavior",
+                            "token_span": [
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 28
+                                "begin": 44,
+                                "end": 50
                             },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "owner",
-                            "span": {
-                                "begin": 30,
-                                "end": 42
-                            },
-                            "id": "3"
+                            "text": "위험 활동을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "owner"
-                    ],
-                    "ko_annotation_id": 2845,
-                    "text": "Dayton에 있는Merit Awnings의 소유자인 Kevin Tatman에 의하면, 직물 차양 가격은 알루미늄 차양 가격보다 변동이 더 심하다.",
-                    "sent_id": 1233,
+                    "sent_id": 1593,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6257
+                    "lu": "보고하다.v.Reporting",
+                    "text": "버스들은 다음 사항을 구비해야 한다 : 1- 가벼운 갑옷과 로켓탄 발사기 2- 위험 활동을 보고할 무선 장비 3- 의심스러운 활동이나 면허판 번호를 적기 위한 필기물 4- 기총 발사로부터 보호하기 위한 버스 둘레의 샌드백"
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 4349",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "report",
+                        "Report"
+                    ],
+                    "ko_annotation_id": 4349,
+                    "annotation_id": 7969,
+                    "frameName": "Reporting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reporting",
+                            "span": {
+                                "begin": 123,
+                                "end": 127
+                            },
+                            "token_span": [
+                                33
+                            ],
+                            "role": "TARGET",
+                            "text": "보고한다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Behavior",
+                            "token_span": [
+                                29,
+                                30,
+                                31,
+                                32
+                            ],
+                            "span": {
+                                "begin": 108,
+                                "end": 122
+                            },
+                            "text": "화재 재난일지 모르는 것을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1626,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "보고하다.v.Reporting",
+                    "text": "보안팀이 해야 할 것 : A : 정기적인 뉴스 단신을 발간하고 모든 거주자들에게 배포하여, 그들이 안전하게 gaz와 일지를 저장하는 방법을 조언한다 B : 소방관이 언제나 경계하게 한다 C : 화재 재난일지 모르는 것을 보고한다 D : 어린이들의 장남감 안전에 대해 경고한다 E : 누구나 예방책을 갖도록 권고하고 그들의 집을 단단히 감시한다"
                 }
             ]
         }
-    ],
-    "frameID": 118,
-    "ko_pos": "NN",
-    "ko_lu": "소유자.n.Possession",
-    "lu_id": 958,
-    "en_lus": [
-        "owner"
     ]
 }

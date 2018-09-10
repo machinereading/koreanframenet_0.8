@@ -1,44 +1,85 @@
 {
-    "frameName": "Organization",
+    "ko_pos": "v",
+    "ko_lu": "조언하다.v.Attempt_suasion",
+    "frameID": 87,
+    "frameName": "Attempt_suasion",
+    "en_lus": [
+        "advise"
+    ],
+    "lu_id": 3740,
     "patterns": [
         {
-            "valenceText": "annotation id: 12777",
+            "valenceText": "annotation id: 4355",
             "examples": [
                 {
-                    "frameName": "Organization",
+                    "origin_lus": [
+                        "advising"
+                    ],
+                    "ko_annotation_id": 4355,
+                    "annotation_id": 7963,
+                    "frameName": "Attempt_suasion",
                     "denotations": [
                         {
-                            "obj": "Organization",
+                            "id": 1,
+                            "obj": "Attempt_suasion",
                             "span": {
-                                "begin": 21,
-                                "end": 31
-                            }
+                                "begin": 78,
+                                "end": 82
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "조언한다"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Addressee",
+                            "token_span": [
+                                14
+                            ],
                             "span": {
-                                "begin": 29,
-                                "end": 31
-                            }
+                                "begin": 51,
+                                "end": 54
+                            },
+                            "text": "그들이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Topic",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 77
+                            },
+                            "text": "안전하게 gaz와 일지를 저장하는 방법을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "guruupu .グループ "
+                    "sent_id": 1626,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 12777,
-                    "text": "종종 뉴스에서는, 이슬람교 그 자체와 테러를 일으킨 그룹의 가르침은, 전혀 다르다고 보도됩니다.",
-                    "sent_id": 4295,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "조언하다.v.Attempt_suasion",
+                    "text": "보안팀이 해야 할 것 : A : 정기적인 뉴스 단신을 발간하고 모든 거주자들에게 배포하여, 그들이 안전하게 gaz와 일지를 저장하는 방법을 조언한다 B : 소방관이 언제나 경계하게 한다 C : 화재 재난일지 모르는 것을 보고한다 D : 어린이들의 장남감 안전에 대해 경고한다 E : 누구나 예방책을 갖도록 권고하고 그들의 집을 단단히 감시한다"
                 }
             ]
         }
-    ],
-    "frameID": 1371,
-    "ko_pos": "NNG",
-    "ko_lu": "그룹.n.Organization",
-    "lu_id": 3740,
-    "en_lus": [
-        "guruupu .グループ "
     ]
 }

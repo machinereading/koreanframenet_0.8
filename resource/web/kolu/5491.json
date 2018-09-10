@@ -1,52 +1,87 @@
 {
-    "frameName": "Contingency",
+    "ko_pos": "n",
+    "ko_lu": "복제품.n.Duplication",
+    "frameID": 11,
+    "frameName": "Duplication",
+    "en_lus": [
+        "copy"
+    ],
+    "lu_id": 5491,
     "patterns": [
         {
-            "valenceText": "annotation id: 19495",
+            "valenceText": "annotation id: 17100",
             "examples": [
                 {
-                    "frameName": "Contingency",
+                    "origin_lus": [
+                        "copies"
+                    ],
+                    "ko_annotation_id": 17100,
+                    "annotation_id": 11669,
+                    "frameName": "Duplication",
                     "denotations": [
                         {
-                            "obj": "determinant",
+                            "id": 1,
+                            "obj": "Duplication",
                             "span": {
-                                "begin": 66,
-                                "end": 80
+                                "begin": 50,
+                                "end": 54
                             },
-                            "id": "2"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "복제품을"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Depictive",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 82,
-                                "end": 84
+                                "begin": 16,
+                                "end": 31
                             },
-                            "id": "1"
+                            "text": "결함이 있는 것으로 입증된,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Original",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 49
+                            },
+                            "text": "핀란드의 Kemira 사 방독면",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "function"
-                    ],
-                    "ko_annotation_id": 19495,
-                    "text": "영국에서 유래된 타운 이름들 가까이에서, 당신은 또한  Wait Awhile과 Fruitful Vale과 같은 평범한 자마이카인들의 일상적인 삶의 기능과 활동에서 유래된 이름들을 발견한다.",
-                    "sent_id": 908,
+                    "sent_id": 2321,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4702
+                    "lu": "복제품.n.Duplication",
+                    "text": "1984년에, 한국은 이란에 결함이 있는 것으로 입증된, 핀란드의 Kemira 사 방독면 복제품을 이란에 공급하였다."
                 }
             ]
         }
-    ],
-    "frameID": 900,
-    "ko_pos": "NNG",
-    "ko_lu": "기능.n.Contingency",
-    "lu_id": 5491,
-    "en_lus": [
-        "function"
     ]
 }

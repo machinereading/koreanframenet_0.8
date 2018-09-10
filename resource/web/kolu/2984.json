@@ -1,65 +1,120 @@
 {
-    "frameName": "Process_continue",
+    "ko_pos": "v",
+    "ko_lu": "물러나다.v.Motion_directional",
+    "frameID": 362,
+    "frameName": "Motion_directional",
+    "en_lus": [
+        "kudaru .下る"
+    ],
+    "lu_id": 2984,
     "patterns": [
         {
-            "valenceText": "annotation id: 9772",
+            "valenceText": "annotation id: 11939",
             "examples": [
                 {
-                    "frameName": "Process_continue",
+                    "origin_lus": [
+                        "kudaru .下る"
+                    ],
+                    "ko_annotation_id": 11939,
+                    "annotation_id": 0,
+                    "frameName": "Motion_directional",
                     "denotations": [
                         {
-                            "obj": "event",
+                            "id": 1,
+                            "obj": "Motion_directional",
                             "span": {
-                                "begin": 15,
-                                "end": 35
+                                "begin": 27,
+                                "end": 32
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "물러났다."
                         },
                         {
-                            "obj": "manner",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 37,
-                                "end": 49
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "3"
+                            "text": "아이는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Circumstances",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 50,
-                                "end": 53
+                                "begin": 4,
+                                "end": 15
                             },
-                            "id": "1"
+                            "text": "이렇게 말하고 나서,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "황급히",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Source",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 26
+                            },
+                            "text": "주인 앞에서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "proceed"
-                    ],
-                    "ko_annotation_id": 9772,
-                    "text": "그리고 그에 맞춰 : 1- 알 카에다 임무와 그것의 다른 계획들은 이슬람 법 조항에 따라 진행한다.",
-                    "sent_id": 1661,
+                    "sent_id": 4732,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 8146
+                    "lu": "물러나다.v.Motion_directional",
+                    "text": "아이는 이렇게 말하고 나서, 황급히 주인 앞에서 물러났다."
                 }
             ]
         }
-    ],
-    "frameID": 145,
-    "ko_pos": "VV",
-    "ko_lu": "진행하다.v.Process_continue",
-    "lu_id": 2984,
-    "en_lus": [
-        "proceed"
     ]
 }

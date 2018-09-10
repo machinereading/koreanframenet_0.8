@@ -1,73 +1,87 @@
 {
-    "frameName": "Color",
+    "ko_pos": "v",
+    "ko_lu": "지키다.v.Protecting",
+    "frameID": 1631,
+    "frameName": "Protecting",
+    "en_lus": [
+        "guard"
+    ],
+    "lu_id": 207,
     "patterns": [
         {
-            "valenceText": "annotation id: 651",
+            "valenceText": "annotation id: 2874",
             "examples": [
                 {
-                    "frameName": "Color",
-                    "denotations": [
-                        {
-                            "obj": "Color",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
-                        },
-                        {
-                            "obj": "Entity",
-                            "span": {
-                                "begin": 7,
-                                "end": 8
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 4,
-                                "end": 6
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "orenzi .オレンジ "
+                        "guard"
                     ],
-                    "ko_annotation_id": 651,
-                    "text": "시합은 주황 띠 이상의 여성 유도인을 대상으로 예선을 치뤄, 출장 선수를 16명으로 추린 후, 제1회전, 2회전, 준결승전이 열렸으며, 결국 애디슨 부인(파랑 띠)과 루바니에 부인(갈색 띠)이 결승전에서 대결하게 되었다.",
-                    "sent_id": 4305,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.42346",
-            "examples": [
-                {
-                    "frameName": "Color",
+                    "ko_annotation_id": 2874,
+                    "annotation_id": 5520,
+                    "frameName": "Protecting",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Protecting",
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 35,
+                                "end": 39
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "지킨다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protection",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 31
+                            },
+                            "text": "feng shui 원리를 이행하는,두 마리의 구리 사자가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Asset",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "text": "문을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "빨강에 노랑을 더하면 주황이 된다.",
-                    "target": "주황",
-                    "ko_annotation_id": "sejong.42346",
-                    "relations": []
+                    "sent_id": 1056,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지키다.v.Protecting",
+                    "text": "feng shui 원리를 이행하는,두 마리의 구리 사자가 문을 지킨다."
                 }
             ]
         }
-    ],
-    "frameID": 423,
-    "ko_pos": "NNG",
-    "ko_lu": "주황.n.Color",
-    "lu_id": 207,
-    "en_lus": [
-        "orenzi .オレンジ "
     ]
 }

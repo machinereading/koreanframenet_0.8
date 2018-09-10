@@ -1,109 +1,103 @@
 {
-    "frameName": "Capability",
+    "ko_pos": "v",
+    "ko_lu": "배달되다.v.Delivery",
+    "frameID": 1344,
+    "frameName": "Delivery",
+    "en_lus": [
+        "deliver"
+    ],
+    "lu_id": 5010,
     "patterns": [
         {
-            "valenceText": "annotation id: 17646",
+            "valenceText": "annotation id: 8964",
             "examples": [
                 {
-                    "frameName": "Capability",
+                    "origin_lus": [
+                        "delivered"
+                    ],
+                    "ko_annotation_id": 8964,
+                    "annotation_id": 16473,
+                    "frameName": "Delivery",
                     "denotations": [
                         {
-                            "obj": "entity",
+                            "id": 1,
+                            "obj": "Delivery",
                             "span": {
-                                "begin": 0,
-                                "end": 20
+                                "begin": 36,
+                                "end": 42
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "배달되는가를"
                         },
                         {
-                            "obj": "event",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 55,
-                                "end": 65
+                                "begin": 8,
+                                "end": 21
                             },
-                            "id": "3"
+                            "text": "대규모 양의 약과 치료가",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Speed",
+                            "token_span": [
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 66,
-                                "end": 72
+                                "begin": 22,
+                                "end": 28
                             },
-                            "id": "1"
+                            "text": "얼마나 빨리",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Recipient",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 35
+                            },
+                            "text": "일반인들에게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "capable"
-                    ],
-                    "ko_annotation_id": 17646,
-                    "text": "이란의 잘 알려진 Shahab 미사일은 또한 그것은 탄두가 개발되었거나 시험된 것은 불확실하지만, 화학 탄두를 운반할 능력이 있는 것으로 여겨진다.",
-                    "sent_id": 2264,
+                    "sent_id": 3154,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 11322
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.98544",
-            "examples": [
-                {
-                    "frameName": "Capability",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 0,
-                                "end": 4
-                            },
-                            "obj": "target"
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "능력있는 사람이 대접받는 사회가 되어야 한다.",
-                    "target": "능력있는",
-                    "ko_annotation_id": "sejong.98544",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.98545",
-            "examples": [
-                {
-                    "frameName": "Capability",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 32,
-                                "end": 36
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "우리 회사에서는 몸과 마음을 바쳐서 일할 마음가짐을 가진 능력있는 사람을 뽑고 있다.",
-                    "target": "능력있는",
-                    "ko_annotation_id": "sejong.98545",
-                    "relations": []
+                    "lu": "배달되다.v.Delivery",
+                    "text": "훈련의 본질은 대규모 양의 약과 치료가 얼마나 빨리 일반인들에게 배달되는가를 시험하는 것이었다."
                 }
             ]
         }
-    ],
-    "frameID": 990,
-    "ko_pos": "VA",
-    "ko_lu": "능력있다.a.Capability",
-    "lu_id": 5010,
-    "en_lus": [
-        "capable"
     ]
 }

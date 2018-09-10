@@ -1,44 +1,83 @@
 {
-    "frameName": "Body_movement",
+    "ko_pos": "a",
+    "ko_lu": "높다.a.Measurable_attributes",
+    "frameID": 965,
+    "frameName": "Measurable_attributes",
+    "en_lus": [
+        "takai .高い "
+    ],
+    "lu_id": 1399,
     "patterns": [
         {
-            "valenceText": "annotation id: 4427",
+            "valenceText": "annotation id: 16474",
             "examples": [
                 {
-                    "frameName": "Body_movement",
+                    "origin_lus": [
+                        "takai .高い "
+                    ],
+                    "ko_annotation_id": 16474,
+                    "annotation_id": 0,
+                    "frameName": "Measurable_attributes",
                     "denotations": [
                         {
-                            "obj": "Body_part",
+                            "id": 1,
+                            "obj": "Measurable_attributes",
                             "span": {
-                                "begin": 68,
-                                "end": 71
-                            }
+                                "begin": 50,
+                                "end": 53
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "높아,"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Entity",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 73,
-                                "end": 76
-                            }
+                                "begin": 39,
+                                "end": 49
+                            },
+                            "text": "악성이 될 가능성이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Attribute",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 53
+                            },
+                            "text": "높아,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "agaru .上がる "
+                    "sent_id": 4355,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4427,
-                    "text": "이거 참 어쩌지, 하면서도 묵기에 마음이 편한 바라나시를 떠날 생각도 들지 않고, 기차표를 끊는 수고로움을 생각하니 더욱 엉덩이가 떨어지지 않아, 딱 2, 3일만 더 있자 하며 어물어물 주저앉아 버린 것이다.",
-                    "sent_id": 4804,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "높다.a.Measurable_attributes",
+                    "text": "발바닥에는 20~30명에 한 명꼴로 검은 사마귀가 발견되는데, 이것은 악성이 될 가능성이 높아, 주의를 기울여야 한다고 알려져 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 16,
-    "ko_pos": "VV",
-    "ko_lu": "떨어지다.v.Body_movement",
-    "lu_id": 1399,
-    "en_lus": [
-        "agaru .上がる "
     ]
 }

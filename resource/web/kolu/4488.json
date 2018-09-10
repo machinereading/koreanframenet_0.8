@@ -1,38 +1,64 @@
 {
-    "frameName": "Desirable_event",
+    "ko_pos": "v",
+    "ko_lu": "닫히다.v.Closure",
+    "frameID": 254,
+    "frameName": "Closure",
+    "en_lus": [
+        "simekiru .閉め切る"
+    ],
+    "lu_id": 4488,
     "patterns": [
         {
-            "valenceText": "annotation id: 15555",
+            "valenceText": "annotation id: 16361",
             "examples": [
                 {
-                    "frameName": "Desirable_event",
+                    "origin_lus": [
+                        "simekiru .閉め切る"
+                    ],
+                    "ko_annotation_id": 16361,
+                    "annotation_id": 0,
+                    "frameName": "Closure",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Closure",
                             "span": {
-                                "begin": 73,
-                                "end": 75
+                                "begin": 5,
+                                "end": 13
                             },
-                            "id": "1"
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "문이 닫혀있기도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "한여름에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "should"
+                    "sent_id": 4130,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 15555,
-                    "text": "그래서 나로서는 누군가가, 저어, 타당한 의심의 여지없이 종신형이면, 그들은 그렇게 되어야 하고, 어, 특히 이들의 일부는 정말로 그렇다.",
-                    "sent_id": 1911,
-                    "relations": [],
-                    "annotation_id": 9219
+                    "lu": "닫히다.v.Closure",
+                    "text": "한여름에 문이 닫혀있기도 해서, 화장실도 고약한 냄새를 풍겼습니다."
                 }
             ]
         }
-    ],
-    "frameID": 1383,
-    "ko_pos": "VA",
-    "ko_lu": "그렇다.a.Desirable_event",
-    "lu_id": 4488,
-    "en_lus": [
-        "should"
     ]
 }

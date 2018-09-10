@@ -1,52 +1,99 @@
 {
-    "frameName": "Import_export_scenario",
+    "ko_pos": "v",
+    "ko_lu": "거스르다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "iku .いく"
+    ],
+    "lu_id": 312,
     "patterns": [
         {
-            "valenceText": "annotation id: 846",
+            "valenceText": "annotation id: 11441",
             "examples": [
                 {
-                    "frameName": "Import_export",
+                    "origin_lus": [
+                        "iku .いく"
+                    ],
+                    "ko_annotation_id": 11441,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
                     "denotations": [
                         {
-                            "obj": "goods",
+                            "id": 1,
+                            "obj": "Motion",
                             "span": {
-                                "begin": 21,
-                                "end": 24
+                                "begin": 39,
+                                "end": 42
                             },
-                            "id": "2"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "거슬러"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
                                 "begin": 25,
                                 "end": 29
                             },
-                            "id": "1"
+                            "text": "이야기가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Frequency",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "text": "자꾸",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 38
+                            },
+                            "text": "오래전으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "exporters"
-                    ],
-                    "ko_annotation_id": 846,
-                    "text": "1980년대 말에 새로운 여러 잠재적 핵원조 수출자들의 수가 늘어났다.",
-                    "sent_id": 2588,
+                    "sent_id": 4398,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 12956
+                    "lu": "거스르다.v.Motion",
+                    "text": "저는 잠시 「풍토기」를 연구한 적인 있는데, 이야기가 자꾸 오래전으로 거슬러 올라가서 죄송합니다만, 다이카 개신의 칙령에 따라, 궁정을 중심으로 하는 고대 수도권, 기나이라 불리는 지역이 생겼습니다."
                 }
             ]
         }
-    ],
-    "frameID": 422,
-    "ko_pos": "NN",
-    "ko_lu": "수출자들.n.Import_export_scenario",
-    "lu_id": 312,
-    "en_lus": [
-        "exporter"
     ]
 }

@@ -1,65 +1,63 @@
 {
-    "frameName": "Goal",
+    "ko_pos": "v",
+    "ko_lu": "가다.v.Operate_vehicle",
+    "frameID": 65,
+    "frameName": "Operate_vehicle",
+    "en_lus": [
+        "drive"
+    ],
+    "lu_id": 5639,
     "patterns": [
         {
-            "valenceText": "annotation id: 19911",
+            "valenceText": "annotation id: 13764",
             "examples": [
                 {
-                    "frameName": "Goal",
+                    "origin_lus": [
+                        "driving"
+                    ],
+                    "ko_annotation_id": 13764,
+                    "annotation_id": 7078,
+                    "frameName": "Operate_vehicle",
                     "denotations": [
                         {
-                            "obj": "trajector",
+                            "id": 1,
+                            "obj": "Operate_vehicle",
                             "span": {
-                                "begin": 9,
-                                "end": 52
+                                "begin": 42,
+                                "end": 44
                             },
-                            "id": "3"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "가기"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
                                 "begin": 37,
                                 "end": 41
                             },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "landmark",
-                            "span": {
-                                "begin": 45,
-                                "end": 47
-                            },
-                            "id": "2"
+                            "text": "이라크로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "to"
-                    ],
-                    "ko_annotation_id": 19911,
-                    "text": "한 가지 방법은 건강 보급품과 다른 긴급 상품을 유엔의 인도주의적 프로그램 하에 국가로의 유입 속도를 높이는 것이다.",
-                    "sent_id": 1521,
+                    "sent_id": 1491,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 7313
+                    "lu": "가다.v.Operate_vehicle",
+                    "text": "Hall은 금요일에 요르단의 암만으로 비행기로 가고, 거기서 그는 이라크로 가기 전에 하룻밤을 보낼 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 1177,
-    "ko_pos": "NNG",
-    "ko_lu": "프로그램.n.Goal",
-    "lu_id": 5639,
-    "en_lus": [
-        "to"
     ]
 }

@@ -1,104 +1,139 @@
 {
-    "frameName": "Natural_features",
+    "ko_pos": "v",
+    "ko_lu": "파악하다.v.Grasp",
+    "frameID": 979,
+    "frameName": "Grasp",
+    "en_lus": [
+        "tukamu .つかむ ",
+        "toraeru .とらえる "
+    ],
+    "lu_id": 3356,
     "patterns": [
         {
-            "valenceText": "annotation id: 11415",
+            "valenceText": "annotation id: 11677",
             "examples": [
                 {
-                    "frameName": "Natural_features",
+                    "origin_lus": [
+                        "tukamu .つかむ ",
+                        "toraeru .とらえる "
+                    ],
+                    "ko_annotation_id": 11677,
+                    "annotation_id": 0,
+                    "frameName": "Grasp",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Grasp",
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 51,
+                                "end": 55
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "파악해,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 50
+                            },
+                            "text": "단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sea"
+                    "sent_id": 4550,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 11415,
-                    "text": "해상 발사 탄도 미사일 ( SLBM ) 이 현재 생산되지 않는 반명, 러시아는 Bulava라 불리는 신형  SLBM을 개발중이며, 이것은 기존의 Typhoon 급 잠수함에 그리고 향후에는 현재 건조 중인 신형급의 탄도 미사일 잠수함에 장착할 예정이다.",
-                    "sent_id": 3008,
-                    "relations": [],
-                    "annotation_id": 15494
+                    "lu": "파악하다.v.Grasp",
+                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.11907",
+            "valenceText": "annotation id: 16153",
             "examples": [
                 {
-                    "frameName": "Natural_features",
+                    "origin_lus": [
+                        "tukamu .つかむ ",
+                        "toraeru .とらえる "
+                    ],
+                    "ko_annotation_id": 16153,
+                    "annotation_id": 0,
+                    "frameName": "Grasp",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Grasp",
                             "span": {
-                                "begin": 9,
+                                "begin": 17,
+                                "end": 21
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "파악하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Category",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
                                 "end": 11
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "간밤의 폭풍으로 해상에서 큰 사고가 발생했다.",
-                    "target": "해상",
-                    "ko_annotation_id": "sejong.11907",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.11908",
-            "examples": [
-                {
-                    "frameName": "Natural_features",
-                    "denotations": [
+                            "text": "단품별로",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 0,
-                                "end": 2
+                                "begin": 12,
+                                "end": 16
                             },
-                            "id": "1"
+                            "text": "데이터를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "해상에는 큰 폭풍이 불고 있다.",
-                    "target": "해상",
-                    "ko_annotation_id": "sejong.11908",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.11909",
-            "examples": [
-                {
-                    "frameName": "Natural_features",
-                    "denotations": [
+                    "sent_id": 3628,
+                    "relations": [
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 3,
-                                "end": 5
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "내일 해상에서 발생할 돌풍이 내륙지방을 강타할 것으로 보입니다.",
-                    "target": "해상",
-                    "ko_annotation_id": "sejong.11909",
-                    "relations": []
+                    "lu": "파악하다.v.Grasp",
+                    "text": "다만 단순히 단품별로 데이터를 파악하는 것이 아니라, 이 표처럼, 최초의 상품구성, 상품 종류별로 단품 데이터의 추이를 파악하는 것이 중요하다."
                 }
             ]
         }
-    ],
-    "frameID": 191,
-    "ko_pos": "NNG",
-    "ko_lu": "해상.n.Natural_features",
-    "lu_id": 3356,
-    "en_lus": [
-        "sea"
     ]
 }

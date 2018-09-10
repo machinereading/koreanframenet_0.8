@@ -1,96 +1,63 @@
 {
-    "frameName": "Aggregate",
+    "ko_pos": "n",
+    "ko_lu": "수송.n.Bringing",
+    "frameID": 240,
+    "frameName": "Bringing",
+    "en_lus": [
+        "transport"
+    ],
+    "lu_id": 5590,
     "patterns": [
         {
-            "valenceText": "annotation id: 19775",
+            "valenceText": "annotation id: 13241",
             "examples": [
                 {
-                    "frameName": "Aggregate",
+                    "origin_lus": [
+                        "transport"
+                    ],
+                    "ko_annotation_id": 13241,
+                    "annotation_id": 4101,
+                    "frameName": "Bringing",
                     "denotations": [
                         {
-                            "obj": "aggregateproperty",
+                            "id": 1,
+                            "obj": "Bringing",
                             "span": {
-                                "begin": 4,
-                                "end": 15
+                                "begin": 3,
+                                "end": 7
                             },
-                            "id": "2"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "수송에서"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Carrier",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 17,
-                                "end": 20
+                                "begin": 0,
+                                "end": 2
                             },
-                            "id": "1"
+                            "text": "철도",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "crowds"
-                    ],
-                    "ko_annotation_id": 19775,
-                    "text": "분주한 밤 - 그리고 - 낮의 군중들은 이 지역을 역동적이고 활기차게 만든다.",
-                    "sent_id": 1122,
+                    "sent_id": 784,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5879
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.39588",
-            "examples": [
-                {
-                    "frameName": "Aggregate",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 15,
-                                "end": 17
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "전광판 앞은 경기를 보려는 군중들로 가득찼다.",
-                    "target": "군중",
-                    "ko_annotation_id": "sejong.39588",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.39589",
-            "examples": [
-                {
-                    "frameName": "Aggregate",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 7,
-                                "end": 9
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "거리에 많은 군중이 모였다.",
-                    "target": "군중",
-                    "ko_annotation_id": "sejong.39589",
-                    "relations": []
+                    "lu": "수송.n.Bringing",
+                    "text": "철도 수송에서 증가하는 경쟁은 Union Pacific이 로스앤젤레스 - 솔트레이크 선로를 사들이는 결과를 가져왔다."
                 }
             ]
         }
-    ],
-    "frameID": 103,
-    "ko_pos": "NN",
-    "ko_lu": "군중.n.Aggregate",
-    "lu_id": 5590,
-    "en_lus": [
-        "crowd"
     ]
 }

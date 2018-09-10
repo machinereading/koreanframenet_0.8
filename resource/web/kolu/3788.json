@@ -1,88 +1,103 @@
 {
-    "frameName": "Erasing",
+    "ko_pos": "v",
+    "ko_lu": "추진되다.v.Cause_motion",
+    "frameID": 55,
+    "frameName": "Cause_motion",
+    "en_lus": [
+        "propel"
+    ],
+    "lu_id": 3788,
     "patterns": [
         {
-            "valenceText": "annotation id: 12987",
+            "valenceText": "annotation id: 3111",
             "examples": [
                 {
-                    "frameName": "Erasing",
+                    "origin_lus": [
+                        "propelled"
+                    ],
+                    "ko_annotation_id": 3111,
+                    "annotation_id": 5956,
+                    "frameName": "Cause_motion",
                     "denotations": [
                         {
-                            "obj": "Document",
+                            "id": 1,
+                            "obj": "Cause_motion",
                             "span": {
-                                "begin": 40,
-                                "end": 43
-                            }
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "추진되는"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 45,
-                                "end": 48
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "kaisyoo .解消 "
-                    ],
-                    "ko_annotation_id": 12987,
-                    "text": "한편, 그냥 모여 푸념을 늘어놓는 모임이 이러한 계발활동 후에 열리면, 폐쇄감을 해소할 수 있습니다.",
-                    "sent_id": 3658,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.50427",
-            "examples": [
-                {
-                    "frameName": "Erasing",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 19,
-                                "end": 23
+                                "begin": 4,
+                                "end": 11
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "적당한 운동이야말로 당신의 피로를 해소하고 새로운 활력을 북돋울 수 있는 처방입니다.",
-                    "target": "해소하고",
-                    "ko_annotation_id": "sejong.50427",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.50428",
-            "examples": [
-                {
-                    "frameName": "Erasing",
-                    "denotations": [
+                            "text": "여성 운전자의",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "id": "1",
+                            "id": 3,
+                            "obj": "Instrument",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 27,
-                                "end": 30
+                                "begin": 12,
+                                "end": 15
                             },
-                            "obj": "target"
+                            "text": "손에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 32
+                            },
+                            "text": "작은 배들 중 하나로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "주변의 그 어떤 노력도 두 사람간의 묵은 감정을 해소할 수는 없었다.",
-                    "target": "해소할",
-                    "ko_annotation_id": "sejong.50428",
-                    "relations": []
+                    "sent_id": 1133,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "추진되다.v.Cause_motion",
+                    "text": "당신은 여성 운전자의 손에서 추진되는 작은 배들 중 하나로 항구 여행을 할 수 있다."
                 }
             ]
         }
-    ],
-    "frameID": 2481,
-    "ko_pos": "VV",
-    "ko_lu": "해소하다.v.Erasing",
-    "lu_id": 3788,
-    "en_lus": [
-        "kaisyoo .解消 "
     ]
 }

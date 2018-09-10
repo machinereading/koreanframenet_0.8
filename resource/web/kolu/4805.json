@@ -1,44 +1,101 @@
 {
-    "frameName": "Education_teaching",
+    "ko_pos": "v",
+    "ko_lu": "올리다.v.Placing",
+    "frameID": 62,
+    "frameName": "Placing",
+    "en_lus": [
+        "put"
+    ],
+    "lu_id": 4805,
     "patterns": [
         {
-            "valenceText": "annotation id: 16860",
+            "valenceText": "annotation id: 1919",
             "examples": [
                 {
-                    "frameName": "Education_teaching",
+                    "origin_lus": [
+                        "put"
+                    ],
+                    "ko_annotation_id": 1919,
+                    "annotation_id": 3943,
+                    "frameName": "Placing",
                     "denotations": [
                         {
-                            "obj": "Material",
+                            "id": 1,
+                            "obj": "Placing",
                             "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 17,
+                                "end": 23
+                            },
+                            "token_span": [
+                                4,
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "올려 놓았고"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 18
-                            }
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "이것이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 12
+                            },
+                            "text": "라스 베이거스를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "text": "지도에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kyoozai .教材"
+                    "sent_id": 750,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16860,
-                    "text": "그런 뜻에서, 모형 만들기는 교재 내용과 상관없이, 중학교 이과 과목 안에 일관되게 넣을 가치가 있는 내용이다.",
-                    "sent_id": 4005,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "올리다.v.Placing",
+                    "text": "이것이 라스 베이거스를 지도에 올려 놓았고 라스 베이거스 역사의 중요한 전환점들 중의 하나이었다."
                 }
             ]
         }
-    ],
-    "frameID": 111,
-    "ko_pos": "NNG",
-    "ko_lu": "교재.n.Education_teaching",
-    "lu_id": 4805,
-    "en_lus": [
-        "kyoozai .教材"
     ]
 }

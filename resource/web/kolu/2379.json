@@ -1,65 +1,89 @@
 {
-    "frameName": "Receiving",
+    "ko_pos": "n",
+    "ko_lu": "유보.n.Activity_pause",
+    "frameID": 167,
+    "frameName": "Activity_pause",
+    "en_lus": [
+        "suspend"
+    ],
+    "lu_id": 2379,
     "patterns": [
         {
-            "valenceText": "annotation id: 7685",
+            "valenceText": "annotation id: 8049",
             "examples": [
                 {
-                    "frameName": "Receiving",
+                    "origin_lus": [
+                        "suspend"
+                    ],
+                    "ko_annotation_id": 8049,
+                    "annotation_id": 14709,
+                    "frameName": "Activity_pause",
                     "denotations": [
                         {
-                            "obj": "recipient",
+                            "id": 1,
+                            "obj": "Activity_pause",
                             "span": {
-                                "begin": 17,
-                                "end": 19
+                                "begin": 46,
+                                "end": 48
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "유보"
                         },
                         {
-                            "obj": "theme",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 57
+                                "begin": 15,
+                                "end": 18
                             },
-                            "id": "3"
+                            "text": "미국이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Activity",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 55,
-                                "end": 57
+                                "begin": 19,
+                                "end": 45
                             },
-                            "id": "1"
+                            "text": "핵동결 협약 하에 중유 오일 ( HFO ) 수송",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "accept"
-                    ],
-                    "ko_annotation_id": 7685,
-                    "text": "1980년에서 1990년 까지 이란은 Eurodif가 재처리한 3% U-235으로 농축한 우라늄의 인수에 대한 지불을 거부하였다.",
-                    "sent_id": 3380,
+                    "sent_id": 2879,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17912
+                    "lu": "유보.n.Activity_pause",
+                    "text": "핵확산 방지 조약의 탈퇴는 미국이 핵동결 협약 하에 중유 오일 ( HFO ) 수송 유보 결정에 대한 반응으로 북한은 핵 프로그램 동결을 해제한다는 2002년 12월 선언에 신속히 이어 나왔다."
                 }
             ]
         }
-    ],
-    "frameID": 411,
-    "ko_pos": "NNG",
-    "ko_lu": "인수.n.Receiving",
-    "lu_id": 2379,
-    "en_lus": [
-        "accept"
     ]
 }

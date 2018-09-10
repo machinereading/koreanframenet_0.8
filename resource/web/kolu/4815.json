@@ -1,44 +1,72 @@
 {
-    "frameName": "Assistance",
+    "ko_pos": "n",
+    "ko_lu": "예측.n.Estimated_value",
+    "frameID": 1516,
+    "frameName": "Estimated_value",
+    "en_lus": [
+        "Estimates"
+    ],
+    "lu_id": 4815,
     "patterns": [
         {
-            "valenceText": "annotation id: 16882",
+            "valenceText": "annotation id: 7840",
             "examples": [
                 {
-                    "frameName": "Assistance",
+                    "origin_lus": [
+                        "Estimates"
+                    ],
+                    "ko_annotation_id": 7840,
+                    "annotation_id": 14264,
+                    "frameName": "Estimated_value",
                     "denotations": [
                         {
-                            "obj": "Co_agent",
+                            "id": 1,
+                            "obj": "Estimated_value",
                             "span": {
                                 "begin": 39,
-                                "end": 60
-                            }
+                                "end": 42
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "예측은"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Question",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
                             "span": {
-                                "begin": 78,
-                                "end": 79
-                            }
+                                "begin": 0,
+                                "end": 38
+                            },
+                            "text": "얼마나 빨리 북한은 우라늄 농축 공장을 가동하기 시작할 것인가에 대한",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "te o kasu .手 を 貸す "
+                    "sent_id": 2813,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16882,
-                    "text": "길바닥에 주저앉아 있으면 「형아, 괜찮아요?」하고 누군가 말을 걸고, 계단 끝에 유모차를 들고 서 있는 여자에게는 「도와줄게요」하고 기꺼이 손을 내민다.",
-                    "sent_id": 3770,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "예측.n.Estimated_value",
+                    "text": "얼마나 빨리 북한은 우라늄 농축 공장을 가동하기 시작할 것인가에 대한 예측은 서로 다르지만, 북한은 아마도 10년 내에는 상당량의 무기급 고농축 우라늄을 생산할 수 없을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 391,
-    "ko_pos": "NNG",
-    "ko_lu": "손.n.Assistance",
-    "lu_id": 4815,
-    "en_lus": [
-        "te o kasu .手 を 貸す "
     ]
 }

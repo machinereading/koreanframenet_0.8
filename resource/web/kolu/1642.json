@@ -1,96 +1,85 @@
 {
-    "frameName": "Calendric_unit",
+    "ko_pos": "v",
+    "ko_lu": "만족하다.v.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "displeased"
+    ],
+    "lu_id": 1642,
     "patterns": [
         {
-            "valenceText": "annotation id: 5137",
+            "valenceText": "annotation id: 2101",
             "examples": [
                 {
-                    "frameName": "Calendric_unit",
+                    "origin_lus": [
+                        "displeased"
+                    ],
+                    "ko_annotation_id": 2101,
+                    "annotation_id": 4217,
+                    "frameName": "Emotion_directed",
                     "denotations": [
                         {
-                            "obj": "relative_time",
+                            "id": 1,
+                            "obj": "Emotion_directed",
                             "span": {
-                                "begin": 0,
-                                "end": 3
+                                "begin": 39,
+                                "end": 48
                             },
-                            "id": "2"
+                            "token_span": [
+                                7,
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "만족하지 못하였다"
                         },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 0,
-                                "end": 3
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "year"
-                    ],
-                    "ko_annotation_id": 5137,
-                    "text": "지난해 재해 손실은 순이익이 235.5 백만 달러 또는 주당 2.07 달러 시 5 백만 달러의 총합에 이르렀다.",
-                    "sent_id": 3,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 19
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.35500",
-            "examples": [
-                {
-                    "frameName": "Calendric_unit",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 0,
-                                "end": 3
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "지난해 여름 마지막으로 파리에 갔었다.",
-                    "target": "지난해",
-                    "ko_annotation_id": "sejong.35500",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.35501",
-            "examples": [
-                {
-                    "frameName": "Calendric_unit",
-                    "denotations": [
-                        {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
                                 "begin": 4,
-                                "end": 7
+                                "end": 24
                             },
-                            "id": "1"
+                            "text": "운영을 재정지원한 Mafia 두목들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Stimulus",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "text": "성과에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "우리는 지난해에 처음 만났다.",
-                    "target": "지난해",
-                    "ko_annotation_id": "sejong.35501",
-                    "relations": []
+                    "sent_id": 807,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "만족하다.v.Emotion_directed",
+                    "text": "그러나 운영을 재정지원한 Mafia 두목들은 Flamingo의 성과에 만족하지 못하였다  ; 1947년 여름에 Siegel은 살해되었다."
                 }
             ]
         }
-    ],
-    "frameID": 229,
-    "ko_pos": "NNG",
-    "ko_lu": "지난해.n.Calendric_unit",
-    "lu_id": 1642,
-    "en_lus": [
-        "year"
     ]
 }

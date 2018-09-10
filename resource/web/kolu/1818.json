@@ -1,44 +1,138 @@
 {
-    "frameName": "Ranked_expectation",
+    "ko_pos": "v",
+    "ko_lu": "강화하다.v.Cause_change_of_strength",
+    "frameID": 1781,
+    "frameName": "Cause_change_of_strength",
+    "en_lus": [
+        "strengthen",
+        "reinforce"
+    ],
+    "lu_id": 1818,
     "patterns": [
         {
-            "valenceText": "annotation id: 5741",
+            "valenceText": "annotation id: 1440",
             "examples": [
                 {
-                    "frameName": "Ranked_expectation",
+                    "origin_lus": [
+                        "reinforcing"
+                    ],
+                    "ko_annotation_id": 1440,
+                    "annotation_id": 3010,
+                    "frameName": "Cause_change_of_strength",
                     "denotations": [
                         {
-                            "obj": "Entity",
+                            "id": 1,
+                            "obj": "Cause_change_of_strength",
                             "span": {
-                                "begin": 6,
-                                "end": 12
-                            }
+                                "begin": 33,
+                                "end": 37
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "강화하는"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Patient",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 63,
-                                "end": 65
-                            }
+                                "begin": 21,
+                                "end": 32
+                            },
+                            "text": "섬에서 기독교 신앙을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "zensya .全社 "
+                    "sent_id": 569,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5741,
-                    "text": "왜냐하면, 어느 기업이든 변하기 힘든 내부 사정이나 조직의 특성이 있어, 꽤 규모가 작은 오너 기업이 아닌 한, 전사가 하나가 되어 일에 착수하여, 성과를 내기까지는, 시간과 끈기가 상당히 필요하기 때문이다.",
-                    "sent_id": 4678,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "강화하다.v.Cause_change_of_strength",
+                    "text": "그들은 그들의 강력한 성채들을 짓고, 섬에서 기독교 신앙을 강화하는 과정을 시작하였다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 1525",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "strengthening"
+                    ],
+                    "ko_annotation_id": 1525,
+                    "annotation_id": 3196,
+                    "frameName": "Cause_change_of_strength",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Cause_change_of_strength",
+                            "span": {
+                                "begin": 114,
+                                "end": 121
+                            },
+                            "token_span": [
+                                25
+                            ],
+                            "role": "TARGET",
+                            "text": "강화하는데에만"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                20
+                            ],
+                            "span": {
+                                "begin": 92,
+                                "end": 95
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Patient",
+                            "token_span": [
+                                21,
+                                22,
+                                23,
+                                24
+                            ],
+                            "span": {
+                                "begin": 96,
+                                "end": 113
+                            },
+                            "text": "그들을 반대하는 주민들의 투지를",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 600,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "강화하다.v.Cause_change_of_strength",
+                    "text": "그의 군대는 Tinos Town의 항구에 있는 그리스 해군 선박을 침몰시킨 것을 포함하여, Dodecanese 제도에 있는 그들의 기지에서 일련의 공격을 하였으나, 그들은 그들을 반대하는 주민들의 투지를 강화하는데에만 성공했다."
                 }
             ]
         }
-    ],
-    "frameID": 1533,
-    "ko_pos": "NNG",
-    "ko_lu": "전사.n.Ranked_expectation",
-    "lu_id": 1818,
-    "en_lus": [
-        "zensya .全社 "
     ]
 }

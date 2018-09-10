@@ -1,74 +1,103 @@
 {
-    "frameName": "Artifact",
+    "ko_pos": "v",
+    "ko_lu": "연주하다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "do"
+    ],
+    "lu_id": 3238,
     "patterns": [
         {
-            "valenceText": "annotation id: 11024",
+            "valenceText": "annotation id: 110",
             "examples": [
                 {
-                    "frameName": "Artifact",
+                    "origin_lus": [
+                        "do"
+                    ],
+                    "ko_annotation_id": 110,
+                    "annotation_id": 182,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 3,
-                                "end": 6
-                            },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "creator",
-                            "span": {
-                                "begin": 12,
+                                "begin": 11,
                                 "end": 15
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "연주하는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "대륙 유럽의 편종을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "것처럼,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Act",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 41
+                            },
+                            "text": "종을 연주하는 것은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "technology"
-                    ],
-                    "ko_annotation_id": 11024,
-                    "text": "많은 기술적 지연 ( 러시아 기술과 원래의 지멘스 장비와의 부적합 ) 과 프로젝트를 멈추기 위한 미국의 노력에도 불구하고, 특히 Gore - Chernomyrdin 위원회 회의 동안의 거래를 취소하기 위한 러시아 정부의 빈번한 로비에도 불구하고, 시설은 거의 완공되고 있다.",
-                    "sent_id": 2598,
+                    "sent_id": 27,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 13000
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.10764",
-            "examples": [
-                {
-                    "frameName": "Artifact",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 8,
-                                "end": 11
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "이 프로그램은 기술적인 문제가 있다.",
-                    "target": "기술적",
-                    "ko_annotation_id": "sejong.10764",
-                    "relations": []
+                    "lu": "연주하다.v.Intentionally_act",
+                    "text": "대륙 유럽의 편종을 연주하는 것처럼, 덜 복잡한 형태의 종을 연주하는 것은 영국인들에게는 유치한 것이고, 외국인들에게만 적합하다고 여긴다."
                 }
             ]
         }
-    ],
-    "frameID": 421,
-    "ko_pos": "NN",
-    "ko_lu": "기술적.n.Artifact",
-    "lu_id": 3238,
-    "en_lus": [
-        "technology"
     ]
 }

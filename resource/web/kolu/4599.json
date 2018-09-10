@@ -1,109 +1,93 @@
 {
-    "frameName": "Traversing",
+    "ko_pos": "n",
+    "ko_lu": "원인임.n.Causation",
+    "frameID": 5,
+    "frameName": "Causation",
+    "en_lus": [
+        "gen'in .原因 "
+    ],
+    "lu_id": 4599,
     "patterns": [
         {
-            "valenceText": "annotation id: 15954",
+            "valenceText": "annotation id: 16398",
             "examples": [
                 {
-                    "frameName": "Traversing",
+                    "origin_lus": [
+                        "gen'in .原因 "
+                    ],
+                    "ko_annotation_id": 16398,
+                    "annotation_id": 0,
+                    "frameName": "Causation",
                     "denotations": [
                         {
-                            "obj": "theme",
+                            "id": 1,
+                            "obj": "Causation",
                             "span": {
-                                "begin": 22,
-                                "end": 23
+                                "begin": 55,
+                                "end": 59
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "원인임이"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Effect",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 25,
+                                "begin": 0,
                                 "end": 30
                             },
-                            "id": "1"
+                            "text": "인쇄물을 상대로도 당신이 「게임」을 할 수 있는 것은,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "source",
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
                             "span": {
                                 "begin": 31,
-                                "end": 40
+                                "end": 54
                             },
-                            "id": "3"
+                            "text": "당신이 처음에 전제로 하고 있던 사고방식이",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ascended"
-                    ],
-                    "ko_annotation_id": 15954,
-                    "text": "파괴된 신전의 위치 또는 그 가까이에서 그가 승천했다던 성전산 위의 바위는 691년에 바위 돔의 건설에 의해 기념되고 있다.",
-                    "sent_id": 689,
+                    "sent_id": 4192,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3658
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.89593",
-            "examples": [
-                {
-                    "frameName": "Traversing",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 14,
-                                "end": 18
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "이승에 한이 많은 귀신은 승천하지 못한다고 한다",
-                    "target": "승천하지",
-                    "ko_annotation_id": "sejong.89593",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.89594",
-            "examples": [
-                {
-                    "frameName": "Traversing",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 13,
-                                "end": 16
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "예수는 기적을 보인 후 승천했다",
-                    "target": "승천했",
-                    "ko_annotation_id": "sejong.89594",
-                    "relations": []
+                    "lu": "원인임.n.Causation",
+                    "text": "인쇄물을 상대로도 당신이 「게임」을 할 수 있는 것은, 당신이 처음에 전제로 하고 있던 사고방식이 원인임이 틀림없다."
                 }
             ]
         }
-    ],
-    "frameID": 1310,
-    "ko_pos": "VV",
-    "ko_lu": "승천하다.v.Traversing",
-    "lu_id": 4599,
-    "en_lus": [
-        "ascend"
     ]
 }

@@ -1,37 +1,120 @@
 {
-    "frameName": "Intentionally_act",
+    "ko_pos": "v",
+    "ko_lu": "예측하다.v.Expectation",
+    "frameID": 26,
+    "frameName": "Expectation",
+    "en_lus": [
+        "prediction",
+        "predictable"
+    ],
+    "lu_id": 2927,
     "patterns": [
         {
-            "valenceText": "annotation id: 9623",
+            "valenceText": "annotation id: 1195",
             "examples": [
                 {
-                    "frameName": "Intentionally_act",
+                    "origin_lus": [
+                        "prediction"
+                    ],
+                    "ko_annotation_id": 1195,
+                    "annotation_id": 2571,
+                    "frameName": "Expectation",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Expectation",
                             "span": {
-                                "begin": "13",
-                                "end": "23"
-                            }
+                                "begin": 31,
+                                "end": 34
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "예측할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 26
+                            },
+                            "text": "이 모든 것이 어디로 가고 있는지",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "animasion .アニマシオン "
+                    "sent_id": 487,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 9623,
-                    "text": "5 독서의 세계 배우기・두근두근・아니마시온 ■협동의 힘으로 독서를 즐기는 「아침의 독서」 시간을 만들면, 책을 접할 기회가 보장되어, 책 읽기를 좋아하는 아이가 늘어납니다.",
-                    "sent_id": 4157,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "예측하다.v.Expectation",
+                    "text": "아마도 당신은 이 모든 것이 어디로 가고 있는지 서둘러 예측할 수 있을 것이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 17125",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "predictable"
+                    ],
+                    "ko_annotation_id": 17125,
+                    "annotation_id": 12084,
+                    "frameName": "Expectation",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Expectation",
+                            "span": {
+                                "begin": 52,
+                                "end": 57
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "예측할만한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                14
+                            ],
+                            "span": {
+                                "begin": 58,
+                                "end": 62
+                            },
+                            "text": "방식으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2395,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예측하다.v.Expectation",
+                    "text": "이란 내에서 탄도 미사일과 장거리 로케트 포의 개발은 비교적 변함없이, 논리에 맞게, 그리고 예측할만한 방식으로 진행되고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 198,
-    "ko_pos": "NNP",
-    "ko_lu": "두근두근・아니마시온.n.Intentionally_act",
-    "lu_id": 2927,
-    "en_lus": [
-        "animasion .アニマシオン "
     ]
 }

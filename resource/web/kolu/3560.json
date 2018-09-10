@@ -1,106 +1,82 @@
 {
-    "frameName": "Successful_action",
+    "ko_pos": "v",
+    "ko_lu": "쭈그리다.v.Posture",
+    "frameID": 18,
+    "frameName": "Posture",
+    "en_lus": [
+        "crouch"
+    ],
+    "lu_id": 3560,
     "patterns": [
         {
-            "valenceText": "annotation id: 12104",
+            "valenceText": "annotation id: 9406",
             "examples": [
                 {
-                    "frameName": "Successful_action",
+                    "origin_lus": [
+                        "crouched"
+                    ],
+                    "ko_annotation_id": 9406,
+                    "annotation_id": 17589,
+                    "frameName": "Posture",
                     "denotations": [
                         {
-                            "obj": "time",
+                            "id": 1,
+                            "obj": "Posture",
                             "span": {
-                                "begin": 41,
-                                "end": 46
+                                "begin": 3,
+                                "end": 7
                             },
-                            "id": "3"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "쭈그리고"
                         },
                         {
-                            "obj": "means",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 48,
-                                "end": 50
+                                "begin": 0,
+                                "end": 2
                             },
-                            "id": "2"
+                            "text": "내가",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 52,
-                                "end": 60
+                                "begin": 8,
+                                "end": 13
                             },
-                            "id": "1"
+                            "text": "있는 벽의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "unsuccessful"
-                    ],
-                    "ko_annotation_id": 12104,
-                    "text": "그들은  그 다음에 Knights of St. John 섬을 목표로 삼고 1480년에 포위를 성공적으로 못한 후, 그들은 마침내 1522년에 Dodecanese로부터 기사들을 쫓아냈다.",
-                    "sent_id": 575,
+                    "sent_id": 3301,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3036
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 16384",
-            "examples": [
-                {
-                    "frameName": "Successful_action",
-                    "denotations": [
-                        {
-                            "obj": "means",
-                            "span": {
-                                "begin": 7,
-                                "end": 9
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 11,
-                                "end": 18
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "unsuccessful"
-                    ],
-                    "ko_annotation_id": 16384,
-                    "text": "비록 이러한 시도가 성공적이지 않았지만, 그리스 국가를 위한 캠페인은 19세기에 계속되었고 세력이 증가하기 시작하였다.",
-                    "sent_id": 581,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 3078
+                    "lu": "쭈그리다.v.Posture",
+                    "text": "내가 쭈그리고 있는 벽의 다른 편의 길을 따라 발걸음이 지나갔다."
                 }
             ]
         }
-    ],
-    "frameID": 1389,
-    "ko_pos": "NN",
-    "ko_lu": "성공.n.Successful_action",
-    "lu_id": 3560,
-    "en_lus": [
-        "unsuccessful",
-        "unsuccessful"
     ]
 }

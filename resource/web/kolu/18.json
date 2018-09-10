@@ -1,51 +1,82 @@
 {
+    "ko_pos": "v",
+    "ko_lu": "결심하다.v.Deciding",
+    "frameID": 363,
     "frameName": "Deciding",
+    "en_lus": [
+        "kessin .決心 "
+    ],
+    "lu_id": 18,
     "patterns": [
         {
-            "valenceText": "annotation id: 64",
+            "valenceText": "annotation id: 11215",
             "examples": [
                 {
-                    "frameName": "Deciding",
-                    "denotations": [
-                        {
-                            "obj": "Cognizer",
-                            "span": {
-                                "begin": 6,
-                                "end": 9
-                            }
-                        },
-                        {
-                            "obj": "Decision",
-                            "span": {
-                                "begin": 11,
-                                "end": 19
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 21,
-                                "end": 24
-                            }
-                        }
-                    ],
                     "origin_lus": [
                         "kessin .決心 "
                     ],
-                    "ko_annotation_id": 64,
-                    "text": "출산 후, 다카코는 마사오와의 이별을 결심하고, 마사오를 상대로 「마이카라의 인지청구」와 「다카코와 마이카라의 손해배상청구(이른바 위자료.)」의 두 가지 소송을 제기했다.",
+                    "ko_annotation_id": 11215,
+                    "annotation_id": 0,
+                    "frameName": "Deciding",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Deciding",
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "결심하고,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cognizer",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "text": "다카코는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Decision",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 20
+                            },
+                            "text": "마사오와의 이별을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
                     "sent_id": 4249,
-                    "relations": [],
-                    "annotation_id": 0
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "결심하다.v.Deciding",
+                    "text": "출산 후, 다카코는 마사오와의 이별을 결심하고, 마사오를 상대로 「마이카라의 인지청구」와 「다카코와 마이카라의 손해배상청구(이른바 위자료.)」의 두 가지 소송을 제기했다."
                 }
             ]
         }
-    ],
-    "frameID": 363,
-    "ko_pos": "VV",
-    "ko_lu": "결심하다.v.Deciding",
-    "lu_id": 18,
-    "en_lus": [
-        "kessin .決心 "
     ]
 }

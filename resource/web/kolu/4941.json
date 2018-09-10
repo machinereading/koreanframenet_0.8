@@ -1,52 +1,137 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "n",
+    "ko_lu": "주제.n.Topic",
+    "frameID": 373,
+    "frameName": "Topic",
+    "en_lus": [
+        "teema .テーマ"
+    ],
+    "lu_id": 4941,
     "patterns": [
         {
-            "valenceText": "annotation id: 17417",
+            "valenceText": "annotation id: 16553",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "teema .テーマ"
+                    ],
+                    "ko_annotation_id": 16553,
+                    "annotation_id": 0,
+                    "frameName": "Topic",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Topic",
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 44,
+                                "end": 46
                             },
-                            "id": "1"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "주제"
+                        }
+                    ],
+                    "sent_id": 4533,
+                    "relations": [],
+                    "lu": "주제.n.Topic",
+                    "text": "지리적인 면에서는 지구 전체에 걸쳐서, 분야적인 면에서는 산업 전반에 걸쳐서, 주제 면에서는 우리가 관여하는 수많은 분야에 걸쳐서, 이 문제를 생각하지 않으면 안됩니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16729",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "teema .テーマ"
+                    ],
+                    "ko_annotation_id": 16729,
+                    "annotation_id": 0,
+                    "frameName": "Topic",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Topic",
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "주제나"
                         },
                         {
-                            "obj": "figure",
+                            "id": 2,
+                            "obj": "Communicator",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "그 작가가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8
+                            ],
                             "span": {
                                 "begin": 11,
-                                "end": 12
+                                "end": 28
                             },
-                            "id": "2"
+                            "text": "충분히 실력을 발휘 할 수 있는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Topic",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 29,
+                                "end": 32
+                            },
+                            "text": "주제나",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "outlying"
-                    ],
-                    "ko_annotation_id": 17417,
-                    "text": "서쪽 멀리에는 외딴 섬으로 가는 연락선 터미널이 있다.",
-                    "sent_id": 1044,
+                    "sent_id": 4823,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5467
+                    "lu": "주제.n.Topic",
+                    "text": "따라서, 그 작가가 충분히 실력을 발휘 할 수 있는 주제나 방향성을 찾도록 도움을 줄 것."
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "NNG",
-    "ko_lu": "외딴.n.Locative_relation",
-    "lu_id": 4941,
-    "en_lus": [
-        "outlying"
     ]
 }

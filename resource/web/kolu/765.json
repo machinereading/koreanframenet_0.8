@@ -1,44 +1,156 @@
 {
-    "frameName": "First_rank",
+    "ko_pos": "v",
+    "ko_lu": "참석하다.v.Attending",
+    "frameID": 2030,
+    "frameName": "Attending",
+    "en_lus": [
+        "attend"
+    ],
+    "lu_id": 765,
     "patterns": [
         {
-            "valenceText": "annotation id: 2335",
+            "valenceText": "annotation id: 2075",
             "examples": [
                 {
-                    "frameName": "First_rank",
+                    "origin_lus": [
+                        "attended"
+                    ],
+                    "ko_annotation_id": 2075,
+                    "annotation_id": 4165,
+                    "frameName": "Attending",
                     "denotations": [
                         {
-                            "obj": "Item",
+                            "id": 1,
+                            "obj": "Attending",
                             "span": {
-                                "begin": 2,
-                                "end": 4
-                            }
+                                "begin": 17,
+                                "end": 20
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "참석한"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Event",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
-                            }
+                                "end": 16
+                            },
+                            "text": "후버 댐의 1935년 봉헌식에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 29
+                            },
+                            "text": "수많은 사람들은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "koosyu .甲種"
+                    "sent_id": 794,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2335,
-                    "text": "갑종합격이었다.",
-                    "sent_id": 4897,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "참석하다.v.Attending",
+                    "text": "후버 댐의 1935년 봉헌식에 참석한 수많은 사람들은 도시 현재의 가공할만한 홍보 활동이라는 기계를 작동시켰다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13502",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "attend"
+                    ],
+                    "ko_annotation_id": 13502,
+                    "annotation_id": 5977,
+                    "frameName": "Attending",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Attending",
+                            "span": {
+                                "begin": 52,
+                                "end": 55
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "참석할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "당신이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 43,
+                                "end": 51
+                            },
+                            "text": "새벽 전 경매에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1137,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "참석하다.v.Attending",
+                    "text": "당신이 충분히 일찍 일어날 수 있다면, 넓은 지역 도매 생선 시장에서 열리는 새벽 전 경매에 참석할 수 있다 ; 그렇지 않으면, 나중에 낮에 여는 거리 시장을 보아라."
                 }
             ]
         }
-    ],
-    "frameID": 402,
-    "ko_pos": "NNG",
-    "ko_lu": "갑종.n.First_rank",
-    "lu_id": 765,
-    "en_lus": [
-        "koosyu .甲種"
     ]
 }

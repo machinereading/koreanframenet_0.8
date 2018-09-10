@@ -1,53 +1,90 @@
 {
-    "frameName": "Arriving",
+    "ko_pos": "v",
+    "ko_lu": "연결되다.v.Cognitive_connection",
+    "frameID": 720,
+    "frameName": "Cognitive_connection",
+    "en_lus": [
+        "link"
+    ],
+    "lu_id": 5209,
     "patterns": [
         {
-            "valenceText": "annotation id: 18379",
+            "valenceText": "annotation id: 5329",
             "examples": [
                 {
-                    "frameName": "Arriving",
+                    "origin_lus": [
+                        "linked"
+                    ],
+                    "ko_annotation_id": 5329,
+                    "annotation_id": 9637,
+                    "frameName": "Cognitive_connection",
                     "denotations": [
                         {
-                            "obj": "Theme",
+                            "id": 1,
+                            "obj": "Cognitive_connection",
                             "span": {
-                                "begin": 1,
-                                "end": 6
-                            }
+                                "begin": 76,
+                                "end": 79
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "정치와"
                         },
                         {
-                            "obj": "Time",
+                            "id": 2,
+                            "obj": "Concept_1",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
                             "span": {
-                                "begin": 8,
-                                "end": 42
-                            }
+                                "begin": 11,
+                                "end": 44
+                            },
+                            "text": "콜롬비아, 쿠바, 파나마 그리고 니카라과로 인용된 4 개국은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Concept_2",
+                            "token_span": [
+                                17,
+                                18,
+                                19
+                            ],
                             "span": {
-                                "begin": 44,
-                                "end": 46
-                            }
+                                "begin": 69,
+                                "end": 75
+                            },
+                            "text": "마약  좌파",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kuru .来る ",
-                        "tassuru .達する "
+                    "sent_id": 1991,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18379,
-                    "text": "「모든 여자는 그녀 자신이 소유한 처녀성을, 그것을 버리기에 가장 적당한 때에 이르기까지, 소중하게 지녀야만 한다.",
-                    "sent_id": 4479,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "연결되다.v.Cognitive_connection",
+                    "text": "이것이 발생하면서, 콜롬비아, 쿠바, 파나마 그리고 니카라과로 인용된 4 개국은 언론이 많은 공격을 받고 있을 뿐만 아니라 마약  좌파 정치와 연결되어 있다."
                 }
             ]
         }
-    ],
-    "frameID": 54,
-    "ko_pos": "VA",
-    "ko_lu": "이르다.a.Arriving",
-    "lu_id": 5209,
-    "en_lus": [
-        "tassuru .達する ",
-        "kuru .来る "
     ]
 }

@@ -1,59 +1,123 @@
 {
-    "frameName": "Perception_experience",
+    "ko_pos": "v",
+    "ko_lu": "재편하다.v.Cause_change",
+    "frameID": 683,
+    "frameName": "Cause_change",
+    "en_lus": [
+        "reshape"
+    ],
+    "lu_id": 2891,
     "patterns": [
         {
-            "valenceText": "annotation id: 9527",
+            "valenceText": "annotation id: 5709",
             "examples": [
                 {
-                    "frameName": "Perception_experience",
-                    "denotations": [
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 16,
-                                "end": 19
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "taiken .体験"
+                        "reshape"
                     ],
-                    "ko_annotation_id": 9527,
-                    "text": "그 정도로, 강하고 강렬한 「체험」이었다.",
-                    "sent_id": 4314,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.30974",
-            "examples": [
-                {
-                    "frameName": "Perception_experience",
+                    "ko_annotation_id": 5709,
+                    "annotation_id": 10297,
+                    "frameName": "Cause_change",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Cause_change",
                             "span": {
-                                "begin": 8,
-                                "end": 10
+                                "begin": 52,
+                                "end": 55
                             },
-                            "id": "1"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "재편할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Cause",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 27
+                            },
+                            "text": "진행중인 군 현대화 노력이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 28,
+                                "end": 33
+                            },
+                            "text": "궁극적으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Entity",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 34,
+                                "end": 47
+                            },
+                            "text": "중국의 전략적 핵 능력을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Manner",
+                            "token_span": [
+                                12
+                            ],
+                            "span": {
+                                "begin": 48,
+                                "end": 51
+                            },
+                            "text": "어떻게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "학생들은 병영 체험을 통해 군인의 삶을 미리 겪어 이해할 수 있었다.",
-                    "target": "체험",
-                    "ko_annotation_id": "sejong.30974",
-                    "relations": []
+                    "sent_id": 2099,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "재편하다.v.Cause_change",
+                    "text": "주요 불확실성은 어떻한 진행중인 군 현대화 노력이 궁극적으로 중국의 전략적 핵 능력을 어떻게 재편할 것인가이지만, 미국의 미사일 방어 배치가 중요 변수일 것 같다."
                 }
             ]
         }
-    ],
-    "frameID": 70,
-    "ko_pos": "NNG",
-    "ko_lu": "체험.n.Perception_experience",
-    "lu_id": 2891,
-    "en_lus": [
-        "taiken .体験"
     ]
 }

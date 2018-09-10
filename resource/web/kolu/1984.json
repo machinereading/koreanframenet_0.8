@@ -1,83 +1,81 @@
 {
-    "frameName": "Perception_experience",
+    "ko_pos": "a",
+    "ko_lu": "습하다.a.Being_wet",
+    "frameID": 332,
+    "frameName": "Being_wet",
+    "en_lus": [
+        "simeppoi .湿っぽい "
+    ],
+    "lu_id": 1984,
     "patterns": [
         {
-            "valenceText": "annotation id: 6272",
+            "valenceText": "annotation id: 16629",
             "examples": [
                 {
-                    "frameName": "Perception_experience",
+                    "origin_lus": [
+                        "simeppoi .湿っぽい "
+                    ],
+                    "ko_annotation_id": 16629,
+                    "annotation_id": 0,
+                    "frameName": "Being_wet",
                     "denotations": [
                         {
-                            "obj": "Phenomenon",
+                            "id": 1,
+                            "obj": "Being_wet",
                             "span": {
-                                "begin": 13,
-                                "end": 31
-                            }
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "습하다."
                         },
                         {
-                            "obj": "Manner",
+                            "id": 2,
+                            "obj": "Liquid",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 33,
-                                "end": 34
-                            }
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "밤안개일까,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Item",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 35,
-                                "end": 37
-                            }
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "공기가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "niou .匂う"
-                    ],
-                    "ko_annotation_id": 6272,
-                    "text": "카운터 앞까지 걸어가자 계산대 옆에서 피우고 있는 향냄새가 훅 풍겼다.",
-                    "sent_id": 4208,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 6273",
-            "examples": [
-                {
-                    "frameName": "Perception_experience",
-                    "denotations": [
+                    "sent_id": 4654,
+                    "relations": [
                         {
-                            "obj": "Phenomenon",
-                            "span": {
-                                "begin": 14,
-                                "end": 20
-                            }
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 22,
-                                "end": 24
-                            }
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "origin_lus": [
-                        "niou .匂う"
-                    ],
-                    "ko_annotation_id": 6273,
-                    "text": "속달편지의 봉투를 열자, 라벤더 향기가 풍겼다.",
-                    "sent_id": 3803,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "습하다.a.Being_wet",
+                    "text": "밤안개일까, 공기가 습하다."
                 }
             ]
         }
-    ],
-    "frameID": 70,
-    "ko_pos": "VV",
-    "ko_lu": "풍기다.v.Perception_experience",
-    "lu_id": 1984,
-    "en_lus": [
-        "niou .匂う"
     ]
 }

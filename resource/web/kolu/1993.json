@@ -1,38 +1,106 @@
 {
-    "frameName": "Calendric_unit",
+    "ko_pos": "v",
+    "ko_lu": "가로막다.v.Intercepting",
+    "frameID": 1522,
+    "frameName": "Intercepting",
+    "en_lus": [
+        "intercept"
+    ],
+    "lu_id": 1993,
     "patterns": [
         {
-            "valenceText": "annotation id: 6300",
+            "valenceText": "annotation id: 7892",
             "examples": [
                 {
-                    "frameName": "Calendric_unit",
+                    "origin_lus": [
+                        "intercepted"
+                    ],
+                    "ko_annotation_id": 7892,
+                    "annotation_id": 14393,
+                    "frameName": "Intercepting",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Intercepting",
                             "span": {
-                                "begin": 21,
-                                "end": 23
+                                "begin": 42,
+                                "end": 49
                             },
-                            "id": "1"
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "가로막았으나,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 10
+                            },
+                            "text": "2002년 12월,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Interceptor",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 11,
+                                "end": 21
+                            },
+                            "text": "스페인과 미 해군은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 22,
+                                "end": 41
+                            },
+                            "text": "스커드 미사일을 적재한 북한 선박을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "year"
+                    "sent_id": 2834,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6300,
-                    "text": "게다가, 입법 기관도 도박을 불법화한 해인1909년에 라스 베이거스는 네바다의 새로운 Clark County의 일부가 되었다.",
-                    "sent_id": 786,
-                    "relations": [],
-                    "annotation_id": 4112
+                    "lu": "가로막다.v.Intercepting",
+                    "text": "2002년 12월, 스페인과 미 해군은 스커드 미사일을 적재한 북한 선박을 가로막았으나, 그런 다음 배가 예멘에 미사일을 인도하기 위해 나가도록 허용하였다."
                 }
             ]
         }
-    ],
-    "frameID": 229,
-    "ko_pos": "NNP",
-    "ko_lu": "해인.n.Calendric_unit",
-    "lu_id": 1993,
-    "en_lus": [
-        "year"
     ]
 }

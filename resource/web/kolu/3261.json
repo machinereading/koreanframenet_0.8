@@ -1,78 +1,99 @@
 {
-    "frameName": "Excreting",
+    "ko_pos": "n",
+    "ko_lu": "선로.n.Roadways",
+    "frameID": 203,
+    "frameName": "Roadways",
+    "en_lus": [
+        "senro .線路 ",
+        "track"
+    ],
+    "lu_id": 3261,
     "patterns": [
         {
-            "valenceText": "annotation id: 11116",
+            "valenceText": "annotation id: 11326",
             "examples": [
                 {
-                    "frameName": "Excreting",
+                    "origin_lus": [
+                        "senro .線路 ",
+                        "track"
+                    ],
+                    "ko_annotation_id": 11326,
+                    "annotation_id": 0,
+                    "frameName": "Roadways",
                     "denotations": [
                         {
-                            "obj": "excreta",
+                            "id": 1,
+                            "obj": "Roadways",
                             "span": {
-                                "begin": 21,
-                                "end": 30
+                                "begin": 6,
+                                "end": 9
                             },
-                            "id": "2"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "선로를"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Roadway",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 32,
-                                "end": 35
+                                "begin": 4,
+                                "end": 9
                             },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "excreter",
-                            "span": {
-                                "begin": 36,
-                                "end": 48
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "excreter",
-                            "span": {
-                                "begin": 36,
-                                "end": 48
-                            },
-                            "id": "4"
+                            "text": "이 선로를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "spew"
-                    ],
-                    "ko_annotation_id": 11116,
-                    "text": "군대는 테러리스트가 폭탄만이 아니고, 보이지 않는 죽음을 부르는 화학 또는 생물학 무기를 터뜨리는 날을 위해 훈련하고 있다.",
-                    "sent_id": 1360,
+                    "sent_id": 4312,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6726
+                    "lu": "선로.n.Roadways",
+                    "text": "나는, 이 선로를 탄 것에 대해서는, 동기로서 참 다행이라고 생각한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13231",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "senro .線路 ",
+                        "track"
+                    ],
+                    "ko_annotation_id": 13231,
+                    "annotation_id": 4025,
+                    "frameName": "Roadways",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Roadways",
+                            "span": {
+                                "begin": 13,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "선로는"
+                        }
+                    ],
+                    "sent_id": 770,
+                    "relations": [],
+                    "lu": "선로.n.Roadways",
+                    "text": "지도에 그려진 것처럼, 선로는 Helen Stewart의 Las Vegas Ranch를 바로 통과하여 지나갔다."
                 }
             ]
         }
-    ],
-    "frameID": 270,
-    "ko_pos": "VV",
-    "ko_lu": "부르다.v.Excreting",
-    "lu_id": 3261,
-    "en_lus": [
-        "spew"
     ]
 }

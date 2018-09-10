@@ -1,73 +1,64 @@
 {
-    "frameName": "Intentional_traversing",
+    "ko_pos": "n",
+    "ko_lu": "무기.n.Active_substance",
+    "frameID": 1322,
+    "frameName": "Active_substance",
+    "en_lus": [
+        "agent"
+    ],
+    "lu_id": 245,
     "patterns": [
         {
-            "valenceText": "annotation id: 725",
+            "valenceText": "annotation id: 5485",
             "examples": [
                 {
-                    "frameName": "Intentional_traversing",
-                    "denotations": [
-                        {
-                            "obj": "Path_shape",
-                            "span": {
-                                "begin": 11,
-                                "end": 13
-                            }
-                        },
-                        {
-                            "obj": "Self_mover",
-                            "span": {
-                                "begin": 19,
-                                "end": 36
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 11,
-                                "end": 13
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "tozan .登山 "
+                        "agents"
                     ],
-                    "ko_annotation_id": 725,
-                    "text": "현재, 일본의 주요 등산로 입구는 노인 세대에 의해 점령당하고 있다.",
-                    "sent_id": 4020,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.2967",
-            "examples": [
-                {
-                    "frameName": "Intentional_traversing",
+                    "ko_annotation_id": 5485,
+                    "annotation_id": 9951,
+                    "frameName": "Active_substance",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Active_substance",
                             "span": {
-                                "begin": 16,
-                                "end": 18
+                                "begin": 3,
+                                "end": 8
                             },
-                            "id": "1"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "생물무기가"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Type",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "화학 생물무기가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "우리는 오는 일요일 북한산에 등산을 가기로 했다.",
-                    "target": "등산",
-                    "ko_annotation_id": "sejong.2967",
-                    "relations": []
+                    "sent_id": 2039,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "무기.n.Active_substance",
+                    "text": "화학 생물무기가 거의 핵무기 만큼 파괴적이지는 않지만, 그들은 확보하기가 훨씬 더 쉽고 값싸다."
                 }
             ]
         }
-    ],
-    "frameID": 1642,
-    "ko_pos": "NNG",
-    "ko_lu": "등산.n.Intentional_traversing",
-    "lu_id": 245,
-    "en_lus": [
-        "tozan .登山 "
     ]
 }

@@ -1,96 +1,191 @@
 {
-    "frameName": "Perception_experience",
+    "ko_pos": "v",
+    "ko_lu": "지휘하다.v.Leadership",
+    "frameID": 73,
+    "frameName": "Leadership",
+    "en_lus": [
+        "command"
+    ],
+    "lu_id": 3871,
     "patterns": [
         {
-            "valenceText": "annotation id: 13235",
+            "valenceText": "annotation id: 5316",
             "examples": [
                 {
-                    "frameName": "Perception_experience",
+                    "origin_lus": [
+                        "command",
+                        "commanded"
+                    ],
+                    "ko_annotation_id": 5316,
+                    "annotation_id": 9593,
+                    "frameName": "Leadership",
                     "denotations": [
                         {
-                            "obj": "phenomenon",
+                            "id": 1,
+                            "obj": "Leadership",
                             "span": {
-                                "begin": 19,
-                                "end": 30
+                                "begin": 16,
+                                "end": 21
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "지휘하지는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Leader",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 32,
-                                "end": 35
+                                "begin": 0,
+                                "end": 11
                             },
-                            "id": "1"
+                            "text": "몬테레이의 발행인들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Governed",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 26
+                            },
+                            "text": "부대를 지휘하지는 않지만,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "detect"
-                    ],
-                    "ko_annotation_id": 13235,
-                    "text": "QN : 러시아의 화학무기 시설은 우연한 화학무기 방출을 탐지하기 위한 시스템을 가지고 있나 ?",
-                    "sent_id": 1284,
+                    "sent_id": 1984,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6446
+                    "lu": "지휘하다.v.Leadership",
+                    "text": "몬테레이의 발행인들은 부대를 지휘하지는 않지만, 그들은 오늘 판 신문에 사설로 그들의 분노를 표현하기로 동의하였다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.46511",
+            "valenceText": "annotation id: 15751",
             "examples": [
                 {
-                    "frameName": "Perception_experience",
+                    "origin_lus": [
+                        "command",
+                        "commanded"
+                    ],
+                    "ko_annotation_id": 15751,
+                    "annotation_id": 17168,
+                    "frameName": "Leadership",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Leadership",
                             "span": {
-                                "begin": 4,
-                                "end": 8
+                                "begin": 101,
+                                "end": 107
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "거짓말 탐지기가 그 여자의 거짓말을 탐지했다.",
-                    "target": "탐지기가",
-                    "ko_annotation_id": "sejong.46511",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.46512",
-            "examples": [
-                {
-                    "frameName": "Perception_experience",
-                    "denotations": [
+                            "token_span": [
+                                21
+                            ],
+                            "role": "TARGET",
+                            "text": "지휘하였다."
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 4,
+                                "begin": 0,
                                 "end": 8
                             },
-                            "obj": "target"
+                            "text": "1960년대에,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Leader",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 36
+                            },
+                            "text": "Ferndale 거주민 Jack Alderson은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Governed",
+                            "token_span": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 100
+                            },
+                            "text": "그 지역에 있는 다른 외딴 산호도 뿐만 아니라, 지난주 기념물로 공표되었던 섬들을 방문한 일단의 가벼운 예인선들을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "거짓말 탐지기가 그 여자의 말은 거짓말이라고 탐지했다.",
-                    "target": "탐지기가",
-                    "ko_annotation_id": "sejong.46512",
-                    "relations": []
+                    "sent_id": 3248,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지휘하다.v.Leadership",
+                    "text": "1960년대에, Ferndale 거주민 Jack Alderson은 그 지역에 있는 다른 외딴 산호도 뿐만 아니라, 지난주 기념물로 공표되었던 섬들을 방문한 일단의 가벼운 예인선들을 지휘하였다."
                 }
             ]
         }
-    ],
-    "frameID": 70,
-    "ko_pos": "VV",
-    "ko_lu": "탐지하다.v.Perception_experience",
-    "lu_id": 3871,
-    "en_lus": [
-        "detect"
     ]
 }

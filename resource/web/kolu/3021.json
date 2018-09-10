@@ -1,51 +1,125 @@
 {
-    "frameName": "Arriving",
+    "ko_pos": "v",
+    "ko_lu": "구입하다.v.Commerce_buy",
+    "frameID": 171,
+    "frameName": "Commerce_buy",
+    "en_lus": [
+        "purchase"
+    ],
+    "lu_id": 3021,
     "patterns": [
         {
-            "valenceText": "annotation id: 9857",
+            "valenceText": "annotation id: 5948",
             "examples": [
                 {
-                    "frameName": "Arriving",
+                    "origin_lus": [
+                        "purchase"
+                    ],
+                    "ko_annotation_id": 5948,
+                    "annotation_id": 10720,
+                    "frameName": "Commerce_buy",
                     "denotations": [
                         {
-                            "obj": "Theme",
+                            "id": 1,
+                            "obj": "Commerce_buy",
                             "span": {
-                                "begin": 35,
-                                "end": 45
-                            }
+                                "begin": 34,
+                                "end": 40
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "구입하려는데"
                         },
                         {
-                            "obj": "Goal",
+                            "id": 2,
+                            "obj": "Buyer",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 47,
-                                "end": 49
-                            }
+                                "begin": 11,
+                                "end": 14
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Seller",
+                            "token_span": [
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 51,
-                                "end": 53
-                            }
+                                "begin": 15,
+                                "end": 26
+                            },
+                            "text": "캐나다와 네델란드에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goods",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 33
+                            },
+                            "text": "푸사륨 종을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Goods",
+                            "token_span": [
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
+                            "span": {
+                                "begin": 53,
+                                "end": 81
+                            },
+                            "text": "이것은 T-2 진균독을 개발하는데 사용될 수 있다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "todoku .届く "
+                    "sent_id": 2149,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 9857,
-                    "text": "「어서 오세요」「기다리시게 해서 죄송합니다」「감사합니다」 같은 활력 넘치는 목소리가 귓가에 들리면, 손님의 긴장은 누그러집니다.",
-                    "sent_id": 4094,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "구입하다.v.Commerce_buy",
+                    "text": "1989년 8월에, 이란은 캐나다와 네델란드에서 푸사륨 종을 구입하려는데 대해 비난 받았는데, 이것은 T-2 진균독을 개발하는데 사용될 수 있다."
                 }
             ]
         }
-    ],
-    "frameID": 54,
-    "ko_pos": "VV",
-    "ko_lu": "들리다.v.Arriving",
-    "lu_id": 3021,
-    "en_lus": [
-        "todoku .届く "
     ]
 }

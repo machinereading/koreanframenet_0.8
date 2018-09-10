@@ -1,51 +1,86 @@
 {
-    "frameName": "Sign_agreement",
+    "ko_pos": "n",
+    "ko_lu": "안내인.n.Performers_and_roles",
+    "frameID": 413,
+    "frameName": "Performers_and_roles",
+    "en_lus": [
+        "yaku .役 "
+    ],
+    "lu_id": 3919,
     "patterns": [
         {
-            "valenceText": "annotation id: 13412",
+            "valenceText": "annotation id: 10674",
             "examples": [
                 {
-                    "frameName": "Sign_agreement",
+                    "origin_lus": [
+                        "yaku .役 "
+                    ],
+                    "ko_annotation_id": 10674,
+                    "annotation_id": 0,
+                    "frameName": "Performers_and_roles",
                     "denotations": [
                         {
-                            "obj": "Signatory_1",
+                            "id": 1,
+                            "obj": "Performers_and_roles",
                             "span": {
-                                "begin": 25,
-                                "end": 62
-                            }
+                                "begin": 91,
+                                "end": 96
+                            },
+                            "token_span": [
+                                22
+                            ],
+                            "role": "TARGET",
+                            "text": "안내인으로"
                         },
                         {
-                            "obj": "Signatory_2",
+                            "id": 2,
+                            "obj": "Performer",
+                            "token_span": [
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21
+                            ],
                             "span": {
                                 "begin": 65,
-                                "end": 75
-                            }
+                                "end": 90
+                            },
+                            "text": "오래전부터 무코가와에 사는 미야기 세쓰코 씨를",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Role",
+                            "token_span": [
+                                22
+                            ],
                             "span": {
-                                "begin": 107,
-                                "end": 109
-                            }
+                                "begin": 91,
+                                "end": 96
+                            },
+                            "text": "안내인으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sain .サイン "
+                    "sent_id": 3926,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13412,
-                    "text": "이번에 다룰 사안 아들의 잘못은 부모 책임? 나카지마 씨의 아들 아케토 군 (차남・22세 학생・현재 하숙 중.)이, X사의 영업사원 되어 「영업실적을 올리기 위한 거니까 진짜로 사지 않더라도 사인만 해주면 돼요.",
-                    "sent_id": 4440,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "안내인.n.Performers_and_roles",
+                    "text": "부인께서 아직 정정하시다고 들었습니다만」 꼭 한 번 그 문화주택을 보고 싶어하는 저의 바람을 듣고, 니시자카 씨는, 오래전부터 무코가와에 사는 미야기 세쓰코 씨를 안내인으로 소개해주었다."
                 }
             ]
         }
-    ],
-    "frameID": 1151,
-    "ko_pos": "NNG",
-    "ko_lu": "사인.n.Sign_agreement",
-    "lu_id": 3919,
-    "en_lus": [
-        "sain .サイン "
     ]
 }

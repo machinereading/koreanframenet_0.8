@@ -1,52 +1,89 @@
 {
-    "frameName": "Quarreling",
+    "ko_pos": "n",
+    "ko_lu": "이래.n.Time_vector",
+    "frameID": 379,
+    "frameName": "Time_vector",
+    "en_lus": [
+        "Since"
+    ],
+    "lu_id": 5444,
     "patterns": [
         {
-            "valenceText": "annotation id: 19274",
+            "valenceText": "annotation id: 4788",
             "examples": [
                 {
-                    "frameName": "Quarreling",
+                    "origin_lus": [
+                        "Since"
+                    ],
+                    "ko_annotation_id": 4788,
+                    "annotation_id": 8691,
+                    "frameName": "Time_vector",
                     "denotations": [
                         {
-                            "obj": "issue",
+                            "id": 1,
+                            "obj": "Time_vector",
                             "span": {
-                                "begin": 0,
-                                "end": 14
+                                "begin": 31,
+                                "end": 34
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "이래,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Landmark_Event",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 16,
-                                "end": 21
+                                "begin": 5,
+                                "end": 30
                             },
-                            "id": "1"
+                            "text": "두 번째 Intifada가 2000년에 시작된",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 59
+                            },
+                            "text": "700 명 이상의 이스라엘인들이 사살되었고,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Disagreement"
-                    ],
-                    "ko_annotation_id": 19274,
-                    "text": "정책적 조치를 취하는 동안의 의견 충돌은 이란이 화학무기 프로그램을 추구하는 결정 여부에 대한 여러 모순된 보도로 이어졌다.",
-                    "sent_id": 2240,
+                    "sent_id": 1798,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 11203
+                    "lu": "이래.n.Time_vector",
+                    "text": "기자 : 두 번째 Intifada가 2000년에 시작된 이래, 700 명 이상의 이스라엘인들이 사살되었고, 같은 기간 동안, Red Crescent 에 의하면, 암살의 표적이 된 Hamas 지도자들을 포함하여, 2000 명 이상의 팔레스타인이 죽었다."
                 }
             ]
         }
-    ],
-    "frameID": 710,
-    "ko_pos": "NNG",
-    "ko_lu": "충돌.n.Quarreling",
-    "lu_id": 5444,
-    "en_lus": [
-        "Disagreement"
     ]
 }

@@ -1,65 +1,84 @@
 {
-    "frameName": "People",
+    "ko_pos": "v",
+    "ko_lu": "맡다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "tutomeru .務める "
+    ],
+    "lu_id": 3310,
     "patterns": [
         {
-            "valenceText": "annotation id: 11256",
+            "valenceText": "annotation id: 11408",
             "examples": [
                 {
-                    "frameName": "People",
+                    "origin_lus": [
+                        "tutomeru .務める "
+                    ],
+                    "ko_annotation_id": 11408,
+                    "annotation_id": 0,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "persistent_characteristic",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 4,
-                                "end": 6
+                                "begin": 35,
+                                "end": 40
                             },
-                            "id": "2"
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "맡고 있는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 32
+                                "begin": 18,
+                                "end": 30
                             },
-                            "id": "1"
+                            "text": "마쓰오카 히로마사 씨가",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "descriptor",
+                            "id": 3,
+                            "obj": "Act",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 55,
-                                "end": 66
+                                "begin": 31,
+                                "end": 34
                             },
-                            "id": "3"
+                            "text": "대표를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "man"
-                    ],
-                    "ko_annotation_id": 11256,
-                    "text": "성서적 전통에 의하면, 다윗이 그 신전을 위한 부지를 사고 조심스럽게 건축 자재를 모았지만, 그는 그의 손에 피를 묻힌 전사였기 때문에 그 신전을 건축할 자격이 없는 것으로 간주되었다.",
-                    "sent_id": 632,
+                    "sent_id": 4366,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3407
+                    "lu": "맡다.v.Intentionally_act",
+                    "text": "이번에, 감수를 맡아주시기도 한 마쓰오카 히로마사 씨가 대표를 맡고 있는 나카지마 홈은, 그중에서도 매우 뛰어납니다."
                 }
             ]
         }
-    ],
-    "frameID": 304,
-    "ko_pos": "NNG",
-    "ko_lu": "사고.n.People",
-    "lu_id": 3310,
-    "en_lus": [
-        "man"
     ]
 }

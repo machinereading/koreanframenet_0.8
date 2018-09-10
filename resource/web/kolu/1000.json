@@ -1,51 +1,139 @@
 {
-    "frameName": "Time_vector",
+    "ko_pos": "v",
+    "ko_lu": "생각하다.v.Purpose",
+    "frameID": 513,
+    "frameName": "Purpose",
+    "en_lus": [
+        "tame .ため",
+        "intend"
+    ],
+    "lu_id": 1000,
     "patterns": [
         {
-            "valenceText": "annotation id: 3145",
+            "valenceText": "annotation id: 10858",
             "examples": [
                 {
-                    "frameName": "Time_vector",
+                    "origin_lus": [
+                        "tame .ため",
+                        "intend"
+                    ],
+                    "ko_annotation_id": 10858,
+                    "annotation_id": 0,
+                    "frameName": "Purpose",
                     "denotations": [
                         {
-                            "obj": "Landmark",
+                            "id": 1,
+                            "obj": "Purpose",
                             "span": {
-                                "begin": 0,
-                                "end": 20
-                            }
+                                "begin": 45,
+                                "end": 49
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "생각하기"
                         },
                         {
-                            "obj": "Event",
+                            "id": 2,
+                            "obj": "Goal",
+                            "token_span": [
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 43
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 21,
-                                "end": 23
-                            }
+                                "begin": 33,
+                                "end": 44
+                            },
+                            "text": "어떤 무엇인가에 대해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "uti .うち "
+                    "sent_id": 4030,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 3145,
-                    "text": "초교, 재교, 삼교, 교정을 진행하는 사이에 참 적절한 제목이라고 생각하게 되었다.",
-                    "sent_id": 4700,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "생각하다.v.Purpose",
+                    "text": "살기 위해서는 식사를 하지 않으면 안되는 것과 마찬가지로, 어떤 무엇인가에 대해 생각하기 위해서는, 「전제」가 필요한데, 오히려 어떠한 전제를 까는지가 어쩌면 「당신 자신」인지 모른다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 13737",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tame .ため",
+                        "intend"
+                    ],
+                    "ko_annotation_id": 13737,
+                    "annotation_id": 6987,
+                    "frameName": "Purpose",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Purpose",
+                            "span": {
+                                "begin": 19,
+                                "end": 23
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "생각하나"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "이란은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 18
+                            },
+                            "text": "핵 국가가 되려고",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 1471,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "생각하다.v.Purpose",
+                    "text": "QN : 이란은 핵 국가가 되려고 생각하나 ?"
                 }
             ]
         }
-    ],
-    "frameID": 379,
-    "ko_pos": "NNG",
-    "ko_lu": "사이.n.Time_vector",
-    "lu_id": 1000,
-    "en_lus": [
-        "uti .うち "
     ]
 }

@@ -1,60 +1,97 @@
 {
-    "frameName": "Quarreling",
+    "ko_pos": "n",
+    "ko_lu": "학교.n.Education_teaching",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "en_lus": [
+        "schoolteacher"
+    ],
+    "lu_id": 2357,
     "patterns": [
         {
-            "valenceText": "annotation id: 7626",
+            "valenceText": "annotation id: 515",
             "examples": [
                 {
-                    "frameName": "Quarreling",
+                    "origin_lus": [
+                        "schoolteacher"
+                    ],
+                    "ko_annotation_id": 515,
+                    "annotation_id": 1105,
+                    "frameName": "Education_teaching",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Education_teaching",
                             "span": {
                                 "begin": 6,
-                                "end": 9
+                                "end": 12
                             },
-                            "id": "1"
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "학교 선생이"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Teacher",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 2
+                            },
+                            "text": "나는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "wrangles"
+                    "sent_id": 201,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7626,
-                    "text": "작은 내부 다툼들이 있었지만, 연맹은 대부분의 기원전 5세기 동안 에게 해와 더 큰 아테네 제국을 지배하였다.",
-                    "sent_id": 534,
-                    "relations": [],
-                    "annotation_id": 2808
+                    "lu": "학교.n.Education_teaching",
+                    "text": "나는 결국 학교 선생이 될지도 모른다는 생각을 하며, 나 자신은 대학에서 그와 같은 과목들을 수강했다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.15446",
+            "valenceText": "annotation id: 12627",
             "examples": [
                 {
-                    "frameName": "Quarreling",
+                    "origin_lus": [
+                        "schoolteachers"
+                    ],
+                    "ko_annotation_id": 12627,
+                    "annotation_id": 1112,
+                    "frameName": "Education_teaching",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Education_teaching",
                             "span": {
-                                "begin": 24,
-                                "end": 26
+                                "begin": 6,
+                                "end": 13
                             },
-                            "id": "1"
+                            "token_span": [
+                                2,
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "학교 선생들을"
                         }
                     ],
-                    "text": "휴가철이 되자, 피서지에서 상인들간의 자리 다툼이 심해졌다.나라가 망해가니, 여기저기서 세력 다툼이 심해졌다.",
-                    "target": "다툼",
-                    "ko_annotation_id": "sejong.15446",
-                    "relations": []
+                    "sent_id": 204,
+                    "relations": [],
+                    "lu": "학교.n.Education_teaching",
+                    "text": "나는 많은 학교 선생들을 알고 그리고, 대체적으로, 그들은 양심적인 교육에 진지하게 전념하고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 710,
-    "ko_pos": "NN",
-    "ko_lu": "다툼.n.Quarreling",
-    "lu_id": 2357,
-    "en_lus": [
-        "wrangle"
     ]
 }

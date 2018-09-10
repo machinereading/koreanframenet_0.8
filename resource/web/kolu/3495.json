@@ -1,58 +1,63 @@
 {
-    "frameName": "Leadership",
+    "ko_pos": "a",
+    "ko_lu": "균등하다.a.Compliance",
+    "frameID": 117,
+    "frameName": "Compliance",
+    "en_lus": [
+        "singai .侵害"
+    ],
+    "lu_id": 3495,
     "patterns": [
         {
-            "valenceText": "annotation id: 11909",
+            "valenceText": "annotation id: 10824",
             "examples": [
                 {
-                    "frameName": "Leadership",
+                    "origin_lus": [
+                        "singai .侵害"
+                    ],
+                    "ko_annotation_id": 10824,
+                    "annotation_id": 0,
+                    "frameName": "Compliance",
                     "denotations": [
                         {
-                            "obj": "Leader",
+                            "id": 1,
+                            "obj": "Compliance",
                             "span": {
-                                "begin": 72,
-                                "end": 74
-                            }
+                                "begin": 82,
+                                "end": 92
+                            },
+                            "token_span": [
+                                18
+                            ],
+                            "role": "TARGET",
+                            "text": "보여(균등침해.),"
                         },
                         {
-                            "obj": "Governed",
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                18
+                            ],
                             "span": {
-                                "begin": 84,
-                                "end": 90
-                            }
-                        },
-                        {
-                            "obj": "Governed",
-                            "span": {
-                                "begin": 92,
-                                "end": 95
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 72,
-                                "end": 74
-                            }
+                                "begin": 82,
+                                "end": 92
+                            },
+                            "text": "보여(균등침해.),",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kyuutee .宮廷 "
+                    "sent_id": 4011,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 11909,
-                    "text": "저는 잠시 「풍토기」를 연구한 적인 있는데, 이야기가 자꾸 오래전으로 거슬러 올라가서 죄송합니다만, 다이카 개신의 칙령에 따라, 궁정을 중심으로 하는 고대 수도권, 기나이라 불리는 지역이 생겼습니다.",
-                    "sent_id": 4398,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "균등하다.a.Compliance",
+                    "text": "직접침해는, 특허 청구 범위의 문언에 의해 규정되는 경우(문언침해.)와 문언의 범위에는 포함되지 않으나, 그 문언에 기재된 것과 가치적으로 같다고 보여(균등침해.), 그 침해의 범위에 포함되는 경우가 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 73,
-    "ko_pos": "NNG",
-    "ko_lu": "궁정.n.Leadership",
-    "lu_id": 3495,
-    "en_lus": [
-        "kyuutee .宮廷 "
     ]
 }

@@ -1,51 +1,63 @@
 {
-    "frameName": "Reshaping",
+    "ko_pos": "v",
+    "ko_lu": "나다.v.Recovery",
+    "frameID": 51,
+    "frameName": "Recovery",
+    "en_lus": [
+        "ieru .癒える "
+    ],
+    "lu_id": 1967,
     "patterns": [
         {
-            "valenceText": "annotation id: 6200",
+            "valenceText": "annotation id: 11520",
             "examples": [
                 {
-                    "frameName": "Reshaping",
+                    "origin_lus": [
+                        "ieru .癒える "
+                    ],
+                    "ko_annotation_id": 11520,
+                    "annotation_id": 0,
+                    "frameName": "Recovery",
                     "denotations": [
                         {
-                            "obj": "Undergoer",
+                            "id": 1,
+                            "obj": "Recovery",
                             "span": {
-                                "begin": 6,
+                                "begin": 4,
                                 "end": 8
-                            }
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "나았으니"
                         },
                         {
-                            "obj": "Instrument",
+                            "id": 2,
+                            "obj": "Affliction",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 12
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 14,
-                                "end": 17
-                            }
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "상처가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "nobasu .延ばす "
+                    "sent_id": 4451,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6200,
-                    "text": "지금 것은 판금을 롤러로 밀었을 뿐이잖아.",
-                    "sent_id": 4380,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "나다.v.Recovery",
+                    "text": "상처가 나았으니 의사가 허락해 준 것이겠지."
                 }
             ]
         }
-    ],
-    "frameID": 344,
-    "ko_pos": "VV",
-    "ko_lu": "밀다.v.Reshaping",
-    "lu_id": 1967,
-    "en_lus": [
-        "nobasu .延ばす "
     ]
 }

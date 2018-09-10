@@ -1,122 +1,82 @@
 {
-    "frameName": "Placing",
+    "ko_pos": "v",
+    "ko_lu": "매도하다.v.Judgment_communication",
+    "frameID": 219,
+    "frameName": "Judgment_communication",
+    "en_lus": [
+        "dump"
+    ],
+    "lu_id": 4822,
     "patterns": [
         {
-            "valenceText": "annotation id: 16910",
+            "valenceText": "annotation id: 520",
             "examples": [
                 {
-                    "frameName": "Placing",
+                    "origin_lus": [
+                        "dump"
+                    ],
+                    "ko_annotation_id": 520,
+                    "annotation_id": 1109,
+                    "frameName": "Judgment_communication",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Judgment_communication",
                             "span": {
-                                "begin": 26,
-                                "end": 29
+                                "begin": 21,
+                                "end": 25
                             },
-                            "id": "1"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "매도하는"
                         },
                         {
-                            "obj": "theme",
+                            "id": 2,
+                            "obj": "Manner",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 32
+                                "begin": 4,
+                                "end": 15
                             },
-                            "id": "2"
+                            "text": "교육기관과는 별개로,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Evaluee",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 20
+                            },
+                            "text": "선생들을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "enclosed"
-                    ],
-                    "ko_annotation_id": 16910,
-                    "text": "오늘 Goodwill에 후한 기부를 하기 위해 동봉한 봉투를 사용하세요 !",
-                    "sent_id": 357,
+                    "sent_id": 203,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 1917
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 16911",
-            "examples": [
-                {
-                    "frameName": "Placing",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 25,
-                                "end": 28
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "origin_lus": [
-                        "enclosed"
-                    ],
-                    "ko_annotation_id": 16911,
-                    "text": "오늘 Goodwill에 후하게 기부하기 위해 동봉한 회신 엽서와 봉투를 사용하여 주시기를 바랍니다.",
-                    "sent_id": 394,
-                    "relations": [],
-                    "annotation_id": 2098
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.85176",
-            "examples": [
-                {
-                    "frameName": "Placing",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 8,
-                                "end": 13
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "편지에 사진을 동봉합니다.",
-                    "target": "동봉합니다",
-                    "ko_annotation_id": "sejong.85176",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.85177",
-            "examples": [
-                {
-                    "frameName": "Placing",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 13,
-                                "end": 18
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "봉투에 영수증과 티켓을 동봉하오니 확인해 보시기 바랍니다.",
-                    "target": "동봉하오니",
-                    "ko_annotation_id": "sejong.85177",
-                    "relations": []
+                    "lu": "매도하다.v.Judgment_communication",
+                    "text": "그러나 교육기관과는 별개로, 선생들을 매도하는 것은 부당하다."
                 }
             ]
         }
-    ],
-    "frameID": 62,
-    "ko_pos": "VV",
-    "ko_lu": "동봉하다.v.Placing",
-    "lu_id": 4822,
-    "en_lus": [
-        "enclose"
     ]
 }

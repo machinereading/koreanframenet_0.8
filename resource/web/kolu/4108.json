@@ -1,144 +1,109 @@
 {
-    "frameName": "Event",
+    "ko_pos": "n",
+    "ko_lu": "메시지.n.Statement",
+    "frameID": 43,
+    "frameName": "Statement",
+    "en_lus": [
+        "message"
+    ],
+    "lu_id": 4108,
     "patterns": [
         {
-            "valenceText": "annotation id: 14134",
+            "valenceText": "annotation id: 5224",
             "examples": [
                 {
-                    "frameName": "Event",
+                    "origin_lus": [
+                        "message"
+                    ],
+                    "ko_annotation_id": 5224,
+                    "annotation_id": 9392,
+                    "frameName": "Statement",
                     "denotations": [
                         {
-                            "obj": "event",
+                            "id": 1,
+                            "obj": "Statement",
                             "span": {
-                                "begin": 5,
-                                "end": 7
+                                "begin": 54,
+                                "end": 60
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "메시지였다."
                         },
                         {
-                            "obj": "time",
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 11
+                                "begin": 0,
+                                "end": 3
                             },
-                            "id": "3"
+                            "text": "그것이",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 16
+                                "begin": 4,
+                                "end": 30
                             },
-                            "id": "1"
+                            "text": "기업 전자 스파이 행위에 관한 온종일의 회의에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Speaker",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 31,
+                                "end": 49
+                            },
+                            "text": "정부와 개인 안보 전문가들에 의해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "take place",
-                        "kaisai .開催 "
-                    ],
-                    "ko_annotation_id": 14134,
-                    "text": "QN : 축제는 9월에 개최되었나 ?",
-                    "sent_id": 1410,
+                    "sent_id": 1948,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 6859
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 14135",
-            "examples": [
-                {
-                    "frameName": "Event",
-                    "denotations": [
-                        {
-                            "obj": "Place",
-                            "span": {
-                                "begin": 58,
-                                "end": 69
-                            }
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         },
                         {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 74,
-                                "end": 77
-                            }
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "origin_lus": [
-                        "take place",
-                        "kaisai .開催 "
-                    ],
-                    "ko_annotation_id": 14135,
-                    "text": "따라서 이 여자 토너먼트전의 서두 인사말에서 가와이시 미키노스케가 말했다시피, 이것은 「세계 최초이자, 유도의 종주국인 일본에서조차 개최된 적이 없는」 의욕적인 실험이었다.",
-                    "sent_id": 3837,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.48874",
-            "examples": [
-                {
-                    "frameName": "Event",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 14,
-                                "end": 17
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "이번 국제회의는 서울에서 개최될 것이다.",
-                    "target": "개최될",
-                    "ko_annotation_id": "sejong.48874",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.48875",
-            "examples": [
-                {
-                    "frameName": "Event",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 14,
-                                "end": 19
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "잠시 후 6시부터 회의가 개최됩니다.",
-                    "target": "개최됩니다",
-                    "ko_annotation_id": "sejong.48875",
-                    "relations": []
+                    "lu": "메시지.n.Statement",
+                    "text": "그것이 기업 전자 스파이 행위에 관한 온종일의 회의에서 정부와 개인 안보 전문가들에 의해 전달된 메시지였다."
                 }
             ]
         }
-    ],
-    "frameID": 187,
-    "ko_pos": "VV",
-    "ko_lu": "개최되다.v.Event",
-    "lu_id": 4108,
-    "en_lus": [
-        "kaisai .開催 ",
-        "take place"
     ]
 }

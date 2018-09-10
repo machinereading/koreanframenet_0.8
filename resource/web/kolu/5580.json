@@ -1,74 +1,87 @@
 {
-    "frameName": "Position_on_a_scale",
+    "ko_pos": "n",
+    "ko_lu": "반도.n.Part_whole",
+    "frameID": 140,
+    "frameName": "Part_whole",
+    "en_lus": [
+        "hanbun .半分 "
+    ],
+    "lu_id": 5580,
     "patterns": [
         {
-            "valenceText": "annotation id: 19755",
+            "valenceText": "annotation id: 16798",
             "examples": [
                 {
-                    "frameName": "Position_on_a_scale",
+                    "origin_lus": [
+                        "hanbun .半分 "
+                    ],
+                    "ko_annotation_id": 16798,
+                    "annotation_id": 0,
+                    "frameName": "Part_whole",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Part_whole",
                             "span": {
-                                "begin": 23,
-                                "end": 25
+                                "begin": 36,
+                                "end": 38
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "반도"
                         },
                         {
-                            "obj": "item",
+                            "id": 2,
+                            "obj": "Part",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 22
+                            },
+                            "text": "작품의 중개와 잡무를 떠맡는 것만으로는,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Whole",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
                             "span": {
                                 "begin": 23,
-                                "end": 25
+                                "end": 35
                             },
-                            "id": "2"
+                            "text": "작가 에이전트의 역할을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "low"
-                    ],
-                    "ko_annotation_id": 19755,
-                    "text": "히로시마와 나가사키에 투하된 원자 폭탄은 저급 핵무기 기술을 사용하였다.",
-                    "sent_id": 2861,
+                    "sent_id": 4998,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 14612
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.35355",
-            "examples": [
-                {
-                    "frameName": "Position_on_a_scale",
-                    "denotations": [
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 21,
-                                "end": 23
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "그 감독의 영화는 우리나라에서는 대개 저급으로 분류된다.",
-                    "target": "저급",
-                    "ko_annotation_id": "sejong.35355",
-                    "relations": []
+                    "lu": "반도.n.Part_whole",
+                    "text": "작품의 중개와 잡무를 떠맡는 것만으로는, 작가 에이전트의 역할을 반도 완수하지 못한 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 95,
-    "ko_pos": "NNG",
-    "ko_lu": "저급.n.Position_on_a_scale",
-    "lu_id": 5580,
-    "en_lus": [
-        "low"
     ]
 }

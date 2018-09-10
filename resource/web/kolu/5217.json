@@ -1,44 +1,82 @@
 {
-    "frameName": "Education_teaching",
+    "ko_pos": "n",
+    "ko_lu": "중심부.n.Part_inner_outer",
+    "frameID": 327,
+    "frameName": "Part_inner_outer",
+    "en_lus": [
+        "tyuusin .中心 "
+    ],
+    "lu_id": 5217,
     "patterns": [
         {
-            "valenceText": "annotation id: 18413",
+            "valenceText": "annotation id: 10325",
             "examples": [
                 {
-                    "frameName": "Education_teaching",
+                    "origin_lus": [
+                        "tyuusin .中心 "
+                    ],
+                    "ko_annotation_id": 10325,
+                    "annotation_id": 0,
+                    "frameName": "Part_inner_outer",
                     "denotations": [
                         {
-                            "obj": "Student",
+                            "id": 1,
+                            "obj": "Part_inner_outer",
                             "span": {
-                                "begin": 22,
-                                "end": 28
-                            }
+                                "begin": 43,
+                                "end": 47
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "중심부를"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Part",
+                            "token_span": [
+                                7,
+                                8
+                            ],
                             "span": {
-                                "begin": 26,
-                                "end": 28
-                            }
+                                "begin": 33,
+                                "end": 40
+                            },
+                            "text": "젊은 노동자는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Whole",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 41,
+                                "end": 42
+                            },
+                            "text": "그",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "syosee .書生 "
+                    "sent_id": 3661,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18413,
-                    "text": "아침이 되면 찾아오는 통학하는 학생들, 이른바 서생도 여럿 되고, 그야말로 메이지나 다이쇼 시대를 사는 대지주의 생활상이었다.",
-                    "sent_id": 4218,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "중심부.n.Part_inner_outer",
+                    "text": "근로자의 70% 가까이가 제조업 노동자에 해당했던 시대로, 젊은 노동자는 그 중심부를 담당하고 있었습니다."
                 }
             ]
         }
-    ],
-    "frameID": 111,
-    "ko_pos": "NNG",
-    "ko_lu": "서생.n.Education_teaching",
-    "lu_id": 5217,
-    "en_lus": [
-        "syosee .書生 "
     ]
 }

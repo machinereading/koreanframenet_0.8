@@ -1,44 +1,99 @@
 {
-    "frameName": "Time_vector",
+    "ko_pos": "v",
+    "ko_lu": "감싸다.v.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "hureru .触れる "
+    ],
+    "lu_id": 1523,
     "patterns": [
         {
-            "valenceText": "annotation id: 4829",
+            "valenceText": "annotation id: 11709",
             "examples": [
                 {
-                    "frameName": "Time_vector",
+                    "origin_lus": [
+                        "hureru .触れる "
+                    ],
+                    "ko_annotation_id": 11709,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
                     "denotations": [
                         {
-                            "obj": "Landmark",
+                            "id": 1,
+                            "obj": "Perception_active",
                             "span": {
-                                "begin": 4,
-                                "end": 8
-                            }
+                                "begin": 28,
+                                "end": 32
+                            },
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "감쌌다."
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 3
-                            }
+                                "end": 2
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "text": "손을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "text": "어깨를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "posuto .ポスト "
+                    "sent_id": 4579,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4829,
-                    "text": "포스트 산업주의 사회에서는, 지식이 고도화, 복합화, 유동화하여, 지식이 자본으로서 기능하기 때문입니다.",
-                    "sent_id": 4182,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "감싸다.v.Perception_active",
+                    "text": "그는 한 발짝 그녀에게 다가가, 손을 뻗어 어깨를 감쌌다."
                 }
             ]
         }
-    ],
-    "frameID": 379,
-    "ko_pos": "NNG",
-    "ko_lu": "포스트.n.Time_vector",
-    "lu_id": 1523,
-    "en_lus": [
-        "posuto .ポスト "
     ]
 }

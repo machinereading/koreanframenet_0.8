@@ -1,52 +1,82 @@
 {
-    "frameName": "Death",
+    "ko_pos": "v",
+    "ko_lu": "찾아내다.v.Seeking",
+    "frameID": 269,
+    "frameName": "Seeking",
+    "en_lus": [
+        "sagasidasu .探し出す"
+    ],
+    "lu_id": 4126,
     "patterns": [
         {
-            "valenceText": "annotation id: 14186",
+            "valenceText": "annotation id: 10593",
             "examples": [
                 {
-                    "frameName": "Death",
+                    "origin_lus": [
+                        "sagasidasu .探し出す"
+                    ],
+                    "ko_annotation_id": 10593,
+                    "annotation_id": 0,
+                    "frameName": "Seeking",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Seeking",
                             "span": {
-                                "begin": 17,
-                                "end": 20
+                                "begin": 83,
+                                "end": 87
                             },
-                            "id": "1"
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "찾아내는"
                         },
                         {
-                            "obj": "protagonist",
+                            "id": 2,
+                            "obj": "Sought_Entity",
+                            "token_span": [
+                                18,
+                                19
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 25
+                                "begin": 75,
+                                "end": 82
                             },
-                            "id": "2"
+                            "text": "숨겨진 구조를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cognizer_Agent",
+                            "token_span": [
+                                25
+                            ],
+                            "span": {
+                                "begin": 106,
+                                "end": 110
+                            },
+                            "text": "아이들도",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "starving"
-                    ],
-                    "ko_annotation_id": 14186,
-                    "text": "우리는, 어, 굶주리고 있는  굶주린 어린이들을 위해 그 돈을 소비할 수 있거나 혹은 12 백만 개의 다른 것들이 그것 보다 더 유용할 것이다.",
-                    "sent_id": 1910,
+                    "sent_id": 3882,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9209
+                    "lu": "찾아내다.v.Seeking",
+                    "text": "이 모형 만들기 과정에 아이들도 참여시킴으로써, 모형은 교과서나 교사에 의해 제시되는 것이 아닌, 스스로 경험한 것을 토대로, 거기에 숨겨진 구조를 찾아내는 과정에서 얻어지는 것이라는 것을 아이들도 깨닫게 된다."
                 }
             ]
         }
-    ],
-    "frameID": 53,
-    "ko_pos": "VV",
-    "ko_lu": "굶주리다.v.Death",
-    "lu_id": 4126,
-    "en_lus": [
-        "starve"
     ]
 }

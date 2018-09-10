@@ -1,51 +1,63 @@
 {
-    "frameName": "Intentionally_act",
+    "ko_pos": "n",
+    "ko_lu": "위험.n.Being_at_risk",
+    "frameID": 1560,
+    "frameName": "Being_at_risk",
+    "en_lus": [
+        "danger"
+    ],
+    "lu_id": 1581,
     "patterns": [
         {
-            "valenceText": "annotation id: 4964",
+            "valenceText": "annotation id: 4881",
             "examples": [
                 {
-                    "frameName": "Intentionally_act",
+                    "origin_lus": [
+                        "danger"
+                    ],
+                    "ko_annotation_id": 4881,
+                    "annotation_id": 8859,
+                    "frameName": "Being_at_risk",
                     "denotations": [
                         {
-                            "obj": "Agent",
+                            "id": 1,
+                            "obj": "Being_at_risk",
                             "span": {
                                 "begin": 4,
-                                "end": 23
-                            }
+                                "end": 7
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "위험은"
                         },
                         {
-                            "obj": "Act",
+                            "id": 2,
+                            "obj": "Asset",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 26,
-                                "end": 28
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 30,
-                                "end": 32
-                            }
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그들의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "okonau .行う "
+                    "sent_id": 1845,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4964,
-                    "text": "시합은 주황 띠 이상의 여성 유도인을 대상으로 예선을 치뤄, 출장 선수를 16명으로 추린 후, 제1회전, 2회전, 준결승전이 열렸으며, 결국 애디슨 부인(파랑 띠)과 루바니에 부인(갈색 띠)이 결승전에서 대결하게 되었다.",
-                    "sent_id": 4305,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "위험.n.Being_at_risk",
+                    "text": "그들의 위험은 매우 커서, 수백 명의 사람들이 경찰과 군에 자원하였고, 수천 명의 사람들이 그들의 종교를 포기하고 변덕스런 사람들이라는 소리를 들으며, 선거에 참여하였다."
                 }
             ]
         }
-    ],
-    "frameID": 198,
-    "ko_pos": "VV",
-    "ko_lu": "치루다.v.Intentionally_act",
-    "lu_id": 1581,
-    "en_lus": [
-        "okonau .行う "
     ]
 }

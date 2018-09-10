@@ -1,78 +1,71 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "v",
+    "ko_lu": "대치하다.v.Hostile_encounter",
+    "frameID": 93,
+    "frameName": "Hostile_encounter",
+    "en_lus": [
+        "Confronting"
+    ],
+    "lu_id": 4620,
     "patterns": [
         {
-            "valenceText": "annotation id: 16041",
+            "valenceText": "annotation id: 4067",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "Confronting"
+                    ],
+                    "ko_annotation_id": 4067,
+                    "annotation_id": 7536,
+                    "frameName": "Hostile_encounter",
                     "denotations": [
                         {
-                            "obj": "ground",
+                            "id": 1,
+                            "obj": "Hostile_encounter",
                             "span": {
-                                "begin": 19,
-                                "end": 24
+                                "begin": 45,
+                                "end": 49
                             },
-                            "id": "2"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "대치하기"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Issue",
+                            "token_span": [
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 27
+                                "begin": 9,
+                                "end": 44
                             },
-                            "id": "1"
-                        },
-                        {
-                            "obj": "distance",
-                            "span": {
-                                "begin": 32,
-                                "end": 40
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "figure",
-                            "span": {
-                                "begin": 41,
-                                "end": 57
-                            },
-                            "id": "4"
+                            "text": "스파이 활동 대리인 또는 잠복 스파이에 의해 행해지는 침투작전에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "above"
-                    ],
-                    "ko_annotation_id": 16041,
-                    "text": "2007년 1월 11일에, 중국은 지구 표면 상공으로부터 약 500 마일 궤도에 있는 오래된 기상 위성을 파괴하는 탄도 미사일을 사용함으로써, 직상승 대 위성 ( ASAT ) 무기의 실험을 성공적으로 수행하였다.",
-                    "sent_id": 2131,
+                    "sent_id": 1553,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10620
+                    "lu": "대치하다.v.Hostile_encounter",
+                    "text": "스파이 활동 : 스파이 활동 대리인 또는 잠복 스파이에 의해 행해지는 침투작전에 대치하기"
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "NNG",
-    "ko_lu": "상공.n.Locative_relation",
-    "lu_id": 4620,
-    "en_lus": [
-        "above"
     ]
 }

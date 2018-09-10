@@ -1,38 +1,63 @@
 {
-    "frameName": "Measure_duration",
+    "ko_pos": "a",
+    "ko_lu": "바쁘다.a.Lively_place",
+    "frameID": 1904,
+    "frameName": "Lively_place",
+    "en_lus": [
+        "busy"
+    ],
+    "lu_id": 5520,
     "patterns": [
         {
-            "valenceText": "annotation id: 19577",
+            "valenceText": "annotation id: 2518",
             "examples": [
                 {
-                    "frameName": "Measure_duration",
+                    "origin_lus": [
+                        "busy"
+                    ],
+                    "ko_annotation_id": 2518,
+                    "annotation_id": 4937,
+                    "frameName": "Lively_place",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Lively_place",
                             "span": {
                                 "begin": 2,
-                                "end": 3
+                                "end": 5
                             },
-                            "id": "1"
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "바쁘고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Location",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 14,
+                                "end": 17
+                            },
+                            "text": "도시는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "year"
+                    "sent_id": 951,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19577,
-                    "text": "그 해 - 이전 결과는 회계변경을 반영하기 위해 다시 정정되었다.",
-                    "sent_id": 4,
-                    "relations": [],
-                    "annotation_id": 22
+                    "lu": "바쁘다.a.Lively_place",
+                    "text": "이 바쁘고 현대적인 유럽 도시는 천년의 역사 위에 자리잡고 있다 -- 우아한 Merrion 광장에서 중앙 우체국의 총탄 구멍까지 역사는 도처에 존재한다."
                 }
             ]
         }
-    ],
-    "frameID": 224,
-    "ko_pos": "NNG",
-    "ko_lu": "해.n.Measure_duration",
-    "lu_id": 5520,
-    "en_lus": [
-        "year"
     ]
 }

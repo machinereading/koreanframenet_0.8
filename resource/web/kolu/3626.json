@@ -1,91 +1,172 @@
 {
-    "frameName": "Assistance",
+    "ko_pos": "v",
+    "ko_lu": "알리다.v.Reporting",
+    "frameID": 483,
+    "frameName": "Reporting",
+    "en_lus": [
+        "informing",
+        "inform"
+    ],
+    "lu_id": 3626,
     "patterns": [
         {
-            "valenceText": "annotation id: 12472",
+            "valenceText": "annotation id: 4482",
             "examples": [
                 {
-                    "frameName": "Assistance",
+                    "origin_lus": [
+                        "inform",
+                        "informing"
+                    ],
+                    "ko_annotation_id": 4482,
+                    "annotation_id": 8160,
+                    "frameName": "Reporting",
                     "denotations": [
                         {
-                            "obj": "benefited_party",
+                            "id": 1,
+                            "obj": "Reporting",
                             "span": {
-                                "begin": 12,
-                                "end": 16
+                                "begin": 19,
+                                "end": 22
                             },
-                            "id": "4"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "알려야"
                         },
                         {
-                            "obj": "goal",
+                            "id": 2,
+                            "obj": "Informer",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 26
+                                "begin": 0,
+                                "end": 2
                             },
-                            "id": "5"
+                            "text": "그는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Purpose",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 29,
-                                "end": 31
+                                "begin": 3,
+                                "end": 12
                             },
-                            "id": "1"
+                            "text": "문제를 해결하도록",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "helper",
+                            "id": 4,
+                            "obj": "Authorities",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 32,
-                                "end": 46
+                                "begin": 13,
+                                "end": 18
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "helper",
-                            "span": {
-                                "begin": 32,
-                                "end": 46
-                            },
-                            "id": "3"
+                            "text": "지휘관에게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "helped"
-                    ],
-                    "ko_annotation_id": 12472,
-                    "text": "중국은 보고에 의하면 파키스탄이 핵무기를 개발하도록 도운 설계 정보와 핵분열성 물질을 포함하여, 1980년대와 1990년대에 여러 국가에 핵 원자로와 기술을 제공하였다.",
-                    "sent_id": 2107,
+                    "sent_id": 1663,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "5",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 10382
+                    "lu": "알리다.v.Reporting",
+                    "text": "그는 문제를 해결하도록 지휘관에게 알려야 한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 6524",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "inform",
+                        "informing"
+                    ],
+                    "ko_annotation_id": 6524,
+                    "annotation_id": 11896,
+                    "frameName": "Reporting",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Reporting",
+                            "span": {
+                                "begin": 19,
+                                "end": 22
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "알리지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Informer",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 12
+                            },
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Authorities",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "text": "IAEA에",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2360,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "알리다.v.Reporting",
+                    "text": "이와같은 위반은 이란이 IAEA에 알리지 않고, 핵 물질을 시설에서 시험했다면 발생했을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 391,
-    "ko_pos": "NNG",
-    "ko_lu": "도운.n.Assistance",
-    "lu_id": 3626,
-    "en_lus": [
-        "help"
     ]
 }

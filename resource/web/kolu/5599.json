@@ -1,65 +1,63 @@
 {
-    "frameName": "Perception_experience",
+    "ko_pos": "v",
+    "ko_lu": "돌아다니다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "ugoku .動く"
+    ],
+    "lu_id": 5599,
     "patterns": [
         {
-            "valenceText": "annotation id: 19802",
+            "valenceText": "annotation id: 17404",
             "examples": [
                 {
-                    "frameName": "Perception_experience",
+                    "origin_lus": [
+                        "ugoku .動く"
+                    ],
+                    "ko_annotation_id": 17404,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
                     "denotations": [
                         {
-                            "obj": "perceiver_passive",
+                            "id": 1,
+                            "obj": "Motion",
                             "span": {
-                                "begin": 15,
-                                "end": 21
+                                "begin": 54,
+                                "end": 58
                             },
-                            "id": "3"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "돌아다닌"
                         },
                         {
-                            "obj": "state",
+                            "id": 2,
+                            "obj": "Area",
+                            "token_span": [
+                                15
+                            ],
                             "span": {
-                                "begin": 23,
-                                "end": 41
+                                "begin": 59,
+                                "end": 62
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 45,
-                                "end": 47
-                            },
-                            "id": "1"
+                            "text": "범위는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "seeing"
-                    ],
-                    "ko_annotation_id": 19802,
-                    "text": "더블린 극장은 전설적이며, 어떤 방문객도 Abbey 극장이나 Gate 극장에서의 공연을 놓치지 말아야 한다.",
-                    "sent_id": 979,
+                    "sent_id": 4638,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5109
+                    "lu": "돌아다니다.v.Motion",
+                    "text": "바다를 돌아다니며 이제껏 살아온 것 같지만, 섬이 보이지 않을 만큼 멀리까지는 가본 적이 없어, 돌아다닌 범위는 생각보다 좁다."
                 }
             ]
         }
-    ],
-    "frameID": 70,
-    "ko_pos": "NNG",
-    "ko_lu": "공연.n.Perception_experience",
-    "lu_id": 5599,
-    "en_lus": [
-        "see"
     ]
 }

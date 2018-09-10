@@ -1,38 +1,85 @@
 {
-    "frameName": "Import_export_scenario",
+    "ko_pos": "v",
+    "ko_lu": "취소하다.v.Removing",
+    "frameID": 63,
+    "frameName": "Removing",
+    "en_lus": [
+        "withdraws"
+    ],
+    "lu_id": 1781,
     "patterns": [
         {
-            "valenceText": "annotation id: 5601",
+            "valenceText": "annotation id: 9828",
             "examples": [
                 {
-                    "frameName": "Import_export",
+                    "origin_lus": [
+                        "withdraws"
+                    ],
+                    "ko_annotation_id": 9828,
+                    "annotation_id": 18233,
+                    "frameName": "Removing",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Removing",
                             "span": {
-                                "begin": 19,
-                                "end": 21
+                                "begin": 23,
+                                "end": 28
                             },
-                            "id": "1"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "취소하였다"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "중국은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 22
+                            },
+                            "text": "이란에 제의했던 핵 원자로 판매를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Imports"
+                    "sent_id": 3464,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5601,
-                    "text": "티오디글리콜 및 염화티오닐과 같은 수입은 염료, 직물, 그리고 살충제와 같은 합법적인 목적으로 사용되거나 불법적인 화학무기 프로그램으로 용도가 전환되어 사용될 수 있다.",
-                    "sent_id": 2333,
-                    "relations": [],
-                    "annotation_id": 11720
+                    "lu": "취소하다.v.Removing",
+                    "text": "중국은 이란에 제의했던 핵 원자로 판매를 취소하였다 ( 6899 )."
                 }
             ]
         }
-    ],
-    "frameID": 422,
-    "ko_pos": "NNG",
-    "ko_lu": "수입.n.Import_export_scenario",
-    "lu_id": 1781,
-    "en_lus": [
-        "Imports"
     ]
 }

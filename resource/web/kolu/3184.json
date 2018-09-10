@@ -1,60 +1,64 @@
 {
-    "frameName": "Age",
+    "ko_pos": "n",
+    "ko_lu": "예측.n.Expectation",
+    "frameID": 26,
+    "frameName": "Expectation",
+    "en_lus": [
+        "unpredictable"
+    ],
+    "lu_id": 3184,
     "patterns": [
         {
-            "valenceText": "annotation id: 10704",
+            "valenceText": "annotation id: 16817",
             "examples": [
                 {
-                    "frameName": "Age",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 10,
-                                "end": 13
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "old"
+                        "unpredictable"
                     ],
-                    "ko_annotation_id": 10704,
-                    "text": "그러나, 젊은이와 늙은이, 이방인과 더블린인은 꽤 행복하게 어깨를 비비며 살아가고 있다.",
-                    "sent_id": 1002,
-                    "relations": [],
-                    "annotation_id": 5276
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.9662",
-            "examples": [
-                {
-                    "frameName": "Age",
+                    "ko_annotation_id": 16817,
+                    "annotation_id": 832,
+                    "frameName": "Expectation",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Expectation",
                             "span": {
-                                "begin": 22,
-                                "end": 25
+                                "begin": 0,
+                                "end": 5
                             },
-                            "id": "1"
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "예측 못할"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 10
+                            },
+                            "text": "간격으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그는 젊은 나이에도 불구하고 늘 그렇게 늙은이 같은 소리를 한다.",
-                    "target": "늙은이",
-                    "ko_annotation_id": "sejong.9662",
-                    "relations": []
+                    "sent_id": 145,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "예측.n.Expectation",
+                    "text": "예측 못할 간격으로 몇 분마다 흔들림은 나의 집 전체로 퍼졌고, 나의 부엌에 살고 있던 쥐가 나의 책상 밑으로 피난하였다."
                 }
             ]
         }
-    ],
-    "frameID": 972,
-    "ko_pos": "NNG",
-    "ko_lu": "늙은이.n.Age",
-    "lu_id": 3184,
-    "en_lus": [
-        "old"
     ]
 }

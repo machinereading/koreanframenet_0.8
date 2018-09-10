@@ -1,52 +1,67 @@
 {
-    "frameName": "Assistance",
+    "ko_pos": "n",
+    "ko_lu": "남.n.People",
+    "frameID": 304,
+    "frameName": "People",
+    "en_lus": [
+        "nin .人 ",
+        "hito .人",
+        "zin .人"
+    ],
+    "lu_id": 2508,
     "patterns": [
         {
-            "valenceText": "annotation id: 8289",
+            "valenceText": "annotation id: 11934",
             "examples": [
                 {
-                    "frameName": "Assistance",
+                    "origin_lus": [
+                        "zin .人",
+                        "hito .人",
+                        "nin .人 "
+                    ],
+                    "ko_annotation_id": 11934,
+                    "annotation_id": 0,
+                    "frameName": "People",
                     "denotations": [
                         {
-                            "obj": "domain",
+                            "id": 1,
+                            "obj": "People",
                             "span": {
-                                "begin": 21,
-                                "end": 24
+                                "begin": 36,
+                                "end": 39
                             },
-                            "id": "2"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "「남의"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Person",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 24
+                                "begin": 36,
+                                "end": 39
                             },
-                            "id": "1"
+                            "text": "「남의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "assistance"
-                    ],
-                    "ko_annotation_id": 8289,
-                    "text": "1980년대 말에 새로운 여러 잠재적 핵원조 수출자들의 수가 늘어났다.",
-                    "sent_id": 2588,
+                    "sent_id": 4725,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 12957
+                    "lu": "남.n.People",
+                    "text": "혼자서도 괜찮아, 협력자가 넘치는 「상생 상법」 관서지방 사람은 「남의 샅바 차고 씨름한다」는 말을 좋아한다."
                 }
             ]
         }
-    ],
-    "frameID": 391,
-    "ko_pos": "NNG",
-    "ko_lu": "핵원조.n.Assistance",
-    "lu_id": 2508,
-    "en_lus": [
-        "assistance"
     ]
 }

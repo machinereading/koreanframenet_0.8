@@ -1,44 +1,117 @@
 {
-    "frameName": "Point_of_dispute",
+    "ko_pos": "n",
+    "ko_lu": "암.n.Medical_conditions",
+    "frameID": 239,
+    "frameName": "Medical_conditions",
+    "en_lus": [
+        "gan .ガン ",
+        "cancer"
+    ],
+    "lu_id": 5313,
     "patterns": [
         {
-            "valenceText": "annotation id: 18745",
+            "valenceText": "annotation id: 3321",
             "examples": [
                 {
-                    "frameName": "Point_of_dispute",
+                    "origin_lus": [
+                        "cancer",
+                        "gan .ガン "
+                    ],
+                    "ko_annotation_id": 3321,
+                    "annotation_id": 6312,
+                    "frameName": "Medical_conditions",
                     "denotations": [
                         {
-                            "obj": "Question",
+                            "id": 1,
+                            "obj": "Medical_conditions",
                             "span": {
-                                "begin": 73,
-                                "end": 97
-                            }
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "난소암으로"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 4,
+                                "end": 9
+                            },
+                            "text": "난소암으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kadai .課題 "
+                    "sent_id": 1248,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18745,
-                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다.",
-                    "sent_id": 4550,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "암.n.Medical_conditions",
+                    "text": "그녀가 난소암으로 죽기 전에 그들의 엄마가 유전자 테스트를 가졌다는 것을 아는 두 자매는 그녀의 테스트 결과를 알기 원한다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12177",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "cancer",
+                        "gan .ガン "
+                    ],
+                    "ko_annotation_id": 12177,
+                    "annotation_id": 0,
+                    "frameName": "Medical_conditions",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Medical_conditions",
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "암세포인"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Symptom",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 27,
+                                "end": 31
+                            },
+                            "text": "암세포인",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4879,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "암.n.Medical_conditions",
+                    "text": "악성인 것은 궤양 또는 결절을 형성하기도 하고, 암세포인 경우도 있습니다."
                 }
             ]
         }
-    ],
-    "frameID": 1608,
-    "ko_pos": "NNG",
-    "ko_lu": "과제.n.Point_of_dispute",
-    "lu_id": 5313,
-    "en_lus": [
-        "kadai .課題 "
     ]
 }

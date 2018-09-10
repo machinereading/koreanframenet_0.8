@@ -1,74 +1,66 @@
 {
-    "frameName": "Membership",
+    "ko_pos": "v",
+    "ko_lu": "폐기되다.v.Destroying",
+    "frameID": 417,
+    "frameName": "Destroying",
+    "en_lus": [
+        "destroyed"
+    ],
+    "lu_id": 288,
     "patterns": [
         {
-            "valenceText": "annotation id: 796",
+            "valenceText": "annotation id: 8432",
             "examples": [
                 {
-                    "frameName": "Membership",
+                    "origin_lus": [
+                        "destroyed"
+                    ],
+                    "ko_annotation_id": 8432,
+                    "annotation_id": 15422,
+                    "frameName": "Destroying",
                     "denotations": [
                         {
-                            "obj": "group",
-                            "span": {
-                                "begin": 16,
-                                "end": 20
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Destroying",
                             "span": {
                                 "begin": 22,
-                                "end": 24
+                                "end": 29
                             },
-                            "id": "1"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "폐기되었지만,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Undergoer",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 21
+                            },
+                            "text": "생물 무기 작용제 비축량은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "part"
-                    ],
-                    "ko_annotation_id": 796,
-                    "text": "다섯 명의 시리아 과학자들은 프로젝트의 일환으로 헝가리, 미국, 유고슬라비아, 및 오스트리아에서 훈련받았다.",
-                    "sent_id": 3074,
+                    "sent_id": 2994,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 16000
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.7607",
-            "examples": [
-                {
-                    "frameName": "Membership",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 8,
-                                "end": 10
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "회사 살리기의 일환으로 직원들은 2개월간의 무임금 노동을 결의했다.",
-                    "target": "일환",
-                    "ko_annotation_id": "sejong.7607",
-                    "relations": []
+                    "lu": "폐기되다.v.Destroying",
+                    "text": "미국 정부는 생물 무기 작용제 비축량은 폐기되었지만, 생물무기금지협약을 위반하는 활동은 러시아의 몇몇 군용 생물 시설에서 계속될 것으로 믿고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 1026,
-    "ko_pos": "NNG",
-    "ko_lu": "일환.n.Membership",
-    "lu_id": 288,
-    "en_lus": [
-        "part"
     ]
 }

@@ -1,65 +1,81 @@
 {
-    "frameName": "Process_continue",
+    "ko_pos": "n",
+    "ko_lu": "이행.n.Execute_plan",
+    "frameID": 1726,
+    "frameName": "Execute_plan",
+    "en_lus": [
+        "implementation"
+    ],
+    "lu_id": 3190,
     "patterns": [
         {
-            "valenceText": "annotation id: 10712",
+            "valenceText": "annotation id: 6293",
             "examples": [
                 {
-                    "frameName": "Process_continue",
+                    "origin_lus": [
+                        "implementation"
+                    ],
+                    "ko_annotation_id": 6293,
+                    "annotation_id": 11384,
+                    "frameName": "Execute_plan",
                     "denotations": [
                         {
-                            "obj": "event",
+                            "id": 1,
+                            "obj": "Execute_plan",
                             "span": {
-                                "begin": 27,
-                                "end": 29
+                                "begin": 64,
+                                "end": 67
                             },
-                            "id": "2"
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "이행에"
                         },
                         {
-                            "obj": "duration",
+                            "id": 2,
+                            "obj": "Plan",
+                            "token_span": [
+                                11
+                            ],
                             "span": {
-                                "begin": 37,
-                                "end": 43
+                                "begin": 49,
+                                "end": 58
                             },
-                            "id": "3"
+                            "text": "화학무기금지협약의",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                12
+                            ],
                             "span": {
-                                "begin": 44,
-                                "end": 50
+                                "begin": 59,
+                                "end": 63
                             },
-                            "id": "1"
+                            "text": "국가적인",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "dragged on"
-                    ],
-                    "ko_annotation_id": 10712,
-                    "text": "살해된 이 사람들의 가족 패해자들은 그들이 어떤 해결을 갖기 전에 수 년 동안 질질 끌어와야만 했다.",
-                    "sent_id": 1921,
+                    "sent_id": 2272,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9264
+                    "lu": "이행.n.Execute_plan",
+                    "text": "1996년에, 이란은 정부 당국이 협약에 따른 의무와 책임에 익숙해지기 위해 테헤란에서 화학무기금지협약의 국가적인 이행에 관한 최초의 지역 세미나를 개최하였다."
                 }
             ]
         }
-    ],
-    "frameID": 145,
-    "ko_pos": "VV",
-    "ko_lu": "끌어오다.v.Process_continue",
-    "lu_id": 3190,
-    "en_lus": [
-        "dragged on"
     ]
 }

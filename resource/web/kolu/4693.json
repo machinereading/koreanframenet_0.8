@@ -1,51 +1,106 @@
 {
-    "frameName": "Causation",
+    "ko_pos": "v",
+    "ko_lu": "좌절되다.v.Thwarting",
+    "frameID": 518,
+    "frameName": "Thwarting",
+    "en_lus": [
+        "thwart"
+    ],
+    "lu_id": 4693,
     "patterns": [
         {
-            "valenceText": "annotation id: 16455",
+            "valenceText": "annotation id: 6679",
             "examples": [
                 {
-                    "frameName": "Causation",
+                    "origin_lus": [
+                        "thwarted"
+                    ],
+                    "ko_annotation_id": 6679,
+                    "annotation_id": 12214,
+                    "frameName": "Thwarting",
                     "denotations": [
                         {
-                            "obj": "Effect",
+                            "id": 1,
+                            "obj": "Thwarting",
+                            "span": {
+                                "begin": 37,
+                                "end": 43
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "좌절되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Action",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 28
-                            }
+                                "end": 12
+                            },
+                            "text": "이 확보를 위한 노력은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Cause",
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 31,
-                                "end": 53
-                            }
+                                "begin": 13,
+                                "end": 21
+                            },
+                            "text": "이것의 시작부터",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 4,
+                            "obj": "Preventing_Cause",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
                             "span": {
-                                "begin": 55,
-                                "end": 58
-                            }
+                                "begin": 22,
+                                "end": 36
+                            },
+                            "text": "많은 중요한 요인들에 의해",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "gen'in .原因 "
+                    "sent_id": 2424,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16455,
-                    "text": "인쇄물을 상대로도 당신이 「게임」을 할 수 있는 것은, 당신이 처음에 전제로 하고 있던 사고방식이 원인임이 틀림없다.",
-                    "sent_id": 4192,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "좌절되다.v.Thwarting",
+                    "text": "이 확보를 위한 노력은 이것의 시작부터 많은 중요한 요인들에 의해 좌절되었다."
                 }
             ]
         }
-    ],
-    "frameID": 5,
-    "ko_pos": "NNG",
-    "ko_lu": "원인임.n.Causation",
-    "lu_id": 4693,
-    "en_lus": [
-        "gen'in .原因 "
     ]
 }

@@ -1,51 +1,87 @@
 {
-    "frameName": "Body_description_holistic",
+    "ko_pos": "n",
+    "ko_lu": "사업.n.Businesses",
+    "frameID": 365,
+    "frameName": "Businesses",
+    "en_lus": [
+        "bizinesu .ビジネス "
+    ],
+    "lu_id": 1900,
     "patterns": [
         {
-            "valenceText": "annotation id: 6029",
+            "valenceText": "annotation id: 16809",
             "examples": [
                 {
-                    "frameName": "Body_description_holistic",
+                    "origin_lus": [
+                        "bizinesu .ビジネス "
+                    ],
+                    "ko_annotation_id": 16809,
+                    "annotation_id": 0,
+                    "frameName": "Businesses",
                     "denotations": [
                         {
-                            "obj": "Individual",
+                            "id": 1,
+                            "obj": "Businesses",
+                            "span": {
+                                "begin": 68,
+                                "end": 71
+                            },
+                            "token_span": [
+                                16
+                            ],
+                            "role": "TARGET",
+                            "text": "사업은"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Product",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 2
-                            }
+                                "end": 29
+                            },
+                            "text": "이론 한계치에 근접한 수준으로 설계되는 모든 제품을,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Figure",
+                            "id": 3,
+                            "obj": "Business",
+                            "token_span": [
+                                16
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 20
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 12,
-                                "end": 17
-                            }
+                                "begin": 68,
+                                "end": 71
+                            },
+                            "text": "사업은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hossori .ほっそり"
+                    "sent_id": 5023,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 6029,
-                    "text": "부인은 아담한 체구에 호리호리한 사람으로, 두 사람이 함께 걸으면 선생님 그림자에 가려질 듯했죠…」그리운 듯 이렇게 이야기해 준 미야기 씨는, 현재, 공민관에서 양재 선생님을 하고 있다.",
-                    "sent_id": 3703,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "사업.n.Businesses",
+                    "text": "이론 한계치에 근접한 수준으로 설계되는 모든 제품을, 다른 어떤 기업보다도 신속하게 수율 100%로 만들어내지 못하는 한 사업은 성공하지 못한다."
                 }
             ]
         }
-    ],
-    "frameID": 157,
-    "ko_pos": "VA",
-    "ko_lu": "호리호리하다.a.Body_description_holistic",
-    "lu_id": 1900,
-    "en_lus": [
-        "hossori .ほっそり"
     ]
 }

@@ -1,64 +1,81 @@
 {
-    "frameName": "Political_locales",
+    "ko_pos": "n",
+    "ko_lu": "기소.n.Notification_of_charges",
+    "frameID": 129,
+    "frameName": "Notification_of_charges",
+    "en_lus": [
+        "indictment"
+    ],
+    "lu_id": 5433,
     "patterns": [
         {
-            "valenceText": "annotation id: 19237",
+            "valenceText": "annotation id: 5333",
             "examples": [
                 {
-                    "frameName": "Political_locales",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 16,
-                                "end": 19
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "country"
+                        "indictments"
                     ],
-                    "ko_annotation_id": 19237,
-                    "text": "2003년 12월 19일에, 리비아 지도자 Muammar Qadhfi 대령은 미국 및 영국 당국과 9개월 기간의 협상에 이어 자기 나라의 WMD 프로그램을 밝히고 해체하겠다는 그의 공약을 공개적으로 확인해 주었다.",
-                    "sent_id": 2699,
-                    "relations": [],
-                    "annotation_id": 13522
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 19238",
-            "examples": [
-                {
-                    "frameName": "Political_locales",
+                    "ko_annotation_id": 5333,
+                    "annotation_id": 9649,
+                    "frameName": "Notification_of_charges",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Notification_of_charges",
+                            "span": {
+                                "begin": 10,
+                                "end": 13
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "기소를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 3
+                                "end": 6
                             },
-                            "id": "1"
+                            "text": "플로리다에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Charges",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "text": "마약",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "country"
+                    "sent_id": 1995,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19238,
-                    "text": "리비아는 1982년 1월 19일에 생물 및 독소 무기 조약에 가입하였다.",
-                    "sent_id": 2714,
-                    "relations": [],
-                    "annotation_id": 13641
+                    "lu": "기소.n.Notification_of_charges",
+                    "text": "플로리다에서 마약 기소를 다루는 전 미국 변호사 Robert Merkel은 카스트로의 마약 거래에 관련되 고위 관리의 많이 공개된 재판은 그가 Mardellin 마약 기업 연합과의 중단을 뜻한다고 절대 생각하지 않는다 ."
                 }
             ]
         }
-    ],
-    "frameID": 195,
-    "ko_pos": "NNP",
-    "ko_lu": "리비아.n.Political_locales",
-    "lu_id": 5433,
-    "en_lus": [
-        "country"
     ]
 }

@@ -1,88 +1,103 @@
 {
-    "frameName": "People_by_age",
+    "ko_pos": "n",
+    "ko_lu": "국가.n.Participation",
+    "frameID": 1144,
+    "frameName": "Participation",
+    "en_lus": [
+        "player"
+    ],
+    "lu_id": 725,
     "patterns": [
         {
-            "valenceText": "annotation id: 2203",
+            "valenceText": "annotation id: 7425",
             "examples": [
                 {
-                    "frameName": "People_by_age",
+                    "origin_lus": [
+                        "player"
+                    ],
+                    "ko_annotation_id": 7425,
+                    "annotation_id": 13520,
+                    "frameName": "Participation",
                     "denotations": [
                         {
-                            "obj": "Person",
+                            "id": 1,
+                            "obj": "Participation",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 90,
+                                "end": 93
+                            },
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "국가가"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Participant_1",
+                            "token_span": [
+                                9
+                            ],
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
-                        }
-                    ],
-                    "origin_lus": [
-                        "roozin .老人 "
-                    ],
-                    "ko_annotation_id": 2203,
-                    "text": "노인.",
-                    "sent_id": 4797,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.5092",
-            "examples": [
-                {
-                    "frameName": "People_by_age",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 3,
-                                "end": 5
+                                "begin": 42,
+                                "end": 47
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "점점 노인의 인구가 많아지고 있다.",
-                    "target": "노인",
-                    "ko_annotation_id": "sejong.5092",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.5093",
-            "examples": [
-                {
-                    "frameName": "People_by_age",
-                    "denotations": [
+                            "text": "이스라엘의",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Event",
+                            "token_span": [
+                                14,
+                                15,
+                                16,
+                                17
+                            ],
                             "span": {
-                                "begin": 26,
-                                "end": 28
+                                "begin": 64,
+                                "end": 82
                             },
-                            "id": "1"
+                            "text": "중동과 아프리카의 정치적 문제에서",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Degree_Of_Involvement",
+                            "token_span": [
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 83,
+                                "end": 89
+                            },
+                            "text": "더 적극적인",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "인구의 고령화에도 불구하고 우리 사회에는 아직 노인들을 위한 문화시설이 턱없이 부족하다.",
-                    "target": "노인",
-                    "ko_annotation_id": "sejong.5093",
-                    "relations": []
+                    "sent_id": 2698,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "국가.n.Participation",
+                    "text": "리비아의 WMD, 그리고 특히 탄도 미사일을 획득하려는 동기는 부분적으로는 이스라엘의 비밀 핵 프로그램에 대응하고 중동과 아프리카의 정치적 문제에서 더 적극적인 국가가 되기를 원한 것으로 보인다."
                 }
             ]
         }
-    ],
-    "frameID": 973,
-    "ko_pos": "NNG",
-    "ko_lu": "노인.n.People_by_age",
-    "lu_id": 725,
-    "en_lus": [
-        "roozin .老人 "
     ]
 }

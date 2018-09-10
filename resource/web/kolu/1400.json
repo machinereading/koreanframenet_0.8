@@ -1,44 +1,300 @@
 {
-    "frameName": "Cognitive_connection",
+    "ko_pos": "v",
+    "ko_lu": "확인되다.v.Verification",
+    "frameID": 1230,
+    "frameName": "Verification",
+    "en_lus": [
+        "confirm",
+        "identify"
+    ],
+    "lu_id": 1400,
     "patterns": [
         {
-            "valenceText": "annotation id: 4428",
+            "valenceText": "annotation id: 1630",
             "examples": [
                 {
-                    "frameName": "Cognitive_connection",
+                    "origin_lus": [
+                        "identified",
+                        "identify",
+                        "confirmed"
+                    ],
+                    "ko_annotation_id": 1630,
+                    "annotation_id": 3423,
+                    "frameName": "Verification",
                     "denotations": [
                         {
-                            "obj": "Concept_1",
+                            "id": 1,
+                            "obj": "Verification",
                             "span": {
-                                "begin": 8,
-                                "end": 11
-                            }
+                                "begin": 33,
+                                "end": 40
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "확인되었는데,"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Unconfirmed_Content",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 13,
-                                "end": 17
-                            }
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "그 신전 자리는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "text": "결국",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Unconfirmed_Content",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 17,
+                                "end": 32
+                            },
+                            "text": "그것이 서 있던 모리아산으로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tunagaru .つながる "
+                    "sent_id": 634,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 4428,
-                    "text": "중요한 것은, 「내일로 이어지는 배움과 대화」를 하는 것입니다.",
-                    "sent_id": 3692,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "확인되다.v.Verification",
+                    "text": "그 신전 자리는 결국 그 위에 그것이 서 있던 모리아산으로 확인되었는데, 이곳은 아브라함이 자기 아들 이삭을 제물로 바치도록 부름을 받았던 곳이다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 8113",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "identified",
+                        "identify",
+                        "confirmed"
+                    ],
+                    "ko_annotation_id": 8113,
+                    "annotation_id": 14828,
+                    "frameName": "Verification",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Verification",
+                            "span": {
+                                "begin": 29,
+                                "end": 33
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "확인되지"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Unconfirmed_Content",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 28
+                            },
+                            "text": "그것의 내용은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 2897,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "확인되다.v.Verification",
+                    "text": "그러나, 보도는 세부 내용이 부족하고 그것의 내용은 확인되지 않았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9373",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "identified",
+                        "identify",
+                        "confirmed"
+                    ],
+                    "ko_annotation_id": 9373,
+                    "annotation_id": 17525,
+                    "frameName": "Verification",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Verification",
+                            "span": {
+                                "begin": 54,
+                                "end": 58
+                            },
+                            "token_span": [
+                                15
+                            ],
+                            "role": "TARGET",
+                            "text": "출신으로"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Medium",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 19
+                            },
+                            "text": "집들 중 한 곳에서 발견된 여권들은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Unconfirmed_Content",
+                            "token_span": [
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 53
+                            },
+                            "text": "남자들이  법을 무시하는 부족으로 알려진 특권이 용이한 지방",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3288,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "확인되다.v.Verification",
+                    "text": "집들 중 한 곳에서 발견된 여권들은 남자들이  법을 무시하는 부족으로 알려진 특권이 용이한 지방 출신으로 확인되었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 9602",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "identified",
+                        "identify",
+                        "confirmed"
+                    ],
+                    "ko_annotation_id": 9602,
+                    "annotation_id": 17883,
+                    "frameName": "Verification",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Verification",
+                            "span": {
+                                "begin": 13,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "확인되면,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Unconfirmed_Content",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 12
+                            },
+                            "text": "이란의 의심스런 장소가",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3373,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "확인되다.v.Verification",
+                    "text": "이란의 의심스런 장소가 확인되면, IAEA는 그들을 감시할 수 있다."
                 }
             ]
         }
-    ],
-    "frameID": 720,
-    "ko_pos": "VV",
-    "ko_lu": "이어지다.v.Cognitive_connection",
-    "lu_id": 1400,
-    "en_lus": [
-        "tunagaru .つながる "
     ]
 }

@@ -1,52 +1,83 @@
 {
-    "frameName": "Relational_quantity",
+    "ko_pos": "v",
+    "ko_lu": "전환되다.v.Redirecting",
+    "frameID": 1530,
+    "frameName": "Redirecting",
+    "en_lus": [
+        "divert"
+    ],
+    "lu_id": 2169,
     "patterns": [
         {
-            "valenceText": "annotation id: 7071",
+            "valenceText": "annotation id: 15183",
             "examples": [
                 {
-                    "frameName": "Relational_quantity",
+                    "origin_lus": [
+                        "diverted"
+                    ],
+                    "ko_annotation_id": 15183,
+                    "annotation_id": 14222,
+                    "frameName": "Redirecting",
                     "denotations": [
                         {
-                            "obj": "individuals",
+                            "id": 1,
+                            "obj": "Redirecting",
                             "span": {
-                                "begin": 14,
-                                "end": 45
+                                "begin": 71,
+                                "end": 77
                             },
-                            "id": "2"
+                            "token_span": [
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "전환되었는지"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                13,
+                                14
+                            ],
                             "span": {
-                                "begin": 28,
-                                "end": 30
+                                "begin": 55,
+                                "end": 63
                             },
-                            "id": "1"
+                            "text": "핵분열성 물질이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                15,
+                                16
+                            ],
+                            "span": {
+                                "begin": 64,
+                                "end": 70
+                            },
+                            "text": "군사 용도로",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "over"
-                    ],
-                    "ko_annotation_id": 7071,
-                    "text": "사실, Flamingo는 라스 베이거스에 이십년에 걸쳐 힘센 폭력 무리가 출현하는 가운데 시작되었다.",
-                    "sent_id": 809,
+                    "sent_id": 2808,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4221
+                    "lu": "전환되다.v.Redirecting",
+                    "text": "IAEA는 1992년에 제출된 북한의 최초 선언의 완전성과 정확성을 입증할 수 없었고, 그 단체는 핵분열성 물질이 군사 용도로 전환되었는지 입증할 수 없게 되었다."
                 }
             ]
         }
-    ],
-    "frameID": 2427,
-    "ko_pos": "VV",
-    "ko_lu": "걸치다.v.Relational_quantity",
-    "lu_id": 2169,
-    "en_lus": [
-        "over"
     ]
 }

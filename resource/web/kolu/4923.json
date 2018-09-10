@@ -1,64 +1,136 @@
 {
-    "frameName": "Individual_history",
+    "ko_pos": "n",
+    "ko_lu": "식사.n.Ingestion",
+    "frameID": 263,
+    "frameName": "Ingestion",
+    "en_lus": [
+        "syokuzi .食事 "
+    ],
+    "lu_id": 4923,
     "patterns": [
         {
-            "valenceText": "annotation id: 17291",
+            "valenceText": "annotation id: 10749",
             "examples": [
                 {
-                    "frameName": "Individual_history",
+                    "origin_lus": [
+                        "syokuzi .食事 "
+                    ],
+                    "ko_annotation_id": 10749,
+                    "annotation_id": 0,
+                    "frameName": "Ingestion",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Ingestion",
                             "span": {
-                                "begin": 114,
-                                "end": 116
+                                "begin": 39,
+                                "end": 41
                             },
-                            "id": "1"
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "식사"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Place",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 17
+                            },
+                            "text": "집에 있는 건",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 35
+                            },
+                            "text": "주말이라는 한정된 시간뿐이므로,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "past"
+                    "sent_id": 3985,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 17291,
-                    "text": "한 Humboldt 참전 용사의 새로운 하와이제도 기념물과의 관계 : 하와이 북서쪽을 휩쓰는 일련의 섬들인 국가의 최신 천연 기념물은 그곳의 청색 물결과 낮은 흰색 모래 해변이 드러내는 것보다 더 어두운 과거를 가지고 있다.",
-                    "sent_id": 3247,
-                    "relations": [],
-                    "annotation_id": 17166
+                    "lu": "식사.n.Ingestion",
+                    "text": "그렇다고는 하지만 집에 있는 건 주말이라는 한정된 시간뿐이므로, 기껏 식사 후의 뒷정리나, 이따금 음식 만드는 것을 돕는 정도다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: 17292",
+            "valenceText": "annotation id: 10863",
             "examples": [
                 {
-                    "frameName": "Individual_history",
+                    "origin_lus": [
+                        "syokuzi .食事 "
+                    ],
+                    "ko_annotation_id": 10863,
+                    "annotation_id": 0,
+                    "frameName": "Ingestion",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Ingestion",
                             "span": {
-                                "begin": 77,
-                                "end": 79
+                                "begin": 8,
+                                "end": 11
                             },
-                            "id": "1"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "식사를"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Ingestibles",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 11
+                            },
+                            "text": "식사를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "past"
+                    "sent_id": 4030,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 17292,
-                    "text": "부시 대통령이 1,400 마일 길이의 북서 하와이 제도를 기념물로 지정한다는 데 대한 상당수의 최근 뉴스 보도에서, 비밀과 의문에 가득찬 과거에 대한 언급은 없다.",
-                    "sent_id": 3252,
-                    "relations": [],
-                    "annotation_id": 17212
+                    "lu": "식사.n.Ingestion",
+                    "text": "살기 위해서는 식사를 하지 않으면 안되는 것과 마찬가지로, 어떤 무엇인가에 대해 생각하기 위해서는, 「전제」가 필요한데, 오히려 어떠한 전제를 까는지가 어쩌면 「당신 자신」인지 모른다."
                 }
             ]
         }
-    ],
-    "frameID": 1906,
-    "ko_pos": "NNG",
-    "ko_lu": "과거.n.Individual_history",
-    "lu_id": 4923,
-    "en_lus": [
-        "past"
     ]
 }

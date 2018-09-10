@@ -1,65 +1,81 @@
 {
-    "frameName": "Statement",
+    "ko_pos": "n",
+    "ko_lu": "위자료.n.Resolve_problem",
+    "frameID": 1523,
+    "frameName": "Resolve_problem",
+    "en_lus": [
+        "kaiketu .解決 "
+    ],
+    "lu_id": 5105,
     "patterns": [
         {
-            "valenceText": "annotation id: 17972",
+            "valenceText": "annotation id: 16249",
             "examples": [
                 {
-                    "frameName": "Statement",
+                    "origin_lus": [
+                        "kaiketu .解決 "
+                    ],
+                    "ko_annotation_id": 16249,
+                    "annotation_id": 0,
+                    "frameName": "Resolve_problem",
                     "denotations": [
                         {
-                            "obj": "medium",
+                            "id": 1,
+                            "obj": "Resolve_problem",
                             "span": {
-                                "begin": 35,
-                                "end": 36
+                                "begin": 22,
+                                "end": 25
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "위자료"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                3
+                            ],
                             "span": {
-                                "begin": 37,
-                                "end": 39
+                                "begin": 12,
+                                "end": 16
                             },
-                            "id": "1"
+                            "text": "마사오는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "message",
+                            "id": 3,
+                            "obj": "Problem",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 41,
-                                "end": 44
+                                "begin": 34,
+                                "end": 42
                             },
-                            "id": "3"
+                            "text": "조정이혼하였고,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "says"
-                    ],
-                    "ko_annotation_id": 17972,
-                    "text": "8 RICH : 내가 방금 여기서 받은 스케쥴은 - 음, 너는 그 내용이 무엇인지 안다.",
-                    "sent_id": 1887,
+                    "sent_id": 3848,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9115
+                    "lu": "위자료.n.Resolve_problem",
+                    "text": "출산을 2달 앞두고, 마사오는 히데코와 위자료 3백만 엔으로 조정이혼하였고, 이로써 이들 세 명의 생활이 새로이 시작되는 듯 보였다."
                 }
             ]
         }
-    ],
-    "frameID": 43,
-    "ko_pos": "NNG",
-    "ko_lu": "내용.n.Statement",
-    "lu_id": 5105,
-    "en_lus": [
-        "say"
     ]
 }

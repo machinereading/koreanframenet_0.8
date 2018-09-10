@@ -1,78 +1,120 @@
 {
-    "frameName": "Giving",
+    "ko_pos": "n",
+    "ko_lu": "기대.n.Posture",
+    "frameID": 18,
+    "frameName": "Posture",
+    "en_lus": [
+        "yorikakaru .寄りかかる"
+    ],
+    "lu_id": 3286,
     "patterns": [
         {
-            "valenceText": "annotation id: 11177",
+            "valenceText": "annotation id: 16299",
             "examples": [
                 {
-                    "frameName": "Giving",
+                    "origin_lus": [
+                        "yorikakaru .寄りかかる"
+                    ],
+                    "ko_annotation_id": 16299,
+                    "annotation_id": 0,
+                    "frameName": "Posture",
                     "denotations": [
                         {
-                            "obj": "donor",
+                            "id": 1,
+                            "obj": "Posture",
                             "span": {
-                                "begin": 36,
-                                "end": 38
+                                "begin": 25,
+                                "end": 30
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "기대면서."
                         },
                         {
-                            "obj": "recipient",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 40,
-                                "end": 42
+                                "begin": 0,
+                                "end": 5
                             },
-                            "id": "3"
+                            "text": "한 사람은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "theme",
+                            "id": 3,
+                            "obj": "Location",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 45,
-                                "end": 79
+                                "begin": 6,
+                                "end": 11
                             },
-                            "id": "4"
+                            "text": "아우디에,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 4,
+                            "obj": "Agent",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
-                                "begin": 81,
-                                "end": 82
+                                "begin": 12,
+                                "end": 20
                             },
-                            "id": "1"
+                            "text": "다른 한 사람은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 5,
+                            "obj": "Location",
+                            "token_span": [
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "나무에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "gives"
-                    ],
-                    "ko_annotation_id": 11177,
-                    "text": "그것이 내가 책을 쓰는 것을 환영한 이유라고 나는 생각한다 -- 그것은 사람에게 매일 언론 편집실 바닥에 남겨진 것 중 많은 것을 사용할 능력을 준다.",
-                    "sent_id": 463,
+                    "sent_id": 3936,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 5,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2433
+                    "lu": "기대.n.Posture",
+                    "text": "한 사람은 아우디에, 다른 한 사람은 나무에 기대면서."
                 }
             ]
         }
-    ],
-    "frameID": 139,
-    "ko_pos": "VA",
-    "ko_lu": "준하다.a.Giving",
-    "lu_id": 3286,
-    "en_lus": [
-        "give"
     ]
 }

@@ -1,44 +1,83 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "v",
+    "ko_lu": "확보하다.v.Protecting",
+    "frameID": 1631,
+    "frameName": "Protecting",
+    "en_lus": [
+        "Secure"
+    ],
+    "lu_id": 3958,
     "patterns": [
         {
-            "valenceText": "annotation id: 13508",
+            "valenceText": "annotation id: 15670",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
+                    "origin_lus": [
+                        "Secure"
+                    ],
+                    "ko_annotation_id": 15670,
+                    "annotation_id": 16606,
+                    "frameName": "Protecting",
                     "denotations": [
                         {
-                            "obj": "Figure",
-                            "span": {
-                                "begin": 17,
-                                "end": 20
-                            }
-                        },
-                        {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Protecting",
                             "span": {
                                 "begin": 21,
-                                "end": 22
-                            }
+                                "end": 26
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "확보하도록"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Protection",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 11
+                            },
+                            "text": "우즈베키스탄이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Asset",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 20
+                            },
+                            "text": "위험 핵 물질을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "iri .入り "
+                    "sent_id": 3176,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13508,
-                    "text": "과제는, 기존의 상품진열에서, 단품별 입(발주 보충수.) ・출(판매수.) ・잔(재고수.)을 파악해, 적절하게 진열 위치를 바꾸고, 팔릴 때 팔릴만한 재고를 유지할 수 있는가이다.",
-                    "sent_id": 4550,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "확보하다.v.Protecting",
+                    "text": "미국은 우즈베키스탄이 위험 핵 물질을 확보하도록 도운다 : 에너지 단체는 러시아로의 비밀의 우라늄 이전의 완료를 선언한다"
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "NNG",
-    "ko_lu": "입.n.Locative_relation",
-    "lu_id": 3958,
-    "en_lus": [
-        "iri .入り "
     ]
 }

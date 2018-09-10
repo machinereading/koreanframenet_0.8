@@ -1,52 +1,82 @@
 {
-    "frameName": "Possession",
+    "ko_pos": "n",
+    "ko_lu": "역할.n.Being_obligated",
+    "frameID": 392,
+    "frameName": "Being_obligated",
+    "en_lus": [
+        "sigoto .仕事 "
+    ],
+    "lu_id": 3250,
     "patterns": [
         {
-            "valenceText": "annotation id: 11048",
+            "valenceText": "annotation id: 16795",
             "examples": [
                 {
-                    "frameName": "Possession",
+                    "origin_lus": [
+                        "sigoto .仕事 "
+                    ],
+                    "ko_annotation_id": 16795,
+                    "annotation_id": 0,
+                    "frameName": "Being_obligated",
                     "denotations": [
                         {
-                            "obj": "possession",
+                            "id": 1,
+                            "obj": "Being_obligated",
                             "span": {
-                                "begin": 0,
-                                "end": 25
+                                "begin": 32,
+                                "end": 35
                             },
-                            "id": "2"
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "역할을"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Responsible_Party",
+                            "token_span": [
+                                5,
+                                6
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 25
+                                "begin": 23,
+                                "end": 31
                             },
-                            "id": "1"
+                            "text": "작가 에이전트의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Duty",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 32,
+                                "end": 35
+                            },
+                            "text": "역할을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Having"
-                    ],
-                    "ko_annotation_id": 11048,
-                    "text": "그들에게 던질 몇 가지 말들을 준비해 놓는 것은 폭소와 감탄하며 등을 치는 행동을 유발한다.",
-                    "sent_id": 925,
+                    "sent_id": 4998,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4776
+                    "lu": "역할.n.Being_obligated",
+                    "text": "작품의 중개와 잡무를 떠맡는 것만으로는, 작가 에이전트의 역할을 반도 완수하지 못한 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 118,
-    "ko_pos": "NNB",
-    "ko_lu": "것.n.Possession",
-    "lu_id": 3250,
-    "en_lus": [
-        "Having"
     ]
 }

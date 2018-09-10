@@ -1,52 +1,90 @@
 {
-    "frameName": "Quantity",
+    "ko_pos": "v",
+    "ko_lu": "심기일전하다.v.Telling",
+    "frameID": 750,
+    "frameName": "Telling",
+    "en_lus": [
+        "tell"
+    ],
+    "lu_id": 2366,
     "patterns": [
         {
-            "valenceText": "annotation id: 7639",
+            "valenceText": "annotation id: 12721",
             "examples": [
                 {
-                    "frameName": "Quantity",
+                    "origin_lus": [
+                        "telling"
+                    ],
+                    "ko_annotation_id": 12721,
+                    "annotation_id": 1808,
+                    "frameName": "Telling",
                     "denotations": [
                         {
-                            "obj": "individuals",
+                            "id": 1,
+                            "obj": "Telling",
                             "span": {
                                 "begin": 48,
-                                "end": 63
+                                "end": 51
                             },
-                            "id": "2"
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "전하는"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Topic",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
                             "span": {
-                                "begin": 66,
-                                "end": 67
+                                "begin": 11,
+                                "end": 47
                             },
-                            "id": "1"
+                            "text": "Goodwill의 도움으로 일자리를 얻은 사람들의 성공 이야기들을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Speaker",
+                            "token_span": [
+                                12,
+                                13,
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 52,
+                                "end": 65
+                            },
+                            "text": "한 통의 편지를 나로부터",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "number"
-                    ],
-                    "ko_annotation_id": 7639,
-                    "text": "2003년 10월과 12월, 리비아 관리들은 생물 무기 연구에 사용될 가능성이 있었던 의료 및 농업 연구 센터 중 한 곳에 미국과 영국 전문가들을 데려갔다.",
-                    "sent_id": 2713,
+                    "sent_id": 332,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 13634
+                    "lu": "심기일전하다.v.Telling",
+                    "text": "몇 달 전에 당신은 Goodwill의 도움으로 일자리를 얻은 사람들의 성공 이야기들을 전하는 한 통의 편지를 나로부터 받았다."
                 }
             ]
         }
-    ],
-    "frameID": 2604,
-    "ko_pos": "NNG",
-    "ko_lu": "곳.n.Quantity",
-    "lu_id": 2366,
-    "en_lus": [
-        "number"
     ]
 }

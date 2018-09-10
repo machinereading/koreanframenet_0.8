@@ -1,78 +1,386 @@
 {
-    "frameName": "Cause_change",
+    "ko_pos": "v",
+    "ko_lu": "넘어지다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "korobu .転ぶ "
+    ],
+    "lu_id": 3540,
     "patterns": [
         {
-            "valenceText": "annotation id: 12054",
+            "valenceText": "annotation id: 10506",
             "examples": [
                 {
-                    "frameName": "Cause_change",
+                    "origin_lus": [
+                        "korobu .転ぶ "
+                    ],
+                    "ko_annotation_id": 10506,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
                     "denotations": [
                         {
-                            "obj": "entity",
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 25,
+                                "end": 30
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "넘어졌다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 9
+                                "end": 4
                             },
-                            "id": "2"
+                            "text": "아버지는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "reason",
+                            "id": 3,
+                            "obj": "Explanation",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 18
+                            },
+                            "text": "샌들을 신고 미끄러지며,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
                                 "begin": 19,
-                                "end": 43
+                                "end": 24
                             },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "final_category",
-                            "span": {
-                                "begin": 45,
-                                "end": 53
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 55,
-                                "end": 56
-                            },
-                            "id": "1"
+                            "text": "야단스럽게",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "made"
-                    ],
-                    "ko_annotation_id": 12054,
-                    "text": "Tommie J.와 같은 아이들은 알코올 중독자인 아버지의 반복적인 구타 때문에 법원의 피보호자가 되었고 ; Alice는 심한 행동 장애 때문에 도움을 받기 위해 공동 가정에 보내졌고 ; 그리고 회복중인 알코올 중독자인 John H. 는 다시 함께 살 수 있도록 그의 가족과의 관계를 구축 중이다.",
-                    "sent_id": 444,
+                    "sent_id": 3798,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 2335
+                    "lu": "넘어지다.v.Motion",
+                    "text": "아버지는 샌들을 신고 미끄러지며, 야단스럽게 넘어졌다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11479",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "korobu .転ぶ "
+                    ],
+                    "ko_annotation_id": 11479,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "넘어졌다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "text": "그 바람에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Explanation",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 6,
+                                "end": 17
+                            },
+                            "text": "무언가에 발이 걸려,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 20
+                            },
+                            "text": "털썩",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4423,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "넘어지다.v.Motion",
+                    "text": "그 바람에 무언가에 발이 걸려, 털썩 넘어졌다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11563",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "korobu .転ぶ "
+                    ],
+                    "ko_annotation_id": 11563,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 26,
+                                "end": 32
+                            },
+                            "token_span": [
+                                7
+                            ],
+                            "role": "TARGET",
+                            "text": "넘어졌지만,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Depictive",
+                            "token_span": [
+                                0,
+                                1
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 8
+                            },
+                            "text": "그렇게 외치며,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Explanation",
+                            "token_span": [
+                                2,
+                                3,
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 9,
+                                "end": 25
+                            },
+                            "text": "파도에 몇 번이고 발목이 잡혀",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4478,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "넘어지다.v.Motion",
+                    "text": "그렇게 외치며, 파도에 몇 번이고 발목이 잡혀 넘어졌지만, 그래도 굴하지 않고 깊은 바다를 향해 나아간다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 12394",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "korobu .転ぶ "
+                    ],
+                    "ko_annotation_id": 12394,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 24,
+                                "end": 29
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "넘어졌다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 7,
+                                "end": 11
+                            },
+                            "text": "유키코는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Area",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 12,
+                                "end": 15
+                            },
+                            "text": "로비로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 5014,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "넘어지다.v.Motion",
+                    "text": "문을 열고, 유키코는 로비로 뛰어나가더니, 넘어졌다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 17346",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "korobu .転ぶ "
+                    ],
+                    "ko_annotation_id": 17346,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 11,
+                                "end": 18
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "넘어졌습니다」"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Explanation",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 10
+                            },
+                            "text": "돌에 걸려",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3831,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "넘어지다.v.Motion",
+                    "text": "「아니, 돌에 걸려 넘어졌습니다」"
                 }
             ]
         }
-    ],
-    "frameID": 683,
-    "ko_pos": "VA",
-    "ko_lu": "되다.a.Cause_change",
-    "lu_id": 3540,
-    "en_lus": [
-        "make"
     ]
 }

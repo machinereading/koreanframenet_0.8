@@ -1,51 +1,169 @@
 {
-    "frameName": "Simple_naming",
+    "ko_pos": "v",
+    "ko_lu": "날다.v.Motion",
+    "frameID": 7,
+    "frameName": "Motion",
+    "en_lus": [
+        "tobu .飛ぶ "
+    ],
+    "lu_id": 4634,
     "patterns": [
         {
-            "valenceText": "annotation id: 16077",
+            "valenceText": "annotation id: 16448",
             "examples": [
                 {
-                    "frameName": "Simple_naming",
+                    "origin_lus": [
+                        "tobu .飛ぶ "
+                    ],
+                    "ko_annotation_id": 16448,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
                     "denotations": [
                         {
-                            "obj": "Term",
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 9,
+                                "end": 11
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "날고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Area",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 5
-                            }
+                                "end": 3
+                            },
+                            "text": "상공을",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Entity",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 23
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 25,
-                                "end": 31
-                            }
+                                "begin": 4,
+                                "end": 8
+                            },
+                            "text": "비행기가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "iu .いう "
+                    "sent_id": 4289,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 16077,
-                    "text": "짓켄다나는 니혼바시 혼고쿠 쵸・혼 쵸 사이의 큰길을 말하는데, 정식 마을 이름은 아닙니다.",
-                    "sent_id": 5007,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "날다.v.Motion",
+                    "text": "상공을 비행기가 날고 있었다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16781",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "tobu .飛ぶ "
+                    ],
+                    "ko_annotation_id": 16781,
+                    "annotation_id": 0,
+                    "frameName": "Motion",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Motion",
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "날았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Theme",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "히사코가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 15
+                            },
+                            "text": "스커트를 뒤집어서,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Area",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 19
+                            },
+                            "text": "하늘을",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4951,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "날다.v.Motion",
+                    "text": "히사코가 스커트를 뒤집어서, 하늘을 날았다."
                 }
             ]
         }
-    ],
-    "frameID": 1261,
-    "ko_pos": "VV",
-    "ko_lu": "말하다.v.Simple_naming",
-    "lu_id": 4634,
-    "en_lus": [
-        "iu .いう "
     ]
 }

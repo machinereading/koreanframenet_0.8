@@ -1,52 +1,82 @@
 {
-    "frameName": "Certainty",
+    "ko_pos": "n",
+    "ko_lu": "별원.n.Buildings",
+    "frameID": 173,
+    "frameName": "Buildings",
+    "en_lus": [
+        "betuin .別院 "
+    ],
+    "lu_id": 4782,
     "patterns": [
         {
-            "valenceText": "annotation id: 16772",
+            "valenceText": "annotation id: 10144",
             "examples": [
                 {
-                    "frameName": "Certainty",
+                    "origin_lus": [
+                        "betuin .別院 "
+                    ],
+                    "ko_annotation_id": 10144,
+                    "annotation_id": 0,
+                    "frameName": "Buildings",
                     "denotations": [
                         {
-                            "obj": "cognizer",
+                            "id": 1,
+                            "obj": "Buildings",
                             "span": {
-                                "begin": 55,
-                                "end": 58
+                                "begin": 21,
+                                "end": 27
                             },
-                            "id": "2"
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "별원으로서,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time_Of_Creation",
+                            "token_span": [
+                                1,
+                                2
+                            ],
                             "span": {
-                                "begin": 59,
-                                "end": 61
+                                "begin": 4,
+                                "end": 18
                             },
-                            "id": "1"
+                            "text": "1667년(간분 7년.),",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Building",
+                            "token_span": [
+                                4
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 27
+                            },
+                            "text": "별원으로서,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "confidence"
-                    ],
-                    "ko_annotation_id": 16772,
-                    "text": "1962년에 독립 이후, 흑인 다수민족은 자신과 자신의 뿌리에 대한 자신감의 원리에 공을 들이면서 내적인 신뢰에 기초한 나라를 만들기 위해 일해왔다.",
-                    "sent_id": 897,
+                    "sent_id": 3577,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4668
+                    "lu": "별원.n.Buildings",
+                    "text": "그리고 1667년(간분 7년.), 그 별원으로서, 고즈캇파라 형장에 세워진 것이, 이 회향원이라지."
                 }
             ]
         }
-    ],
-    "frameID": 141,
-    "ko_pos": "NNG",
-    "ko_lu": "신뢰.n.Certainty",
-    "lu_id": 4782,
-    "en_lus": [
-        "confidence"
     ]
 }

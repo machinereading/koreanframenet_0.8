@@ -1,51 +1,82 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "n",
+    "ko_lu": "인쇄.n.Text_creation",
+    "frameID": 278,
+    "frameName": "Text_creation",
+    "en_lus": [
+        "print"
+    ],
+    "lu_id": 4877,
     "patterns": [
         {
-            "valenceText": "annotation id: 17052",
+            "valenceText": "annotation id: 17016",
             "examples": [
                 {
-                    "frameName": "Buildings",
+                    "origin_lus": [
+                        "print"
+                    ],
+                    "ko_annotation_id": 17016,
+                    "annotation_id": 8289,
+                    "frameName": "Text_creation",
                     "denotations": [
                         {
-                            "obj": "Time_of_creation",
+                            "id": 1,
+                            "obj": "Text_creation",
                             "span": {
-                                "begin": 4,
-                                "end": 17
-                            }
+                                "begin": 11,
+                                "end": 16
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "인쇄하세요"
                         },
                         {
-                            "obj": "Building",
+                            "id": 2,
+                            "obj": "Form",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 23
-                            }
+                                "begin": 0,
+                                "end": 6
+                            },
+                            "text": "얇은 종이에",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Text",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 21,
-                                "end": 23
-                            }
+                                "begin": 7,
+                                "end": 10
+                            },
+                            "text": "그것을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "betuin .別院 "
+                    "sent_id": 1700,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 17052,
-                    "text": "그리고 1667년(간분 7년.), 그 별원으로서, 고즈캇파라 형장에 세워진 것이, 이 회향원이라지.",
-                    "sent_id": 3577,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "인쇄.n.Text_creation",
+                    "text": "얇은 종이에 그것을 인쇄하세요 ; 신이 당신에게 보답하기 바래요."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NNG",
-    "ko_lu": "별원.n.Buildings",
-    "lu_id": 4877,
-    "en_lus": [
-        "betuin .別院 "
     ]
 }

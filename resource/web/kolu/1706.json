@@ -1,38 +1,63 @@
 {
-    "frameName": "People_by_jurisdiction",
+    "ko_pos": "n",
+    "ko_lu": "주장.n.Reasoning",
+    "frameID": 308,
+    "frameName": "Reasoning",
+    "en_lus": [
+        "argument"
+    ],
+    "lu_id": 1706,
     "patterns": [
         {
-            "valenceText": "annotation id: 5334",
+            "valenceText": "annotation id: 5958",
             "examples": [
                 {
-                    "frameName": "People_by_jurisdiction",
+                    "origin_lus": [
+                        "argument"
+                    ],
+                    "ko_annotation_id": 5958,
+                    "annotation_id": 10745,
+                    "frameName": "Reasoning",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Reasoning",
                             "span": {
-                                "begin": 15,
-                                "end": 18
+                                "begin": 9,
+                                "end": 12
                             },
-                            "id": "1"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "주장을"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Arguer",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "자신의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "citizens"
+                    "sent_id": 2153,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5334,
-                    "text": "그리고 나는 또한 많은 일반시민들과 공중 위생계에 종사하는  많은 사람들에 주목할만하다고 생각한다.",
-                    "sent_id": 1760,
-                    "relations": [],
-                    "annotation_id": 8551
+                    "lu": "주장.n.Reasoning",
+                    "text": "그러나, 자신의 주장을 위반한 Schiefer는 또한 이란인들은 공제적인 이용의 경우 보호하는 가스 마스크를 개발하는 것과 같은 방어 목적을 위한 균을 확보하려는 것 같다고 추측하였다."
                 }
             ]
         }
-    ],
-    "frameID": 1023,
-    "ko_pos": "NN",
-    "ko_lu": "시민.n.People_by_jurisdiction",
-    "lu_id": 1706,
-    "en_lus": [
-        "citizen"
     ]
 }

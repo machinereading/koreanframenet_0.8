@@ -1,51 +1,209 @@
 {
-    "frameName": "Locale",
+    "ko_pos": "n",
+    "ko_lu": "연회.n.Social_event",
+    "frameID": 125,
+    "frameName": "Social_event",
+    "en_lus": [
+        "enkai .宴会 "
+    ],
+    "lu_id": 5199,
     "patterns": [
         {
-            "valenceText": "annotation id: 18330",
+            "valenceText": "annotation id: 10287",
             "examples": [
                 {
-                    "frameName": "Locale",
+                    "origin_lus": [
+                        "enkai .宴会 "
+                    ],
+                    "ko_annotation_id": 10287,
+                    "annotation_id": 0,
+                    "frameName": "Social_event",
                     "denotations": [
                         {
-                            "obj": "Name",
+                            "id": 1,
+                            "obj": "Social_event",
                             "span": {
-                                "begin": 36,
-                                "end": 38
-                            }
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "연회가"
                         },
                         {
-                            "obj": "Locale",
+                            "id": 2,
+                            "obj": "Social_Event",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 38,
-                                "end": 40
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 38,
-                                "end": 40
-                            }
+                                "begin": 44,
+                                "end": 47
+                            },
+                            "text": "연회가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "tihoo .地方 "
+                    "sent_id": 3649,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 18330,
-                    "text": "그리고 그 고산은 적어도 최근까지, 동경 등의 옥상에 해당하는, 노비지방의 방언이었던 것이다.",
-                    "sent_id": 4645,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "연회.n.Social_event",
+                    "text": "연회는 육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의 연회가 중심을 이뤘다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10288",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "enkai .宴会 "
+                    ],
+                    "ko_annotation_id": 10288,
+                    "annotation_id": 0,
+                    "frameName": "Social_event",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Social_event",
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "연회는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Social_Event",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "연회는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Attendee",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 43
+                            },
+                            "text": "육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 3649,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연회.n.Social_event",
+                    "text": "연회는 육군성과 해군성, 궁내성, 외무성, 대장성을 비롯한 각성 등, 관공서의 연회가 중심을 이뤘다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10797",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "enkai .宴会 "
+                    ],
+                    "ko_annotation_id": 10797,
+                    "annotation_id": 0,
+                    "frameName": "Social_event",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Social_event",
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "token_span": [
+                                1
+                            ],
+                            "role": "TARGET",
+                            "text": "연회도"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Attendee",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "일반적인",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Social_Event",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 8
+                            },
+                            "text": "연회도",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4004,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "연회.n.Social_event",
+                    "text": "일반적인 연회도 줄었다."
                 }
             ]
         }
-    ],
-    "frameID": 192,
-    "ko_pos": "NNG",
-    "ko_lu": "지방.n.Locale",
-    "lu_id": 5199,
-    "en_lus": [
-        "tihoo .地方 "
     ]
 }

@@ -1,52 +1,108 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "n",
+    "ko_lu": "플라스틱.n.Weapon",
+    "frameID": 426,
+    "frameName": "Weapon",
+    "en_lus": [
+        "plastic explosive"
+    ],
+    "lu_id": 4939,
     "patterns": [
         {
-            "valenceText": "annotation id: 17409",
+            "valenceText": "annotation id: 9390",
             "examples": [
                 {
-                    "frameName": "Buildings",
+                    "origin_lus": [
+                        "plastic explosive"
+                    ],
+                    "ko_annotation_id": 9390,
+                    "annotation_id": 17544,
+                    "frameName": "Weapon",
                     "denotations": [
                         {
-                            "obj": "function",
+                            "id": 1,
+                            "obj": "Weapon",
                             "span": {
-                                "begin": 34,
-                                "end": 36
+                                "begin": 62,
+                                "end": 70
                             },
-                            "id": "2"
+                            "token_span": [
+                                16,
+                                17
+                            ],
+                            "role": "TARGET",
+                            "text": "플라스틱 폭발물"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Use",
+                            "token_span": [
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 65,
-                                "end": 66
+                                "begin": 30,
+                                "end": 53
                             },
-                            "id": "1"
+                            "text": "다른 모양으로 절단되거나 만들어질 수 있는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Type",
+                            "token_span": [
+                                14,
+                                15
+                            ],
+                            "span": {
+                                "begin": 54,
+                                "end": 61
+                            },
+                            "text": "강력한 군사형",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Name",
+                            "token_span": [
+                                18,
+                                19,
+                                20
+                            ],
+                            "span": {
+                                "begin": 71,
+                                "end": 80
+                            },
+                            "text": "C-4 라는 것을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "halls"
-                    ],
-                    "ko_annotation_id": 17409,
-                    "text": "Wan Chai 해안가는 아시아에서 가장 큰 홍콩 컨벤션 및 전시 센터가 압도하며, 이곳은 호텔, 극장, 그리고 전시홀을 포함한다.",
-                    "sent_id": 1116,
+                    "sent_id": 3292,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5840
+                    "lu": "플라스틱.n.Weapon",
+                    "text": "그리고 전 연방 폭탄 조사자에 의하면, 그러한 설명은 다른 모양으로 절단되거나 만들어질 수 있는 강력한 군사형 플라스틱 폭발물 C-4 라는 것을 시사한다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NNG",
-    "ko_lu": "홀.n.Buildings",
-    "lu_id": 4939,
-    "en_lus": [
-        "hall"
     ]
 }

@@ -1,38 +1,81 @@
 {
-    "frameName": "Giving",
+    "ko_pos": "v",
+    "ko_lu": "재개되다.v.Activity_resume",
+    "frameID": 1156,
+    "frameName": "Activity_resume",
+    "en_lus": [
+        "resume"
+    ],
+    "lu_id": 4909,
     "patterns": [
         {
-            "valenceText": "annotation id: 17241",
+            "valenceText": "annotation id: 15918",
             "examples": [
                 {
-                    "frameName": "Giving",
+                    "origin_lus": [
+                        "resumed"
+                    ],
+                    "ko_annotation_id": 15918,
+                    "annotation_id": 17893,
+                    "frameName": "Activity_resume",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Activity_resume",
                             "span": {
-                                "begin": 25,
-                                "end": 27
+                                "begin": 53,
+                                "end": 59
                             },
-                            "id": "1"
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "재개되었다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                10
+                            ],
+                            "span": {
+                                "begin": 46,
+                                "end": 49
+                            },
+                            "text": "이것은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                11
+                            ],
+                            "span": {
+                                "begin": 50,
+                                "end": 52
+                            },
+                            "text": "후에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "gift"
+                    "sent_id": 3375,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 17241,
-                    "text": "박물관은 특별 전시회를 개최하고 있고 훌륭한 선물 가게가 있다.",
-                    "sent_id": 1167,
-                    "relations": [],
-                    "annotation_id": 6110
+                    "lu": "재개되다.v.Activity_resume",
+                    "text": "아야톨라 호메이니가 1979년 집권 후 그는 이란의 핵개발 프로그램을 취소했지만, 이것은 후에 재개되었다."
                 }
             ]
         }
-    ],
-    "frameID": 139,
-    "ko_pos": "NNG",
-    "ko_lu": "선물.n.Giving",
-    "lu_id": 4909,
-    "en_lus": [
-        "gift"
     ]
 }

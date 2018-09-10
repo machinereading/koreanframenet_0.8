@@ -1,44 +1,83 @@
 {
-    "frameName": "Intentionally_act",
+    "ko_pos": "v",
+    "ko_lu": "거두다.v.Cause_to_end",
+    "frameID": 1149,
+    "frameName": "Cause_to_end",
+    "en_lus": [
+        "kesu .消す"
+    ],
+    "lu_id": 3479,
     "patterns": [
         {
-            "valenceText": "annotation id: 11875",
+            "valenceText": "annotation id: 10645",
             "examples": [
                 {
-                    "frameName": "Intentionally_act",
+                    "origin_lus": [
+                        "kesu .消す"
+                    ],
+                    "ko_annotation_id": 10645,
+                    "annotation_id": 0,
+                    "frameName": "Cause_to_end",
                     "denotations": [
                         {
-                            "obj": "Agent",
+                            "id": 1,
+                            "obj": "Cause_to_end",
                             "span": {
-                                "begin": 0,
-                                "end": 2
-                            }
+                                "begin": 50,
+                                "end": 52
+                            },
+                            "token_span": [
+                                13
+                            ],
+                            "role": "TARGET",
+                            "text": "거둘"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 27
-                            }
+                                "begin": 32,
+                                "end": 34
+                            },
+                            "text": "그는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "State",
+                            "token_span": [
+                                10,
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 49
+                            },
+                            "text": "그 선명한 눈빛을",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "kyatti .キャッチ "
+                    "sent_id": 3907,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 11875,
-                    "text": "박쥐는 거의 눈이 보이지 않으나, 초음파를 감지하는 레이더가 있어, 4백 미터 정도 떨어진 곳에서도 모깃소리를 들을 수 있습니다.",
-                    "sent_id": 4928,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "거두다.v.Cause_to_end",
+                    "text": "긴 속눈썹 너머로 예리한 눈이 반짝이고 있었으나, 하지만 그는 때때로, 그 선명한 눈빛을 거둘 줄도 알았다."
                 }
             ]
         }
-    ],
-    "frameID": 198,
-    "ko_pos": "VV",
-    "ko_lu": "감지하다.v.Intentionally_act",
-    "lu_id": 3479,
-    "en_lus": [
-        "kyatti .キャッチ "
     ]
 }

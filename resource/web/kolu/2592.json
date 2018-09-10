@@ -1,92 +1,99 @@
 {
-    "frameName": "Process_end",
+    "ko_pos": "v",
+    "ko_lu": "넣다.v.Cause_motion",
+    "frameID": 55,
+    "frameName": "Cause_motion",
+    "en_lus": [
+        "scoot"
+    ],
+    "lu_id": 2592,
     "patterns": [
         {
-            "valenceText": "annotation id: 8520",
+            "valenceText": "annotation id: 424",
             "examples": [
                 {
-                    "frameName": "Process_end",
+                    "origin_lus": [
+                        "scooted"
+                    ],
+                    "ko_annotation_id": 424,
+                    "annotation_id": 901,
+                    "frameName": "Cause_motion",
                     "denotations": [
                         {
-                            "obj": "process",
+                            "id": 1,
+                            "obj": "Cause_motion",
                             "span": {
-                                "begin": 0,
-                                "end": 8
+                                "begin": 59,
+                                "end": 61
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "넣고"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                10
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 11
+                                "begin": 44,
+                                "end": 46
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "end"
-                    ],
-                    "ko_annotation_id": 8520,
-                    "text": "War Room의 끝 가까이에서, Stephanopoulos는 클린턴의 연인들의 목록을 가지고 있고, 지금 막 공개하려고 한다고 분명히 주장하는 누군가로부터 전화를 받는다.",
-                    "sent_id": 1023,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 5362
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 8521",
-            "examples": [
-                {
-                    "frameName": "Process_end",
-                    "denotations": [
-                        {
-                            "obj": "process",
-                            "span": {
-                                "begin": 0,
-                                "end": 5
-                            },
-                            "id": "2"
+                            "text": "나는",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                12
+                            ],
                             "span": {
-                                "begin": 7,
-                                "end": 8
+                                "begin": 51,
+                                "end": 54
                             },
-                            "id": "1"
+                            "text": "개들을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 55,
+                                "end": 58
+                            },
+                            "text": "개집에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "end"
-                    ],
-                    "ko_annotation_id": 8521,
-                    "text": "다윗 왕조의 끝은 바빌론의 왕 Nebuchadnezzar가 예루살렘을 포위하기 위해 유다를 침공했을 때인 기원전 587년에 도래하였다.",
-                    "sent_id": 642,
+                    "sent_id": 158,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3468
+                    "lu": "넣다.v.Cause_motion",
+                    "text": "찬장 문이 날아가고, 부엌의 쓰레기통이 몇 피트 움직였고, 개들이 달려왔으며, 나는 서둘러 개들을 개집에 넣고 나 자신이 출입구에 서서,밖의 쓰레기통들이 콘크리트를 가로질러 춤추는 것을 보았다."
                 }
             ]
         }
-    ],
-    "frameID": 232,
-    "ko_pos": "NNG",
-    "ko_lu": "끝.n.Process_end",
-    "lu_id": 2592,
-    "en_lus": [
-        "end"
     ]
 }

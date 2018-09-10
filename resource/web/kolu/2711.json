@@ -1,52 +1,86 @@
 {
-    "frameName": "Process_end",
+    "ko_pos": "v",
+    "ko_lu": "뛰어넘다.v.Locative_relation",
+    "frameID": 199,
+    "frameName": "Locative_relation",
+    "en_lus": [
+        "koeru .越える "
+    ],
+    "lu_id": 2711,
     "patterns": [
         {
-            "valenceText": "annotation id: 8848",
+            "valenceText": "annotation id: 10200",
             "examples": [
                 {
-                    "frameName": "Process_end",
+                    "origin_lus": [
+                        "koeru .越える "
+                    ],
+                    "ko_annotation_id": 10200,
+                    "annotation_id": 0,
+                    "frameName": "Locative_relation",
                     "denotations": [
                         {
-                            "obj": "process",
+                            "id": 1,
+                            "obj": "Locative_relation",
                             "span": {
-                                "begin": 7,
-                                "end": 9
+                                "begin": 106,
+                                "end": 110
                             },
-                            "id": "2"
+                            "token_span": [
+                                23
+                            ],
+                            "role": "TARGET",
+                            "text": "뛰어넘어"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Figure",
+                            "token_span": [
+                                16,
+                                17,
+                                18,
+                                19,
+                                20
+                            ],
                             "span": {
-                                "begin": 11,
-                                "end": 14
+                                "begin": 73,
+                                "end": 97
                             },
-                            "id": "1"
+                            "text": "고객, 제조회사, 서플라이어, 유통기업 등이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Ground",
+                            "token_span": [
+                                21,
+                                22
+                            ],
+                            "span": {
+                                "begin": 98,
+                                "end": 105
+                            },
+                            "text": "단계의 차이를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "pass"
-                    ],
-                    "ko_annotation_id": 8848,
-                    "text": "그것은 보통 지진이 통과하는데 얼마나 오래 걸리는가 이다.",
-                    "sent_id": 110,
+                    "sent_id": 3611,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 696
+                    "lu": "뛰어넘다.v.Locative_relation",
+                    "text": "자연계를 보면, 숲과 바다, 강, 대지, 어디를 가든 크고 작은 각양각색의 동식물이 공존관계를 이루며 존재하듯이, 인터넷상에서도, 고객, 제조회사, 서플라이어, 유통기업 등이 단계의 차이를 뛰어넘어 하나의 구성원으로서 공존하고, 진화해간다."
                 }
             ]
         }
-    ],
-    "frameID": 232,
-    "ko_pos": "VV",
-    "ko_lu": "통과하다.v.Process_end",
-    "lu_id": 2711,
-    "en_lus": [
-        "pas"
     ]
 }

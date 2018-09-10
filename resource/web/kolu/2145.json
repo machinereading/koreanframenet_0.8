@@ -1,88 +1,63 @@
 {
-    "frameName": "Age",
+    "ko_pos": "n",
+    "ko_lu": "나라.n.Foreign_or_domestic_country",
+    "frameID": 1483,
+    "frameName": "Foreign_or_domestic_country",
+    "en_lus": [
+        "kokunai .国内"
+    ],
+    "lu_id": 2145,
     "patterns": [
         {
-            "valenceText": "annotation id: 6903",
+            "valenceText": "annotation id: 16242",
             "examples": [
                 {
-                    "frameName": "Age",
-                    "denotations": [
-                        {
-                            "obj": "Entity",
-                            "span": {
-                                "begin": 6,
-                                "end": 19
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 24,
-                                "end": 27
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "namanamasii .生々しい "
+                        "kokunai .国内"
                     ],
-                    "ko_annotation_id": 6903,
-                    "text": "키다 씨의 7바늘이나 꿰메어진 상처는 아직 선명했다.",
-                    "sent_id": 3694,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.94400",
-            "examples": [
-                {
-                    "frameName": "Age",
+                    "ko_annotation_id": 16242,
+                    "annotation_id": 0,
+                    "frameName": "Foreign_or_domestic_country",
                     "denotations": [
                         {
-                            "id": "1",
-                            "span": {
-                                "begin": 18,
-                                "end": 22
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "이번 화보는 구성도 좋고 색깔도 선명하게 잘 나왔다.",
-                    "target": "선명하게",
-                    "ko_annotation_id": "sejong.94400",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.94401",
-            "examples": [
-                {
-                    "frameName": "Age",
-                    "denotations": [
-                        {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Foreign_or_domestic_country",
                             "span": {
                                 "begin": 16,
-                                "end": 20
+                                "end": 21
                             },
-                            "obj": "target"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "나라에서는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Discourse_Salient_Country",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "text": "일본이라는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "그의 옷에는 아직도 핏자국이 선명하게 남아 있었다.",
-                    "target": "선명하게",
-                    "ko_annotation_id": "sejong.94401",
-                    "relations": []
+                    "sent_id": 3845,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "나라.n.Foreign_or_domestic_country",
+                    "text": "그런 사고방식도, 일본이라는 나라에서는 가능한 것입니다."
                 }
             ]
         }
-    ],
-    "frameID": 972,
-    "ko_pos": "VA",
-    "ko_lu": "선명하다.a.Age",
-    "lu_id": 2145,
-    "en_lus": [
-        "namanamasii .生々しい "
     ]
 }

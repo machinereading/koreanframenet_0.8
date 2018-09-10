@@ -1,87 +1,63 @@
 {
-    "frameName": "Emotion_directed",
+    "ko_pos": "a",
+    "ko_lu": "모호하다.a.Suspicion",
+    "frameID": 503,
+    "frameName": "Suspicion",
+    "en_lus": [
+        "dubious"
+    ],
+    "lu_id": 2470,
     "patterns": [
         {
-            "valenceText": "annotation id: 8158",
+            "valenceText": "annotation id: 651",
             "examples": [
                 {
-                    "frameName": "Emotion_directed",
+                    "origin_lus": [
+                        "dubious"
+                    ],
+                    "ko_annotation_id": 651,
+                    "annotation_id": 1360,
+                    "frameName": "Suspicion",
                     "denotations": [
                         {
-                            "obj": "experiencer",
+                            "id": 1,
+                            "obj": "Suspicion",
                             "span": {
-                                "begin": 20,
-                                "end": 22
+                                "begin": 15,
+                                "end": 18
                             },
-                            "id": "3"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "모호한"
                         },
                         {
-                            "obj": "degree",
+                            "id": 2,
+                            "obj": "Behavior",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 27,
-                                "end": 30
+                                "begin": 33,
+                                "end": 37
                             },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 31,
-                                "end": 38
-                            },
-                            "id": "1"
+                            "text": "이론들에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "distressed"
-                    ],
-                    "ko_annotation_id": 8158,
-                    "text": "쥐는 때때로 미친듯이 뛰어 다니고, 그것은 분명 상당한 정신적 고통이었다.",
-                    "sent_id": 146,
+                    "sent_id": 251,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 834
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.8342",
-            "examples": [
-                {
-                    "frameName": "Emotion_directed",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 18,
-                                "end": 20
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "text": "그는 음악을 만들면서 뼈를 깎는 고통을 느꼈다.그녀는 밤마다 불면의 고통에 시달렸다.",
-                    "target": "고통",
-                    "ko_annotation_id": "sejong.8342",
-                    "relations": []
+                    "lu": "모호하다.a.Suspicion",
+                    "text": "그들은 교육적인 경험보다는 모호한 심리학적 그리고 사회학적 이론들에 바탕을 두고 있다."
                 }
             ]
         }
-    ],
-    "frameID": 46,
-    "ko_pos": "NN",
-    "ko_lu": "고통.n.Emotion_directed",
-    "lu_id": 2470,
-    "en_lus": [
-        "distressed"
     ]
 }

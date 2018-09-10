@@ -1,74 +1,445 @@
 {
-    "frameName": "Hostile_encounter",
+    "ko_pos": "v",
+    "ko_lu": "노려보다.v.Perception_active",
+    "frameID": 66,
+    "frameName": "Perception_active",
+    "en_lus": [
+        "niramu .にらむ ",
+        "mitumeru .見つめる"
+    ],
+    "lu_id": 4021,
     "patterns": [
         {
-            "valenceText": "annotation id: 13670",
+            "valenceText": "annotation id: 10265",
             "examples": [
                 {
-                    "frameName": "Hostile_encounter",
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "niramu .にらむ "
+                    ],
+                    "ko_annotation_id": 10265,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
                     "denotations": [
                         {
-                            "obj": "issue",
+                            "id": 1,
+                            "obj": "Perception_active",
                             "span": {
-                                "begin": 38,
-                                "end": 47
+                                "begin": 56,
+                                "end": 62
                             },
-                            "id": "2"
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "노려보았다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 48,
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "기리노는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Location_Of_Perceiver",
+                            "token_span": [
+                                11,
+                                12
+                            ],
+                            "span": {
+                                "begin": 45,
                                 "end": 50
                             },
-                            "id": "1"
+                            "text": "잔 너머로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                13
+                            ],
+                            "span": {
+                                "begin": 51,
+                                "end": 55
+                            },
+                            "text": "강줄기를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "dust-up"
-                    ],
-                    "ko_annotation_id": 13670,
-                    "text": "Somerset, Ilminster의 St. Mary's 교회에서는 교회 참석에 대한 논쟁이 있은 후 종들이 조용해졌다.",
-                    "sent_id": 51,
+                    "sent_id": 3640,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 338
+                    "lu": "노려보다.v.Perception_active",
+                    "text": "기리노는 군복 옷깃하나 흐트러지지 않고, 오른쪽 어깨를 살짝 올려 잔을 머금고, 잔 너머로 강줄기를 노려보았다."
                 }
             ]
         },
         {
-            "valenceText": "annotation id: sejong.16459",
+            "valenceText": "annotation id: 10816",
             "examples": [
                 {
-                    "frameName": "Hostile_encounter",
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "niramu .にらむ "
+                    ],
+                    "ko_annotation_id": 10816,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Perception_active",
                             "span": {
-                                "begin": 14,
-                                "end": 16
+                                "begin": 22,
+                                "end": 28
                             },
-                            "id": "1"
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "노려보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 17
+                            },
+                            "text": "멀어져 가는 두 사람의 뒷모습을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 21
+                            },
+                            "text": "지그시",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "호주제 폐지에 관한 찬반 논쟁이 벌어졌다.",
-                    "target": "논쟁",
-                    "ko_annotation_id": "sejong.16459",
-                    "relations": []
+                    "sent_id": 4010,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "노려보다.v.Perception_active",
+                    "text": "멀어져 가는 두 사람의 뒷모습을 지그시 노려보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11092",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "niramu .にらむ "
+                    ],
+                    "ko_annotation_id": 11092,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 25,
+                                "end": 31
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "노려보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 7
+                            },
+                            "text": "그를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 8,
+                                "end": 20
+                            },
+                            "text": "빛나는 날카로운 눈으로",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                5
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 24
+                            },
+                            "text": "가만히",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4181,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "노려보다.v.Perception_active",
+                    "text": "그리고, 그를 빛나는 날카로운 눈으로 가만히 노려보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 11945",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "niramu .にらむ "
+                    ],
+                    "ko_annotation_id": 11945,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 38,
+                                "end": 44
+                            },
+                            "token_span": [
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "노려보았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 17
+                            },
+                            "text": "제임스라는 이름의 남자가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Phenomenon",
+                            "token_span": [
+                                7
+                            ],
+                            "span": {
+                                "begin": 30,
+                                "end": 32
+                            },
+                            "text": "나를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Manner",
+                            "token_span": [
+                                8
+                            ],
+                            "span": {
+                                "begin": 33,
+                                "end": 37
+                            },
+                            "text": "삼킬듯이",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4739,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "노려보다.v.Perception_active",
+                    "text": "그리고 제임스라는 이름의 남자가 휙하고 고개를 들고, 나를 삼킬듯이 노려보았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 17358",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "mitumeru .見つめる",
+                        "niramu .にらむ "
+                    ],
+                    "ko_annotation_id": 17358,
+                    "annotation_id": 0,
+                    "frameName": "Perception_active",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Perception_active",
+                            "span": {
+                                "begin": 25,
+                                "end": 33
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "노려보았습니다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Perceiver_Agentive",
+                            "token_span": [
+                                1
+                            ],
+                            "span": {
+                                "begin": 5,
+                                "end": 9
+                            },
+                            "text": "부인이,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Manner",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 10,
+                                "end": 15
+                            },
+                            "text": "힐끗하고,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Body_Part",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 24
+                            },
+                            "text": "싫다는 눈빛으로",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4121,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "노려보다.v.Perception_active",
+                    "text": "반대로, 부인이, 힐끗하고, 싫다는 눈빛으로 노려보았습니다."
                 }
             ]
         }
-    ],
-    "frameID": 93,
-    "ko_pos": "NNG",
-    "ko_lu": "논쟁.n.Hostile_encounter",
-    "lu_id": 4021,
-    "en_lus": [
-        "dust-up"
     ]
 }

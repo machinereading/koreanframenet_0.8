@@ -1,131 +1,99 @@
 {
-    "frameName": "Activity_done_state",
+    "ko_pos": "v",
+    "ko_lu": "옮기다.v.Cause_motion",
+    "frameID": 55,
+    "frameName": "Cause_motion",
+    "en_lus": [
+        "move"
+    ],
+    "lu_id": 2722,
     "patterns": [
         {
-            "valenceText": "annotation id: 8867",
+            "valenceText": "annotation id: 5214",
             "examples": [
                 {
-                    "frameName": "Activity_done_state",
-                    "denotations": [
-                        {
-                            "obj": "activity",
-                            "span": {
-                                "begin": 0,
-                                "end": 7
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "time",
-                            "span": {
-                                "begin": 9,
-                                "end": 17
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 19,
-                                "end": 22
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "finished"
+                        "move"
                     ],
-                    "ko_annotation_id": 8867,
-                    "text": "두 번째 신전이 기원전 515년에 완성되었으나 도시의 많은 곳들이 여전히 파괴된 채로 있었다.",
-                    "sent_id": 646,
-                    "relations": [
+                    "ko_annotation_id": 5214,
+                    "annotation_id": 9361,
+                    "frameName": "Cause_motion",
+                    "denotations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "id": 1,
+                            "obj": "Cause_motion",
+                            "span": {
+                                "begin": 39,
+                                "end": 43
+                            },
+                            "token_span": [
+                                10
+                            ],
+                            "role": "TARGET",
+                            "text": "옮겼어야"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 3481
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.49469",
-            "examples": [
-                {
-                    "frameName": "Activity_done_state",
-                    "denotations": [
-                        {
-                            "id": "1",
-                            "span": {
-                                "begin": 31,
-                                "end": 35
-                            },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "그는 금강경의 번역을 필생 사업으로 했으나 결국 그것이 완성되지 못했다.",
-                    "target": "완성되지",
-                    "ko_annotation_id": "sejong.49469",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.49470",
-            "examples": [
-                {
-                    "frameName": "Activity_done_state",
-                    "denotations": [
-                        {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
                                 "begin": 3,
-                                "end": 7
+                                "end": 6
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "도가 완성되기 위해 수행한다.",
-                    "target": "완성되기",
-                    "ko_annotation_id": "sejong.49470",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.49471",
-            "examples": [
-                {
-                    "frameName": "Activity_done_state",
-                    "denotations": [
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "id": "1",
+                            "id": 3,
+                            "obj": "Theme",
+                            "token_span": [
+                                8
+                            ],
                             "span": {
-                                "begin": 14,
-                                "end": 20
+                                "begin": 31,
+                                "end": 34
                             },
-                            "obj": "target"
+                            "text": "그것을",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Goal",
+                            "token_span": [
+                                9
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 38
+                            },
+                            "text": "대만에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "작가는 그 필생의 역작이 완성되자마자 숨을 거두었다.",
-                    "target": "완성되자마자",
-                    "ko_annotation_id": "sejong.49471",
-                    "relations": []
+                    "sent_id": 1936,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "옮기다.v.Cause_motion",
+                    "text": "오, 그들은 사람들이 그것에 관해 실제로 알지 못하도록 그것을 대만에 옮겼어야 했을 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 182,
-    "ko_pos": "VV",
-    "ko_lu": "완성되다.v.Activity_done_state",
-    "lu_id": 2722,
-    "en_lus": [
-        "finish"
     ]
 }

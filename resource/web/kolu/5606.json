@@ -1,44 +1,85 @@
 {
-    "frameName": "Cogitation",
+    "ko_pos": "v",
+    "ko_lu": "업그레이드하다.v.Attempt",
+    "frameID": 116,
+    "frameName": "Attempt",
+    "en_lus": [
+        "undertakes"
+    ],
+    "lu_id": 5606,
     "patterns": [
         {
-            "valenceText": "annotation id: 19814",
+            "valenceText": "annotation id: 6941",
             "examples": [
                 {
-                    "frameName": "Cogitation",
+                    "origin_lus": [
+                        "undertakes"
+                    ],
+                    "ko_annotation_id": 6941,
+                    "annotation_id": 12638,
+                    "frameName": "Attempt",
                     "denotations": [
                         {
-                            "obj": "Topic",
+                            "id": 1,
+                            "obj": "Attempt",
                             "span": {
-                                "begin": 0,
-                                "end": 9
-                            }
+                                "begin": 58,
+                                "end": 64
+                            },
+                            "token_span": [
+                                11
+                            ],
+                            "role": "TARGET",
+                            "text": "업그레드하면"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 11
-                            }
+                                "begin": 33,
+                                "end": 36
+                            },
+                            "text": "이란이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Goal",
+                            "token_span": [
+                                7,
+                                8,
+                                9,
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 37,
+                                "end": 64
+                            },
+                            "text": "Shhabe-2 형태의 초기 시스템을 업그레드하면",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "omou .思う "
+                    "sent_id": 2528,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19814,
-                    "text": "이거 참 어쩌지, 하면서도 묵기에 마음이 편한 바라나시를 떠날 생각도 들지 않고, 기차표를 끊는 수고로움을 생각하니 더욱 엉덩이가 떨어지지 않아, 딱 2, 3일만 더 있자 하며 어물어물 주저앉아 버린 것이다.",
-                    "sent_id": 4804,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "업그레이드하다.v.Attempt",
+                    "text": "Shehab-1 과 Shehab-2 시스템의 상대적 숫자는 이란이 Shhabe-2 형태의 초기 시스템을 업그레드하면 Shehab-2를 더 선호하는 쪽으로 바뀔 수 있다."
                 }
             ]
         }
-    ],
-    "frameID": 22,
-    "ko_pos": "VA",
-    "ko_lu": "하다.a.Cogitation",
-    "lu_id": 5606,
-    "en_lus": [
-        "omou .思う "
     ]
 }

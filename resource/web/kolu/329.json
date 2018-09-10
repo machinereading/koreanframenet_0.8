@@ -1,51 +1,101 @@
 {
-    "frameName": "Activity_stop",
+    "ko_pos": "v",
+    "ko_lu": "출생하다.v.Being_born",
+    "frameID": 793,
+    "frameName": "Being_born",
+    "en_lus": [
+        "born"
+    ],
+    "lu_id": 329,
     "patterns": [
         {
-            "valenceText": "annotation id: 872",
+            "valenceText": "annotation id: 3249",
             "examples": [
                 {
-                    "frameName": "Activity_stop",
+                    "origin_lus": [
+                        "born"
+                    ],
+                    "ko_annotation_id": 3249,
+                    "annotation_id": 6213,
+                    "frameName": "Being_born",
                     "denotations": [
                         {
-                            "obj": "Purpose",
+                            "id": 1,
+                            "obj": "Being_born",
+                            "span": {
+                                "begin": 29,
+                                "end": 34
+                            },
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "출생하였고"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Child",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 4
-                            }
+                                "end": 10
+                            },
+                            "text": "Goldstein은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Activity",
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
-                                "begin": 6,
-                                "end": 26
-                            }
+                                "begin": 11,
+                                "end": 15
+                            },
+                            "text": "덴버에서",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 4,
+                            "obj": "Time",
+                            "token_span": [
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 28,
-                                "end": 29
-                            }
+                                "begin": 16,
+                                "end": 28
+                            },
+                            "text": "1922년 9월 23일",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "yasumu .休む "
+                    "sent_id": 1218,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 872,
-                    "text": "그 때문에 9년 전에 당시 하고 있던 홈헬퍼 일을 쉬고 인도까지 갔다 온 것이다.",
-                    "sent_id": 4574,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "출생하다.v.Being_born",
+                    "text": "Goldstein은 덴버에서 1922년 9월 23일 출생하였고 1944년 6월 20일에 시카고에서 죽었다."
                 }
             ]
         }
-    ],
-    "frameID": 166,
-    "ko_pos": "VV",
-    "ko_lu": "쉬다.v.Activity_stop",
-    "lu_id": 329,
-    "en_lus": [
-        "yasumu .休む "
     ]
 }

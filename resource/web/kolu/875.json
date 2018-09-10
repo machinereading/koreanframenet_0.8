@@ -1,44 +1,82 @@
 {
-    "frameName": "Food",
+    "ko_pos": "v",
+    "ko_lu": "어루만지다.v.Manipulation",
+    "frameID": 17,
+    "frameName": "Manipulation",
+    "en_lus": [
+        "caress"
+    ],
+    "lu_id": 875,
     "patterns": [
         {
-            "valenceText": "annotation id: 2617",
+            "valenceText": "annotation id: 2310",
             "examples": [
                 {
-                    "frameName": "Food",
+                    "origin_lus": [
+                        "caress"
+                    ],
+                    "ko_annotation_id": 2310,
+                    "annotation_id": 4592,
+                    "frameName": "Manipulation",
                     "denotations": [
                         {
-                            "obj": "Descriptor",
+                            "id": 1,
+                            "obj": "Manipulation",
                             "span": {
-                                "begin": 9,
-                                "end": 11
-                            }
+                                "begin": 47,
+                                "end": 52
+                            },
+                            "token_span": [
+                                12
+                            ],
+                            "role": "TARGET",
+                            "text": "어루만지기"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                6
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 14
-                            }
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "text": "일출은",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Entity",
+                            "token_span": [
+                                10,
+                                11
+                            ],
+                            "span": {
+                                "begin": 40,
+                                "end": 46
+                            },
+                            "text": "섬의 길이를",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "esa .餌 "
+                    "sent_id": 883,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 2617,
-                    "text": "제7장 가다랑어 꼬임 미끼를 단 낚싯대를 다시 드리운다.",
-                    "sent_id": 4191,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "어루만지다.v.Manipulation",
+                    "text": "섬은 해양에서 거의 동에서 서로 일직선이어서 일출은 동쪽 끝을 깨우고, 섬의 길이를 어루만지기 위해 이동하고, 그리고 굿나잇으로 서쪽 끝에 키스한다."
                 }
             ]
         }
-    ],
-    "frameID": 277,
-    "ko_pos": "NNG",
-    "ko_lu": "미끼.n.Food",
-    "lu_id": 875,
-    "en_lus": [
-        "esa .餌 "
     ]
 }

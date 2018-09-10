@@ -1,51 +1,99 @@
 {
-    "frameName": "Existence",
+    "ko_pos": "v",
+    "ko_lu": "남다.v.Giving",
+    "frameID": 139,
+    "frameName": "Giving",
+    "en_lus": [
+        "nokosu .残す "
+    ],
+    "lu_id": 3893,
     "patterns": [
         {
-            "valenceText": "annotation id: 13301",
+            "valenceText": "annotation id: 11380",
             "examples": [
                 {
-                    "frameName": "Existence",
+                    "origin_lus": [
+                        "nokosu .残す "
+                    ],
+                    "ko_annotation_id": 11380,
+                    "annotation_id": 0,
+                    "frameName": "Giving",
                     "denotations": [
                         {
-                            "obj": "Point_of_view",
+                            "id": 1,
+                            "obj": "Giving",
+                            "span": {
+                                "begin": 25,
+                                "end": 27
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "남긴"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Donor",
+                            "token_span": [
+                                2
+                            ],
+                            "span": {
+                                "begin": 13,
+                                "end": 19
+                            },
+                            "text": "아카마츠씨가",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                3
+                            ],
+                            "span": {
+                                "begin": 20,
+                                "end": 24
+                            },
+                            "text": "하리마에",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Theme",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
                                 "begin": 28,
-                                "end": 38
-                            }
-                        },
-                        {
-                            "obj": "Entity",
-                            "span": {
-                                "begin": 45,
-                                "end": 47
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 49,
-                                "end": 55
-                            }
+                                "end": 30
+                            },
+                            "text": "것은",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "nai .ない"
+                    "sent_id": 4343,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 13301,
-                    "text": "인터넷에서 알아보아도 완성된 시스템만 검색될 뿐, 개개의 부품에 관해서는 어떠한 설명도 찾을 수 없다.",
-                    "sent_id": 4475,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "남다.v.Giving",
+                    "text": "◎부드러운 반골로서는, 아카마츠씨가 하리마에 남긴 것은 무엇이었을까요?"
                 }
             ]
         }
-    ],
-    "frameID": 660,
-    "ko_pos": "VV",
-    "ko_lu": "찾다.v.Existence",
-    "lu_id": 3893,
-    "en_lus": [
-        "nai .ない"
     ]
 }

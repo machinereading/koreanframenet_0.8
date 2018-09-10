@@ -1,52 +1,104 @@
 {
-    "frameName": "Means",
+    "ko_pos": "v",
+    "ko_lu": "뒤덮이다.v.Cause_harm",
+    "frameID": 112,
+    "frameName": "Cause_harm",
+    "en_lus": [
+        "osou .おそう "
+    ],
+    "lu_id": 5186,
     "patterns": [
         {
-            "valenceText": "annotation id: 18268",
+            "valenceText": "annotation id: 17340",
             "examples": [
                 {
-                    "frameName": "Means",
+                    "origin_lus": [
+                        "osou .おそう "
+                    ],
+                    "ko_annotation_id": 17340,
+                    "annotation_id": 0,
+                    "frameName": "Cause_harm",
                     "denotations": [
                         {
-                            "obj": "purpose",
+                            "id": 1,
+                            "obj": "Cause_harm",
                             "span": {
-                                "begin": 56,
-                                "end": 58
+                                "begin": 85,
+                                "end": 89
                             },
-                            "id": "2"
+                            "token_span": [
+                                19
+                            ],
+                            "role": "TARGET",
+                            "text": "뒤덮여,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Time",
+                            "token_span": [
+                                11
+                            ],
                             "span": {
-                                "begin": 59,
-                                "end": 61
+                                "begin": 44,
+                                "end": 50
                             },
-                            "id": "1"
+                            "text": "2000년,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Cause",
+                            "token_span": [
+                                12,
+                                13,
+                                14
+                            ],
+                            "span": {
+                                "begin": 51,
+                                "end": 69
+                            },
+                            "text": "미야케지마의 오야마가 분화하면서,",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Agent",
+                            "token_span": [
+                                15,
+                                16,
+                                17,
+                                18
+                            ],
+                            "span": {
+                                "begin": 70,
+                                "end": 84
+                            },
+                            "text": "많은 양의 화산재와 이류에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "techniques"
-                    ],
-                    "ko_annotation_id": 18268,
-                    "text": "Archaics보다 훨씬 더 진보적인 Anasazi는 그들의 수확을 돕기 위한 관개와 같은 공식적인 농업 기술을 이용하였다.",
-                    "sent_id": 742,
+                    "sent_id": 3765,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 3901
+                    "lu": "뒤덮이다.v.Cause_harm",
+                    "text": "섬 전체 인구 1만 명 사상 최대의 탈출작전 미하라야마 분화・13시간의 드라마 2000년, 미야케지마의 오야마가 분화하면서, 많은 양의 화산재와 이류에 뒤덮여, 섬 주민 전체가 섬 밖으로 피난했던 사건은 기억에 새롭다."
                 }
             ]
         }
-    ],
-    "frameID": 1790,
-    "ko_pos": "NNG",
-    "ko_lu": "기술.n.Means",
-    "lu_id": 5186,
-    "en_lus": [
-        "technique"
     ]
 }

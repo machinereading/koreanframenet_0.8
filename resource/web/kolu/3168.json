@@ -1,65 +1,114 @@
 {
-    "frameName": "Placing",
+    "ko_pos": "n",
+    "ko_lu": "수업.n.Education_teaching",
+    "frameID": 111,
+    "frameName": "Education_teaching",
+    "en_lus": [
+        "zyugyoo .授業 "
+    ],
+    "lu_id": 3168,
     "patterns": [
         {
-            "valenceText": "annotation id: 10673",
+            "valenceText": "annotation id: 10224",
             "examples": [
                 {
-                    "frameName": "Placing",
+                    "origin_lus": [
+                        "zyugyoo .授業 "
+                    ],
+                    "ko_annotation_id": 10224,
+                    "annotation_id": 0,
+                    "frameName": "Education_teaching",
                     "denotations": [
                         {
-                            "obj": "agent",
-                            "span": {
-                                "begin": 5,
-                                "end": 13
-                            },
-                            "id": "3"
-                        },
-                        {
-                            "obj": "theme",
+                            "id": 1,
+                            "obj": "Education_teaching",
                             "span": {
                                 "begin": 16,
-                                "end": 20
+                                "end": 19
                             },
-                            "id": "2"
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "수업,"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Subject",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 30,
-                                "end": 31
+                                "begin": 0,
+                                "end": 9
                             },
-                            "id": "1"
+                            "text": "국어・수학・체육에",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "bottle"
-                    ],
-                    "ko_annotation_id": 10673,
-                    "text": "국방성은 BioPort사에게 탄저백신을 제조, 시험, 병으로 만들고 저장하기 위한 계약을 주었다.",
-                    "sent_id": 1349,
+                    "sent_id": 3619,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 6690
+                    "lu": "수업.n.Education_teaching",
+                    "text": "국어・수학・체육에 중점을 둔 수업, 기억력이 아닌 생각하는 힘의 중시, 합숙 등의 과외활동 활용-문부과학성과는 학교 운영의 사상・방법론이 전혀 다르나, 도쓰카가 추구하는 초등학교상은 결코 엉뚱한 것이 아니다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 10844",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "zyugyoo .授業 "
+                    ],
+                    "ko_annotation_id": 10844,
+                    "annotation_id": 0,
+                    "frameName": "Education_teaching",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Education_teaching",
+                            "span": {
+                                "begin": 22,
+                                "end": 25
+                            },
+                            "token_span": [
+                                4
+                            ],
+                            "role": "TARGET",
+                            "text": "수업에"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Student",
+                            "token_span": [
+                                0
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 3
+                            },
+                            "text": "그들은",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4018,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "수업.n.Education_teaching",
+                    "text": "그들은 거만하고, 나태하며, 시끄러워, 수업에 방해된다."
                 }
             ]
         }
-    ],
-    "frameID": 62,
-    "ko_pos": "NNG",
-    "ko_lu": "병.n.Placing",
-    "lu_id": 3168,
-    "en_lus": [
-        "bottle"
     ]
 }

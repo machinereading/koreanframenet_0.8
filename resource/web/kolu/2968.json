@@ -1,65 +1,82 @@
 {
-    "frameName": "Being_located",
+    "ko_pos": "v",
+    "ko_lu": "입증되다.v.Reasoning",
+    "frameID": 308,
+    "frameName": "Reasoning",
+    "en_lus": [
+        "prove"
+    ],
+    "lu_id": 2968,
     "patterns": [
         {
-            "valenceText": "annotation id: 9740",
+            "valenceText": "annotation id: 3265",
             "examples": [
                 {
-                    "frameName": "Being_located",
+                    "origin_lus": [
+                        "proved"
+                    ],
+                    "ko_annotation_id": 3265,
+                    "annotation_id": 6235,
+                    "frameName": "Reasoning",
                     "denotations": [
                         {
-                            "obj": "theme",
+                            "id": 1,
+                            "obj": "Reasoning",
                             "span": {
-                                "begin": 0,
-                                "end": 16
+                                "begin": 25,
+                                "end": 29
                             },
-                            "id": "2"
+                            "token_span": [
+                                5
+                            ],
+                            "role": "TARGET",
+                            "text": "입증되지"
                         },
                         {
-                            "obj": "location",
+                            "id": 2,
+                            "obj": "Content",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 26
+                                "begin": 10,
+                                "end": 21
                             },
-                            "id": "3"
+                            "text": "크레아틴이 위험하다고",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Time",
+                            "token_span": [
+                                4
+                            ],
                             "span": {
-                                "begin": 28,
-                                "end": 34
+                                "begin": 22,
+                                "end": 24
                             },
-                            "id": "1"
+                            "text": "우선",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "sits"
-                    ],
-                    "ko_annotation_id": 9740,
-                    "text": "이 바쁘고 현대적인 유럽 도시는 천년의 역사 위에 자리잡고 있다 -- 우아한 Merrion 광장에서 중앙 우체국의 총탄 구멍까지 역사는 도처에 존재한다.",
-                    "sent_id": 951,
+                    "sent_id": 1229,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 4938
+                    "lu": "입증되다.v.Reasoning",
+                    "text": "미국 식품의약국은 크레아틴이 위험하다고 우선 입증되지 않으면 그것을 규제할 권한이 없다."
                 }
             ]
         }
-    ],
-    "frameID": 960,
-    "ko_pos": "VV",
-    "ko_lu": "자리잡다.v.Being_located",
-    "lu_id": 2968,
-    "en_lus": [
-        "sits"
     ]
 }

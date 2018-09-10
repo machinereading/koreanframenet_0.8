@@ -1,78 +1,137 @@
 {
-    "frameName": "Relative_time",
+    "ko_pos": "v",
+    "ko_lu": "축하받다.v.Communication_response",
+    "frameID": 42,
+    "frameName": "Communication_response",
+    "en_lus": [
+        "deru .でる"
+    ],
+    "lu_id": 4171,
     "patterns": [
         {
-            "valenceText": "annotation id: 14378",
+            "valenceText": "annotation id: 10192",
             "examples": [
                 {
-                    "frameName": "Relative_time",
+                    "origin_lus": [
+                        "deru .でる"
+                    ],
+                    "ko_annotation_id": 10192,
+                    "annotation_id": 0,
+                    "frameName": "Communication_response",
                     "denotations": [
                         {
-                            "obj": "interval",
+                            "id": 1,
+                            "obj": "Communication_response",
+                            "span": {
+                                "begin": 21,
+                                "end": 25
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "받았다."
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Trigger",
+                            "token_span": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "span": {
                                 "begin": 0,
-                                "end": 4
+                                "end": 15
                             },
-                            "id": "3"
+                            "text": "호출음이 한 번 울리는 중에",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "focal_occasion",
+                            "id": 3,
+                            "obj": "Addressee",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 5,
-                                "end": 29
+                                "begin": 16,
+                                "end": 20
                             },
-                            "id": "4"
-                        },
-                        {
-                            "obj": "landmark_occasion",
-                            "span": {
-                                "begin": 31,
-                                "end": 32
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 34,
-                                "end": 36
-                            },
-                            "id": "1"
+                            "text": "어머니가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "followed"
-                    ],
-                    "ko_annotation_id": 14378,
-                    "text": "이틀 후 이라크 수도 바그다드에 대한 이른 아침 공격이 이를 따랐다.",
-                    "sent_id": 2441,
+                    "sent_id": 3609,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
-                        },
-                        {
-                            "subj": "1",
-                            "obj": "4",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 12279
+                    "lu": "축하받다.v.Communication_response",
+                    "text": "호출음이 한 번 울리는 중에 어머니가 받았다."
+                }
+            ]
+        },
+        {
+            "valenceText": "annotation id: 16584",
+            "examples": [
+                {
+                    "origin_lus": [
+                        "deru .でる"
+                    ],
+                    "ko_annotation_id": 16584,
+                    "annotation_id": 0,
+                    "frameName": "Communication_response",
+                    "denotations": [
+                        {
+                            "id": 1,
+                            "obj": "Communication_response",
+                            "span": {
+                                "begin": 0,
+                                "end": 5
+                            },
+                            "token_span": [
+                                0
+                            ],
+                            "role": "TARGET",
+                            "text": "받자마자,"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Message",
+                            "token_span": [
+                                3,
+                                4
+                            ],
+                            "span": {
+                                "begin": 18,
+                                "end": 32
+                            },
+                            "text": "「다카시냐？」라고 물었다.",
+                            "role": "ARGUMENT"
+                        }
+                    ],
+                    "sent_id": 4604,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "축하받다.v.Communication_response",
+                    "text": "받자마자, 신경질적인 목소리로, 「다카시냐？」라고 물었다."
                 }
             ]
         }
-    ],
-    "frameID": 81,
-    "ko_pos": "VV",
-    "ko_lu": "따르다.v.Relative_time",
-    "lu_id": 4171,
-    "en_lus": [
-        "follow"
     ]
 }

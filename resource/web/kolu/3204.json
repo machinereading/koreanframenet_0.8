@@ -1,92 +1,65 @@
 {
-    "frameName": "Buildings",
+    "ko_pos": "v",
+    "ko_lu": "방해받다.v.Thwarting",
+    "frameID": 518,
+    "frameName": "Thwarting",
+    "en_lus": [
+        "stymie"
+    ],
+    "lu_id": 3204,
     "patterns": [
         {
-            "valenceText": "annotation id: 10864",
+            "valenceText": "annotation id: 4631",
             "examples": [
                 {
-                    "frameName": "Buildings",
+                    "origin_lus": [
+                        "stymied"
+                    ],
+                    "ko_annotation_id": 4631,
+                    "annotation_id": 8444,
+                    "frameName": "Thwarting",
                     "denotations": [
                         {
-                            "obj": "name",
+                            "id": 1,
+                            "obj": "Thwarting",
                             "span": {
-                                "begin": 21,
-                                "end": 24
+                                "begin": 36,
+                                "end": 43
                             },
-                            "id": "2"
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "방해 받았다."
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Action",
+                            "token_span": [
+                                2,
+                                3
+                            ],
                             "span": {
-                                "begin": 25,
-                                "end": 26
+                                "begin": 13,
+                                "end": 18
                             },
-                            "id": "1"
+                            "text": "이 조사는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "Castle"
-                    ],
-                    "ko_annotation_id": 10864,
-                    "text": "Temple Bar로부터 언덕 위로는 더블린 성과 그리스도 교회 성당이 있다.",
-                    "sent_id": 971,
+                    "sent_id": 1732,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 5055
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 10865",
-            "examples": [
-                {
-                    "frameName": "Buildings",
-                    "denotations": [
-                        {
-                            "obj": "name",
-                            "span": {
-                                "begin": 30,
-                                "end": 38
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 39,
-                                "end": 40
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "Castle"
-                    ],
-                    "ko_annotation_id": 10865,
-                    "text": "북쪽과 서쪽으로는 아일랜드의 고대 유적지들이 있다 : Malahide 성, Tara를 떠올리게 하는 언덕, 그리고 Knothe와 Newtrange의 길다란 고분들.",
-                    "sent_id": 995,
-                    "relations": [
-                        {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
-                        }
-                    ],
-                    "annotation_id": 5226
+                    "lu": "방해받다.v.Thwarting",
+                    "text": "Harry_Reed : 이 조사는 매 단계마다 위로부터 중단되고 방해 받았다."
                 }
             ]
         }
-    ],
-    "frameID": 173,
-    "ko_pos": "NNG",
-    "ko_lu": "성.n.Buildings",
-    "lu_id": 3204,
-    "en_lus": [
-        "Castle"
     ]
 }

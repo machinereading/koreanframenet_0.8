@@ -1,51 +1,81 @@
 {
-    "frameName": "Feeling",
+    "ko_pos": "n",
+    "ko_lu": "말.n.Chatting",
+    "frameID": 910,
+    "frameName": "Chatting",
+    "en_lus": [
+        "hanasu .話す "
+    ],
+    "lu_id": 5463,
     "patterns": [
         {
-            "valenceText": "annotation id: 19358",
+            "valenceText": "annotation id: 16338",
             "examples": [
                 {
-                    "frameName": "Feeling",
+                    "origin_lus": [
+                        "hanasu .話す "
+                    ],
+                    "ko_annotation_id": 16338,
+                    "annotation_id": 0,
+                    "frameName": "Chatting",
                     "denotations": [
                         {
-                            "obj": "Evaluation",
+                            "id": 1,
+                            "obj": "Chatting",
                             "span": {
-                                "begin": 15,
-                                "end": 34
-                            }
+                                "begin": 13,
+                                "end": 15
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "말이"
                         },
                         {
-                            "obj": "Emotional_state",
+                            "id": 2,
+                            "obj": "Interlocutor_1",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 35,
-                                "end": 37
-                            }
+                                "begin": 0,
+                                "end": 4
+                            },
+                            "text": "「유노,",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "Target",
+                            "id": 3,
+                            "obj": "Interlocutor_2",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 35,
-                                "end": 37
-                            }
+                                "begin": 25,
+                                "end": 28
+                            },
+                            "text": "유나가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "ki .気 "
+                    "sent_id": 4062,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 19358,
-                    "text": "이거 참 어쩌지, 하면서도 묵기에 마음이 편한 바라나시를 떠날 생각도 들지 않고, 기차표를 끊는 수고로움을 생각하니 더욱 엉덩이가 떨어지지 않아, 딱 2, 3일만 더 있자 하며 어물어물 주저앉아 버린 것이다.",
-                    "sent_id": 4804,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "말.n.Chatting",
+                    "text": "「유노, 기운이 없네」 말이 채 끝나기 전에 유나가 말했다."
                 }
             ]
         }
-    ],
-    "frameID": 396,
-    "ko_pos": "NNG",
-    "ko_lu": "생각.n.Feeling",
-    "lu_id": 5463,
-    "en_lus": [
-        "ki .気 "
     ]
 }

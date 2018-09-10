@@ -1,60 +1,63 @@
 {
-    "frameName": "Locative_relation",
+    "ko_pos": "n",
+    "ko_lu": "이주.n.Ride_vehicle",
+    "frameID": 690,
+    "frameName": "Ride_vehicle",
+    "en_lus": [
+        "cruise"
+    ],
+    "lu_id": 596,
     "patterns": [
         {
-            "valenceText": "annotation id: 1826",
+            "valenceText": "annotation id: 9258",
             "examples": [
                 {
-                    "frameName": "Locative_relation",
-                    "denotations": [
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 58,
-                                "end": 60
-                            },
-                            "id": "1"
-                        }
-                    ],
                     "origin_lus": [
-                        "where"
+                        "cruises"
                     ],
-                    "ko_annotation_id": 1826,
-                    "text": "신전은 파괴되었고 방대하고 고전 양식의 교회가 골고다 ( 예수의 십자가 처형이 이루어진 것으로 믿어졌던 언덕 ) 주변에 세워졌다.",
-                    "sent_id": 683,
-                    "relations": [],
-                    "annotation_id": 3639
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.21954",
-            "examples": [
-                {
-                    "frameName": "Locative_relation",
+                    "ko_annotation_id": 9258,
+                    "annotation_id": 17214,
+                    "frameName": "Ride_vehicle",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Ride_vehicle",
+                            "span": {
+                                "begin": 7,
+                                "end": 9
+                            },
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "이주"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Purpose",
+                            "token_span": [
+                                1
+                            ],
                             "span": {
                                 "begin": 4,
                                 "end": 6
                             },
-                            "id": "1"
+                            "text": "철새",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "바위가 언덕에서 굴러 떨어졌다.",
-                    "target": "언덕",
-                    "ko_annotation_id": "sejong.21954",
-                    "relations": []
+                    "sent_id": 3253,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "이주.n.Ride_vehicle",
+                    "text": "그러나 철새 이주 20 년 후, 워싱턴 포스트 잡지는 국방부와 스미스소니언 협회 간의 논쟁적인 지지를 파헤쳤다. ( The Times-Standrd ; 06년 6월 26일 ; John Driscoll, Eureka Times Standard ) ( Link )"
                 }
             ]
         }
-    ],
-    "frameID": 199,
-    "ko_pos": "NNG",
-    "ko_lu": "언덕.n.Locative_relation",
-    "lu_id": 596,
-    "en_lus": [
-        "where"
     ]
 }

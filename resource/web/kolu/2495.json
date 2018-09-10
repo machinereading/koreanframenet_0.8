@@ -1,60 +1,90 @@
 {
-    "frameName": "Touring",
+    "ko_pos": "v",
+    "ko_lu": "지키다.v.Commitment",
+    "frameID": 33,
+    "frameName": "Commitment",
+    "en_lus": [
+        "pledge"
+    ],
+    "lu_id": 2495,
     "patterns": [
         {
-            "valenceText": "annotation id: 8261",
+            "valenceText": "annotation id: 4517",
             "examples": [
                 {
-                    "frameName": "Touring",
+                    "origin_lus": [
+                        "pledge"
+                    ],
+                    "ko_annotation_id": 4517,
+                    "annotation_id": 8205,
+                    "frameName": "Commitment",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Commitment",
                             "span": {
-                                "begin": 16,
+                                "begin": 15,
                                 "end": 18
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "tourism"
-                    ],
-                    "ko_annotation_id": 8261,
-                    "text": "1962년에 독립한 이후부터 관광은 자마이카의 주요 산업이었고 이 섬은 카리브 해에서 최고의 목적지 가운데 하나로 이름나게 되었다.",
-                    "sent_id": 931,
-                    "relations": [],
-                    "annotation_id": 4820
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.2249",
-            "examples": [
-                {
-                    "frameName": "Touring",
-                    "denotations": [
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "지키고"
+                        },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Speaker",
+                            "token_span": [
+                                0
+                            ],
                             "span": {
-                                "begin": 12,
-                                "end": 14
+                                "begin": 0,
+                                "end": 2
                             },
-                            "id": "1"
+                            "text": "나는",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Message",
+                            "token_span": [
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 3,
+                                "end": 51
+                            },
+                            "text": "성경과 Assuna를 지키고 이러한 사명에서 우리와 함께 헌신하는 형제들에게 헌신한다,",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "이 조그마한 나라에서 관광으로 벌어들이는 외화가 수억 달러에 달한다.올 가을에는 아내와 단풍 관광을 떠나기로 했다.",
-                    "target": "관광",
-                    "ko_annotation_id": "sejong.2249",
-                    "relations": []
+                    "sent_id": 1671,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "지키다.v.Commitment",
+                    "text": "나는 성경과 Assuna를 지키고 이러한 사명에서 우리와 함께 헌신하는 형제들에게 헌신한다, 그래서 신이 나의 증인이다."
                 }
             ]
         }
-    ],
-    "frameID": 1907,
-    "ko_pos": "NNG",
-    "ko_lu": "관광.n.Touring",
-    "lu_id": 2495,
-    "en_lus": [
-        "tourism"
     ]
 }

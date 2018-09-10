@@ -1,67 +1,82 @@
 {
-    "frameName": "Seeking_to_achieve",
+    "ko_pos": "n",
+    "ko_lu": "고통.n.Emotion_directed",
+    "frameID": 46,
+    "frameName": "Emotion_directed",
+    "en_lus": [
+        "distressed"
+    ],
+    "lu_id": 2422,
     "patterns": [
         {
-            "valenceText": "annotation id: 7937",
+            "valenceText": "annotation id: 401",
             "examples": [
                 {
-                    "frameName": "Seeking_to_achieve",
+                    "origin_lus": [
+                        "distressed"
+                    ],
+                    "ko_annotation_id": 401,
+                    "annotation_id": 834,
+                    "frameName": "Emotion_directed",
                     "denotations": [
                         {
-                            "obj": "agent",
+                            "id": 1,
+                            "obj": "Emotion_directed",
                             "span": {
-                                "begin": 0,
-                                "end": 7
+                                "begin": 31,
+                                "end": 41
                             },
-                            "id": "2"
+                            "token_span": [
+                                8,
+                                9
+                            ],
+                            "role": "TARGET",
+                            "text": "정신적 고통이었다."
                         },
                         {
-                            "obj": "state_of_affairs",
+                            "id": 2,
+                            "obj": "Experiencer",
+                            "token_span": [
+                                5
+                            ],
                             "span": {
-                                "begin": 9,
-                                "end": 20
+                                "begin": 20,
+                                "end": 23
                             },
-                            "id": "3"
+                            "text": "그것은",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Degree",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 18,
-                                "end": 20
+                                "begin": 27,
+                                "end": 30
                             },
-                            "id": "1"
+                            "text": "상당한",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "pursuit",
-                        "seek"
-                    ],
-                    "ko_annotation_id": 7937,
-                    "text": "모든 당사국들은 한반도의 비핵화 추구에 동의하였으나, 이러한 목표가 어떻게 달성될 것인지는 명확하지 않다.",
-                    "sent_id": 2818,
+                    "sent_id": 146,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 0
+                    "lu": "고통.n.Emotion_directed",
+                    "text": "쥐는 때때로 미친듯이 뛰어 다니고, 그것은 분명 상당한 정신적 고통이었다."
                 }
             ]
         }
-    ],
-    "frameID": 1480,
-    "ko_pos": "NNG",
-    "ko_lu": "추구.n.Seeking_to_achieve",
-    "lu_id": 2422,
-    "en_lus": [
-        "pursuit",
-        "seek"
     ]
 }

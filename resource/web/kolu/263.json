@@ -1,92 +1,64 @@
 {
-    "frameName": "Contingency",
+    "ko_pos": "a",
+    "ko_lu": "수고롭다.a.Difficulty",
+    "frameID": 375,
+    "frameName": "Difficulty",
+    "en_lus": [
+        "taihen sa .大変 さ "
+    ],
+    "lu_id": 263,
     "patterns": [
         {
-            "valenceText": "annotation id: 755",
+            "valenceText": "annotation id: 12060",
             "examples": [
                 {
-                    "frameName": "Contingency",
+                    "origin_lus": [
+                        "taihen sa .大変 さ "
+                    ],
+                    "ko_annotation_id": 12060,
+                    "annotation_id": 0,
+                    "frameName": "Difficulty",
                     "denotations": [
                         {
-                            "obj": "Outcome",
+                            "id": 1,
+                            "obj": "Difficulty",
                             "span": {
-                                "begin": 17,
-                                "end": 37
-                            }
+                                "begin": 54,
+                                "end": 59
+                            },
+                            "token_span": [
+                                14
+                            ],
+                            "role": "TARGET",
+                            "text": "수고로움을"
                         },
                         {
-                            "obj": "Determinant",
+                            "id": 2,
+                            "obj": "Activity",
+                            "token_span": [
+                                12,
+                                13
+                            ],
                             "span": {
-                                "begin": 40,
-                                "end": 43
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 45,
-                                "end": 50
-                            }
+                                "begin": 46,
+                                "end": 53
+                            },
+                            "text": "기차표를 끊는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "yoru .よる "
-                    ],
-                    "ko_annotation_id": 755,
-                    "text": "부탁합니다, 알려주십시오! 「님」을 사용하는지, 「귀하」를 사용하는지는 수신인에 따라 다릅니다.",
-                    "sent_id": 3559,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: 12654",
-            "examples": [
-                {
-                    "frameName": "Contingency",
-                    "denotations": [
-                        {
-                            "obj": "determinant",
-                            "span": {
-                                "begin": 0,
-                                "end": 5
-                            },
-                            "id": "2"
-                        },
-                        {
-                            "obj": "target",
-                            "span": {
-                                "begin": 7,
-                                "end": 9
-                            },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "depending"
-                    ],
-                    "ko_annotation_id": 12654,
-                    "text": "무기 설계에 따라 최단 경로는 핵분열성 물질을 구매하거나 훔치는 것일 것이다.",
-                    "sent_id": 3330,
+                    "sent_id": 4804,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 17675
+                    "lu": "수고롭다.a.Difficulty",
+                    "text": "이거 참 어쩌지, 하면서도 묵기에 마음이 편한 바라나시를 떠날 생각도 들지 않고, 기차표를 끊는 수고로움을 생각하니 더욱 엉덩이가 떨어지지 않아, 딱 2, 3일만 더 있자 하며 어물어물 주저앉아 버린 것이다."
                 }
             ]
         }
-    ],
-    "frameID": 900,
-    "ko_pos": "VV",
-    "ko_lu": "따르다.v.Contingency",
-    "lu_id": 263,
-    "en_lus": [
-        "depend",
-        "yoru .よる "
     ]
 }

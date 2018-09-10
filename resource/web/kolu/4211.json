@@ -1,95 +1,84 @@
 {
-    "frameName": "Seeking",
+    "ko_pos": "n",
+    "ko_lu": "소리.n.Make_noise",
+    "frameID": 69,
+    "frameName": "Make_noise",
+    "en_lus": [
+        "sound"
+    ],
+    "lu_id": 4211,
     "patterns": [
         {
-            "valenceText": "annotation id: 14468",
+            "valenceText": "annotation id: 12449",
             "examples": [
                 {
-                    "frameName": "Seeking",
-                    "denotations": [
-                        {
-                            "obj": "Sought_entity",
-                            "span": {
-                                "begin": 75,
-                                "end": 81
-                            }
-                        },
-                        {
-                            "obj": "Cognizer_agent",
-                            "span": {
-                                "begin": 106,
-                                "end": 109
-                            }
-                        },
-                        {
-                            "obj": "Target",
-                            "span": {
-                                "begin": 83,
-                                "end": 87
-                            }
-                        }
-                    ],
                     "origin_lus": [
-                        "sagasidasu .探し出す"
+                        "sounding"
                     ],
-                    "ko_annotation_id": 14468,
-                    "text": "이 모형 만들기 과정에 아이들도 참여시킴으로써, 모형은 교과서나 교사에 의해 제시되는 것이 아닌, 스스로 경험한 것을 토대로, 거기에 숨겨진 구조를 찾아내는 과정에서 얻어지는 것이라는 것을 아이들도 깨닫게 된다.",
-                    "sent_id": 3882,
-                    "relations": [],
-                    "annotation_id": 0
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.92858",
-            "examples": [
-                {
-                    "frameName": "Seeking",
+                    "ko_annotation_id": 12449,
+                    "annotation_id": 146,
+                    "frameName": "Make_noise",
                     "denotations": [
                         {
-                            "id": "1",
+                            "id": 1,
+                            "obj": "Make_noise",
                             "span": {
-                                "begin": 31,
-                                "end": 37
+                                "begin": 85,
+                                "end": 89
                             },
-                            "obj": "target"
-                        }
-                    ],
-                    "text": "부시 대통령은 무슨 수를 써서라도 테러리스트의 은신처를 찾아내겠다고 공언했다.",
-                    "target": "찾아내겠다고",
-                    "ko_annotation_id": "sejong.92858",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.92859",
-            "examples": [
-                {
-                    "frameName": "Seeking",
-                    "denotations": [
+                            "token_span": [
+                                20
+                            ],
+                            "role": "TARGET",
+                            "text": "종소리가"
+                        },
                         {
-                            "id": "1",
+                            "id": 2,
+                            "obj": "Sound_Source",
+                            "token_span": [
+                                2
+                            ],
                             "span": {
-                                "begin": 24,
-                                "end": 30
+                                "begin": 9,
+                                "end": 12
                             },
-                            "obj": "target"
+                            "text": "종지기",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Place",
+                            "token_span": [
+                                16,
+                                17,
+                                18,
+                                19
+                            ],
+                            "span": {
+                                "begin": 63,
+                                "end": 84
+                            },
+                            "text": "East Angelia의 많은 종탑에서",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "부시 대통령은 테러리스트가 어디에 있는지를 찾아내겠다고 공언했다.",
-                    "target": "찾아내겠다고",
-                    "ko_annotation_id": "sejong.92859",
-                    "relations": []
+                    "sent_id": 20,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
+                    ],
+                    "lu": "소리.n.Make_noise",
+                    "text": "그들은 15명의 종지기 그룹에 속하는데 -- 두 명의 80대와 훈련중인 네 명의 젊은이들을 포함하고 -- 이들은 East Angelia의 많은 종탑에서 종소리가 계속 되도록 하기 위해 때로는 기진맥진하는 노력으로 매주 일요일에 이 교회 저 교회로 운전해 다닌다."
                 }
             ]
         }
-    ],
-    "frameID": 269,
-    "ko_pos": "VV",
-    "ko_lu": "찾아내다.v.Seeking",
-    "lu_id": 4211,
-    "en_lus": [
-        "sagasidasu .探し出す"
     ]
 }

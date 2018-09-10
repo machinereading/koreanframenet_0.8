@@ -1,65 +1,82 @@
 {
-    "frameName": "Verdict",
+    "ko_pos": "n",
+    "ko_lu": "신빙성.n.Evidence",
+    "frameID": 25,
+    "frameName": "Evidence",
+    "en_lus": [
+        "credence"
+    ],
+    "lu_id": 285,
     "patterns": [
         {
-            "valenceText": "annotation id: 793",
+            "valenceText": "annotation id: 2741",
             "examples": [
                 {
-                    "frameName": "Verdict",
+                    "origin_lus": [
+                        "credence"
+                    ],
+                    "ko_annotation_id": 2741,
+                    "annotation_id": 5324,
+                    "frameName": "Evidence",
                     "denotations": [
                         {
-                            "obj": "finding",
+                            "id": 1,
+                            "obj": "Evidence",
                             "span": {
-                                "begin": 29,
-                                "end": 31
+                                "begin": 13,
+                                "end": 17
                             },
-                            "id": "3"
+                            "token_span": [
+                                2
+                            ],
+                            "role": "TARGET",
+                            "text": "신빙성을"
                         },
                         {
-                            "obj": "target",
+                            "id": 2,
+                            "obj": "Proposition",
+                            "token_span": [
+                                0,
+                                1
+                            ],
                             "span": {
-                                "begin": 33,
-                                "end": 36
+                                "begin": 0,
+                                "end": 12
                             },
-                            "id": "1"
+                            "text": "Lewinsky 혐의에",
+                            "role": "ARGUMENT"
                         },
                         {
-                            "obj": "defendant",
+                            "id": 3,
+                            "obj": "Support",
+                            "token_span": [
+                                15
+                            ],
                             "span": {
-                                "begin": 43,
-                                "end": 44
+                                "begin": 67,
+                                "end": 82
                             },
-                            "id": "2"
+                            "text": "Stephanopoulos는",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "found"
-                    ],
-                    "ko_annotation_id": 793,
-                    "text": "그래, 그래, Price 의 코멘트로 돌아가서 그가 유죄로 되었을 때, 어, 그는 자기 주변에 흑인들을 갖고 있지 않다고 말하였다.",
-                    "sent_id": 1930,
+                    "sent_id": 1014,
                     "relations": [
                         {
-                            "subj": "1",
-                            "obj": "2",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
                         },
                         {
-                            "subj": "1",
-                            "obj": "3",
-                            "pred": ""
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "annotation_id": 9340
+                    "lu": "신빙성.n.Evidence",
+                    "text": "Lewinsky 혐의에 신빙성을 제공하고, 클린턴의 친숙한 방어를 마치 거짓과 반 거짓이 존재하는 것 같이 다룸으로써, Stephanopoulos는 자가가 바보가 아니라는 것을 보여준다."
                 }
             ]
         }
-    ],
-    "frameID": 318,
-    "ko_pos": "VA",
-    "ko_lu": "되다.a.Verdict",
-    "lu_id": 285,
-    "en_lus": [
-        "found"
     ]
 }

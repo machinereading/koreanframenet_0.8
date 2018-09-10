@@ -1,82 +1,83 @@
 {
-    "frameName": "Ambient_temperature",
+    "ko_pos": "v",
+    "ko_lu": "요리하다.v.Apply_heat",
+    "frameID": 236,
+    "frameName": "Apply_heat",
+    "en_lus": [
+        "cooked"
+    ],
+    "lu_id": 5511,
     "patterns": [
         {
-            "valenceText": "annotation id: 19557",
+            "valenceText": "annotation id: 13328",
             "examples": [
                 {
-                    "frameName": "Ambient_temperature",
+                    "origin_lus": [
+                        "cooked"
+                    ],
+                    "ko_annotation_id": 13328,
+                    "annotation_id": 4864,
+                    "frameName": "Apply_heat",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Apply_heat",
+                            "span": {
+                                "begin": 24,
+                                "end": 27
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "요리한"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Co_Participant",
+                            "token_span": [
+                                3,
+                                4,
+                                5
+                            ],
                             "span": {
                                 "begin": 13,
-                                "end": 15
+                                "end": 23
                             },
-                            "id": "1"
-                        }
-                    ],
-                    "origin_lus": [
-                        "temperature"
-                    ],
-                    "ko_annotation_id": 19557,
-                    "text": "내륙의 산과 언덕에서는 온도가 고도에 따라 그리고 정상을 둘러싸고 있는 구름에 의해 떨어진다.",
-                    "sent_id": 891,
-                    "relations": [],
-                    "annotation_id": 4634
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.23858",
-            "examples": [
-                {
-                    "frameName": "Ambient_temperature",
-                    "denotations": [
+                            "text": "소금에 절인 대구로",
+                            "role": "ARGUMENT"
+                        },
                         {
-                            "obj": "target",
+                            "id": 3,
+                            "obj": "Food",
+                            "token_span": [
+                                7
+                            ],
                             "span": {
-                                "begin": 4,
-                                "end": 6
+                                "begin": 28,
+                                "end": 31
                             },
-                            "id": "1"
+                            "text": "아키의",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "text": "실내의 온도가 지금 몇 도쯤이냐?",
-                    "target": "온도",
-                    "ko_annotation_id": "sejong.23858",
-                    "relations": []
-                }
-            ]
-        },
-        {
-            "valenceText": "annotation id: sejong.23859",
-            "examples": [
-                {
-                    "frameName": "Ambient_temperature",
-                    "denotations": [
+                    "sent_id": 938,
+                    "relations": [
                         {
-                            "obj": "target",
-                            "span": {
-                                "begin": 8,
-                                "end": 10
-                            },
-                            "id": "1"
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
                         }
                     ],
-                    "text": "날이 풀리면서 온도가 많이 올라갔다.",
-                    "target": "온도",
-                    "ko_annotation_id": "sejong.23859",
-                    "relations": []
+                    "lu": "요리하다.v.Apply_heat",
+                    "text": "자마이카의 대표 음식인 소금에 절인 대구로 요리한 아키의 맛, 그리고 바비큐 화덕에서 요리한 뜨거운 jerk pork의 냄새를 맛보아라."
                 }
             ]
         }
-    ],
-    "frameID": 1052,
-    "ko_pos": "NNG",
-    "ko_lu": "온도.n.Ambient_temperature",
-    "lu_id": 5511,
-    "en_lus": [
-        "temperature"
     ]
 }

@@ -1,38 +1,105 @@
 {
-    "frameName": "Businesses",
+    "ko_pos": "v",
+    "ko_lu": "일치되다.v.Evaluative_comparison",
+    "frameID": 353,
+    "frameName": "Evaluative_comparison",
+    "en_lus": [
+        "match"
+    ],
+    "lu_id": 2755,
     "patterns": [
         {
-            "valenceText": "annotation id: 9003",
+            "valenceText": "annotation id: 495",
             "examples": [
                 {
-                    "frameName": "Businesses",
+                    "origin_lus": [
+                        "matched"
+                    ],
+                    "ko_annotation_id": 495,
+                    "annotation_id": 1047,
+                    "frameName": "Evaluative_comparison",
                     "denotations": [
                         {
-                            "obj": "target",
+                            "id": 1,
+                            "obj": "Evaluative_comparison",
                             "span": {
-                                "begin": 12,
-                                "end": 13
+                                "begin": 30,
+                                "end": 34
                             },
-                            "id": "1"
+                            "token_span": [
+                                8
+                            ],
+                            "role": "TARGET",
+                            "text": "일치되는"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Profiled_Attribute",
+                            "token_span": [
+                                1,
+                                2,
+                                3
+                            ],
+                            "span": {
+                                "begin": 4,
+                                "end": 15
+                            },
+                            "text": "무지와 지적 무능력이",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Standard_Attribute",
+                            "token_span": [
+                                4,
+                                5,
+                                6,
+                                7
+                            ],
+                            "span": {
+                                "begin": 16,
+                                "end": 29
+                            },
+                            "text": "그들 자신의 좋은 생각과",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 4,
+                            "obj": "Profiled_Attribute",
+                            "token_span": [
+                                9,
+                                10
+                            ],
+                            "span": {
+                                "begin": 35,
+                                "end": 43
+                            },
+                            "text": "젊은 세대이다.",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "company"
+                    "sent_id": 190,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 4,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 9003,
-                    "text": "국방성은 BioPort사에게 탄저백신을 제조, 시험, 병으로 만들고 저장하기 위한 계약을 주었다.",
-                    "sent_id": 1349,
-                    "relations": [],
-                    "annotation_id": 6689
+                    "lu": "일치되다.v.Evaluative_comparison",
+                    "text": "결과는 무지와 지적 무능력이 그들 자신의 좋은 생각과 일치되는 젊은 세대이다."
                 }
             ]
         }
-    ],
-    "frameID": 365,
-    "ko_pos": "NNG",
-    "ko_lu": "사.n.Businesses",
-    "lu_id": 2755,
-    "en_lus": [
-        "company"
     ]
 }

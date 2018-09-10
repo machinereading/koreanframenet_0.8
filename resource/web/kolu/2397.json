@@ -1,37 +1,85 @@
 {
-    "frameName": "Means",
+    "ko_pos": "v",
+    "ko_lu": "이행하다.v.Intentionally_act",
+    "frameID": 198,
+    "frameName": "Intentionally_act",
+    "en_lus": [
+        "carry"
+    ],
+    "lu_id": 2397,
     "patterns": [
         {
-            "valenceText": "annotation id: 7770",
+            "valenceText": "annotation id: 2875",
             "examples": [
                 {
-                    "frameName": "Means",
+                    "origin_lus": [
+                        "carrying"
+                    ],
+                    "ko_annotation_id": 2875,
+                    "annotation_id": 5519,
+                    "frameName": "Intentionally_act",
                     "denotations": [
                         {
-                            "obj": "Target",
+                            "id": 1,
+                            "obj": "Intentionally_act",
                             "span": {
-                                "begin": 72,
-                                "end": 75
-                            }
+                                "begin": 14,
+                                "end": 20
+                            },
+                            "token_span": [
+                                3
+                            ],
+                            "role": "TARGET",
+                            "text": "이행하는,두"
+                        },
+                        {
+                            "id": 2,
+                            "obj": "Act",
+                            "token_span": [
+                                0,
+                                1,
+                                2
+                            ],
+                            "span": {
+                                "begin": 0,
+                                "end": 13
+                            },
+                            "text": "feng shui 원리를",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Agent",
+                            "token_span": [
+                                4,
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 31
+                            },
+                            "text": "마리의 구리 사자가",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "hoohoo .方法 "
+                    "sent_id": 1056,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 7770,
-                    "text": "국어・수학・체육에 중점을 둔 수업, 기억력이 아닌 생각하는 힘의 중시, 합숙 등의 과외활동 활용-문부과학성과는 학교 운영의 사상・방법론이 전혀 다르나, 도쓰카가 추구하는 초등학교상은 결코 엉뚱한 것이 아니다.",
-                    "sent_id": 3619,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "이행하다.v.Intentionally_act",
+                    "text": "feng shui 원리를 이행하는,두 마리의 구리 사자가 문을 지킨다."
                 }
             ]
         }
-    ],
-    "frameID": 1790,
-    "ko_pos": "NN",
-    "ko_lu": "방법론.n.Means",
-    "lu_id": 2397,
-    "en_lus": [
-        "hoohoo .方法 "
     ]
 }

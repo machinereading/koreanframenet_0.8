@@ -1,44 +1,83 @@
 {
-    "frameName": "Text",
+    "ko_pos": "n",
+    "ko_lu": "성장.n.Cause_expansion",
+    "frameID": 77,
+    "frameName": "Cause_expansion",
+    "en_lus": [
+        "seetyoo .成長"
+    ],
+    "lu_id": 1643,
     "patterns": [
         {
-            "valenceText": "annotation id: 5138",
+            "valenceText": "annotation id: 10923",
             "examples": [
                 {
-                    "frameName": "Text",
+                    "origin_lus": [
+                        "seetyoo .成長"
+                    ],
+                    "ko_annotation_id": 10923,
+                    "annotation_id": 0,
+                    "frameName": "Cause_expansion",
                     "denotations": [
                         {
-                            "obj": "Genre",
+                            "id": 1,
+                            "obj": "Cause_expansion",
                             "span": {
-                                "begin": 10,
-                                "end": 13
-                            }
+                                "begin": 24,
+                                "end": 26
+                            },
+                            "token_span": [
+                                6
+                            ],
+                            "role": "TARGET",
+                            "text": "성장"
                         },
                         {
-                            "obj": "Target",
+                            "id": 2,
+                            "obj": "Agent",
+                            "token_span": [
+                                3,
+                                4
+                            ],
                             "span": {
-                                "begin": 10,
-                                "end": 13
-                            }
+                                "begin": 12,
+                                "end": 20
+                            },
+                            "text": "이러한 아이들의",
+                            "role": "ARGUMENT"
+                        },
+                        {
+                            "id": 3,
+                            "obj": "Dimension",
+                            "token_span": [
+                                5,
+                                6
+                            ],
+                            "span": {
+                                "begin": 21,
+                                "end": 26
+                            },
+                            "text": "학습 성장",
+                            "role": "ARGUMENT"
                         }
                     ],
-                    "origin_lus": [
-                        "monogatari .物語 "
+                    "sent_id": 4066,
+                    "relations": [
+                        {
+                            "subj": 1,
+                            "obj": 2,
+                            "pred": "arg"
+                        },
+                        {
+                            "subj": 1,
+                            "obj": 3,
+                            "pred": "arg"
+                        }
                     ],
-                    "ko_annotation_id": 5138,
-                    "text": "그런 아이들에게도 이야기의 재미를 알게 하는 오락적 요소를 지닌 독서지도법이, 저희가 제창한 독서 아니마시온입니다.",
-                    "sent_id": 4934,
-                    "relations": [],
-                    "annotation_id": 0
+                    "lu": "성장.n.Cause_expansion",
+                    "text": "중학교 이과 수업은, 이러한 아이들의 학습 성장 실태에 맞추어, 학습 내용을 보다 과학적인 내용으로 바꾸어나가는 것이 그 목적 중 하나이다."
                 }
             ]
         }
-    ],
-    "frameID": 298,
-    "ko_pos": "NNG",
-    "ko_lu": "이야기.n.Text",
-    "lu_id": 1643,
-    "en_lus": [
-        "monogatari .物語 "
     ]
 }
